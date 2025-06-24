@@ -1,0 +1,1155 @@
+{
+	id: "2F7F711D466AEE61"
+	group: ""
+	order_index: 5
+	filename: "the_plushie_collection_challenge"
+	title: "Коллекция плюшевых игрушек!"
+	icon: {
+		id: "minecraft:player_head"
+		Count: 1b
+		tag: {
+			SkullOwner: {
+				Properties: {
+					textures: [{
+						Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk3MTllYzllZTZmNTNjMTdiMWY2Zjc0Nzg2NmIzMTIxNDAxZDM1Zjc3YTM5ODU5ZjEyMmQ0NzI4NjNlNDhlIn19fQ=="
+					}]
+				}
+				Id: [I;
+					2080793942
+					-524468218
+					-1541115779
+					1949756395
+				]
+			}
+			display: {
+				Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 5\"}"]
+				Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Baby Sheep Plushie\"}"
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Nr. 4: Chicken Plushie"
+			x: -2.0d
+			y: -4.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "09332C9A4217B5C5"
+			tasks: [{
+				id: "22ABB3A6F69700AF"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWJkZTU1ZWQ1NGNiNWM4NzY2MWI4NmMzNDkxODZhOWQ1YmFmZmIzY2I5MzRiNDQ5YTJkMzI5ZTM5OWQzNGJmIn19fQ=="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 4\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Chicken Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "10D663DF5362EB83"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "7A013A99BC4F80F2"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 5: Baby Sheep Plushie"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk3MTllYzllZTZmNTNjMTdiMWY2Zjc0Nzg2NmIzMTIxNDAxZDM1Zjc3YTM5ODU5ZjEyMmQ0NzI4NjNlNDhlIn19fQ=="
+							}]
+						}
+						Id: [I;
+							2080793942
+							-524468218
+							-1541115779
+							1949756395
+						]
+					}
+					display: {
+						Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 5\"}"]
+						Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Baby Sheep Plushie\"}"
+					}
+				}
+			}
+			x: 0.5d
+			y: -4.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "045E5D613537B512"
+			tasks: [{
+				id: "74E746C1886EE28E"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk3MTllYzllZTZmNTNjMTdiMWY2Zjc0Nzg2NmIzMTIxNDAxZDM1Zjc3YTM5ODU5ZjEyMmQ0NzI4NjNlNDhlIn19fQ=="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 5\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Baby Sheep Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "468171A8AE357E30"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "29A7DA2112763F55"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 11: Red Parrot Plushie"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3ZGFiMmNiZWJlYTUzOWI2NGQ1YWQyNDZmOWNjYzFmY2RhN2FhOTRiODhlNTlmYzI4Mjk4NTJmNDYwNzEifX19"
+							}]
+						}
+						Id: [I;
+							2080793942
+							-524468218
+							-1541115779
+							1949756395
+						]
+					}
+					display: {
+						Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 11\"}"]
+						Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Red Parrot Plushie\"}"
+					}
+				}
+			}
+			x: -9.5d
+			y: -0.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "085DA323ABB34E01"
+			tasks: [{
+				id: "6BDE48B24ACA2593"
+				type: "item"
+				icon: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3ZGFiMmNiZWJlYTUzOWI2NGQ1YWQyNDZmOWNjYzFmY2RhN2FhOTRiODhlNTlmYzI4Mjk4NTJmNDYwNzEifX19"
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 11\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Red Parrot Plushie\"}"
+						}
+					}
+				}
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3ZGFiMmNiZWJlYTUzOWI2NGQ1YWQyNDZmOWNjYzFmY2RhN2FhOTRiODhlNTlmYzI4Mjk4NTJmNDYwNzEifX19"
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 11\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Red Parrot Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "28A9E5A84AAACF72"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "6E9F66636D43D37B"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 8: Bee Miner Plushie"
+			x: 8.0d
+			y: -4.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "277E005C91CF71D9"
+			tasks: [{
+				id: "7CE391E48FE91037"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JmZjUyNzU2Mjg4OWUxNmE1NDRmMmY5OTZmYmEzZDk1NDFkMGFhY2Y4MTQ2MmJmZmM5ZmI1Y2FkOGFlZGQ1In19fQ=="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: [
+								"{\"italic\":false,\"color\":\"green\",\"text\":\"Patron Plushie Requested by: Siren, the feft hand of JUSTICE\"}"
+								"{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 8\"}"
+							]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Bee Miner Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "40424ECB61EECB90"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "44C896668B18E2D5"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 9: Fox Plushie"
+			x: 10.5d
+			y: -4.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "41CD7B2DC30C27AD"
+			tasks: [{
+				id: "14D8933CB181C64C"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmJkZmZlOTY0MmZjNTI4MGU2OGNlNDg4ZTNiY2Y0NDA2ODdlZDNiYzU2NmUzMTVhZjgyNGY0MjhiNmZmNzE1In19fQ=="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: [
+								"{\"italic\":false,\"color\":\"green\",\"text\":\"Patron Plushie Requested by: Fuchs\"}"
+								"{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 9\"}"
+							]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Fox Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "4558273995FD689C"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "59EC47EF048070CA"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 16: Emoji Plushie"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJlOTgxNjVkZWVmNGVkNjIxOTUzOTIxYzFlZjgxN2RjNjM4YWY3MWMxOTM0YTQyODdiNjlkN2EzMWY2YjgifX19"
+							}]
+						}
+						Id: [I;
+							2080793942
+							-524468218
+							-1541115779
+							1949756395
+						]
+					}
+					display: {
+						Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 16\"}"]
+						Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Emoji Plushie\"}"
+					}
+				}
+			}
+			x: 3.0d
+			y: -0.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "58B3716B07BF5E40"
+			tasks: [{
+				id: "1B3600213DCD1864"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJlOTgxNjVkZWVmNGVkNjIxOTUzOTIxYzFlZjgxN2RjNjM4YWY3MWMxOTM0YTQyODdiNjlkN2EzMWY2YjgifX19"
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 16\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Emoji Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "34090041AB589643"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "09497A3C95FB0FFD"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 17: Lego Plushie"
+			x: 5.5d
+			y: -0.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "3F9450ED69C77EE2"
+			tasks: [{
+				id: "403EB6B0EC652429"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU5ZDFiYmZmYWQ1NDIyMTk3YjU3M2Q1MDE0NjUzOTJmZWVmNmRjNWQ0MjZkY2Q3NjNlZmVkNzg5M2QzOWQifX19"
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 17\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Lego Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "29BDDC23EC7BBB87"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "4C17F8532ADCB469"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 15: Burger Plushie"
+			x: 0.5d
+			y: -0.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "77E97328AA83693B"
+			tasks: [{
+				id: "2FCF3A3B3885326C"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2E5Yzg3NTM3ODBlYmMzOWMzNTFkYThlZmQ5MWJjZTkwYmQ4Y2NhN2I1MTFmOTNlNzhkZjc1ZjY2MTVjNzlhNiJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 15\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Burger Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "1252A66F09771C4B"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "0311150211D57D28"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 12: Blue Parrot Plushie"
+			x: -7.0d
+			y: -0.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "18D7EB6A0570436B"
+			tasks: [{
+				id: "24619A2C6E96B139"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVlYmUyNmYxOGZhNTk2MGFiYmRkNjU5NTdkYTUzNjViNmY2ZjQ0ZGI2YTk5NDRmM2YxNDY2ZGU2OWEyIn19fQ=="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 12\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Blue Parrot Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "0D08A74D74782BC3"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "4FBB53D9E6764927"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 13: Yellow Parrot Plushie"
+			x: -4.5d
+			y: -0.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "71A02D58C74EF509"
+			tasks: [{
+				id: "6C1CA90D07054CBD"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJjNmQ4NDE2OGVjZmMzZTE4ZmI4MGYxMzRhMmIxYTczMjRlYTYxMWJkNmQyODY3MDYxZjlhMzg5NDEzMCJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 13\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Yellow Parrot Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "38A30CB0E2153E60"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "0F944832A36AFC36"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "#20: Penguin Plushie"
+			x: 13.0d
+			y: -0.5d
+			description: ["Эта игрушка может быть найдена при исследовании подземелий."]
+			size: 2.0d
+			id: "49173CEEF82E4B83"
+			tasks: [{
+				id: "4AF37F0560503084"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVhNzU5Zjk3OWI5YjhlYTgzMWNhN2UyZDY2ZGYxNDgyOTNmMWE1MTQ3OTgzYjUyYzQ4ZWZlMmMzMTVlIn19fQ=="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 20\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Penguin Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "2BC3B5C5DE937F05"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "5E83339D15C9DDB5"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 18: Baby Pig Plushie"
+			x: 8.0d
+			y: -0.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "6CF263A8396ECFDE"
+			tasks: [{
+				id: "5FBC94A75665E7FD"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMzYzUxNmE2YmM5Zjc1MjM5YTYyYzFhMjc2YzgyNTYwNGI4NzI5MDRmMmE4NzgwYmFmY2VlODA5MTE2ODQxNCJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 18\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Baby Pig Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "7E02C549D18C090D"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "4727CBA5128B68BF"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 1: Cormenthor Space Bear Plushie"
+			x: -9.5d
+			y: -4.5d
+			description: [
+				"Cormenthor was a highly valued member of the DDSS community Discord server. If anyone needed help, he was always there to offer support. You could always count on him."
+				""
+				"He passed away on October 28, 2024, and the news hit the community hard. This plushie was made to honor him. "
+				""
+				"Rest in peace, my friend."
+				""
+				"Your DDSS community."
+			]
+			size: 2.0d
+			id: "66901BBC0006320B"
+			tasks: [{
+				id: "4EDC28FB0631945B"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2QzY2Q4NTQ4ZTdkY2ViNWMyMzk0ZDFiMDBkYTJjNjFmZmMwZGRlNDYyMjliMTA1MDllYjI3YTBkY2IyM2JmYiJ9fX0="
+								}]
+							}
+							Id: [I;
+								2129559342
+								1919042708
+								-1745503587
+								778571610
+							]
+						}
+						display: {
+							Lore: [
+								"{\"italic\":false,\"color\":\"blue\",\"text\":\"In memory of Cormenthor Space Bear. Forever in our hearts <3\"}"
+								"{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 1\"}"
+							]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"gold\",\"text\":\"Cormenthor Space Bear Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "3B9A48358A9C1342"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 5
+				}
+				{
+					id: "0FAF6F67446D0D81"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 5
+				}
+				{
+					id: "6D38421652640DC0"
+					type: "item"
+					item: "pamhc2foodcore:baconcheeseburgeritem"
+				}
+			]
+		}
+		{
+			title: "Nr. 19: Dog Plushie"
+			x: 10.5d
+			y: -0.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "09CB5B7EA2DB3575"
+			tasks: [{
+				id: "4DED692969B93A27"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjYzODFlODEzZWYzMmFhYWFiY2ZlMmE4NGY5MTNhNjU2OTFiYjMyYjdkODJkYzIyMjJkZDU4YTU1MzRjIn19fQ=="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 19\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Dog Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "1479CDC3F9E2F68E"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "788B3829456702E8"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 6: Axolotl Plushie"
+			x: 3.0d
+			y: -4.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "58F8367305A7F62E"
+			tasks: [{
+				id: "601D1B85DBB7ADB0"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFlNjE0NmRlYzljMGIwMTIyYmEyZTQ5Y2E1YmRmZTI3NzM1ZTQ4NTZmNjgwNzA2MTJjZjBiNjg4YTE4Y2NlYyJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: [
+								"{\"italic\":false,\"color\":\"green\",\"text\":\"Patron Plushie requested by: THE Dierke9\"}"
+								"{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 6\"}"
+							]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Axolotl Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "2555360CB69EAE81"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "68F47067A55D8821"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 3: Kirby Plushie"
+			x: -4.5d
+			y: -4.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "5E651224D424C7E0"
+			tasks: [{
+				id: "4939100B708A543B"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJlM2VjZThkYjFhMTcxZTg5YmY5ZGMyNDNkMzU0NzA0NjJlNDVkMGE4NzczZDMwMmQ3MjQyZGUyOTNmNGRhZiJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 3\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Kirby Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "3055A54221149501"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "32320ACF2E5E8D3F"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 7: Potato Fish Plushie"
+			x: 5.5d
+			y: -4.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "6B5DEFFB252228BC"
+			tasks: [{
+				id: "2BD2276EDA8A0BB3"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY2YmRlYTYwYzhmMjg0ZTYwZjM4MmUzYTUxZGNiZTU4MmI2NzhmYmUxMWE0ODdjZTRkYjE0NDFhYTVjOTEwMiJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: [
+								"{\"italic\":false,\"color\":\"green\",\"text\":\"Patron Plushie requested by: Patata10010\"}"
+								"{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 7\"}"
+							]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Potato Fish Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "507C7EA726DC1239"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "1CE81C265B9D70D2"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 2: Unicorn Plushie"
+			x: -7.0d
+			y: -4.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "710C41089433EC06"
+			tasks: [{
+				id: "3AC248F12B7E3B4B"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRiNjEyODE4NTcxN2MyMTZlZmIzY2FiNWI1ZTdmY2JiZmU2N2NlMTUzYmI2ZWVhZWQ2YTg0NmIzZTEzYTlkYyJ9fX0="
+								}]
+							}
+							Id: [I;
+								1133824339
+								-46250426
+								-2038191217
+								-504894692
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 2\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Unicorn Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "695164877CD0B375"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "055479422F6023AB"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 14: Green Parrot Plushie"
+			x: -2.0d
+			y: -0.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "47F745ABD719EE30"
+			tasks: [{
+				id: "45CFD5CB76C324E0"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTcwMGVhNjc0YTZmYzU0MGY2MGYyYTA4Y2ZlOTBmYmJhODQwOGI5NWQ4YjRjNTJmNzk4ZWM3OGUxOWZiZGRlMyJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 14\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Green Parrot Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "039FD82016B2D74A"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "136EE4A6450FF36C"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nr. 10: Parrot in Minecart Plushie"
+			x: 13.0d
+			y: -4.5d
+			description: ["This plushie can be acquired randomly in dungeons."]
+			size: 2.0d
+			id: "53D01FB7E164D81C"
+			tasks: [{
+				id: "3FB479A29CEE9879"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U2MmM1ZGIxZmNlNWExMjEwODY5NmEwNmFhOTgzOTYyNGYwMzBkYzU5MGE1NTAzN2ZiZWIyMDU2ZGI4NWIyOCJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 10\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Parrot in Minecart Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "02DFFE6AA922BB2F"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "14E17FDD5F10080C"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+	]
+}

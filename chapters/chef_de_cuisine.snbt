@@ -1,0 +1,11 @@
+{
+	id: "69E02EB1868B6E83"
+	group: ""
+	order_index: 4
+	filename: "chef_de_cuisine"
+	title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.title}"
+	icon: "pamhc2foodextended:baconmushroomburgeritem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

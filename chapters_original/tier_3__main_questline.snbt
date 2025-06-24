@@ -1,0 +1,1449 @@
+{
+	id: "503658F55EB7952F"
+	group: ""
+	order_index: 3
+	filename: "tier_3__main_questline"
+	title: "Глава 3 -> Основной квест"
+	icon: {
+		id: "custommachinery:custom_machine_item"
+		Count: 1b
+		tag: {
+			machine: "custommachinery:pulverizer03_adv"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome To Tier 3!"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -33.25d
+			y: -3.0d
+			description: [
+				"Welcome To Tier 3! It is a great achievement to have come this far!"
+				""
+				"Get ready, because this chapter is going to be wild! First, we have the incredible opportunity to work with Immersive Petroleum multiblocks to create amazing products like Diesel and Sulfurized Diesel. Not only will these fuels improve the performance of generators, but they'll also produce High-Carbon-Petroleum Steel Ingots! Afterwards, we'll dive into the main part of the T3 machinery, accompanied by Bloodmagic's secrets and further unknown dimensions. This chapter is going to be absolutely thrilling! And as if that wasn't enough, we also built our first rocket to fly to the moon!"
+				""
+				"There's so much to do, and we can't wait to get started! Let's dive right in! :D"
+			]
+			dependencies: ["504FE99F304C2094"]
+			size: 3.0d
+			id: "1B19951C6B4D5371"
+			tasks: [{
+				id: "0E522CBBADDDEF35"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "712BABDABF4D3CE4"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Projector!"
+			x: -28.5d
+			y: -5.0d
+			description: [
+				"When you're working on big multiblock structures from Immersive Petroleum/Engineering, going to your Engineer's Manual over and over again has become annoying. By making a basic projector, you can show the plans of these structures to use as a template. "
+				""
+				"The left side shows a list of every existing multiblock. Selecting one will show the finished multiblock on the right side, and also the currently selected multiblock name will show up over the GUI itself."
+				""
+				"The centre has buttons that let you change the rotation and mirroring. The current rotation is shown above the buttons.When you're happy, click 'Confirm' to save your choice and close the GUI."
+			]
+			dependencies: ["1B19951C6B4D5371"]
+			id: "03877A82145E023E"
+			tasks: [{
+				id: "46894EE4195D5693"
+				type: "item"
+				item: "immersivepetroleum:projector"
+			}]
+			rewards: [
+				{
+					id: "0927373798CB994B"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+				}
+				{
+					id: "04C6F876070BD7F6"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "We Need Some Diesel! And Way More Energy..."
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -24.5d
+			y: -3.0d
+			description: [
+				"To proceed with the production of T3 components and machines, there is a requirement for the next level of Complex Alloy Ingots. In order to achieve this objective, it is first necessary to produce high-carbon petroleum steel. The earliest method for this process is a series of Immersive Petroleum multiblocks, as we require sulfurized diesel and diesel for the production."
+				""
+				"Another thing is that we won't have enough energy for this project. The distillation tower alone needs roughly 800 FE/t, and if you also want to operate pumpjacks for oil, another 1,000 FE/t will easily be added. So, if you haven't already built over 20 Furnators/Dynamos/Fluid Generators, I'd say it's worth building the Large Steam Turbine from T2 or/and the (Bio)Diesel Generator from IE."
+				""
+				"Note: Diesel's also great for universal fluid generators (T3+). It's really effective, and we don't really care about the environment in minecraft anyway."
+			]
+			dependencies: [
+				"03877A82145E023E"
+				"63451D6FBEF8277A"
+				"50FCE8CB54E1B746"
+			]
+			id: "62180FC895AD00C2"
+			tasks: [{
+				id: "4F3E6A1E54170913"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6F5B7234BD8416F3"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			x: -28.5d
+			y: -1.0d
+			description: [
+				"The Core Sample Drill is a machine used to detect and analyse mineral deposits and fluid reservoirs that can be extracted by an excavator or by a pumpjack."
+				""
+				"The Sample Drill is placed as a single block but is three blocks high. The bottom block accepts power. 100 FE/t are required to run it."
+				""
+				"It takes 10 seconds to complete its work. When it has finished, it can be right-clicked to get a core sample. The sample shows how much water, lava or oil this chunk has in mB and what type of deposit it is. It is possible that the chunk has none of these liquids or minerals."
+			]
+			dependencies: ["1B19951C6B4D5371"]
+			id: "50FCE8CB54E1B746"
+			tasks: [{
+				id: "710A41F34AA4F19D"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+			rewards: [
+				{
+					id: "3A40242E09706000"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "56F7E8719C04C061"
+					type: "item"
+					item: "silents_mechanisms:steel_block"
+				}
+				{
+					id: "1854B070965BBC10"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Materia T3!"
+			x: -28.5d
+			y: -3.0d
+			description: ["With all the equipment we have built in the previous stage, we are now finally able to produce Materia T3. As always, this will be a very important part of the rope. After all, we have learned that Materia is everywhere....."]
+			dependencies: ["1B19951C6B4D5371"]
+			id: "63451D6FBEF8277A"
+			tasks: [{
+				id: "26AD0B9A52245EA1"
+				type: "item"
+				item: "kubejs:materia_t3"
+			}]
+			rewards: [
+				{
+					id: "72AEB429751AD109"
+					type: "item"
+					item: "kubejs:materia_t2"
+				}
+				{
+					id: "6FEF89DC86986382"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Distillation Tower "
+			icon: "pneumaticcraft:drill_pipe"
+			x: -20.5d
+			y: -3.0d
+			shape: "gear"
+			description: [
+				"The distillation tower is a large 4x16x4 multiblock used to process crude oil into other fluids such as sulfurized diesel and light oil. This tower operates pretty fast! The quest will tell you exactly how many blocks you need and give you the rest of them as a reward."
+				""
+				"Crude oil is fed into the port at the rear of the distillation tower. Electricity is fed in through the top of the furnace at the rear of the Multiblock. By-products are discharged through the port at the front of the unit and liquids through the bottom. The Multiblock processes can be stopped via Redstone using the red dot control panel."
+				"{image:modpack:textures/quest_multiblock/dist_tower.png width:100 height:125 align:1}"
+				""
+				"You can also use the crude oil that you sometimes find on the surface of the overworld."
+			]
+			dependencies: ["62180FC895AD00C2"]
+			size: 2.0d
+			id: "26E021581397820E"
+			tasks: [
+				{
+					id: "51DA87D30BDFB901"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "74A6CEFDFCBC6116"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 25L
+				}
+				{
+					id: "592C12798E688A19"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 40L
+				}
+				{
+					id: "194CC49C17A16A02"
+					type: "item"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
+					count: 30L
+				}
+				{
+					id: "00411E2D5EED0DA2"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+			rewards: [
+				{
+					id: "5E499FECA1E0987F"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 20
+				}
+				{
+					id: "05F6E8DCDAF44195"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 17
+				}
+				{
+					id: "08EE8A49DE2C9E5D"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "09EFD8BC60F7DA67"
+					type: "item"
+					item: "pamhc2foodextended:coleslawburgeritem"
+				}
+				{
+					id: "0C631DB18934F11F"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Pumpjack!"
+			icon: "pneumaticcraft:vacuum_pump"
+			x: -20.5d
+			y: 0.5d
+			shape: "gear"
+			description: [
+				"The Pumpjack is a 6×4×3 multiblock that extracts fluids like crude oil from reservoirs that are below the bedrock. This machine needs 1000 FE/t to work. The quest will tell you exactly how many blocks you need and give you the rest of them as a reward."
+				""
+				"Once it's turned on AND! an empty pipe is connected to either fluid port, the jack pumps at a rate of 25mb/t. That's 30,000mb per minute. If there's a reservoir below it, it brings the fluid to the surface. Using multiple pumpjacks in one area makes it easier to extract something. It's not gonna work without fluid tank or pipe nearby."
+				""
+				"The oil reservoirs in DDSS2 are not infinite, but they are very large! They can hold up to 150 million mb of oil. It will last a while until you have to find a new one."
+				"{image:modpack:textures/quest_multiblock/pumpjack.png width:125 height:130 align:1}"
+			]
+			dependencies: ["62180FC895AD00C2"]
+			size: 2.0d
+			id: "4DBC2DC7967C855B"
+			tasks: [
+				{
+					id: "633872EB680B1EE3"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "5FAE23D7A02678F4"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "774FBE57956D5DE3"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 11L
+				}
+				{
+					id: "26644913FD62D30D"
+					type: "item"
+					title: "Any #forge:storage_blocks/steel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/steel"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "50CFA178AEB00AD9"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+			rewards: [
+				{
+					id: "616367D2F11EFA33"
+					type: "item"
+					item: "immersiveengineering:treated_fence"
+					count: 6
+				}
+				{
+					id: "660D6F8A5ED6F31A"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 4
+				}
+				{
+					id: "02EA8C4A7D0F9BC5"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 4
+				}
+				{
+					id: "30269F586097F142"
+					type: "item"
+					item: "pamhc2foodextended:baconmushroomburgeritem"
+				}
+				{
+					id: "6CF75E3E131F382E"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "264A4FAD7FE34551"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Sulfur Recovery Unit!"
+			icon: "immersiveengineering:logic_unit"
+			x: -20.5d
+			y: -6.5d
+			shape: "gear"
+			description: [
+				"The Sulfur Recovery Unit is a multiblock machine that seperates Sulfur from Sulfurized Diesel. This machine needs 512 FE/t to work. The quest will tell you exactly how many blocks you need and give you the rest of them as a reward."
+				""
+				"This machine has the nice side effect that you can get a lot of sulfur out of it, but of course the main point of the whole thing is that we get Diesel."
+				""
+				"{image:modpack:textures/quest_multiblock/recovery_unit.png width:125 height:125 align:1}"
+			]
+			dependencies: ["62180FC895AD00C2"]
+			size: 2.0d
+			id: "21277B614B24FE6E"
+			tasks: [
+				{
+					id: "0CB142D8B6D3A0E7"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "5F7B6BA9B29FE6DD"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "7EF67520606517EE"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 10L
+				}
+				{
+					id: "79E5885068F9BA08"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "2EC82BA3CBA5C74B"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+			rewards: [
+				{
+					id: "0D155A9F1F1BA21E"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 5
+				}
+				{
+					id: "5FC06C17D718BAF1"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 4
+				}
+				{
+					id: "38657BC5444CC492"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "2C0324AC2A094E98"
+					type: "item"
+					item: "pamhc2foodextended:eggsbenedictitem"
+				}
+				{
+					id: "04C1E42741CA425D"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Diesel, Light and Heavy Oil"
+			icon: {
+				id: "fluidcells:filled_fluid_cell"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "thermal:light_oil"
+						Amount: 1000
+					}
+				}
+			}
+			x: -16.75d
+			y: -3.0d
+			description: [
+				"Finally, we have everything we need to make Diesel. You should also have collected a good amount of light and heavy oil by now, which will be interesting later on."
+				""
+				"Sulfurized Diesel, Diesel and Light Oil can also be used to fuel the (Bio)Diesel Generator from IE."
+			]
+			dependencies: [
+				"26E021581397820E"
+				"4DBC2DC7967C855B"
+				"21277B614B24FE6E"
+			]
+			id: "4E066BC181768509"
+			tasks: [
+				{
+					id: "6A132A44795264EA"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "pneumaticcraft:diesel"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "382C0873511A2CF0"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "thermal:light_oil"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "5B997B2CA5B46568"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "thermal:heavy_oil"
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2AB0BB3A36BB599E"
+					type: "item"
+					item: "mekanism:advanced_mechanical_pipe"
+					count: 16
+				}
+				{
+					id: "1664ECADC58AA567"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "(Bio)Diesel Generator"
+			icon: "immersiveengineering:generator"
+			x: -24.5d
+			y: -6.5d
+			shape: "gear"
+			description: [
+				"The (Bio)Diesel Generator is a 3×5×3 multiblock that generates Power by burning Biodiesel or other modded fuels. It produces 1500 FE/t."
+				""
+				"The generator has no GUI. Fuel must be fed through the side ports near the front of the machine (indicated by blue dots). Power is exported through the three plugs on the top near the front of the machine (each with a small copper-colored dot). The generator can be stopped by applying a Redstone signal to the \"control panel\" on the side of the machine (indicated by a red dot)."
+				""
+				"Fuel Values:"
+				"- Creosote Oil = 20 ticks"
+				"- Biodiesel, Biofuel, Light Oil = 250 ticks"
+				"- Sulfurized Diesel, Diesel = 350 ticks"
+			]
+			dependencies: ["62180FC895AD00C2"]
+			size: 2.0d
+			id: "751E286858C9E3EA"
+			tasks: [
+				{
+					id: "57AF7A50E9B5FA46"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 13L
+				}
+				{
+					id: "5BE373B25E8E32FC"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 9L
+				}
+				{
+					id: "338033846F773AD1"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 4L
+				}
+				{
+					id: "68CAF629AB3CEBB6"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+			rewards: [
+				{
+					id: "48A6C6223BCF96AC"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5
+				}
+				{
+					id: "7A87E4D0D7E7FD38"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6
+				}
+				{
+					id: "78B14CED7A3EE37A"
+					type: "item"
+					item: "pamhc2foodextended:paneertikkamasalaitem"
+				}
+				{
+					id: "4EC47A898905C2A3"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6803904F0E3BCF9F"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "High-Carbon Petroleum Steel!"
+			x: -13.5d
+			y: -4.5d
+			description: ["Now that we have Diesel, we can finally start producing high-carbon petroleum steel in the Fusion Computer."]
+			dependencies: ["4E066BC181768509"]
+			id: "14CCEA6F4102EC34"
+			tasks: [{
+				id: "1488DEB451C2154F"
+				type: "item"
+				item: "kubejs:high_carbon_petroleum_steel"
+			}]
+			rewards: [
+				{
+					id: "59942A7385B67455"
+					type: "item"
+					item: "kubejs:high_carbon_petroleum_steel"
+					count: 4
+				}
+				{
+					id: "6EB86FB54F1B98CC"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "More Then Just Oil?"
+			x: -20.5d
+			y: 4.0d
+			shape: "circle"
+			description: ["There's more than meets the eye under the bedrock. You can also find distilled water or even nitronite..... Keep analyzing with the core sample drill."]
+			dependencies: ["4DBC2DC7967C855B"]
+			id: "7A6F108A67E7FC49"
+			tasks: [{
+				id: "42BCC5D68831E1C9"
+				type: "checkmark"
+				title: "More then just Oil?"
+			}]
+			rewards: [{
+				id: "480FA8261B47C296"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Lumix!"
+			x: -13.5d
+			y: -1.5d
+			description: ["Lumix is another component for Complex Alloy T3. It is made in a fusion computer and needs terrax, palladium, and oxygen."]
+			dependencies: ["4E066BC181768509"]
+			id: "27BA47C69DB1B838"
+			tasks: [{
+				id: "485EEC79EE54B742"
+				type: "item"
+				item: "taiga:lumix_ingot"
+			}]
+			rewards: [
+				{
+					id: "6F5A1720C39A86B5"
+					type: "item"
+					item: "kubejs:starlight_ingot"
+				}
+				{
+					id: "0F2459266DDA4433"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Complex Alloy T3!"
+			icon: "kubejs:complexalloy_t3"
+			x: -10.25d
+			y: -3.0d
+			description: [
+				"After working so hard, we can now finally make Complex Alloy T3! Amazing! "
+				""
+				"Oh, and don't forget to make a few T3 nuts and bolts. You can make them from any T3 rod, just like the predecessor."
+			]
+			dependencies: [
+				"14CCEA6F4102EC34"
+				"27BA47C69DB1B838"
+			]
+			id: "4350E9E69B95DB53"
+			tasks: [
+				{
+					id: "277AEDF871F1755E"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 4L
+				}
+				{
+					id: "5ADAB4C8F8F8F32C"
+					type: "item"
+					item: "kubejs:bolts_t3"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "1E8856B9AE40A125"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 2
+				}
+				{
+					id: "6D2259B476AC4635"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "It is very important to understand this..."
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -7.0d
+			y: -3.0d
+			description: [
+				"Please note that when you craft components for the next tier in machines that are one level behind, your devices are gonna use much more energy. "
+				""
+				"It uses the same amount of energy as if you were building it in the same tier. Your smaller machines can handle those tasks for a while, but it will be a good idea to move on when the time is right. I'm sharing this in case you're wondering why energy costs are going up so fast while crafting T3 parts."
+				""
+				"On average, most T3 singelblock machines consume 300-400 FE/t without using any upgrades or boosting mixture."
+			]
+			dependencies: ["4350E9E69B95DB53"]
+			id: "74837DE401308F45"
+			tasks: [{
+				id: "1A26DA2AABF046A2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3DE55151436B00C4"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Unstable Cryogen Mixture MK1"
+			x: -3.75d
+			y: -7.0d
+			description: ["The subsequent step involves the production of Unstable Cryogen Mixture MK1. To achieve this, please use your Fluid Mixer. This fluid is used in the MQ Coolant procedure."]
+			dependencies: ["74837DE401308F45"]
+			id: "43139F24B8E1AF1C"
+			tasks: [{
+				id: "48920D45FEF03637"
+				type: "item"
+				item: {
+					id: "fluidcells:filled_fluid_cell"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "kubejs:cryo_t1"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7E8A8503E99769CE"
+					type: "item"
+					item: "mekanism:advanced_fluid_tank"
+				}
+				{
+					id: "768A0A75D9D143BE"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "MQ Coolant!"
+			x: 2.25d
+			y: -7.0d
+			description: ["To proceed, please use your Vacuum Freezer to combine all the necessary substances to produce MQ Coolant, which is used for most T3 machines."]
+			dependencies: ["43139F24B8E1AF1C"]
+			id: "19A1B03776CD395E"
+			tasks: [{
+				id: "36A9985B4F6B3EF0"
+				type: "item"
+				item: {
+					id: "fluidcells:filled_fluid_cell"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "kubejs:coolant_t2"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "724968230DA07C25"
+					type: "item"
+					item: {
+						id: "silents_mechanisms:canister"
+						Count: 1b
+						tag: {
+							CanisterFluid: "kubejs:coolant_t2"
+						}
+					}
+				}
+				{
+					id: "6FAAEABBEADCD0E4"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Memory Module T3"
+			x: -3.75d
+			y: -4.0d
+			description: ["The next memory module is needed for T3 Circuits and Logic Processors. Remember, the better the plastic, the more you can make."]
+			dependencies: ["74837DE401308F45"]
+			id: "33B63B6EC0D28527"
+			tasks: [{
+				id: "0A8C6F088104F5C3"
+				type: "item"
+				item: "rftoolsdim:part_memory_0"
+			}]
+			rewards: [
+				{
+					id: "5938F5D8CF06BAE2"
+					type: "item"
+					item: "rftoolsdim:part_memory_0"
+					count: 4
+				}
+				{
+					id: "10C0A28DD5262B62"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Control Circuit T3!"
+			x: -0.75d
+			y: -5.5d
+			description: [
+				"Once again, it's all about the circuits. These always need the tier below it and a lot of materials on top."
+				""
+				"One of the most useful recipes for using Boosting Mixture? Probably..."
+			]
+			dependencies: ["33B63B6EC0D28527"]
+			id: "3946F6DCF4D0A994"
+			tasks: [{
+				id: "182F75B657114418"
+				type: "item"
+				item: "kubejs:circuit_t3"
+			}]
+			rewards: [
+				{
+					id: "7153586CBD240B40"
+					type: "item"
+					item: "pneumaticcraft:transistor"
+					count: 8
+				}
+				{
+					id: "5B7E81FF35F0075C"
+					type: "item"
+					item: "pneumaticcraft:capacitor"
+					count: 8
+				}
+				{
+					id: "4DFF47F81DA691E0"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Logic Processor T3!"
+			x: -0.75d
+			y: -2.5d
+			description: [
+				"In this tier, the logic processors are utilized at an earlier stage. The remarkable capabilities of modern small electronic devices are truly astounding. It is impressive to consider the potential of such compact chips."
+				""
+				"Don't forget to boost those little things. This could be absolutely worth it! MQ Rubber isn't available yet to increase production. Unless, of course, you buy some with the Amadron tablet..."
+			]
+			dependencies: ["33B63B6EC0D28527"]
+			id: "00FEE584663E8CC5"
+			tasks: [{
+				id: "37F96FC39A7E9B5D"
+				type: "item"
+				item: "kubejs:logic_t3"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "4B4F542FE5A3EFAA"
+					type: "item"
+					item: "kubejs:complex_plate_t3"
+				}
+				{
+					id: "302FF971FFFF0875"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "65D28D8341D10769"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Electromagnetic Coils T3!"
+			x: -3.75d
+			y: -1.0d
+			description: ["The next level of electromagnetic coils. As you can see, you can never have enough empty spools. Do you already have a good supply?"]
+			dependencies: ["74837DE401308F45"]
+			id: "5790F49D63E95CB1"
+			tasks: [{
+				id: "3D2379C309E77469"
+				type: "item"
+				item: "kubejs:coil_t3"
+			}]
+			rewards: [
+				{
+					id: "437CF1522EC4A4C1"
+					type: "item"
+					item: "moreplates:platinum_gear"
+				}
+				{
+					id: "6BEBA605D65B67EC"
+					type: "item"
+					item: "projectred-core:electrotine_silicon"
+					count: 2
+				}
+				{
+					id: "634F91DC703F8CA1"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			x: 2.25d
+			y: -1.0d
+			description: ["This new T3 Electric Motor is obviously a lot more powerful than the old one. The main differences here are that platinum comes into play. It's not a metal you often find in the overworld. But don't worry, a solution is on the way."]
+			dependencies: ["5790F49D63E95CB1"]
+			id: "6A494600A36D8851"
+			tasks: [{
+				id: "0333FB45AF1570B3"
+				type: "item"
+				item: "kubejs:motor_t3"
+			}]
+			rewards: [
+				{
+					id: "3499CD4FF05A8838"
+					type: "item"
+					item: "kubejs:coil_t3"
+				}
+				{
+					id: "5D3301D2C69B4397"
+					type: "item"
+					item: "silents_mechanisms:platinum_ore"
+					count: 2
+				}
+				{
+					id: "5AC486E269333F2D"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Reinforced Alloy"
+			x: -3.75d
+			y: 1.25d
+			description: [
+				"You can make Reinforced Alloy using the Metallurgic Infuser and Triberium. It is used in various T3 machines and parts."
+				""
+				"Please note: this is TRI-berium, not TI-berium. There is a risk of confusion."
+			]
+			dependencies: ["74837DE401308F45"]
+			id: "2427F9D7AE9378EA"
+			tasks: [{
+				id: "346F375FBB941412"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [
+				{
+					id: "570A92B14A77692D"
+					type: "item"
+					item: "thermal:diamond_dust"
+				}
+				{
+					id: "33CF15915ECACEB2"
+					type: "item"
+					item: "taiga:triberium_ingot"
+				}
+				{
+					id: "6A706DE5C13E81D9"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Pneumatic Device T3"
+			x: 2.25d
+			y: 1.25d
+			description: ["This is the next step in the pneumatic devices series. One thing's for sure, gasket rings always seem to be needed..."]
+			dependencies: ["5D02DF2CD98FA3C8"]
+			id: "1C8344D1A1F0A7B4"
+			tasks: [{
+				id: "0DFB2897E3FFB581"
+				type: "item"
+				item: "kubejs:pump_t3"
+			}]
+			rewards: [
+				{
+					id: "1EC1BE439A828DAD"
+					type: "item"
+					item: "kubejs:gasket_ring"
+					count: 4
+				}
+				{
+					id: "3E7F4575B69AC7A4"
+					type: "item"
+					item: "pneumaticcraft:pneumatic_cylinder"
+				}
+				{
+					id: "79631A9FB3CCE953"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Complex PCB T3? o_Ô"
+			x: 2.25d
+			y: -4.0d
+			description: ["Most Tier 3 machines are no longer built with individual circuits or logic processors. They use complex PCB boards that connect everything in one. You'll need some empty PCB's for this, and you'll also need etching acid. Thankfully, you learned how to make this in T2."]
+			dependencies: [
+				"3946F6DCF4D0A994"
+				"00FEE584663E8CC5"
+			]
+			id: "330F8A75DDB717AF"
+			tasks: [{
+				id: "36FAAEBDB7E0362B"
+				type: "item"
+				item: "kubejs:pcb_t3"
+			}]
+			rewards: [
+				{
+					id: "3F5F56BA770DA325"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "271D53A451A476C7"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "pneumaticcraft:etching_acid"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "5EB12572DB640CE8"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Tier 3 Capacitor"
+			x: -0.75d
+			y: 1.25d
+			description: ["T3 capacitors store much more energy than its predecessor and are therefore used in T3 machines and equipment to significantly increase their FE buffer."]
+			dependencies: ["2427F9D7AE9378EA"]
+			id: "5D02DF2CD98FA3C8"
+			tasks: [{
+				id: "2EFC780954A08C95"
+				type: "item"
+				item: "ironjetpacks:tier_3_capacitor"
+			}]
+			rewards: [
+				{
+					id: "03F25CEE6E4B8F28"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "kubejs:mercury"
+								Amount: 1000
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3A5DC0B10835B4C0"
+					type: "item"
+					item: "powah:dielectric_casing"
+				}
+				{
+					id: "67A2460D8FC29157"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Advanced Alloy Smetlery T3!"
+			x: 5.75d
+			y: -3.0d
+			description: [
+				"The new Alloy Smelter is not only slightly faster by default, it also accepts more upgrades than T2 machines and of course allows you to create new alloys such as Refined Obsidian or Refined Glowstone."
+				""
+				"T3 machines hold up to 6 upgrades of each type and use an average of 300 FE/t without using upgrades and/or boosting mixutre."
+			]
+			dependencies: [
+				"330F8A75DDB717AF"
+				"19A1B03776CD395E"
+				"6A494600A36D8851"
+				"1C8344D1A1F0A7B4"
+			]
+			id: "1EABF9A0FDC18D75"
+			tasks: [{
+				id: "539F7B07B91738DE"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:alloysmelter03_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "124D24B296810699"
+					type: "item"
+					item: "kubejs:pure_gold"
+					count: 4
+				}
+				{
+					id: "21BC3E24784EB1F5"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "0F33E0F5F8973636"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Refined Obsidian and Glowstone!"
+			icon: "mekanism:ingot_refined_obsidian"
+			x: 8.75d
+			y: -3.0d
+			description: [
+				"As mentioned earlier, you can now make Refined Obsidian and Refined Glowstone. We will need both for the next steps."
+				""
+				"As Refined Obsidian needs mana diamonds and therefore mana, it's worth checking that your mana production is still on track and producing enough."
+			]
+			dependencies: ["1EABF9A0FDC18D75"]
+			id: "0EC14D4A0F5F753E"
+			tasks: [
+				{
+					id: "2BC79CD067BECE0E"
+					type: "item"
+					item: "mekanism:ingot_refined_obsidian"
+				}
+				{
+					id: "24A9A3F2FB237B1C"
+					type: "item"
+					item: "mekanism:ingot_refined_glowstone"
+				}
+			]
+			rewards: [
+				{
+					id: "72E2A16BAEC10AEC"
+					type: "item"
+					item: "botania:endoflame"
+					count: 2
+				}
+				{
+					id: "7BB1A33D86ADE906"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+				{
+					id: "68793341410414F3"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Universal Fluid Generator T3!"
+			x: 11.5d
+			y: -4.75d
+			description: [
+				"The next tier of Universal Fluid Generators uses new types of fuels to generate power. Although T2 fuels such as biofuel can still be used, energy production will not improve. To achieve true efficiency, T3 fuels must be used instead."
+				""
+				"Blood, Life Essence, Sulfurized Diesel and Light Oil produce 600FE/t for 25 sec."
+				""
+				"Diesel and Kerosene 650FE/t for 30 sec."
+				""
+				"Rocket Fuel 750FE/t for 35 sec."
+			]
+			dependencies: ["0EC14D4A0F5F753E"]
+			id: "408E0EABF0FD70C6"
+			tasks: [{
+				id: "007A1E0099AF62E7"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:diesel03"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0362CF039B754E31"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "immersivepetroleum:diesel_sulfur"
+								Amount: 1000
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "09E09CAB6E9D5A0D"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "62D5892E17C0F7BB"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "EDRU T3!"
+			x: 11.5d
+			y: -1.5d
+			description: [
+				"The latest EDRU model boasts the capacity to install six upgrades of each type, along with a selection of new recipes."
+				""
+				"Some important examples include kerosene and rocket fuel."
+			]
+			dependencies: ["0EC14D4A0F5F753E"]
+			dependency_requirement: "one_completed"
+			id: "4E4D2BE354BCF2A3"
+			tasks: [{
+				id: "46540ED430C4C30D"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:electroly_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00489FBCEC897456"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "4AD3F4F34166AEE7"
+					type: "item"
+					item: "kubejs:pcb_t3"
+				}
+				{
+					id: "3E54BE1A6764DAB6"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Kerosene!"
+			x: 14.25d
+			y: -3.0d
+			description: [
+				"Kerosene can be distilled from either Diesel or Sulfurized diesel. The choice is yours."
+				""
+				"This fuel can be used to generate power with your new Universal Fluid Generator and is also used later in this tier to produce rocket fuel, which is crucial for our space missions."
+			]
+			dependencies: [
+				"4E4D2BE354BCF2A3"
+				"408E0EABF0FD70C6"
+			]
+			id: "1783C76319E1730F"
+			tasks: [{
+				id: "3B0E416311A519C9"
+				type: "item"
+				item: {
+					id: "fluidcells:filled_fluid_cell"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "pneumaticcraft:kerosene"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "16B70B9032EDDC24"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "pneumaticcraft:kerosene"
+								Amount: 1000
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "114CA287158C7273"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "PSImetal!"
+			x: 17.25d
+			y: -4.75d
+			description: ["Psimetal has both magical and technical applications. There are various ways to obtain this metal, but currently, the only technological method is to combine pure gold with heavy oil in an EDRU T3."]
+			dependencies: ["1783C76319E1730F"]
+			id: "108B1DCBF0E393E8"
+			tasks: [{
+				id: "060C234E2E9DE285"
+				type: "item"
+				item: "psi:psimetal"
+			}]
+			rewards: [
+				{
+					id: "1EEB20294DEEABBC"
+					type: "item"
+					item: "psi:psimetal"
+					count: 2
+				}
+				{
+					id: "1385FFAF9C8BB790"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+	]
+}
