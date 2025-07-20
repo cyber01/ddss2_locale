@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 2
 	filename: "tier_2__main_questline"
-	title: "Глава 2 -> Основной квест"
+	title: "Tier 2 -> Main Questline"
 	icon: {
 		id: "custommachinery:custom_machine_item"
 		Count: 1b

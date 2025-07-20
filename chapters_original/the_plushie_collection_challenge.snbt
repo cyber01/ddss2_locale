@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 5
 	filename: "the_plushie_collection_challenge"
-	title: "Коллекция плюшевых игрушек!"
+	title: "The Big Plushie Collection!"
 	icon: {
 		id: "minecraft:player_head"
 		Count: 1b
@@ -630,10 +630,10 @@
 			]
 		}
 		{
-			title: "#20: Penguin Plushie"
+			title: "Nr. 20: Penguin Plushie"
 			x: 13.0d
 			y: -0.5d
-			description: ["Эта игрушка может быть найдена при исследовании подземелий."]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "49173CEEF82E4B83"
 			tasks: [{

@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 5
 	filename: "the_plushie_collection_challenge"
-	title: "Коллекция плюшевых игрушек!"
+	title: "The Big Plushie Collection!"
 	icon: {
 		id: "minecraft:player_head"
 		Count: 1b

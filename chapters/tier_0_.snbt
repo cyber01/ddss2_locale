@@ -3605,13 +3605,7 @@
 			tasks: [{
 				id: "05F34AE0129461B5"
 				type: "item"
-				item: {
-					id: "paraglider:paraglider"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "paraglider:paraglider"
 			}]
 			rewards: [
 				{

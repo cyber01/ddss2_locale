@@ -3,28 +3,28 @@
 	group: ""
 	order_index: 0
 	filename: "tier_0_"
-	title: "Глава 0 -> Основной квест"
+	title: "Tier 0 -> Main Questline"
 	icon: "thermal:device_tree_extractor"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Добро пожаловать в сборку Подземелья, Драконы и Космические шаттлы 2 (DDSS 2)!"
+			title: "Welcome To Dungeons, Dragons ans Space Shuttles 2!"
 			icon: "botania:cosmetic_questgiver_mark"
 			x: -28.0d
 			y: -1.5d
 			shape: "rsquare"
-			subtitle: "Добро пожаловать!"
+			subtitle: "Welcome!"
 			description: [
-				"Добро пожаловать в DDSS 2! Эта книга квестов проведет вас шаг за шагом через эту невероятную сборку! Вам потребуется использовать множество невероятных модов (и измерений!), к которым вы, возможно, никогда раньше не прикасались. Приготовьтесь к долгому и захватывающему приключению!"
+				"Welcome to DDSS 2! This questbook will guide you step by step through this incredible modpack! You will use the variety of incredibly numerous mods (and dimensions!) that you may have never touched before. Get ready for a long and exciting adventure!"
 				""
-				"Эта сборка объединяет большинство технологичных, магических и приключенческих модов, чтобы создать ощущение полноценной игры, а не просто кучи модов, собранных вместе. Книга квестов разделена на 6 глав, которые охватывают все важные темы и вещи, необходимые для прохождения этой сборки. Это также относится и к различным измерениям, которые постепенно становятся важными и необходимыми. Поэтому имейте в виду, что некоторые моды, такие как Blood Magic, можно запустить только на определенном уровне развития техно-магии."
+				"This pack combines most of the tech, magic and adventure mods to make it feel like a complete game rather than a bunch of mods thrown together. The quest book is divided into 6 chapters that cover all the important topics and things you need to work your way through this progression system. This also applies to the different dimensions that gradually become important. Therefore, be aware that some mods, such as Blood Magic, can only be started at a certain tech-magic level."
 				""
-				"Также имейте в виду, что это хардкорная и экспертная сборка. Настоятельно рекомендуется иметь хотя бы базовые знания о модах, используемых в сборку и, возможно, не ожидать прохождения этого модпака за неделю^^"
+				"Also keep in mind this is a hardcore adventure and expert quest-pack. Highly recommended to have at least a basic knowledge about modded minecraft and perhaps not the expectation of playing through this modpack in a week^^"
 				""
-				"Это простой квест \"отметь галочку\". Подтвердите выполнение в верхнем левом углу для продолжения. Все обязательные квесты имеют такую форму иконки."
+				"This is a simple check-mark quest. Confirm in the upper left corner to continue. All mandatory quests are shaped like this one."
 				"{image:modpack:textures/quest_images/ddss2_logo.png width:100 height:100 align:1 fit:true}"
-				"Отдельное спасибо sporefreak за логотип для DDSS2 <3"
+				"Special thanks to sporefreak for reworking the DDSS2 logo <3"
 			]
 			size: 3.0d
 			id: "06F9BD392017336F"
@@ -40,13 +40,13 @@
 			}]
 		}
 		{
-			title: "Первый дополнительный квест?"
+			title: "First Optional Quest?"
 			icon: "sophisticatedbackpacks:backpack"
 			x: -23.0d
 			y: -5.5d
 			shape: "circle"
 			description: [
-				"Квесты с круглой рамкой полностью необязательны и их выполнение зависит от вас. Однако, иногда, они имеют хорошие награды..."
+				"Quests with a round border are completely optional and up to you. However, they sometimes have good rewards..."
 				""
 			]
 			dependencies: ["19D82E72BC44A213"]
@@ -64,17 +64,17 @@
 			}]
 		}
 		{
-			title: "Выберите стартовый набор!"
+			title: "Choose A Starter Kit!"
 			icon: "kubejs:chest_yellow"
 			x: -19.0d
 			y: -1.5d
-			subtitle: "Стартовый набор"
+			subtitle: "Starter Kit"
 			description: [
-				"Это пример типичного квеста с выбором награды. Чтобы выбрать что-либо в качестве награды, сначала выполните квест."
+				"This is a typical choice reward quest. To be able to choose something you must first complete the quest."
 				""
-				"Стартовые наборы \"Tinkers\" и \"Silents\" предоставляет вам основные железные инструменты и оружие ближнего боя из модов Tinkers Contruct и Silent Gear соответственно, а также ремонтные комплекты к ним и 20 факелов."
+				"The Tinkers and Silents Starter Kit provides you with basic iron tools and close combat weapons, as well as repair kits and 20 torches."
 				""
-				"Стартовый набор \"Инспектор Гаджет\" дает вам Золотой обменник (который вы можете починить за золото на наковальне), метатель факелов (заполненный 40 факелами) и арбалет с 30 стрелами. Однако в этом наборе нет инструментов или другого оружия, поэтому вам придется начать с базовыъ инструментов, которые вы создаете как обычно вплоть до железа."
+				"The Inspector Gadget Starter Kit gives you a Golden Exchanger (which you can repair with gold in an anvil), a torch launcher (filled with 40 torches) and a Crossbow with 30 Arrows. However, in this kit there are no tools or other weapons so you have to start with vanilla tools, which you craft as usual up to iron."
 			]
 			dependencies: ["19D82E72BC44A213"]
 			id: "4A8B01968EB75784"
@@ -1548,14 +1548,14 @@
 			]
 		}
 		{
-			title: "Времена года"
+			title: "Serene Season"
 			icon: "byg:snowdrops"
 			x: -16.25d
 			y: -3.5d
 			description: [
-				"В этой сборке есть времена года. Цвет травы и листвы будет меняться в течение года, а зимой будет меняться также и температура, что позволит выпадать снегу в некоторых биомах, где его обычно нет."
+				"We have Serene Season in this pack. Grass and foliage colors will change throughout the year, and in the winter, temperatures will shift and allow for snow to fall in some biomes that don't normally receive any."
 				""
-				"Времена года также влияют на другие характеристики, такие как погода (больше дождей весной, больше штормов летом и т. д.) и больше урожая! (кроме мода Mystical Agriculture)"
+				"Seasons also affect various other features, like weather (More rain in Spring, more storms in Summer, etc.), and crop fertility! (Mystical Agriculture excluded)"
 				""
 			]
 			dependencies: ["4A8B01968EB75784"]
@@ -2113,21 +2113,21 @@
 			]
 		}
 		{
-			title: "Мод Advent of Ascension!"
+			title: "Advent of Ascension!"
 			icon: "kubejs:aoa_mainquest"
 			x: -23.0d
 			y: -1.5d
 			shape: "rsquare"
 			subtitle: "AoA"
 			description: [
-				"DDSS 2 содержит мод AoA (Advent of Ascension, Nevermine)! Измерения и материалы этого мода сильно интегрированы в эту сборка и составляют важную часть прогресса. Квесты с этим значком являются обязательными квестами AoA. В начале они будут для информации, но вскоре у них появятся требования для выполнения."
+				"DDSS 2 contains AoA! (Advent of Ascension, Nevermine) Dimensions and materials of this mod are strictly integrated into this modpack and form an important part of the progression. Quests with this icon are mendatory AoA quests. These will be mainly informative in the beginning, but soon with corresponding requirements."
 				"{image:aoa3:textures/item/strength_tablet.png width:100 height:100 align:1}"
 				""
-				"Это мод добавляет большое количество контента. Геймплей в моде включает исследование 21 измерения, каждое со своей генерацией, структурами, мобами, блоками и предметами. Путешествуя по измерениям, вы можете добывать руду, находить структуры и сражаться с противниками с различными способностями. Это очень весело и есть чем заняться!"
+				"This is a mod with a large amount of content. Gameplay in the mod includes exploring 21 dimensions, each with its own generation, structures, mobs, blocks, and items. While traveling through the dimensions, you can mine ores, locate structures, and battle entities with various abilities. It's a lot of fun and there's a lot to do!"
 				""
-				"Вы можете экипироваться в один из множества комплектов брони из данного мода, большинство из которых имеют особую способность, предоставляемую игроку при ношении. Вы также можете выбирать между большим ассортиментом оружия, начиная от оружия ближнего боя, такого как мечи, и заканчивая оружием дальнего боя, таким как луки, огнестрельное оружение и посохи. С новым снаряжением в руках вы потенциально можете сразиться с одним из 29 боссов мода. И некоторые из них смехотворно сильны ;0"
+				"You can gear up in one of the mod's many armor sets, most having a special ability granted to the player when worn. You may also choose between a large selection of weapons, ranging from melee weapons like swords, to ranged weapons, such as bows, guns, and staves. With the new gear in-hand, you can potentially battle one of the mod's 29 bosses. And some are ridiculously strong ;0"
 				""
-				"По пути вы также сможете тренировать различные навыки, которые откроют вам доступ к новым областям игры, а также к новым предметам или ресурсам."
+				"Along the way, you can also train various skills, which can grant you access to new areas of the game, and give you access to new items or resources."
 				""
 			]
 			dependencies: ["06F9BD392017336F"]
@@ -2400,16 +2400,16 @@
 			]
 		}
 		{
-			title: "Дополнительные квесты AoA"
+			title: "Optional AoA Quests"
 			icon: "kubejs:aoa_sidequest"
 			x: -13.5d
 			y: 2.5d
 			shape: "circle"
 			subtitle: "AOA "
 			description: [
-				"Квест с этим значком это дополнительные квесты AoA. В результате это может начать одиночный квест или целую цепочку квестов с информацией о навыках, оружии или другими интересными задачами для выполнения."
+				"A quest with this icon stands for an AoA side quest. This can start a single quest or a whole chain of them with information about skills, weapons and stuff like that or other interesting tasks to complete."
 				"{image:aoa3:textures/item/awareness_tablet.png width:100 height:100 align:1}"
-				"Узнайте больше о мощном оружии в квестах ниже!"
+				"Learn more about all the powerful weapons in the upcoming quests below!"
 			]
 			dependencies: ["438BC32DF0A617DC"]
 			optional: true
@@ -2520,7 +2520,7 @@
 			}]
 		}
 		{
-			title: "Оружие"
+			title: "Guns"
 			icon: {
 				id: "aoa3:mint_magnum"
 				Count: 1b
@@ -2553,7 +2553,7 @@
 			}]
 		}
 		{
-			title: "Бластеры"
+			title: "Blasters"
 			icon: {
 				id: "aoa3:atomizer"
 				Count: 1b
@@ -2586,7 +2586,7 @@
 			}]
 		}
 		{
-			title: "Снайперские винтовки"
+			title: "Snipers"
 			icon: {
 				id: "aoa3:terminator"
 				Count: 1b
@@ -2619,7 +2619,7 @@
 			}]
 		}
 		{
-			title: "Дробовики"
+			title: "Shotguns"
 			icon: {
 				id: "aoa3:gimmick"
 				Count: 1b
@@ -2652,7 +2652,7 @@
 			}]
 		}
 		{
-			title: "Пушки"
+			title: "Cannons"
 			icon: {
 				id: "aoa3:boom_boom"
 				Count: 1b
@@ -2685,7 +2685,7 @@
 			}]
 		}
 		{
-			title: "Великие клинки"
+			title: "Greatblades"
 			icon: {
 				id: "aoa3:tidal_greatblade"
 				Count: 1b
@@ -2717,7 +2717,7 @@
 			}]
 		}
 		{
-			title: "Молоты"
+			title: "Mauls"
 			icon: {
 				id: "aoa3:vulcammer_maul"
 				Count: 1b
@@ -2749,7 +2749,7 @@
 			}]
 		}
 		{
-			title: "Посохи"
+			title: "Staves"
 			icon: {
 				id: "aoa3:sky_staff"
 				Count: 1b
@@ -2783,7 +2783,7 @@
 			}]
 		}
 		{
-			title: "Арбалеты"
+			title: "Crossbows"
 			icon: {
 				id: "aoa3:spectral_crossbow"
 				Count: 1b
@@ -2816,7 +2816,7 @@
 			}]
 		}
 		{
-			title: "Метательное оружие"
+			title: "Throwables"
 			icon: {
 				id: "aoa3:hellfire"
 				Count: 1b
@@ -3137,7 +3137,7 @@
 			]
 		}
 		{
-			title: "Урожайность растений - ключевая особенность времён года"
+			title: "Crop Fertility is a key feature in Serene Seasons."
 			icon: "pamhc2crops:tomatoseeditem"
 			x: -16.25d
 			y: -5.5d
@@ -3606,13 +3606,7 @@
 			tasks: [{
 				id: "05F34AE0129461B5"
 				type: "item"
-				item: {
-					id: "paraglider:paraglider"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "paraglider:paraglider"
 			}]
 			rewards: [
 				{
