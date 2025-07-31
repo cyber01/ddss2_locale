@@ -149,7 +149,7 @@
 				""
 				"Craft an artisan sifter from flint (or material of your choice) and find some gravel."
 				""
-				"You can make all artisan tools from flint; a good eralygame alternative to save valuable materials."
+				"You can make all the artisan tools you need from flint, which is a good alternative in the early stages of the game and helps you to save valuable materials."
 			]
 			dependencies: ["0602A0659D0C0AED"]
 			id: "68D5B65CD9DCE679"
@@ -196,6 +196,7 @@
 			]
 		}
 		{
+			title: "Sifting Seeds?"
 			icon: "pamhc2crops:lettuceseeditem"
 			x: 3.5d
 			y: -5.5d
@@ -918,7 +919,7 @@
 				""
 				"Raw T1 Materia cannot be directly crafted without Mystical Agriculture and must therefore be obtained from materials. The Primitive Materia Extractor can help you with this."
 				""
-				"Basically all metallic tools can be decomposed into materia. Especially interesting to recycle broken armor or tools. But also many blocks that are made from mob drops, dungeon loot or agriculture. For example, flesh blocks, creates of apples, inferium blocks etc."
+				"All metallic tools can basically be broken down into materia. It is especially interesting to recycle broken armour or tools. This also applies to many blocks made from mob drops, dungeon loot or agricultural products. These include flesh blocks, crates of apples, inferium blocks, etc."
 				""
 				"It's very easy to automate this process with a mob farm and/or food/inferium farm to have a constant flow of materia. Even though you can easily produce it with mystical agriculture, I recommend producing it in different ways because you really need a lot of it.. :O"
 				""
@@ -1317,7 +1318,7 @@
 			x: 17.5d
 			y: -4.5d
 			description: [
-				"Like many items in DDSS2, nuts and bolts come in 6 different tiers. To make them, you must first cut plates into rods and then turn them into nuts and botls."
+				"Like many items in DDSS2, nuts and bolts come in six different tiers. To create them, you must first cut plates into rods, which are then turned into nuts and bolts."
 				""
 				"Machines can later produce way more than you could with the Metallurgic Workstation."
 				""
@@ -1782,16 +1783,14 @@
 			]
 		}
 		{
-			title: "Sandy Coal Compund And Silicon Boules"
+			title: "Sandy Coal Compound and Silicon Boules"
 			icon: "projectred-core:sand_coal_comp"
 			x: 17.5d
 			y: -1.5d
 			description: [
-				"Similar to plasitk or materia, silicon is also a very important component of this pack."
-				"The silicon bouls for it are made by smelting sandy coal compound in a furnace."
+				"Similar to plastic or materia, silicon is also an important component of this pack. The silicon bouls used in it are made by smelting coal compound in a furnace."
 				""
-				""
-				"I recommend as soon as possible to use mixer machines to craft sandy coal compound efficiently."
+				"You should use a mixer machine as soon as you can to craft sandy coal compounds efficiently."
 			]
 			dependencies: ["758404E9AEE3983F"]
 			id: "0E39CE8C2AE18408"
@@ -1874,7 +1873,7 @@
 		{
 			title: "Engineer's + Chemist's Workstation"
 			icon: "artisanworktables:workstation_engineer"
-			x: 21.5d
+			x: 23.5d
 			y: -1.5d
 			description: [
 				"Like all artisan workstations, these 2 will be used primarily during the beginning of your journey until you have machines to replace them."
@@ -1933,6 +1932,11 @@
 					item: "kubejs:bolts_t1"
 					count: 4
 				}
+				{
+					id: "5734142250765352"
+					type: "item"
+					item: "moreplates:red_ingot_plate"
+				}
 			]
 		}
 		{
@@ -1968,6 +1972,7 @@
 			]
 		}
 		{
+			title: "Iron Chest!"
 			x: 15.5d
 			y: -7.5d
 			shape: "circle"
@@ -2002,7 +2007,7 @@
 		{
 			title: "Bronze and Brass"
 			icon: "silents_mechanisms:bronze_dust"
-			x: 23.5d
+			x: 26.5d
 			y: -3.5d
 			description: [
 				"This modpack has a large variety of different alloys."
@@ -2064,7 +2069,7 @@
 		{
 			title: "Advanced Crafting Table!"
 			icon: "extendedcrafting:advanced_table"
-			x: 25.5d
+			x: 28.5d
 			y: -1.5d
 			description: ["This 5x5 workbench is the first of the 3 main large worktables in this pack and is used to craft most machines and devices. Later there is also an automatic version of it that consumes energy."]
 			dependencies: [
@@ -2157,7 +2162,7 @@
 				""
 				"To craft inferium seeds, you need inferium essence. It can be acquired from harvesting or reprocessing Inferium Plants, mining Inferium Ore, or dropped from mobs. "
 				""
-				"And by the way, Mystical Crops are not influenced by Serese Season ;-)"
+				"And by the way, Mystical Crops are not affected by Serene Season ;-)"
 			]
 			dependencies: [
 				"292E4BC091902A53"
@@ -2200,7 +2205,7 @@
 		{
 			title: "Rubber"
 			icon: "industrialforegoing:dryrubber"
-			x: 23.5d
+			x: 26.5d
 			y: 0.5d
 			description: [
 				"Similiar to plastic, rubber also comes in different qualities."
@@ -2340,7 +2345,7 @@
 		}
 		{
 			title: "Mystical Agriculture Metals"
-			x: 23.5d
+			x: 26.5d
 			y: -1.5d
 			description: [
 				"Inferium and its enhanced tiers already have very extensive uses for a wide variety of things."
@@ -2538,7 +2543,6 @@
 				"{image:modpack:textures/aoa/guns_aoa.png width:350 height:100 align:1 fit:true}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "1486E610FE51D2D8"
 			tasks: [{
@@ -2571,7 +2575,6 @@
 				"{image:modpack:textures/aoa/blaster_aoa.png width:350 height:100 align:1 fit:true}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "3ACFF9556C684A92"
 			tasks: [{
@@ -2604,7 +2607,6 @@
 				"{image:modpack:textures/aoa/sniper_aoa.png width:350 height:100 align:1 fit:true}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "4AA08463CDDBFA91"
 			tasks: [{
@@ -2637,7 +2639,6 @@
 				"{image:modpack:textures/aoa/shotgun_aoa.png width:350 height:100 align:1 fit:true}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "2E743C574039D69E"
 			tasks: [{
@@ -2670,7 +2671,6 @@
 				"{image:modpack:textures/aoa/canona_aoa.png width:350 height:100 align:1 fit:true}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "1D701C65C2F6286B"
 			tasks: [{
@@ -2702,7 +2702,6 @@
 				"{image:modpack:textures/aoa/greatblades_aoa.png width:350 height:100 align:1 fit:true}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "05059FAEC05EDC68"
 			tasks: [{
@@ -2734,7 +2733,6 @@
 				"{image:modpack:textures/aoa/mauls.png width:350 height:100 align:1 fit:true}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "2DB914ED663FB68F"
 			tasks: [{
@@ -2768,7 +2766,6 @@
 				"{image:modpack:textures/aoa/staves_aoa.png width:350 height:100 align:1 fit:true}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "706AAB1591E9A593"
 			tasks: [{
@@ -2800,7 +2797,6 @@
 				"{image:modpack:textures/aoa/archerguns_aoa.png width:350 height:100 align:1 fit:true}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "003A076CF7AE4F53"
 			tasks: [{
@@ -2833,7 +2829,6 @@
 				"{image:modpack:textures/aoa/throwable_aoa.png width:350 height:100 align:1 fit:true}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "3998244B4F8FD87C"
 			tasks: [{
@@ -3053,8 +3048,8 @@
 		{
 			title: "Iron Furnace"
 			icon: "ironfurnaces:iron_furnace"
-			x: 21.5d
-			y: 0.5d
+			x: 22.25d
+			y: 1.5d
 			shape: "circle"
 			description: [
 				"An iron furnace is 20% faster than a vanilla furnace"
@@ -3099,14 +3094,14 @@
 		{
 			title: "Arboreal Extractor And Sticky Resin"
 			icon: "thermal:device_tree_extractor"
-			x: 21.5d
+			x: 23.5d
 			y: -3.5d
 			description: [
 				"An arboreal extractor is a device that extracts a fluid from a naturally grown adjacent tree."
 				""
 				"Place it next to the bottom of a tree, then it will start extracting a fluid. Bonemeal serves as a fertilizer and speeds up the process a bit."
 				""
-				"The goal is to collect as much resin as possible because we need it later in T2 for super glue. Make sure to not extract from a maple or dark oak tree or you get sap."
+				"The goal is to collect as much resin as possible, as we will need it later in T1 and T2 for tree oil and super glue. Make sure you don't extract it from a maple or dark oak tree, or you'll end up with sap. If you have Menril trees nearby, take the opportunity to extract menril resin too. This will also be extremely useful later on."
 				""
 				"{image:modpack:textures/quest_images/arboreal.png width:150 height:100 align:1 fit:true}"
 			]
@@ -3206,7 +3201,7 @@
 		{
 			title: "Tinker's Construct!"
 			icon: "tconstruct:smeltery_controller"
-			x: 27.5d
+			x: 30.5d
 			y: -3.5d
 			shape: "gear"
 			description: [
@@ -3281,7 +3276,7 @@
 		{
 			title: "Your first journey leads to hell!"
 			icon: "minecraft:magma_block"
-			x: 27.5d
+			x: 30.5d
 			y: 0.5d
 			description: [
 				"Travel to the Nether and get some magma blocks and netherrack for bricks."
@@ -3354,7 +3349,7 @@
 		{
 			title: "Calcite Dust"
 			icon: "kubejs:calcite_dust"
-			x: 27.5d
+			x: 30.5d
 			y: -1.5d
 			description: [
 				"Calcite dust is quite difficult to get if you don't have machines for it. But you have to start somewhere, don't you^^"
@@ -3386,7 +3381,7 @@
 		{
 			title: "Blast Furnace! (Unlocks Chapter: Main Questline T1)"
 			icon: "immersiveengineering:blastbrick"
-			x: 30.75d
+			x: 33.75d
 			y: -1.5d
 			shape: "gear"
 			description: [
@@ -3513,7 +3508,7 @@
 			title: "Chefs Workstation! [Unlocks Chapter: Chef de Couisine]"
 			icon: "artisanworktables:workstation_chef"
 			x: 25.5d
-			y: -6.75d
+			y: -7.5d
 			description: ["Although this workstation allows you to cook more advanced recipes, it is still very limited. As soon as you finally unlock your first Thermomix, you will be unstoppable and can let off steam with your culinary skills."]
 			dependencies: ["165720DB93DBB5DB"]
 			size: 3.0d
@@ -3587,7 +3582,8 @@
 			]
 		}
 		{
-			x: 25.5d
+			title: "Paraglider!"
+			x: 28.5d
 			y: 1.5d
 			shape: "circle"
 			description: [
@@ -3743,7 +3739,7 @@
 			description: [
 				"In DDSS 2, ores are not gated behind special mining levels, but if at all, then mostly through other dimensions. We have a lot of different great dimensions in DDSS 2, and we use a lot of them as a prerequisite for your main progression."
 				""
-				"This means that with mining level Diamond and Netherite you will be able to mine pretty much everything, but I highly recommend specializing in either Tinker's Construct Tools or Silentgem Tools because you can get a lot of benefits from them."
+				"This means that with mining level Diamond and Netherite you will be able to mine pretty much everything, but I highly recommend specializing in either Tinker's Construct Tools or Silent Gear Tools because you can get a lot of benefits from them."
 			]
 			dependencies: ["4A8B01968EB75784"]
 			id: "0AC228C053844BB5"
@@ -3756,6 +3752,65 @@
 				type: "item"
 				item: "pamhc2foodextended:leafychickensandwichitem"
 				count: 2
+			}]
+		}
+		{
+			x: 24.75d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"These hooks are absolutely amazing! They'll help you climb mountains and move faster than you ever thought possible!"
+				""
+				"I'm not going to lie, the first wooden version might not have the greatest range, but trust me, the improved versions in the upcoming tiers are absolutely unbeatable!"
+				""
+				"But be careful! You can absolutely kill yourself with them!"
+			]
+			dependencies: ["173D40B38702D1AB"]
+			id: "3FA0ADE367CA32D1"
+			tasks: [{
+				id: "11B5BBCCE2D125DF"
+				type: "item"
+				item: {
+					id: "grapple_hooks:hook_wooden"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D95883FD8218F2E"
+					type: "item"
+					item: "pamhc2foodextended:chocolatemilkshakeitem"
+				}
+				{
+					id: "3AC5C2947AD2B8C0"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Hook Enchantments!"
+			x: 24.75d
+			y: 4.5d
+			shape: "circle"
+			description: [
+				"I'm sure you'll be thrilled to hear that hooks can also be enchanted!"
+				""
+				"The hooks bring two enchantments into play: \"Hook Speed (1-7)\" and \"Rope Length (1-7).\" I think both are self-explanatory, but I just wanted to mention it."
+			]
+			dependencies: ["3FA0ADE367CA32D1"]
+			id: "055B66167133C766"
+			tasks: [{
+				id: "245AED79BBEC5CC7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "472E5DB325F3CF21"
+				type: "item"
+				item: "kubejs:coin_t1"
 			}]
 		}
 	]

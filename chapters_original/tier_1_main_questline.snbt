@@ -1896,7 +1896,7 @@
 		}
 		{
 			title: "Silver Chest!"
-			x: 11.0d
+			x: 10.75d
 			y: -10.75d
 			shape: "circle"
 			description: [
@@ -2106,7 +2106,7 @@
 			]
 		}
 		{
-			x: 13.0d
+			x: 12.25d
 			y: -10.75d
 			shape: "circle"
 			description: [
@@ -2136,7 +2136,7 @@
 		}
 		{
 			title: "Frunace Upgrade: Speed"
-			x: 13.0d
+			x: 12.25d
 			y: -13.0d
 			shape: "circle"
 			description: ["This upgrade halves the cooking time of all recipes but doubles the amount of fuel required."]
@@ -2951,7 +2951,7 @@
 				""
 				"Note: If you're familiar with AoA then you've already figured it out. AoA things in DDSS 2 do not work here as they do by default^^"
 				""
-				"Note2: There is also a realmstone for the Nether if you prefer to use this portal for everything in the future. But not for the END."
+				"Note 2: If you want to use this portal for everything in the future, there is also a realmstone for the Nether."
 			]
 			dependencies: ["73A4FC40AF50A5C6"]
 			id: "5FB3404780403AFF"
@@ -3034,7 +3034,7 @@
 		{
 			title: "AoA Currency"
 			icon: "aoa3:copper_coin"
-			x: 30.75d
+			x: 31.75d
 			y: -5.5d
 			shape: "circle"
 			description: [
@@ -4074,6 +4074,12 @@
 						}
 					}
 				}
+				{
+					id: "1AE6C24197EE7215"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+					count: 16
+				}
 			]
 		}
 		{
@@ -4217,8 +4223,8 @@
 		}
 		{
 			title: "High Pressure Boiler!"
-			x: 26.0d
-			y: -11.25d
+			x: 24.5d
+			y: -11.0d
 			shape: "circle"
 			description: [
 				"The High Pressure Boiler is the perfect choice for anyone looking for top-tier singelblock performance and unmatched versatility. It's a significant upgrade from its predecessor, offering a larger tank for both water and steam, along with the flexibility to install more upgrades than before."
@@ -4623,7 +4629,7 @@
 		{
 			title: "Copper Tanks!"
 			icon: "fluidtank:tank_copper"
-			x: 15.0d
+			x: 15.25d
 			y: -10.75d
 			shape: "circle"
 			description: [
@@ -5107,7 +5113,7 @@
 				"{image:modpack:textures/quest_images/bronze_boiler_.png width:150 height:110 align:1}"
 				"Check out JEI for the exact building instructions. Press U on the controller."
 				""
-				"Please be aware that steam can be used to power Universal Fluid generators in Tier 2 to produce electricity. From this perspective, steam can accompany you for a considerable period if you wish it to."
+				"Please be aware that steam can be used to power Universal Fluid generators and Large Steam Turbines to produce electricity. From this perspective, steam can accompany you for a considerable period if you wish it to."
 			]
 			dependencies: ["05FB1BC53F843385"]
 			size: 2.0d
@@ -5289,8 +5295,8 @@
 		}
 		{
 			icon: "masterfulmachinery:steel_boiler_controller"
-			x: 26.0d
-			y: -5.0d
+			x: 27.5d
+			y: -11.0d
 			shape: "gear"
 			description: [
 				"The Large Steel Boiler is pretty awesome. If you have it, you'll be well supplied for a long time. It produces 400mb of steam per tick and uses tons of water. You will definitely need better water collectors or many smaller ones."
@@ -5730,6 +5736,164 @@
 				}
 				{
 					id: "0DB653CA0EEA3DD3"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			x: 29.75d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"Now that you have access to the Ancient Portal Frame, you can create Realmstones for other dimensions, such as the Undergarden."
+				""
+				"It's not mandatory, but it's useful if you prefer to have all portals in one place."
+			]
+			dependencies: ["5FB3404780403AFF"]
+			id: "7755AB8A694AB6B8"
+			tasks: [{
+				id: "1D59C92A52E978CB"
+				type: "item"
+				item: "aoaendr:undergarden_realmstone"
+			}]
+			rewards: [
+				{
+					id: "0984847CB6CBDDD8"
+					type: "item"
+					item: "kubejs:pure_iron"
+					count: 2
+				}
+				{
+					id: "74D7E2E309C6E0D1"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "0200220907EC5143"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Item and Fluid Transporters!"
+			icon: "industrialforegoing:item_transporter_type"
+			x: 25.75d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"Now that you have crafted an Assembler and a Magic Materializer, it's time to explore Transporters. You might know them as Translocators."
+				""
+				"The Item and Fluid Transporter is used to transfer items and fluids between inventories located one block apart. Right-clicking the centre of the transporter with an empty hand will toggle between import and export mode, as indicated by the centre piece moving in or out."
+				""
+				"You can filter items in the GUI using the blacklist and whitelist functions. You can also apply speed and efficiency upgrades from Industrial Foregoing by right-clicking them on the outer ring of the transporter."
+			]
+			dependencies: ["533E604449114ED7"]
+			id: "25669D63E165EF3B"
+			tasks: [
+				{
+					id: "4A7D37347987F8A3"
+					type: "item"
+					item: "industrialforegoing:item_transporter_type"
+				}
+				{
+					id: "601944CC001254DC"
+					type: "item"
+					item: "industrialforegoing:fluid_transporter_type"
+				}
+			]
+			rewards: [
+				{
+					id: "65F6CF8B7103B175"
+					type: "item"
+					item: "industrialforegoing:item_transporter_type"
+				}
+				{
+					id: "07E065AE7AC8A89E"
+					type: "item"
+					item: "industrialforegoing:fluid_transporter_type"
+				}
+				{
+					id: "4EB46A0037AEA53E"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			x: 23.0d
+			y: -5.5d
+			shape: "circle"
+			description: ["World Transporters can be used to pick up items into inventories. They can also be used to drop items into the world."]
+			dependencies: ["25669D63E165EF3B"]
+			id: "4A933ECC59005514"
+			tasks: [{
+				id: "0BFF326D6FA634A1"
+				type: "item"
+				item: "industrialforegoing:world_transporter_type"
+			}]
+			rewards: [
+				{
+					id: "19EA17860826D8C5"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+					count: 4
+				}
+				{
+					id: "5553C45C82068FB3"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 4
+				}
+				{
+					id: "4189C21BBC675442"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			x: 13.75d
+			y: -10.75d
+			shape: "circle"
+			description: ["If you've got the chance to get your hands on Molten Ender, I'd suggest moving up to the stone hook level."]
+			dependencies: ["48E42BAB1A990772"]
+			id: "7EAAE5EBDA9BD27E"
+			tasks: [{
+				id: "475D3B6DEEA44769"
+				type: "item"
+				item: {
+					id: "grapple_hooks:hook_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6DB1119984DDD8C5"
+					type: "item"
+					item: "undergarden:froststeel_ore"
+					count: 4
+				}
+				{
+					id: "325E84EABD1A91DE"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+				}
+				{
+					id: "22B8E7F4841C8D14"
 					type: "item"
 					item: "kubejs:coin_t1"
 				}

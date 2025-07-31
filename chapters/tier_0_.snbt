@@ -196,6 +196,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.401754560C0D4F0F.title}"
 			icon: "pamhc2crops:lettuceseeditem"
 			x: 3.5d
 			y: -5.5d
@@ -1787,10 +1788,8 @@
 			y: -1.5d
 			description: [
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.0E39CE8C2AE18408.description.0}"
+				""
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.0E39CE8C2AE18408.description.1}"
-				""
-				""
-				"{ddss2.tier_0_.2F3E4F0FF24569B6.0E39CE8C2AE18408.description.2}"
 			]
 			dependencies: ["758404E9AEE3983F"]
 			id: "0E39CE8C2AE18408"
@@ -1873,7 +1872,7 @@
 		{
 			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.173D40B38702D1AB.title}"
 			icon: "artisanworktables:workstation_engineer"
-			x: 21.5d
+			x: 23.5d
 			y: -1.5d
 			description: [
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.173D40B38702D1AB.description.0}"
@@ -1932,6 +1931,11 @@
 					item: "kubejs:bolts_t1"
 					count: 4
 				}
+				{
+					id: "5734142250765352"
+					type: "item"
+					item: "moreplates:red_ingot_plate"
+				}
 			]
 		}
 		{
@@ -1967,6 +1971,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4403A5576E3DA26B.title}"
 			x: 15.5d
 			y: -7.5d
 			shape: "circle"
@@ -2001,7 +2006,7 @@
 		{
 			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.2D7A57FB9AA6F34A.title}"
 			icon: "silents_mechanisms:bronze_dust"
-			x: 23.5d
+			x: 26.5d
 			y: -3.5d
 			description: [
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.2D7A57FB9AA6F34A.description.0}"
@@ -2063,7 +2068,7 @@
 		{
 			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.317DBF1CB847DEBB.title}"
 			icon: "extendedcrafting:advanced_table"
-			x: 25.5d
+			x: 28.5d
 			y: -1.5d
 			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.317DBF1CB847DEBB.description.0}"]
 			dependencies: [
@@ -2199,7 +2204,7 @@
 		{
 			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.79697FA8D40077C9.title}"
 			icon: "industrialforegoing:dryrubber"
-			x: 23.5d
+			x: 26.5d
 			y: 0.5d
 			description: [
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.79697FA8D40077C9.description.0}"
@@ -2339,7 +2344,7 @@
 		}
 		{
 			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.485EDA98DC0A6DA6.title}"
-			x: 23.5d
+			x: 26.5d
 			y: -1.5d
 			description: [
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.485EDA98DC0A6DA6.description.0}"
@@ -2537,7 +2542,6 @@
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.1486E610FE51D2D8.description.1}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "1486E610FE51D2D8"
 			tasks: [{
@@ -2570,7 +2574,6 @@
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.3ACFF9556C684A92.description.1}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "3ACFF9556C684A92"
 			tasks: [{
@@ -2603,7 +2606,6 @@
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.4AA08463CDDBFA91.description.1}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "4AA08463CDDBFA91"
 			tasks: [{
@@ -2636,7 +2638,6 @@
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.2E743C574039D69E.description.1}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "2E743C574039D69E"
 			tasks: [{
@@ -2669,7 +2670,6 @@
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.1D701C65C2F6286B.description.1}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "1D701C65C2F6286B"
 			tasks: [{
@@ -2701,7 +2701,6 @@
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.05059FAEC05EDC68.description.1}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "05059FAEC05EDC68"
 			tasks: [{
@@ -2733,7 +2732,6 @@
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.2DB914ED663FB68F.description.1}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "2DB914ED663FB68F"
 			tasks: [{
@@ -2767,7 +2765,6 @@
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.706AAB1591E9A593.description.2}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "706AAB1591E9A593"
 			tasks: [{
@@ -2799,7 +2796,6 @@
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.003A076CF7AE4F53.description.1}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "003A076CF7AE4F53"
 			tasks: [{
@@ -2832,7 +2828,6 @@
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.3998244B4F8FD87C.description.1}"
 			]
 			dependencies: ["4C8E493FBFAC7374"]
-			hide_text_until_complete: true
 			optional: true
 			id: "3998244B4F8FD87C"
 			tasks: [{
@@ -3052,8 +3047,8 @@
 		{
 			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.509D6B0B38DD0CBD.title}"
 			icon: "ironfurnaces:iron_furnace"
-			x: 21.5d
-			y: 0.5d
+			x: 22.25d
+			y: 1.5d
 			shape: "circle"
 			description: [
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.509D6B0B38DD0CBD.description.0}"
@@ -3098,7 +3093,7 @@
 		{
 			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4BA674C407615B72.title}"
 			icon: "thermal:device_tree_extractor"
-			x: 21.5d
+			x: 23.5d
 			y: -3.5d
 			description: [
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.4BA674C407615B72.description.0}"
@@ -3205,7 +3200,7 @@
 		{
 			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.2438FE1AFB255E80.title}"
 			icon: "tconstruct:smeltery_controller"
-			x: 27.5d
+			x: 30.5d
 			y: -3.5d
 			shape: "gear"
 			description: [
@@ -3280,7 +3275,7 @@
 		{
 			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.401B0384EEA5BD59.title}"
 			icon: "minecraft:magma_block"
-			x: 27.5d
+			x: 30.5d
 			y: 0.5d
 			description: [
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.401B0384EEA5BD59.description.0}"
@@ -3353,7 +3348,7 @@
 		{
 			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.5F1F303E6C12E8CC.title}"
 			icon: "kubejs:calcite_dust"
-			x: 27.5d
+			x: 30.5d
 			y: -1.5d
 			description: [
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.5F1F303E6C12E8CC.description.0}"
@@ -3385,7 +3380,7 @@
 		{
 			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.294894D5C29AE7EE.title}"
 			icon: "immersiveengineering:blastbrick"
-			x: 30.75d
+			x: 33.75d
 			y: -1.5d
 			shape: "gear"
 			description: [
@@ -3512,7 +3507,7 @@
 			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.7A0D0768B26DB622.title}"
 			icon: "artisanworktables:workstation_chef"
 			x: 25.5d
-			y: -6.75d
+			y: -7.5d
 			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.7A0D0768B26DB622.description.0}"]
 			dependencies: ["165720DB93DBB5DB"]
 			size: 3.0d
@@ -3586,7 +3581,8 @@
 			]
 		}
 		{
-			x: 25.5d
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.47B0FB87B9CDF24B.title}"
+			x: 28.5d
 			y: 1.5d
 			shape: "circle"
 			description: [
@@ -3755,6 +3751,65 @@
 				type: "item"
 				item: "pamhc2foodextended:leafychickensandwichitem"
 				count: 2
+			}]
+		}
+		{
+			x: 24.75d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3FA0ADE367CA32D1.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3FA0ADE367CA32D1.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3FA0ADE367CA32D1.description.2}"
+			]
+			dependencies: ["173D40B38702D1AB"]
+			id: "3FA0ADE367CA32D1"
+			tasks: [{
+				id: "11B5BBCCE2D125DF"
+				type: "item"
+				item: {
+					id: "grapple_hooks:hook_wooden"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D95883FD8218F2E"
+					type: "item"
+					item: "pamhc2foodextended:chocolatemilkshakeitem"
+				}
+				{
+					id: "3AC5C2947AD2B8C0"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.055B66167133C766.title}"
+			x: 24.75d
+			y: 4.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.055B66167133C766.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.055B66167133C766.description.1}"
+			]
+			dependencies: ["3FA0ADE367CA32D1"]
+			id: "055B66167133C766"
+			tasks: [{
+				id: "245AED79BBEC5CC7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "472E5DB325F3CF21"
+				type: "item"
+				item: "kubejs:coin_t1"
 			}]
 		}
 	]

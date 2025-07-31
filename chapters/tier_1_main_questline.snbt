@@ -1896,7 +1896,7 @@
 		}
 		{
 			title: "{ddss2.tier_1_main_questline.1DBF6954F499E5B3.6FA9145FC081C8CA.title}"
-			x: 11.0d
+			x: 10.75d
 			y: -10.75d
 			shape: "circle"
 			description: [
@@ -2106,7 +2106,7 @@
 			]
 		}
 		{
-			x: 13.0d
+			x: 12.25d
 			y: -10.75d
 			shape: "circle"
 			description: [
@@ -2136,7 +2136,7 @@
 		}
 		{
 			title: "{ddss2.tier_1_main_questline.1DBF6954F499E5B3.661F781D2DA3119F.title}"
-			x: 13.0d
+			x: 12.25d
 			y: -13.0d
 			shape: "circle"
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.661F781D2DA3119F.description.0}"]
@@ -3034,7 +3034,7 @@
 		{
 			title: "{ddss2.tier_1_main_questline.1DBF6954F499E5B3.0C2D2BF8C4FC1DF9.title}"
 			icon: "aoa3:copper_coin"
-			x: 30.75d
+			x: 31.75d
 			y: -5.5d
 			shape: "circle"
 			description: [
@@ -4074,6 +4074,12 @@
 						}
 					}
 				}
+				{
+					id: "1AE6C24197EE7215"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+					count: 16
+				}
 			]
 		}
 		{
@@ -4216,8 +4222,8 @@
 		}
 		{
 			title: "{ddss2.tier_1_main_questline.1DBF6954F499E5B3.46AD6C13530B4137.title}"
-			x: 26.0d
-			y: -11.25d
+			x: 24.5d
+			y: -11.0d
 			shape: "circle"
 			description: [
 				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.46AD6C13530B4137.description.0}"
@@ -4622,7 +4628,7 @@
 		{
 			title: "{ddss2.tier_1_main_questline.1DBF6954F499E5B3.7EDF95AA719D3B6D.title}"
 			icon: "fluidtank:tank_copper"
-			x: 15.0d
+			x: 15.25d
 			y: -10.75d
 			shape: "circle"
 			description: [
@@ -5288,8 +5294,8 @@
 		}
 		{
 			icon: "masterfulmachinery:steel_boiler_controller"
-			x: 26.0d
-			y: -5.0d
+			x: 27.5d
+			y: -11.0d
 			shape: "gear"
 			description: [
 				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.6663E4F67D7594A2.description.0}"
@@ -5729,6 +5735,164 @@
 				}
 				{
 					id: "0DB653CA0EEA3DD3"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			x: 29.75d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.7755AB8A694AB6B8.description.0}"
+				""
+				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.7755AB8A694AB6B8.description.1}"
+			]
+			dependencies: ["5FB3404780403AFF"]
+			id: "7755AB8A694AB6B8"
+			tasks: [{
+				id: "1D59C92A52E978CB"
+				type: "item"
+				item: "aoaendr:undergarden_realmstone"
+			}]
+			rewards: [
+				{
+					id: "0984847CB6CBDDD8"
+					type: "item"
+					item: "kubejs:pure_iron"
+					count: 2
+				}
+				{
+					id: "74D7E2E309C6E0D1"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "0200220907EC5143"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_1_main_questline.1DBF6954F499E5B3.25669D63E165EF3B.title}"
+			icon: "industrialforegoing:item_transporter_type"
+			x: 25.75d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.25669D63E165EF3B.description.0}"
+				""
+				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.25669D63E165EF3B.description.1}"
+				""
+				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.25669D63E165EF3B.description.2}"
+			]
+			dependencies: ["533E604449114ED7"]
+			id: "25669D63E165EF3B"
+			tasks: [
+				{
+					id: "4A7D37347987F8A3"
+					type: "item"
+					item: "industrialforegoing:item_transporter_type"
+				}
+				{
+					id: "601944CC001254DC"
+					type: "item"
+					item: "industrialforegoing:fluid_transporter_type"
+				}
+			]
+			rewards: [
+				{
+					id: "65F6CF8B7103B175"
+					type: "item"
+					item: "industrialforegoing:item_transporter_type"
+				}
+				{
+					id: "07E065AE7AC8A89E"
+					type: "item"
+					item: "industrialforegoing:fluid_transporter_type"
+				}
+				{
+					id: "4EB46A0037AEA53E"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			x: 23.0d
+			y: -5.5d
+			shape: "circle"
+			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.4A933ECC59005514.description.0}"]
+			dependencies: ["25669D63E165EF3B"]
+			id: "4A933ECC59005514"
+			tasks: [{
+				id: "0BFF326D6FA634A1"
+				type: "item"
+				item: "industrialforegoing:world_transporter_type"
+			}]
+			rewards: [
+				{
+					id: "19EA17860826D8C5"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+					count: 4
+				}
+				{
+					id: "5553C45C82068FB3"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 4
+				}
+				{
+					id: "4189C21BBC675442"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			x: 13.75d
+			y: -10.75d
+			shape: "circle"
+			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.7EAAE5EBDA9BD27E.description.0}"]
+			dependencies: ["48E42BAB1A990772"]
+			id: "7EAAE5EBDA9BD27E"
+			tasks: [{
+				id: "475D3B6DEEA44769"
+				type: "item"
+				item: {
+					id: "grapple_hooks:hook_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6DB1119984DDD8C5"
+					type: "item"
+					item: "undergarden:froststeel_ore"
+					count: 4
+				}
+				{
+					id: "325E84EABD1A91DE"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+				}
+				{
+					id: "22B8E7F4841C8D14"
 					type: "item"
 					item: "kubejs:coin_t1"
 				}

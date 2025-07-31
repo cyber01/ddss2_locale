@@ -335,7 +335,7 @@
 		}
 		{
 			title: "Ender Sack?"
-			x: -45.25d
+			x: -45.5d
 			y: 2.5d
 			shape: "circle"
 			description: ["The Ender Sack is a portable utility item that provides access to your Ender Chest."]
@@ -387,7 +387,7 @@
 			]
 		}
 		{
-			x: -42.75d
+			x: -42.5d
 			y: 2.5d
 			shape: "circle"
 			description: [
@@ -602,28 +602,22 @@
 			]
 		}
 		{
-			title: "Tier 2 Energy Cell!"
-			x: -41.0d
+			title: "Capacitors!"
+			x: -37.75d
 			y: -7.75d
 			description: [
-				"Now it's time to start making energy cells. These are mainly used for capacitors, which are responsible for storing energy in machines. "
+				"Now it's time to start making capacitors, which are responsible for storing energy in machines and devices."
 				""
-				"To make the cells, you need battery hulls and mercury, among other things. The easiest way to get mercury is by processing cinnabar dust in a centrifuge. The most effective way would be to use Crimson Iron dust which can be found in the Nether."
+				"To make them, you need battery hulls and mercury, among other things. The easiest way to get mercury is by processing cinnabar dust in a centrifuge. The most effective way would be to use Crimson Iron dust which can be found in the Nether."
 			]
-			dependencies: ["62D7037EC672ECFF"]
+			dependencies: ["0D7A8372CDD8288C"]
 			id: "5E8DECF6901D991B"
 			tasks: [{
 				id: "741E8E11CDD395AB"
 				type: "item"
-				item: "ironjetpacks:tier_2_cell"
+				item: "ironjetpacks:tier_2_capacitor"
 			}]
 			rewards: [
-				{
-					id: "7F21D8BBF12A336C"
-					type: "item"
-					item: "kubejs:battery_hull"
-					count: 2
-				}
 				{
 					id: "52F041193BA4DBA6"
 					type: "item"
@@ -832,43 +826,6 @@
 			]
 		}
 		{
-			x: -37.75d
-			y: -7.75d
-			description: [
-				"The most common use for capacitors is energy storage, power conditioning, electronic noise filtering, remote sensing and signal coupling/decoupling."
-				""
-				"Due to the fact that capacitors are an important and versatile function to varied applications, they are used in a wide range of industries."
-			]
-			dependencies: [
-				"5E8DECF6901D991B"
-				"33F244CCAA70418A"
-			]
-			id: "66DD4513DDA3DCC9"
-			tasks: [{
-				id: "6C3DE92E96103922"
-				type: "item"
-				item: "ironjetpacks:tier_2_capacitor"
-			}]
-			rewards: [
-				{
-					id: "15E1D9B2CEEA9D75"
-					type: "item"
-					item: "powah:dielectric_casing"
-					count: 2
-				}
-				{
-					id: "16364B5C07B6245E"
-					type: "item"
-					item: "kubejs:complexalloy_t2"
-				}
-				{
-					id: "488A8C8F84A1F7B3"
-					type: "item"
-					item: "kubejs:coin_t2"
-				}
-			]
-		}
-		{
 			icon: { id: "kubejs:pump_t2", Count: 2b }
 			x: -41.0d
 			y: -5.25d
@@ -1037,10 +994,10 @@
 			]
 			dependencies: [
 				"356D8A425D9EDF94"
-				"66DD4513DDA3DCC9"
 				"08BD03CB53254B1B"
 				"1B752B999AEAB1AF"
 				"353C477514CB94CA"
+				"5E8DECF6901D991B"
 			]
 			id: "442242E28D3F3DE5"
 			tasks: [{
@@ -2068,6 +2025,7 @@
 			]
 		}
 		{
+			title: "Let's Visit The Deeplands..."
 			x: -22.5d
 			y: -9.5d
 			shape: "circle"
@@ -2076,7 +2034,7 @@
 				""
 				"The surface is covered in plants, and occasionally has some giant fossils. There are also a few different dungeons with special spawners that you can encounter."
 				""
-				"Huge veins of gold, inferium, quartz, and meteorite ore buried from bottom to top are the highlight of this dimension."
+				"Huge veins of gold, inferium, quartz, cinnabar and meteorite ore buried from bottom to top are the highlight of this dimension."
 			]
 			dependencies: ["0EB06F86C908D776"]
 			id: "283B8F7604837E60"
@@ -3294,11 +3252,13 @@
 			x: -28.0d
 			y: -3.5d
 			description: [
-				"The Universal Fluid Generator has 5 tiers (2-6), and each level has certain fuels that can be used to generate power. Also FE generation can be boostet with this machine..."
+				"The Universal Fluid Generator has 5 tiers (2-6), and each level has certain fuels that can be used to generate power. This machine can also boost Ticktime and FE generation when a boosting mixture is used."
 				""
 				"In this tier, the Fluid Generator can burn Steam, Biofuel, and Biodiesel to produce electricity. Biofuel and Biodiesel are very efficient. Steam is less powerful, but you can make plenty of it with a Large Bronze or Steel Boiler!"
 				""
-				"Check JEI for the numbers."
+				"Steam produces 120 FE/t at a burn rate of 100mb/sec"
+				""
+				"Biofuel and Biodiesel 175 FE/t at a burn rate of 15mb/sec"
 			]
 			dependencies: ["49C82129750A7631"]
 			id: "27538E67E6784724"
@@ -3991,7 +3951,7 @@
 		{
 			title: "Speed Upgrades!"
 			x: 4.75d
-			y: -3.75d
+			y: -2.25d
 			shape: "circle"
 			description: [
 				"You probably already know these speed upgrades from Mekanism. Mekanism machines can hold up to 8 of them, increasing speed and energy costs."
@@ -4023,7 +3983,7 @@
 		{
 			title: "Energy Upgrades!"
 			x: 4.75d
-			y: -5.25d
+			y: -3.5d
 			shape: "circle"
 			description: [
 				"The same applies to the energy upgrades. These can also be used for Mekanism and custom machines."
@@ -4053,7 +4013,7 @@
 		{
 			title: "Upgrade Casings!"
 			x: 0.75d
-			y: -5.25d
+			y: -3.5d
 			shape: "circle"
 			description: ["As the name indicates, such upgrade casings are necessary for a wide range of upgrades, many of which involve machinery. However, their use is not limited to these contexts."]
 			dependencies: [
@@ -4081,7 +4041,7 @@
 		}
 		{
 			x: 4.75d
-			y: -6.75d
+			y: -4.75d
 			shape: "circle"
 			description: [
 				"Chance upgrades are applicable exclusively to our custom machines. Each upgrade increases the chance of a recipe with byproduct by 3%. "
@@ -4931,7 +4891,7 @@
 		}
 		{
 			title: "Agricarnation!"
-			x: 19.25d
+			x: 19.0d
 			y: 3.75d
 			shape: "circle"
 			description: ["The Agricarnation is another functional flora. When it is supplied with Mana, it has been observed to cause growth ticks in an area of 5 blocks around it."]
@@ -5024,7 +4984,7 @@
 		}
 		{
 			title: "Entropinnyum!"
-			x: 22.25d
+			x: 22.75d
 			y: 3.75d
 			shape: "circle"
 			description: ["The Entropinnyum generates large amounts of Mana by absorbing the explosion of a block of TNT! (in a 12 block range immediately before they explode, producing 6,500 Mana per explosion)na Spreader within 6 blocks of itself to transfer its mana!"]
@@ -5087,7 +5047,7 @@
 			]
 		}
 		{
-			x: 20.75d
+			x: 20.25d
 			y: 3.75d
 			shape: "circle"
 			description: ["The Fallen Kanade is a functional flower too. When supplied with Mana, it gives players around it the Regeneration status effect."]
@@ -5396,8 +5356,8 @@
 		}
 		{
 			title: "Band Of Aura"
-			x: 4.75d
-			y: -8.5d
+			x: 8.0d
+			y: -14.0d
 			shape: "circle"
 			description: [
 				"Now that you have the laser cutter and know how to make mana runes, The Band of Aura might be for you."
@@ -6728,6 +6688,11 @@
 		}
 		{
 			title: "That was just the basics"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
 			x: 31.5d
 			y: -19.0d
 			description: ["Those were the basics about Refined Storage and ME networks. There is of course a lot more, such as autocrafting, but we will come to that later. "]
@@ -6794,7 +6759,7 @@
 			description: [
 				"The Abyss offers a variety of ores that are not necessarily available in this quantity in other dimensions."
 				""
-				"Bloodstone is a one-of-a-kind product that is exclusively available here. In addition to that, Osram, Valyrium, Rock Crystal, and a significant presence of Bismuth ores have been identified."
+				"Bloodstone and Abyssum are a one-of-a-kind product that are exclusively available here. In addition to that, Osram, Valyrium, Rock Crystal, and a significant presence of Bismuth ore have been identified."
 			]
 			dependencies: ["7F5207BDDB4CCC21"]
 			id: "0DBE0DCEAE8F99C1"
@@ -6815,6 +6780,12 @@
 					id: "349506CCF211D807"
 					type: "item"
 					item: "taiga:valyrium_ingot"
+					count: 2L
+				}
+				{
+					id: "7F798027763D29BE"
+					type: "item"
+					item: "taiga:abyssum_ingot"
 					count: 2L
 				}
 			]
@@ -6838,7 +6809,13 @@
 					count: 2
 				}
 				{
-					id: "71CD19F09F1E840A"
+					id: "0E9586611A51983D"
+					type: "item"
+					item: "taiga:abyssum_ore"
+					count: 2
+				}
+				{
+					id: "2C8BD13559899F7C"
 					type: "item"
 					item: "kubejs:coin_t2"
 				}
@@ -6853,7 +6830,7 @@
 					machine: "custommachinery:vom_t2"
 				}
 			}
-			x: 41.5d
+			x: 44.25d
 			y: -11.25d
 			shape: "gear"
 			description: [
@@ -6862,6 +6839,8 @@
 				"Each new level provides the loot from all previous levels and adds another one. For example, if you used to get one iron ore per run in T1, you will now get one iron ore plus a new ore from the T2 loottable."
 				""
 				"You can also equip this VOM with up to 4 speed and energy upgrades."
+				""
+				"And with this quest you've mastered the second chapter! Congratulations, you did a great job!"
 			]
 			dependencies: ["0DBE0DCEAE8F99C1"]
 			size: 3.0d
@@ -6930,7 +6909,30 @@
 					item: "jaopca:storage_blocks.pure_iron"
 				}
 				{
-					id: "06868804862ADFB8"
+					id: "06CE2D5FD6FC8B8D"
+					type: "item"
+					item: "paraglider:stamina_vessel"
+				}
+				{
+					id: "45275E16003501B1"
+					type: "item"
+					item: "kubejs:mixture_t2"
+					count: 10
+				}
+				{
+					id: "275754C97447DFB2"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 16
+				}
+				{
+					id: "2A50CD6A9EF67694"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 30
+				}
+				{
+					id: "2147E712907035AB"
 					type: "item"
 					item: "kubejs:coin_t2"
 					count: 4
@@ -8001,6 +8003,459 @@
 				}
 				{
 					id: "1D8714A2ADB5FC97"
+					type: "item"
+					item: "kubejs:coin_t2"
+				}
+			]
+		}
+		{
+			title: "Solar Panel 1"
+			x: 0.75d
+			y: -7.25d
+			shape: "circle"
+			description: [
+				"Solar panels are a very convenient and efficient way of generating electricity, but a little more complex to make than conventional generators. The first panel makes 100 FE/t."
+				""
+				"All Solar Flux Reborn Panels can be upgraded to improve their energy output, transfer rate and capacity."
+			]
+			dependencies: ["68948AD50703B3E0"]
+			id: "33BCC59F79156B13"
+			tasks: [{
+				id: "14589CE3974ED19C"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			rewards: [
+				{
+					id: "7ABFF30E71C44F5A"
+					type: "item"
+					item: "solarflux:photovoltaic_cell_1"
+					count: 4
+				}
+				{
+					id: "7048D0DE2A73C24D"
+					type: "item"
+					item: "kubejs:mech_arm_t2"
+				}
+				{
+					id: "0BDABD5FBC33DAD2"
+					type: "item"
+					item: "kubejs:coin_t2"
+				}
+			]
+		}
+		{
+			title: "Battery Hulls"
+			x: -41.0d
+			y: -7.75d
+			description: ["Battery hulls are essential components in the manufacturing process of capacitors and energy cells. The production of the hull requires lead and quartz-enriched iron."]
+			dependencies: ["62D7037EC672ECFF"]
+			id: "0D7A8372CDD8288C"
+			tasks: [{
+				id: "4287B2806C800DFF"
+				type: "item"
+				item: "kubejs:battery_hull"
+			}]
+			rewards: [
+				{
+					id: "4EF8EDF558C5850E"
+					type: "item"
+					item: "kubejs:battery_hull"
+				}
+				{
+					id: "3CAD2B9FBDD1A41C"
+					type: "item"
+					item: "projectred-core:silicon"
+					count: 2
+				}
+				{
+					id: "7313A3F6C1DC61A5"
+					type: "item"
+					item: "kubejs:coin_t2"
+				}
+			]
+		}
+		{
+			title: "Large Froststeel Boiler!"
+			icon: "masterfulmachinery:freezer_controller"
+			x: 36.0d
+			y: -15.5d
+			shape: "gear"
+			description: [
+				"The Large Froststeel Boiler is a powerful machine and the successor to the Steel Boiler, which produces large quantities of steam. Unfortunately, it also uses a lot of water."
+				""
+				"The system produces 1,250mb of steam per/t, with a water consumption of 1,750 mb/t."
+				""
+				"{image:modpack:textures/quest_multiblock/froststeel_boiler.png width:160 height:120 align:1}"
+			]
+			dependencies: ["0DC85F248DF2438D"]
+			size: 2.0d
+			id: "2EB7C7653C5501FB"
+			tasks: [
+				{
+					id: "208F0C279274132E"
+					type: "item"
+					item: "masterfulmachinery:freezer_controller"
+				}
+				{
+					id: "5E6FCC50A0A8D3C4"
+					type: "item"
+					item: "kubejs:mbcasing_t2"
+					count: 3L
+				}
+				{
+					id: "6808031E1FC00E4A"
+					type: "item"
+					item: "masterfulmachinery:freezer_item1_port_items_input"
+				}
+				{
+					id: "3EE5B997EC7A5DED"
+					type: "item"
+					item: "masterfulmachinery:freezer_fluid1_port_fluids_input"
+				}
+				{
+					id: "3D12859033E83BB7"
+					type: "item"
+					item: "masterfulmachinery:freezer_fluid1_port_fluids_output"
+				}
+				{
+					id: "61290C7A2B6122CC"
+					type: "item"
+					item: "kubejs:frost_hull"
+					count: 19L
+				}
+			]
+			rewards: [
+				{
+					id: "3AB4EEB11DE2A872"
+					type: "item"
+					item: "kubejs:frost_hull"
+					count: 10
+				}
+				{
+					id: "0465D9188AD33E97"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t2_bags"
+								BagType: "treasurebags:t2_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "523A1AEB3B1A06B5"
+					type: "item"
+					item: "kubejs:mixture_t2"
+					count: 2
+				}
+				{
+					id: "3D2D530BF83D9C09"
+					type: "item"
+					item: "kubejs:materia_t2"
+					count: 4
+				}
+				{
+					id: "6D51C60389B5DE55"
+					type: "item"
+					item: "kubejs:coin_t2"
+				}
+			]
+		}
+		{
+			title: "Large Steam Turbine?!"
+			icon: "masterfulmachinery:tier2_controller"
+			x: 5.0d
+			y: -9.0d
+			shape: "gear"
+			description: [
+				"This optional quest focuses on the Large Steam Turbine. This multiblock is present in all tiers from T2 onwards and generates power from steam. This turbine produces 750FE/t with a steam consumption of 250mb/t."
+				""
+				"While the machine is running, it produces small amounts of distilled water as a by-product in the fluid output hatch."
+				""
+				"{image:modpack:textures/quest_multiblock/steamturbine_t2.png width:160 height:120 align:1}"
+			]
+			dependencies: ["5B0D5F897771C1AA"]
+			size: 2.0d
+			id: "5DB030F037C2AF9E"
+			tasks: [
+				{
+					id: "61639C33EE851AF4"
+					type: "item"
+					item: "masterfulmachinery:tier2_controller"
+				}
+				{
+					id: "079BD4A3CE6C296A"
+					type: "item"
+					item: "kubejs:mbcasing_t2"
+					count: 6L
+				}
+				{
+					id: "75804E2BBDD434C2"
+					type: "item"
+					item: "masterfulmachinery:tier2_energy2_port_energy_output"
+				}
+				{
+					id: "1047566805DFE829"
+					type: "item"
+					item: "masterfulmachinery:tier2_fluid2_port_fluids_input"
+				}
+				{
+					id: "33501CE45C281ACE"
+					type: "item"
+					item: "masterfulmachinery:tier2_fluid2_port_fluids_output"
+				}
+				{
+					id: "2EFE590C6EF8711E"
+					type: "item"
+					item: "kubejs:basic_hull"
+					count: 20L
+				}
+			]
+			rewards: [
+				{
+					id: "3BF2FA579F5F71CC"
+					type: "item"
+					item: "kubejs:basic_hull"
+					count: 15
+				}
+				{
+					id: "07A4CFB27D3AE242"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t2_bags"
+								BagType: "treasurebags:t2_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "7BE4033839E05041"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 5
+				}
+				{
+					id: "07AA96D4F7564527"
+					type: "item"
+					item: "kubejs:materia_t2"
+					count: 4
+				}
+				{
+					id: "20A670C0EE708841"
+					type: "item"
+					item: "kubejs:circuit_t2"
+				}
+				{
+					id: "5EE1D7485774499B"
+					type: "item"
+					item: "kubejs:coin_t2"
+				}
+			]
+		}
+		{
+			title: "Are you struggling with Rich Slag?"
+			x: -44.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"If you're having trouble getting your hands on rich slag, there's another method you can try."
+				""
+				"You just need to smelt gravel in a furnace to obtain regular slag, which you can then refine in an EDRU to get rich slag. It might not be the easiest solution for now, but it's a start if you're not getting enough from alloying and grinding."
+			]
+			dependencies: ["0ACCD65F29F0DB95"]
+			id: "57958D976C726820"
+			tasks: [{
+				id: "01752A1DA4C26BB6"
+				type: "checkmark"
+				title: "Struggle with Rich Slag?"
+			}]
+			rewards: [{
+				id: "60EE68A83D47428F"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "END Realmstone"
+			icon: "kubejs:aoa_sidequest"
+			x: -18.25d
+			y: 2.25d
+			shape: "circle"
+			description: [
+				"If you haven't found an END portal yet and you're tired of searching for one the old-fashioned way, then the END Realmstone is exactly what you need!"
+				""
+				"Wouldn't it be great to make the END available through your ancient portal as well?"
+			]
+			dependencies: ["0331F0C3D4EE7DDB"]
+			id: "2D5057C0BD9005F6"
+			tasks: [{
+				id: "00CEE5A2F9351E27"
+				type: "item"
+				item: "aoaendr:end_realmstone"
+			}]
+			rewards: [
+				{
+					id: "56F52E9836E9D2BB"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t2_bags"
+								BagType: "treasurebags:t2_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "3A8A89E4BC83109D"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+					count: 8
+				}
+				{
+					id: "46E2FC66111168D9"
+					type: "item"
+					item: "kubejs:coin_t2"
+				}
+			]
+		}
+		{
+			x: 0.75d
+			y: -6.0d
+			shape: "circle"
+			description: ["This Basic version of Chunkloaders is capable of loading a 3 by 3 chunk area."]
+			dependencies: ["68948AD50703B3E0"]
+			id: "1B889904E5FAA44E"
+			tasks: [{
+				id: "2AC49A9B8C4A471B"
+				type: "item"
+				item: "chunkloaders:basic_chunk_loader"
+			}]
+			rewards: [
+				{
+					id: "37391A4293B5B973"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+					count: 16
+				}
+				{
+					id: "6378064A7A3B074E"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t2_bags"
+								BagType: "treasurebags:t2_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "3D0571EB1D0C0A31"
+					type: "item"
+					item: "kubejs:coin_t2"
+				}
+			]
+		}
+		{
+			title: "Sanguinary Pedestal"
+			x: 21.5d
+			y: 3.75d
+			shape: "circle"
+			description: [
+				"If you're tired of pushing mobs off cliffs or simply killing them to extract blood, the Sanguinary Pedestal is for you. It can extract blood from nearby blood stains and place it in any nearby tanks. "
+				""
+				"Place a Spiked Plate on top to enhance its ability to absorb the blood of the beasts it kills and redirect it to the pedestal."
+			]
+			dependencies: ["5D06C7A174D7B771"]
+			id: "35DC8D11D2FE24D7"
+			tasks: [{
+				id: "3DEA7C6DC6958419"
+				type: "item"
+				item: {
+					id: "evilcraft:sanguinary_pedestal_0"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "20A3D6FD46259767"
+					type: "item"
+					item: "kubejs:starlight_ingot"
+					count: 4
+				}
+				{
+					id: "7926EAA65E4673E0"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "astralsorcery:liquid_starlight"
+								Amount: 1000
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "5A625E8B4999212E"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			x: 0.75d
+			y: -4.75d
+			shape: "circle"
+			description: ["Well the Iron Hook is better and faster than the previous versions. What more could you ask for?"]
+			dependencies: ["68948AD50703B3E0"]
+			id: "355317C82AC2B853"
+			tasks: [{
+				id: "700143793AC3F973"
+				type: "item"
+				item: {
+					id: "grapple_hooks:hook_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5189FF563FE44CCF"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "grapple_hooks:rope_distance"
+							}]
+						}
+					}
+				}
+				{
+					id: "26EF830E0509F4EC"
 					type: "item"
 					item: "kubejs:coin_t2"
 				}

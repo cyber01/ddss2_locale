@@ -1,0 +1,272 @@
+{
+	id: "724F0BF493FB9CFF"
+	group: ""
+	order_index: 4
+	filename: "tier_4__main_questline"
+	title: "Tier 4 -> Main Questline"
+	icon: {
+		id: "custommachinery:custom_machine_item"
+		Count: 1b
+		tag: {
+			machine: "custommachinery:pulverizer04_ultra"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome To Tier 4!"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -14.5d
+			y: -0.75d
+			description: [
+				"Welcome to T4! It's been an exciting journey so far, and luckily it's not over yet!"
+				""
+				"Get ready for an absolutely thrilling experience – this tier is going to be anything but boring! We're picking up where we left off with our space mission and are excited to conquer even deeper regions of space with our next rocket. We are looking forward to setting foot in some very bizarre AoA dimensions. We'll be playing with alchemistry and delving deeper into its world of elements and atoms, while taking on a few dragons to forge valuable dragonsteel."
+				""
+				"We are additionally looking forward to further improving our blood and astral sorcery altar, as well as visiting the real Alfheim dimension in Botania."
+			]
+			dependencies: ["7863192AF3DC02F0"]
+			size: 3.0d
+			id: "510FBD97BEEB61A8"
+			tasks: [{
+				id: "12CC52D200FDDB26"
+				type: "checkmark"
+				title: "Welcome to Tier 4!"
+			}]
+			rewards: [{
+				id: "69778A9BC17F793C"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "And finally, we're going to the moon!"
+			icon: "aoa3:nether_portal"
+			x: -8.0d
+			y: -0.75d
+			description: [
+				"If you've ever wondered whether there's really cheese on the moon... Well, yes! It's all true!"
+				""
+				"The moon is absolutely stunning, and it's so exciting to see all the amazing resources it has! Among them you will find Desh, Titanium, Moonstone, Eezo, Obsidiorite, the long-awaited cheese, and even moon rock and moon sand are of great importance for advancing in T4. Make sure you get a little from each one at least for this quest. "
+				""
+				"However, it would be better to collect pretty much everything you can, and you might want to set up a Quarry with Tesseracts or Ender chests, because you're really going to need a lot of this stuff!"
+			]
+			dependencies: ["510FBD97BEEB61A8"]
+			id: "1C6DA9B0C1CDFE01"
+			tasks: [
+				{
+					id: "26DCC217D84C198F"
+					type: "dimension"
+					dimension: "boss_tools:moon"
+				}
+				{
+					id: "65D958B1927AD026"
+					type: "item"
+					item: "kubejs:titanium_ore"
+					count: 2L
+				}
+				{
+					id: "746665DA1EE24C4B"
+					type: "item"
+					item: "boss_tools:moon_desh_ore"
+					count: 2L
+				}
+				{
+					id: "093C7F890E85BFB6"
+					type: "item"
+					item: "silentgems:moonstone_ore"
+					count: 2L
+				}
+				{
+					id: "739A8BA4FB0359EB"
+					type: "item"
+					item: "boss_tools:moon_stone"
+					count: 6L
+				}
+				{
+					id: "550FDB4A11B13D12"
+					type: "item"
+					item: "boss_tools:moon_sand"
+					count: 6L
+				}
+			]
+			rewards: [
+				{
+					id: "08DE85E864EECDFB"
+					type: "item"
+					item: "kubejs:titanium_ore"
+				}
+				{
+					id: "791F0DFD9A7C99D1"
+					type: "item"
+					item: "boss_tools:moon_desh_ore"
+				}
+				{
+					id: "3341692D89AD8712"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "Mysterium Realmstone?"
+			icon: "kubejs:aoa_mainquest"
+			x: -5.0d
+			y: 1.0d
+			description: [
+				"Mysterium is a mushroom cavern dimension."
+				""
+				"In order to craft the Realmstone and access this dimension using your Ancient Portal, you will need some Desh, Moonstone, Corrupting Powder and a few other items."
+			]
+			dependencies: ["1C6DA9B0C1CDFE01"]
+			id: "345078835DF3E2B6"
+			tasks: [{
+				id: "7C85E71A2D8CEDB4"
+				type: "item"
+				item: "aoa3:mysterium_realmstone"
+			}]
+			rewards: [{
+				id: "4C75DD057E965232"
+				type: "item"
+				item: "kubejs:coin_t4"
+			}]
+		}
+		{
+			title: "Mysterium..."
+			x: -2.25d
+			y: 1.0d
+			description: [
+				"Unlike the mod's other cave dimensions, Mysterium is a cave dimension with a surface instead of a dimensional fabric ceiling."
+				""
+				"Its surface is located at y=121 and is mostly flat, with only minor changes in elevation. It is covered in rainbow grasses and other mystical foliage, as well as model shroom blocks in different colours. The only structures to generate floating above the surface are distortion rune shrines."
+				""
+				"Most of Mysterium's activity, generation and structures take place deep underground in the dimension's many caves. These caves extend from the surface all the way down to the bottom of the world. While some caves are small, like overworld caves, others are larger and more expansive. The underground is mostly made of fungal rock, though the cave surfaces are made of fungal grass with no fungal dirt."
+			]
+			dependencies: ["345078835DF3E2B6"]
+			id: "53281CA00D8DF527"
+			tasks: [{
+				id: "4F0BDF108C99FCDE"
+				type: "dimension"
+				dimension: "aoa3:mysterium"
+			}]
+			rewards: [{
+				id: "772F491A308F64FE"
+				type: "item"
+				item: "kubejs:coin_t4"
+			}]
+		}
+		{
+			title: "Mysteriums' resources..."
+			icon: "aoa3:mystite_ore"
+			x: 0.25d
+			y: 1.0d
+			description: [
+				"Mysterium has a limited selection of ores, but each one is vital."
+				""
+				"Mystite and chromium are unique to this location. You can also find prometheum, which is normally only found in small amounts in the Nether and will be useful for many TAIGA alloys in the future."
+			]
+			dependencies: ["53281CA00D8DF527"]
+			id: "0ABE4A3B00A5D08F"
+			tasks: [
+				{
+					id: "029EA63B0DD6C185"
+					type: "item"
+					item: "aoa3:mystite_ore"
+					count: 2L
+				}
+				{
+					id: "0263643BF8F8D92C"
+					type: "item"
+					item: "kubejs:chromium_ore"
+					count: 2L
+				}
+				{
+					id: "6770E6117B973A33"
+					type: "item"
+					item: "taiga:prometheum_ore"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "33F53EB86E32F1FE"
+					type: "item"
+					item: "aoa3:mystite_ore"
+					count: 2
+				}
+				{
+					id: "3796907CAA311A22"
+					type: "item"
+					item: "kubejs:chromium_ore"
+					count: 2
+				}
+				{
+					id: "49E79E8EEDA6EEFE"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "Titantium Ingots!"
+			x: -5.0d
+			y: -1.75d
+			description: [
+				"Processing titanium is more difficult than processing other ingots. Since we lack an effective chemical dissolver, we must produce it indirectly, which results in a lot of titanium ore being wasted. However, we will soon be able to do better."
+				""
+				"Combine 4 titanium dusts and one obsidian dust in a Fusion Computer T3 or higher to produce titanium ingots."
+			]
+			dependencies: ["1C6DA9B0C1CDFE01"]
+			id: "6D7947BEDC8E464F"
+			tasks: [{
+				id: "1062E781146359FD"
+				type: "item"
+				item: "chemlib:ingot_titanium"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "3DF0E3EF493597DB"
+					type: "item"
+					item: "chemlib:ingot_titanium"
+					count: 2
+				}
+				{
+					id: "72B0A4F495D2A7A2"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			x: -2.25d
+			y: -1.75d
+			description: ["We didn't collect moon stone and sand for no reason. In fact, we can use them to produce moon dust, an essential ingredient in T4 Materia. Moon dust can also be processed in a centrifuge to obtain other interesting materials."]
+			dependencies: ["6D7947BEDC8E464F"]
+			id: "3BD3B6AD3BE3D2E6"
+			tasks: [{
+				id: "380487CF71E12E04"
+				type: "item"
+				item: "kubejs:moon_dust"
+			}]
+			rewards: [
+				{
+					id: "2B3664F6FFAA48C6"
+					type: "item"
+					item: "boss_tools:moon_stone"
+					count: 10
+				}
+				{
+					id: "1F2B595BA6979A0A"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+	]
+}
