@@ -1,7 +1,7 @@
 # Dungeons, Dragons and Space Shuttles 2 locale files
 
 
-**Link**: https://minecraft.curseforge.com/projects/dungeons-dragons-and-space-shuttles  ??
+**Link**: https://www.curseforge.com/minecraft/modpacks/dungeons-dragons-and-space-shuttles-2
 **Author**: https://minecraft.curseforge.com/members/Freebi85  
 **Russian translation**: cyber01  
 
@@ -36,7 +36,7 @@ You need to make a Fork repository, translate the localization file (create a ne
 ## Для русскоязычной аудитории:
 # Файлы локализации для сборки Dungeons, Dragons and Space Shuttles 2
 
-**Ссылка на сборку**: https://minecraft.curseforge.com/projects/dungeons-dragons-and-space-shuttles  ???
+**Ссылка на сборку**: https://www.curseforge.com/minecraft/modpacks/dungeons-dragons-and-space-shuttles-2
 **Автор сборки**: https://minecraft.curseforge.com/members/Freebi85  
 **Русский перевод**: cyber01  
 

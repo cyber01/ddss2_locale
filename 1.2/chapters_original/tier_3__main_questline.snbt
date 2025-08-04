@@ -31,6 +31,7 @@
 				"There's so much to do, and we can't wait to get started! Let's dive right in! :D"
 			]
 			dependencies: ["504FE99F304C2094"]
+			hide: true
 			size: 3.0d
 			id: "1B19951C6B4D5371"
 			tasks: [{
@@ -55,6 +56,7 @@
 				"The centre has buttons that let you change the rotation and mirroring. The current rotation is shown above the buttons.When you're happy, click 'Confirm' to save your choice and close the GUI."
 			]
 			dependencies: ["1B19951C6B4D5371"]
+			hide: true
 			id: "03877A82145E023E"
 			tasks: [{
 				id: "46894EE4195D5693"
@@ -95,6 +97,7 @@
 				"63451D6FBEF8277A"
 				"50FCE8CB54E1B746"
 			]
+			hide: true
 			id: "62180FC895AD00C2"
 			tasks: [{
 				id: "4F3E6A1E54170913"
@@ -107,6 +110,7 @@
 			}]
 		}
 		{
+			title: "Core Sample Drill?"
 			x: -32.0d
 			y: -1.0d
 			description: [
@@ -117,6 +121,7 @@
 				"It takes 10 seconds to complete its work. When it has finished, it can be right-clicked to get a core sample. The sample shows how much water, lava or oil this chunk has in mB and what type of deposit it is. It is possible that the chunk has none of these liquids or minerals."
 			]
 			dependencies: ["1B19951C6B4D5371"]
+			hide: true
 			id: "50FCE8CB54E1B746"
 			tasks: [{
 				id: "710A41F34AA4F19D"
@@ -156,6 +161,7 @@
 			y: -3.0d
 			description: ["With all the equipment we have built in the previous stage, we are now finally able to produce Materia T3. As always, this will be a very important part of the rope. After all, we have learned that Materia is everywhere....."]
 			dependencies: ["1B19951C6B4D5371"]
+			hide: true
 			id: "63451D6FBEF8277A"
 			tasks: [{
 				id: "26AD0B9A52245EA1"
@@ -197,6 +203,7 @@
 				"You can also use the crude oil that you sometimes find on the surface of the overworld."
 			]
 			dependencies: ["62180FC895AD00C2"]
+			hide: true
 			size: 2.0d
 			id: "26E021581397820E"
 			tasks: [
@@ -286,6 +293,7 @@
 				"{image:modpack:textures/quest_multiblock/pumpjack.png width:125 height:130 align:1}"
 			]
 			dependencies: ["62180FC895AD00C2"]
+			hide: true
 			size: 2.0d
 			id: "4DBC2DC7967C855B"
 			tasks: [
@@ -387,6 +395,7 @@
 				"{image:modpack:textures/quest_multiblock/recovery_unit.png width:125 height:125 align:1}"
 			]
 			dependencies: ["62180FC895AD00C2"]
+			hide: true
 			size: 2.0d
 			id: "21277B614B24FE6E"
 			tasks: [
@@ -484,6 +493,7 @@
 				"4DBC2DC7967C855B"
 				"21277B614B24FE6E"
 			]
+			hide: true
 			id: "4E066BC181768509"
 			tasks: [
 				{
@@ -560,6 +570,7 @@
 				"- Sulfurized Diesel, Diesel = 350 ticks"
 			]
 			dependencies: ["62180FC895AD00C2"]
+			hide: true
 			size: 2.0d
 			id: "751E286858C9E3EA"
 			tasks: [
@@ -634,6 +645,7 @@
 			y: -4.5d
 			description: ["Now that we have Diesel, we can finally start producing high-carbon petroleum steel in the Fusion Computer."]
 			dependencies: ["4E066BC181768509"]
+			hide: true
 			id: "14CCEA6F4102EC34"
 			tasks: [{
 				id: "1488DEB451C2154F"
@@ -661,6 +673,7 @@
 			shape: "circle"
 			description: ["There's more than meets the eye under the bedrock. You can also find distilled water or even nitronite..... Keep analyzing with the core sample drill."]
 			dependencies: ["4DBC2DC7967C855B"]
+			hide: true
 			id: "7A6F108A67E7FC49"
 			tasks: [{
 				id: "42BCC5D68831E1C9"
@@ -679,6 +692,7 @@
 			y: -1.5d
 			description: ["Lumix is another component for Complex Alloy T3. It is made in a fusion computer and needs terrax, palladium, and oxygen."]
 			dependencies: ["4E066BC181768509"]
+			hide: true
 			id: "27BA47C69DB1B838"
 			tasks: [{
 				id: "485EEC79EE54B742"
@@ -712,6 +726,7 @@
 				"14CCEA6F4102EC34"
 				"27BA47C69DB1B838"
 			]
+			hide: true
 			id: "4350E9E69B95DB53"
 			tasks: [
 				{
@@ -761,9 +776,10 @@
 				""
 				"It uses the same amount of energy as if you were building it in the same tier. Your smaller machines can handle those tasks for a while, but it will be a good idea to move on when the time is right. I'm sharing this in case you're wondering why energy costs are going up so fast while crafting T3 parts."
 				""
-				"On average, most T3 singelblock machines consume 300-400 FE/t without using any upgrades or boosting mixture."
+				"Please note that the average consumption of T3 single-block machines is usually between 300 and 400 FE/t, and there is a base chance of 30% for the by-product slots."
 			]
 			dependencies: ["4350E9E69B95DB53"]
+			hide: true
 			id: "74837DE401308F45"
 			tasks: [{
 				id: "1A26DA2AABF046A2"
@@ -781,6 +797,7 @@
 			y: -7.0d
 			description: ["The subsequent step involves the production of Unstable Cryogen Mixture MK1. To achieve this, please use your Fluid Mixer. This fluid is used in the MQ Coolant procedure."]
 			dependencies: ["74837DE401308F45"]
+			hide: true
 			id: "43139F24B8E1AF1C"
 			tasks: [{
 				id: "48920D45FEF03637"
@@ -815,6 +832,7 @@
 			y: -7.0d
 			description: ["To proceed, please use your Vacuum Freezer to combine all the necessary substances to produce MQ Coolant, which is used for most T3 machines."]
 			dependencies: ["43139F24B8E1AF1C"]
+			hide: true
 			id: "19A1B03776CD395E"
 			tasks: [{
 				id: "36A9985B4F6B3EF0"
@@ -855,6 +873,7 @@
 			y: -4.0d
 			description: ["The next memory module is needed for T3 Circuits and Logic Processors. Remember, the better the plastic, the more you can make."]
 			dependencies: ["74837DE401308F45"]
+			hide: true
 			id: "33B63B6EC0D28527"
 			tasks: [{
 				id: "0A8C6F088104F5C3"
@@ -885,6 +904,7 @@
 				"One of the most useful recipes for using Boosting Mixture? Probably..."
 			]
 			dependencies: ["33B63B6EC0D28527"]
+			hide: true
 			id: "3946F6DCF4D0A994"
 			tasks: [{
 				id: "182F75B657114418"
@@ -921,6 +941,7 @@
 				"Don't forget to boost those little things. This could be absolutely worth it! MQ Rubber isn't available yet to increase production. Unless, of course, you buy some with the Amadron tablet..."
 			]
 			dependencies: ["33B63B6EC0D28527"]
+			hide: true
 			id: "00FEE584663E8CC5"
 			tasks: [{
 				id: "37F96FC39A7E9B5D"
@@ -958,6 +979,7 @@
 			y: -1.0d
 			description: ["The next level of electromagnetic coils. As you can see, you can never have enough empty spools. Do you already have a good supply?"]
 			dependencies: ["74837DE401308F45"]
+			hide: true
 			id: "5790F49D63E95CB1"
 			tasks: [{
 				id: "3D2379C309E77469"
@@ -984,10 +1006,12 @@
 			]
 		}
 		{
+			title: "Electric Motor T3!"
 			x: -1.25d
 			y: -1.0d
 			description: ["This new T3 Electric Motor is obviously a lot more powerful than the old one. The main differences here are that platinum comes into play. It's not a metal you often find in the overworld. But don't worry, a solution is on the way."]
 			dependencies: ["5790F49D63E95CB1"]
+			hide: true
 			id: "6A494600A36D8851"
 			tasks: [{
 				id: "0333FB45AF1570B3"
@@ -1023,6 +1047,7 @@
 				"Please note: this is TRI-berium, not TI-berium. There is a risk of confusion."
 			]
 			dependencies: ["74837DE401308F45"]
+			hide: true
 			id: "2427F9D7AE9378EA"
 			tasks: [{
 				id: "346F375FBB941412"
@@ -1053,6 +1078,7 @@
 			y: 1.25d
 			description: ["This is the next step in the pneumatic devices series. One thing's for sure, gasket rings always seem to be needed..."]
 			dependencies: ["5D02DF2CD98FA3C8"]
+			hide: true
 			id: "1C8344D1A1F0A7B4"
 			tasks: [{
 				id: "0DFB2897E3FFB581"
@@ -1087,6 +1113,7 @@
 				"3946F6DCF4D0A994"
 				"00FEE584663E8CC5"
 			]
+			hide: true
 			id: "330F8A75DDB717AF"
 			tasks: [{
 				id: "36FAAEBDB7E0362B"
@@ -1136,6 +1163,7 @@
 			y: 1.25d
 			description: ["T3 capacitors store much more energy than its predecessor and are therefore used in T3 machines and equipment to significantly increase their FE buffer."]
 			dependencies: ["2427F9D7AE9378EA"]
+			hide: true
 			id: "5D02DF2CD98FA3C8"
 			tasks: [{
 				id: "2EFC780954A08C95"
@@ -1171,8 +1199,8 @@
 			]
 		}
 		{
-			title: "Advanced Alloy Smetlery T3!"
-			x: 2.25d
+			title: "Advanced Alloy Smeltery T3!"
+			x: 2.5d
 			y: -3.0d
 			description: [
 				"The new Alloy Smelter is not only slightly faster by default, it also accepts more upgrades than T2 machines and of course allows you to create new alloys such as Refined Obsidian or Refined Glowstone."
@@ -1185,6 +1213,7 @@
 				"6A494600A36D8851"
 				"1C8344D1A1F0A7B4"
 			]
+			hide: true
 			id: "1EABF9A0FDC18D75"
 			tasks: [{
 				id: "539F7B07B91738DE"
@@ -1228,7 +1257,7 @@
 		{
 			title: "Refined Obsidian and Glowstone!"
 			icon: "mekanism:ingot_refined_obsidian"
-			x: 6.25d
+			x: 6.5d
 			y: -3.0d
 			description: [
 				"As mentioned earlier, you can now make Refined Obsidian and Refined Glowstone. We will need both for the next steps."
@@ -1236,6 +1265,7 @@
 				"As Refined Obsidian needs mana diamonds and therefore mana, it's worth checking that your mana production is still on track and producing enough."
 			]
 			dependencies: ["1EABF9A0FDC18D75"]
+			hide: true
 			id: "0EC14D4A0F5F753E"
 			tasks: [
 				{
@@ -1273,7 +1303,7 @@
 			x: 13.0d
 			y: -4.75d
 			description: [
-				"The next tier of the Universal Fluid Generator Series is capable of accepting new fuels that can generate power. T2 Fuels (i.e. fuels that were accepted in the previous tier) also work and provide much more energy than in a T2 Generator; however, depending on the fuel, the amount used per second has doubled or tripled."
+				"The next tier of the Universal Fluid Generator Series is capable of accepting new fuels that can generate power. T2 Fuels (i.e. fuels that were accepted in the previous tier) also work and provide much more energy than in a T2 Generator. The disadvantage of older fuels is that they require four times more fuel to achieve the same level of efficiency."
 				""
 				"Blood, Life Essence, Sulfurized Diesel and Light Oil produce 600FE/t."
 				""
@@ -1286,6 +1316,7 @@
 				"The amount burned per second varies depending on the type of fuel used. Check JEI for the numbers."
 			]
 			dependencies: ["1D3B9ABC78F7DB34"]
+			hide: true
 			id: "408E0EABF0FD70C6"
 			tasks: [{
 				id: "007A1E0099AF62E7"
@@ -1345,6 +1376,7 @@
 				"Some important examples include kerosene and rocket fuel."
 			]
 			dependencies: ["1D3B9ABC78F7DB34"]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "4E4D2BE354BCF2A3"
 			tasks: [{
@@ -1398,6 +1430,7 @@
 				"4E4D2BE354BCF2A3"
 				"408E0EABF0FD70C6"
 			]
+			hide: true
 			id: "1783C76319E1730F"
 			tasks: [{
 				id: "3B0E416311A519C9"
@@ -1442,6 +1475,7 @@
 			y: -4.75d
 			description: ["Psimetal has both magical and technical applications. There are various ways to obtain this metal, but currently, the only technological method is to combine pure gold with Condensed Void in an EDRU T3."]
 			dependencies: ["1783C76319E1730F"]
+			hide: true
 			id: "108B1DCBF0E393E8"
 			tasks: [{
 				id: "060C234E2E9DE285"
@@ -1472,6 +1506,7 @@
 				"It is important to note that the higher the quality of the coolant used, the greater the number of frames that can be produced at once."
 			]
 			dependencies: ["1783C76319E1730F"]
+			hide: true
 			id: "5B3AA0A0B26C40E6"
 			tasks: [{
 				id: "136E7C0E9552D919"
@@ -1510,12 +1545,13 @@
 				""
 				"As well as all the recipes from the last version, it also offers new possibilities such as making Pure Steel, Crimson Steel, Tantalum and more."
 				""
-				"It needs 800 FE/t to keep going normally, and it can hold up to six upgrades of each type."
+				"It needs 1000 FE/t to keep going normally, and it can hold up to six upgrades of each type."
 			]
 			dependencies: [
 				"108B1DCBF0E393E8"
 				"5B3AA0A0B26C40E6"
 			]
+			hide: true
 			size: 2.0d
 			id: "599BA77D3321A3A3"
 			tasks: [
@@ -1599,6 +1635,7 @@
 				"Production requires an Advanced Fusion Computer, Platinum and High Carbon-Petroleum Steel."
 			]
 			dependencies: ["599BA77D3321A3A3"]
+			hide: true
 			id: "1D878BDED754C4CC"
 			tasks: [{
 				id: "2580357B5A616201"
@@ -1635,6 +1672,7 @@
 				"This material unlocks most of the remaining T3 machines and also opens up access to the Energizing Orb."
 			]
 			dependencies: ["599BA77D3321A3A3"]
+			hide: true
 			id: "2133F4C5C2308A45"
 			tasks: [{
 				id: "588C8A9187C5E76D"
@@ -1676,6 +1714,7 @@
 			y: -1.0d
 			description: ["The third tier of Spiritual Crystals are made from Tantalum. In addition, the new Soul Jar T3 is required, and this can be made from various mob drops, such as bones, gunpowder and spider eyes."]
 			dependencies: ["1D878BDED754C4CC"]
+			hide: true
 			id: "37F087C38FD3E4B0"
 			tasks: [{
 				id: "51F4B565BC8F2CA1"
@@ -1703,6 +1742,7 @@
 			y: -1.0d
 			description: ["The latest addition to the Magic Materializer T3 series unveils a plethora of possibilities for a wide array of magic items, in addition to the comprehensive selection of Mystical Agricultures T3 seeds."]
 			dependencies: ["37F087C38FD3E4B0"]
+			hide: true
 			id: "5A257BF777F8E23C"
 			tasks: [{
 				id: "118EC509AE403F1D"
@@ -1759,6 +1799,7 @@
 				"This incredible device can help you create amazing materials like Energized Steel, Blazing Crystals and much more!"
 			]
 			dependencies: ["2133F4C5C2308A45"]
+			hide: true
 			id: "690ADAD56673FC38"
 			tasks: [{
 				id: "4CFF26DD8949C592"
@@ -1785,7 +1826,7 @@
 			]
 		}
 		{
-			title: "The Ironmine Realmstone....?!"
+			title: "The Iromine Realmstone....?!"
 			icon: "kubejs:aoa_mainquest"
 			x: 33.5d
 			y: -3.0d
@@ -1799,6 +1840,7 @@
 				"206D4DD3D97DA3CB"
 				"1A649107898105AE"
 			]
+			hide: true
 			id: "505C03F139CEA7F9"
 			tasks: [{
 				id: "7D6D1BA87C5641A6"
@@ -1843,6 +1885,7 @@
 				"You can also convert the blocks directly instead of producing individual ingots to save time and be more efficient. Obviously, this does require a bit more energy."
 			]
 			dependencies: ["690ADAD56673FC38"]
+			hide: true
 			id: "206D4DD3D97DA3CB"
 			tasks: [{
 				id: "2C2DA42430F82E85"
@@ -1872,6 +1915,7 @@
 				"Get your Advanced Fusion Computer ready and get crafting!"
 			]
 			dependencies: ["599BA77D3321A3A3"]
+			hide: true
 			id: "79751C074F08A08F"
 			tasks: [{
 				id: "33C4D4BAE152949D"
@@ -1906,6 +1950,7 @@
 				"690ADAD56673FC38"
 				"79751C074F08A08F"
 			]
+			hide: true
 			id: "1A649107898105AE"
 			tasks: [{
 				id: "04BA2EF6C5F40E8A"
@@ -1942,6 +1987,7 @@
 				"On top of that, it still has a charging slot for quickly filling up your items."
 			]
 			dependencies: ["1A649107898105AE"]
+			hide: true
 			id: "3DA08BFE71F2A32E"
 			tasks: [{
 				id: "666108D95C549F2E"
@@ -1982,6 +2028,7 @@
 			shape: "circle"
 			description: ["The second solar panel also generates 500FE/t and can transfer up to 2000FE/t. Like the previous model, it can be upgraded to improve efficiency, transfer rate and capacity."]
 			dependencies: ["1A649107898105AE"]
+			hide: true
 			id: "30A44F8A0EF23FA2"
 			tasks: [{
 				id: "63A3506E27D2A566"
@@ -2002,17 +2049,18 @@
 			]
 		}
 		{
-			title: "Let's Visit Ironmine!"
+			title: "Let's Visit Iromine!"
 			x: 36.25d
 			y: -3.0d
 			description: [
 				"Iromine is probably one of the most chaotic dimensions in Advent of Ascension. The mobs share a mechanical theme."
 				""
-				"The landscape consists of a series of hills and flat areas. The dimension's stone layer is composed of iromine stone going down until towards y = 0, where there exists a layer of Dimensional Fabric (Basically Bedrock). Caves generatet underground are similar to Overworld caves. "
+				"The landscape consists of a series of hills and flat areas. The dimension's stone layer is composed of iromine stone going down until towards y = 0, where there exists a layer of Dimensional Fabric (Basically Bedrock). Caves generated underground are similar to Overworld caves. "
 				""
 				"There are currently seven structures in Iromine, as well as a few hostile mobs and the feared MechBot, which is the boss that can only be summoned in this specific dimension."
 			]
 			dependencies: ["505C03F139CEA7F9"]
+			hide: true
 			id: "0F2456B66C10E3A0"
 			tasks: [{
 				id: "078F50E587BE457A"
@@ -2036,6 +2084,7 @@
 				"Here, you will find the exclusive Lyon ore, which cannot be found anywhere else. There are also large quantities of platinum, diamond, emerald, nickel, dimensional shards and duranite ore. According to rumours, whole blocks of steel are also rare finds..."
 			]
 			dependencies: ["0F2456B66C10E3A0"]
+			hide: true
 			id: "183969FE8F7110E9"
 			tasks: [
 				{
@@ -2100,6 +2149,7 @@
 			y: -3.0d
 			description: ["The New Forming Press can be used to make more advanced plates, rods and gears. Some examples of materials include Refined Glowstone and Obsidian, as well as Starmetal and many more."]
 			dependencies: ["0EC14D4A0F5F753E"]
+			hide: true
 			id: "1D3B9ABC78F7DB34"
 			tasks: [{
 				id: "3AA0E450EEFE57B1"
@@ -2146,6 +2196,7 @@
 			y: -3.0d
 			description: ["Now that you've got Lyon and enough Platinum, you can crack on with the next tier of the SCARA series so we can build the remaining T3 machines to work more efficiently."]
 			dependencies: ["183969FE8F7110E9"]
+			hide: true
 			id: "0ECA3ED275A6A9D4"
 			tasks: [{
 				id: "62710C972C159553"
@@ -2178,7 +2229,7 @@
 		}
 		{
 			title: "Water Collector Tier 4"
-			x: 6.25d
+			x: 6.5d
 			y: 0.25d
 			shape: "circle"
 			description: [
@@ -2187,6 +2238,7 @@
 				"If you still have some water issues... this device produces 2000mb every tick and that's pretty insane!"
 			]
 			dependencies: ["0EC14D4A0F5F753E"]
+			hide: true
 			id: "5BA2DFEA1FD3FC08"
 			tasks: [{
 				id: "6979E06D27A8519C"
@@ -2222,6 +2274,7 @@
 				"In addition to the enhanced efficiency and the expanded range of recipes that this machine provides, it should be noted that the third stage of Boosting Mixture is now available, enabling further multiplication of items."
 			]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "4E13E759F32C6D06"
 			tasks: [{
 				id: "20D8EFD2C06E2FC2"
@@ -2268,7 +2321,7 @@
 			]
 		}
 		{
-			title: "Advnaced Laser Cutter and Engraver!"
+			title: "Advanced Laser Cutter and Engraver!"
 			x: 45.5d
 			y: -3.0d
 			description: [
@@ -2277,6 +2330,7 @@
 				"Wow, what can be said here? Data-Cards and PCB's are faster and more efficient to produce, and now there's even the amazing possibility to use T3 Boosting mixture which rounds off the whole thing perfectly!"
 			]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "16BDB6EE54260BFD"
 			tasks: [{
 				id: "27D768F141DE7AD3"
@@ -2332,6 +2386,7 @@
 			]
 		}
 		{
+			title: "Silver Tank!"
 			x: 43.5d
 			y: -10.75d
 			shape: "circle"
@@ -2340,6 +2395,7 @@
 				"The Silver Tank stores up to 1'024'000mb of any fluid!"
 			]
 			dependencies: ["4E13E759F32C6D06"]
+			hide: true
 			id: "556706FB86EDDE47"
 			tasks: [{
 				id: "5D3690D119E065C3"
@@ -2388,6 +2444,7 @@
 			shape: "circle"
 			description: ["The Storage Upgrade (V) increases the maximum storage of a Drawer by 32 times its base value."]
 			dependencies: ["4E13E759F32C6D06"]
+			hide: true
 			id: "78CA0BE8062CDE61"
 			tasks: [{
 				id: "56A17AAFD2813219"
@@ -2408,7 +2465,7 @@
 			]
 		}
 		{
-			title: "Advacned Fluid Mixer and Solidifier!"
+			title: "Advanced Fluid Mixer and Solidifier!"
 			x: 45.5d
 			y: 0.0d
 			description: [
@@ -2417,6 +2474,7 @@
 				"It should be noted that this would also allow for the use of T3-boosting mixture. The device has a capacity of six upgrades of each type."
 			]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "0620BAD9D4422140"
 			tasks: [{
 				id: "0507EEA2572C969E"
@@ -2469,6 +2527,7 @@
 				"Note: In 1.16.5 there are only 5 Blood Altar Tiers."
 			]
 			dependencies: ["5A257BF777F8E23C"]
+			hide: true
 			id: "3016168FD0085940"
 			tasks: [{
 				id: "73C1160FF3220096"
@@ -2504,6 +2563,7 @@
 				"This knife will only drain health from the player using it. To acquire essence from other entities, the Dagger of Sacrifice is used instead."
 			]
 			dependencies: ["3016168FD0085940"]
+			hide: true
 			id: "30EE8E723ECC23B7"
 			tasks: [{
 				id: "5FBF7EB82053E0DF"
@@ -2532,6 +2592,7 @@
 				"You can also automatically fill your network with a blood orb by placing it in a Blood Altar. This process takes the same number of hearts as the given LP, but works even when the orb is not being held. "
 			]
 			dependencies: ["30EE8E723ECC23B7"]
+			hide: true
 			id: "32FD53D12652BAFE"
 			tasks: [{
 				id: "48D754BA8F8F1CDE"
@@ -2574,6 +2635,7 @@
 				"When you first use an item that can be bound to a Soul Network, it will bind to you and be labelled as owned by you. As such, any action performed by the item that incurs a blood LP cost will drain your soul network. In some cases, if the item cannot obtain its LP from your Soul Network, it will instead take the LP cost directly from your health. In other cases, such as when an ongoing Ritual drains your network completely, the item will merely cause unceasing nausea until either the Ritual is deactivated or your Soul Network is refilled."
 			]
 			dependencies: ["32FD53D12652BAFE"]
+			hide: true
 			id: "52003DCD12A12E49"
 			tasks: [{
 				id: "636F32ABA55DAABE"
@@ -2595,6 +2657,7 @@
 				"They are made by infusing Life Essence into Materia in a Blood Altar."
 			]
 			dependencies: ["32FD53D12652BAFE"]
+			hide: true
 			id: "5F05451DCF2F1AE7"
 			tasks: [{
 				id: "459D86541BEB8B9C"
@@ -2621,6 +2684,7 @@
 			y: 11.0d
 			description: ["The Divination Sigil displays the amount of Life Essence in a bound player's Soul Network. It can also show the tier and amount of essence in a Blood Altar or the tier of your Incense Altar."]
 			dependencies: ["4ACAA36DD8B3990F"]
+			hide: true
 			id: "765C0FD8CE7A5BC9"
 			tasks: [{
 				id: "52BBC6836823EA38"
@@ -2651,6 +2715,7 @@
 				"The Alchemy Table crafts items using LP from your Soul Network. The Soul Network used and the tier of recipes available are determined by the Blood Orb inserted on the right side of the GUI. "
 			]
 			dependencies: ["5F05451DCF2F1AE7"]
+			hide: true
 			id: "51144433913DA148"
 			tasks: [{
 				id: "142A6B48938E25CF"
@@ -2683,6 +2748,7 @@
 			y: 11.0d
 			description: ["Arcane Ashes is a pivotal item in the creation of Alchemy Arrays and other items. It can be crafted in the Alchemy Table."]
 			dependencies: ["51144433913DA148"]
+			hide: true
 			id: "4ACAA36DD8B3990F"
 			tasks: [{
 				id: "07AA9AEC8424D4AD"
@@ -2720,6 +2786,7 @@
 			shape: "circle"
 			description: ["An anointment is essentially a potion for your tools, weapons and even your Charges. Press Rightclick while holding an anointment in one hand to apply it to the item in your other hand, if possible. Not all anointments work on all equipment! Unlike potions, anointments aren't timed; rather, they wear off a bit at a time as your tool or weapon is used."]
 			dependencies: ["51144433913DA148"]
+			hide: true
 			id: "0A5DCE386A5F1FB0"
 			tasks: [{
 				id: "198D8E3D1985C38C"
@@ -2737,6 +2804,7 @@
 			y: -1.0d
 			description: ["This macerator shreds everything you throw at it. It is capable of producing new materials, such as Prismarine Agglomeratio."]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "743BC1FE7F56B329"
 			tasks: [{
 				id: "35CACC303EB65248"
@@ -2776,6 +2844,7 @@
 				"743BC1FE7F56B329"
 				"5A257BF777F8E23C"
 			]
+			hide: true
 			id: "631F1D09E54D241A"
 			tasks: [{
 				id: "3BF02BC5CA92DC91"
@@ -2801,6 +2870,7 @@
 			y: 5.0d
 			description: ["Now, let's take a look at the T3 Seedbag. This tier's got loads of new types of seeds you can produce. Whatever you need, from Steel to Starmetal or Nickel, we've got it covered. The following side-quests only cover a small part of the possibilities because there are over 40 seeds to choose from."]
 			dependencies: ["631F1D09E54D241A"]
+			hide: true
 			id: "5F2CD5CEEA678D8C"
 			tasks: [{
 				id: "3EADDBD58EE61F28"
@@ -2833,6 +2903,7 @@
 				"5F2CD5CEEA678D8C"
 				"5F05451DCF2F1AE7"
 			]
+			hide: true
 			id: "261A7410874FE5C7"
 			tasks: [{
 				id: "1298EC581F235B10"
@@ -2861,6 +2932,7 @@
 				"631F1D09E54D241A"
 				"261A7410874FE5C7"
 			]
+			hide: true
 			id: "713A57C29CDB26CA"
 			tasks: [{
 				id: "710A5AC9F7EF6ED9"
@@ -2908,6 +2980,7 @@
 				"4ACAA36DD8B3990F"
 				"0ECA3ED275A6A9D4"
 			]
+			hide: true
 			id: "1A552CFCE63E0755"
 			tasks: [{
 				id: "562985880C97F232"
@@ -2953,6 +3026,7 @@
 			shape: "circle"
 			description: ["As mentioned before, this seed is gonna be really helpful..."]
 			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
 			id: "5529182EB2C2E3A3"
 			tasks: [{
 				id: "0BD543957B211F55"
@@ -2979,10 +3053,12 @@
 			]
 		}
 		{
+			title: "Advanced Mixer T3!!"
 			x: 45.5d
 			y: -4.5d
 			description: ["The Advanced Mixer offers special recipes like MQ Rubber, enabling you to get much more out of your items, such as gasket rings! However, its sheer efficiency, coupled with the new upgrade slots and the ability to use the T3 Boosting Mixture, is reason enough to invest in this upgrade."]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "73DB83372E802B33"
 			tasks: [{
 				id: "42667F825868B6B1"
@@ -3024,6 +3100,7 @@
 			]
 		}
 		{
+			title: "Advanced Extractor T3!"
 			x: 45.5d
 			y: -1.5d
 			description: [
@@ -3032,6 +3109,7 @@
 				"One major advantage of this device is that it can extract mercury directly from cinnabar and crimson iron ore, eliminating the need for centrifuge mechanics and reducing waste of these ores."
 			]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "50E4E7055497279D"
 			tasks: [{
 				id: "4299E88F91B657D5"
@@ -3074,6 +3152,7 @@
 				"How does it work? It's very simple: you just have to use the machine to process mobs and animals into liquid meat and pink slime. Animals killed by this machine will not produce drops or experience. The default working area is 1x3x1 in front of the machine, but this can be expanded using Range Addons. Mobs killed will produce 5mb of liquid meat per HP and 1mb of pink slime per HP (50mb of liquid meat and 10mb of pink slime for cows and pigs). This Factory deals 300 damage per operation, killing all vanilla mobs except the Wither in a single hit."
 			]
 			dependencies: ["765C0FD8CE7A5BC9"]
+			hide: true
 			id: "7E8ED69F906EBC4D"
 			tasks: [{
 				id: "1E4F73A307284B60"
@@ -3109,6 +3188,7 @@
 			y: 6.5d
 			description: ["As soon as you have collected enough pink slime with your new factory, you can start producing hot pink slime balls."]
 			dependencies: ["7E8ED69F906EBC4D"]
+			hide: true
 			id: "650C8E3AE585C783"
 			tasks: [{
 				id: "527C907E42D5CF9C"
@@ -3135,6 +3215,7 @@
 			y: 6.5d
 			description: ["You can now process the hot pink slime balls into hot pink slime ingots. Don't worry — you can't burn yourself on them. However, the material is hot and unfinished, and we need it exactly as it is for our next task."]
 			dependencies: ["650C8E3AE585C783"]
+			hide: true
 			id: "6E96ED00C1BC27BB"
 			tasks: [{
 				id: "56CDCD05E1BA4361"
@@ -3184,6 +3265,7 @@
 				"There's Livingrock under the plate!"
 			]
 			dependencies: ["6E96ED00C1BC27BB"]
+			hide: true
 			id: "1E1B016DD039A084"
 			tasks: [
 				{
@@ -3256,6 +3338,7 @@
 				"To form one Hot Terrasteel Ingot, throw the required items onto the plate. The plate then must receive 500,000 Mana (Sparks are the best way to do this), without any of the items being picked up. If any of the items are picked up, the infusion will fail. As an indication of progress, several wisps of glowing blue smoke will fly out from the plate, rotate, fade from blue to green, and finally crash together on the items, combining them into Hot Terrasteel."
 			]
 			dependencies: ["63A9CF857D99A971"]
+			hide: true
 			id: "2C130C4DE6616533"
 			tasks: [{
 				id: "5C2393B83AB5E859"
@@ -3299,6 +3382,7 @@
 				"The Mana transfer speed is 1,000 Mana per tick, per connection."
 			]
 			dependencies: ["1E1B016DD039A084"]
+			hide: true
 			id: "63A9CF857D99A971"
 			tasks: [{
 				id: "13B8B6717D4B497A"
@@ -3331,6 +3415,7 @@
 				"2C130C4DE6616533"
 				"54300C439CA1B8A8"
 			]
+			hide: true
 			id: "718CB06B6224B46B"
 			tasks: [{
 				id: "04BCBECF834B0D04"
@@ -3372,6 +3457,7 @@
 			y: -6.0d
 			description: ["At last, the new Essence O-Matic! You can finally switch from Tertium to Imperium and process your essences even faster and boost them more effectively!"]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "0691D78C2A314DF0"
 			tasks: [{
 				id: "755FA8C112F37E78"
@@ -3419,6 +3505,7 @@
 			shape: "circle"
 			description: ["The tertium infusion crystal is super durable, lasting up to 2000 uses!"]
 			dependencies: ["4E13E759F32C6D06"]
+			hide: true
 			id: "28B9F1EFDFB52650"
 			tasks: [{
 				id: "56B6F90EA5C31CDB"
@@ -3457,6 +3544,7 @@
 			shape: "circle"
 			description: ["Can strip enchantments from an item and return them as books."]
 			dependencies: ["4277611AEAEBEE72"]
+			hide: true
 			id: "14F8B533D9C24A31"
 			tasks: [{
 				id: "2F0E5F1867F95E36"
@@ -3496,6 +3584,7 @@
 				"Nothing to see here...^^"
 			]
 			dependencies: ["5A257BF777F8E23C"]
+			hide: true
 			id: "4277611AEAEBEE72"
 			tasks: [{
 				id: "4833B0A1137BD7E5"
@@ -3517,6 +3606,7 @@
 				"All recipes are shapeless, and ingredients can be in any slot. The drain amount will be subtracted from the stored will. Don't worry about losing the Demonic Will/Tartaric Gem. You can see the minimum and drain amounts in JEI when you hover over the arrow."
 			]
 			dependencies: ["5F05451DCF2F1AE7"]
+			hide: true
 			id: "2AEC28B67550CB4B"
 			tasks: [{
 				id: "34D3AD3B9A625A3B"
@@ -3548,6 +3638,7 @@
 			y: 17.0d
 			description: ["The Soul Snare is a tool and the earliest method to collect Demonic Will. Just right-click to throw it at a mob. If the Snare connects, it's bewitched for a few seconds (you'll see white particles). Killing the mob under these conditions makes it drop Demonic Will."]
 			dependencies: ["2AEC28B67550CB4B"]
+			hide: true
 			id: "534EF75B05828B90"
 			tasks: [{
 				id: "64F42B0B1C832F06"
@@ -3578,6 +3669,7 @@
 				"Your first gem will hold up to 64 Will. It's a lot more compact than before. If you ever want to move Will from one gem to another, just hold the right button while holding the gem you want to empty, and it'll transfer its will into the first valid gem in your inventory."
 			]
 			dependencies: ["534EF75B05828B90"]
+			hide: true
 			id: "31E0AFE8215B7DF5"
 			tasks: [{
 				id: "05F6DC93E3C44F5E"
@@ -3605,10 +3697,12 @@
 			]
 		}
 		{
+			title: "Sentient  Sword!"
 			x: 49.25d
 			y: 17.0d
 			description: ["The Sentient Sword is used to collect Raw Will. This Raw Will is automatically added to the top leftmost Raw Will Tartaric Gem in your inventory. If you've got all the Raw Will Gems you can get, mobs will drop Demonic Will. You can enchant it. You can also use a Demon Will Crystal in the Anvil to repair it."]
 			dependencies: ["31E0AFE8215B7DF5"]
+			hide: true
 			id: "071D09B76F0B7394"
 			tasks: [{
 				id: "3EFEF701981D9937"
@@ -3668,6 +3762,7 @@
 				"718CB06B6224B46B"
 				"73DB83372E802B33"
 			]
+			hide: true
 			id: "093AFDBACEC4D7FF"
 			tasks: [{
 				id: "50DC2D9A03D0F9D5"
@@ -3707,6 +3802,7 @@
 				"071D09B76F0B7394"
 				"765C0FD8CE7A5BC9"
 			]
+			hide: true
 			id: "182DF4C25CAA7AA9"
 			tasks: [{
 				id: "11CC74DB4938D7A9"
@@ -3743,6 +3839,7 @@
 				"There are a variety of runes that can be crafted from the blank rune. Some increase the amount of LP gained from self-sacrifice at the altar. Others increase the speed at which blood is transported between the altar and external tanks."
 			]
 			dependencies: ["182DF4C25CAA7AA9"]
+			hide: true
 			id: "73FD1F73F8350265"
 			tasks: [{
 				id: "61CA2B9388583A58"
@@ -3779,6 +3876,7 @@
 				"When activated, this sigil launches a Blood Light in the direction you are facing. When it hits a block, it spawns an almost invisible light source at a cost of 10 LP."
 			]
 			dependencies: ["765C0FD8CE7A5BC9"]
+			hide: true
 			id: "639D54E0771F4CF7"
 			tasks: [{
 				id: "231D93159EA88D3F"
@@ -3818,6 +3916,7 @@
 			shape: "circle"
 			description: ["The Water Sigil can be used as an alternative to a bucket of water, enabling the creation of water source blocks at a cost of 100 LP per block. This essence is drawn from the network of the player to whom the sigil is bound."]
 			dependencies: ["765C0FD8CE7A5BC9"]
+			hide: true
 			id: "7CE4CED7C7089825"
 			tasks: [{
 				id: "36579C5C31B15878"
@@ -3862,6 +3961,7 @@
 			shape: "circle"
 			description: ["The Lava Sigil can be used as an alternative to a bucket of lava, enabling the creation of lava source blocks at a cost of 1,000 LP each. "]
 			dependencies: ["765C0FD8CE7A5BC9"]
+			hide: true
 			id: "76346E48ABE6EDEB"
 			tasks: [{
 				id: "39256A9D6415E3AF"
@@ -3893,6 +3993,7 @@
 			y: 6.5d
 			description: ["The Rune of Self-Sacrifice increases the amount of Life Essence gained in the Blood Altar through means that use a player's health. Each rune provides an additional bonus of 10%."]
 			dependencies: ["73FD1F73F8350265"]
+			hide: true
 			id: "54300C439CA1B8A8"
 			tasks: [{
 				id: "6155F9245A2C83A5"
@@ -3919,6 +4020,7 @@
 			shape: "circle"
 			description: ["The Speed Rune increases the speed of all crafting operations at the Blood Altar. Crafting speed (and the rate at which progress is lost when the altar is empty) increases by +20% for each rune."]
 			dependencies: ["73FD1F73F8350265"]
+			hide: true
 			id: "57866629A92AAECC"
 			tasks: [{
 				id: "365BCA26C7893708"
@@ -3945,6 +4047,7 @@
 			shape: "circle"
 			description: ["The Displacement Rune increases the flow rate of life essence into and out of the altar when it is being pumped to or from an external tank."]
 			dependencies: ["73FD1F73F8350265"]
+			hide: true
 			id: "5D7E2B2C76466BF3"
 			tasks: [{
 				id: "0E935BA97E69A9C8"
@@ -3972,7 +4075,7 @@
 			description: [
 				"The Blazing Power Reactor is a \"small\" multiblock structure that generates energy by consuming uraninite. All Powah Reactors cannot explode, and you can build them by pointing and clicking on the ground if you have 36 reactor blocks of the same type in your inventory."
 				""
-				"This POWAH Reactor can output between 400-6000 FE/t depending on your efficiency setup but its quite expensive to make."
+				"Depending on your efficiency setup, this reactor can output up to 6,000 FE/t, but it's quite expensive to make."
 				""
 				"Filling the carbon slot with coal of any kind enhances the reactor's fuel efficiency. This means your fuel will last longer."
 				""
@@ -3981,6 +4084,7 @@
 				"To further increase fuel efficiency and power output, you can cool the reactor passively, actively, or both at the same time. Passively by inserting ice or dry ice, or actively with water or coolant. All Powah reactors in DDSS2 also accept LQ, MQ and HQ coolant."
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			size: 2.0d
 			id: "3D867E3B28E4B75E"
 			tasks: [{
@@ -4045,6 +4149,7 @@
 				"{image:modpack:textures/quest_multiblock/steamturbine_t3.png width:165 height:125 align:1}"
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			size: 2.0d
 			id: "6BDFC0DAEF2BAEF1"
 			tasks: [
@@ -4134,6 +4239,7 @@
 				"23BC54388CBD780E"
 				"45B3F05007A945C2"
 			]
+			hide: true
 			size: 2.0d
 			id: "3CA4BDDABF0849CB"
 			tasks: [
@@ -4219,6 +4325,7 @@
 			]
 		}
 		{
+			title: "Blood Altar T2!"
 			icon: "bloodmagic:altar"
 			x: 61.5d
 			y: 2.25d
@@ -4230,6 +4337,7 @@
 				"{image:modpack:textures/quest_multiblock/bloodaltar_t2.png width:120 height:120 align:1}"
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			id: "04B956595FBCD3F0"
 			tasks: [{
 				id: "5CD4EA0D33C25AC7"
@@ -4256,6 +4364,7 @@
 				"However, nothing comes for free. Transporting blocks or entities via the teleposer will cost 1 LP for every two blocks traversed, up to a maximum of 1,000 LP per block/entity or 10,000 LP in total."
 			]
 			dependencies: ["04B956595FBCD3F0"]
+			hide: true
 			id: "0E20893D2C9C6FC8"
 			tasks: [
 				{
@@ -4288,6 +4397,7 @@
 			]
 		}
 		{
+			title: "Teleposer Focus?"
 			icon: "bloodmagic:teleposerfocus"
 			x: 60.25d
 			y: 6.75d
@@ -4302,6 +4412,7 @@
 				"The Reinforced Teleposer Focus will swap anything within a 5x5x5 block centred directly above the two teleposers. Requires a T4 Altar."
 			]
 			dependencies: ["0E20893D2C9C6FC8"]
+			hide: true
 			id: "640A3A14661F2554"
 			tasks: [{
 				id: "54B3F07522928078"
@@ -4315,6 +4426,7 @@
 			}]
 		}
 		{
+			title: "Teleposer Informations..."
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -4329,6 +4441,7 @@
 				"From base-traversing elevators to complex underground labyrinths, the possibilities are endless! All you need is blood :0"
 			]
 			dependencies: ["0E20893D2C9C6FC8"]
+			hide: true
 			id: "734446034234061D"
 			tasks: [{
 				id: "799DFF0E38950515"
@@ -4351,6 +4464,7 @@
 				"You can use it to improve your Incense Altar to tier 2 and to make different objects, like the Void Sigil, Air Sigil, Sigil of the Fast Miner and more."
 			]
 			dependencies: ["04B956595FBCD3F0"]
+			hide: true
 			id: "7968E24D778C035D"
 			tasks: [{
 				id: "28C4BA63876BAB85"
@@ -4388,6 +4502,7 @@
 				"{image:modpack:textures/quest_multiblock/incense_t2_.png width:180 height:130 align:1}"
 			]
 			dependencies: ["7968E24D778C035D"]
+			hide: true
 			id: "4F950939FA5BA993"
 			tasks: [{
 				id: "311EB538ECFA9C31"
@@ -4424,6 +4539,7 @@
 				"The portal frame is 5x5 and you'll need 8 Livingwood, 3 Glimmering Livingwood, and 1 Elven Gateway Core. Also, you'll need at least two Natura Pylons with Mana Pools below them. Put them in an 11×11×11 area centered on the gateway core."
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			id: "6962B16303AA08BC"
 			tasks: [
 				{
@@ -4484,6 +4600,7 @@
 			]
 		}
 		{
+			title: "About Alchemy Arrays..."
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -4502,6 +4619,7 @@
 				"The Spike Array is a simple array with one purpose. When a living entity steps into it, they take a full heart of damage. This makes it ideal for mob traps or for making your base more dangerous for players."
 			]
 			dependencies: ["4ACAA36DD8B3990F"]
+			hide: true
 			id: "7A78C0C39739B51A"
 			tasks: [{
 				id: "101050EF561386A4"
@@ -4515,10 +4633,12 @@
 			}]
 		}
 		{
+			title: "Elementium Ingots!"
 			x: 69.5d
 			y: -8.25d
 			description: ["For now, you can get Elementium Ingots by throwing a Starmetal Ingot into a Portal to Alfheim. If you throw a block of starmetal into a portal to Alfheim, you'll get a block of elementium back."]
 			dependencies: ["65886C916A5554FE"]
+			hide: true
 			id: "0421759366CAA386"
 			tasks: [{
 				id: "6179086F5BA61BAB"
@@ -4552,6 +4672,7 @@
 				""
 			]
 			dependencies: ["7968E24D778C035D"]
+			hide: true
 			id: "331BC7C74B2FF095"
 			tasks: [{
 				id: "7D2901B7F3655A85"
@@ -4583,6 +4704,7 @@
 				"However, if you hold sneak while aiming at the air, the block will light up to indicate activation and consume 150 LP every 5 seconds until deactivated. A growth tick will be applied to every block in a 7x7x5 volume centred on the player. Great for farming crops!"
 			]
 			dependencies: ["331BC7C74B2FF095"]
+			hide: true
 			id: "5569993236477EAF"
 			tasks: [{
 				id: "0365419C51463AF3"
@@ -4620,6 +4742,7 @@
 			shape: "circle"
 			description: ["Pressing left-click on the Void Sigil while looking at any fluid will destroy it at a cost of 50 LP per block. This is useful for clearing out irritating lava flows without the tedious process of placing and breaking individual blocks."]
 			dependencies: ["331BC7C74B2FF095"]
+			hide: true
 			id: "3EDA33E2F087BE3D"
 			tasks: [{
 				id: "5BC4239BD7F903A8"
@@ -4657,6 +4780,7 @@
 				"It's a good way to get around quickly, albeit with some risk. Many an unwary mage has met their end by running out of LP while flying miles above the countryside."
 			]
 			dependencies: ["331BC7C74B2FF095"]
+			hide: true
 			id: "496A43F4B208ECB1"
 			tasks: [{
 				id: "31BC1A3C1F6DF323"
@@ -4689,6 +4813,7 @@
 			shape: "circle"
 			description: ["If you right-click with the Extrapolated Bucket on any liquid source block, it will permanently remove it. This bucket can't hold any liquids."]
 			dependencies: ["0421759366CAA386"]
+			hide: true
 			id: "34D3D5242C8420A9"
 			tasks: [{
 				id: "07DEE1CBB95B917C"
@@ -4710,11 +4835,13 @@
 			]
 		}
 		{
+			title: "Elementium Shears!"
 			x: 72.0d
 			y: -11.5d
 			shape: "circle"
 			description: ["The Elementium Shear, instead of using the item's durability, it can draw from a Mana Tablet or any other Mana-providing item in the player's inventory. While wielding the shears, right-clicking will shear any nearby sheep in a large area centered on the player."]
 			dependencies: ["0421759366CAA386"]
+			hide: true
 			id: "5D8D65B47188B841"
 			tasks: [{
 				id: "37D25560ED19E62F"
@@ -4741,11 +4868,13 @@
 			]
 		}
 		{
+			title: "Slime in a Bottle?"
 			x: 67.0d
 			y: -11.5d
 			shape: "circle"
 			description: ["If the player is holding this item while inside a Slime Chunk, the Slimeball inside the bottle will start to jump."]
 			dependencies: ["0421759366CAA386"]
+			hide: true
 			id: "07567F7E84F7523E"
 			tasks: [{
 				id: "0BEB8D61F455C5C2"
@@ -4795,6 +4924,7 @@
 				"-Pixies spawned by the wearer inflict a random potion effect for two seconds: Blindness, Wither, Slowness, or Weakness."
 			]
 			dependencies: ["0421759366CAA386"]
+			hide: true
 			id: "3383AE55E8138AE9"
 			tasks: [
 				{
@@ -4890,6 +5020,7 @@
 				"You can apply six Wills, which are dropped by the hard mode version of the Gaia Guardian, to the helmet by crafting them together. Each will has a different effect that is applied to entities hit by the wearer's critical hits."
 			]
 			dependencies: ["718CB06B6224B46B"]
+			hide: true
 			id: "36FF4C6CFACCD917"
 			tasks: [
 				{
@@ -4957,6 +5088,7 @@
 			]
 		}
 		{
+			title: "The Terra Shatterer!"
 			x: 52.0d
 			y: 1.0d
 			shape: "circle"
@@ -4970,6 +5102,7 @@
 				"A maximum-upgraded Terrashatterer (Rank SS) can mine an area up to 11x11x11."
 			]
 			dependencies: ["718CB06B6224B46B"]
+			hide: true
 			id: "65FE853E507F8B1B"
 			tasks: [{
 				id: "5CEAD786C3698E22"
@@ -5008,6 +5141,7 @@
 				"When you swing and the attack recharge meter is full, it will use 100 mana and create a damaging mana burst that deals 7 points of damage to the creature that is hit."
 			]
 			dependencies: ["718CB06B6224B46B"]
+			hide: true
 			id: "3461BA57CE6C0EB6"
 			tasks: [{
 				id: "121A91DCFFA73F0C"
@@ -5049,6 +5183,7 @@
 				"The durability bar shows how much mana has been stored in the Band, not how strong the item is. Another bar is above the player's hotbar, and it shows durability more clearly."
 			]
 			dependencies: ["718CB06B6224B46B"]
+			hide: true
 			id: "7C81D4E09B421D42"
 			tasks: [{
 				id: "02C35900D49D1F40"
@@ -5095,6 +5230,7 @@
 			shape: "circle"
 			description: ["The Greater Band of Aura is an upgraded version of the Band of Aura. It generates mana much faster (10 mana per second compared to the Band of Aura's 2 mana per second)."]
 			dependencies: ["718CB06B6224B46B"]
+			hide: true
 			id: "43998E2D66CAB765"
 			tasks: [{
 				id: "0EA939B6951EF123"
@@ -5131,6 +5267,7 @@
 			shape: "circle"
 			description: ["The power to transform nearby streams into a steady source of water is truly remarkable. It fills lakes and rivers in the blink of an eye!"]
 			dependencies: ["4277611AEAEBEE72"]
+			hide: true
 			id: "06FAAB1EA494FE01"
 			tasks: [{
 				id: "11C31E5A96787938"
@@ -5164,6 +5301,7 @@
 			shape: "circle"
 			description: ["The incredible Ender Wing Warps you to world spawn, sacrificing only a small amount of its own durability for your advantage!"]
 			dependencies: ["4277611AEAEBEE72"]
+			hide: true
 			id: "0F8C27D9719D0974"
 			tasks: [{
 				id: "28A4BA7D6CF46619"
@@ -5202,6 +5340,7 @@
 			shape: "circle"
 			description: ["This is like a regular ender pearl, but even better: you can toss, pick up, and toss again!"]
 			dependencies: ["4277611AEAEBEE72"]
+			hide: true
 			id: "51C167BFF20584E0"
 			tasks: [{
 				id: "4345C25C97AEFBDD"
@@ -5240,6 +5379,7 @@
 			shape: "circle"
 			description: ["This scepter turns nearby water blocks into ice. It costs durability to use."]
 			dependencies: ["4277611AEAEBEE72"]
+			hide: true
 			id: "1CF66C280DCA0E55"
 			tasks: [{
 				id: "1328CB490F1221C3"
@@ -5278,6 +5418,7 @@
 			y: -8.25d
 			description: ["Rocket engines require both active and passive cooling. For the passive cooling, we have these powerful elementium fans."]
 			dependencies: ["0421759366CAA386"]
+			hide: true
 			id: "6D0933C5911D792F"
 			tasks: [{
 				id: "4FA0FF6BD95504D7"
@@ -5306,6 +5447,7 @@
 			y: -3.0d
 			description: ["Let's take a look at the nose cones and rocket fins."]
 			dependencies: ["1B0A0CFB17B1C7BE"]
+			hide: true
 			id: "2D5B3A396E108278"
 			tasks: [
 				{
@@ -5348,6 +5490,7 @@
 			y: -3.0d
 			description: ["Next up: Basic Engines and Tanks for your rocket!"]
 			dependencies: ["1914E79A200CD220"]
+			hide: true
 			id: "1B0A0CFB17B1C7BE"
 			tasks: [
 				{
@@ -5398,6 +5541,7 @@
 				"2D5B3A396E108278"
 				"6D0933C5911D792F"
 			]
+			hide: true
 			id: "45B3F05007A945C2"
 			tasks: [
 				{
@@ -5455,6 +5599,7 @@
 			y: -3.0d
 			description: ["Now, we can focus on higher-quality rubber. LQ Rubber, mixed with Refined Obsidian, makes a rubber mixture that can then be processed further."]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			id: "3E494936F796046E"
 			tasks: [{
 				id: "5226EDD033DC6AAF"
@@ -5489,6 +5634,7 @@
 				""
 			]
 			dependencies: ["3E494936F796046E"]
+			hide: true
 			id: "1914E79A200CD220"
 			tasks: [{
 				id: "5087C3BD8FC26333"
@@ -5530,6 +5676,7 @@
 				"{image:modpack:textures/quest_multiblock/celestial_altar.png width:170 height:120 align:1}"
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			size: 2.0d
 			id: "20DCBAED866197D0"
 			tasks: [
@@ -5620,6 +5767,7 @@
 				"{image:modpack:textures/quest_multiblock/gateway.png width:120 height:100 align:1}"
 			]
 			dependencies: ["20DCBAED866197D0"]
+			hide: true
 			id: "6A828C01AC91837C"
 			tasks: [
 				{
@@ -5688,6 +5836,7 @@
 				"The prism can increase up to three different enchantments by one or two levels each. Very rarely, multiple instances of the same effect can be present, resulting in an increase of three or more. The increase can affect either only existing enchantments or, if not already present, additionally add the stated levels to tools able to receive them. Rarely, the increase can affect all existing enchantments."
 			]
 			dependencies: ["20DCBAED866197D0"]
+			hide: true
 			id: "0C1A8AF9408C9D48"
 			tasks: [{
 				id: "6AD08911C981A8B3"
@@ -5744,6 +5893,7 @@
 			]
 		}
 		{
+			title: "Illumination Wand!"
 			x: 54.5d
 			y: -18.5d
 			shape: "circle"
@@ -5753,6 +5903,7 @@
 				"Shift-right-clicking on a block turns it into an unbreakable translucent block. Shift-right-clicking on a translucent block reverts it to its previous state. The wand can be crafted with any dye to change the colour of placed light sources."
 			]
 			dependencies: ["20DCBAED866197D0"]
+			hide: true
 			id: "7BBA5C470F11606E"
 			tasks: [{
 				id: "108C211D44C677CC"
@@ -5793,11 +5944,13 @@
 			]
 		}
 		{
+			title: "Sealing Sigil"
 			x: 52.75d
 			y: -18.5d
 			shape: "circle"
 			description: ["In Astral Sorcery, a sealing sigil can be used to disable an unlocked perk permanently, preventing its effects from taking place. This is useful for perks with undesirable side effects, or when a player prefers not to have the perk active."]
 			dependencies: ["20DCBAED866197D0"]
+			hide: true
 			id: "137CE480A49C8EC8"
 			tasks: [{
 				id: "2BA8E0BE4AE14594"
@@ -5828,6 +5981,7 @@
 				"The same anchors are also used to stabilize more sophisticated void ore miners, which is why we need them right now."
 			]
 			dependencies: ["20DCBAED866197D0"]
+			hide: true
 			id: "2F11D69FAEA435AB"
 			tasks: [{
 				id: "655DF429DA2DC5DB"
@@ -5865,6 +6019,7 @@
 			y: -15.0d
 			description: ["It's time to fire up the Blood Infuser again! The Gold Promise Acceptor is the next level in the Promise Acceptor series, but unfortunately it consumes a lot of blood and pure gold. But I'm sure you're well prepared by now."]
 			dependencies: ["2F11D69FAEA435AB"]
+			hide: true
 			id: "7798537A0159ECD0"
 			tasks: [{
 				id: "3A17CAD10CD1E6C9"
@@ -5895,6 +6050,7 @@
 			y: -15.0d
 			description: ["And while we're at it, let's build the next upgrade for the Blood Infuser, because we need at least one for our rocket, and also so that we're prepared for the next tier!"]
 			dependencies: ["7798537A0159ECD0"]
+			hide: true
 			id: "23BC54388CBD780E"
 			tasks: [{
 				id: "56E08FF8AD2C1F74"
@@ -5935,6 +6091,7 @@
 			y: -1.5d
 			description: ["It may be hard to believe, but the launch pad is actually used as a stable foundation for launching the rocket."]
 			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
 			id: "2021E9BD49832151"
 			tasks: [{
 				id: "3D26D01AE4CC116C"
@@ -5968,8 +6125,9 @@
 			title: "Fuel Loader!"
 			x: 87.25d
 			y: -6.0d
-			description: ["The Oxygen Loader is a machine that fills rockets and vehicles with rocket fuel. It only works up to two blocks away, so keep it close to your things."]
+			description: ["The Fuel Loader is a machine that fills rockets and vehicles with rocket fuel. It only works up to two blocks away, so keep it close to your things."]
 			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
 			id: "11FE7EB287656751"
 			tasks: [{
 				id: "69D63A366A9A30A7"
@@ -6002,6 +6160,7 @@
 			y: 0.0d
 			description: ["As the name suggests, the oxygen loader is exactly that. It fills oxygen tanks and your spacesuit with oxygen, making it an essential piece of equipment."]
 			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
 			id: "2B918EBA8E853587"
 			tasks: [{
 				id: "2D857485738CBB3B"
@@ -6040,6 +6199,7 @@
 			y: -4.5d
 			description: ["We also really need the space suit. Without it, you wouldn't last two minutes. It won't be easy to get hold of, and above all, it won't be cheap. Take your time, you'll need it."]
 			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
 			id: "451528ED4BA7D149"
 			tasks: [
 				{
@@ -6106,6 +6266,7 @@
 			y: -3.0d
 			description: ["Mixing kerosene with energised glowstone produces rocket fuel. And that's exactly what you need to put into your fuel loader!"]
 			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
 			id: "69BB9154156C9F3D"
 			tasks: [{
 				id: "0EEC573DFB237391"
@@ -6163,6 +6324,7 @@
 				"69BB9154156C9F3D"
 				"451528ED4BA7D149"
 			]
+			hide: true
 			size: 3.0d
 			id: "7863192AF3DC02F0"
 			tasks: [{
@@ -6244,6 +6406,7 @@
 				"However, before I tell you more, you first need the Realmstone."
 			]
 			dependencies: ["0421759366CAA386"]
+			hide: true
 			id: "036DC2D63D5DF2E8"
 			tasks: [{
 				id: "556D082A8909328E"
@@ -6289,8 +6452,11 @@
 				"The underground is made of candied dirt, while the surface is made of candied grass. There is no stone in Candyland; instead, the candied dirt extends all the way down to the bottom of the world, where a layer of dimensional fabric exists in place of bedrock. There are no caves underground."
 				""
 				"Although there are no caves, there are still plenty of valuable resources. As well as the useful candied water on the surface, you will find whole blocks of sugar, sugarcane and honey underground. You can also process all the chocolate blocks found on the surface."
+				""
+				"But wait, there's more! I heard that there are T3 loot crates buried underground!"
 			]
 			dependencies: ["036DC2D63D5DF2E8"]
+			hide: true
 			id: "3A20804642C08B08"
 			tasks: [{
 				id: "4A2BE061E42BFEC5"
@@ -6321,6 +6487,7 @@
 			]
 		}
 		{
+			title: "The Powered Diamond Anvil!"
 			x: 25.5d
 			y: 1.25d
 			shape: "circle"
@@ -6330,6 +6497,7 @@
 				"Put the items that need to be repaired in the left slot. The items that have been repaired will then move to the right slot by themselves."
 			]
 			dependencies: ["4277611AEAEBEE72"]
+			hide: true
 			id: "778AC7096EE6CF9C"
 			tasks: [{
 				id: "400437689E7D945D"
@@ -6382,6 +6550,7 @@
 				"For this to work, the Tesseracts must be on the same frequency/channel, the chunks they are in must be loaded, and they must be allowed to transfer the correct resource. There are no limits to how much or how quickly the Tesseract can transport."
 			]
 			dependencies: ["45B3F05007A945C2"]
+			hide: true
 			id: "51D63BEFCFF58B24"
 			tasks: [{
 				id: "10E015E9EE2DF4E9"
@@ -6402,11 +6571,17 @@
 			]
 		}
 		{
+			title: "Advanced Chunk Loader!"
 			x: 49.5d
 			y: -10.75d
 			shape: "circle"
-			description: ["The advanced version of Chunkloaders is capable of loading a 5 by 5 chunk area."]
+			description: [
+				"The advanced version of Chunkloaders is capable of loading a 5 by 5 chunk area."
+				""
+				"Remember that you can load your chunks for free using the FTB Chunks Minimap tool. However, if you are playing on a server, the number of chunks that can be loaded may be drastically reduced or even blocked entirely."
+			]
 			dependencies: ["4E13E759F32C6D06"]
+			hide: true
 			id: "3F46329A2C73FC4D"
 			tasks: [{
 				id: "060D048EB9A1FE52"
@@ -6434,7 +6609,7 @@
 		}
 		{
 			title: "Travel Staff!"
-			x: 53.25d
+			x: 53.75d
 			y: -9.5d
 			shape: "circle"
 			description: [
@@ -6443,6 +6618,7 @@
 				"Another use case is when you have set up some travel anchors around your base. Look at an anchor and right-click with the staff in your hand to instantly teleport there."
 			]
 			dependencies: ["26347FF747EA12A4"]
+			hide: true
 			id: "65FF8CE272E71094"
 			tasks: [{
 				id: "783404CEA13B9EC5"
@@ -6485,7 +6661,7 @@
 		}
 		{
 			title: "Travel Anchor?"
-			x: 53.25d
+			x: 53.75d
 			y: -6.5d
 			shape: "circle"
 			description: [
@@ -6496,6 +6672,7 @@
 				"Note: When placing an anchor, right-click on it and give it a name. Press ESC when you're done."
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			id: "26347FF747EA12A4"
 			tasks: [{
 				id: "6F409C7FEDE86E21"
@@ -6532,6 +6709,7 @@
 				"In short: The Building Gadget enables you to construct various structures using different building modes."
 			]
 			dependencies: ["4E13E759F32C6D06"]
+			hide: true
 			id: "3BE5043756A4A06C"
 			tasks: [{
 				id: "14C21B556EB6DB8F"
@@ -6578,6 +6756,7 @@
 				"To trade with the Alfheim Elves, you first need to find Ice and Fire Pixies and convert their dust, or use your T3 Centrifuge to process some Hot Pink Slime. What will you do?"
 			]
 			dependencies: ["6962B16303AA08BC"]
+			hide: true
 			id: "65886C916A5554FE"
 			tasks: [{
 				id: "5C48699B9CD31E5A"
@@ -6592,13 +6771,14 @@
 					count: 2
 				}
 				{
-					id: "3312B17CAFDF2F18"
+					id: "31F968726B777810"
 					type: "item"
 					item: "kubejs:coin_t3"
 				}
 			]
 		}
 		{
+			title: "Kekimurus?"
 			x: 65.25d
 			y: -5.0d
 			shape: "circle"
@@ -6608,6 +6788,7 @@
 				"Every four seconds, the flower attempts to consume one slice of cake within an 11×11×11 area around itself. This produces 1,800 mana per slice, resulting in 12,600 mana per cake. It tries to eat any block that is an instance of the Vanilla 'CakeBlock' class. Therefore, most cakes from other mods, such as Tinkers' Construct and Thermal Cultivation to name a few, can also be eaten."
 			]
 			dependencies: ["65886C916A5554FE"]
+			hide: true
 			id: "1AB6ED095A136096"
 			tasks: [{
 				id: "7C08B9C1D15D9CB2"
@@ -6638,6 +6819,7 @@
 			]
 		}
 		{
+			title: "Spectrolus?"
 			x: 66.75d
 			y: -5.0d
 			shape: "circle"
@@ -6649,6 +6831,7 @@
 				"Each correct block of wool consumed generates 1,200 mana. The next colour in the order can be checked by looking at the Spectrolus while holding a Wand of the Forest. A Spectrolus can store 16,000 mana internally and can be bound to a mana spreader within six blocks of itself to transfer its mana."
 			]
 			dependencies: ["65886C916A5554FE"]
+			hide: true
 			id: "4913860BC7E42D54"
 			tasks: [{
 				id: "61082685DC3A915D"
@@ -6681,6 +6864,7 @@
 			]
 		}
 		{
+			title: "Rafflowsia?"
 			x: 63.75d
 			y: -5.0d
 			shape: "circle"
@@ -6690,6 +6874,7 @@
 				"Every two seconds, a Rafflowisia will scan the area within 11×11×11 blocks for any Botania flowers that can be crafted (excluding Rafflowsias). If it finds one, it will try to eat it and produce 2,100 mana. However, if it consumes the same flower multiple times in a row, it will produce less and less mana."
 			]
 			dependencies: ["65886C916A5554FE"]
+			hide: true
 			id: "03D1981A222DFEEB"
 			tasks: [{
 				id: "31050FDD616130DE"
@@ -6732,6 +6917,7 @@
 				"If you remember Phantom Faces from Actually Additions, this is basically the same, just way more advanced!"
 			]
 			dependencies: ["7798537A0159ECD0"]
+			hide: true
 			id: "7C1EB95194014B79"
 			tasks: [
 				{
@@ -6781,6 +6967,7 @@
 				"The downside to this machine is that it requires a huge amount of energy. At least 2k FE/t is required, and since the basic factory can process three things at the same time, 6k FE/t is needed for full efficiency. However, energy upgrades could be the solution."
 			]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "0B7D419B743DBC68"
 			tasks: [{
 				id: "00A5BFF7216FBF7A"
@@ -6820,6 +7007,7 @@
 			shape: "circle"
 			description: ["This is the upgraded version of the Sanguinary Pedestal, which increases the efficiency of blood extraction."]
 			dependencies: ["7798537A0159ECD0"]
+			hide: true
 			id: "0B08798284453313"
 			tasks: [{
 				id: "66FDD603F6EBA73E"
@@ -6862,6 +7050,7 @@
 			shape: "circle"
 			description: ["Aluminium steel can be very annoying. Maybe consider this seed."]
 			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
 			id: "060A2492F230D4CD"
 			tasks: [{
 				id: "788A449D0C096FE5"
@@ -6894,6 +7083,7 @@
 			shape: "circle"
 			description: ["Who can resist gold, a precious metal that has been used for centuries and is still prized today?"]
 			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
 			id: "5EF9F6C1F9AB9A58"
 			tasks: [{
 				id: "764320B7EEAFF542"
@@ -6925,6 +7115,7 @@
 			shape: "circle"
 			description: ["That seed is absolutely perfect! It'd be incredibly useful, don't you think?"]
 			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
 			id: "5216C8D97A71706E"
 			tasks: [{
 				id: "1FB86ABD20DC952E"
@@ -6956,6 +7147,7 @@
 			shape: "circle"
 			description: ["Say goodbye to wasting iron with this incredible seed! That sounds absolutely fantastic!"]
 			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
 			id: "7170C996055DAD1A"
 			tasks: [{
 				id: "774CB6DCCB86EE86"
@@ -6987,6 +7179,7 @@
 			shape: "circle"
 			description: ["I'm starting to think that the Golden Hook is going a bit overboard. But the main thing is that it's fun, right? =)"]
 			dependencies: ["4E13E759F32C6D06"]
+			hide: true
 			id: "12ECF28AFBCC479A"
 			tasks: [{
 				id: "0BC419729F75964D"
@@ -7010,6 +7203,333 @@
 					id: "430BF71B2CABD5E2"
 					type: "item"
 					item: "kubejs:coin_t2"
+				}
+			]
+		}
+		{
+			title: "Jetpack Tier 3!"
+			x: 57.25d
+			y: -6.5d
+			shape: "circle"
+			description: ["This new Jetpack is an absolute game-changer! Not only does it have a super comfortable hover mode and top-notch power, but it also boasts a mind-blowing charging capacity of 10 million FE, which should last you for ages!"]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			id: "0E50F10BFEAA6D21"
+			tasks: [{
+				id: "7EFFDA34E4A2EF22"
+				type: "item"
+				item: {
+					id: "ironjetpacks:tier_3_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "08668AC2B6504BEC"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "08EB82EABF12AAB3"
+					type: "item"
+					item: "powah:energy_cable_blazing"
+					count: 10
+				}
+				{
+					id: "1CFD8E5C5C88CC22"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 8
+				}
+				{
+					id: "3AF21FC338E588D4"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Pixie in a Jar Deal!"
+			icon: "iceandfire:pixie_jar_0"
+			x: 65.25d
+			y: -13.25d
+			shape: "heart"
+			subtitle: "Trading Quest"
+			description: ["Secure your endless supply of pixie dust today and get these two jars that you simply place on a hopper and let the pixies do the work. I think you'd love it!"]
+			dependencies: ["65886C916A5554FE"]
+			hide: true
+			size: 2.0d
+			id: "7E934ECF0DBC5943"
+			tasks: [
+				{
+					id: "42A8EF7AE3F8B009"
+					type: "item"
+					item: "kubejs:coin_t2"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "29C7CE7249D751DD"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "308EB63114BA3BA3"
+					type: "item"
+					title: "Any #forge:ingots/terrasteel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/terrasteel"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "44B99E37537D08A4"
+					type: "item"
+					item: "iceandfire:pixie_jar_1"
+				}
+				{
+					id: "4BC24923C70C8D59"
+					type: "item"
+					item: "iceandfire:pixie_jar_0"
+				}
+			]
+		}
+		{
+			title: "RS and/or AE2 Storage Deal!"
+			icon: {
+				id: "refinedstorage:64k_storage_disk"
+				Count: 1b
+				tag: {
+					Id: [I;
+						250083471
+						-374324794
+						-1876231896
+						-1464042444
+					]
+				}
+			}
+			x: 6.5d
+			y: -7.0d
+			shape: "heart"
+			subtitle: "Trading Quest"
+			description: ["Hey, if you're looking to free up some space in your RS or AE2 system, now's the time to consider this option. 64k storage cells aren't bad at all! Are you in?"]
+			dependencies: ["0EC14D4A0F5F753E"]
+			hide: true
+			size: 2.0d
+			id: "2C46BA2A22301E31"
+			tasks: [
+				{
+					id: "5FB494BD4285AEF0"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "5E45AAEB2D05F2FB"
+					type: "item"
+					item: "kubejs:pcb_t3"
+					consume_items: true
+				}
+				{
+					id: "6B24D0BB47FB89F0"
+					type: "item"
+					item: "mekanism:ingot_refined_obsidian"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "77AD83672DC94CC0"
+					type: "item"
+					item: {
+						id: "refinedstorage:64k_storage_disk"
+						Count: 1b
+						tag: {
+							Id: [I;
+								250083471
+								-374324794
+								-1876231896
+								-1464042444
+							]
+						}
+					}
+				}
+				{
+					id: "086C8A41746F8A63"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:64k_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "Garden Cloche!"
+			x: 78.5d
+			y: -6.75d
+			shape: "circle"
+			description: [
+				"The Garden Cloche is used for growing crops inside it. It runs on 650 FE/t."
+				""
+				"In order for crops to grow, water and energy are required. Water can be added through the lower front, back or bottom ports, and energy can be added through the top or the lower left and right sides (anywhere with an orange dot, except through the front centre block)."
+				""
+				"Various Fertilizers can be added to increase the growth modifier (production speed), including bone meal. Using fertilizer does not increase energy consumption."
+			]
+			dependencies: ["45B3F05007A945C2"]
+			hide: true
+			id: "0267B9D5B7A2AEC9"
+			tasks: [{
+				id: "158E3FE3A4697125"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [
+				{
+					id: "752FA39D59D70509"
+					type: "item"
+					item: "immersiveengineering:cloche"
+				}
+				{
+					id: "11E614D265BC6874"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "302D987DDDD7583F"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Cloche Fertilizer?"
+			x: 78.5d
+			y: -10.0d
+			shape: "circle"
+			description: [
+				"The Cloche offers a selection of fertilizers to choose from. Below is a list of each one and its growth modification rate.rate."
+				""
+				"Bone Meal -> 1.25x"
+				"Fertilizer -> 1.5x"
+				"Mystical Fertilizer -> 2.0x"
+				"Phyto-Gro -> 2.5x"
+				"Lilypad of Fertility -> 5.0x"
+			]
+			dependencies: ["0267B9D5B7A2AEC9"]
+			hide: true
+			id: "526417F7CD9E6A7E"
+			tasks: [{
+				id: "5D17E39C18ACCEDA"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "14C75BC5903BBCDB"
+					type: "item"
+					item: "industrialforegoing:fertilizer"
+				}
+				{
+					id: "11453DAA8C66D55F"
+					type: "item"
+					item: "mysticalagriculture:mystical_fertilizer"
+				}
+				{
+					id: "4B8FCAE915E3666F"
+					type: "item"
+					item: "thermal:phytogro"
+				}
+			]
+		}
+		{
+			title: "Tier 3"
+			icon: "ftbquests:book"
+			disable_toast: true
+			x: -36.75d
+			y: -2.25d
+			description: ["This chapter begins once you have completed the final T2 quest: \"Void Ore Miner T2\"."]
+			optional: true
+			id: "1D164BA6B6F963D5"
+		}
+		{
+			title: "Elven Mana Spreader!"
+			x: 69.5d
+			y: -5.0d
+			shape: "circle"
+			description: [
+				"The Elven Mana Spreader can fire Mana bursts up to 20 blocks before losing Mana, compared to the 12 blocks reached by the standard Mana Spreader. It also fires Mana more quickly."
+				""
+				"The Elven Mana Spreader also has a different Mana burst colour, which by default is pink, and can be changed using a Mana Lens. "
+				""
+				"To get your hands on dreamwood, you'll have to swap some of your tantalum for it with the elves."
+			]
+			dependencies: ["0421759366CAA386"]
+			hide: true
+			optional: true
+			id: "51E1F1DA24285980"
+			tasks: [{
+				id: "1285BD4D8253CD14"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [
+				{
+					id: "7F11A7C5C9F4DFE5"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "32E2F488B9CD94A3"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 8
+				}
+				{
+					id: "38A9D550EDE0AD37"
+					type: "item"
+					item: "kubejs:coin_t3"
 				}
 			]
 		}

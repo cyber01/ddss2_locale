@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 2
 	filename: "tier_2__main_questline"
-	title: "Tier 2 -> Main Questline"
+	title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.title}"
 	icon: {
 		id: "custommachinery:custom_machine_item"
 		Count: 1b
@@ -15,19 +15,20 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Dimension: Barathos"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.31ED78BFF4666CA4.title}"
 			x: -51.5d
 			y: -5.25d
 			description: [
-				"If you use the Barathos Realm Stone on the Carved Rune of Power on your Ancient Portal, it will open the portal to that dimension."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.31ED78BFF4666CA4.description.0}"
 				""
-				"Barathos is a barren desert-wasteland dimension. It has a sun in its sky, but it does not move, instead staying stationary in one spot. You cant place water with a bucket, similar to the Nether."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.31ED78BFF4666CA4.description.1}"
 				""
-				"Darkness does not exist in here; the inside of all caves and enclosed spaces is completely lit up 24/7 as if you had Night Vision."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.31ED78BFF4666CA4.description.2}"
 				""
-				"Here you can find Baronyte and Varsium ores, which are only found in this particular dimension. In addition, Barathos is known to contain large amounts of sulfur and silver, and sometimes even Chaos Ore."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.31ED78BFF4666CA4.description.3}"
 			]
 			dependencies: ["11B1ACAEB559AB89"]
+			hide: true
 			id: "31ED78BFF4666CA4"
 			tasks: [{
 				id: "1778498B341CB86F"
@@ -48,7 +49,7 @@
 			]
 		}
 		{
-			title: "Welcome To Tier 2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.11B1ACAEB559AB89.title}"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -57,20 +58,23 @@
 			x: -57.0d
 			y: -5.25d
 			description: [
-				"Welcome to Tier 2!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.11B1ACAEB559AB89.description.0}"
 				""
-				"In this chapter, we create our first electrical machines, learn about power generation, delve a little deeper into various magical mods, and expand our adventures into countless dimensions."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.11B1ACAEB559AB89.description.1}"
 				""
-				"And just when you thought it couldn't get any better, we're going to build our very first Fusion Computer and start with one of the storage mods of your choice! (AE2/RS)"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.11B1ACAEB559AB89.description.2}"
 				""
-				"It's time to dive into the new dimension! Let's go!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.11B1ACAEB559AB89.description.3}"
 			]
 			dependencies: ["0A52477E69679A16"]
+			hide: true
 			size: 3.0d
 			id: "11B1ACAEB559AB89"
 			tasks: [{
-				id: "2C17A8C404D4323A"
-				type: "checkmark"
+				id: "1FDA9E9B76F58955"
+				type: "item"
+				disable_toast: true
+				item: "aoa3:barathos_realmstone"
 			}]
 			rewards: [{
 				id: "229525E0C90FD866"
@@ -79,16 +83,17 @@
 			}]
 		}
 		{
-			title: "Barathos Resources"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.15857FF383D2C9DE.title}"
 			icon: "aoa3:baronyte_ingot"
 			x: -48.0d
 			y: -5.25d
 			description: [
-				"Some of Barathos' most valuable resources include baronyte, varsium, and chaos ore."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.15857FF383D2C9DE.description.0}"
 				""
-				"Now that we have access to Barathos, it is time to take a look at the important parts and components we will need to master T2. The following quests will tell you what you need to know."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.15857FF383D2C9DE.description.1}"
 			]
 			dependencies: ["31ED78BFF4666CA4"]
+			hide: true
 			id: "15857FF383D2C9DE"
 			tasks: [
 				{
@@ -141,17 +146,18 @@
 			]
 		}
 		{
-			title: "Complex Alloy T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.62D7037EC672ECFF.title}"
 			x: -44.0d
 			y: -7.75d
 			description: [
-				"You probably already know that Complex Alloy (short CA) is an important part of DDSS2. To make CA-T2 you need Prudentium, Triberium, Silver, Baronyte and for the last ingredient you can choose between Nether Quartz, Certus Quartz or Chaos Crystals."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.62D7037EC672ECFF.description.0}"
 				""
-				"Note: Do not confuse TRIberium with Tiberium, this is a common mistake."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.62D7037EC672ECFF.description.1}"
 				""
-				"Note 2: CA always needs the previous tier for the next better recipe."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.62D7037EC672ECFF.description.2}"
 			]
 			dependencies: ["15857FF383D2C9DE"]
+			hide: true
 			id: "62D7037EC672ECFF"
 			tasks: [{
 				id: "20F7656793CA6D29"
@@ -193,15 +199,16 @@
 			]
 		}
 		{
-			title: "T2 Materia!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0ACCD65F29F0DB95.title}"
 			x: -44.0d
 			y: -0.25d
 			description: [
-				"To reach the next level of materia, you'll need the previous tier and additional materials like Rich Slag, Flammable Dust, Prudentium, Biomass, and Sulfur."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0ACCD65F29F0DB95.description.0}"
 				""
-				"You can get flammable dust by putting Redstone in a centrifuge."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0ACCD65F29F0DB95.description.1}"
 			]
 			dependencies: ["15857FF383D2C9DE"]
+			hide: true
 			id: "0ACCD65F29F0DB95"
 			tasks: [{
 				id: "692F8BF1D73B2A18"
@@ -249,15 +256,16 @@
 			]
 		}
 		{
-			title: "Super Glue!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.30CEFBA6B6EC6F39.title}"
 			x: -44.0d
 			y: -10.25d
 			description: [
-				"Finally you can make use of all the resin you collected in T0!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.30CEFBA6B6EC6F39.description.0}"
 				""
-				"Super glue (or, by its industrial name, cyanoacrylate adhesive) is a type of fast-bonding, high-strength, instant adhesive engineered to bond almost any material. Super glues are valued for their resistance to temperature and moisture and are commonly used with stone, metal, wood, plastic, glass ceramic, paper and most other common substances."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.30CEFBA6B6EC6F39.description.1}"
 			]
 			dependencies: ["15857FF383D2C9DE"]
+			hide: true
 			id: "30CEFBA6B6EC6F39"
 			tasks: [{
 				id: "34E2E82E416D5412"
@@ -298,15 +306,16 @@
 			]
 		}
 		{
-			title: "Conductive Adhesive!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.78706905D324639F.title}"
 			x: -44.0d
 			y: -2.75d
 			description: [
-				"Finally you can make use of all the ethanol you collected in T1. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.78706905D324639F.description.0}"
 				""
-				"Conductive Adhesive also known as conductive carbon is a paste mixture or compound consisting of carbon-based materials that can conduct electricity. It is often used as an electrical conductor or electrode material in various applications, including electronics, sensors and electrochemical devices"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.78706905D324639F.description.1}"
 			]
 			dependencies: ["15857FF383D2C9DE"]
+			hide: true
 			id: "78706905D324639F"
 			tasks: [{
 				id: "335B2A2B4E3C0822"
@@ -334,12 +343,13 @@
 			]
 		}
 		{
-			title: "Ender Sack?"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.17780673CD6B81E7.title}"
 			x: -45.5d
 			y: 2.5d
 			shape: "circle"
-			description: ["The Ender Sack is a portable utility item that provides access to your Ender Chest."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.17780673CD6B81E7.description.0}"]
 			dependencies: ["0ACCD65F29F0DB95"]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "17780673CD6B81E7"
 			tasks: [{
@@ -387,17 +397,19 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.4B42B2EFB0492FC2.title}"
 			x: -42.5d
 			y: 2.5d
 			shape: "circle"
 			description: [
-				"With this scythe you can quickly get rid of large amounts of leaves."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4B42B2EFB0492FC2.description.0}"
 				""
-				"Right-click with it in hand to break all leaves in a 3x3x3 area."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4B42B2EFB0492FC2.description.1}"
 				""
-				"Cyclic has a number of different scythes to choose from. They are all worth a look."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4B42B2EFB0492FC2.description.2}"
 			]
 			dependencies: ["0ACCD65F29F0DB95"]
+			hide: true
 			id: "4B42B2EFB0492FC2"
 			tasks: [{
 				id: "7BFED10BCE3F4DE1"
@@ -440,11 +452,12 @@
 			]
 		}
 		{
-			title: "Empty Spools?"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.33F244CCAA70418A.title}"
 			x: -41.0d
 			y: -10.25d
-			description: ["Empty spools are mainly used to wind electromagnetic coils, but they are also useful for other things such as wire coils."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.33F244CCAA70418A.description.0}"]
 			dependencies: ["30CEFBA6B6EC6F39"]
+			hide: true
 			id: "33F244CCAA70418A"
 			tasks: [{
 				id: "50A51D3A99603F26"
@@ -476,12 +489,13 @@
 			]
 		}
 		{
-			title: "Memory Modules, Capacitors and Transistors"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0856B421E5617459.title}"
 			icon: "kubejs:weak_module"
 			x: -40.75d
 			y: -2.75d
-			description: ["These 3 components are expected to play an increasingly significant role in electronic devices, such as control circuits and logic processors, due to their versatility and wide range of applications."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.0856B421E5617459.description.0}"]
 			dependencies: ["78706905D324639F"]
+			hide: true
 			id: "0856B421E5617459"
 			tasks: [
 				{
@@ -547,21 +561,22 @@
 			]
 		}
 		{
-			title: "Runic Altar!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.1F5ECCAB8ED0E136.title}"
 			x: -37.75d
 			y: -0.25d
 			description: [
-				"The rune altar is a magical block for the creation of runes in exchange for mana and certain items."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1F5ECCAB8ED0E136.description.0}"
 				""
-				"To create a rune, certain items must be placed onto the altar (in any order), by either right-clicking the altar with them or throwing onto the altar. The placed items will be shown orbiting above it."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1F5ECCAB8ED0E136.description.1}"
 				""
-				"Shift right-clicking the Runic Altar with an empty hand will return the last placed item into your inventory. The items cannot be retrieved after the altar has been activated."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1F5ECCAB8ED0E136.description.2}"
 				""
-				"Once all the necessary items are placed on the altar, it will activate and begin receiving mana. Any mana spreader that comes with a mana source must be pointed at the altar to give it mana. Crafting progress is displayed when you look at the altar."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1F5ECCAB8ED0E136.description.3}"
 				""
-				"All recipes in the Runic Altar can be boosted!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1F5ECCAB8ED0E136.description.4}"
 			]
 			dependencies: ["2386DD33896403C3"]
+			hide: true
 			id: "1F5ECCAB8ED0E136"
 			tasks: [{
 				id: "481103DE68316984"
@@ -602,15 +617,16 @@
 			]
 		}
 		{
-			title: "Capacitors!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.5E8DECF6901D991B.title}"
 			x: -37.75d
 			y: -7.75d
 			description: [
-				"Now it's time to start making capacitors, which are responsible for storing energy in machines and devices."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5E8DECF6901D991B.description.0}"
 				""
-				"To make them, you need battery hulls and mercury, among other things. The easiest way to get mercury is by processing cinnabar dust in a centrifuge. The most effective way would be to use Crimson Iron dust which can be found in the Nether."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5E8DECF6901D991B.description.1}"
 			]
 			dependencies: ["0D7A8372CDD8288C"]
+			hide: true
 			id: "5E8DECF6901D991B"
 			tasks: [{
 				id: "741E8E11CDD395AB"
@@ -656,7 +672,7 @@
 			]
 		}
 		{
-			title: "Low Quality Coolant!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.356D8A425D9EDF94.title}"
 			icon: {
 				id: "silents_mechanisms:canister"
 				Count: 1b
@@ -667,11 +683,12 @@
 			x: -37.75d
 			y: -5.25d
 			description: [
-				"Coolant comes in 3 different qualities, similar to plastic or rubber. Some machines require a few cans of it. The further you progress, the higher the quality required."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.356D8A425D9EDF94.description.0}"
 				""
-				"To make low quality coolant, all you need is water and ice or snow in your EDRU."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.356D8A425D9EDF94.description.1}"
 			]
 			dependencies: ["456552F7C9CAC124"]
+			hide: true
 			id: "356D8A425D9EDF94"
 			tasks: [{
 				id: "14089946FD94CC35"
@@ -715,15 +732,16 @@
 			]
 		}
 		{
-			title: "First Rune!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.1B752B999AEAB1AF.title}"
 			x: -35.25d
 			y: -0.25d
 			description: [
-				"The Rune of Fire is a crafting component for higher-tiered runes and other items / machines like coal generators."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1B752B999AEAB1AF.description.0}"
 				""
-				"All runes can be boosted in the rune altar with the respective mixture."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1B752B999AEAB1AF.description.1}"
 			]
 			dependencies: ["1F5ECCAB8ED0E136"]
+			hide: true
 			id: "1B752B999AEAB1AF"
 			tasks: [{
 				id: "712BFB3D574744CF"
@@ -750,15 +768,16 @@
 			]
 		}
 		{
-			title: "Control Circuit T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.353C477514CB94CA.title}"
 			x: -37.75d
 			y: -2.75d
 			description: [
-				"Control circuits are used in a wide range of applications from T2 to T6."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.353C477514CB94CA.description.0}"
 				""
-				"They are designed to manage, regulate, or control the behavior of other devices or systems. It typically consists of various components that work together to achieve specific operational goals."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.353C477514CB94CA.description.1}"
 			]
 			dependencies: ["0856B421E5617459"]
+			hide: true
 			id: "353C477514CB94CA"
 			tasks: [{
 				id: "2A467CF349B002F7"
@@ -784,12 +803,13 @@
 			]
 		}
 		{
-			title: "Coils and Motors!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.08BD03CB53254B1B.title}"
 			icon: "kubejs:motor_t2"
 			x: -37.75d
 			y: -10.25d
-			description: ["In T1 we learned how to make a steam engine. But now we want to move on to our first electric motor, and to do that we need some new components, including electromagnetic coils."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.08BD03CB53254B1B.description.0}"]
 			dependencies: ["33F244CCAA70418A"]
+			hide: true
 			id: "08BD03CB53254B1B"
 			tasks: [{
 				id: "2F092678495B1132"
@@ -826,14 +846,16 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.456552F7C9CAC124.title}"
 			icon: { id: "kubejs:pump_t2", Count: 2b }
 			x: -41.0d
 			y: -5.25d
-			description: ["Just the next tier of pneumatic devices that runs throughout T2."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.456552F7C9CAC124.description.0}"]
 			dependencies: [
 				"62D7037EC672ECFF"
 				"0B7D97BDF7B01432"
 			]
+			hide: true
 			id: "456552F7C9CAC124"
 			tasks: [{
 				id: "4C24A3AE4123907F"
@@ -868,16 +890,17 @@
 			]
 		}
 		{
-			title: "Thermalily!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.30F637D397BD23F5.title}"
 			x: -36.5d
 			y: 2.5d
 			shape: "circle"
 			description: [
-				"The Thermalily is a mana generating flower."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.30F637D397BD23F5.description.0}"
 				""
-				"It consumes Lava source blocks to generate very large amounts of Mana. It searches the same way as Hydroangeas, all 4 directions and diagonals at the same altitude. After consuming a block of Lava, a Thermalily will produce 20 Mana per tick for 900 ticks (45 seconds), producing a total of 18,000 Mana."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.30F637D397BD23F5.description.1}"
 			]
 			dependencies: ["1B752B999AEAB1AF"]
+			hide: true
 			id: "30F637D397BD23F5"
 			tasks: [{
 				id: "2E45DF8C8CFCC1E0"
@@ -914,16 +937,17 @@
 			]
 		}
 		{
-			title: "Exoflame?"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.62DBC6D247D178B2.title}"
 			x: -34.0d
 			y: 2.5d
 			shape: "circle"
 			description: [
-				"The Exoflame is one of botanias functional flowers."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.62DBC6D247D178B2.description.0}"
 				""
-				"When supplied with a source of Mana, this flower will do the opposite of its generating counterpart, the Endoflame, and use Mana to generate heat. Any Furnaces nearby the flower will be fueled and given an efficiency boost when it is supplied with Mana. Multiple Exoflames will have a stacking effect on efficiency of all Furnaces within their radius, and will allow more Furnaces to be fueled at once."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.62DBC6D247D178B2.description.1}"
 			]
 			dependencies: ["1B752B999AEAB1AF"]
+			hide: true
 			id: "62DBC6D247D178B2"
 			tasks: [{
 				id: "0035976E6CADDC20"
@@ -949,16 +973,17 @@
 			]
 		}
 		{
-			title: "Nuts and Bolts T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0B7D97BDF7B01432.title}"
 			x: -44.0d
 			y: -5.25d
 			description: [
-				"Hey, just wanted to let you know that Nuts and Bold T2 can be made from any T2 rod material. If you're curious about what's available, check JEI like the picture below."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0B7D97BDF7B01432.description.0}"
 				""
 				""
-				"{image:modpack:textures/quest_images/jei_rods.png width:100 height:160 align:1}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0B7D97BDF7B01432.description.1}"
 			]
 			dependencies: ["15857FF383D2C9DE"]
+			hide: true
 			id: "0B7D97BDF7B01432"
 			tasks: [{
 				id: "03AA75C94DD2CD0B"
@@ -980,17 +1005,17 @@
 			]
 		}
 		{
-			title: "Furnator?!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.442242E28D3F3DE5.title}"
 			x: -33.25d
 			y: -5.25d
 			description: [
-				"Finally, our first power generation! "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.442242E28D3F3DE5.description.0}"
 				""
-				"There are countless ways to generate energy, we start with the Furnator from Powah which is a tech mod that adds various ways to generate, store, and transmit Energy. An additional slot for chargable items is included on all Furnators."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.442242E28D3F3DE5.description.1}"
 				""
-				"The first Furnator produces 100 FE/t. It uses solid fuel (coal/wood)."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.442242E28D3F3DE5.description.2}"
 				""
-				"Once you have completed the quest, you will be rewarded with a choice of cables to use to transport energy."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.442242E28D3F3DE5.description.3}"
 			]
 			dependencies: [
 				"356D8A425D9EDF94"
@@ -999,6 +1024,7 @@
 				"353C477514CB94CA"
 				"5E8DECF6901D991B"
 			]
+			hide: true
 			id: "442242E28D3F3DE5"
 			tasks: [{
 				id: "5075AB05A208BD13"
@@ -1038,16 +1064,17 @@
 			]
 		}
 		{
-			title: "Magmator!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.32554C79006595BD.title}"
 			x: -33.25d
 			y: -8.25d
 			shape: "circle"
 			description: [
-				"The Magmator is another generator from Powah that produces energy from a fluid heat source (lava)."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.32554C79006595BD.description.0}"
 				""
-				"It also generates 100FE/t."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.32554C79006595BD.description.1}"
 			]
 			dependencies: ["442242E28D3F3DE5"]
+			hide: true
 			id: "32554C79006595BD"
 			tasks: [{
 				id: "5C012B8840C7EAB0"
@@ -1092,7 +1119,7 @@
 			]
 		}
 		{
-			title: "About Power Usage..."
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.49C82129750A7631.title}"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -1101,13 +1128,14 @@
 			x: -30.75d
 			y: -5.25d
 			description: [
-				"On average, most T2 singelblock machines consume 50-70 FE/t."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.49C82129750A7631.description.0}"
 				""
-				"This amount can increase dramatically when using speed upgrades without energy upgrades or when using boosting mixture. A boosted recipe will always consume more power than a regular one."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.49C82129750A7631.description.1}"
 				""
-				"Nothing is consumed when machines are in stand-by mode, with the exception of AE2 and Refined Storage systems. These consume small amounts of power when idling."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.49C82129750A7631.description.2}"
 			]
 			dependencies: ["442242E28D3F3DE5"]
+			hide: true
 			id: "49C82129750A7631"
 			tasks: [{
 				id: "076F1AE2F9121A89"
@@ -1127,16 +1155,17 @@
 			]
 		}
 		{
-			title: "Sitrling Dynamo!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7F946B8BBAD45250.title}"
 			x: -33.25d
 			y: -2.25d
 			shape: "circle"
 			description: [
-				"The Stirling Dynamo is part of thermal expansion. It burns solid fuels to produce electricity."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7F946B8BBAD45250.description.0}"
 				""
-				"By default, it produces only 60 FE/t and can be significantly increased with augments and integral components."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7F946B8BBAD45250.description.1}"
 			]
 			dependencies: ["442242E28D3F3DE5"]
+			hide: true
 			id: "7F946B8BBAD45250"
 			tasks: [{
 				id: "2197869A8168E2BF"
@@ -1168,18 +1197,19 @@
 			]
 		}
 		{
-			title: "Materia Dynamo? o_Ò"
-			x: -31.75d
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.68C6690FB4CBC68A.title}"
+			x: -32.0d
 			y: -2.25d
 			shape: "circle"
 			description: [
-				"There is actually such a thing as a materia dynamo, which, as the name suggests, is fueled by materia. The higher the materia, the more electricity you generate. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.68C6690FB4CBC68A.description.0}"
 				""
-				"T1 Materia is usually no big problem, but anything above that should be well thought out if your supplies are short."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.68C6690FB4CBC68A.description.1}"
 				""
-				"This dynamo produces 100 FE/t with T1 materia and can be significantly increased with augments and integral components."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.68C6690FB4CBC68A.description.2}"
 			]
 			dependencies: ["49C82129750A7631"]
+			hide: true
 			id: "68C6690FB4CBC68A"
 			tasks: [{
 				id: "5D389434693F3006"
@@ -1212,18 +1242,19 @@
 			]
 		}
 		{
-			title: "Thermo Generator!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.213185B450B9184B.title}"
 			x: -30.75d
 			y: -8.25d
 			shape: "circle"
 			description: [
-				"The thermo generator produces only 40FE/t, but all it needs is an endless supply of water and a 1x1 lava hole under the block. After that it runs forever without maintenance."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.213185B450B9184B.description.0}"
 				""
-				"Note that it works faster if there are other heat sources under the generator instead of lava. For example, a block of blazing crystals."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.213185B450B9184B.description.1}"
 				""
-				"That may still be out of reach, but at least now you have heard about it :)"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.213185B450B9184B.description.2}"
 			]
 			dependencies: ["49C82129750A7631"]
+			hide: true
 			id: "213185B450B9184B"
 			tasks: [{
 				id: "5072989E741BB10D"
@@ -1250,14 +1281,15 @@
 			]
 		}
 		{
-			title: "Hardened Glass"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.6CB9103B747E104A.title}"
 			x: -25.25d
 			y: -5.25d
-			description: ["Hardened glass is a very robust and explosion-proof glass used in a variety of applications. Among other things, a quartz plate of your choice is needed for the production."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.6CB9103B747E104A.description.0}"]
 			dependencies: [
 				"62D82863BBA29B3C"
 				"27538E67E6784724"
 			]
+			hide: true
 			id: "6CB9103B747E104A"
 			tasks: [{
 				id: "2052B340E589E721"
@@ -1292,17 +1324,18 @@
 			]
 		}
 		{
-			title: "Basic Alloy Smelter T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.65590205389A9000.title}"
 			x: -22.5d
 			y: -7.0d
 			description: [
-				"The electric version of the alloy smelter. Uses an average of 50FE/t without upgrades and without using boosting mixtures."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.65590205389A9000.description.0}"
 				""
-				"In addition to the regular boosting slot, you have the option of adding 4 speed upgrades, 4 energy upgrades and 4 chance upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.65590205389A9000.description.1}"
 				""
-				"T2 machines have a 20% chance of gaining a by-product if the recipe gives one. (Without chance upgrades) Up to T5, each new level adds 10% base value. This value can be increased even more with chance upgrades, depending on how many slots you have available."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.65590205389A9000.description.2}"
 			]
 			dependencies: ["6CB9103B747E104A"]
+			hide: true
 			id: "65590205389A9000"
 			tasks: [{
 				id: "291885DBCBEACFA5"
@@ -1349,17 +1382,18 @@
 			]
 		}
 		{
-			title: "Basic EDRU T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.4F6E456320B9EACF.title}"
 			x: -22.5d
 			y: -3.5d
 			description: [
-				"The electric version of the EDRU. Uses an average of 50FE/t without upgrades and without using boosting mixtures."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4F6E456320B9EACF.description.0}"
 				""
-				"In addition to the regular boosting and circuit-state slot, you have the option of adding 4 speed upgrades, 4 energy upgrades and 4 chance upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4F6E456320B9EACF.description.1}"
 				""
-				"T2 machines have a 20% chance of gaining a by-product if the recipe gives one. (Without chance upgrades) Up to T5, each new level adds 10% base value. This value can be increased even more with chance upgrades, depending on how many slots you have available."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4F6E456320B9EACF.description.2}"
 			]
 			dependencies: ["6CB9103B747E104A"]
+			hide: true
 			id: "4F6E456320B9EACF"
 			tasks: [{
 				id: "5C4D950E2F36F174"
@@ -1406,22 +1440,23 @@
 			]
 		}
 		{
-			title: "Blaze and Energized Gold"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.1DC5EC14AD514EF2.title}"
 			icon: "kubejs:energized_gold_ingot"
 			x: -19.75d
 			y: -5.25d
 			description: [
-				"Blaze and Energized Gold Ingots are 2 metals that can only be produced with a T2 or higher machine."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1DC5EC14AD514EF2.description.0}"
 				""
-				"Blaze gold is pretty simple. You just need to combine Blaze Powder and Gold Ingots in an alloy smelter."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1DC5EC14AD514EF2.description.1}"
 				""
-				"Energized gold is a bit more complicated. You need to create Destabilised Redstone and refine it with Lumium to create Energized Glowstone. Only then can the gold be refined into Energized Gold."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1DC5EC14AD514EF2.description.2}"
 			]
 			dependencies: [
 				"4F6E456320B9EACF"
 				"65590205389A9000"
 				"3FAA97BFE12DBB42"
 			]
+			hide: true
 			id: "1DC5EC14AD514EF2"
 			tasks: [
 				{
@@ -1465,15 +1500,16 @@
 			]
 		}
 		{
-			title: "First Energy Cell!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.62D82863BBA29B3C.title}"
 			x: -28.0d
 			y: -7.0d
 			description: [
-				"The Redstone Flux Cell is used to store energy. Initially it can store 1M FE and this can later be improved with augments and integral components."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.62D82863BBA29B3C.description.0}"
 				""
-				"The sides must be configured in the GUI for the corresponding input/output results."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.62D82863BBA29B3C.description.1}"
 			]
 			dependencies: ["49C82129750A7631"]
+			hide: true
 			id: "62D82863BBA29B3C"
 			tasks: [{
 				id: "044D73E8F5C736C7"
@@ -1517,7 +1553,7 @@
 			]
 		}
 		{
-			title: "Fusion Computer!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.40684982970F9F8E.title}"
 			icon: {
 				id: "custommachinery:custom_machine_item"
 				Count: 1b
@@ -1529,18 +1565,19 @@
 			y: -5.25d
 			shape: "gear"
 			description: [
-				"The Fusion Computer is a multi-block structure that works much like an Alloy Smelter, but can perform far more complex tasks. The most common of these are recipes that require condensed Void from the Void Ore Miner."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.40684982970F9F8E.description.0}"
 				""
-				"Special metals such as Pure Gold or Steel can only be produced in this device. Pure Iron or Aquamarine are also much easier to produce with the Fusion Computer than with the EDRU."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.40684982970F9F8E.description.1}"
 				""
-				"To see the exact structure of this multi-block, you can follow the same steps as you did with the Void Ore Miner in T1. This type of multiblock doesent use hatches or ports."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.40684982970F9F8E.description.2}"
 				""
-				"{image:modpack:textures/quest_multiblock/fusion_pc.png width:175 height:115 align:1}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.40684982970F9F8E.description.3}"
 			]
 			dependencies: [
 				"5F385E4EA3330BD3"
 				"48B028B90A3F94DC"
 			]
+			hide: true
 			size: 2.0d
 			id: "40684982970F9F8E"
 			tasks: [
@@ -1637,15 +1674,16 @@
 			]
 		}
 		{
-			title: "Pure Gold!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.10BAE2705461B1F9.title}"
 			x: -11.75d
 			y: -5.25d
 			description: [
-				"With your new fusion computer, you can finally make pure gold. We will need some of it to set up all the missing components for our T2 machines."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.10BAE2705461B1F9.description.0}"
 				""
-				"You'll need some Frozen Void Drops that you've collected from your Void Ore Miner."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.10BAE2705461B1F9.description.1}"
 			]
 			dependencies: ["40684982970F9F8E"]
+			hide: true
 			id: "10BAE2705461B1F9"
 			tasks: [{
 				id: "1B9CA537D67F43BA"
@@ -1673,17 +1711,18 @@
 			]
 		}
 		{
-			title: "SCARA?"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.4984D07D2E551EA3.title}"
 			icon: "kubejs:mech_arm_t2"
 			x: -9.25d
 			y: -5.25d
 			description: [
-				"The SCARA is a type of industrial robot. The acronym stands for selective compliance assembly robot arm and is a robot system used for manufacturing. It is far superior to a mechanical arm of T1."
-				"Industrial robots are automated, programmable and capable of movement on three or more axes. This is where pure gold comes into play for the first time. We also need a number of other parts, including pure gold gears."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4984D07D2E551EA3.description.0}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4984D07D2E551EA3.description.1}"
 				""
-				"We also need Basic Logic Processors. We'll be using these in the next few steps, even though they're not made of pure gold."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4984D07D2E551EA3.description.2}"
 			]
 			dependencies: ["10BAE2705461B1F9"]
+			hide: true
 			id: "4984D07D2E551EA3"
 			tasks: [
 				{
@@ -1743,15 +1782,16 @@
 			]
 		}
 		{
-			title: "Basic Assembler T2"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.68948AD50703B3E0.title}"
 			x: -3.25d
 			y: -5.25d
 			description: [
-				"The Electric Assembler will give us access to many new possibilities and recipes and will make the next steps much easier."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.68948AD50703B3E0.description.0}"
 				""
-				"In addition to the regular boosting and circuit-state slot, you have the option of adding 4 speed and 4 energy upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.68948AD50703B3E0.description.1}"
 			]
 			dependencies: ["4984D07D2E551EA3"]
+			hide: true
 			id: "68948AD50703B3E0"
 			tasks: [{
 				id: "24FD35C4A3A3795E"
@@ -1802,16 +1842,17 @@
 			]
 		}
 		{
-			title: "Spiritual Crystal T2"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.3FAA97BFE12DBB42.title}"
 			icon: "kubejs:crystal_t2"
 			x: -22.5d
 			y: -5.25d
 			description: [
-				"The second level of Spiritual Crystals requires a new jar to create them. A Filled Soul Jar T2."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3FAA97BFE12DBB42.description.0}"
 				""
-				"In addition to the Purge Fluid you used before, you now have a choice of Slime Balls, Ink Sacs or Scutes."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3FAA97BFE12DBB42.description.1}"
 			]
 			dependencies: ["6CB9103B747E104A"]
+			hide: true
 			id: "3FAA97BFE12DBB42"
 			tasks: [{
 				id: "5C7BA72A8E4771EA"
@@ -1839,17 +1880,18 @@
 			]
 		}
 		{
-			title: "Magic Materializer T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0331F0C3D4EE7DDB.title}"
 			x: -14.25d
 			y: 2.25d
 			description: [
-				"The electric version of the Magic Materializer opens up new possibilities and replaces the steam version for good. Depending on the recipe, Spiritual Crystals will still be required."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0331F0C3D4EE7DDB.description.0}"
 				""
-				"In addition to the regular boosting and crystal slot, you have the option of adding 4 speed upgrades, 4 energy upgrades and 4 chance upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0331F0C3D4EE7DDB.description.1}"
 				""
-				"T2 machines have a 20% chance of gaining a by-product if the recipe gives one (Without chance upgrades). Up to T5, each new level adds 10% base value. This value can be increased even more with chance upgrades, depending on how many slots you have available."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0331F0C3D4EE7DDB.description.2}"
 			]
 			dependencies: ["5E8ED7CC9B3A7C85"]
+			hide: true
 			id: "0331F0C3D4EE7DDB"
 			tasks: [{
 				id: "5C67E156CFF7AC1D"
@@ -1897,15 +1939,16 @@
 			]
 		}
 		{
-			title: "Terrax Alloy"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.111DEB667AB4E18C.title}"
 			x: 1.5d
 			y: 10.0d
 			description: [
-				"Terrax is one of TAIGA's many alloys used in various applications, including making Boosting Mixutre T2."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.111DEB667AB4E18C.description.0}"
 				""
-				"The alloy requires ovium, karmesin and jauxum."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.111DEB667AB4E18C.description.1}"
 			]
 			dependencies: ["7FE580C1116DAEE4"]
+			hide: true
 			id: "111DEB667AB4E18C"
 			tasks: [{
 				id: "64B669DD6F3CDE84"
@@ -1945,15 +1988,16 @@
 			]
 		}
 		{
-			title: "Boosting Mixture T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.58C2F63B7D7713BF.title}"
 			x: -14.25d
 			y: 6.5d
 			description: [
-				"Finally, the second stage of the Boosting Mixture series. This mixture doubles the yield even more. Even if not quite cheap, one can never have enough of it."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.58C2F63B7D7713BF.description.0}"
 				""
-				"You always need the previous mixture in its liquid form to make it."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.58C2F63B7D7713BF.description.1}"
 			]
 			dependencies: ["0331F0C3D4EE7DDB"]
+			hide: true
 			id: "58C2F63B7D7713BF"
 			tasks: [{
 				id: "500BEBD5DCED9C8B"
@@ -1980,17 +2024,18 @@
 			]
 		}
 		{
-			title: "Deeplands Realmstone"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0EB06F86C908D776.title}"
 			icon: "kubejs:aoa_sidequest"
 			x: -19.75d
 			y: -9.5d
 			shape: "circle"
 			description: [
-				"This Realmstone is used to access the Deeplands dimension. This dimension is not part of the main progress, but it makes life easier for you, as described in the following quest."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0EB06F86C908D776.description.0}"
 				""
-				"You need Jauxum, Blaze Gold and Meteorite dust to craft it."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0EB06F86C908D776.description.1}"
 			]
 			dependencies: ["1DC5EC14AD514EF2"]
+			hide: true
 			id: "0EB06F86C908D776"
 			tasks: [{
 				id: "3241F736A484FA3A"
@@ -2025,18 +2070,19 @@
 			]
 		}
 		{
-			title: "Let's Visit The Deeplands..."
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.283B8F7604837E60.title}"
 			x: -22.5d
 			y: -9.5d
 			shape: "circle"
 			description: [
-				"The Deeplands is a dark, subterranean cave dimension. Its landscape is enclosed like a massive cave. The ground level is completely flat, but the ceiling is bumpy and hilly, with some parts reaching down to the ground."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.283B8F7604837E60.description.0}"
 				""
-				"The surface is covered in plants, and occasionally has some giant fossils. There are also a few different dungeons with special spawners that you can encounter."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.283B8F7604837E60.description.1}"
 				""
-				"Huge veins of gold, inferium, quartz, cinnabar and meteorite ore buried from bottom to top are the highlight of this dimension."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.283B8F7604837E60.description.2}"
 			]
 			dependencies: ["0EB06F86C908D776"]
+			hide: true
 			id: "283B8F7604837E60"
 			tasks: [{
 				id: "442E3441D1629987"
@@ -2077,12 +2123,13 @@
 			]
 		}
 		{
-			title: "Diamond Chest"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7AC9E200A073BEF2.title}"
 			x: -4.5d
 			y: -2.25d
 			shape: "circle"
-			description: ["The capacity of the diamond chest is 108 inventory slots and it can be placed next to another chest."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.7AC9E200A073BEF2.description.0}"]
 			dependencies: ["68948AD50703B3E0"]
+			hide: true
 			id: "7AC9E200A073BEF2"
 			tasks: [{
 				id: "6222D9CB34AB35F8"
@@ -2108,15 +2155,16 @@
 			]
 		}
 		{
-			title: "Vegetable Oil"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.502E54BE9B51BD83.title}"
 			x: -11.75d
 			y: 6.5d
 			description: [
-				"Vegetable oil can be extracted from soybeans or any other seed of your choice. Even industrial hemp which is the most efficient."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.502E54BE9B51BD83.description.0}"
 				""
-				"It is mainly used to make Biodiesel."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.502E54BE9B51BD83.description.1}"
 			]
 			dependencies: ["13D18A882349B072"]
+			hide: true
 			id: "502E54BE9B51BD83"
 			tasks: [{
 				id: "728DA203AD0B84D2"
@@ -2148,17 +2196,18 @@
 			]
 		}
 		{
-			title: "Basic Extractor T2"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.117852F8066E3687.title}"
 			x: -11.75d
 			y: 2.25d
 			description: [
-				"The electric version of the extractor. Apart from the obvious fact that it replaces the steam machine and gives you new recipes, all T2 machines can be fed with plenty of upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.117852F8066E3687.description.0}"
 				""
-				"In addition to the regular boosting and circuit-state slot, you have the option of adding 4 speed, 4 energy and 4 chance upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.117852F8066E3687.description.1}"
 				""
-				"T2 machines have a 20% chance of gaining a by-product if the recipe gives one. (Without chance upgrades) Up to T5, each new level adds 10% base value. This value can be increased even more with chance upgrades, depending on how many slots you have available."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.117852F8066E3687.description.2}"
 			]
 			dependencies: ["5E8ED7CC9B3A7C85"]
+			hide: true
 			id: "117852F8066E3687"
 			tasks: [{
 				id: "2664F1DE8558C735"
@@ -2191,15 +2240,16 @@
 			]
 		}
 		{
-			title: "Metallurgic Infuser"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.5F385E4EA3330BD3.title}"
 			x: -17.0d
 			y: -7.0d
 			description: [
-				"The Metallurgic Infuser is a machine used to infuse one substance into another using primarily consumables like Redstone, Diamonds, or Refined Obsidian.It's a crucial machine because it produces components that are essential for other machines and items."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5F385E4EA3330BD3.description.0}"
 				""
-				"The purple slot and the fill level indicator to the left are designated for consumables. Each transformation requires a specific consumable, which can be added via the purple slot. These items are consumed immediately and stored in the internal storage of the block, as indicated by the fill level indicator. Once inserted, consumables cannot be retrieved. They can only be consumed, or deleted, by using the \"Dump\" button on the right."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5F385E4EA3330BD3.description.1}"
 			]
 			dependencies: ["1DC5EC14AD514EF2"]
+			hide: true
 			id: "5F385E4EA3330BD3"
 			tasks: [{
 				id: "3974C2E088F8B475"
@@ -2225,17 +2275,18 @@
 			]
 		}
 		{
-			title: "Latex"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.2386DD33896403C3.title}"
 			x: -40.75d
 			y: -0.25d
 			description: [
-				"Since Biomass is an important part of Materia and needs a lot of leaves, it is time to look into Latex."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2386DD33896403C3.description.0}"
 				""
-				"Latex will not only make it easier for you to get your hands on LQ Plastic and LQ Rubber (and later HQ plastic), but you will also soon be able to make the range add-ons needed to run a decent tree farm and produce enough leaves without having to farm them manually."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2386DD33896403C3.description.1}"
 				""
-				"You can use a centrifuge or an extractor for this."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2386DD33896403C3.description.2}"
 			]
 			dependencies: ["0ACCD65F29F0DB95"]
+			hide: true
 			id: "2386DD33896403C3"
 			tasks: [{
 				id: "0FA717F53782341E"
@@ -2272,15 +2323,17 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.6BEC70529A4CD858.title}"
 			x: -40.75d
 			y: 2.5d
 			shape: "circle"
 			description: [
-				"Tiny Dry Rubber is a product that can be made from latex by passing it through the Fluid Mixer and Solidifier."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6BEC70529A4CD858.description.0}"
 				""
-				"It makes it easier to produce LQ Plastic and LQ Rubber."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6BEC70529A4CD858.description.1}"
 			]
 			dependencies: ["2386DD33896403C3"]
+			hide: true
 			id: "6BEC70529A4CD858"
 			tasks: [{
 				id: "3C007049C8D47E53"
@@ -2302,16 +2355,17 @@
 			]
 		}
 		{
-			title: "Plant Gatherer"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7C1F9A4364B8663B.title}"
 			x: -17.0d
 			y: -12.25d
 			description: [
-				"The Plant Gatherer is used to harvest both crops and trees, producing Sludge as a byproduct. The machine can be set to harvest crop, trees, or both. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7C1F9A4364B8663B.description.0}"
 				""
-				"The default working area is 1x1x1 in front of the machine, which can be expanded with Range Addons. If the Plant Gatherer begins to harvest a tree within the working area, it will continue to harvest any log or leaves connected to the base log block. Care should be taken using the tree harvest mode around forests and wooden structures, as the Gatherer will harvest logs 100 blocks away if connected to trees in the working area by other log and leaf blocks. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7C1F9A4364B8663B.description.1}"
 				""
 			]
 			dependencies: ["5F385E4EA3330BD3"]
+			hide: true
 			id: "7C1F9A4364B8663B"
 			tasks: [{
 				id: "34EDAF053A3DBDB0"
@@ -2346,14 +2400,16 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.03617114E2239B09.title}"
 			x: -14.5d
 			y: -12.25d
 			description: [
-				"The Plant Sower is used to automatically plant seeds in the area above the machine. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.03617114E2239B09.description.0}"
 				""
-				"The machine has a default range of 1x1x1 located 2 blocks above the machine. This range can be expanded with a Range Addon. The 9 internal inventory slots are color coded and correspond to the colored markings on the top of the Plant Sower. The working area above the machine is divided into 9 segments and only seeds from the corresponding inventory slot will be planted in each section. The internal inventory slots have a max stack size of 16 and may be locked to a particular seed type. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.03617114E2239B09.description.1}"
 			]
 			dependencies: ["7C1F9A4364B8663B"]
+			hide: true
 			id: "03617114E2239B09"
 			tasks: [{
 				id: "3F6AB4D404F71CE0"
@@ -2375,20 +2431,21 @@
 			]
 		}
 		{
-			title: "Basic Centrifuge T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.55A4DDD26146B0F6.title}"
 			x: -9.25d
 			y: -12.25d
 			description: [
-				"And finally, we've got the electric centrifuge!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.55A4DDD26146B0F6.description.0}"
 				""
-				"Like any new version, this one has new features. You can use it to break down sludge into a bunch of different products or to produce a ton of leaves from your tree farm for your biomasse. Darkly powder will also be very important. We'll talk more about that later."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.55A4DDD26146B0F6.description.1}"
 				""
-				"In addition to the regular boosting and circuit state slot, you have the option of adding 4 speed upgrades, 4 energy upgrades and 4 chance upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.55A4DDD26146B0F6.description.2}"
 			]
 			dependencies: [
 				"4984D07D2E551EA3"
 				"7FAEB27A69F01176"
 			]
+			hide: true
 			id: "55A4DDD26146B0F6"
 			tasks: [{
 				id: "0C7C14065BF88D48"
@@ -2426,15 +2483,16 @@
 			]
 		}
 		{
-			title: "Baisc Macerator T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.6894C6AE0486F193.title}"
 			x: -10.5d
 			y: -7.5d
 			description: [
-				"Crushing stuff is a great thing, and it's even more fun when it's done powered by electricity. And let's not forget, rich slag is still a hot topic and will always be popular."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6894C6AE0486F193.description.0}"
 				""
-				"In addition to the regular boosting slot, you have the option of adding 4 speed upgrades, 4 energy upgrades and 4 chance upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6894C6AE0486F193.description.1}"
 			]
 			dependencies: ["4984D07D2E551EA3"]
+			hide: true
 			id: "6894C6AE0486F193"
 			tasks: [{
 				id: "52C5DF3D43D04EBF"
@@ -2476,7 +2534,7 @@
 			]
 		}
 		{
-			title: "Range Addon Deal!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.2EF8157153CA0FCE.title}"
 			icon: {
 				id: "industrialforegoing:range_addon6"
 				Count: 1b
@@ -2489,15 +2547,16 @@
 			x: -17.0d
 			y: -16.5d
 			shape: "heart"
-			subtitle: "Trading Quest"
+			subtitle: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.2EF8157153CA0FCE.subtitle}"
 			description: [
-				"The Range Addon is used to increase the range of some IF machines by placing it in the machine's upgrade slots. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2EF8157153CA0FCE.description.0}"
 				""
-				"There are 12 different Range Addons. Level 0 reduces the working area to a single block, while levels 1 to 11 increase the radius of the working area by their level number. For example, a machine with a default 3x3 (radius 1) work area will expand to 7x7 (radius 3) with a tier 2 upgrade."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2EF8157153CA0FCE.description.1}"
 				""
-				"Do you think this deal is worth it?"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2EF8157153CA0FCE.description.2}"
 			]
 			dependencies: ["7C1F9A4364B8663B"]
+			hide: true
 			size: 2.0d
 			id: "2EF8157153CA0FCE"
 			tasks: [
@@ -2537,16 +2596,17 @@
 			}]
 		}
 		{
-			title: "Speed Addon!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7927E0DCB24EDFDE.title}"
 			x: -15.75d
 			y: -9.5d
 			shape: "circle"
 			description: [
-				"The Speed addon increases the speed at which the progress bar fills up in IF machines. Once it's full, the machine performs its action."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7927E0DCB24EDFDE.description.0}"
 				""
-				"There are two speed addon tiers, but only one of these can be active in the machine at any one time."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7927E0DCB24EDFDE.description.1}"
 			]
 			dependencies: ["03617114E2239B09"]
+			hide: true
 			id: "7927E0DCB24EDFDE"
 			tasks: [{
 				id: "402BB341B95D0BF8"
@@ -2583,16 +2643,17 @@
 			]
 		}
 		{
-			title: "Efficiency addon!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.4289A79D14363176.title}"
 			x: -13.25d
 			y: -9.5d
 			shape: "circle"
 			description: [
-				"The efficiency addon reduces the amount of Progress that needs to be made to fill one bar."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4289A79D14363176.description.0}"
 				""
-				"There are two efficiency addon tiers, but only one of these can be active in the machine at any one time."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4289A79D14363176.description.1}"
 			]
 			dependencies: ["03617114E2239B09"]
+			hide: true
 			id: "4289A79D14363176"
 			tasks: [{
 				id: "2B9444D571342C98"
@@ -2629,16 +2690,17 @@
 			]
 		}
 		{
-			title: "Sludge Refiner"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.45FEE55A049D089A.title}"
 			x: -11.75d
 			y: -15.25d
 			shape: "circle"
 			description: [
-				"The Sludge Refiner is used to process Sludge. When refined, 1,000 mB of Sludge is converted into an earthen product such as Clay, Sand, Dirt, and Soul Sand."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.45FEE55A049D089A.description.0}"
 				""
-				"However, the T2 Centrifuge can also provide you with other interesting products if you prefer to process your sludge there."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.45FEE55A049D089A.description.1}"
 			]
 			dependencies: ["7FAEB27A69F01176"]
+			hide: true
 			id: "45FEE55A049D089A"
 			tasks: [{
 				id: "15D6AE4AA2860F16"
@@ -2675,15 +2737,16 @@
 			]
 		}
 		{
-			title: "Sludge!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7FAEB27A69F01176.title}"
 			x: -11.75d
 			y: -12.25d
 			description: [
-				"Sludge is created as a byproduct in the Plant Gatherer. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7FAEB27A69F01176.description.0}"
 				""
-				"You can process it in a number of different machines to get various things out of it."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7FAEB27A69F01176.description.1}"
 			]
 			dependencies: ["03617114E2239B09"]
+			hide: true
 			id: "7FAEB27A69F01176"
 			tasks: [{
 				id: "4101A5A5E99C70D5"
@@ -2706,12 +2769,13 @@
 			}]
 		}
 		{
-			title: "Dirty Metal Dusts"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.770EC9E451407DDC.title}"
 			icon: "mekanism:dirty_dust_iron"
 			x: -6.5d
 			y: -13.5d
-			description: ["Dirty metal dusts are usually produced during the process of ore multiplication in mekanism machines. But sometimes, other methods can be used to get some of those, like using a centrifuge. These dusts can then be cleaned in an enrichment chamber."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.770EC9E451407DDC.description.0}"]
 			dependencies: ["55A4DDD26146B0F6"]
+			hide: true
 			id: "770EC9E451407DDC"
 			tasks: [{
 				id: "36F60EE20F4FB922"
@@ -2738,18 +2802,19 @@
 			]
 		}
 		{
-			title: "Darkly Powder"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.638442C4A35D803A.title}"
 			x: -10.5d
 			y: -10.25d
 			description: [
-				"Darkly Powder is a centrifuge byproduct from Mysterious Dark Ash. Besides some uses for weapons and armor in AoA, there is a great need for it for upcoming T3 Materia. Its not a bad idea to start collecting some now."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.638442C4A35D803A.description.0}"
 				""
-				"The quickest way to get Mysterious Dark Ash is to crush Ancient Rock."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.638442C4A35D803A.description.1}"
 			]
 			dependencies: [
 				"55A4DDD26146B0F6"
 				"6894C6AE0486F193"
 			]
+			hide: true
 			id: "638442C4A35D803A"
 			tasks: [{
 				id: "57403F8FCE9695BD"
@@ -2764,14 +2829,16 @@
 			}]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0BD30709BCF9DC52.title}"
 			x: -3.25d
 			y: -13.5d
 			description: [
-				"This machine can be used to enrich various materials, such as coal into enriched carbon or mana diamonds into enriched diamonds, etc., and clean dirty dust from a mekanism ore multiplication plant."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0BD30709BCF9DC52.description.0}"
 				""
-				"This machine is also especially important if you use AE2 to produce Pure Fluix Crystals quickly without having to wait for the Growth Accelerators."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0BD30709BCF9DC52.description.1}"
 			]
 			dependencies: ["770EC9E451407DDC"]
+			hide: true
 			id: "0BD30709BCF9DC52"
 			tasks: [{
 				id: "789B4C7F0FB2398D"
@@ -2806,11 +2873,12 @@
 			]
 		}
 		{
-			title: "Laser Diodes"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.61EF70B9790AF4B6.title}"
 			x: -3.25d
 			y: -8.5d
-			description: ["Laser diodes are manufactured in a T2 assembler or higher. They are used in machines and components that use advanced laser technology."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.61EF70B9790AF4B6.description.0}"]
 			dependencies: ["68948AD50703B3E0"]
+			hide: true
 			id: "61EF70B9790AF4B6"
 			tasks: [{
 				id: "48749E6CB9C88561"
@@ -2832,17 +2900,18 @@
 			]
 		}
 		{
-			title: "Laser Cutter T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.5B0D5F897771C1AA.title}"
 			x: -3.25d
 			y: -11.25d
 			description: [
-				"The laser cutter and engraving machine is a more advanced version of the steam cutter. It can perform a lot more complex tasks. It can still cut logs into planks, but now it can also manufacture all kinds of data and network cards used by many other machines."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5B0D5F897771C1AA.description.0}"
 				""
-				"This machine requires a small, constant supply of energized glowstone to function properly, in addition to a steady power supply."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5B0D5F897771C1AA.description.1}"
 				""
-				"In addition to the regular boosting and circuit state slot, you have the option of adding 4 speed upgrades, 4 energy upgrades and 4 chance upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5B0D5F897771C1AA.description.2}"
 			]
 			dependencies: ["61EF70B9790AF4B6"]
+			hide: true
 			id: "5B0D5F897771C1AA"
 			tasks: [{
 				id: "3749D92571363B68"
@@ -2889,12 +2958,13 @@
 			]
 		}
 		{
-			title: "Powah Energy Cell"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0C4596236D6DE198.title}"
 			x: -0.75d
 			y: -2.25d
 			shape: "circle"
-			description: ["If you like to store your energy in a cell from the mod powah, now you can do that. The first tier of energy cells can hold 1M FE, and those cells can be upgraded to 500M FE."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.0C4596236D6DE198.description.0}"]
 			dependencies: ["68948AD50703B3E0"]
+			hide: true
 			id: "0C4596236D6DE198"
 			tasks: [{
 				id: "234201BEF5D5D5D2"
@@ -2921,12 +2991,13 @@
 			]
 		}
 		{
-			title: "Basic Energy Cube"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0FE74E18384BB51F.title}"
 			x: -2.0d
 			y: -2.25d
 			shape: "circle"
-			description: ["If you like to store your energy in a cube from mekanism, now you can do that. The first tier of energy cubs can hold 1M FE, and those cubs can be upgraded to 50M FE."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.0FE74E18384BB51F.description.0}"]
 			dependencies: ["68948AD50703B3E0"]
+			hide: true
 			id: "0FE74E18384BB51F"
 			tasks: [{
 				id: "5EF1E339FB88E755"
@@ -2953,7 +3024,7 @@
 			]
 		}
 		{
-			title: "Go ahead and choose your path!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.6C9DBCC1D37C5FC8.title}"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -2961,8 +3032,9 @@
 			}
 			x: -0.25d
 			y: -18.5d
-			description: ["The following quest series is designed to introduce you to the fundamentals of the well-known storage systems Refined Storage and Applied Energistics. You are welcome to choose one direction, but you may of course choose to do both if you wish to master all the quests or require the rewards. The choice is yours."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.6C9DBCC1D37C5FC8.description.0}"]
 			dependencies: ["42E164A1F534E943"]
+			hide: true
 			id: "6C9DBCC1D37C5FC8"
 			tasks: [{
 				id: "46CB93A11DFF71FB"
@@ -2975,22 +3047,23 @@
 			}]
 		}
 		{
-			title: "RS vs AE2?!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.24F63392B2D6B8EE.title}"
 			icon: "ftbquests:book"
 			x: 4.75d
 			y: -18.5d
 			description: [
-				"It's that age-old question..: RS or AE2? Which one is better????!!!!!!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.24F63392B2D6B8EE.description.0}"
 				""
-				"I'd say it's down to personal preference. They both have their pros and cons.People have very strong opinions on the subject, and it seems like there's been a lot of debate about it on reddit and other forums for years. If you've ended up here, you're probably pretty experienced, so I'd say go with what you know and what suits you better. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.24F63392B2D6B8EE.description.1}"
 				""
-				"I can tell you that in DDSS2, both systems have pretty much the same resource costs, even if sometimes components are called differently. Both systems also have the necessary add-ons to automate 5x5/7x7/9x9 recipes."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.24F63392B2D6B8EE.description.2}"
 				""
-				"And hey, just wanted to let you know that AE2 doesn't need Inscriber Presses to be found in meteorites. Everything you need is crafted in some way, so you're all set!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.24F63392B2D6B8EE.description.3}"
 				""
-				"Note: In 1.16.5 there is no option to disable Ae2 channels."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.24F63392B2D6B8EE.description.4}"
 			]
 			dependencies: ["6C9DBCC1D37C5FC8"]
+			hide: true
 			id: "24F63392B2D6B8EE"
 			tasks: [{
 				id: "564E0FB5A5BF77F8"
@@ -3003,15 +3076,16 @@
 			}]
 		}
 		{
-			title: "Basic Mixer And Bottler T2"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.2FFEE9DBBF856BA7.title}"
 			x: -6.75d
 			y: 2.25d
 			description: [
-				"It's time to replace the old Steam mixer. The old one is slowly dying, and the new upgrade options in T2 are a great bonus."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2FFEE9DBBF856BA7.description.0}"
 				""
-				"In addition to the regular boosting slot, you have the option of adding 4 speed upgrades and 4 energy upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2FFEE9DBBF856BA7.description.1}"
 			]
 			dependencies: ["5E8ED7CC9B3A7C85"]
+			hide: true
 			id: "2FFEE9DBBF856BA7"
 			tasks: [{
 				id: "23CCB35BF6BE03B9"
@@ -3059,15 +3133,16 @@
 			]
 		}
 		{
-			title: "Etching Acid"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.51B6831487090EC2.title}"
 			x: -6.75d
 			y: 5.0d
 			description: [
-				"Etching Acid is made out of ehtanol and Acid Powder. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.51B6831487090EC2.description.0}"
 				""
-				"Etching Acid is used for a process where a metal surface is treated with a strong acid to create a design or pattern by selectively removing material. This is achieved by applying an acid-resistant substance to the metal, then exposing the desired areas to the acid, which then eats away the unprotected metal. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.51B6831487090EC2.description.1}"
 			]
 			dependencies: ["2FFEE9DBBF856BA7"]
+			hide: true
 			id: "51B6831487090EC2"
 			tasks: [{
 				id: "0685BDED5B9573E9"
@@ -3098,16 +3173,17 @@
 			]
 		}
 		{
-			title: "Battery"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.397412639002DC0D.title}"
 			x: -5.75d
 			y: -2.25d
 			shape: "circle"
 			description: [
-				"The first tier of batterys from Powah can store 1M FE and can be carried in a Curios slot. To change the mode and power your items in your inventory, just sneak-click while it's in your hands."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.397412639002DC0D.description.0}"
 				""
-				"There are 5 different battery tiers."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.397412639002DC0D.description.1}"
 			]
 			dependencies: ["68948AD50703B3E0"]
+			hide: true
 			id: "397412639002DC0D"
 			tasks: [{
 				id: "7865858023246A34"
@@ -3138,12 +3214,13 @@
 			]
 		}
 		{
-			title: "Flux Capacitor"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.27DE7282ACAFF9E1.title}"
 			x: -7.0d
 			y: -7.25d
 			shape: "circle"
-			description: ["The Flux Capacitor is used to store and provide energy to other items and equipment carried by the player. It holds 500k FE by default and can be upgraded in a Tinker's Workbench from Thermal Expansion."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.27DE7282ACAFF9E1.description.0}"]
 			dependencies: ["46C11375B9D1D165"]
+			hide: true
 			id: "27DE7282ACAFF9E1"
 			tasks: [{
 				id: "405C0AA3AFE93D28"
@@ -3168,15 +3245,17 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.46C11375B9D1D165.title}"
 			x: -5.0d
 			y: -8.5d
 			shape: "circle"
 			description: [
-				"The Tinker's Workbench is used to recharge and upgrade thermal tools such as the Flux Capacitor."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.46C11375B9D1D165.description.0}"
 				""
-				"You can charge the tools with other devices like the Energy Cubes from Mekanism but you can only upgrade the tools in a proper Thermal Tinker Table."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.46C11375B9D1D165.description.1}"
 			]
 			dependencies: ["68948AD50703B3E0"]
+			hide: true
 			id: "46C11375B9D1D165"
 			tasks: [{
 				id: "48486F97EC248E25"
@@ -3208,16 +3287,17 @@
 			]
 		}
 		{
-			title: "Fluxbore"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.343DBEAA66234E6C.title}"
 			x: -7.0d
 			y: -9.5d
 			shape: "circle"
 			description: [
-				"The Fluxbore is a pickaxe-shovel hybrid that is powered by FE as opposed to consuming durability."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.343DBEAA66234E6C.description.0}"
 				""
-				"Without upgrades, it can only hold 50k FE and mine one block. With the right upgrades, it can mine up to a 3x3 area. You can cycle between modes using a specific keybinding. Look in your settings for \"Cycle mode up\" or \"Cycle mode down.\""
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.343DBEAA66234E6C.description.1}"
 			]
 			dependencies: ["46C11375B9D1D165"]
+			hide: true
 			id: "343DBEAA66234E6C"
 			tasks: [{
 				id: "120C8A180B5BF1FC"
@@ -3248,19 +3328,20 @@
 			]
 		}
 		{
-			title: "Universal Fluid Generator!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.27538E67E6784724.title}"
 			x: -28.0d
 			y: -3.5d
 			description: [
-				"The Universal Fluid Generator has 5 tiers (2-6), and each level has certain fuels that can be used to generate power. This machine can also boost Ticktime and FE generation when a boosting mixture is used."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.27538E67E6784724.description.0}"
 				""
-				"In this tier, the Fluid Generator can burn Steam, Biofuel, and Biodiesel to produce electricity. Biofuel and Biodiesel are very efficient. Steam is less powerful, but you can make plenty of it with a Large Bronze or Steel Boiler!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.27538E67E6784724.description.1}"
 				""
-				"Steam produces 120 FE/t at a burn rate of 100mb/sec"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.27538E67E6784724.description.2}"
 				""
-				"Biofuel and Biodiesel 175 FE/t at a burn rate of 15mb/sec"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.27538E67E6784724.description.3}"
 			]
 			dependencies: ["49C82129750A7631"]
+			hide: true
 			id: "27538E67E6784724"
 			tasks: [{
 				id: "46C822B3DEA90358"
@@ -3293,17 +3374,18 @@
 			]
 		}
 		{
-			title: "Basic Fluid Mixer and Solidifier T2"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7FF3FFD776F5B4B2.title}"
 			x: -9.25d
 			y: 2.25d
 			description: [
-				"The electric version of the Fluid Mixer and Solidifier T2 opens up new crafting possibilities such as biodiesel or starlight ingots."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7FF3FFD776F5B4B2.description.0}"
 				""
-				"In addition to the regular boosting and circuit state slot, you have the option of adding 4 speed upgrades, 4 energy upgrades and 4 chance upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7FF3FFD776F5B4B2.description.1}"
 				""
-				"T2 machines have a 20% chance of gaining a by-product if the recipe gives one (Without chance upgrades). Up to T5, each new level adds 10% base value. This value can be increased even more with chance upgrades, depending on how many slots you have available."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7FF3FFD776F5B4B2.description.2}"
 			]
 			dependencies: ["5E8ED7CC9B3A7C85"]
+			hide: true
 			id: "7FF3FFD776F5B4B2"
 			tasks: [{
 				id: "1A53277B645F59DA"
@@ -3344,18 +3426,19 @@
 			]
 		}
 		{
-			title: "Biodiesel!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7DA16EFA11448AB4.title}"
 			x: -9.25d
 			y: 6.5d
 			description: [
-				"You can make biodiesel from vegetable oil and ethanol. It's very efficient in a universal fluid generator."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7DA16EFA11448AB4.description.0}"
 				""
-				"It produces 175FE/t and burns for 600 ticks."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7DA16EFA11448AB4.description.1}"
 			]
 			dependencies: [
 				"7FF3FFD776F5B4B2"
 				"502E54BE9B51BD83"
 			]
+			hide: true
 			id: "7DA16EFA11448AB4"
 			tasks: [{
 				id: "03B045EB6F49D66F"
@@ -3386,15 +3469,16 @@
 			]
 		}
 		{
-			title: "Nitronite!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.78C5A0023CA83654.title}"
 			x: -9.25d
 			y: 8.0d
 			description: [
-				"Nitronite is a pretty unique substance that's formed when liquid magma and liquid osram come together. You can use it in a centrifuge to get special ore chunks, or you can mix it with starlight to get starlight ingots."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.78C5A0023CA83654.description.0}"
 				""
-				"You can also use it in the smeltery as fuel. It's actually hotter than lava, but don't worry, it's safe to use!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.78C5A0023CA83654.description.1}"
 			]
 			dependencies: ["7DA16EFA11448AB4"]
+			hide: true
 			id: "78C5A0023CA83654"
 			tasks: [{
 				id: "154076AA6797B621"
@@ -3425,15 +3509,16 @@
 			]
 		}
 		{
-			title: "Starlight Ingots!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.6550ED134AD0C812.title}"
 			x: -1.75d
 			y: 8.0d
 			description: [
-				"We touched on the incredible Starlight Ingots earlier, and it's just as amazing as it sounds! When Nitronite, the fiery liquid from hell merges with the cold starlight of the gods, a true miracle of nature is created."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6550ED134AD0C812.description.0}"
 				""
-				"The main application of these ingots will later be important to craft higher tiers of complex alloys. But don't worry, they'll still be used in other special devices until then. No need to rush, just take your time and stock up little by little."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6550ED134AD0C812.description.1}"
 			]
 			dependencies: ["78C5A0023CA83654"]
+			hide: true
 			id: "6550ED134AD0C812"
 			tasks: [{
 				id: "2D3A0EC8CDD6736D"
@@ -3474,15 +3559,16 @@
 			]
 		}
 		{
-			title: "Scrap Metal"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.03A1CFFDC2F9E6F0.title}"
 			x: -1.75d
 			y: 5.0d
 			description: [
-				"Scrap metal is created from the etching process in combination with iron, rosite, and limonite ingots. This product has various uses, including the production of grenades or for a Creeponia realmstone."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.03A1CFFDC2F9E6F0.description.0}"
 				""
-				"Limonite Ore can be found in the overworld at Y-LvL 28-55 and Rosite Ore from Y-LvL 40-85."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.03A1CFFDC2F9E6F0.description.1}"
 			]
 			dependencies: ["51B6831487090EC2"]
+			hide: true
 			id: "03A1CFFDC2F9E6F0"
 			tasks: [{
 				id: "5F2F200EC0886657"
@@ -3518,15 +3604,16 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.50E0F55E765EA4AA.title}"
 			icon: "kubejs:aoa_mainquest"
 			x: 1.5d
 			y: 6.5d
 			description: [
-				"This Realmstone is used to access the Creeponia dimension."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.50E0F55E765EA4AA.description.0}"
 				""
-				"You need Terrax, Scrap Metal and Starlight Ingots to craft it."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.50E0F55E765EA4AA.description.1}"
 				""
-				"You can learn more about this dimension in the following quests."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.50E0F55E765EA4AA.description.2}"
 			]
 			dependencies: [
 				"03A1CFFDC2F9E6F0"
@@ -3534,6 +3621,7 @@
 				"111DEB667AB4E18C"
 				"37F4C397678A24C3"
 			]
+			hide: true
 			id: "50E0F55E765EA4AA"
 			tasks: [{
 				id: "1DBDF622CF15243E"
@@ -3568,18 +3656,19 @@
 			]
 		}
 		{
-			title: "Creeponia!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.162E09F3F85DD145.title}"
 			icon: "aoa3:creeponia_portal"
 			x: 5.0d
 			y: 6.5d
 			description: [
-				"Creeponia is as the name suggest, a creeper-themed dimension."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.162E09F3F85DD145.description.0}"
 				""
-				"This dimension has a day/night cycle just like the Overworld. On the surface of Creeponia is a forest. The surface terrain generates primarily as a hybrid with some hilly areas and some flat areas. The surface is the only place in Creeponia where structures can be found."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.162E09F3F85DD145.description.1}"
 				""
-				"Creep Cows are the only passive mobs there. Anything else will be quite dangerous."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.162E09F3F85DD145.description.2}"
 			]
 			dependencies: ["50E0F55E765EA4AA"]
+			hide: true
 			id: "162E09F3F85DD145"
 			tasks: [{
 				id: "56347F8876F22392"
@@ -3609,16 +3698,17 @@
 			]
 		}
 		{
-			title: "Creeponia's Resources"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.528CC132E80F8562.title}"
 			icon: "aoa3:gemenyte"
 			x: 8.0d
 			y: 6.5d
 			description: [
-				"Creeponias most valuable resources are Jewelyte, Gemenyte, Ornamyte and Palladium Ore. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.528CC132E80F8562.description.0}"
 				""
-				"In addition, this dimension contains vast veins of Uranium, Urananite, Green Sapphire and Ovium."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.528CC132E80F8562.description.1}"
 			]
 			dependencies: ["162E09F3F85DD145"]
+			hide: true
 			id: "528CC132E80F8562"
 			tasks: [
 				{
@@ -3675,15 +3765,17 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.52EA5EA53AB6732D.title}"
 			x: 8.0d
 			y: 9.5d
 			shape: "circle"
 			description: [
-				"Ornamyte tools have some special features."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.52EA5EA53AB6732D.description.0}"
 				""
-				"The pickaxe, for example, mines obsidian VERY quickly!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.52EA5EA53AB6732D.description.1}"
 			]
 			dependencies: ["528CC132E80F8562"]
+			hide: true
 			id: "52EA5EA53AB6732D"
 			tasks: [{
 				id: "49718E3E0ED877D6"
@@ -3710,15 +3802,16 @@
 			]
 		}
 		{
-			title: "Forming Press T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.5E8ED7CC9B3A7C85.title}"
 			x: -9.25d
 			y: -1.0d
 			description: [
-				"The electric version of the Forming Press. It'd definitely be handy to have this machine early on to deal with all our plates, gears and rods instead of messing around with the steam counterpart."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5E8ED7CC9B3A7C85.description.0}"
 				""
-				"In addition to the regular boosting and mold slot, you have the option of adding 4 speed upgrades and 4 energy upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5E8ED7CC9B3A7C85.description.1}"
 			]
 			dependencies: ["4984D07D2E551EA3"]
+			hide: true
 			id: "5E8ED7CC9B3A7C85"
 			tasks: [{
 				id: "3CF605078F324CCE"
@@ -3770,16 +3863,17 @@
 			]
 		}
 		{
-			title: "Ornamyte Shovel"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.20F0CBC318DE7594.title}"
 			x: 6.25d
 			y: 9.5d
 			shape: "circle"
 			description: [
-				"Ornamyte tools have some special features."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.20F0CBC318DE7594.description.0}"
 				""
-				"The shovel digs up grass VERY quickly!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.20F0CBC318DE7594.description.1}"
 			]
 			dependencies: ["528CC132E80F8562"]
+			hide: true
 			id: "20F0CBC318DE7594"
 			tasks: [{
 				id: "3EC259943463AE5A"
@@ -3806,15 +3900,17 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.72E783707AC950DA.title}"
 			x: 9.75d
 			y: 9.5d
 			shape: "circle"
 			description: [
-				"Ornamyte tools have some special features."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.72E783707AC950DA.description.0}"
 				""
-				"The axe breaks non log wooden blocks VERY quickly!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.72E783707AC950DA.description.1}"
 			]
 			dependencies: ["528CC132E80F8562"]
+			hide: true
 			id: "72E783707AC950DA"
 			tasks: [{
 				id: "202A9AED215C1F6C"
@@ -3841,15 +3937,16 @@
 			]
 		}
 		{
-			title: "Essence-Omatic T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.41D3250AFCE1C88E.title}"
 			x: -4.25d
 			y: 2.25d
 			description: [
-				"It seems that the electric version of the Essence-Omatic could be worth exploring. The process of extracting and converting essences is often quite time-consuming, and the first electric machine has the potential to significantly reduce the time required for this process."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.41D3250AFCE1C88E.description.0}"
 				""
-				"In addition to the regular boosting and pattern slot, you have the option of adding 4 speed upgrades, 4 energy upgrades and 4 chance upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.41D3250AFCE1C88E.description.1}"
 			]
 			dependencies: ["5E8ED7CC9B3A7C85"]
+			hide: true
 			id: "41D3250AFCE1C88E"
 			tasks: [{
 				id: "7462F4D220FBAFB7"
@@ -3881,15 +3978,16 @@
 			]
 		}
 		{
-			title: "Compressed Plates!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.51EB4673EE0C8986.title}"
 			x: 0.75d
 			y: -1.0d
 			description: [
-				"The new electric Forming Press allows you to produce Compressed Plates. This is a very compressed form of plates, and it requires 4 ingots for each one."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.51EB4673EE0C8986.description.0}"
 				""
-				"These plates will be used extensively in the future. However, prior to their deployment, it is necessary to obtain the appropriate mold."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.51EB4673EE0C8986.description.1}"
 			]
 			dependencies: ["5E8ED7CC9B3A7C85"]
+			hide: true
 			id: "51EB4673EE0C8986"
 			tasks: [{
 				id: "07343C3CBCFC3C3C"
@@ -3911,15 +4009,16 @@
 			]
 		}
 		{
-			title: "Tertium Essence!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.504A1AEFE99A7E65.title}"
 			x: 0.75d
 			y: 2.25d
 			description: [
-				"This is the third stage of the 7 possible essences. You'll never have too much, and you'll be glad you started early."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.504A1AEFE99A7E65.description.0}"
 				""
-				"Think about upgrading directly with blocks, it is just much faster."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.504A1AEFE99A7E65.description.1}"
 			]
 			dependencies: ["41D3250AFCE1C88E"]
+			hide: true
 			id: "504A1AEFE99A7E65"
 			tasks: [{
 				id: "5E97D84571271B49"
@@ -3949,18 +4048,19 @@
 			]
 		}
 		{
-			title: "Speed Upgrades!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.47E0E63AC9E53BB2.title}"
 			x: 4.75d
 			y: -2.25d
 			shape: "circle"
 			description: [
-				"You probably already know these speed upgrades from Mekanism. Mekanism machines can hold up to 8 of them, increasing speed and energy costs."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.47E0E63AC9E53BB2.description.0}"
 				""
-				"But what you didn't know is that you can use the same upgrades on the tiered custom machines you've been working with all along. Tier 2 machines can hold up to 4 upgrades. Each additional tier allows you to install 2 more."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.47E0E63AC9E53BB2.description.1}"
 				""
-				"A single speed upgrade in a custom machine increases speed by 25% and energy cost by 30%."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.47E0E63AC9E53BB2.description.2}"
 			]
 			dependencies: ["0219780A4A9FAF6B"]
+			hide: true
 			id: "47E0E63AC9E53BB2"
 			tasks: [{
 				id: "138B137A6EE40CD7"
@@ -3981,16 +4081,17 @@
 			]
 		}
 		{
-			title: "Energy Upgrades!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.4E84DDC888D351DE.title}"
 			x: 4.75d
 			y: -3.5d
 			shape: "circle"
 			description: [
-				"The same applies to the energy upgrades. These can also be used for Mekanism and custom machines."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4E84DDC888D351DE.description.0}"
 				""
-				"Implementing a single energy upgrade can reduce energy requirements by 15%."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4E84DDC888D351DE.description.1}"
 			]
 			dependencies: ["0219780A4A9FAF6B"]
+			hide: true
 			id: "4E84DDC888D351DE"
 			tasks: [{
 				id: "2142FA638843C0B0"
@@ -4011,15 +4112,16 @@
 			]
 		}
 		{
-			title: "Upgrade Casings!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0219780A4A9FAF6B.title}"
 			x: 0.75d
 			y: -3.5d
 			shape: "circle"
-			description: ["As the name indicates, such upgrade casings are necessary for a wide range of upgrades, many of which involve machinery. However, their use is not limited to these contexts."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.0219780A4A9FAF6B.description.0}"]
 			dependencies: [
 				"51EB4673EE0C8986"
 				"68948AD50703B3E0"
 			]
+			hide: true
 			id: "0219780A4A9FAF6B"
 			tasks: [{
 				id: "5288339FE376A961"
@@ -4040,22 +4142,24 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.284AFC918D3F339D.title}"
 			x: 4.75d
 			y: -4.75d
 			shape: "circle"
 			description: [
-				"Chance upgrades are applicable exclusively to our custom machines. Each upgrade increases the chance of a recipe with byproduct by 3%. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.284AFC918D3F339D.description.0}"
 				""
-				"The baseline output chance without upgrades is as follows:"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.284AFC918D3F339D.description.1}"
 				""
-				"T1 -> 5-10%"
-				"T2 -> 20%"
-				"T3 -> 30%"
-				"T4 -> 40%"
-				"T5 -> 50%"
-				"T6 -> 70%"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.284AFC918D3F339D.description.2}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.284AFC918D3F339D.description.3}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.284AFC918D3F339D.description.4}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.284AFC918D3F339D.description.5}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.284AFC918D3F339D.description.6}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.284AFC918D3F339D.description.7}"
 			]
 			dependencies: ["0219780A4A9FAF6B"]
+			hide: true
 			id: "284AFC918D3F339D"
 			tasks: [{
 				id: "0E02E9E3146907C7"
@@ -4090,15 +4194,16 @@
 			]
 		}
 		{
-			title: "Rune of Mana"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.2A8CD0CB6ED54B70.title}"
 			x: 8.0d
 			y: 0.5d
-			description: ["The next rune that is required from the Runic Altar is the rune of mana. As one of many runes, it is an essential component in the creation of complex devices."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.2A8CD0CB6ED54B70.description.0}"]
 			dependencies: [
 				"504A1AEFE99A7E65"
 				"51EB4673EE0C8986"
 				"528CC132E80F8562"
 			]
+			hide: true
 			id: "2A8CD0CB6ED54B70"
 			tasks: [{
 				id: "057EF189BE3D546F"
@@ -4130,20 +4235,21 @@
 			]
 		}
 		{
-			title: "Hyperbox aka Compact Machines!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7080C4AE8EE21FD0.title}"
 			x: 11.25d
 			y: -8.5d
 			shape: "circle"
 			description: [
-				"The Hyperbox block functions as a portal to an alternate pocket dimension. Each hyperbox contains a unique dimension; if the block is mined and relocated, the dimension will remain linked to the original block. Additionally, the Hyperbox block can be renamed using an anvil or a labeler if there is a plan to set up multiple blocks."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7080C4AE8EE21FD0.description.0}"
 				""
-				"Activating the block sends you inside this dimension, and within the block's dimension are apertures on the walls that can be activated to return to the overworld."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7080C4AE8EE21FD0.description.1}"
 				""
-				"The apertures transmit Redstone power and items between the inside and outside of the box, allowing you to construct large machines in small spaces. There are a few things you need to know if you want to transport fluids and energy. Read more about it in the next quest."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7080C4AE8EE21FD0.description.2}"
 				""
-				"Note: You must place light sources if you want to grow crops."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7080C4AE8EE21FD0.description.3}"
 			]
 			dependencies: ["2A8CD0CB6ED54B70"]
+			hide: true
 			id: "7080C4AE8EE21FD0"
 			tasks: [{
 				id: "3748D3F1594EFE2A"
@@ -4183,18 +4289,19 @@
 			]
 		}
 		{
-			title: "Elite Crafting Table!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.42E164A1F534E943.title}"
 			x: -0.25d
 			y: -12.5d
 			description: [
-				"The Elite Crafting table is a 7x7 crafting table used for more advanced machines."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.42E164A1F534E943.description.0}"
 				""
-				"You can also use this table to work out all 5x5 recipes."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.42E164A1F534E943.description.1}"
 			]
 			dependencies: [
 				"0BD30709BCF9DC52"
 				"5B0D5F897771C1AA"
 			]
+			hide: true
 			id: "42E164A1F534E943"
 			tasks: [{
 				id: "5BF010C25131DD54"
@@ -4226,7 +4333,7 @@
 			]
 		}
 		{
-			title: "Hyperbox I/O Ports"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7E01432DDC741D7C.title}"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -4236,14 +4343,15 @@
 			y: -8.5d
 			shape: "circle"
 			description: [
-				"For direct transport of items/fluids and energy, you have to play a little trick with the hyperboxes. Cables and pipes cannot be connected directly to an opening if there is no buffer on the other side of the box, but you can fill or drain buffers, such as an energy cube/cell that is connected directly to the hyperbox. In my tests it worked best with pipes from mekanism and pipez."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7E01432DDC741D7C.description.0}"
 				""
-				"{image:modpack:textures/quest_images/hyperbox2.png width:200 height:125 align:1}"
-				"{image:modpack:textures/quest_images/hyperbox_intern.png width:200 height:125 align:1}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7E01432DDC741D7C.description.1}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7E01432DDC741D7C.description.2}"
 				""
-				"In any case, it is advisable to consider wireless options in the near future. In T3, we will have tesseracts that handle items, fluids, and energy all at once. Until then, Powercells, Enderchests, Endertanks are the best options."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7E01432DDC741D7C.description.3}"
 			]
 			dependencies: ["7080C4AE8EE21FD0"]
+			hide: true
 			id: "7E01432DDC741D7C"
 			tasks: [{
 				id: "4C3B03DF3EF7406E"
@@ -4256,12 +4364,13 @@
 			}]
 		}
 		{
-			title: "Dimensional Cells!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.5DECBF890CBF7DE0.title}"
 			icon: "rftoolspower:dimensionalcell_simple"
 			x: 17.75d
 			y: -11.25d
-			description: ["The Dimensional cell, previously known as the Powercell, is an energy storage device that can be connected with Powercell Cards to share a single pool of energy. Linked Powercells can operate over any distance and across dimensions; however, there is a small distance-based transfer penalty capped at 10%."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.5DECBF890CBF7DE0.description.0}"]
 			dependencies: ["010795D1E4D76364"]
+			hide: true
 			id: "5DECBF890CBF7DE0"
 			tasks: [
 				{
@@ -4290,16 +4399,17 @@
 			]
 		}
 		{
-			title: "Ender Chest!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.17D533C470A5116E.title}"
 			x: 16.25d
 			y: -5.5d
 			shape: "circle"
 			description: [
-				"An Ender Chest is linked to all other Ender Chests with the same color key. On top of the chest are 3 buttons that can be dyed any color by right-clicking them while holding dye. Using linked chests, items can be transferred between different places even across dimensions. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.17D533C470A5116E.description.0}"
 				""
-				"Right-clicking the front of the chest with a Diamond makes it a private chest. A private Ender Chest can only be accessed by someone standing next to it or the person who placed the chest. Right-clicking the chest with an EnderPouch will link the pouch to the chest allowing access to the Ender Chests' contents while traveling, even in a different dimension."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.17D533C470A5116E.description.1}"
 			]
 			dependencies: ["7E01432DDC741D7C"]
+			hide: true
 			id: "17D533C470A5116E"
 			tasks: [{
 				id: "308A20C8C8F59FE6"
@@ -4334,16 +4444,17 @@
 			]
 		}
 		{
-			title: "Ender Tank!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.724F43C97921C18B.title}"
 			x: 14.5d
 			y: -5.5d
 			shape: "circle"
 			description: [
-				"An Ender Tank is linked to all other Ender Tanks with the same color key. On top of the tank are 3 buttons that can be dyed any color by right clicking them while holding dye. Using linked tanks you can transfer liquids between different places and even across dimensions."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.724F43C97921C18B.description.0}"
 				""
-				"By default the tank doesn't output liquids, but by right-clicking the the dial on the front of the tank you can set it to output mode and the tank will output to any block that can accept a liquid. Also like the Ender Chest, right clicking the the dial of the tank with a Diamond makes it become a private tank. A private tank can only be accessed by someone standing next to it or the person who placed the tank."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.724F43C97921C18B.description.1}"
 			]
 			dependencies: ["7E01432DDC741D7C"]
+			hide: true
 			id: "724F43C97921C18B"
 			tasks: [{
 				id: "1AABE7876DA1C61B"
@@ -4378,11 +4489,13 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.6E7FF138FE3B32B5.title}"
 			x: 12.75d
 			y: -5.5d
 			shape: "circle"
-			description: ["The Ender Pouch acts as a portable version of the Ender Chest. If held while right clicking a dyed Ender Chest, it will become linked to that chest allowing access to the chest's contents from anywhere."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.6E7FF138FE3B32B5.description.0}"]
 			dependencies: ["7E01432DDC741D7C"]
+			hide: true
 			id: "6E7FF138FE3B32B5"
 			tasks: [{
 				id: "5C7F07E5DF9C548F"
@@ -4417,15 +4530,16 @@
 			]
 		}
 		{
-			title: "Illumination Powder"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.33CDAF1333AB2270.title}"
 			x: 12.75d
 			y: 2.0d
 			description: [
-				"This is a very important powder that is used in lots of magical crafting recipes."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.33CDAF1333AB2270.description.0}"
 				""
-				"When it is right-clicked on a block, it creates a transparent light block. This light block can only be extinguished by placing a block in its position."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.33CDAF1333AB2270.description.1}"
 			]
 			dependencies: ["2A8CD0CB6ED54B70"]
+			hide: true
 			id: "33CDAF1333AB2270"
 			tasks: [{
 				id: "0DA7C992A96AC90D"
@@ -4456,17 +4570,19 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.3587455636805057.title}"
 			x: 10.25d
 			y: 4.75d
 			shape: "circle"
 			description: [
-				"The Rosa Arcana generates Mana by absorbing experience from nearby players or experience orbs."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3587455636805057.description.0}"
 				""
-				"The flower generates Mana by absorbing experience from players standing within 1 block of it. It generates 50 Mana per point of experience absorbed from a player, or 35 Mana per point of experience from an orb, and can store 6000 Mana internally."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3587455636805057.description.1}"
 				""
-				"A player with 30 levels can produce up to 69750 mana. The more levels the player has, the more time it takes to deplete 1 level due to how leveling works in minecraft."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3587455636805057.description.2}"
 			]
 			dependencies: ["33CDAF1333AB2270"]
+			hide: true
 			id: "3587455636805057"
 			tasks: [{
 				id: "7CB54DAB464029B3"
@@ -4492,15 +4608,16 @@
 			]
 		}
 		{
-			title: "Blood infuser!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.3B4DFB55304F24B5.title}"
 			x: 16.25d
 			y: -0.75d
 			description: [
-				"The Blood Infuser uses Blood to transform items into others, like making Dark Power Gems more efficiently than by hand or Undead Saplings."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3B4DFB55304F24B5.description.0}"
 				""
-				"This machine can hold up to 10,000 mB of Blood. This can be increased by inserting a Promise of Tenacity in the appropriate slot, which will also unlock new recipes and new slots to insert other types of Promises such as Promises of Velocity."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3B4DFB55304F24B5.description.1}"
 			]
 			dependencies: ["13D8C34BCF92F619"]
+			hide: true
 			id: "3B4DFB55304F24B5"
 			tasks: [{
 				id: "3DA0DA084DD70455"
@@ -4532,10 +4649,12 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.13D8C34BCF92F619.title}"
 			x: 12.75d
 			y: -0.75d
-			description: ["You can make hardened blood by digging a trench in the ground and letting the blood dry there, but the Fluid Mixer and Solidifier makes this much easier. And we will need this kind of efficiency very soon."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.13D8C34BCF92F619.description.0}"]
 			dependencies: ["2A8CD0CB6ED54B70"]
+			hide: true
 			id: "13D8C34BCF92F619"
 			tasks: [{
 				id: "5845486BE79666A2"
@@ -4566,11 +4685,12 @@
 			]
 		}
 		{
-			title: "Luminessence"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.2B600F5352D3783B.title}"
 			x: 16.25d
 			y: 2.0d
-			description: ["Luminessence is a little more expensive to make. It requires Energized Glowstone and Illumination Powder, among other ingredients."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.2B600F5352D3783B.description.0}"]
 			dependencies: ["33CDAF1333AB2270"]
+			hide: true
 			id: "2B600F5352D3783B"
 			tasks: [{
 				id: "0998259CE16BB9E7"
@@ -4593,16 +4713,17 @@
 			]
 		}
 		{
-			title: "Iron Tank!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.706CB3C2D8A540D3.title}"
 			x: -3.25d
 			y: -2.25d
 			shape: "circle"
 			description: [
-				"The Iron Tank stores up to 256'000mb of any fluid!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.706CB3C2D8A540D3.description.0}"
 				""
-				"You can convert them to tanks of other mods, for example the Iron Tank to an Elite Fluid Tank from Mekanism if you like. Check JEI for more information."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.706CB3C2D8A540D3.description.1}"
 			]
 			dependencies: ["68948AD50703B3E0"]
+			hide: true
 			id: "706CB3C2D8A540D3"
 			tasks: [{
 				id: "7D2F7415E0C5B96A"
@@ -4629,12 +4750,13 @@
 			]
 		}
 		{
-			title: "Nocturnal Powder"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.1A21D80CB6E60334.title}"
 			x: 14.0d
 			y: 4.75d
 			shape: "circle"
-			description: ["You can also make Nocturnal Powder using the Illumination powder. When you right-click on the ground, it'll create a dark patch that'll eventually disappear, leaving behind a group of mobs....."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.1A21D80CB6E60334.description.0}"]
 			dependencies: ["33CDAF1333AB2270"]
+			hide: true
 			id: "1A21D80CB6E60334"
 			tasks: [{
 				id: "47DE469B8D26183D"
@@ -4664,10 +4786,12 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.30039FD2441F1523.title}"
 			x: 23.5d
 			y: 0.5d
-			description: ["Now you're ready to take your Luminous Crafting Table to the next level and upgrade to a Starlight Crafting Altar! This will allow you to create even more powerful items."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.30039FD2441F1523.description.0}"]
 			dependencies: ["5D06C7A174D7B771"]
+			hide: true
 			id: "30039FD2441F1523"
 			tasks: [{
 				id: "53056AA67B081D33"
@@ -4700,17 +4824,19 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.5D06C7A174D7B771.title}"
 			x: 20.75d
 			y: 0.5d
 			description: [
-				"Finally the blood flows, the Blood Infuser opens new possibilities, including all the Promise Acceptors and other goodies."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5D06C7A174D7B771.description.0}"
 				""
-				"Tons of Pure Metals and Blood needed."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5D06C7A174D7B771.description.1}"
 			]
 			dependencies: [
 				"2B600F5352D3783B"
 				"3B4DFB55304F24B5"
 			]
+			hide: true
 			id: "5D06C7A174D7B771"
 			tasks: [{
 				id: "4968301234E1336E"
@@ -4745,7 +4871,7 @@
 			]
 		}
 		{
-			title: "A Special Platform?"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.2FE1D0136F4B67CC.title}"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -4754,11 +4880,12 @@
 			x: 26.25d
 			y: 0.5d
 			description: [
-				"Once you've finished your Starlight Crafting Altar, you might notice that it's not working anymore. Don't worry, it just needs a special platform to work.  If you look in your Tome, you'll find all the instructions you need to build this platform and what materials you'll need."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2FE1D0136F4B67CC.description.0}"
 				""
-				"You can also just right-click with your Resonating Wand on the altar, and the hologram of the platform will appear!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2FE1D0136F4B67CC.description.1}"
 			]
 			dependencies: ["30039FD2441F1523"]
+			hide: true
 			id: "2FE1D0136F4B67CC"
 			tasks: [{
 				id: "77AE4AAE624DF0D2"
@@ -4771,15 +4898,16 @@
 			}]
 		}
 		{
-			title: "Mystical Seed Bag T2!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7FE580C1116DAEE4.title}"
 			x: -14.25d
 			y: 10.0d
 			description: [
-				"The second level of Mystical Seed Bags. It unlocks all the T2 seeds you have, and I am sure some of them are pretty nice :)"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7FE580C1116DAEE4.description.0}"
 				""
-				"Type \"seed level 2\" in Jei to see all available seeds. We'll cover some of them in optional quests, but not all."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7FE580C1116DAEE4.description.1}"
 			]
 			dependencies: ["58C2F63B7D7713BF"]
+			hide: true
 			id: "7FE580C1116DAEE4"
 			tasks: [{
 				id: "56729BBE79B33D71"
@@ -4800,16 +4928,17 @@
 			]
 		}
 		{
-			title: "Telescope!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.64EE4CDC08AA68D2.title}"
 			x: 26.25d
 			y: -2.25d
 			shape: "circle"
 			description: [
-				"You've already figured out a few Constellations with the Looking Glass. That works, but there's an easier way to find the rest. Just craft a telescope and place it somewhere high up (but away from buildings and trees). This'll let you look at the stars and find other constellations. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.64EE4CDC08AA68D2.description.0}"
 				""
-				"The telescope will let you draw out these constellations without needing to sneak around, and it'll let you scroll left and right without having to look around."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.64EE4CDC08AA68D2.description.1}"
 			]
 			dependencies: ["2FE1D0136F4B67CC"]
+			hide: true
 			id: "64EE4CDC08AA68D2"
 			tasks: [{
 				id: "23F1DD88E73727D5"
@@ -4831,16 +4960,17 @@
 			]
 		}
 		{
-			title: "Scroll of Written Expertise!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.24D381E09F6DFE51.title}"
 			x: 31.5d
 			y: 3.5d
 			shape: "circle"
 			description: [
-				"You can use the Scroll of Written Expertise to transfer the knowledge a player has acquired to another player. When you craft it, it's \"blank.\" If you right-click on it, it'll take the knowledge of the player holding it and save it onto the Scroll. Any other player who right-clicks on it with it will get the knowledge stored inside. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.24D381E09F6DFE51.description.0}"
 				""
-				"The original player can update the scroll's contents by right-clicking when sneaking."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.24D381E09F6DFE51.description.1}"
 			]
 			dependencies: ["2F95C552BFE54BC3"]
+			hide: true
 			id: "24D381E09F6DFE51"
 			tasks: [{
 				id: "56DB168C96263023"
@@ -4868,16 +4998,17 @@
 			]
 		}
 		{
-			title: "Mana Blaster!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7F40E2FCE33B0018.title}"
 			x: 6.25d
 			y: 3.0d
 			shape: "circle"
 			description: [
-				"The Mana Blaster is a portable Mana Spreader that you can use to shoot Mana bursts. It uses Mana from a Mana Tablet in your inventory. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7F40E2FCE33B0018.description.0}"
 				""
-				"Compared to a Mana Spreader, Mana bursts fired by the blaster are 5 times faster, but hold 25% less Mana. When you fire the Blaster, you'll feel a bit of recoil, which is just the force from the burst's speed."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7F40E2FCE33B0018.description.1}"
 			]
 			dependencies: ["2A8CD0CB6ED54B70"]
+			hide: true
 			id: "7F40E2FCE33B0018"
 			tasks: [{
 				id: "6BB17FE71DF9A5CC"
@@ -4890,12 +5021,13 @@
 			}]
 		}
 		{
-			title: "Agricarnation!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.644A2ABCB62EC4E8.title}"
 			x: 19.0d
 			y: 3.75d
 			shape: "circle"
-			description: ["The Agricarnation is another functional flora. When it is supplied with Mana, it has been observed to cause growth ticks in an area of 5 blocks around it."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.644A2ABCB62EC4E8.description.0}"]
 			dependencies: ["5D06C7A174D7B771"]
+			hide: true
 			id: "644A2ABCB62EC4E8"
 			tasks: [{
 				id: "00C9382864903D41"
@@ -4922,16 +5054,17 @@
 			]
 		}
 		{
-			title: "Gourmaryllis!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.009426AD5AD55BEF.title}"
 			x: 11.5d
 			y: 4.75d
 			shape: "circle"
 			description: [
-				"The Gourmaryllis is a unique flower that generates Mana from food. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.009426AD5AD55BEF.description.0}"
 				""
-				"While a Gourmaryllis is digesting a piece of food, it will pick up additional food items. However, it will ignore and destroy all items after the first. The Gourmaryllis can store up to 9,000 Mana internally and can be bound to a Mana Spreader within 6 blocks of itself to transfer its Mana."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.009426AD5AD55BEF.description.1}"
 			]
 			dependencies: ["33CDAF1333AB2270"]
+			hide: true
 			id: "009426AD5AD55BEF"
 			tasks: [{
 				id: "5AAD5176A1B78BD1"
@@ -4953,16 +5086,17 @@
 			]
 		}
 		{
-			title: "Narslimmus!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0918A6BF7FD0D945.title}"
 			x: 15.25d
 			y: 4.75d
 			shape: "circle"
 			description: [
-				"This little flower is a real gem! It gathers Mana from slimes that naturally appear in slime chunks. It's important to note that it does not consume Slimes that are spawned by artificial means. And just so you know, slimes that have been killed won't split or drop any items."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0918A6BF7FD0D945.description.0}"
 				""
-				"A Narslimmus is a pretty generous creature, though, because it can store 12,000 mana internally. And it can even bind to a Mana Spreader within 6 blocks of itself to transfer its mana!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0918A6BF7FD0D945.description.1}"
 			]
 			dependencies: ["33CDAF1333AB2270"]
+			hide: true
 			id: "0918A6BF7FD0D945"
 			tasks: [{
 				id: "10C1CEF573631C06"
@@ -4983,12 +5117,13 @@
 			]
 		}
 		{
-			title: "Entropinnyum!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.4E10D1361D2DEBF2.title}"
 			x: 22.75d
 			y: 3.75d
 			shape: "circle"
-			description: ["The Entropinnyum generates large amounts of Mana by absorbing the explosion of a block of TNT! (in a 12 block range immediately before they explode, producing 6,500 Mana per explosion)na Spreader within 6 blocks of itself to transfer its mana!"]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.4E10D1361D2DEBF2.description.0}"]
 			dependencies: ["5D06C7A174D7B771"]
+			hide: true
 			id: "4E10D1361D2DEBF2"
 			tasks: [{
 				id: "0FB01606270BEFB1"
@@ -5015,12 +5150,13 @@
 			]
 		}
 		{
-			title: "Glowing Water"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.767363D23FE93CB2.title}"
 			x: 12.75d
 			y: 4.75d
 			shape: "circle"
-			description: ["Glowing Water is an item you can throw by right-clicking to kill undead mobs, like zombies or skeletons."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.767363D23FE93CB2.description.0}"]
 			dependencies: ["33CDAF1333AB2270"]
+			hide: true
 			id: "767363D23FE93CB2"
 			tasks: [{
 				id: "03BAC1CCFCAFFDFB"
@@ -5047,11 +5183,13 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7BBCC5F03F8A520C.title}"
 			x: 20.25d
 			y: 3.75d
 			shape: "circle"
-			description: ["The Fallen Kanade is a functional flower too. When supplied with Mana, it gives players around it the Regeneration status effect."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.7BBCC5F03F8A520C.description.0}"]
 			dependencies: ["5D06C7A174D7B771"]
+			hide: true
 			id: "7BBCC5F03F8A520C"
 			tasks: [{
 				id: "1173C9DFACF1B788"
@@ -5090,12 +5228,13 @@
 			]
 		}
 		{
-			title: "Promises of Velocity!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.177D3EC702A2AB44.title}"
 			x: 19.25d
 			y: -2.25d
 			shape: "circle"
-			description: ["A Promises of Velocity can be used to increase the speed of the Blood Infuser."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.177D3EC702A2AB44.description.0}"]
 			dependencies: ["5D06C7A174D7B771"]
+			hide: true
 			id: "177D3EC702A2AB44"
 			tasks: [{
 				id: "7C59C4771A09E06D"
@@ -5123,12 +5262,13 @@
 			]
 		}
 		{
-			title: "Promise Of Productivity!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.422E26AC87748F18.title}"
 			x: 22.25d
 			y: -2.25d
 			shape: "circle"
-			description: ["The Productivity Promise will reduce the amount of Blood required to process an item."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.422E26AC87748F18.description.0}"]
 			dependencies: ["5D06C7A174D7B771"]
+			hide: true
 			id: "422E26AC87748F18"
 			tasks: [{
 				id: "0B4B475A829DF127"
@@ -5158,7 +5298,7 @@
 			]
 		}
 		{
-			title: "The \"Holding\" Deal!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.252C48763A9C1694.title}"
 			icon: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
@@ -5172,13 +5312,14 @@
 			x: -28.0d
 			y: -11.5d
 			shape: "heart"
-			subtitle: "Trading Quest"
+			subtitle: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.252C48763A9C1694.subtitle}"
 			description: [
-				"Great news - most Thermal Expansion devices can be enchanted with Holding, which increases the capacity many times over!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.252C48763A9C1694.description.0}"
 				""
-				"Are you down for this deal?"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.252C48763A9C1694.description.1}"
 			]
 			dependencies: ["62D82863BBA29B3C"]
+			hide: true
 			size: 2.0d
 			id: "252C48763A9C1694"
 			tasks: [
@@ -5219,16 +5360,17 @@
 			}]
 		}
 		{
-			title: "Pyroclast Pendant!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.54DC26B6B0E558BE.title}"
 			x: -12.75d
 			y: -1.0d
 			shape: "circle"
 			description: [
-				"The Pyroclast Pendant is a special item that can be worn in a Curios slot."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.54DC26B6B0E558BE.description.0}"
 				""
-				"When utilized properly, this item will extinguish fire if the user is not standing on a block that causes burns."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.54DC26B6B0E558BE.description.1}"
 			]
 			dependencies: ["0331F0C3D4EE7DDB"]
+			hide: true
 			id: "54DC26B6B0E558BE"
 			tasks: [{
 				id: "67FB44FCE928638D"
@@ -5267,16 +5409,17 @@
 			]
 		}
 		{
-			title: "Coin of Fortune?"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.27086DC200BEE44C.title}"
 			x: -15.75d
 			y: -1.0d
 			shape: "circle"
 			description: [
-				"This coin, while activated, any item or experience orb within 5 blocks of the player is teleported to them."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.27086DC200BEE44C.description.0}"
 				""
-				"You can enable and disable it by right-clicking while wielding."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.27086DC200BEE44C.description.1}"
 			]
 			dependencies: ["0331F0C3D4EE7DDB"]
+			hide: true
 			id: "27086DC200BEE44C"
 			tasks: [{
 				id: "624AD7C6D36C053D"
@@ -5320,12 +5463,13 @@
 			]
 		}
 		{
-			title: "Infernal Claws!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7ACD83E2D5D83F15.title}"
 			x: -14.25d
 			y: -1.0d
 			shape: "circle"
-			description: ["This Infernal Claws will absorb Fire damage, but also reduces your Hunger level."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.7ACD83E2D5D83F15.description.0}"]
 			dependencies: ["0331F0C3D4EE7DDB"]
+			hide: true
 			id: "7ACD83E2D5D83F15"
 			tasks: [{
 				id: "4DD76EB7A821ED3E"
@@ -5355,16 +5499,17 @@
 			]
 		}
 		{
-			title: "Band Of Aura"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7C55E7A4A4DEC468.title}"
 			x: 8.0d
 			y: -14.0d
 			shape: "circle"
 			description: [
-				"Now that you have the laser cutter and know how to make mana runes, The Band of Aura might be for you."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7C55E7A4A4DEC468.description.0}"
 				""
-				"When worn, it slowly generates Mana and stores it in a Mana Tablet in the player's inventory. It can be upgraded into the Greater Band of Aura, which generates Mana significantly faster. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7C55E7A4A4DEC468.description.1}"
 			]
 			dependencies: ["7F26BD6AF4BE4C6B"]
+			hide: true
 			id: "7C55E7A4A4DEC468"
 			tasks: [{
 				id: "7EFE784B280B7426"
@@ -5403,12 +5548,13 @@
 			]
 		}
 		{
-			title: "The Botanical Brewery!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.02B6ECD23534B404.title}"
 			x: 9.75d
 			y: 3.0d
 			shape: "circle"
-			description: ["The Botanical Brewery is like a little magic factory, cranking out all sorts of magical potions. And you can store these little treasures in Managlass Vials or Alfglass Flasks, which have room for 4 or 6 doses of your potion. Just remember that it requires Mana bursts supplied by a Mana Spreader to function."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.02B6ECD23534B404.description.0}"]
 			dependencies: ["2A8CD0CB6ED54B70"]
+			hide: true
 			id: "02B6ECD23534B404"
 			tasks: [{
 				id: "29A5631B25419214"
@@ -5435,12 +5581,13 @@
 			]
 		}
 		{
-			title: "Energized Smelter!"
-			x: -29.75d
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.6BC4889D2F0CB334.title}"
+			x: -29.5d
 			y: -2.25d
 			shape: "circle"
-			description: ["The energized smelter is your basic electric furnace that uses energy instead of fuel to smelt items."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.6BC4889D2F0CB334.description.0}"]
 			dependencies: ["49C82129750A7631"]
+			hide: true
 			id: "6BC4889D2F0CB334"
 			tasks: [{
 				id: "67806C85483CB253"
@@ -5473,17 +5620,18 @@
 			]
 		}
 		{
-			title: "Starmetal!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.2F95C552BFE54BC3.title}"
 			x: 31.5d
 			y: 0.5d
 			description: [
-				"To otain this amazing dust, you need a floating crystal exposed to starlight nearby in order to create Starmetal Ore. (Can be found in Ancient Shrines)."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2F95C552BFE54BC3.description.0}"
 				""
-				"Start by right-clicking the Linking Tool on the floating crystal and then right-clicking on a lens that needs to face a placed block of Varsium Ore."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2F95C552BFE54BC3.description.1}"
 				""
-				"To rotate a lens just disconnect the Linking Wand from the floating crystal, right-click on the lens and right-click on the Iron Ore. (Shift + right click to disconnect)"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2F95C552BFE54BC3.description.2}"
 			]
 			dependencies: ["6F338A9279D63E68"]
+			hide: true
 			id: "2F95C552BFE54BC3"
 			tasks: [{
 				id: "68D282585611B7E3"
@@ -5505,7 +5653,7 @@
 			]
 		}
 		{
-			title: "Crystal Lenses And Linking Tool"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.6F338A9279D63E68.title}"
 			icon: {
 				id: "astralsorcery:lens"
 				Count: 1b
@@ -5531,11 +5679,12 @@
 			x: 28.75d
 			y: 0.5d
 			description: [
-				"Lenses are single block structures that are used to redirect or extend beams of starlight from Collector Crystals."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6F338A9279D63E68.description.0}"
 				""
-				"You can link them using a linking tool."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6F338A9279D63E68.description.1}"
 			]
 			dependencies: ["2FE1D0136F4B67CC"]
+			hide: true
 			id: "6F338A9279D63E68"
 			tasks: [
 				{
@@ -5598,15 +5747,17 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.00D6E460D219C04E.title}"
 			x: -25.25d
 			y: -2.25d
 			shape: "circle"
 			description: [
-				"The Resourceful Furnace is used to smelt items like the Furnace, but can process 3 items at once. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.00D6E460D219C04E.description.0}"
 				""
-				"When smelting, the Resourceful Furnace will process one item from each of its 3 input slots. It produces 50mb of essence in the internal tank for each level of experience the player would normally receive for smelting the block (5mb for smelting cobblestone and 50mb for smelting gold ore)."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.00D6E460D219C04E.description.1}"
 			]
 			dependencies: ["6CB9103B747E104A"]
+			hide: true
 			id: "00D6E460D219C04E"
 			tasks: [{
 				id: "7236EA0D65955AF2"
@@ -5627,10 +5778,12 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.3645262BD3DDB67A.title}"
 			x: 20.75d
 			y: -2.25d
-			description: ["The Promises of Tenacity will allow the Blood Infuser to hold more Promises (upgrades) and Blood, as well as increasing the possible infusion recipes."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.3645262BD3DDB67A.description.0}"]
 			dependencies: ["5D06C7A174D7B771"]
+			hide: true
 			id: "3645262BD3DDB67A"
 			tasks: [{
 				id: "5EDE8C3E24B5F3BE"
@@ -5658,12 +5811,13 @@
 			]
 		}
 		{
-			title: "The Purifier! (Disenchanter)"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.4F325AA5527BBF13.title}"
 			x: 26.25d
 			y: -9.25d
 			shape: "circle"
-			description: ["If you fill this machine completely with blood and put an enchanted item and a blook together, the enchantment from the item will move to the book. This process uses three buckets of blood."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.4F325AA5527BBF13.description.0}"]
 			dependencies: ["3142F79E71D49251"]
+			hide: true
 			id: "4F325AA5527BBF13"
 			tasks: [{
 				id: "53A14B09C8F3A20C"
@@ -5700,13 +5854,15 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.43AF606839FFA823.title}"
 			x: 20.75d
 			y: -11.25d
-			description: ["A Blook is just a Book infused with Blood which is mainly used for disenchatnment devices."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.43AF606839FFA823.description.0}"]
 			dependencies: [
 				"3645262BD3DDB67A"
 				"5DECBF890CBF7DE0"
 			]
+			hide: true
 			id: "43AF606839FFA823"
 			tasks: [{
 				id: "74D10407B166119E"
@@ -5720,16 +5876,17 @@
 			}]
 		}
 		{
-			title: "Enchantment Extractor!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7A41FFBF50CA8BA7.title}"
 			x: 26.25d
 			y: -13.25d
 			shape: "circle"
 			description: [
-				"The Enchantment Extractor is used to remove enchantments from items and transfer them to a book. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7A41FFBF50CA8BA7.description.0}"
 				""
-				"The extractor removes the first enchantment from the item and returns the item with the same damage and all remaining enchantments, along with a book containing the removed enchantment. This process does not remove the NBT of items, even if the last enchantment is removed. In particular, the repair cost remains, increasing the XP required to repair or enchant the item on an anvil as if the removed enchantment were still present."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7A41FFBF50CA8BA7.description.1}"
 			]
 			dependencies: ["3142F79E71D49251"]
+			hide: true
 			id: "7A41FFBF50CA8BA7"
 			tasks: [{
 				id: "1BC87F63532485BC"
@@ -5762,15 +5919,16 @@
 			]
 		}
 		{
-			title: "SkipBo"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.64D2C93DBB8794DB.title}"
 			x: 28.75d
 			y: -11.25d
-			description: ["Skip the Disenchanters."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.64D2C93DBB8794DB.description.0}"]
 			dependencies: [
 				"3142F79E71D49251"
 				"4F325AA5527BBF13"
 				"7A41FFBF50CA8BA7"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "64D2C93DBB8794DB"
 			tasks: [{
@@ -5784,7 +5942,7 @@
 			}]
 		}
 		{
-			title: "Disenchanters!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.3142F79E71D49251.title}"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -5793,11 +5951,12 @@
 			x: 23.75d
 			y: -11.25d
 			description: [
-				"Choose one of the two Disenchanters in the next quest section. This could be very helpful in getting more books for extracting liquid enchantment fluid."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3142F79E71D49251.description.0}"
 				""
-				"If you don't want one, skip the quest using the checkmark in the middle."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3142F79E71D49251.description.1}"
 			]
 			dependencies: ["43AF606839FFA823"]
+			hide: true
 			id: "3142F79E71D49251"
 			tasks: [{
 				id: "640B3CDACF277D9D"
@@ -5810,15 +5969,16 @@
 			}]
 		}
 		{
-			title: "The AE2 Charger!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.4373AAE418619088.title}"
 			x: 7.75d
 			y: -16.75d
 			description: [
-				"The charger provides a way to charge supported tools and items over the ME network.Power can be supplied from the top or the bottom, using cables. Items can be inserted or removed from any side."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4373AAE418619088.description.0}"
 				""
-				"Can mainly be used to create Charged Certus Quartz Crystals from regular Certus Quartz Crystals."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4373AAE418619088.description.1}"
 			]
 			dependencies: ["24F63392B2D6B8EE"]
+			hide: true
 			id: "4373AAE418619088"
 			tasks: [{
 				id: "12C4BC580C58171D"
@@ -5840,15 +6000,16 @@
 			]
 		}
 		{
-			title: "RS Controller!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7E01EA39B79C9356.title}"
 			x: 7.75d
 			y: -20.5d
 			description: [
-				"The Controller powers the storage network. Each network requires at least one Controller to stay active. Multiple Controllers can be used to meet higher energy demands."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7E01EA39B79C9356.description.0}"
 				""
-				"Energy (FE) is consumed per tick. Even if the network is in standby mode, it still uses a small amount of power. Consumption depends on the number and type of connected devices—more devices require more energy. If the Controller runs out of energy, the network will attempt to draw power from another Controller. If no backup is available, the network will shut down."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7E01EA39B79C9356.description.1}"
 			]
 			dependencies: ["24F63392B2D6B8EE"]
+			hide: true
 			id: "7E01EA39B79C9356"
 			tasks: [{
 				id: "497E7D9F5F268EF7"
@@ -5889,23 +6050,24 @@
 			]
 		}
 		{
-			title: "ME Controller!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.3839CE13ADD4E8E1.title}"
 			x: 11.0d
 			y: -16.75d
 			description: [
-				"The ME Controller is the routing hub of a ME Network. Without it, only up to 8 devices can interact, any more and everything stops working.It is not possible to have 2 different ME Controller in one Network."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3839CE13ADD4E8E1.description.0}"
 				""
-				"The Controller requires energy per controller block to function. Each block can store a certain amount of power, so larger networks might require additional energy storage."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3839CE13ADD4E8E1.description.1}"
 				""
-				"Multiblock Controllers can be built in a fairly free way, but there are a few rules that must be followed:"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3839CE13ADD4E8E1.description.2}"
 				""
-				"1. All ME Controller blocks on an ME Network must be connected, otherwise the blocks turn red."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3839CE13ADD4E8E1.description.3}"
 				""
-				"2. The size of the ME Controller must be within 7x7x7 or it will turn red."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3839CE13ADD4E8E1.description.4}"
 				""
-				"3. A ME Controller can have 2 adjacent blocks in at most 1 axis; if a block violates this rule, it will be disabled and turn white."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3839CE13ADD4E8E1.description.5}"
 			]
 			dependencies: ["4373AAE418619088"]
+			hide: true
 			id: "3839CE13ADD4E8E1"
 			tasks: [{
 				id: "1293DB305B772814"
@@ -5946,15 +6108,16 @@
 			]
 		}
 		{
-			title: "Refined Storage Cables"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.4272304CCCAA366E.title}"
 			x: 11.0d
 			y: -20.5d
 			description: [
-				"With Refined Storage Cables you can connect storage network devices."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4272304CCCAA366E.description.0}"
 				""
-				"However, cables are not always necessary. If two devices touch each other, they will automatically connect.If the cable is colored, it will only connect to blocks and cables of the same color or the default color."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.4272304CCCAA366E.description.1}"
 			]
 			dependencies: ["7E01EA39B79C9356"]
+			hide: true
 			id: "4272304CCCAA366E"
 			tasks: [{
 				id: "02A7BB12A5C4375B"
@@ -5976,15 +6139,16 @@
 			]
 		}
 		{
-			title: "Fluix ME Glass Cable"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.1AF2A5112F87637E.title}"
 			x: 14.0d
 			y: -16.75d
 			description: [
-				"The Fluix ME Glass Cable carries power and up to 8 channels between your networked systems. It comes in 17 diffrent colors, the default being Fluix, and can be dyed any color using any of the 16 dyes."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1AF2A5112F87637E.description.0}"
 				""
-				"You can craft any colored cable with a water bucket to remove the dye."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1AF2A5112F87637E.description.1}"
 			]
 			dependencies: ["3839CE13ADD4E8E1"]
+			hide: true
 			id: "1AF2A5112F87637E"
 			tasks: [{
 				id: "3457D0D5EDE48BC9"
@@ -6006,7 +6170,7 @@
 			]
 		}
 		{
-			title: "About Channels..."
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.1F6F369B5F34C355.title}"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -6016,13 +6180,14 @@
 			y: -14.0d
 			shape: "circle"
 			description: [
-				"AE2's ME Networks require channels to support devices that use network storage or other network services. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1F6F369B5F34C355.description.0}"
 				""
-				"Most devices, such as standard cables and machines, can only support up to 8 channels. However, Fluix ME Dense Covered Cable can support up to 32 channels, the only other devices capable of transmitting 32 channels are the ME P2P Tunnel and the Quantum Network Bridge."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1F6F369B5F34C355.description.1}"
 				""
-				"A network without a ME Controller can support up to 8 channel using devices. Once you exceed 8 devices, the network channel using devices will shut down, you can either remove devices or add a ME Controller."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1F6F369B5F34C355.description.2}"
 			]
 			dependencies: ["3839CE13ADD4E8E1"]
+			hide: true
 			id: "1F6F369B5F34C355"
 			tasks: [{
 				id: "3BDB63E30688A183"
@@ -6035,16 +6200,17 @@
 			}]
 		}
 		{
-			title: "Energy Acceptor"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.6CC38E08EF1E3D86.title}"
 			x: 12.0d
 			y: -14.0d
 			shape: "circle"
 			description: [
-				"The Energy Acceptor converts energy from external systems into AE and stores it in your network. You don't necessarily need this block as you can just power the controller directly."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6CC38E08EF1E3D86.description.0}"
 				""
-				"However, if you plan to use more channels, it would make sense to build this energy acceptor, because you will not waste one side of the controller."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6CC38E08EF1E3D86.description.1}"
 			]
 			dependencies: ["3839CE13ADD4E8E1"]
+			hide: true
 			id: "6CC38E08EF1E3D86"
 			tasks: [{
 				id: "430233D137BD126D"
@@ -6079,15 +6245,16 @@
 			]
 		}
 		{
-			title: "The Disk Drive!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0C7D48901296EAE3.title}"
 			x: 14.0d
 			y: -20.5d
 			description: [
-				"The Disk Drive is where storage disks and fluid storage disks are stored."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0C7D48901296EAE3.description.0}"
 				""
-				"When you insert storage disks, the Disk Drive increases the storage capacity of the whole network. How much storage you've got overall depends on the number and type of disks inside. If you take out a disk, its stored contents will be temporarily inaccessible until you put it back in."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0C7D48901296EAE3.description.1}"
 			]
 			dependencies: ["4272304CCCAA366E"]
+			hide: true
 			id: "0C7D48901296EAE3"
 			tasks: [{
 				id: "7DC22C7F72B9F361"
@@ -6128,15 +6295,16 @@
 			]
 		}
 		{
-			title: "1k Storage Disk"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.09D18B2B83825C2A.title}"
 			x: 20.0d
 			y: -20.5d
 			description: [
-				"The 1k Storage Disk is the first tier of RS disks and is used to store all your items in the network. Just remember that you'll need to insert the disks into a Disk Drive to use them on the storage network."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.09D18B2B83825C2A.description.0}"
 				""
-				"You can also use a Disk Manipulator to copy data to and from a storage network. Each disk can hold up to 1,024 items."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.09D18B2B83825C2A.description.1}"
 			]
 			dependencies: ["0C7D48901296EAE3"]
+			hide: true
 			id: "09D18B2B83825C2A"
 			tasks: [{
 				id: "4CA89CDDF64D3CCC"
@@ -6199,11 +6367,12 @@
 			]
 		}
 		{
-			title: "Crafting Grid"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.42D79A07C542B3AC.title}"
 			x: 25.75d
 			y: -20.5d
-			description: ["The Crafting Grid is a \"machine\" that can be used as a crafting table, as well as providing access to the digital storage network."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.42D79A07C542B3AC.description.0}"]
 			dependencies: ["09D18B2B83825C2A"]
+			hide: true
 			id: "42D79A07C542B3AC"
 			tasks: [{
 				id: "57B8B2B7DAF7F5CF"
@@ -6244,17 +6413,18 @@
 			]
 		}
 		{
-			title: "The ME Drive!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.73720325B968DD77.title}"
 			x: 17.0d
 			y: -16.75d
 			description: [
-				"This block is designed to serve a singular purpose: to store Storage Cells. This block can accommodate up to 10 storage cells, allowing for efficient packing of storage units into compact spaces."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.73720325B968DD77.description.0}"
 				""
-				"The ME Drive displays the contents and status of the storage cells on the front of the drive face."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.73720325B968DD77.description.1}"
 				""
-				"It requires a channel to function."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.73720325B968DD77.description.2}"
 			]
 			dependencies: ["1AF2A5112F87637E"]
+			hide: true
 			id: "73720325B968DD77"
 			tasks: [{
 				id: "1DED245B4485707F"
@@ -6295,11 +6465,12 @@
 			]
 		}
 		{
-			title: "1k Storage Cell"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.533F0D84B1B7A3C5.title}"
 			x: 20.0d
 			y: -16.75d
-			description: ["This is the lowest tier storage cell. It can hold 1,024 bytes of storage.That means it can hold 127 stacks of a single item or 65 stacks of 63 different items.You must use it in a ME Drive or ME Chest."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.533F0D84B1B7A3C5.description.0}"]
 			dependencies: ["73720325B968DD77"]
+			hide: true
 			id: "533F0D84B1B7A3C5"
 			tasks: [{
 				id: "34C45ACC19285B4A"
@@ -6348,15 +6519,16 @@
 			]
 		}
 		{
-			title: "ME Crafting Terminal"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.28240802ECB69A05.title}"
 			x: 25.75d
 			y: -16.75d
 			description: [
-				"The ME Drive displays the contents and status of the storage cells on the front of the drive face."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.28240802ECB69A05.description.0}"
 				""
-				"It requires a channel to function."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.28240802ECB69A05.description.1}"
 			]
 			dependencies: ["533F0D84B1B7A3C5"]
+			hide: true
 			id: "28240802ECB69A05"
 			tasks: [{
 				id: "24163D5922306D62"
@@ -6397,15 +6569,17 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.583C152A9FAE6F64.title}"
 			x: 19.0d
 			y: -23.5d
 			shape: "circle"
 			description: [
-				"The 1k Storage Block also provides storage for your network. It works like a storage disk but can be placed anywhere in the world as long as it is connected to your entire network."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.583C152A9FAE6F64.description.0}"
 				""
-				"Breaking the block will drop it with all stored resources intact."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.583C152A9FAE6F64.description.1}"
 			]
 			dependencies: ["09D18B2B83825C2A"]
+			hide: true
 			id: "583C152A9FAE6F64"
 			tasks: [{
 				id: "14AE70CB9EA23B14"
@@ -6432,12 +6606,13 @@
 			]
 		}
 		{
-			title: "64B Fluid Storage Disk"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7D16DB727A50B3C3.title}"
 			x: 21.0d
 			y: -23.5d
 			shape: "circle"
-			description: ["You can also store fluids on your storage network! They can be stored on a 64B Fluid Storage Disk, which must also be placed in a disk drive."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.7D16DB727A50B3C3.description.0}"]
 			dependencies: ["09D18B2B83825C2A"]
+			hide: true
 			id: "7D16DB727A50B3C3"
 			tasks: [{
 				id: "7EB3871BFD1E1677"
@@ -6472,16 +6647,17 @@
 			]
 		}
 		{
-			title: "Portable Grid"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.3B560C1631D6C3CC.title}"
 			x: 25.75d
 			y: -23.5d
 			shape: "circle"
 			description: [
-				"The Portable Grid provides grid-like access to a storage disk without the need for a storage network."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3B560C1631D6C3CC.description.0}"
 				""
-				"It can be used as an inventory item or placed as a block in the world."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3B560C1631D6C3CC.description.1}"
 			]
 			dependencies: ["42D79A07C542B3AC"]
+			hide: true
 			id: "3B560C1631D6C3CC"
 			tasks: [{
 				id: "14AEFB02D21B192A"
@@ -6543,21 +6719,22 @@
 			]
 		}
 		{
-			title: "ME Chest"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.395468C5308F584F.title}"
 			x: 19.0d
 			y: -14.0d
 			shape: "circle"
 			description: [
-				"The ME Chest is the easiest way to use a storage cell. It gives you direct access to the contents of the cell placed inside."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.395468C5308F584F.description.0}"
 				""
-				"This Chest displays the contents and the storage cell status on the front."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.395468C5308F584F.description.1}"
 				""
-				"-Red - Indicates the Storage Cell is Full."
-				"-Orange - Indicates the Storage Cell cannot hold any more types, but it can store more items."
-				"-Green - Indicates the cell can hold more types, or more items."
-				"-Black - Indicates there is no channel, or power is offline."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.395468C5308F584F.description.2}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.395468C5308F584F.description.3}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.395468C5308F584F.description.4}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.395468C5308F584F.description.5}"
 			]
 			dependencies: ["533F0D84B1B7A3C5"]
+			hide: true
 			id: "395468C5308F584F"
 			tasks: [{
 				id: "01A8A527EF664729"
@@ -6585,12 +6762,13 @@
 			]
 		}
 		{
-			title: "64k ME Fluid Storage Cell"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.576B7825C3BAEBEA.title}"
 			x: 21.0d
 			y: -14.0d
 			shape: "circle"
-			description: ["You can also store fluids on your ME Network! They can be stored on a 64B Fluid Storage Disk, which must also be placed in a Me Drive."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.576B7825C3BAEBEA.description.0}"]
 			dependencies: ["533F0D84B1B7A3C5"]
+			hide: true
 			id: "576B7825C3BAEBEA"
 			tasks: [{
 				id: "6EB9C73328329F4D"
@@ -6633,20 +6811,21 @@
 			]
 		}
 		{
-			title: "Abyss Realmstone"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7F5207BDDB4CCC21.title}"
 			icon: "kubejs:aoa_mainquest"
 			x: 31.5d
 			y: -11.25d
 			description: [
-				"This Realmstone is used to access the Abyss dimension."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7F5207BDDB4CCC21.description.0}"
 				""
-				"It is obtained by combining materials like Starmetal dust and Gemynite blocks in a Magic Materializer T2 or higher."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7F5207BDDB4CCC21.description.1}"
 			]
 			dependencies: [
 				"64D2C93DBB8794DB"
 				"2F95C552BFE54BC3"
 				"0DC85F248DF2438D"
 			]
+			hide: true
 			id: "7F5207BDDB4CCC21"
 			tasks: [{
 				id: "0892A10EBC67EC20"
@@ -6687,7 +6866,7 @@
 			]
 		}
 		{
-			title: "That was just the basics"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.593677E0BA6025E4.title}"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -6695,11 +6874,12 @@
 			}
 			x: 31.5d
 			y: -19.0d
-			description: ["Those were the basics about Refined Storage and ME networks. There is of course a lot more, such as autocrafting, but we will come to that later. "]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.593677E0BA6025E4.description.0}"]
 			dependencies: [
 				"28240802ECB69A05"
 				"42D79A07C542B3AC"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "593677E0BA6025E4"
 			tasks: [{
@@ -6713,16 +6893,18 @@
 			}]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.3A9478CD905A8A71.title}"
 			x: 34.75d
 			y: -11.25d
 			description: [
-				"The Abyss is a bloody, gory dimension."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3A9478CD905A8A71.description.0}"
 				""
-				"The landscape is a combination of hills and flat areas. The underground of the dimension is made of abyssal stone, with a layer of abyssal grass on the surface. There is no dirt in the Abyss. The entirety of the dimension takes on a red color scheme."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3A9478CD905A8A71.description.1}"
 				""
-				"The underground of this dimension is filled with caves. Bloodstone ore veins are often found underground. Lakes filled with toxic blocks can be found deep underground, far below the surface, close to the bedrock layer."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.3A9478CD905A8A71.description.2}"
 			]
 			dependencies: ["7F5207BDDB4CCC21"]
+			hide: true
 			id: "3A9478CD905A8A71"
 			tasks: [{
 				id: "29D2B4517C58A1F7"
@@ -6752,16 +6934,19 @@
 			]
 		}
 		{
-			title: "What benefits does the Abyss have to offer?"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0DBE0DCEAE8F99C1.title}"
 			icon: "aoa3:bloodstone"
 			x: 38.0d
 			y: -11.25d
 			description: [
-				"The Abyss offers a variety of ores that are not necessarily available in this quantity in other dimensions."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0DBE0DCEAE8F99C1.description.0}"
 				""
-				"Bloodstone and Abyssum are a one-of-a-kind product that are exclusively available here. In addition to that, Osram, Valyrium, Rock Crystal, and a significant presence of Bismuth ore have been identified."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0DBE0DCEAE8F99C1.description.1}"
+				""
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0DBE0DCEAE8F99C1.description.2}"
 			]
 			dependencies: ["7F5207BDDB4CCC21"]
+			hide: true
 			id: "0DBE0DCEAE8F99C1"
 			tasks: [
 				{
@@ -6822,7 +7007,7 @@
 			]
 		}
 		{
-			title: "Void Ore Miner T2! (Unlocks Chapter: Main Questline T3)"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.504FE99F304C2094.title}"
 			icon: {
 				id: "custommachinery:custom_machine_item"
 				Count: 1b
@@ -6834,15 +7019,16 @@
 			y: -11.25d
 			shape: "gear"
 			description: [
-				"The second tier of the Void Ore miner series is finally here!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.504FE99F304C2094.description.0}"
 				""
-				"Each new level provides the loot from all previous levels and adds another one. For example, if you used to get one iron ore per run in T1, you will now get one iron ore plus a new ore from the T2 loottable."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.504FE99F304C2094.description.1}"
 				""
-				"You can also equip this VOM with up to 4 speed and energy upgrades."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.504FE99F304C2094.description.2}"
 				""
-				"And with this quest you've mastered the second chapter! Congratulations, you did a great job!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.504FE99F304C2094.description.3}"
 			]
 			dependencies: ["0DBE0DCEAE8F99C1"]
+			hide: true
 			size: 3.0d
 			id: "504FE99F304C2094"
 			tasks: [
@@ -6940,11 +7126,12 @@
 			]
 		}
 		{
-			title: "Large Cooling Cell T2"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.48B028B90A3F94DC.title}"
 			x: -17.0d
 			y: -3.5d
-			description: ["The next level of large cooling cells. In addition to T2 machine frames, they are also used for various T2 multiblocks."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.48B028B90A3F94DC.description.0}"]
 			dependencies: ["1DC5EC14AD514EF2"]
+			hide: true
 			id: "48B028B90A3F94DC"
 			tasks: [{
 				id: "3F0495AED25C74FA"
@@ -6973,15 +7160,17 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.55AE265E7397F44C.title}"
 			x: -25.25d
 			y: -8.25d
 			shape: "circle"
 			description: [
-				"The third tier of Water Collectors."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.55AE265E7397F44C.description.0}"
 				""
-				"It produces 1000mb all 2 ticks. This device is quite powerful and can solve many water problems if you have any."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.55AE265E7397F44C.description.1}"
 			]
 			dependencies: ["6CB9103B747E104A"]
+			hide: true
 			id: "55AE265E7397F44C"
 			tasks: [{
 				id: "141F96E8D0A4F1B2"
@@ -7009,23 +7198,24 @@
 			]
 		}
 		{
-			title: "Vacuum Freezer!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0DC85F248DF2438D.title}"
 			icon: "masterfulmachinery:freezer_controller"
 			x: 31.5d
 			y: -15.5d
 			shape: "gear"
 			description: [
-				"Now's the time to tackle your first massive multiblock, the Vacuum Freezer. It's a 5x4x3 structure and you gonna need it for the next tier."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0DC85F248DF2438D.description.0}"
 				""
-				"The Vacuum Freezer takes care of all the cooling. It can cool Hot Pink-Slime and Hot Terrasteel ingots, create MQ and HQ Coolant and a whole lot more."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0DC85F248DF2438D.description.1}"
 				""
-				"The freezer doesn't come in different tiers, and the energy needed for recipes depends on the items or fluids in the tier you want to make. And you can boost all recipes using boosting mixture in its liquid form!"
-				"{image:modpack:textures/quest_multiblock/freezer.png width:140 height:100 align:1}"
-				"{image:modpack:textures/quest_multiblock/freezer_ports.png width:140 height:100 align:1}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0DC85F248DF2438D.description.2}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0DC85F248DF2438D.description.3}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0DC85F248DF2438D.description.4}"
 				""
-				"The picture above shows the correct arrangement of the ports from the lowest layer. This makes it clear that they cannot be mixed up."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.0DC85F248DF2438D.description.5}"
 			]
 			dependencies: ["593677E0BA6025E4"]
+			hide: true
 			size: 2.0d
 			id: "0DC85F248DF2438D"
 			tasks: [
@@ -7128,12 +7318,13 @@
 			]
 		}
 		{
-			title: "Biofuel!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.71CDB1A086BEA6C6.title}"
 			x: -22.5d
 			y: -1.0d
 			shape: "circle"
-			description: ["Biofuel is one of the most efficient fuels for Universal Fluid Generators (T2) and is very easy to produce. It is also used to produce solid biofuel, which is later on essential for T3-Materia."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.71CDB1A086BEA6C6.description.0}"]
 			dependencies: ["4F6E456320B9EACF"]
+			hide: true
 			id: "71CDB1A086BEA6C6"
 			tasks: [{
 				id: "7AF201B0C1CCC6B6"
@@ -7164,15 +7355,17 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7D6F1B8C825E1ED9.title}"
 			x: -1.5d
 			y: -8.5d
 			shape: "circle"
 			description: [
-				"The Diamond Furnace is created by either crafting the block itself, or using the Gold to Diamond Furnace Upgrade on a Gold Furnace."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7D6F1B8C825E1ED9.description.0}"
 				""
-				"It smelts items in 4 seconds."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7D6F1B8C825E1ED9.description.1}"
 			]
 			dependencies: ["68948AD50703B3E0"]
+			hide: true
 			id: "7D6F1B8C825E1ED9"
 			tasks: [{
 				id: "19DC1423FAF27A8B"
@@ -7198,12 +7391,14 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.1A4A297BBC67CA8A.title}"
 			icon: "ironfurnaces:heater"
 			x: 0.75d
 			y: -8.5d
 			shape: "circle"
-			description: ["The Wireless Heat Transmitter provides a way to power your Iron Furnaces. Simply power this block with FE and link a Wireless Heat Receiver to this block by placing it in the GUI."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.1A4A297BBC67CA8A.description.0}"]
 			dependencies: ["7D6F1B8C825E1ED9"]
+			hide: true
 			id: "1A4A297BBC67CA8A"
 			tasks: [
 				{
@@ -7232,15 +7427,16 @@
 			]
 		}
 		{
-			title: "Electrolytic Separator"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.107B14E2B7E52916.title}"
 			x: 11.25d
 			y: -11.25d
 			description: [
-				"Now that you have an assembler and a laser cutter, it's time to start making oxygen. Oxygen makes it much easier to make steel, bismuth steel, aluminum steel, etc. in a fusion computer without wasting coal or tons of materials."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.107B14E2B7E52916.description.0}"
 				""
-				"The Electrolytic Separator requires a constant supply of power and must have a source of a suitable liquid in order to produce the gases. As the liquid is electrolyzed, the component gases will be stored in its internal tanks. Should either tank fill completely, the Separator will turn off. Connecting a Pressurized Tube or other compatible pipe to both tanks will remove the gas. If you are only using a single gas, selecting \"dump\" for the unused gas will vent it to the environment, preventing that internal tank from filling completely and stopping the Separator."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.107B14E2B7E52916.description.1}"
 			]
 			dependencies: ["7F26BD6AF4BE4C6B"]
+			hide: true
 			id: "107B14E2B7E52916"
 			tasks: [{
 				id: "5A761F6B9CC9BCF4"
@@ -7268,18 +7464,19 @@
 			]
 		}
 		{
-			title: "Rotary Condensentrator"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.010795D1E4D76364.title}"
 			icon: "mekanism:rotary_condensentrator"
 			x: 14.5d
 			y: -11.25d
 			description: [
-				"The Rotary Condenser is used to convert substances between liquid and gaseous forms at a 1:1 ratio."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.010795D1E4D76364.description.0}"
 				""
-				"It has two modes: Decondensation, which converts liquids to gases, and Condensation, which converts gases to liquids."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.010795D1E4D76364.description.1}"
 				""
-				"You will need oxygen in its \"liquefied\" form for the Fusion Computer."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.010795D1E4D76364.description.2}"
 			]
 			dependencies: ["107B14E2B7E52916"]
+			hide: true
 			id: "010795D1E4D76364"
 			tasks: [
 				{
@@ -7331,12 +7528,12 @@
 			]
 		}
 		{
-			title: "Basic Pipe Upgrade!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.07C8871595EC8369.title}"
 			x: -7.0d
-			y: -11.25d
+			y: -12.25d
 			shape: "circle"
-			description: ["This upgrade not only increase the transfer rate of items/fluid energy and gases for the \"Pipez\" mod but also allow you to set various filters or other distribution modes such as: Round Robin/Nearest First/Farthest First/Random."]
 			dependencies: ["5B0D5F897771C1AA"]
+			hide: true
 			id: "07C8871595EC8369"
 			tasks: [{
 				id: "72664FA3949DBCFD"
@@ -7357,15 +7554,16 @@
 			]
 		}
 		{
-			title: "Polyethylene!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.6D645FCB3117E5A4.title}"
 			x: -6.75d
 			y: 6.5d
 			description: [
-				"Producing polyethylene requires combining ethane with molten slime. Ethane is obtained from tree oil in combination with an EDRU. Molten Slime can be obtained from various sources."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6D645FCB3117E5A4.description.0}"
 				""
-				"This fluid is required in order to produce some MQ Plastic and later HQ Plastic."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6D645FCB3117E5A4.description.1}"
 			]
 			dependencies: ["7FF3FFD776F5B4B2"]
+			hide: true
 			id: "6D645FCB3117E5A4"
 			tasks: [{
 				id: "25E51EA3D1B55A96"
@@ -7410,11 +7608,12 @@
 			]
 		}
 		{
-			title: "Plastic Pellets!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.6AD0E513F1908B0A.title}"
 			x: -4.25d
 			y: 6.5d
-			description: ["Plastic pellets are obtained by solidifying polyethylene in a Fluid Mixer and Solidifier."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.6AD0E513F1908B0A.description.0}"]
 			dependencies: ["6D645FCB3117E5A4"]
+			hide: true
 			id: "6AD0E513F1908B0A"
 			tasks: [{
 				id: "2F31DF24F6F0F054"
@@ -7445,11 +7644,12 @@
 			]
 		}
 		{
-			title: "And Finally MQ Plastic!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.37F4C397678A24C3.title}"
 			x: -1.75d
 			y: 6.5d
-			description: ["The final step is to process the pellets using a forming press. Then you get precious MQ Plastic that you can use to improve the quantity obtained in the production of various recipes. Transistors are a prime example."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.37F4C397678A24C3.description.0}"]
 			dependencies: ["6AD0E513F1908B0A"]
+			hide: true
 			id: "37F4C397678A24C3"
 			tasks: [{
 				id: "5B91CBB9AFDA70E2"
@@ -7486,16 +7686,17 @@
 			]
 		}
 		{
-			title: "Tree Oil and Pollen Dust, Simplified!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.13D18A882349B072.title}"
 			icon: "byg:pollen_dust"
 			x: -11.75d
 			y: 4.25d
 			description: [
-				"Now that you have access to the T2 Exctractor, you can extract tree oil through logs, which should be a much more pleasant and easier procedure."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.13D18A882349B072.description.0}"
 				""
-				"You will also receive Pollen Dust from this process. Even if you don't need it right now, I advise you to save it. It will come in handy..."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.13D18A882349B072.description.1}"
 			]
 			dependencies: ["117852F8066E3687"]
+			hide: true
 			id: "13D18A882349B072"
 			tasks: [
 				{
@@ -7546,12 +7747,13 @@
 			]
 		}
 		{
-			title: "Manasteel Seeds"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.5F3946D29C8B7C37.title}"
 			x: -14.25d
 			y: 13.75d
 			shape: "circle"
-			description: ["There's no easier way to get Manasteel.... right?"]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.5F3946D29C8B7C37.description.0}"]
 			dependencies: ["7FE580C1116DAEE4"]
+			hide: true
 			id: "5F3946D29C8B7C37"
 			tasks: [{
 				id: "546D8E1FED02E23A"
@@ -7577,11 +7779,13 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.3888B27DEA0EBF09.title}"
 			x: -13.0d
 			y: 13.75d
 			shape: "circle"
-			description: ["A Slimy situation.. but worth i guess?  Especially for Polyethylene.."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.3888B27DEA0EBF09.description.0}"]
 			dependencies: ["7FE580C1116DAEE4"]
+			hide: true
 			id: "3888B27DEA0EBF09"
 			tasks: [{
 				id: "431AEACEAF42AB92"
@@ -7607,11 +7811,13 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.026430DF2EEB7450.title}"
 			x: -11.75d
 			y: 13.75d
 			shape: "circle"
-			description: ["Sulfur Seeds! You gonna need Sulfur forever..."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.026430DF2EEB7450.description.0}"]
 			dependencies: ["7FE580C1116DAEE4"]
+			hide: true
 			id: "026430DF2EEB7450"
 			tasks: [{
 				id: "2AEF14584832F8C7"
@@ -7646,11 +7852,13 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.25F559052477B0BE.title}"
 			x: -15.5d
 			y: 13.75d
 			shape: "circle"
-			description: ["Aquamarine Seeds! Stop searching this stuff along the rivers..."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.25F559052477B0BE.description.0}"]
 			dependencies: ["7FE580C1116DAEE4"]
+			hide: true
 			id: "25F559052477B0BE"
 			tasks: [{
 				id: "0A6B4991B1D48802"
@@ -7676,11 +7884,13 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.09DB3C61A3F23E1D.title}"
 			x: -16.75d
 			y: 13.75d
 			shape: "circle"
-			description: ["Aluminum is a useful metal with lots of potential uses!"]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.09DB3C61A3F23E1D.description.0}"]
 			dependencies: ["7FE580C1116DAEE4"]
+			hide: true
 			id: "09DB3C61A3F23E1D"
 			tasks: [{
 				id: "00DF640ADD306F8B"
@@ -7715,11 +7925,13 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7C086D537710816E.title}"
 			x: -18.0d
 			y: 13.75d
 			shape: "circle"
-			description: ["Silver is a useful metal with lots of potential uses!"]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.7C086D537710816E.description.0}"]
 			dependencies: ["7FE580C1116DAEE4"]
+			hide: true
 			id: "7C086D537710816E"
 			tasks: [{
 				id: "7A3B8296C5AE04E0"
@@ -7754,11 +7966,13 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.5360544E2F2D7C64.title}"
 			x: -10.5d
 			y: 13.75d
 			shape: "circle"
-			description: ["Nether Seeds! Has some good usecases."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.5360544E2F2D7C64.description.0}"]
 			dependencies: ["7FE580C1116DAEE4"]
+			hide: true
 			id: "5360544E2F2D7C64"
 			tasks: [{
 				id: "6CF2D3D9568AAA88"
@@ -7793,16 +8007,17 @@
 			]
 		}
 		{
-			title: "Quarry Plus"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.1441FFF1116E29AF.title}"
 			x: 3.75d
 			y: -12.5d
 			shape: "circle"
 			description: [
-				"The Quarry Plus is the upgraded version of the Solid Fuel Quarry. It uses energy to work and you can upgrade it with extra tools to get more resources, fluids and even XP from the area you want. You can enchant it with Luck or Efficiency, for example, and it can even mine Bedrock later on."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1441FFF1116E29AF.description.0}"
 				""
-				"The Quarry plust is very fast when supplied with enough energy. It can consume up to 2500FE/t, depending on the block being mined and how fast the head moves, but it simply works slower when it gets less energy."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1441FFF1116E29AF.description.1}"
 			]
 			dependencies: ["42E164A1F534E943"]
+			hide: true
 			id: "1441FFF1116E29AF"
 			tasks: [{
 				id: "66FB66A6232DBB51"
@@ -7844,15 +8059,17 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.01F1BA17F3E36729.title}"
 			x: 2.0d
 			y: -15.0d
 			shape: "circle"
 			description: [
-				"The PumpPlus only works when placed next to the QuarryPlus. This makes it possible to collect or destroy any fluids that interfere with the Quarry."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.01F1BA17F3E36729.description.0}"
 				""
-				"If you want to extract fluids such as lava or oil, you can simply attach pipes to the block. With a fluid selector, you can configure which fluids should and shouldn't be extracted."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.01F1BA17F3E36729.description.1}"
 			]
 			dependencies: ["1441FFF1116E29AF"]
+			hide: true
 			id: "01F1BA17F3E36729"
 			tasks: [{
 				id: "35275F64FE4AF42D"
@@ -7878,16 +8095,17 @@
 			]
 		}
 		{
-			title: "XP Pump?"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.2678FE793E778C39.title}"
 			x: 3.75d
 			y: -15.0d
 			shape: "circle"
 			description: [
-				"The Experience Pump only works when placed next to the QuarryPlus. Whenever the Quarry mines ores that would generate XP Orbs, they are collected and sent to the XP Pump."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2678FE793E778C39.description.0}"
 				""
-				"You can extract the collected XP and apply it to yourself with a simple right click on the device."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2678FE793E778C39.description.1}"
 			]
 			dependencies: ["1441FFF1116E29AF"]
+			hide: true
 			id: "2678FE793E778C39"
 			tasks: [{
 				id: "022D8C7B7A22E98C"
@@ -7914,22 +8132,23 @@
 			]
 		}
 		{
-			title: "Book Enchantment Mover"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.5A0F9B244CF12EAB.title}"
 			x: 5.5d
 			y: -15.0d
 			shape: "circle"
 			description: [
-				"This mahcine allows you to move enchamtments from enchanted books to the Quarry Plus. This way you can improve various stats of your Quarry."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5A0F9B244CF12EAB.description.0}"
 				""
-				"Efficiency to increase energy capacity, which results in working faster."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5A0F9B244CF12EAB.description.1}"
 				""
-				"Unbreaking to reduce required power."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5A0F9B244CF12EAB.description.2}"
 				""
-				"Fortune to dig blocks with Fortune."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5A0F9B244CF12EAB.description.3}"
 				""
-				"Silktouch to dig blocks with Silktouch."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5A0F9B244CF12EAB.description.4}"
 			]
 			dependencies: ["1441FFF1116E29AF"]
+			hide: true
 			id: "5A0F9B244CF12EAB"
 			tasks: [{
 				id: "36B09103D6B89AFF"
@@ -7959,17 +8178,19 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.7F26BD6AF4BE4C6B.title}"
 			x: 8.0d
 			y: -11.25d
 			description: [
-				"This rechargeable scanner allows you to scan your surroundings and highlight things like ores or mobs that you are looking for. Scan results are displayed shortly in a clear and legible way, as world highlights or appropriately positioned overlays."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7F26BD6AF4BE4C6B.description.0}"
 				""
-				"Which results are displayed depends on the modules in the scanner. Up to three modules can be installed at the same time."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.7F26BD6AF4BE4C6B.description.1}"
 			]
 			dependencies: [
 				"2A8CD0CB6ED54B70"
 				"5B0D5F897771C1AA"
 			]
+			hide: true
 			id: "7F26BD6AF4BE4C6B"
 			tasks: [{
 				id: "24DA26D1F68C98AA"
@@ -7980,7 +8201,7 @@
 				{
 					id: "7B7DC5B770E1A3CD"
 					type: "item"
-					item: "scannable:module_blank"
+					item: "scannable:module_ore_common"
 				}
 				{
 					id: "0C83809A7DFC5E1D"
@@ -8009,16 +8230,17 @@
 			]
 		}
 		{
-			title: "Solar Panel 1"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.33BCC59F79156B13.title}"
 			x: 0.75d
 			y: -7.25d
 			shape: "circle"
 			description: [
-				"Solar panels are a very convenient and efficient way of generating electricity, but a little more complex to make than conventional generators. The first panel makes 100 FE/t."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.33BCC59F79156B13.description.0}"
 				""
-				"All Solar Flux Reborn Panels can be upgraded to improve their energy output, transfer rate and capacity."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.33BCC59F79156B13.description.1}"
 			]
 			dependencies: ["68948AD50703B3E0"]
+			hide: true
 			id: "33BCC59F79156B13"
 			tasks: [{
 				id: "14589CE3974ED19C"
@@ -8045,11 +8267,12 @@
 			]
 		}
 		{
-			title: "Battery Hulls"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.0D7A8372CDD8288C.title}"
 			x: -41.0d
 			y: -7.75d
-			description: ["Battery hulls are essential components in the manufacturing process of capacitors and energy cells. The production of the hull requires lead and quartz-enriched iron."]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.0D7A8372CDD8288C.description.0}"]
 			dependencies: ["62D7037EC672ECFF"]
+			hide: true
 			id: "0D7A8372CDD8288C"
 			tasks: [{
 				id: "4287B2806C800DFF"
@@ -8076,19 +8299,20 @@
 			]
 		}
 		{
-			title: "Large Froststeel Boiler!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.2EB7C7653C5501FB.title}"
 			icon: "masterfulmachinery:freezer_controller"
 			x: 36.0d
 			y: -15.5d
 			shape: "gear"
 			description: [
-				"The Large Froststeel Boiler is a powerful machine and the successor to the Steel Boiler, which produces large quantities of steam. Unfortunately, it also uses a lot of water."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2EB7C7653C5501FB.description.0}"
 				""
-				"The system produces 1,250mb of steam per/t, with a water consumption of 1,750 mb/t."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2EB7C7653C5501FB.description.1}"
 				""
-				"{image:modpack:textures/quest_multiblock/froststeel_boiler.png width:160 height:120 align:1}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2EB7C7653C5501FB.description.2}"
 			]
 			dependencies: ["0DC85F248DF2438D"]
+			hide: true
 			size: 2.0d
 			id: "2EB7C7653C5501FB"
 			tasks: [
@@ -8167,19 +8391,20 @@
 			]
 		}
 		{
-			title: "Large Steam Turbine?!"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.5DB030F037C2AF9E.title}"
 			icon: "masterfulmachinery:tier2_controller"
 			x: 5.0d
 			y: -9.0d
 			shape: "gear"
 			description: [
-				"This optional quest focuses on the Large Steam Turbine. This multiblock is present in all tiers from T2 onwards and generates power from steam. This turbine produces 750FE/t with a steam consumption of 250mb/t."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5DB030F037C2AF9E.description.0}"
 				""
-				"While the machine is running, it produces small amounts of distilled water as a by-product in the fluid output hatch."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5DB030F037C2AF9E.description.1}"
 				""
-				"{image:modpack:textures/quest_multiblock/steamturbine_t2.png width:160 height:120 align:1}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5DB030F037C2AF9E.description.2}"
 			]
 			dependencies: ["5B0D5F897771C1AA"]
+			hide: true
 			size: 2.0d
 			id: "5DB030F037C2AF9E"
 			tasks: [
@@ -8263,16 +8488,17 @@
 			]
 		}
 		{
-			title: "Are you struggling with Rich Slag?"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.57958D976C726820.title}"
 			x: -44.0d
 			y: 2.5d
 			shape: "circle"
 			description: [
-				"If you're having trouble getting your hands on rich slag, there's another method you can try."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.57958D976C726820.description.0}"
 				""
-				"You just need to smelt gravel in a furnace to obtain regular slag, which you can then refine in an EDRU to get rich slag. It might not be the easiest solution for now, but it's a start if you're not getting enough from alloying and grinding."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.57958D976C726820.description.1}"
 			]
 			dependencies: ["0ACCD65F29F0DB95"]
+			hide: true
 			id: "57958D976C726820"
 			tasks: [{
 				id: "01752A1DA4C26BB6"
@@ -8286,17 +8512,18 @@
 			}]
 		}
 		{
-			title: "END Realmstone"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.2D5057C0BD9005F6.title}"
 			icon: "kubejs:aoa_sidequest"
 			x: -18.25d
 			y: 2.25d
 			shape: "circle"
 			description: [
-				"If you haven't found an END portal yet and you're tired of searching for one the old-fashioned way, then the END Realmstone is exactly what you need!"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2D5057C0BD9005F6.description.0}"
 				""
-				"Wouldn't it be great to make the END available through your ancient portal as well?"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2D5057C0BD9005F6.description.1}"
 			]
 			dependencies: ["0331F0C3D4EE7DDB"]
+			hide: true
 			id: "2D5057C0BD9005F6"
 			tasks: [{
 				id: "00CEE5A2F9351E27"
@@ -8332,11 +8559,17 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.1B889904E5FAA44E.title}"
 			x: 0.75d
 			y: -6.0d
 			shape: "circle"
-			description: ["This Basic version of Chunkloaders is capable of loading a 3 by 3 chunk area."]
+			description: [
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1B889904E5FAA44E.description.0}"
+				""
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.1B889904E5FAA44E.description.1}"
+			]
 			dependencies: ["68948AD50703B3E0"]
+			hide: true
 			id: "1B889904E5FAA44E"
 			tasks: [{
 				id: "2AC49A9B8C4A471B"
@@ -8372,16 +8605,17 @@
 			]
 		}
 		{
-			title: "Sanguinary Pedestal"
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.35DC8D11D2FE24D7.title}"
 			x: 21.5d
 			y: 3.75d
 			shape: "circle"
 			description: [
-				"If you're tired of pushing mobs off cliffs or simply killing them to extract blood, the Sanguinary Pedestal is for you. It can extract blood from nearby blood stains and place it in any nearby tanks. "
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.35DC8D11D2FE24D7.description.0}"
 				""
-				"Place a Spiked Plate on top to enhance its ability to absorb the blood of the beasts it kills and redirect it to the pedestal."
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.35DC8D11D2FE24D7.description.1}"
 			]
 			dependencies: ["5D06C7A174D7B771"]
+			hide: true
 			id: "35DC8D11D2FE24D7"
 			tasks: [{
 				id: "3DEA7C6DC6958419"
@@ -8422,11 +8656,13 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.355317C82AC2B853.title}"
 			x: 0.75d
 			y: -4.75d
 			shape: "circle"
-			description: ["Well the Iron Hook is better and faster than the previous versions. What more could you ask for?"]
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.355317C82AC2B853.description.0}"]
 			dependencies: ["68948AD50703B3E0"]
+			hide: true
 			id: "355317C82AC2B853"
 			tasks: [{
 				id: "700143793AC3F973"
@@ -8456,6 +8692,104 @@
 				}
 				{
 					id: "26EF830E0509F4EC"
+					type: "item"
+					item: "kubejs:coin_t2"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.6558399FBF5ED956.title}"
+			x: -7.0d
+			y: -10.75d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6558399FBF5ED956.description.0}"
+				""
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6558399FBF5ED956.description.1}"
+				""
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.6558399FBF5ED956.description.2}"
+			]
+			dependencies: ["5B0D5F897771C1AA"]
+			hide: true
+			id: "6558399FBF5ED956"
+			tasks: [{
+				id: "0C61B28E81DA5B48"
+				type: "item"
+				item: {
+					id: "ironjetpacks:tier_2_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2E52485894F5BF2C"
+					type: "choice"
+					table_id: 7663564154614297361L
+				}
+				{
+					id: "499BB9A62B133655"
+					type: "item"
+					item: "ironjetpacks:tier_2_capacitor"
+				}
+				{
+					id: "694E8CAB2E45826E"
+					type: "item"
+					item: "kubejs:motor_t2"
+				}
+				{
+					id: "3070BB3E8C1140B8"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 4
+				}
+				{
+					id: "52404703524D75FA"
+					type: "item"
+					item: "kubejs:coin_t2"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.39FA989957A8259F.title}"
+			icon: "ftbquests:book"
+			disable_toast: true
+			x: -57.0d
+			y: -4.5d
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.39FA989957A8259F.description.0}"]
+			optional: true
+			id: "39FA989957A8259F"
+		}
+		{
+			title: "{ddss2.tier_2__main_questline.32722BB669FBBD6F.748657418813103A.title}"
+			x: -30.75d
+			y: -2.25d
+			shape: "circle"
+			dependencies: ["49C82129750A7631"]
+			hide: true
+			optional: true
+			id: "748657418813103A"
+			tasks: [{
+				id: "69B13A4930A0C0C7"
+				type: "item"
+				item: "productivebees:honey_generator"
+			}]
+			rewards: [
+				{
+					id: "46CBE0F7813CB6B7"
+					type: "item"
+					item: "kubejs:circuit_t2"
+				}
+				{
+					id: "647C100BAFD0822C"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 2
+				}
+				{
+					id: "35CC1F8780991BA2"
 					type: "item"
 					item: "kubejs:coin_t2"
 				}

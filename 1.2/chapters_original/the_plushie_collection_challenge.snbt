@@ -31,10 +31,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.09332C9A4217B5C5.title}"
+			title: "Nr. 4: Chicken Plushie"
 			x: -2.0d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.09332C9A4217B5C5.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "09332C9A4217B5C5"
 			tasks: [{
@@ -78,10 +78,24 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "456F25282D8CE95B"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.045E5D613537B512.title}"
+			title: "Nr. 5: Baby Sheep Plushie"
 			icon: {
 				id: "minecraft:player_head"
 				Count: 1b
@@ -107,7 +121,7 @@
 			}
 			x: 0.5d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.045E5D613537B512.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "045E5D613537B512"
 			tasks: [{
@@ -152,10 +166,24 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "4DBA9BB703EB5319"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.085DA323ABB34E01.title}"
+			title: "Nr. 11: Red Parrot Plushie"
 			icon: {
 				id: "minecraft:player_head"
 				Count: 1b
@@ -181,7 +209,7 @@
 			}
 			x: -9.5d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.085DA323ABB34E01.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "085DA323ABB34E01"
 			tasks: [{
@@ -248,13 +276,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "5E8D690984D54A04"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.277E005C91CF71D9.title}"
+			title: "Nr. 8: Bee Miner Plushie"
 			x: 8.0d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.277E005C91CF71D9.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "277E005C91CF71D9"
 			tasks: [{
@@ -301,13 +343,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "041FEF9A6B9FF0C2"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.41CD7B2DC30C27AD.title}"
+			title: "Nr. 9: Fox Plushie"
 			x: 10.5d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.41CD7B2DC30C27AD.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "41CD7B2DC30C27AD"
 			tasks: [{
@@ -354,10 +410,24 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "4CEA34A68BC08507"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.58B3716B07BF5E40.title}"
+			title: "Nr. 16: Emoji Plushie"
 			icon: {
 				id: "minecraft:player_head"
 				Count: 1b
@@ -383,7 +453,7 @@
 			}
 			x: 3.0d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.58B3716B07BF5E40.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "58B3716B07BF5E40"
 			tasks: [{
@@ -427,13 +497,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "222829625428B6B3"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.3F9450ED69C77EE2.title}"
+			title: "Nr. 17: Lego Plushie"
 			x: 5.5d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.3F9450ED69C77EE2.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "3F9450ED69C77EE2"
 			tasks: [{
@@ -477,13 +561,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "7317D1D09B6EEF52"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.77E97328AA83693B.title}"
+			title: "Nr. 15: Burger Plushie"
 			x: 0.5d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.77E97328AA83693B.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "77E97328AA83693B"
 			tasks: [{
@@ -527,13 +625,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "0E2392C578DD4298"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.18D7EB6A0570436B.title}"
+			title: "Nr. 12: Blue Parrot Plushie"
 			x: -7.0d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.18D7EB6A0570436B.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "18D7EB6A0570436B"
 			tasks: [{
@@ -577,13 +689,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "65E13EA26D8158B3"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.71A02D58C74EF509.title}"
+			title: "Nr. 13: Yellow Parrot Plushie"
 			x: -4.5d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.71A02D58C74EF509.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "71A02D58C74EF509"
 			tasks: [{
@@ -627,13 +753,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "5280298A3BD88B00"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.49173CEEF82E4B83.title}"
+			title: "Nr. 20: Penguin Plushie"
 			x: 13.0d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.49173CEEF82E4B83.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "49173CEEF82E4B83"
 			tasks: [{
@@ -677,13 +817,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "38BB539B376AA6B6"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.6CF263A8396ECFDE.title}"
+			title: "Nr. 18: Baby Pig Plushie"
 			x: 8.0d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.6CF263A8396ECFDE.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "6CF263A8396ECFDE"
 			tasks: [{
@@ -727,20 +881,34 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "64476C556DB956BE"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.66901BBC0006320B.title}"
+			title: "Nr. 1: Cormenthor Space Bear Plushie"
 			x: -9.5d
 			y: -4.5d
 			description: [
-				"{ddss2.chef_de_cuisine.69E02EB1868B6E83.66901BBC0006320B.description.0}"
+				"Cormenthor was a highly valued member of the DDSS community Discord server. If anyone needed help, he was always there to offer support. You could always count on him."
 				""
-				"{ddss2.chef_de_cuisine.69E02EB1868B6E83.66901BBC0006320B.description.1}"
+				"He passed away on October 28, 2024, and the news hit the community hard. This plushie was added to honor him. "
 				""
-				"{ddss2.chef_de_cuisine.69E02EB1868B6E83.66901BBC0006320B.description.2}"
+				"Rest in peace, my friend."
 				""
-				"{ddss2.chef_de_cuisine.69E02EB1868B6E83.66901BBC0006320B.description.3}"
+				"Your DDSS community."
 			]
 			size: 2.0d
 			id: "66901BBC0006320B"
@@ -793,13 +961,47 @@
 					type: "item"
 					item: "pamhc2foodcore:baconcheeseburgeritem"
 				}
+				{
+					id: "4348A989F9455FF4"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 4
+				}
+				{
+					id: "188A1BBC985339C5"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "37717794D4EC5C59"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t2_bags"
+								BagType: "treasurebags:t2_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.09CB5B7EA2DB3575.title}"
+			title: "Nr. 19: Dog Plushie"
 			x: 10.5d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.09CB5B7EA2DB3575.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "09CB5B7EA2DB3575"
 			tasks: [{
@@ -843,13 +1045,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "45BF1E75F8030A0B"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.58F8367305A7F62E.title}"
+			title: "Nr. 6: Axolotl Plushie"
 			x: 3.0d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.58F8367305A7F62E.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "58F8367305A7F62E"
 			tasks: [{
@@ -896,13 +1112,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "3394F7C51D73159C"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.5E651224D424C7E0.title}"
+			title: "Nr. 3: Kirby Plushie"
 			x: -4.5d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.5E651224D424C7E0.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "5E651224D424C7E0"
 			tasks: [{
@@ -946,13 +1176,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "70C9E320DDD54A8C"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.6B5DEFFB252228BC.title}"
+			title: "Nr. 7: Potato Fish Plushie"
 			x: 5.5d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.6B5DEFFB252228BC.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "6B5DEFFB252228BC"
 			tasks: [{
@@ -999,13 +1243,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "6A279B56769893E5"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.710C41089433EC06.title}"
+			title: "Nr. 2: Unicorn Plushie"
 			x: -7.0d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.710C41089433EC06.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "710C41089433EC06"
 			tasks: [{
@@ -1049,13 +1307,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "0D63C9470F1CAFA8"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.47F745ABD719EE30.title}"
+			title: "Nr. 14: Green Parrot Plushie"
 			x: -2.0d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.47F745ABD719EE30.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "47F745ABD719EE30"
 			tasks: [{
@@ -1099,13 +1371,27 @@
 					item: "kubejs:materia_t1"
 					count: 4
 				}
+				{
+					id: "0B43990AB3E2021F"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.53D01FB7E164D81C.title}"
+			title: "Nr. 10: Parrot in Minecart Plushie"
 			x: 13.0d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.53D01FB7E164D81C.description.0}"]
+			description: ["This plushie can be acquired randomly in dungeons."]
 			size: 2.0d
 			id: "53D01FB7E164D81C"
 			tasks: [{
@@ -1148,6 +1434,475 @@
 					type: "item"
 					item: "kubejs:materia_t1"
 					count: 4
+				}
+				{
+					id: "4555473DC40EB7B9"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Nr. 24: Golden Slime Plushie"
+			x: 1.875d
+			y: 5.0d
+			description: ["You can obtain this plushie by killing Botania's Gaia Guardian 1."]
+			size: 2.5d
+			id: "38C65262D740AD60"
+			tasks: [{
+				id: "0C0C23F39C13069F"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVkY2Q5MmIwZTIxMGNmZTk4ODkyYzQzMzRiZTQ2MmIzYjllNzI1ZGRiZDAwOWMyNzgzZmNmODhmMGZmZGM1MyJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 24\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Golden Slime Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "4DD886793C976AB7"
+					type: "item"
+					item: "kubejs:coin_t4"
+					count: 4
+				}
+				{
+					id: "598CA8FFE48B9A88"
+					type: "item"
+					item: "kubejs:materia_t4"
+					count: 9
+				}
+				{
+					id: "6E5DC0C7ADFA98EB"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t4_bags"
+								BagType: "treasurebags:t4_bag"
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Nr. 23: Golden Pig Plushie"
+			x: -1.25d
+			y: 5.0d
+			description: ["You can obtain this plushie by killing Botania's Gaia Guardian 1."]
+			size: 2.5d
+			id: "17CD065C4B98BB90"
+			tasks: [{
+				id: "730FDE8676473279"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk1NjUyZGRlMDRmNzQ1Zjk1NGI2OTgxMGUwMjBlYTZiOTNlYjJkMzM0YjlkYjczODBiYmZmNTJjMmIwZjQifX19"
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 23\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Golden Pig Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "7C1964739FB3F153"
+					type: "item"
+					item: "kubejs:coin_t4"
+					count: 4
+				}
+				{
+					id: "6875121A7A216D7C"
+					type: "item"
+					item: "kubejs:materia_t4"
+					count: 9
+				}
+				{
+					id: "2C31088B1BECC761"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t4_bags"
+								BagType: "treasurebags:t4_bag"
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Nr. 21: Diamond Pig Plushie"
+			x: -7.5d
+			y: 5.0d
+			description: ["This Plushie is a rare find, available only in Dungeon Arise structures. (Overworld)"]
+			size: 2.5d
+			id: "6572FA35622D61C3"
+			tasks: [{
+				id: "603CAF6F83FC4CAB"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU1ZmY5Mjk4YzE5YzIxZDk3M2E0YTU5MGQ5MTZiOWQ2ZGQ1ODMzNDBjZjVhMmY4OWZhOGJkZmUzOWU4YzdkIn19fQ=="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 21\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Diamond Pig Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "6D46326A99913CF8"
+					type: "item"
+					item: "kubejs:coin_t2"
+					count: 4
+				}
+				{
+					id: "64A3AFAD1321934B"
+					type: "item"
+					item: "kubejs:materia_t2"
+					count: 4
+				}
+				{
+					id: "000D67790FAEFBE6"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t2_bags"
+								BagType: "treasurebags:t2_bag"
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Nr. 22: Diamond Slime Plushie"
+			x: -4.375d
+			y: 5.0d
+			description: ["This Plushie is a rare find, available only in Dungeon Arise structures. (Overworld)"]
+			size: 2.5d
+			id: "49DA23CE575624AC"
+			tasks: [{
+				id: "1863D1DBB471596F"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNmNGViYmQ5NDZjM2QyYTlkMDk3YTcxODY3MTFhOTljMjZmMzExMDYwM2M1M2ZmNzI5ZTFiYTI4Y2Y4OWI3MSJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 22\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Diamond Slime Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "1F3793A48DC076B4"
+					type: "item"
+					item: "kubejs:coin_t2"
+					count: 4
+				}
+				{
+					id: "6908B25CD0D4C47F"
+					type: "item"
+					item: "kubejs:materia_t2"
+					count: 4
+				}
+				{
+					id: "1790FB068CABEFF4"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t2_bags"
+								BagType: "treasurebags:t2_bag"
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Nr. 25: Golden Shulkerbox Plushie"
+			x: 5.0d
+			y: 5.0d
+			description: ["This plushie can only be obtained by defeating Botania's Gaia Guardian 2."]
+			size: 2.5d
+			id: "19E7D66B2BC76F5A"
+			tasks: [{
+				id: "1B30E79F09B7575F"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDUyNGIwMmUyMDY0M2Y3MDVkMzczYzkzNmE4OWM1MGNiYWNmOGVlMjE4ODYzOWIyNDcxZTRjZDUyYzllMWM2NCJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 25\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Golden Shulker Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "3E7D1550661F02B4"
+					type: "item"
+					item: "kubejs:coin_t5"
+					count: 4
+				}
+				{
+					id: "40A8410E61B89B0E"
+					type: "item"
+					item: "kubejs:materia_t5"
+					count: 9
+				}
+				{
+					id: "1C7CC0C2E1001C86"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t5_bags"
+								BagType: "treasurebags:t5_bag"
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Nr. 26: Panda Plushie"
+			x: 8.125d
+			y: 5.0d
+			description: ["This plushie can only be obtained by defeating Vanilla's Elder Guardian."]
+			size: 2.5d
+			id: "620998324F1D6995"
+			tasks: [{
+				id: "23F2C9F17F6B941A"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk2OGUxNDBmYzE4NDhkZTlhODgyOGZkMTg4N2QzNmM3ZDU4YTkzYjI3NzE5NmY3NGUzNTUzMzhkMGQ1NDg3MSJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 26\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Panda Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "2979042D8756495C"
+					type: "item"
+					item: "kubejs:coin_t2"
+					count: 4
+				}
+				{
+					id: "209501E4930668A0"
+					type: "item"
+					item: "kubejs:materia_t2"
+					count: 8
+				}
+				{
+					id: "2012596D6F78CE03"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t2_bags"
+								BagType: "treasurebags:t2_bag"
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Nr. 27: Enderman Plushie"
+			x: 11.25d
+			y: 5.0d
+			description: ["You can obtain this plushie by killing a Farlander Titan."]
+			size: 2.5d
+			id: "0C68FAD7A9AA812C"
+			tasks: [{
+				id: "40ADCCAB550390B2"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YzMmVmYzY4OWJlMGY3MzBlOTFiZmRhNGI2MTA5N2M5NDg4N2E1NTNlYjZiNzYyMGFiNmQwNTY1MjNhZmUyMSJ9fX0="
+								}]
+							}
+							Id: [I;
+								2080793942
+								-524468218
+								-1541115779
+								1949756395
+							]
+						}
+						display: {
+							Lore: ["{\"italic\":false,\"color\":\"gray\",\"text\":\"DDSS 2 Plushie Collection Nr. 27\"}"]
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":true,\"color\":\"aqua\",\"text\":\"Enderman Plushie\"}"
+						}
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [
+				{
+					id: "1B1A8E8B82FC4D02"
+					type: "item"
+					item: "kubejs:coin_t2"
+					count: 4
+				}
+				{
+					id: "17EE37A0A5A679E0"
+					type: "item"
+					item: "kubejs:materia_t2"
+					count: 9
+				}
+				{
+					id: "09394289B4C13CC3"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t2_bags"
+								BagType: "treasurebags:t2_bag"
+							}
+						}
+					}
+					count: 3
 				}
 			]
 		}

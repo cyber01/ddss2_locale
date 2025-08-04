@@ -30,10 +30,11 @@
 				"In this chapter, we will build our first steam generators and machines including multiblocks. Touch the basics of certain magic mods and you will travel to your first fantasy dimensions."
 			]
 			dependencies: ["294894D5C29AE7EE"]
+			hide: true
 			size: 3.0d
 			id: "527873FF2A3E2D02"
 			tasks: [{
-				id: "0E3451612FEC0183"
+				id: "5C509BA47BE2A2F8"
 				type: "checkmark"
 			}]
 			rewards: [
@@ -62,6 +63,7 @@
 				"It' s a pain to build them with the workshop, but for now there is no other way. Soon it will be easier with steam machines."
 			]
 			dependencies: ["195A62D298613F2D"]
+			hide: true
 			id: "11FE2A5E138A2CCF"
 			tasks: [{
 				id: "3767A1CFCE84D1E5"
@@ -90,7 +92,7 @@
 			description: [
 				"Insulating Glass is a lightweight type of heat-resistant glass used for various components where glass is indispensable."
 				""
-				"This is where osmium is used for the first time. The ore can be found between y level 0 and 60."
+				"This is where osmium is used for the first time for components. The ore can be found between y level 0 and 60."
 				""
 				"The engineers workshop is needed. Later, an assembler will make the production of this glass more efficient."
 			]
@@ -98,6 +100,7 @@
 				"66D0E0439701653D"
 				"4471D00098505CC0"
 			]
+			hide: true
 			id: "7141CBF29368D246"
 			tasks: [{
 				id: "534F8F38ADAE3689"
@@ -131,6 +134,7 @@
 			y: -0.75d
 			description: ["The Fluid Regulator is an incredible piece of equipment that has a name that says it all. It's the perfect solution for controlling the flow of fluids in machines. And get this — it's not just limited to liquids. It's just as effective when it comes to gases and steam, making it a total game-changer!"]
 			dependencies: ["7141CBF29368D246"]
+			hide: true
 			id: "195A62D298613F2D"
 			tasks: [{
 				id: "7773C36F5FB73800"
@@ -173,6 +177,7 @@
 				"Start collecting steam in external tanks, you will need it soon enough once you start building your first machines."
 			]
 			dependencies: ["62EEAC6E559BF455"]
+			hide: true
 			id: "77C1E3CAFA1587DD"
 			tasks: [{
 				id: "457836AB820C0683"
@@ -215,6 +220,7 @@
 			y: -0.75d
 			description: ["A Large Cooling Cell is a passive cooling case that protects machines and multiblock structures from overheating. It comes in 6 different tiers."]
 			dependencies: ["68460CE103B2E57B"]
+			hide: true
 			id: "51A1CF021F3C3187"
 			tasks: [{
 				id: "707526CACB695310"
@@ -249,6 +255,7 @@
 				"11FE2A5E138A2CCF"
 				"34F3F6C598313C2B"
 			]
+			hide: true
 			id: "62EEAC6E559BF455"
 			tasks: [{
 				id: "04C25CE656B5C1A7"
@@ -288,6 +295,7 @@
 				"{image:modpack:textures/quest_images/water_collector.png width:160 height:135 align:1}"
 			]
 			dependencies: ["195A62D298613F2D"]
+			hide: true
 			id: "34F3F6C598313C2B"
 			tasks: [{
 				id: "1A848DD367C17245"
@@ -318,6 +326,7 @@
 				"Credits: https://www.curseforge.com/minecraft/mc-mods/fluid-cells"
 			]
 			dependencies: ["48E42BAB1A990772"]
+			hide: true
 			id: "5A1E8B32C5D7D958"
 			tasks: [{
 				id: "1A03B3E02B0148A9"
@@ -363,6 +372,7 @@
 				"They are made from rubber and the better the quality of the rubber, the more you get out of it."
 			]
 			dependencies: ["527873FF2A3E2D02"]
+			hide: true
 			id: "66D0E0439701653D"
 			tasks: [{
 				id: "5582F5608CCB2ACC"
@@ -395,6 +405,7 @@
 				"Drop Iron Ingots and activate TNT next to the dropped item(s). 80% of the ingots will be converted into Compressed Iron Ingots. Unfortunately, the rest is gone."
 			]
 			dependencies: ["77C1E3CAFA1587DD"]
+			hide: true
 			id: "23AEFD22A925456E"
 			tasks: [{
 				id: "3087FDBBCC292559"
@@ -432,6 +443,7 @@
 				"054704F36F1C58FD"
 				"1B3C3A3BC818755F"
 			]
+			hide: true
 			id: "33E68EF1289B96C9"
 			tasks: [{
 				id: "376A6DDCEFDA17CD"
@@ -478,6 +490,7 @@
 				"All Steam machines are equipped with an upgrade and a \"boosting\" slot."
 			]
 			dependencies: ["33E68EF1289B96C9"]
+			hide: true
 			id: "5A94CE59E91A169B"
 			tasks: [{
 				id: "579DEF542CC3DD97"
@@ -535,6 +548,7 @@
 				"Fortunately, crude oil spawns randomly in the overworld. You should start a journey to find it and fill a portable tank with it. Take enough with you, the production is not very efficient with this earlygame alternative."
 			]
 			dependencies: ["77C1E3CAFA1587DD"]
+			hide: true
 			id: "054704F36F1C58FD"
 			tasks: [{
 				id: "526FB3F5854776D1"
@@ -580,6 +594,7 @@
 				"A Void ore miner will make your life easier later on. But we'll get to that in a later stage."
 			]
 			dependencies: ["5A94CE59E91A169B"]
+			hide: true
 			id: "361393940DCFF2EC"
 			tasks: [{
 				id: "5AC97CB6A4103C88"
@@ -614,6 +629,7 @@
 				"The by-product is either charcoal or coal coke, which burns a lot longer than coal and this is going to be very useful for the upcoming steam boiler."
 			]
 			dependencies: ["527873FF2A3E2D02"]
+			hide: true
 			size: 2.0d
 			id: "4471D00098505CC0"
 			tasks: [{
@@ -643,6 +659,7 @@
 			y: -2.5d
 			description: ["As I mentioned earlier, creosote oil is made in the coke oven during the early stages of this modpack. Now is the perfect time to use it! Grab a bucket of this amazing stuff so we can move on to making purification fluid."]
 			dependencies: ["33E68EF1289B96C9"]
+			hide: true
 			id: "6E293080174C5B2C"
 			tasks: [{
 				id: "0CEA0D9FD7F7D8F0"
@@ -676,6 +693,7 @@
 			y: 1.0d
 			description: ["E-D-R-U stands for Electolysing, Distilling and Refining Unit. As the name suggests, this is a very versatile machine that can perform a wide variety of tasks."]
 			dependencies: ["361393940DCFF2EC"]
+			hide: true
 			id: "296E617E84C35438"
 			tasks: [{
 				id: "087AC0583CB25602"
@@ -726,6 +744,7 @@
 				"It's a bit of a pain to produce this in the workshop since you have to make it in buckets. We're going to build some machines soon to make production easier because we need to make a lot of this in the pack."
 			]
 			dependencies: ["370F94752A12DF85"]
+			hide: true
 			id: "1809466AFB5F379C"
 			tasks: [{
 				id: "2308D0CB3257FFB9"
@@ -772,6 +791,7 @@
 				"1809466AFB5F379C"
 				"296E617E84C35438"
 			]
+			hide: true
 			id: "7FB8F3D2C79F34A6"
 			tasks: [{
 				id: "6070E0110CA54362"
@@ -819,6 +839,7 @@
 			y: -0.75d
 			description: ["The pneumatic gearbox is an essential component of most steam machines."]
 			dependencies: ["056B81FD25E2F828"]
+			hide: true
 			id: "49FEC7A61007E047"
 			tasks: [{
 				id: "7488F2D032041D04"
@@ -854,6 +875,7 @@
 			y: -4.5d
 			description: ["The Catalyst is an item used to activate The Undergarden portal."]
 			dependencies: ["5B5E57531C283E95"]
+			hide: true
 			id: "7AC964ED6C715C03"
 			tasks: [{
 				id: "0AC6028A51694364"
@@ -893,6 +915,7 @@
 			y: -4.5d
 			description: ["Just like Pure Iron, Aquamarine can also be refined with an EDRU and later with a Fusion Computer."]
 			dependencies: ["5020FB384A719C41"]
+			hide: true
 			id: "5B5E57531C283E95"
 			tasks: [{
 				id: "7A392076504B2C78"
@@ -927,6 +950,7 @@
 				"{image:modpack:textures/quest_images/portal_undergarden.png width:100 height:150 align:1}"
 			]
 			dependencies: ["7AC964ED6C715C03"]
+			hide: true
 			id: "67424363A823905E"
 			tasks: [{
 				id: "50313462C666C718"
@@ -964,11 +988,12 @@
 			description: [
 				"Froststeel and Cloggrum ore can be found naturally in the undergarden. "
 				""
-				"To be more specific; in Frostfields and Grongelgrowth biomes."
+				"To be more specific; in Frostfields and Gronglegrowth biomes."
 				""
 				"Both will be used in upcoming tasks. So it doesn't hurt to take a couple of them with you while you have a look at The Undergarden."
 			]
 			dependencies: ["67424363A823905E"]
+			hide: true
 			id: "08E3930C9FC3BFF0"
 			tasks: [
 				{
@@ -1018,6 +1043,7 @@
 				"07E401FDB18E6789"
 				"48E42BAB1A990772"
 			]
+			hide: true
 			id: "43A6EE409CF760A3"
 			tasks: [{
 				id: "2D8FB2EDF2E2B351"
@@ -1041,8 +1067,9 @@
 			title: "Air Grate Module"
 			x: 1.0d
 			y: -4.5d
-			description: ["Air Great modules are used in almost all steam machines and are responsible for releasing excess steam and ensuring proper air circulation."]
+			description: ["Air Grate Modules are used in almost all steam machines and are responsible for releasing excess steam and ensuring proper air circulation."]
 			dependencies: ["08E3930C9FC3BFF0"]
+			hide: true
 			id: "694F82134D96CAC9"
 			tasks: [{
 				id: "56087F918405EA1C"
@@ -1077,6 +1104,7 @@
 				"694F82134D96CAC9"
 				"49FEC7A61007E047"
 			]
+			hide: true
 			id: "60B68985AEE01F9D"
 			tasks: [{
 				id: "3CE1692A7C63EA39"
@@ -1131,6 +1159,7 @@
 				"These jars are used to craft all the different tiers of spiritual crystals."
 			]
 			dependencies: ["03403AA575E736BC"]
+			hide: true
 			id: "608C24F724F3E677"
 			tasks: [{
 				id: "4B8EA7992A11DBBF"
@@ -1167,6 +1196,7 @@
 				"Among other things, we use hydrogen to create purge fluid, which will be useful later on, and we use heavy water to make our first boosting mixture."
 			]
 			dependencies: ["296E617E84C35438"]
+			hide: true
 			id: "608F87728A3FFA8E"
 			tasks: [
 				{
@@ -1225,6 +1255,7 @@
 				"Purge fluid is essential for filling soul jars. These in turn are used for Spiritual Crystals. More on this later."
 			]
 			dependencies: ["608F87728A3FFA8E"]
+			hide: true
 			id: "03403AA575E736BC"
 			tasks: [{
 				id: "35F3B7BA9FAEF55E"
@@ -1258,6 +1289,7 @@
 				"In T1, for example, you can use things like cow or pig products. Check JEI for more detailed information."
 			]
 			dependencies: ["608C24F724F3E677"]
+			hide: true
 			id: "428D8CCA2B8DAA72"
 			tasks: [{
 				id: "14A9E415FD1B9B5C"
@@ -1291,6 +1323,7 @@
 				"The Controller is compatible with most automation techniques including Applied Energistics 2 and Refined Storage."
 			]
 			dependencies: ["11FE2A5E138A2CCF"]
+			hide: true
 			id: "1E7FD862557D6A59"
 			tasks: [{
 				id: "5D1F43710AD9B0B9"
@@ -1325,6 +1358,7 @@
 			subtitle: "Trading Quest"
 			description: ["32'768 stacks in just one block. Not THAT bad..."]
 			dependencies: ["361393940DCFF2EC"]
+			hide: true
 			size: 2.0d
 			id: "767C0D936BD684D7"
 			tasks: [
@@ -1364,6 +1398,7 @@
 				"49FEC7A61007E047"
 				"428D8CCA2B8DAA72"
 			]
+			hide: true
 			id: "216CAD724DF067BE"
 			tasks: [{
 				id: "35B261CF3C650645"
@@ -1399,6 +1434,7 @@
 			description: ["The upgrade slot of all steam machines can hold up to 2 speed upgrades, which in turn significantly increases the steam costs."]
 			hide_dependency_lines: false
 			dependencies: ["5A94CE59E91A169B"]
+			hide: true
 			id: "7113476A9F97B978"
 			tasks: [{
 				id: "5EA768FECF8C905C"
@@ -1429,6 +1465,7 @@
 				"The LP boiler can hold up to 2 upgrades and the HP boiler up to 4."
 			]
 			dependencies: ["51A1CF021F3C3187"]
+			hide: true
 			id: "37D2F06D099C0125"
 			tasks: [{
 				id: "1C9F7D85D8B25954"
@@ -1462,6 +1499,7 @@
 				"{image:modpack:textures/quest_images/bossting_mixture.png width:170 height:110 align:1}"
 			]
 			dependencies: ["216CAD724DF067BE"]
+			hide: true
 			id: "26D6C14036495CB9"
 			tasks: [{
 				id: "16C27A1CEFA5CEC7"
@@ -1502,6 +1540,7 @@
 			y: -8.25d
 			description: ["A mechanical arm, or robotic arm if you like, is mostly used in machines where several complex tasks have to be performed simultaneously. For example, the assembler."]
 			dependencies: ["60B68985AEE01F9D"]
+			hide: true
 			id: "1AA30549C219B9D2"
 			tasks: [{
 				id: "3EC89A641C8CB6AB"
@@ -1558,6 +1597,7 @@
 				"Don't worry about the different fluid tanks in the machine. Steam only ever goes into the first slot and is used there as fuel. So you can't accidentally put a different fluid into the internal steam tank."
 			]
 			dependencies: ["1AA30549C219B9D2"]
+			hide: true
 			id: "48E42BAB1A990772"
 			tasks: [{
 				id: "6F94D334401867D0"
@@ -1613,6 +1653,7 @@
 				"These circuits are of course not consumed when crafting recipes."
 			]
 			dependencies: ["51A1CF021F3C3187"]
+			hide: true
 			id: "056B81FD25E2F828"
 			tasks: [{
 				id: "77B5579AE6A09A9F"
@@ -1664,6 +1705,7 @@
 				"Don't worry about the different fluid tanks in the machine. Steam only ever goes into the first slot and is used there as fuel. So you can't accidentally put a different fluid into the internal steam tank."
 			]
 			dependencies: ["60B68985AEE01F9D"]
+			hide: true
 			id: "7FA40E74967CC564"
 			tasks: [{
 				id: "1C1FBE5DA3B93C0A"
@@ -1712,6 +1754,7 @@
 				"The extractor has a “boosting” and “circuit state” slot."
 			]
 			dependencies: ["60B68985AEE01F9D"]
+			hide: true
 			id: "6999A338A178DA5A"
 			tasks: [{
 				id: "0D24CAE5B66453B4"
@@ -1752,6 +1795,7 @@
 				"{image:modpack:textures/quest_images/menriltree.png width:100 height:170 align:1}"
 			]
 			dependencies: ["6999A338A178DA5A"]
+			hide: true
 			id: "7DCB25FA65CEBB73"
 			tasks: [{
 				id: "4D515F78C8831F4E"
@@ -1778,7 +1822,7 @@
 			x: 13.0d
 			y: -5.0d
 			description: [
-				"You are going to use upgrade compund very often and in large quantities throughout the modpack. It is mostly used to upgrade things as you may have expected^^"
+				"You are going to use upgrade compound very often and in large quantities throughout the modpack. It is mostly used to upgrade things as you may have expected^^"
 				""
 				"In addition to menril resin, you also need hemp fiber, (which you have fortunately already planted in Tier 0) materia and some gems of your choice. Whatever you have most left."
 			]
@@ -1787,6 +1831,7 @@
 				"6999A338A178DA5A"
 				"7FA40E74967CC564"
 			]
+			hide: true
 			id: "07E401FDB18E6789"
 			tasks: [{
 				id: "41ECA86598F52797"
@@ -1824,6 +1869,7 @@
 				"This device allows you to make almost anything. Every imaginable plank or stone, other useful utensils and of course all the metals. You want to reproduce a certain type of wood from Biomes o Plenty for your house? No problem, you just have to find the wood type at least once and then you can use it as a template. Check JEI for more information."
 			]
 			dependencies: ["60B68985AEE01F9D"]
+			hide: true
 			id: "33E5C1CE1BEC602B"
 			tasks: [{
 				id: "1DC546D1354B8101"
@@ -1863,11 +1909,12 @@
 			description: [
 				"The Macerator is an all-purpose grinding machine, capable of breaking down ores and other items into their respective Dust, which can later be smelted into their respective ingots."
 				""
-				"It also efficiently converts coal into coal dust, blaze rods into blaze powder and much mucn more."
+				"It also efficiently converts coal into coal dust, blaze rods into blaze powder and much much more."
 				""
 				"The device also has a boosting slot which allows you to get even more out of your ores!"
 			]
 			dependencies: ["60B68985AEE01F9D"]
+			hide: true
 			id: "3865D2B5EF871E12"
 			tasks: [{
 				id: "06A05BE1BF98AF7A"
@@ -1904,6 +1951,7 @@
 				""
 			]
 			dependencies: ["48E42BAB1A990772"]
+			hide: true
 			id: "6FA9145FC081C8CA"
 			tasks: [{
 				id: "593E1B9491D3E35A"
@@ -1929,7 +1977,7 @@
 			x: 10.0d
 			y: 2.5d
 			description: [
-				"The Centrifuge is a processing machine that separates large amounts of minerals, compounds, magic stuff or fluids into other components and fluids."
+				"The Centrifuge is a processing machine that separates large amounts of minerals, compounds, combs, magic stuff or fluids into other components and fluids."
 				""
 				"For example, you can extract the following materials:"
 				"- Metal nuggets from lava"
@@ -1939,6 +1987,7 @@
 				"And much more!"
 			]
 			dependencies: ["60B68985AEE01F9D"]
+			hide: true
 			id: "2187A8F9566A79D4"
 			tasks: [{
 				id: "4955177B41521784"
@@ -1980,6 +2029,7 @@
 			]
 		}
 		{
+			title: "Steam Recycler!"
 			x: 1.0d
 			y: -2.75d
 			shape: "circle"
@@ -1989,6 +2039,7 @@
 				"The recycler has upgrade slots like most other machines, but it is the only device that does not have the option to boost things."
 			]
 			dependencies: ["60B68985AEE01F9D"]
+			hide: true
 			id: "6DC25340FAE7A566"
 			tasks: [{
 				id: "2DEC3891807238C3"
@@ -2036,6 +2087,7 @@
 				"For example you can use it to craft planks out of logs much more efficently."
 			]
 			dependencies: ["60B68985AEE01F9D"]
+			hide: true
 			id: "46880F491BB2F54D"
 			tasks: [{
 				id: "41F08899E888C64C"
@@ -2079,6 +2131,7 @@
 				"This device has a “boosting” and “circuit state” slot."
 			]
 			dependencies: ["60B68985AEE01F9D"]
+			hide: true
 			id: "46015259444D3BC8"
 			tasks: [{
 				id: "56CE1BACA3CD0C3A"
@@ -2106,6 +2159,7 @@
 			]
 		}
 		{
+			title: "Gold Furnace"
 			x: 12.25d
 			y: -10.75d
 			shape: "circle"
@@ -2115,6 +2169,7 @@
 				"These furnaces come in different tiers and with a variety of upgrades that can make them even more efficient."
 			]
 			dependencies: ["48E42BAB1A990772"]
+			hide: true
 			id: "05486CC2F51F4A7A"
 			tasks: [{
 				id: "219AF3BBD9D56C76"
@@ -2135,12 +2190,13 @@
 			]
 		}
 		{
-			title: "Frunace Upgrade: Speed"
+			title: "Furnace Upgrade: Speed"
 			x: 12.25d
 			y: -13.0d
 			shape: "circle"
 			description: ["This upgrade halves the cooking time of all recipes but doubles the amount of fuel required."]
 			dependencies: ["05486CC2F51F4A7A"]
+			hide: true
 			id: "661F781D2DA3119F"
 			tasks: [{
 				id: "54A6D95B8D692D89"
@@ -2172,6 +2228,7 @@
 				"The Inferium Crystal has 500 uses."
 			]
 			dependencies: ["33E5C1CE1BEC602B"]
+			hide: true
 			id: "1B911C97E9161454"
 			tasks: [{
 				id: "4C321FBAA98E5E68"
@@ -2213,6 +2270,7 @@
 				"Collect as much as you can because we will need it later for high-quality materia."
 			]
 			dependencies: ["3865D2B5EF871E12"]
+			hide: true
 			id: "6C251C5F1403A83B"
 			tasks: [{
 				id: "339EFE8FDFFC152A"
@@ -2240,6 +2298,7 @@
 			y: 2.5d
 			description: ["Flammable Dust can be obtained by processing redstone dust in a centrifuge. This is primarily used to upgrade materia and for various weapons in AoA."]
 			dependencies: ["2187A8F9566A79D4"]
+			hide: true
 			id: "2A3234C9029A7A48"
 			tasks: [{
 				id: "2F71A043D0FEFA54"
@@ -2267,9 +2326,10 @@
 			description: [
 				"Molds are used to press various metals into specific shapes in the forming press. There is a wide variety of molds and many possible applications."
 				""
-				"The steamcutter can produce these for you if you don't want to do it in the workshop."
+				"The steam cutter can produce these for you if you don't want to do it in the workshop."
 			]
 			dependencies: ["46880F491BB2F54D"]
+			hide: true
 			id: "4610C93BCD7BBBD4"
 			tasks: [{
 				id: "7761FDD4EE58552F"
@@ -2304,6 +2364,7 @@
 				"Oh and by the way, This salt block is also commonly found on shores or underwater. When mined, it will drop 4 Salt."
 			]
 			dependencies: ["46015259444D3BC8"]
+			hide: true
 			id: "7C72AD82A8C49CFB"
 			tasks: [{
 				id: "2327CEE399DD25E4"
@@ -2334,6 +2395,7 @@
 				"The tooltip references a quote from Mashiro Shiina, a character from the anime \"Sakurasou no Pet na Kanojo\"."
 			]
 			dependencies: ["27215A91314B78B6"]
+			hide: true
 			id: "6B864071B3C294DD"
 			tasks: [{
 				id: "2F82303A025CE7BB"
@@ -2360,6 +2422,7 @@
 			y: 10.25d
 			description: ["Livingrock is created by placing a block of Stone adjacent to a Pure Daisy. After a minute it will transform into Livingrock. :0"]
 			dependencies: ["6B864071B3C294DD"]
+			hide: true
 			id: "5F0C6B55A4B0491B"
 			tasks: [{
 				id: "417A2A16001C425F"
@@ -2398,6 +2461,7 @@
 				"2187A8F9566A79D4"
 				"135D46860C6990F1"
 			]
+			hide: true
 			id: "7E7C3436B5899A70"
 			tasks: [{
 				id: "155D8AF2F9088E04"
@@ -2425,6 +2489,7 @@
 			y: 4.0d
 			description: ["These seedbags are used to produce mystical agriculture seeds. Depending on the tier, a corresponding bag is required."]
 			dependencies: ["7E7C3436B5899A70"]
+			hide: true
 			id: "5F17A14960A92ABC"
 			tasks: [{
 				id: "6C5C9F25DC971193"
@@ -2453,6 +2518,7 @@
 				"Elemental seeds need corresponding agglomeratio to be crafted."
 			]
 			dependencies: ["5F17A14960A92ABC"]
+			hide: true
 			id: "7A17E27EBC5C1898"
 			tasks: [{
 				id: "141716F9B87654DA"
@@ -2495,6 +2561,7 @@
 				"When active, having consumed Water, the Hydroangeas produces 1 Mana every 3 ticks. If it is raining, this increases to 1 Mana every 2 ticks."
 			]
 			dependencies: ["27215A91314B78B6"]
+			hide: true
 			id: "6874DE0EA5C1F727"
 			tasks: [{
 				id: "4EA361155081B586"
@@ -2535,6 +2602,7 @@
 			y: 7.5d
 			description: ["Place any Wood Log next to a Pure Daisy. After a minute it will transform into Livingwood."]
 			dependencies: ["6B864071B3C294DD"]
+			hide: true
 			id: "318EEBC4F9D3E531"
 			tasks: [{
 				id: "13F6473D136770C6"
@@ -2578,6 +2646,7 @@
 				"318EEBC4F9D3E531"
 				"6874DE0EA5C1F727"
 			]
+			hide: true
 			id: "1B3441C596BAD1BF"
 			tasks: [{
 				id: "211B32036A17EAC4"
@@ -2620,6 +2689,7 @@
 				"Holding the Ctrl key when hovering the cursor over an item with an entry while the book is in the hotbar will open the item's entry. Shift right-clicking with the Lexica on a block will open the relevant page, if one exists, otherwise it will attempt to open a relevant wiki page in the user's web browser."
 			]
 			dependencies: ["7A17E27EBC5C1898"]
+			hide: true
 			id: "27215A91314B78B6"
 			tasks: [{
 				id: "652C6E9ADF519CA4"
@@ -2637,6 +2707,7 @@
 			}]
 		}
 		{
+			title: "Mana Spreader"
 			x: 27.25d
 			y: 5.25d
 			description: [
@@ -2645,6 +2716,7 @@
 				"The direction of the Mana bursts can be manipulated by shift-right clicking on it with the Wand of the Forest. There is an alternative method of orientating the Mana Spreader, and that is to bind it to another block. To do so, shift right-click on the Mana Spreader then shift right-click on another block to automatically orient the Mana Spreader to direct its Mana bursts to that block. Mana Spreaders fire Mana in discrete bursts rather than in a continuous stream."
 			]
 			dependencies: ["1B3441C596BAD1BF"]
+			hide: true
 			id: "0FAC9E5B3BC714B6"
 			tasks: [{
 				id: "5117D818D0E6A132"
@@ -2671,6 +2743,7 @@
 			]
 		}
 		{
+			title: "Mana Pool!"
 			x: 24.25d
 			y: 5.25d
 			description: [
@@ -2679,6 +2752,7 @@
 				" Mana stored in the pool can be used to power other blocks in Botania that require Mana to function, such as functional flowers."
 			]
 			dependencies: ["1B3441C596BAD1BF"]
+			hide: true
 			id: "465452A8AB9043E6"
 			tasks: [{
 				id: "44FFD6652306E9AF"
@@ -2719,6 +2793,7 @@
 				"465452A8AB9043E6"
 				"0FAC9E5B3BC714B6"
 			]
+			hide: true
 			id: "36439AB550A37907"
 			tasks: [
 				{
@@ -2760,6 +2835,7 @@
 				"Dropping one of these on a Mana Pool will allow them to transfer Mana from one to the other, depending on which way Mana is flowing. This can be viewed while looking at a manapool when wielding a wand of the forest."
 			]
 			dependencies: ["36439AB550A37907"]
+			hide: true
 			id: "5F998BF89833F59F"
 			tasks: [{
 				id: "119FB4CC8412BCC3"
@@ -2793,6 +2869,7 @@
 			]
 		}
 		{
+			title: "Liquid Enchant?!"
 			x: 13.0d
 			y: -3.75d
 			description: [
@@ -2801,6 +2878,7 @@
 				"It is used in a lot of magic items so it doesn't hurt to grab every enchanted book you can find in dungeons out there."
 			]
 			dependencies: ["6999A338A178DA5A"]
+			hide: true
 			id: "205EA7CF43E371F5"
 			tasks: [{
 				id: "568B4C80C00EC44D"
@@ -2868,6 +2946,7 @@
 				"3ACAB4D89AD5F86A"
 				"07EF167DD30A887E"
 			]
+			hide: true
 			id: "533E604449114ED7"
 			tasks: [
 				{
@@ -2928,6 +3007,7 @@
 				"{image:modpack:textures/quest_images/portal_frame.png width:170 height:140 align:1}"
 			]
 			dependencies: ["533E604449114ED7"]
+			hide: true
 			id: "73A4FC40AF50A5C6"
 			tasks: [{
 				id: "48FDFF6910B54355"
@@ -2954,6 +3034,7 @@
 				"Note 2: If you want to use this portal for everything in the future, there is also a realmstone for the Nether."
 			]
 			dependencies: ["73A4FC40AF50A5C6"]
+			hide: true
 			id: "5FB3404780403AFF"
 			tasks: [{
 				id: "0307D077A907BC82"
@@ -3003,6 +3084,7 @@
 				"Here you will also find new mobs, dungeons and friendly NPCs like the Lottoman, which is similiar to a vanilla villager. However, they have their own currency."
 			]
 			dependencies: ["5FB3404780403AFF"]
+			hide: true
 			id: "56B37DC076E077BD"
 			tasks: [{
 				id: "564D02E8C85C73DD"
@@ -3047,6 +3129,7 @@
 				"-Lunaver Coins"
 			]
 			dependencies: ["5FB3404780403AFF"]
+			hide: true
 			id: "0C2D2BF8C4FC1DF9"
 			tasks: [{
 				id: "6819E0E0FD50BA19"
@@ -3074,6 +3157,7 @@
 			shape: "circle"
 			description: ["The Floral Obedience Stick is a tool that will bind all generating flowers in its range to it when used on any mana spreader, and do the same for functional flowers when used on a manapool."]
 			dependencies: ["36439AB550A37907"]
+			hide: true
 			id: "21B0BC40C3CD644F"
 			tasks: [{
 				id: "235DBD42ED55EF81"
@@ -3100,6 +3184,7 @@
 			shape: "circle"
 			description: ["The Manaseer Monocle is a \"bauble\" item. When equipped in the baubles amulet slot, it shows nearby mana bursts (even those out of line of sight) and the functional radii of flowers to the player."]
 			dependencies: ["36439AB550A37907"]
+			hide: true
 			id: "07A6AD1F7E26DEED"
 			tasks: [{
 				id: "0566524B2248CDD8"
@@ -3131,6 +3216,7 @@
 			shape: "circle"
 			description: ["The Manasteel Shears is a tool that uses Mana from Mana Tablet or any other Mana providing item in the player's inventory to prevent item damage or repair itself, using 30 Mana per point of durability. Unlike vanilla Shears, these will trigger tripwire."]
 			dependencies: ["36439AB550A37907"]
+			hide: true
 			id: "45A9C87325E2420E"
 			tasks: [{
 				id: "35C06073A82C0085"
@@ -3163,6 +3249,7 @@
 			shape: "circle"
 			description: ["The Hand of Ender is a tool which opens the player's Ender Chest inventory at the cost of 250 Mana. If used on another player, it will open their Ender Chest instead at the cost of 5,000 Mana."]
 			dependencies: ["36439AB550A37907"]
+			hide: true
 			id: "623DC1BBF8461F00"
 			tasks: [{
 				id: "1C75399D446AD083"
@@ -3190,6 +3277,7 @@
 			y: -2.5d
 			description: ["Precasia's most valuable goods include jauxum, skeletal items and skystone. Collect a few, they will be useful."]
 			dependencies: ["56B37DC076E077BD"]
+			hide: true
 			id: "4C8A4EDDFA24312F"
 			tasks: [
 				{
@@ -3254,6 +3342,7 @@
 				"0A71F7D6675E64CF"
 				"354D373FF827C427"
 			]
+			hide: true
 			size: 2.0d
 			id: "5FC9F450C68A6495"
 			tasks: [
@@ -3332,6 +3421,7 @@
 			]
 		}
 		{
+			title: "Luminous Crafting Table!"
 			x: 35.75d
 			y: -4.5d
 			description: [
@@ -3342,6 +3432,7 @@
 				"The table receives more starlight the higher it is in the sky, so it should be moved to a high place. Supposedly, Certain places \"charge\" the table faster than others. It is best to craft at night since that is when it receives the most starlight."
 			]
 			dependencies: ["1359409A64DC125C"]
+			hide: true
 			id: "1D09392E2565B7BF"
 			tasks: [{
 				id: "7EA2369E354F82AF"
@@ -3389,6 +3480,7 @@
 				"You don't need to look for your first Rock Crystal Ore. You'll get it as a small “thank you for playing my pack” gift ;-)"
 			]
 			dependencies: ["1D09392E2565B7BF"]
+			hide: true
 			id: "25D276886A503FC0"
 			tasks: [{
 				id: "1675B33C524F6AED"
@@ -3418,6 +3510,7 @@
 				"Aquamarine, Resonating Gems, Rock Crystals and Celestial Crystals, in order from least to most output, can be used for starlight collection. Each Lightwell can only hold up to 2 buckets of liquid starlight but can be used with a Containment Chalice or other kinds of infrastructure to make it more productive."
 			]
 			dependencies: ["3C4CE3542EB9094C"]
+			hide: true
 			id: "2A8AE8EEB4DAFB2F"
 			tasks: [{
 				id: "49F438D382A58F32"
@@ -3448,6 +3541,7 @@
 				"Mana glass is required for the production of these canisters."
 			]
 			dependencies: ["5AD31978A284AD39"]
+			hide: true
 			id: "0A71F7D6675E64CF"
 			tasks: [{
 				id: "51773C0CE6237B0C"
@@ -3490,6 +3584,7 @@
 				"{image:modpack:textures/quest_images/vom_gui2.png width:210 height:140 align:1}"
 			]
 			dependencies: ["5FC9F450C68A6495"]
+			hide: true
 			id: "6BDEABBAE05394E2"
 			tasks: [{
 				id: "228019F3C70D484A"
@@ -3518,6 +3613,7 @@
 				""
 			]
 			dependencies: ["2A8AE8EEB4DAFB2F"]
+			hide: true
 			id: "156CCE3540A8A0F5"
 			tasks: [{
 				id: "649F01B1E3CAEC90"
@@ -3564,6 +3660,7 @@
 				"Endoflames can store 300 Mana internally and they can be bound to a Mana Spreader within 6 blocks of itself to transfer its Mana."
 			]
 			dependencies: ["5F998BF89833F59F"]
+			hide: true
 			id: "5AD31978A284AD39"
 			tasks: [{
 				id: "376E86168D847B01"
@@ -3593,7 +3690,8 @@
 				""
 				"The centre slot is used for fuel. The four slots on the left are for pneumaticcraft upgrades."
 			]
-			dependencies: ["2C70A1CA8856F142"]
+			dependencies: ["4E9C3372CD53278C"]
+			hide: true
 			id: "4BD59919AB6F7821"
 			tasks: [{
 				id: "6E31F03D6E4BC24B"
@@ -3629,6 +3727,7 @@
 				"Unlike other charging systems, the Charging Station will equalize the pressure in the two items which means that in order to achieve a higher pressure in an item, a higher network pressure must be acheived. This goes as well for discharging items. A low pressure Air Canister cannot pressurize a higher pressure network."
 			]
 			dependencies: ["4BD59919AB6F7821"]
+			hide: true
 			id: "6EC60A1854CBA273"
 			tasks: [{
 				id: "20DF484328D8EB5A"
@@ -3655,6 +3754,7 @@
 			]
 		}
 		{
+			title: "Amadron Tablet"
 			x: 47.5d
 			y: -8.25d
 			description: [
@@ -3665,6 +3765,7 @@
 				"The tablet needs air pressure to work. You can fill it with the charging station from the previous quest."
 			]
 			dependencies: ["6EC60A1854CBA273"]
+			hide: true
 			id: "1BE9FC356719A6A9"
 			tasks: [{
 				id: "2FBD60AA61A0EA12"
@@ -3705,6 +3806,7 @@
 				"In other pneumaticcraft devices, of course, it also increases the internal tank accordingly."
 			]
 			dependencies: ["1BE9FC356719A6A9"]
+			hide: true
 			id: "299D2D4AEB37D1B3"
 			tasks: [{
 				id: "68546559E2820F22"
@@ -3735,6 +3837,7 @@
 				"In this example, we want to apply a speed upgrade for the compressor. The normal compressor can be equipped with up to 10 speed upgrades at once. This increases the speed at which pressure is generated and the burn rate of the fuel enormously."
 			]
 			dependencies: ["4BD59919AB6F7821"]
+			hide: true
 			id: "24A2FC32F22490B1"
 			tasks: [{
 				id: "7F3F72CF71044056"
@@ -3769,6 +3872,7 @@
 				"{image:modpack:textures/quest_images/press_chamber.png width:250 height:135 align:1}"
 			]
 			dependencies: ["4BD59919AB6F7821"]
+			hide: true
 			size: 2.0d
 			id: "15BC03A8FBD93BD1"
 			tasks: [
@@ -3825,6 +3929,7 @@
 			shape: "circle"
 			description: ["You can also add Pressure Chamber Interfaces into the structure to allow the insertion and removal of items to and from the Pressure Chamber to be automated through pipes."]
 			dependencies: ["15BC03A8FBD93BD1"]
+			hide: true
 			id: "5F5652C7D92EB316"
 			tasks: [{
 				id: "11DDCA30B93A7BFB"
@@ -3860,6 +3965,7 @@
 				"In addition, the device can be equipped with a silktouch or luck book to achieve the desired effect."
 			]
 			dependencies: ["6EC60A1854CBA273"]
+			hide: true
 			id: "4C59EFCBD11FAE8B"
 			tasks: [{
 				id: "2AD9B8ADAFE2A742"
@@ -3906,6 +4012,7 @@
 				"To see every possible fuel check the \"Available Fuels\" tab in the machine GUI. This tab is ordered from best to worst fuel."
 			]
 			dependencies: ["4BD59919AB6F7821"]
+			hide: true
 			id: "0F4C828E12278E30"
 			tasks: [{
 				id: "1D2AB7D68896A811"
@@ -3938,6 +4045,7 @@
 			shape: "circle"
 			description: ["This cannon shoots air vortices! Harmless projectiles which repel entities, shear animals, and destroy plants and leaves.  With careful timing, you can also fling yourself considerable distances, but beware fall damage!"]
 			dependencies: ["6EC60A1854CBA273"]
+			hide: true
 			id: "5B3A465AEC45BB8E"
 			tasks: [{
 				id: "1BF7E8AAA24C3241"
@@ -3972,6 +4080,7 @@
 				"The card has its own slot in a VOM and is not consumed or destroyed."
 			]
 			dependencies: ["5FC9F450C68A6495"]
+			hide: true
 			id: "740E2622DCDF5E09"
 			tasks: [{
 				id: "1EF0DC4EA5EC07DA"
@@ -4003,7 +4112,7 @@
 			x: 54.0d
 			y: -4.8d
 			description: [
-				"The Barathos Realmstone is used to access the Barathos dimension."
+				"The Barathos RealmStone is used to access the Barathos dimension."
 				""
 				"And with this quest we reach the end of Tier 1. In the next stage, we pick up right here and learn more about Barathos and its secrets!"
 				""
@@ -4013,6 +4122,7 @@
 				"740E2622DCDF5E09"
 				"1BE9FC356719A6A9"
 			]
+			hide: true
 			size: 3.0d
 			id: "0A52477E69679A16"
 			tasks: [{
@@ -4083,6 +4193,7 @@
 			]
 		}
 		{
+			title: "Slime Boots!"
 			x: 1.0d
 			y: 6.75d
 			shape: "circle"
@@ -4092,6 +4203,7 @@
 				"As an armor piece worn the boots slot, falling from a block height of more than 2 will cause you to bounce back up at about half the height of the amount dropped. You then continually drop down to the ground and bounce back up to a lower height until the block height is only 2. Due to this ability, Slimeslings are intended to be used with it for fast travel."
 			]
 			dependencies: ["216CAD724DF067BE"]
+			hide: true
 			id: "50143904AB434CEA"
 			tasks: [{
 				id: "6A5EA7C1BA719B0E"
@@ -4150,6 +4262,7 @@
 			shape: "circle"
 			description: ["The Slimesling is used as a tool to quickly gain altitude and/or speed. To use the Slimesling, the use key (default right click) must be held and aimed at the side or top of the block to bounce off of. The player must be touching the ground. Depending on how pulled back the Slimesling is, the user will be launched into the air opposite the direction which they were facing when aiming at the block."]
 			dependencies: ["50143904AB434CEA"]
+			hide: true
 			id: "352B7B9663432EBF"
 			tasks: [{
 				id: "53DE8EBBC4920088"
@@ -4198,6 +4311,7 @@
 			subtitle: "Trading Quest"
 			description: ["A Bismuth Seed will cost you at least 4 bismuth blocks and a few other things. Isn't it better to take this deal? Or what do you think?"]
 			dependencies: ["7A17E27EBC5C1898"]
+			hide: true
 			size: 2.0d
 			id: "00C6886FFB98EB58"
 			tasks: [
@@ -4227,11 +4341,12 @@
 			y: -11.0d
 			shape: "circle"
 			description: [
-				"The High Pressure Boiler is the perfect choice for anyone looking for top-tier singelblock performance and unmatched versatility. It's a significant upgrade from its predecessor, offering a larger tank for both water and steam, along with the flexibility to install more upgrades than before."
+				"The High Pressure Boiler is the perfect choice for anyone looking for top-tier singleblock performance and unmatched versatility. It's a significant upgrade from its predecessor, offering a larger tank for both water and steam, along with the flexibility to install more upgrades than before."
 				""
 				"The HP Boiler produces 40mb Steam per Tick without any upgrades."
 			]
 			dependencies: ["2C70A1CA8856F142"]
+			hide: true
 			id: "46AD6C13530B4137"
 			tasks: [{
 				id: "4DA6B46F4BDC3024"
@@ -4264,10 +4379,12 @@
 			]
 		}
 		{
+			title: "Pneumatic Cylinder!"
 			x: 26.0d
 			y: -8.25d
 			description: ["Pneumatic cylinder, also known as air cylinder, is a mechanical device which uses the power of compressed gas to produce a force in a reciprocating linear motion."]
 			dependencies: ["5A1E8B32C5D7D958"]
+			hide: true
 			id: "2C70A1CA8856F142"
 			tasks: [{
 				id: "358F66C2AAC4C070"
@@ -4306,6 +4423,7 @@
 				"However, placing too many relays close to each other will result in one cannibalizing the others' starlight and will most likely create much more... disappointing results.."
 			]
 			dependencies: ["2A8AE8EEB4DAFB2F"]
+			hide: true
 			id: "354D373FF827C427"
 			tasks: [
 				{
@@ -4344,6 +4462,7 @@
 			y: -3.75d
 			description: ["Hey, just wanted to let you know that if you put vegetables in an extractor, you'll get ethanol. It's a good idea to start collecting it now, because we're going to need a lot of it by the time we get to Tier 2."]
 			dependencies: ["205EA7CF43E371F5"]
+			hide: true
 			id: "27997C4125DC4B77"
 			tasks: [{
 				id: "00C88879BD52EDCD"
@@ -4378,6 +4497,7 @@
 			]
 		}
 		{
+			title: "Iron Seeds"
 			x: 14.0d
 			y: 11.25d
 			shape: "circle"
@@ -4387,6 +4507,7 @@
 				"I'd say this is probably the most used metal in the pack. Maybe"
 			]
 			dependencies: ["7A17E27EBC5C1898"]
+			hide: true
 			id: "6218BAC5D82FD7B7"
 			tasks: [{
 				id: "48BD664AF9969224"
@@ -4438,6 +4559,7 @@
 				"Silicone has a wide range of applications. It would be a valuable addition to the range of products to produce a seed right?"
 			]
 			dependencies: ["7A17E27EBC5C1898"]
+			hide: true
 			id: "1D5FD8E0CE6F0498"
 			tasks: [{
 				id: "7D2E2C0B4DF232A4"
@@ -4478,6 +4600,7 @@
 			]
 		}
 		{
+			title: "Copper Seeds"
 			x: 12.25d
 			y: 11.25d
 			shape: "circle"
@@ -4486,6 +4609,7 @@
 				""
 			]
 			dependencies: ["7A17E27EBC5C1898"]
+			hide: true
 			id: "0BEB22AF74D3C7BF"
 			tasks: [{
 				id: "3507EC7FD13B980D"
@@ -4526,6 +4650,7 @@
 			]
 		}
 		{
+			title: "Coal Seeds"
 			x: 10.5d
 			y: 11.25d
 			shape: "circle"
@@ -4534,6 +4659,7 @@
 				""
 			]
 			dependencies: ["7A17E27EBC5C1898"]
+			hide: true
 			id: "08E56F18155EA26B"
 			tasks: [{
 				id: "13E158CFB49E4DF6"
@@ -4585,6 +4711,7 @@
 				"The Extractor can hold 5,000 mB of fluid by default. It can be combined with other Blood Extractors or Dark Tanks in any crafting grid to add up their capacity, up to a maximum of 65,536,000 mB!"
 			]
 			dependencies: ["26D6C14036495CB9"]
+			hide: true
 			id: "135D46860C6990F1"
 			tasks: [{
 				id: "27FC15B709BCA69D"
@@ -4638,6 +4765,7 @@
 				"You can convert those fluid tanks to other modded tanks. For example, you can convert the Copper Tank to an Advanced Fluid Tank from Mekanism. Check JEI for more information."
 			]
 			dependencies: ["48E42BAB1A990772"]
+			hide: true
 			id: "7EDF95AA719D3B6D"
 			tasks: [{
 				id: "727EF936BABAE20E"
@@ -4673,6 +4801,7 @@
 				"You've got options: lapis, ovium, or glowcane dust. Just use one of these three substances for the purification process. It's totally up to you which one you use. Go ahead and use whatever you have on hand!"
 			]
 			dependencies: ["6E293080174C5B2C"]
+			hide: true
 			id: "370F94752A12DF85"
 			tasks: [{
 				id: "4947C45E687916AB"
@@ -4713,6 +4842,7 @@
 				""
 			]
 			dependencies: ["370F94752A12DF85"]
+			hide: true
 			id: "5EAF1E4A90C349C1"
 			tasks: [{
 				id: "0E1FD018C628ABD7"
@@ -4754,6 +4884,7 @@
 				"In T2, you can extract Tree Oil dircetly from logs."
 			]
 			dependencies: ["296E617E84C35438"]
+			hide: true
 			id: "6BC4FBA9984FEF11"
 			tasks: [{
 				id: "51D648A6E16E14DF"
@@ -4797,6 +4928,7 @@
 				"Note: If you make blocks from Inferium Essence, you can upgrade the entire block directly to the next higher level. This saves you the many small steps."
 			]
 			dependencies: ["1B911C97E9161454"]
+			hide: true
 			id: "3ACAB4D89AD5F86A"
 			tasks: [{
 				id: "6B1FF1D5BDB935CF"
@@ -4835,6 +4967,7 @@
 				"- Froststeel, Cloggrum"
 			]
 			dependencies: ["5FC9F450C68A6495"]
+			hide: true
 			id: "1AF1E53C607EA70C"
 			tasks: [{
 				id: "30BAEE44C3C1B7FC"
@@ -4853,6 +4986,7 @@
 			shape: "circle"
 			description: ["The Bellethorne is the most straightforward functional flower to produce. It will utilize Mana from a nearby Mana Pools to harm mobs but not the players around it."]
 			dependencies: ["2A8AE8EEB4DAFB2F"]
+			hide: true
 			id: "5F8AD432F9DBCD69"
 			tasks: [{
 				id: "24462A71AE7272B8"
@@ -4884,6 +5018,7 @@
 				"Don't follow the recipes in the book, though. This modpack does a few things a little differently, but I'm sure you've already noticed that. :)"
 			]
 			dependencies: ["4C8A4EDDFA24312F"]
+			hide: true
 			id: "7140A7FFBDCAAA6B"
 			tasks: [{
 				id: "3043A47766782C81"
@@ -4915,6 +5050,7 @@
 				"You should also collect some more Aquamarine and Marble, and prepare some Manasteel as well."
 			]
 			dependencies: ["7140A7FFBDCAAA6B"]
+			hide: true
 			id: "1359409A64DC125C"
 			tasks: [{
 				id: "7C67AC389B01B45B"
@@ -4930,6 +5066,7 @@
 			x: 38.25d
 			y: -6.5d
 			dependencies: ["25D276886A503FC0"]
+			hide: true
 			id: "66919A2B50A09434"
 			tasks: [{
 				id: "47B9F82B59FB2467"
@@ -4960,6 +5097,7 @@
 				"One thing to note is that the Constellation Horologium will appear every 36 days, so it's pretty rare!"
 			]
 			dependencies: ["66919A2B50A09434"]
+			hide: true
 			id: "3C4CE3542EB9094C"
 			tasks: [{
 				id: "5B6B103EEE8EBB28"
@@ -5017,6 +5155,7 @@
 				"Shape and Efficiency: Increase tool speed or weapon damage"
 			]
 			dependencies: ["25D276886A503FC0"]
+			hide: true
 			id: "3229A88E9F6CDA98"
 			tasks: [{
 				id: "7EAE120071AA4012"
@@ -5074,11 +5213,13 @@
 			]
 		}
 		{
+			title: "Aquamarine?"
 			icon: "astralsorcery:aquamarine_sand_ore"
 			x: -13.5d
 			y: -4.5d
 			description: ["Aquamarine can be found relatively often along just about any land biome that is connected to water in some way, as they spawn in the sand."]
 			dependencies: ["7FB8F3D2C79F34A6"]
+			hide: true
 			id: "5020FB384A719C41"
 			tasks: [{
 				id: "1238355229D0491D"
@@ -5116,6 +5257,7 @@
 				"Please be aware that steam can be used to power Universal Fluid generators and Large Steam Turbines to produce electricity. From this perspective, steam can accompany you for a considerable period if you wish it to."
 			]
 			dependencies: ["05FB1BC53F843385"]
+			hide: true
 			size: 2.0d
 			id: "552B74A5E81CF677"
 			tasks: [
@@ -5208,6 +5350,7 @@
 			shape: "gear"
 			description: ["Multiblock quests aren't always part of the main questline. The upcoming Large Bronze Boiler for example, is also just a side quest, since you don't necessarily need it. But honestly, they're usually pretty handy for your progression."]
 			dependencies: ["51A1CF021F3C3187"]
+			hide: true
 			size: 2.0d
 			repeatable: true
 			id: "05FB1BC53F843385"
@@ -5228,7 +5371,7 @@
 			y: -11.0d
 			shape: "gear"
 			description: [
-				"With Dynamic Tank Blocks, Dynamic Valves, and optionally Structural Glas, you can make a multi-block fluid storage structure that can hold a lot of a single type of fluid. The smallest size is 3x3x3, and the largest is 18x18x18. If you've got a valid Dynamic Tank structure, it'll flash with \"active redstone\" particles when you're done."
+				"With Dynamic Tank Blocks, Dynamic Valves, and optionally Structural Glass, you can make a multi-block fluid storage structure that can hold a lot of a single type of fluid. The smallest size is 3x3x3, and the largest is 18x18x18. If you've got a valid Dynamic Tank structure, it'll flash with \"active redstone\" particles when you're done."
 				""
 				""
 				"Every block in the multiblock and the blocks inside it increase the tank's capacity. Each block adds 32,000 mB of liquid capacity or 2,000,000 mB of gas capacity by default."
@@ -5237,6 +5380,7 @@
 				"{image:modpack:textures/quest_images/dynamic_tank.png width:170 height:120 align:1}"
 			]
 			dependencies: ["5A1E8B32C5D7D958"]
+			hide: true
 			size: 2.0d
 			id: "21C2369A3CD2EA6F"
 			tasks: [
@@ -5294,6 +5438,7 @@
 			]
 		}
 		{
+			title: "Large Steel Boiler!"
 			icon: "masterfulmachinery:steel_boiler_controller"
 			x: 27.5d
 			y: -11.0d
@@ -5308,6 +5453,7 @@
 				"Please be aware that steam can be used to power Universal Fluid generators in Tier 2 to produce electricity. From this perspective, steam can accompany you for a considerable period if you wish it to."
 			]
 			dependencies: ["2C70A1CA8856F142"]
+			hide: true
 			size: 2.0d
 			id: "6663E4F67D7594A2"
 			tasks: [
@@ -5407,6 +5553,7 @@
 				"It produces 500mb of water every 3 ticks which is a significant upgrade. It can feed 7 Low Pressure Boilers at once."
 			]
 			dependencies: ["49FEC7A61007E047"]
+			hide: true
 			id: "34FF71E9FFDCB20B"
 			tasks: [{
 				id: "25F176CDD4F973E5"
@@ -5440,6 +5587,7 @@
 			shape: "circle"
 			description: ["The teleport pad when used from the overworld, will take you to a flat mining dimension. Here you can easily find all the ores available in the overworld without messing up your actual landscape."]
 			dependencies: ["68460CE103B2E57B"]
+			hide: true
 			id: "5C64FE4201CBCD5E"
 			tasks: [{
 				id: "17426D55B3B0D84B"
@@ -5491,6 +5639,7 @@
 				"They are a very valuable resource and can be used to craft some magical items. You can make them yourself later, but it's not an easy process. You will be given one to start with, perhaps you will want to build the teleportation pad to the Mining Dimension in the next optional quest."
 			]
 			dependencies: ["7FB8F3D2C79F34A6"]
+			hide: true
 			id: "68460CE103B2E57B"
 			tasks: [{
 				id: "7039F966D3666384"
@@ -5508,6 +5657,7 @@
 			y: -5.0d
 			description: ["At last you no longer have to make Purification Compound with buckets. The mixer and extractor allow you to work much more efficiently and you no longer have to rely on the chemists workshop!"]
 			dependencies: ["07E401FDB18E6789"]
+			hide: true
 			id: "07EF167DD30A887E"
 			tasks: [{
 				id: "1E5CBABE0A64A1FB"
@@ -5535,6 +5685,7 @@
 			y: 1.0d
 			description: ["The stone tank has a capacity of 16,000 mb for any given fluid, and can be arranged in vertical stacks. It may be beneficial to consider additional fluid storage capacity to accommodate your steam requirements."]
 			dependencies: ["77C1E3CAFA1587DD"]
+			hide: true
 			id: "1B3C3A3BC818755F"
 			tasks: [{
 				id: "7B5AA37C5EFAC09C"
@@ -5564,6 +5715,7 @@
 				"But it is also used to change the state of a circuit, as mentioned in the previous quest."
 			]
 			dependencies: ["056B81FD25E2F828"]
+			hide: true
 			id: "2B2EFCF8BC68F6EC"
 			tasks: [{
 				id: "3DF0EF28793D6B22"
@@ -5608,6 +5760,7 @@
 				"The advantage of a Mekanism Fluid Tank is that it can be set to automatically push fluids."
 			]
 			dependencies: ["1B3C3A3BC818755F"]
+			hide: true
 			id: "445C45D2E77AC892"
 			tasks: [{
 				id: "4D508F3E41FA4422"
@@ -5633,6 +5786,7 @@
 			shape: "circle"
 			description: ["Just another fancy way to store fluids."]
 			dependencies: ["0A71F7D6675E64CF"]
+			hide: true
 			id: "1A9F8DF785B1188C"
 			tasks: [{
 				id: "4F6F59A41AC9C46B"
@@ -5670,6 +5824,7 @@
 				"When using markers, the quarry must be placed next to one of them."
 			]
 			dependencies: ["1AA30549C219B9D2"]
+			hide: true
 			id: "0222B8002D83DBA2"
 			tasks: [{
 				id: "033E67BF9ED3B66D"
@@ -5716,6 +5871,7 @@
 				"If you set up a redstone signal next to a marker, you'll see laser-like lines that make it a breeze to place more markers, especially if they're a bit further away."
 			]
 			dependencies: ["0222B8002D83DBA2"]
+			hide: true
 			id: "4CAE3EF358211352"
 			tasks: [{
 				id: "330BC6B0BC022A10"
@@ -5742,6 +5898,7 @@
 			]
 		}
 		{
+			title: "Undergarden Realmstone!"
 			x: 29.75d
 			y: -5.5d
 			shape: "circle"
@@ -5751,6 +5908,7 @@
 				"It's not mandatory, but it's useful if you prefer to have all portals in one place."
 			]
 			dependencies: ["5FB3404780403AFF"]
+			hide: true
 			id: "7755AB8A694AB6B8"
 			tasks: [{
 				id: "1D59C92A52E978CB"
@@ -5799,6 +5957,7 @@
 				"You can filter items in the GUI using the blacklist and whitelist functions. You can also apply speed and efficiency upgrades from Industrial Foregoing by right-clicking them on the outer ring of the transporter."
 			]
 			dependencies: ["533E604449114ED7"]
+			hide: true
 			id: "25669D63E165EF3B"
 			tasks: [
 				{
@@ -5831,11 +5990,13 @@
 			]
 		}
 		{
+			title: "World Transporter!"
 			x: 23.0d
 			y: -5.5d
 			shape: "circle"
 			description: ["World Transporters can be used to pick up items into inventories. They can also be used to drop items into the world."]
 			dependencies: ["25669D63E165EF3B"]
+			hide: true
 			id: "4A933ECC59005514"
 			tasks: [{
 				id: "0BFF326D6FA634A1"
@@ -5863,11 +6024,13 @@
 			]
 		}
 		{
+			title: "Stone Hook!"
 			x: 13.75d
 			y: -10.75d
 			shape: "circle"
 			description: ["If you've got the chance to get your hands on Molten Ender, I'd suggest moving up to the stone hook level."]
 			dependencies: ["48E42BAB1A990772"]
+			hide: true
 			id: "7EAAE5EBDA9BD27E"
 			tasks: [{
 				id: "475D3B6DEEA44769"
@@ -5898,6 +6061,69 @@
 					item: "kubejs:coin_t1"
 				}
 			]
+		}
+		{
+			title: "Infusion Table!"
+			icon: "kubejs:aoa_mainquest"
+			x: 31.0d
+			y: -8.25d
+			description: [
+				"The Infusion Table is a utility block used for creating specific AoA weapons and armour."
+				""
+				"The process is very similar to crafting them at the crafting table. To create a specific weapon or piece of armour, two things must be done. First, insert an item (usually a frame) into the leftmost input slot. Second, insert the correct ingredients into the 3x3 grid in the middle as you would for regular crafting."
+				""
+				"We're going to cover most of these items in an Adventure Quest tab, but it's important to know about this block so you can start figuring out better weapons and armour. The reason the quest is here is because we need it for some specific tasks in our main progression later on."
+			]
+			dependencies: ["2C70A1CA8856F142"]
+			hide: true
+			id: "4E9C3372CD53278C"
+			tasks: [{
+				id: "462D889EEE6DDDCD"
+				type: "item"
+				item: "aoa3:infusion_table"
+			}]
+			rewards: [
+				{
+					id: "430E737F5252C416"
+					type: "item"
+					item: "extendedcrafting:frame"
+				}
+				{
+					id: "5B53A90F86504FAA"
+					type: "item"
+					item: "pneumaticcraft:ingot_iron_compressed"
+					count: 4
+				}
+				{
+					id: "01C3B24E390FCAA4"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "46261663C3D73E03"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Tier 1"
+			icon: "ftbquests:book"
+			disable_toast: true
+			x: -42.75d
+			y: 0.0d
+			description: ["This chapter begins once you have completed the final T0 quest: \"Blast Furnace\""]
+			optional: true
+			id: "0D02FFA6E4C19EED"
 		}
 	]
 }

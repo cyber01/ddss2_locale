@@ -31,6 +31,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.1B19951C6B4D5371.description.2}"
 			]
 			dependencies: ["504FE99F304C2094"]
+			hide: true
 			size: 3.0d
 			id: "1B19951C6B4D5371"
 			tasks: [{
@@ -55,6 +56,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.03877A82145E023E.description.2}"
 			]
 			dependencies: ["1B19951C6B4D5371"]
+			hide: true
 			id: "03877A82145E023E"
 			tasks: [{
 				id: "46894EE4195D5693"
@@ -95,6 +97,7 @@
 				"63451D6FBEF8277A"
 				"50FCE8CB54E1B746"
 			]
+			hide: true
 			id: "62180FC895AD00C2"
 			tasks: [{
 				id: "4F3E6A1E54170913"
@@ -107,6 +110,7 @@
 			}]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.50FCE8CB54E1B746.title}"
 			x: -32.0d
 			y: -1.0d
 			description: [
@@ -117,6 +121,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.50FCE8CB54E1B746.description.2}"
 			]
 			dependencies: ["1B19951C6B4D5371"]
+			hide: true
 			id: "50FCE8CB54E1B746"
 			tasks: [{
 				id: "710A41F34AA4F19D"
@@ -156,6 +161,7 @@
 			y: -3.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.63451D6FBEF8277A.description.0}"]
 			dependencies: ["1B19951C6B4D5371"]
+			hide: true
 			id: "63451D6FBEF8277A"
 			tasks: [{
 				id: "26AD0B9A52245EA1"
@@ -197,6 +203,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.26E021581397820E.description.3}"
 			]
 			dependencies: ["62180FC895AD00C2"]
+			hide: true
 			size: 2.0d
 			id: "26E021581397820E"
 			tasks: [
@@ -286,6 +293,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.4DBC2DC7967C855B.description.3}"
 			]
 			dependencies: ["62180FC895AD00C2"]
+			hide: true
 			size: 2.0d
 			id: "4DBC2DC7967C855B"
 			tasks: [
@@ -387,6 +395,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.21277B614B24FE6E.description.2}"
 			]
 			dependencies: ["62180FC895AD00C2"]
+			hide: true
 			size: 2.0d
 			id: "21277B614B24FE6E"
 			tasks: [
@@ -484,6 +493,7 @@
 				"4DBC2DC7967C855B"
 				"21277B614B24FE6E"
 			]
+			hide: true
 			id: "4E066BC181768509"
 			tasks: [
 				{
@@ -560,6 +570,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.751E286858C9E3EA.description.5}"
 			]
 			dependencies: ["62180FC895AD00C2"]
+			hide: true
 			size: 2.0d
 			id: "751E286858C9E3EA"
 			tasks: [
@@ -634,6 +645,7 @@
 			y: -4.5d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.14CCEA6F4102EC34.description.0}"]
 			dependencies: ["4E066BC181768509"]
+			hide: true
 			id: "14CCEA6F4102EC34"
 			tasks: [{
 				id: "1488DEB451C2154F"
@@ -661,6 +673,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.7A6F108A67E7FC49.description.0}"]
 			dependencies: ["4DBC2DC7967C855B"]
+			hide: true
 			id: "7A6F108A67E7FC49"
 			tasks: [{
 				id: "42BCC5D68831E1C9"
@@ -679,6 +692,7 @@
 			y: -1.5d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.27BA47C69DB1B838.description.0}"]
 			dependencies: ["4E066BC181768509"]
+			hide: true
 			id: "27BA47C69DB1B838"
 			tasks: [{
 				id: "485EEC79EE54B742"
@@ -712,6 +726,7 @@
 				"14CCEA6F4102EC34"
 				"27BA47C69DB1B838"
 			]
+			hide: true
 			id: "4350E9E69B95DB53"
 			tasks: [
 				{
@@ -764,6 +779,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.74837DE401308F45.description.2}"
 			]
 			dependencies: ["4350E9E69B95DB53"]
+			hide: true
 			id: "74837DE401308F45"
 			tasks: [{
 				id: "1A26DA2AABF046A2"
@@ -781,6 +797,7 @@
 			y: -7.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.43139F24B8E1AF1C.description.0}"]
 			dependencies: ["74837DE401308F45"]
+			hide: true
 			id: "43139F24B8E1AF1C"
 			tasks: [{
 				id: "48920D45FEF03637"
@@ -815,6 +832,7 @@
 			y: -7.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.19A1B03776CD395E.description.0}"]
 			dependencies: ["43139F24B8E1AF1C"]
+			hide: true
 			id: "19A1B03776CD395E"
 			tasks: [{
 				id: "36A9985B4F6B3EF0"
@@ -855,6 +873,7 @@
 			y: -4.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.33B63B6EC0D28527.description.0}"]
 			dependencies: ["74837DE401308F45"]
+			hide: true
 			id: "33B63B6EC0D28527"
 			tasks: [{
 				id: "0A8C6F088104F5C3"
@@ -885,6 +904,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.3946F6DCF4D0A994.description.1}"
 			]
 			dependencies: ["33B63B6EC0D28527"]
+			hide: true
 			id: "3946F6DCF4D0A994"
 			tasks: [{
 				id: "182F75B657114418"
@@ -921,6 +941,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.00FEE584663E8CC5.description.1}"
 			]
 			dependencies: ["33B63B6EC0D28527"]
+			hide: true
 			id: "00FEE584663E8CC5"
 			tasks: [{
 				id: "37F96FC39A7E9B5D"
@@ -958,6 +979,7 @@
 			y: -1.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.5790F49D63E95CB1.description.0}"]
 			dependencies: ["74837DE401308F45"]
+			hide: true
 			id: "5790F49D63E95CB1"
 			tasks: [{
 				id: "3D2379C309E77469"
@@ -984,10 +1006,12 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.6A494600A36D8851.title}"
 			x: -1.25d
 			y: -1.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.6A494600A36D8851.description.0}"]
 			dependencies: ["5790F49D63E95CB1"]
+			hide: true
 			id: "6A494600A36D8851"
 			tasks: [{
 				id: "0333FB45AF1570B3"
@@ -1023,6 +1047,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.2427F9D7AE9378EA.description.1}"
 			]
 			dependencies: ["74837DE401308F45"]
+			hide: true
 			id: "2427F9D7AE9378EA"
 			tasks: [{
 				id: "346F375FBB941412"
@@ -1053,6 +1078,7 @@
 			y: 1.25d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.1C8344D1A1F0A7B4.description.0}"]
 			dependencies: ["5D02DF2CD98FA3C8"]
+			hide: true
 			id: "1C8344D1A1F0A7B4"
 			tasks: [{
 				id: "0DFB2897E3FFB581"
@@ -1087,6 +1113,7 @@
 				"3946F6DCF4D0A994"
 				"00FEE584663E8CC5"
 			]
+			hide: true
 			id: "330F8A75DDB717AF"
 			tasks: [{
 				id: "36FAAEBDB7E0362B"
@@ -1136,6 +1163,7 @@
 			y: 1.25d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.5D02DF2CD98FA3C8.description.0}"]
 			dependencies: ["2427F9D7AE9378EA"]
+			hide: true
 			id: "5D02DF2CD98FA3C8"
 			tasks: [{
 				id: "2EFC780954A08C95"
@@ -1172,7 +1200,7 @@
 		}
 		{
 			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.1EABF9A0FDC18D75.title}"
-			x: 2.25d
+			x: 2.5d
 			y: -3.0d
 			description: [
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.1EABF9A0FDC18D75.description.0}"
@@ -1185,6 +1213,7 @@
 				"6A494600A36D8851"
 				"1C8344D1A1F0A7B4"
 			]
+			hide: true
 			id: "1EABF9A0FDC18D75"
 			tasks: [{
 				id: "539F7B07B91738DE"
@@ -1228,7 +1257,7 @@
 		{
 			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.0EC14D4A0F5F753E.title}"
 			icon: "mekanism:ingot_refined_obsidian"
-			x: 6.25d
+			x: 6.5d
 			y: -3.0d
 			description: [
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.0EC14D4A0F5F753E.description.0}"
@@ -1236,6 +1265,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.0EC14D4A0F5F753E.description.1}"
 			]
 			dependencies: ["1EABF9A0FDC18D75"]
+			hide: true
 			id: "0EC14D4A0F5F753E"
 			tasks: [
 				{
@@ -1286,6 +1316,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.408E0EABF0FD70C6.description.5}"
 			]
 			dependencies: ["1D3B9ABC78F7DB34"]
+			hide: true
 			id: "408E0EABF0FD70C6"
 			tasks: [{
 				id: "007A1E0099AF62E7"
@@ -1345,6 +1376,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.4E4D2BE354BCF2A3.description.1}"
 			]
 			dependencies: ["1D3B9ABC78F7DB34"]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "4E4D2BE354BCF2A3"
 			tasks: [{
@@ -1398,6 +1430,7 @@
 				"4E4D2BE354BCF2A3"
 				"408E0EABF0FD70C6"
 			]
+			hide: true
 			id: "1783C76319E1730F"
 			tasks: [{
 				id: "3B0E416311A519C9"
@@ -1442,6 +1475,7 @@
 			y: -4.75d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.108B1DCBF0E393E8.description.0}"]
 			dependencies: ["1783C76319E1730F"]
+			hide: true
 			id: "108B1DCBF0E393E8"
 			tasks: [{
 				id: "060C234E2E9DE285"
@@ -1472,6 +1506,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.5B3AA0A0B26C40E6.description.1}"
 			]
 			dependencies: ["1783C76319E1730F"]
+			hide: true
 			id: "5B3AA0A0B26C40E6"
 			tasks: [{
 				id: "136E7C0E9552D919"
@@ -1516,6 +1551,7 @@
 				"108B1DCBF0E393E8"
 				"5B3AA0A0B26C40E6"
 			]
+			hide: true
 			size: 2.0d
 			id: "599BA77D3321A3A3"
 			tasks: [
@@ -1599,6 +1635,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.1D878BDED754C4CC.description.1}"
 			]
 			dependencies: ["599BA77D3321A3A3"]
+			hide: true
 			id: "1D878BDED754C4CC"
 			tasks: [{
 				id: "2580357B5A616201"
@@ -1635,6 +1672,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.2133F4C5C2308A45.description.1}"
 			]
 			dependencies: ["599BA77D3321A3A3"]
+			hide: true
 			id: "2133F4C5C2308A45"
 			tasks: [{
 				id: "588C8A9187C5E76D"
@@ -1676,6 +1714,7 @@
 			y: -1.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.37F087C38FD3E4B0.description.0}"]
 			dependencies: ["1D878BDED754C4CC"]
+			hide: true
 			id: "37F087C38FD3E4B0"
 			tasks: [{
 				id: "51F4B565BC8F2CA1"
@@ -1703,6 +1742,7 @@
 			y: -1.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.5A257BF777F8E23C.description.0}"]
 			dependencies: ["37F087C38FD3E4B0"]
+			hide: true
 			id: "5A257BF777F8E23C"
 			tasks: [{
 				id: "118EC509AE403F1D"
@@ -1759,6 +1799,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.690ADAD56673FC38.description.1}"
 			]
 			dependencies: ["2133F4C5C2308A45"]
+			hide: true
 			id: "690ADAD56673FC38"
 			tasks: [{
 				id: "4CFF26DD8949C592"
@@ -1799,6 +1840,7 @@
 				"206D4DD3D97DA3CB"
 				"1A649107898105AE"
 			]
+			hide: true
 			id: "505C03F139CEA7F9"
 			tasks: [{
 				id: "7D6D1BA87C5641A6"
@@ -1843,6 +1885,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.206D4DD3D97DA3CB.description.1}"
 			]
 			dependencies: ["690ADAD56673FC38"]
+			hide: true
 			id: "206D4DD3D97DA3CB"
 			tasks: [{
 				id: "2C2DA42430F82E85"
@@ -1872,6 +1915,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.79751C074F08A08F.description.1}"
 			]
 			dependencies: ["599BA77D3321A3A3"]
+			hide: true
 			id: "79751C074F08A08F"
 			tasks: [{
 				id: "33C4D4BAE152949D"
@@ -1906,6 +1950,7 @@
 				"690ADAD56673FC38"
 				"79751C074F08A08F"
 			]
+			hide: true
 			id: "1A649107898105AE"
 			tasks: [{
 				id: "04BA2EF6C5F40E8A"
@@ -1942,6 +1987,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.3DA08BFE71F2A32E.description.1}"
 			]
 			dependencies: ["1A649107898105AE"]
+			hide: true
 			id: "3DA08BFE71F2A32E"
 			tasks: [{
 				id: "666108D95C549F2E"
@@ -1981,6 +2027,7 @@
 			y: -7.75d
 			shape: "circle"
 			dependencies: ["1A649107898105AE"]
+			hide: true
 			id: "30A44F8A0EF23FA2"
 			tasks: [{
 				id: "63A3506E27D2A566"
@@ -2012,6 +2059,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.0F2456B66C10E3A0.description.2}"
 			]
 			dependencies: ["505C03F139CEA7F9"]
+			hide: true
 			id: "0F2456B66C10E3A0"
 			tasks: [{
 				id: "078F50E587BE457A"
@@ -2035,6 +2083,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.183969FE8F7110E9.description.1}"
 			]
 			dependencies: ["0F2456B66C10E3A0"]
+			hide: true
 			id: "183969FE8F7110E9"
 			tasks: [
 				{
@@ -2099,6 +2148,7 @@
 			y: -3.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.1D3B9ABC78F7DB34.description.0}"]
 			dependencies: ["0EC14D4A0F5F753E"]
+			hide: true
 			id: "1D3B9ABC78F7DB34"
 			tasks: [{
 				id: "3AA0E450EEFE57B1"
@@ -2145,6 +2195,7 @@
 			y: -3.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.0ECA3ED275A6A9D4.description.0}"]
 			dependencies: ["183969FE8F7110E9"]
+			hide: true
 			id: "0ECA3ED275A6A9D4"
 			tasks: [{
 				id: "62710C972C159553"
@@ -2177,7 +2228,7 @@
 		}
 		{
 			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.5BA2DFEA1FD3FC08.title}"
-			x: 6.25d
+			x: 6.5d
 			y: 0.25d
 			shape: "circle"
 			description: [
@@ -2186,6 +2237,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.5BA2DFEA1FD3FC08.description.1}"
 			]
 			dependencies: ["0EC14D4A0F5F753E"]
+			hide: true
 			id: "5BA2DFEA1FD3FC08"
 			tasks: [{
 				id: "6979E06D27A8519C"
@@ -2221,6 +2273,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.4E13E759F32C6D06.description.1}"
 			]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "4E13E759F32C6D06"
 			tasks: [{
 				id: "20D8EFD2C06E2FC2"
@@ -2276,6 +2329,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.16BDB6EE54260BFD.description.1}"
 			]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "16BDB6EE54260BFD"
 			tasks: [{
 				id: "27D768F141DE7AD3"
@@ -2331,6 +2385,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.556706FB86EDDE47.title}"
 			x: 43.5d
 			y: -10.75d
 			shape: "circle"
@@ -2339,6 +2394,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.556706FB86EDDE47.description.0}"
 			]
 			dependencies: ["4E13E759F32C6D06"]
+			hide: true
 			id: "556706FB86EDDE47"
 			tasks: [{
 				id: "5D3690D119E065C3"
@@ -2387,6 +2443,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.78CA0BE8062CDE61.description.0}"]
 			dependencies: ["4E13E759F32C6D06"]
+			hide: true
 			id: "78CA0BE8062CDE61"
 			tasks: [{
 				id: "56A17AAFD2813219"
@@ -2416,6 +2473,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.0620BAD9D4422140.description.1}"
 			]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "0620BAD9D4422140"
 			tasks: [{
 				id: "0507EEA2572C969E"
@@ -2468,6 +2526,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.3016168FD0085940.description.2}"
 			]
 			dependencies: ["5A257BF777F8E23C"]
+			hide: true
 			id: "3016168FD0085940"
 			tasks: [{
 				id: "73C1160FF3220096"
@@ -2503,6 +2562,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.30EE8E723ECC23B7.description.1}"
 			]
 			dependencies: ["3016168FD0085940"]
+			hide: true
 			id: "30EE8E723ECC23B7"
 			tasks: [{
 				id: "5FBF7EB82053E0DF"
@@ -2531,6 +2591,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.32FD53D12652BAFE.description.2}"
 			]
 			dependencies: ["30EE8E723ECC23B7"]
+			hide: true
 			id: "32FD53D12652BAFE"
 			tasks: [{
 				id: "48D754BA8F8F1CDE"
@@ -2573,6 +2634,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.52003DCD12A12E49.description.1}"
 			]
 			dependencies: ["32FD53D12652BAFE"]
+			hide: true
 			id: "52003DCD12A12E49"
 			tasks: [{
 				id: "636F32ABA55DAABE"
@@ -2594,6 +2656,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.5F05451DCF2F1AE7.description.1}"
 			]
 			dependencies: ["32FD53D12652BAFE"]
+			hide: true
 			id: "5F05451DCF2F1AE7"
 			tasks: [{
 				id: "459D86541BEB8B9C"
@@ -2620,6 +2683,7 @@
 			y: 11.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.765C0FD8CE7A5BC9.description.0}"]
 			dependencies: ["4ACAA36DD8B3990F"]
+			hide: true
 			id: "765C0FD8CE7A5BC9"
 			tasks: [{
 				id: "52BBC6836823EA38"
@@ -2650,6 +2714,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.51144433913DA148.description.1}"
 			]
 			dependencies: ["5F05451DCF2F1AE7"]
+			hide: true
 			id: "51144433913DA148"
 			tasks: [{
 				id: "142A6B48938E25CF"
@@ -2682,6 +2747,7 @@
 			y: 11.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.4ACAA36DD8B3990F.description.0}"]
 			dependencies: ["51144433913DA148"]
+			hide: true
 			id: "4ACAA36DD8B3990F"
 			tasks: [{
 				id: "07AA9AEC8424D4AD"
@@ -2719,6 +2785,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.0A5DCE386A5F1FB0.description.0}"]
 			dependencies: ["51144433913DA148"]
+			hide: true
 			id: "0A5DCE386A5F1FB0"
 			tasks: [{
 				id: "198D8E3D1985C38C"
@@ -2736,6 +2803,7 @@
 			y: -1.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.743BC1FE7F56B329.description.0}"]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "743BC1FE7F56B329"
 			tasks: [{
 				id: "35CACC303EB65248"
@@ -2775,6 +2843,7 @@
 				"743BC1FE7F56B329"
 				"5A257BF777F8E23C"
 			]
+			hide: true
 			id: "631F1D09E54D241A"
 			tasks: [{
 				id: "3BF02BC5CA92DC91"
@@ -2800,6 +2869,7 @@
 			y: 5.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.5F2CD5CEEA678D8C.description.0}"]
 			dependencies: ["631F1D09E54D241A"]
+			hide: true
 			id: "5F2CD5CEEA678D8C"
 			tasks: [{
 				id: "3EADDBD58EE61F28"
@@ -2832,6 +2902,7 @@
 				"5F2CD5CEEA678D8C"
 				"5F05451DCF2F1AE7"
 			]
+			hide: true
 			id: "261A7410874FE5C7"
 			tasks: [{
 				id: "1298EC581F235B10"
@@ -2860,6 +2931,7 @@
 				"631F1D09E54D241A"
 				"261A7410874FE5C7"
 			]
+			hide: true
 			id: "713A57C29CDB26CA"
 			tasks: [{
 				id: "710A5AC9F7EF6ED9"
@@ -2907,6 +2979,7 @@
 				"4ACAA36DD8B3990F"
 				"0ECA3ED275A6A9D4"
 			]
+			hide: true
 			id: "1A552CFCE63E0755"
 			tasks: [{
 				id: "562985880C97F232"
@@ -2952,6 +3025,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.5529182EB2C2E3A3.description.0}"]
 			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
 			id: "5529182EB2C2E3A3"
 			tasks: [{
 				id: "0BD543957B211F55"
@@ -2978,10 +3052,12 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.73DB83372E802B33.title}"
 			x: 45.5d
 			y: -4.5d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.73DB83372E802B33.description.0}"]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "73DB83372E802B33"
 			tasks: [{
 				id: "42667F825868B6B1"
@@ -3023,6 +3099,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.50E4E7055497279D.title}"
 			x: 45.5d
 			y: -1.5d
 			description: [
@@ -3031,6 +3108,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.50E4E7055497279D.description.1}"
 			]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "50E4E7055497279D"
 			tasks: [{
 				id: "4299E88F91B657D5"
@@ -3073,6 +3151,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.7E8ED69F906EBC4D.description.1}"
 			]
 			dependencies: ["765C0FD8CE7A5BC9"]
+			hide: true
 			id: "7E8ED69F906EBC4D"
 			tasks: [{
 				id: "1E4F73A307284B60"
@@ -3108,6 +3187,7 @@
 			y: 6.5d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.650C8E3AE585C783.description.0}"]
 			dependencies: ["7E8ED69F906EBC4D"]
+			hide: true
 			id: "650C8E3AE585C783"
 			tasks: [{
 				id: "527C907E42D5CF9C"
@@ -3134,6 +3214,7 @@
 			y: 6.5d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.6E96ED00C1BC27BB.description.0}"]
 			dependencies: ["650C8E3AE585C783"]
+			hide: true
 			id: "6E96ED00C1BC27BB"
 			tasks: [{
 				id: "56CDCD05E1BA4361"
@@ -3183,6 +3264,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.1E1B016DD039A084.description.3}"
 			]
 			dependencies: ["6E96ED00C1BC27BB"]
+			hide: true
 			id: "1E1B016DD039A084"
 			tasks: [
 				{
@@ -3255,6 +3337,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.2C130C4DE6616533.description.1}"
 			]
 			dependencies: ["63A9CF857D99A971"]
+			hide: true
 			id: "2C130C4DE6616533"
 			tasks: [{
 				id: "5C2393B83AB5E859"
@@ -3298,6 +3381,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.63A9CF857D99A971.description.2}"
 			]
 			dependencies: ["1E1B016DD039A084"]
+			hide: true
 			id: "63A9CF857D99A971"
 			tasks: [{
 				id: "13B8B6717D4B497A"
@@ -3330,6 +3414,7 @@
 				"2C130C4DE6616533"
 				"54300C439CA1B8A8"
 			]
+			hide: true
 			id: "718CB06B6224B46B"
 			tasks: [{
 				id: "04BCBECF834B0D04"
@@ -3371,6 +3456,7 @@
 			y: -6.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.0691D78C2A314DF0.description.0}"]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "0691D78C2A314DF0"
 			tasks: [{
 				id: "755FA8C112F37E78"
@@ -3418,6 +3504,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.28B9F1EFDFB52650.description.0}"]
 			dependencies: ["4E13E759F32C6D06"]
+			hide: true
 			id: "28B9F1EFDFB52650"
 			tasks: [{
 				id: "56B6F90EA5C31CDB"
@@ -3456,6 +3543,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.14F8B533D9C24A31.description.0}"]
 			dependencies: ["4277611AEAEBEE72"]
+			hide: true
 			id: "14F8B533D9C24A31"
 			tasks: [{
 				id: "2F0E5F1867F95E36"
@@ -3495,6 +3583,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.4277611AEAEBEE72.description.1}"
 			]
 			dependencies: ["5A257BF777F8E23C"]
+			hide: true
 			id: "4277611AEAEBEE72"
 			tasks: [{
 				id: "4833B0A1137BD7E5"
@@ -3516,6 +3605,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.2AEC28B67550CB4B.description.1}"
 			]
 			dependencies: ["5F05451DCF2F1AE7"]
+			hide: true
 			id: "2AEC28B67550CB4B"
 			tasks: [{
 				id: "34D3AD3B9A625A3B"
@@ -3547,6 +3637,7 @@
 			y: 17.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.534EF75B05828B90.description.0}"]
 			dependencies: ["2AEC28B67550CB4B"]
+			hide: true
 			id: "534EF75B05828B90"
 			tasks: [{
 				id: "64F42B0B1C832F06"
@@ -3577,6 +3668,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.31E0AFE8215B7DF5.description.1}"
 			]
 			dependencies: ["534EF75B05828B90"]
+			hide: true
 			id: "31E0AFE8215B7DF5"
 			tasks: [{
 				id: "05F6DC93E3C44F5E"
@@ -3604,10 +3696,12 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.071D09B76F0B7394.title}"
 			x: 49.25d
 			y: 17.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.071D09B76F0B7394.description.0}"]
 			dependencies: ["31E0AFE8215B7DF5"]
+			hide: true
 			id: "071D09B76F0B7394"
 			tasks: [{
 				id: "3EFEF701981D9937"
@@ -3667,6 +3761,7 @@
 				"718CB06B6224B46B"
 				"73DB83372E802B33"
 			]
+			hide: true
 			id: "093AFDBACEC4D7FF"
 			tasks: [{
 				id: "50DC2D9A03D0F9D5"
@@ -3706,6 +3801,7 @@
 				"071D09B76F0B7394"
 				"765C0FD8CE7A5BC9"
 			]
+			hide: true
 			id: "182DF4C25CAA7AA9"
 			tasks: [{
 				id: "11CC74DB4938D7A9"
@@ -3742,6 +3838,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.73FD1F73F8350265.description.1}"
 			]
 			dependencies: ["182DF4C25CAA7AA9"]
+			hide: true
 			id: "73FD1F73F8350265"
 			tasks: [{
 				id: "61CA2B9388583A58"
@@ -3778,6 +3875,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.639D54E0771F4CF7.description.1}"
 			]
 			dependencies: ["765C0FD8CE7A5BC9"]
+			hide: true
 			id: "639D54E0771F4CF7"
 			tasks: [{
 				id: "231D93159EA88D3F"
@@ -3817,6 +3915,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.7CE4CED7C7089825.description.0}"]
 			dependencies: ["765C0FD8CE7A5BC9"]
+			hide: true
 			id: "7CE4CED7C7089825"
 			tasks: [{
 				id: "36579C5C31B15878"
@@ -3861,6 +3960,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.76346E48ABE6EDEB.description.0}"]
 			dependencies: ["765C0FD8CE7A5BC9"]
+			hide: true
 			id: "76346E48ABE6EDEB"
 			tasks: [{
 				id: "39256A9D6415E3AF"
@@ -3892,6 +3992,7 @@
 			y: 6.5d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.54300C439CA1B8A8.description.0}"]
 			dependencies: ["73FD1F73F8350265"]
+			hide: true
 			id: "54300C439CA1B8A8"
 			tasks: [{
 				id: "6155F9245A2C83A5"
@@ -3918,6 +4019,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.57866629A92AAECC.description.0}"]
 			dependencies: ["73FD1F73F8350265"]
+			hide: true
 			id: "57866629A92AAECC"
 			tasks: [{
 				id: "365BCA26C7893708"
@@ -3944,6 +4046,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.5D7E2B2C76466BF3.description.0}"]
 			dependencies: ["73FD1F73F8350265"]
+			hide: true
 			id: "5D7E2B2C76466BF3"
 			tasks: [{
 				id: "0E935BA97E69A9C8"
@@ -3980,6 +4083,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.3D867E3B28E4B75E.description.4}"
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			size: 2.0d
 			id: "3D867E3B28E4B75E"
 			tasks: [{
@@ -4044,6 +4148,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.6BDFC0DAEF2BAEF1.description.2}"
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			size: 2.0d
 			id: "6BDFC0DAEF2BAEF1"
 			tasks: [
@@ -4133,6 +4238,7 @@
 				"23BC54388CBD780E"
 				"45B3F05007A945C2"
 			]
+			hide: true
 			size: 2.0d
 			id: "3CA4BDDABF0849CB"
 			tasks: [
@@ -4218,6 +4324,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.04B956595FBCD3F0.title}"
 			icon: "bloodmagic:altar"
 			x: 61.5d
 			y: 2.25d
@@ -4229,6 +4336,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.04B956595FBCD3F0.description.2}"
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			id: "04B956595FBCD3F0"
 			tasks: [{
 				id: "5CD4EA0D33C25AC7"
@@ -4255,6 +4363,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.0E20893D2C9C6FC8.description.2}"
 			]
 			dependencies: ["04B956595FBCD3F0"]
+			hide: true
 			id: "0E20893D2C9C6FC8"
 			tasks: [
 				{
@@ -4287,6 +4396,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.640A3A14661F2554.title}"
 			icon: "bloodmagic:teleposerfocus"
 			x: 60.25d
 			y: 6.75d
@@ -4301,6 +4411,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.640A3A14661F2554.description.3}"
 			]
 			dependencies: ["0E20893D2C9C6FC8"]
+			hide: true
 			id: "640A3A14661F2554"
 			tasks: [{
 				id: "54B3F07522928078"
@@ -4314,6 +4425,7 @@
 			}]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.734446034234061D.title}"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -4328,6 +4440,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.734446034234061D.description.1}"
 			]
 			dependencies: ["0E20893D2C9C6FC8"]
+			hide: true
 			id: "734446034234061D"
 			tasks: [{
 				id: "799DFF0E38950515"
@@ -4350,6 +4463,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.7968E24D778C035D.description.1}"
 			]
 			dependencies: ["04B956595FBCD3F0"]
+			hide: true
 			id: "7968E24D778C035D"
 			tasks: [{
 				id: "28C4BA63876BAB85"
@@ -4387,6 +4501,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.4F950939FA5BA993.description.1}"
 			]
 			dependencies: ["7968E24D778C035D"]
+			hide: true
 			id: "4F950939FA5BA993"
 			tasks: [{
 				id: "311EB538ECFA9C31"
@@ -4423,6 +4538,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.6962B16303AA08BC.description.3}"
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			id: "6962B16303AA08BC"
 			tasks: [
 				{
@@ -4483,6 +4599,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.7A78C0C39739B51A.title}"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -4501,6 +4618,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.7A78C0C39739B51A.description.3}"
 			]
 			dependencies: ["4ACAA36DD8B3990F"]
+			hide: true
 			id: "7A78C0C39739B51A"
 			tasks: [{
 				id: "101050EF561386A4"
@@ -4514,10 +4632,12 @@
 			}]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.0421759366CAA386.title}"
 			x: 69.5d
 			y: -8.25d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.0421759366CAA386.description.0}"]
 			dependencies: ["65886C916A5554FE"]
+			hide: true
 			id: "0421759366CAA386"
 			tasks: [{
 				id: "6179086F5BA61BAB"
@@ -4551,6 +4671,7 @@
 				""
 			]
 			dependencies: ["7968E24D778C035D"]
+			hide: true
 			id: "331BC7C74B2FF095"
 			tasks: [{
 				id: "7D2901B7F3655A85"
@@ -4582,6 +4703,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.5569993236477EAF.description.1}"
 			]
 			dependencies: ["331BC7C74B2FF095"]
+			hide: true
 			id: "5569993236477EAF"
 			tasks: [{
 				id: "0365419C51463AF3"
@@ -4619,6 +4741,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.3EDA33E2F087BE3D.description.0}"]
 			dependencies: ["331BC7C74B2FF095"]
+			hide: true
 			id: "3EDA33E2F087BE3D"
 			tasks: [{
 				id: "5BC4239BD7F903A8"
@@ -4656,6 +4779,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.496A43F4B208ECB1.description.1}"
 			]
 			dependencies: ["331BC7C74B2FF095"]
+			hide: true
 			id: "496A43F4B208ECB1"
 			tasks: [{
 				id: "31BC1A3C1F6DF323"
@@ -4688,6 +4812,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.34D3D5242C8420A9.description.0}"]
 			dependencies: ["0421759366CAA386"]
+			hide: true
 			id: "34D3D5242C8420A9"
 			tasks: [{
 				id: "07DEE1CBB95B917C"
@@ -4709,11 +4834,13 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.5D8D65B47188B841.title}"
 			x: 72.0d
 			y: -11.5d
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.5D8D65B47188B841.description.0}"]
 			dependencies: ["0421759366CAA386"]
+			hide: true
 			id: "5D8D65B47188B841"
 			tasks: [{
 				id: "37D25560ED19E62F"
@@ -4740,11 +4867,13 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.07567F7E84F7523E.title}"
 			x: 67.0d
 			y: -11.5d
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.07567F7E84F7523E.description.0}"]
 			dependencies: ["0421759366CAA386"]
+			hide: true
 			id: "07567F7E84F7523E"
 			tasks: [{
 				id: "0BEB8D61F455C5C2"
@@ -4794,6 +4923,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.3383AE55E8138AE9.description.4}"
 			]
 			dependencies: ["0421759366CAA386"]
+			hide: true
 			id: "3383AE55E8138AE9"
 			tasks: [
 				{
@@ -4889,6 +5019,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.36FF4C6CFACCD917.description.6}"
 			]
 			dependencies: ["718CB06B6224B46B"]
+			hide: true
 			id: "36FF4C6CFACCD917"
 			tasks: [
 				{
@@ -4956,6 +5087,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.65FE853E507F8B1B.title}"
 			x: 52.0d
 			y: 1.0d
 			shape: "circle"
@@ -4969,6 +5101,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.65FE853E507F8B1B.description.3}"
 			]
 			dependencies: ["718CB06B6224B46B"]
+			hide: true
 			id: "65FE853E507F8B1B"
 			tasks: [{
 				id: "5CEAD786C3698E22"
@@ -5007,6 +5140,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.3461BA57CE6C0EB6.description.1}"
 			]
 			dependencies: ["718CB06B6224B46B"]
+			hide: true
 			id: "3461BA57CE6C0EB6"
 			tasks: [{
 				id: "121A91DCFFA73F0C"
@@ -5048,6 +5182,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.7C81D4E09B421D42.description.1}"
 			]
 			dependencies: ["718CB06B6224B46B"]
+			hide: true
 			id: "7C81D4E09B421D42"
 			tasks: [{
 				id: "02C35900D49D1F40"
@@ -5094,6 +5229,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.43998E2D66CAB765.description.0}"]
 			dependencies: ["718CB06B6224B46B"]
+			hide: true
 			id: "43998E2D66CAB765"
 			tasks: [{
 				id: "0EA939B6951EF123"
@@ -5130,6 +5266,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.06FAAB1EA494FE01.description.0}"]
 			dependencies: ["4277611AEAEBEE72"]
+			hide: true
 			id: "06FAAB1EA494FE01"
 			tasks: [{
 				id: "11C31E5A96787938"
@@ -5163,6 +5300,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.0F8C27D9719D0974.description.0}"]
 			dependencies: ["4277611AEAEBEE72"]
+			hide: true
 			id: "0F8C27D9719D0974"
 			tasks: [{
 				id: "28A4BA7D6CF46619"
@@ -5201,6 +5339,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.51C167BFF20584E0.description.0}"]
 			dependencies: ["4277611AEAEBEE72"]
+			hide: true
 			id: "51C167BFF20584E0"
 			tasks: [{
 				id: "4345C25C97AEFBDD"
@@ -5239,6 +5378,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.1CF66C280DCA0E55.description.0}"]
 			dependencies: ["4277611AEAEBEE72"]
+			hide: true
 			id: "1CF66C280DCA0E55"
 			tasks: [{
 				id: "1328CB490F1221C3"
@@ -5277,6 +5417,7 @@
 			y: -8.25d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.6D0933C5911D792F.description.0}"]
 			dependencies: ["0421759366CAA386"]
+			hide: true
 			id: "6D0933C5911D792F"
 			tasks: [{
 				id: "4FA0FF6BD95504D7"
@@ -5305,6 +5446,7 @@
 			y: -3.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.2D5B3A396E108278.description.0}"]
 			dependencies: ["1B0A0CFB17B1C7BE"]
+			hide: true
 			id: "2D5B3A396E108278"
 			tasks: [
 				{
@@ -5347,6 +5489,7 @@
 			y: -3.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.1B0A0CFB17B1C7BE.description.0}"]
 			dependencies: ["1914E79A200CD220"]
+			hide: true
 			id: "1B0A0CFB17B1C7BE"
 			tasks: [
 				{
@@ -5397,6 +5540,7 @@
 				"2D5B3A396E108278"
 				"6D0933C5911D792F"
 			]
+			hide: true
 			id: "45B3F05007A945C2"
 			tasks: [
 				{
@@ -5454,6 +5598,7 @@
 			y: -3.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.3E494936F796046E.description.0}"]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			id: "3E494936F796046E"
 			tasks: [{
 				id: "5226EDD033DC6AAF"
@@ -5488,6 +5633,7 @@
 				""
 			]
 			dependencies: ["3E494936F796046E"]
+			hide: true
 			id: "1914E79A200CD220"
 			tasks: [{
 				id: "5087C3BD8FC26333"
@@ -5529,6 +5675,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.20DCBAED866197D0.description.3}"
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			size: 2.0d
 			id: "20DCBAED866197D0"
 			tasks: [
@@ -5619,6 +5766,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.6A828C01AC91837C.description.3}"
 			]
 			dependencies: ["20DCBAED866197D0"]
+			hide: true
 			id: "6A828C01AC91837C"
 			tasks: [
 				{
@@ -5687,6 +5835,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.0C1A8AF9408C9D48.description.1}"
 			]
 			dependencies: ["20DCBAED866197D0"]
+			hide: true
 			id: "0C1A8AF9408C9D48"
 			tasks: [{
 				id: "6AD08911C981A8B3"
@@ -5743,6 +5892,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.7BBA5C470F11606E.title}"
 			x: 54.5d
 			y: -18.5d
 			shape: "circle"
@@ -5752,6 +5902,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.7BBA5C470F11606E.description.1}"
 			]
 			dependencies: ["20DCBAED866197D0"]
+			hide: true
 			id: "7BBA5C470F11606E"
 			tasks: [{
 				id: "108C211D44C677CC"
@@ -5792,11 +5943,13 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.137CE480A49C8EC8.title}"
 			x: 52.75d
 			y: -18.5d
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.137CE480A49C8EC8.description.0}"]
 			dependencies: ["20DCBAED866197D0"]
+			hide: true
 			id: "137CE480A49C8EC8"
 			tasks: [{
 				id: "2BA8E0BE4AE14594"
@@ -5827,6 +5980,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.2F11D69FAEA435AB.description.1}"
 			]
 			dependencies: ["20DCBAED866197D0"]
+			hide: true
 			id: "2F11D69FAEA435AB"
 			tasks: [{
 				id: "655DF429DA2DC5DB"
@@ -5864,6 +6018,7 @@
 			y: -15.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.7798537A0159ECD0.description.0}"]
 			dependencies: ["2F11D69FAEA435AB"]
+			hide: true
 			id: "7798537A0159ECD0"
 			tasks: [{
 				id: "3A17CAD10CD1E6C9"
@@ -5894,6 +6049,7 @@
 			y: -15.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.23BC54388CBD780E.description.0}"]
 			dependencies: ["7798537A0159ECD0"]
+			hide: true
 			id: "23BC54388CBD780E"
 			tasks: [{
 				id: "56E08FF8AD2C1F74"
@@ -5934,6 +6090,7 @@
 			y: -1.5d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.2021E9BD49832151.description.0}"]
 			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
 			id: "2021E9BD49832151"
 			tasks: [{
 				id: "3D26D01AE4CC116C"
@@ -5969,6 +6126,7 @@
 			y: -6.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.11FE7EB287656751.description.0}"]
 			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
 			id: "11FE7EB287656751"
 			tasks: [{
 				id: "69D63A366A9A30A7"
@@ -6001,6 +6159,7 @@
 			y: 0.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.2B918EBA8E853587.description.0}"]
 			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
 			id: "2B918EBA8E853587"
 			tasks: [{
 				id: "2D857485738CBB3B"
@@ -6039,6 +6198,7 @@
 			y: -4.5d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.451528ED4BA7D149.description.0}"]
 			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
 			id: "451528ED4BA7D149"
 			tasks: [
 				{
@@ -6105,6 +6265,7 @@
 			y: -3.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.69BB9154156C9F3D.description.0}"]
 			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
 			id: "69BB9154156C9F3D"
 			tasks: [{
 				id: "0EEC573DFB237391"
@@ -6162,6 +6323,7 @@
 				"69BB9154156C9F3D"
 				"451528ED4BA7D149"
 			]
+			hide: true
 			size: 3.0d
 			id: "7863192AF3DC02F0"
 			tasks: [{
@@ -6243,6 +6405,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.036DC2D63D5DF2E8.description.2}"
 			]
 			dependencies: ["0421759366CAA386"]
+			hide: true
 			id: "036DC2D63D5DF2E8"
 			tasks: [{
 				id: "556D082A8909328E"
@@ -6288,8 +6451,11 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.3A20804642C08B08.description.1}"
 				""
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.3A20804642C08B08.description.2}"
+				""
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.3A20804642C08B08.description.3}"
 			]
 			dependencies: ["036DC2D63D5DF2E8"]
+			hide: true
 			id: "3A20804642C08B08"
 			tasks: [{
 				id: "4A2BE061E42BFEC5"
@@ -6320,6 +6486,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.778AC7096EE6CF9C.title}"
 			x: 25.5d
 			y: 1.25d
 			shape: "circle"
@@ -6329,6 +6496,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.778AC7096EE6CF9C.description.1}"
 			]
 			dependencies: ["4277611AEAEBEE72"]
+			hide: true
 			id: "778AC7096EE6CF9C"
 			tasks: [{
 				id: "400437689E7D945D"
@@ -6381,6 +6549,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.51D63BEFCFF58B24.description.1}"
 			]
 			dependencies: ["45B3F05007A945C2"]
+			hide: true
 			id: "51D63BEFCFF58B24"
 			tasks: [{
 				id: "10E015E9EE2DF4E9"
@@ -6401,11 +6570,17 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.3F46329A2C73FC4D.title}"
 			x: 49.5d
 			y: -10.75d
 			shape: "circle"
-			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.3F46329A2C73FC4D.description.0}"]
+			description: [
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.3F46329A2C73FC4D.description.0}"
+				""
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.3F46329A2C73FC4D.description.1}"
+			]
 			dependencies: ["4E13E759F32C6D06"]
+			hide: true
 			id: "3F46329A2C73FC4D"
 			tasks: [{
 				id: "060D048EB9A1FE52"
@@ -6433,7 +6608,7 @@
 		}
 		{
 			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.65FF8CE272E71094.title}"
-			x: 53.25d
+			x: 53.75d
 			y: -9.5d
 			shape: "circle"
 			description: [
@@ -6442,6 +6617,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.65FF8CE272E71094.description.1}"
 			]
 			dependencies: ["26347FF747EA12A4"]
+			hide: true
 			id: "65FF8CE272E71094"
 			tasks: [{
 				id: "783404CEA13B9EC5"
@@ -6484,7 +6660,7 @@
 		}
 		{
 			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.26347FF747EA12A4.title}"
-			x: 53.25d
+			x: 53.75d
 			y: -6.5d
 			shape: "circle"
 			description: [
@@ -6495,6 +6671,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.26347FF747EA12A4.description.2}"
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
 			id: "26347FF747EA12A4"
 			tasks: [{
 				id: "6F409C7FEDE86E21"
@@ -6531,6 +6708,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.3BE5043756A4A06C.description.1}"
 			]
 			dependencies: ["4E13E759F32C6D06"]
+			hide: true
 			id: "3BE5043756A4A06C"
 			tasks: [{
 				id: "14C21B556EB6DB8F"
@@ -6577,6 +6755,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.65886C916A5554FE.description.1}"
 			]
 			dependencies: ["6962B16303AA08BC"]
+			hide: true
 			id: "65886C916A5554FE"
 			tasks: [{
 				id: "5C48699B9CD31E5A"
@@ -6591,13 +6770,14 @@
 					count: 2
 				}
 				{
-					id: "3312B17CAFDF2F18"
+					id: "31F968726B777810"
 					type: "item"
 					item: "kubejs:coin_t3"
 				}
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.1AB6ED095A136096.title}"
 			x: 65.25d
 			y: -5.0d
 			shape: "circle"
@@ -6607,6 +6787,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.1AB6ED095A136096.description.1}"
 			]
 			dependencies: ["65886C916A5554FE"]
+			hide: true
 			id: "1AB6ED095A136096"
 			tasks: [{
 				id: "7C08B9C1D15D9CB2"
@@ -6637,6 +6818,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.4913860BC7E42D54.title}"
 			x: 66.75d
 			y: -5.0d
 			shape: "circle"
@@ -6648,6 +6830,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.4913860BC7E42D54.description.2}"
 			]
 			dependencies: ["65886C916A5554FE"]
+			hide: true
 			id: "4913860BC7E42D54"
 			tasks: [{
 				id: "61082685DC3A915D"
@@ -6680,6 +6863,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.03D1981A222DFEEB.title}"
 			x: 63.75d
 			y: -5.0d
 			shape: "circle"
@@ -6689,6 +6873,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.03D1981A222DFEEB.description.1}"
 			]
 			dependencies: ["65886C916A5554FE"]
+			hide: true
 			id: "03D1981A222DFEEB"
 			tasks: [{
 				id: "31050FDD616130DE"
@@ -6731,6 +6916,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.7C1EB95194014B79.description.1}"
 			]
 			dependencies: ["7798537A0159ECD0"]
+			hide: true
 			id: "7C1EB95194014B79"
 			tasks: [
 				{
@@ -6780,6 +6966,7 @@
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.0B7D419B743DBC68.description.2}"
 			]
 			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
 			id: "0B7D419B743DBC68"
 			tasks: [{
 				id: "00A5BFF7216FBF7A"
@@ -6819,6 +7006,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.0B08798284453313.description.0}"]
 			dependencies: ["7798537A0159ECD0"]
+			hide: true
 			id: "0B08798284453313"
 			tasks: [{
 				id: "66FDD603F6EBA73E"
@@ -6861,6 +7049,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.060A2492F230D4CD.description.0}"]
 			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
 			id: "060A2492F230D4CD"
 			tasks: [{
 				id: "788A449D0C096FE5"
@@ -6893,6 +7082,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.5EF9F6C1F9AB9A58.description.0}"]
 			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
 			id: "5EF9F6C1F9AB9A58"
 			tasks: [{
 				id: "764320B7EEAFF542"
@@ -6924,6 +7114,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.5216C8D97A71706E.description.0}"]
 			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
 			id: "5216C8D97A71706E"
 			tasks: [{
 				id: "1FB86ABD20DC952E"
@@ -6955,6 +7146,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.7170C996055DAD1A.description.0}"]
 			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
 			id: "7170C996055DAD1A"
 			tasks: [{
 				id: "774CB6DCCB86EE86"
@@ -6986,6 +7178,7 @@
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.12ECF28AFBCC479A.description.0}"]
 			dependencies: ["4E13E759F32C6D06"]
+			hide: true
 			id: "12ECF28AFBCC479A"
 			tasks: [{
 				id: "0BC419729F75964D"
@@ -7009,6 +7202,333 @@
 					id: "430BF71B2CABD5E2"
 					type: "item"
 					item: "kubejs:coin_t2"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.0E50F10BFEAA6D21.title}"
+			x: 57.25d
+			y: -6.5d
+			shape: "circle"
+			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.0E50F10BFEAA6D21.description.0}"]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			id: "0E50F10BFEAA6D21"
+			tasks: [{
+				id: "7EFFDA34E4A2EF22"
+				type: "item"
+				item: {
+					id: "ironjetpacks:tier_3_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "08668AC2B6504BEC"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "08EB82EABF12AAB3"
+					type: "item"
+					item: "powah:energy_cable_blazing"
+					count: 10
+				}
+				{
+					id: "1CFD8E5C5C88CC22"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 8
+				}
+				{
+					id: "3AF21FC338E588D4"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.7E934ECF0DBC5943.title}"
+			icon: "iceandfire:pixie_jar_0"
+			x: 65.25d
+			y: -13.25d
+			shape: "heart"
+			subtitle: "{ddss2.tier_3__main_questline.503658F55EB7952F.7E934ECF0DBC5943.subtitle}"
+			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.7E934ECF0DBC5943.description.0}"]
+			dependencies: ["65886C916A5554FE"]
+			hide: true
+			size: 2.0d
+			id: "7E934ECF0DBC5943"
+			tasks: [
+				{
+					id: "42A8EF7AE3F8B009"
+					type: "item"
+					item: "kubejs:coin_t2"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "29C7CE7249D751DD"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "308EB63114BA3BA3"
+					type: "item"
+					title: "Any #forge:ingots/terrasteel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/terrasteel"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "44B99E37537D08A4"
+					type: "item"
+					item: "iceandfire:pixie_jar_1"
+				}
+				{
+					id: "4BC24923C70C8D59"
+					type: "item"
+					item: "iceandfire:pixie_jar_0"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.2C46BA2A22301E31.title}"
+			icon: {
+				id: "refinedstorage:64k_storage_disk"
+				Count: 1b
+				tag: {
+					Id: [I;
+						250083471
+						-374324794
+						-1876231896
+						-1464042444
+					]
+				}
+			}
+			x: 6.5d
+			y: -7.0d
+			shape: "heart"
+			subtitle: "{ddss2.tier_3__main_questline.503658F55EB7952F.2C46BA2A22301E31.subtitle}"
+			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.2C46BA2A22301E31.description.0}"]
+			dependencies: ["0EC14D4A0F5F753E"]
+			hide: true
+			size: 2.0d
+			id: "2C46BA2A22301E31"
+			tasks: [
+				{
+					id: "5FB494BD4285AEF0"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "5E45AAEB2D05F2FB"
+					type: "item"
+					item: "kubejs:pcb_t3"
+					consume_items: true
+				}
+				{
+					id: "6B24D0BB47FB89F0"
+					type: "item"
+					item: "mekanism:ingot_refined_obsidian"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "77AD83672DC94CC0"
+					type: "item"
+					item: {
+						id: "refinedstorage:64k_storage_disk"
+						Count: 1b
+						tag: {
+							Id: [I;
+								250083471
+								-374324794
+								-1876231896
+								-1464042444
+							]
+						}
+					}
+				}
+				{
+					id: "086C8A41746F8A63"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:64k_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.0267B9D5B7A2AEC9.title}"
+			x: 78.5d
+			y: -6.75d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.0267B9D5B7A2AEC9.description.0}"
+				""
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.0267B9D5B7A2AEC9.description.1}"
+				""
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.0267B9D5B7A2AEC9.description.2}"
+			]
+			dependencies: ["45B3F05007A945C2"]
+			hide: true
+			id: "0267B9D5B7A2AEC9"
+			tasks: [{
+				id: "158E3FE3A4697125"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [
+				{
+					id: "752FA39D59D70509"
+					type: "item"
+					item: "immersiveengineering:cloche"
+				}
+				{
+					id: "11E614D265BC6874"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "302D987DDDD7583F"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.526417F7CD9E6A7E.title}"
+			x: 78.5d
+			y: -10.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.526417F7CD9E6A7E.description.0}"
+				""
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.526417F7CD9E6A7E.description.1}"
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.526417F7CD9E6A7E.description.2}"
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.526417F7CD9E6A7E.description.3}"
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.526417F7CD9E6A7E.description.4}"
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.526417F7CD9E6A7E.description.5}"
+			]
+			dependencies: ["0267B9D5B7A2AEC9"]
+			hide: true
+			id: "526417F7CD9E6A7E"
+			tasks: [{
+				id: "5D17E39C18ACCEDA"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "14C75BC5903BBCDB"
+					type: "item"
+					item: "industrialforegoing:fertilizer"
+				}
+				{
+					id: "11453DAA8C66D55F"
+					type: "item"
+					item: "mysticalagriculture:mystical_fertilizer"
+				}
+				{
+					id: "4B8FCAE915E3666F"
+					type: "item"
+					item: "thermal:phytogro"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.1D164BA6B6F963D5.title}"
+			icon: "ftbquests:book"
+			disable_toast: true
+			x: -36.75d
+			y: -2.25d
+			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.1D164BA6B6F963D5.description.0}"]
+			optional: true
+			id: "1D164BA6B6F963D5"
+		}
+		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.51E1F1DA24285980.title}"
+			x: 69.5d
+			y: -5.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.51E1F1DA24285980.description.0}"
+				""
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.51E1F1DA24285980.description.1}"
+				""
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.51E1F1DA24285980.description.2}"
+			]
+			dependencies: ["0421759366CAA386"]
+			hide: true
+			optional: true
+			id: "51E1F1DA24285980"
+			tasks: [{
+				id: "1285BD4D8253CD14"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [
+				{
+					id: "7F11A7C5C9F4DFE5"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "32E2F488B9CD94A3"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 8
+				}
+				{
+					id: "38A9D550EDE0AD37"
+					type: "item"
+					item: "kubejs:coin_t3"
 				}
 			]
 		}
