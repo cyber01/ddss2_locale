@@ -558,7 +558,7 @@
 			icon: "immersiveengineering:generator"
 			x: -28.0d
 			y: -6.5d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.751E286858C9E3EA.description.0}"
 				""
@@ -2026,6 +2026,7 @@
 			x: 31.75d
 			y: -7.75d
 			shape: "circle"
+			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.30A44F8A0EF23FA2.description.0}"]
 			dependencies: ["1A649107898105AE"]
 			hide: true
 			id: "30A44F8A0EF23FA2"
@@ -2313,7 +2314,18 @@
 					item: "kubejs:motor_t3"
 				}
 				{
-					id: "078FC21F5D77A3D1"
+					id: "41C1C7AC75838523"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:assembler03_adv"
+						}
+					}
+				}
+				{
+					id: "30C2C5AD3694E0D2"
 					type: "item"
 					item: "kubejs:coin_t3"
 				}
@@ -4070,7 +4082,7 @@
 			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.3D867E3B28E4B75E.title}"
 			x: 61.5d
 			y: -5.5d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.3D867E3B28E4B75E.description.0}"
 				""
@@ -4139,13 +4151,17 @@
 			icon: "masterfulmachinery:tier3_controller"
 			x: 61.5d
 			y: -0.5d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.6BDFC0DAEF2BAEF1.description.0}"
 				""
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.6BDFC0DAEF2BAEF1.description.1}"
 				""
 				"{ddss2.tier_3__main_questline.503658F55EB7952F.6BDFC0DAEF2BAEF1.description.2}"
+				""
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.6BDFC0DAEF2BAEF1.description.3}"
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.6BDFC0DAEF2BAEF1.description.4}"
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.6BDFC0DAEF2BAEF1.description.5}"
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
 			hide: true
@@ -4184,13 +4200,18 @@
 					item: "kubejs:adv_hull"
 					count: 20L
 				}
+				{
+					id: "22B2F9972F051D05"
+					type: "item"
+					item: "xkdeco:factory_vent_fan_big"
+				}
 			]
 			rewards: [
 				{
 					id: "6D094BC800AD56CF"
 					type: "item"
 					item: "kubejs:adv_hull"
-					count: 16
+					count: 11
 				}
 				{
 					id: "1ADA75CDBC3AEFDA"
@@ -6014,6 +6035,7 @@
 			]
 		}
 		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.7798537A0159ECD0.title}"
 			x: 71.75d
 			y: -15.0d
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.7798537A0159ECD0.description.0}"]
@@ -7207,7 +7229,7 @@
 		}
 		{
 			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.0E50F10BFEAA6D21.title}"
-			x: 57.25d
+			x: 57.0d
 			y: -6.5d
 			shape: "circle"
 			description: ["{ddss2.tier_3__main_questline.503658F55EB7952F.0E50F10BFEAA6D21.description.0}"]
@@ -7529,6 +7551,81 @@
 					id: "38A9D550EDE0AD37"
 					type: "item"
 					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_3__main_questline.503658F55EB7952F.1C643411A89B98ED.title}"
+			icon: "xkdeco:factory_vent_fan"
+			x: 67.0d
+			y: -0.5d
+			shape: "hexagon"
+			description: [
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.1C643411A89B98ED.description.0}"
+				""
+				"{ddss2.tier_3__main_questline.503658F55EB7952F.1C643411A89B98ED.description.1}"
+			]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "1C643411A89B98ED"
+			tasks: [
+				{
+					id: "1468C56DD8CC1076"
+					type: "item"
+					item: "masterfulmachinery:tier3_controller"
+				}
+				{
+					id: "3165157D7A79E09B"
+					type: "item"
+					item: "kubejs:adv_hull"
+					count: 12L
+				}
+				{
+					id: "096C71DCE646D294"
+					type: "item"
+					item: "silentgear:crimson_steel_block"
+					count: 7L
+				}
+				{
+					id: "06F664F8A6FB2A92"
+					type: "item"
+					item: "kubejs:mbcasing_t3"
+					count: 3L
+				}
+				{
+					id: "6F68E349FF8FC11F"
+					type: "item"
+					item: "xkdeco:factory_vent_fan"
+				}
+			]
+			rewards: [
+				{
+					id: "423398BC18AD95B9"
+					type: "item"
+					item: "kubejs:adv_hull"
+					count: 8
+				}
+				{
+					id: "3D41A1EF0B71C8E0"
+					type: "item"
+					item: "silentgear:crimson_steel_block"
+				}
+				{
+					id: "7204585103ACEA10"
+					type: "item"
+					item: "masterfulmachinery:tier3_item1_port_items_input"
+				}
+				{
+					id: "0A7A1F5AA483CD07"
+					type: "item"
+					item: "masterfulmachinery:tier3_fluid1_port_fluids_input"
+				}
+				{
+					id: "6332431468716F20"
+					type: "item"
+					item: "masterfulmachinery:tier3_fluid1_port_fluids_output"
 				}
 			]
 		}

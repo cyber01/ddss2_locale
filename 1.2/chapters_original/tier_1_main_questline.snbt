@@ -545,7 +545,7 @@
 				""
 				"The production without having machines beforehand is very annoying and requires crude oil. Later you can use tree oil, biodiesel and a bunch of other liquids."
 				""
-				"Fortunately, crude oil spawns randomly in the overworld. You should start a journey to find it and fill a portable tank with it. Take enough with you, the production is not very efficient with this earlygame alternative."
+				"Fortunately, crude oil spawns randomly in hot biomes. These include Vanilla Deserts and modded biomes such as Red Deserts, Lush Savannas, and so on. You should set out on a journey to find it and fill a portable tank with it. Take enough with you; production is not very efficient with this early-game alternative."
 			]
 			dependencies: ["77C1E3CAFA1587DD"]
 			hide: true
@@ -1324,6 +1324,7 @@
 			]
 			dependencies: ["11FE2A5E138A2CCF"]
 			hide: true
+			optional: true
 			id: "1E7FD862557D6A59"
 			tasks: [{
 				id: "5D1F43710AD9B0B9"
@@ -1360,6 +1361,7 @@
 			dependencies: ["361393940DCFF2EC"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "767C0D936BD684D7"
 			tasks: [
 				{
@@ -1435,6 +1437,7 @@
 			hide_dependency_lines: false
 			dependencies: ["5A94CE59E91A169B"]
 			hide: true
+			optional: true
 			id: "7113476A9F97B978"
 			tasks: [{
 				id: "5EA768FECF8C905C"
@@ -1466,6 +1469,7 @@
 			]
 			dependencies: ["51A1CF021F3C3187"]
 			hide: true
+			optional: true
 			id: "37D2F06D099C0125"
 			tasks: [{
 				id: "1C9F7D85D8B25954"
@@ -1631,10 +1635,20 @@
 					}
 				}
 				{
-					id: "243F2A032C075BD1"
+					id: "1925F691D30B4EDE"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:assembler01_steam"
+						}
+					}
+				}
+				{
+					id: "338E5EB9A918791C"
 					type: "item"
 					item: "kubejs:coin_t1"
-					count: 2
 				}
 			]
 		}
@@ -1952,6 +1966,7 @@
 			]
 			dependencies: ["48E42BAB1A990772"]
 			hide: true
+			optional: true
 			id: "6FA9145FC081C8CA"
 			tasks: [{
 				id: "593E1B9491D3E35A"
@@ -2034,12 +2049,13 @@
 			y: -2.75d
 			shape: "circle"
 			description: [
-				"As the name suggests, this device is a great way to recycle tons of materials that you no longer have use for or have in excess."
+				"As its name suggests, this device is an excellent way to recycle materials you no longer need or have in excess. But that's not all — it also opens LootCrates!"
 				""
 				"The recycler has upgrade slots like most other machines, but it is the only device that does not have the option to boost things."
 			]
 			dependencies: ["60B68985AEE01F9D"]
 			hide: true
+			optional: true
 			id: "6DC25340FAE7A566"
 			tasks: [{
 				id: "2DEC3891807238C3"
@@ -2170,6 +2186,7 @@
 			]
 			dependencies: ["48E42BAB1A990772"]
 			hide: true
+			optional: true
 			id: "05486CC2F51F4A7A"
 			tasks: [{
 				id: "219AF3BBD9D56C76"
@@ -2197,6 +2214,7 @@
 			description: ["This upgrade halves the cooking time of all recipes but doubles the amount of fuel required."]
 			dependencies: ["05486CC2F51F4A7A"]
 			hide: true
+			optional: true
 			id: "661F781D2DA3119F"
 			tasks: [{
 				id: "54A6D95B8D692D89"
@@ -3130,6 +3148,7 @@
 			]
 			dependencies: ["5FB3404780403AFF"]
 			hide: true
+			optional: true
 			id: "0C2D2BF8C4FC1DF9"
 			tasks: [{
 				id: "6819E0E0FD50BA19"
@@ -3158,6 +3177,7 @@
 			description: ["The Floral Obedience Stick is a tool that will bind all generating flowers in its range to it when used on any mana spreader, and do the same for functional flowers when used on a manapool."]
 			dependencies: ["36439AB550A37907"]
 			hide: true
+			optional: true
 			id: "21B0BC40C3CD644F"
 			tasks: [{
 				id: "235DBD42ED55EF81"
@@ -3185,6 +3205,7 @@
 			description: ["The Manaseer Monocle is a \"bauble\" item. When equipped in the baubles amulet slot, it shows nearby mana bursts (even those out of line of sight) and the functional radii of flowers to the player."]
 			dependencies: ["36439AB550A37907"]
 			hide: true
+			optional: true
 			id: "07A6AD1F7E26DEED"
 			tasks: [{
 				id: "0566524B2248CDD8"
@@ -3217,6 +3238,7 @@
 			description: ["The Manasteel Shears is a tool that uses Mana from Mana Tablet or any other Mana providing item in the player's inventory to prevent item damage or repair itself, using 30 Mana per point of durability. Unlike vanilla Shears, these will trigger tripwire."]
 			dependencies: ["36439AB550A37907"]
 			hide: true
+			optional: true
 			id: "45A9C87325E2420E"
 			tasks: [{
 				id: "35C06073A82C0085"
@@ -3250,6 +3272,7 @@
 			description: ["The Hand of Ender is a tool which opens the player's Ender Chest inventory at the cost of 250 Mana. If used on another player, it will open their Ender Chest instead at the cost of 5,000 Mana."]
 			dependencies: ["36439AB550A37907"]
 			hide: true
+			optional: true
 			id: "623DC1BBF8461F00"
 			tasks: [{
 				id: "1C75399D446AD083"
@@ -3585,6 +3608,7 @@
 			]
 			dependencies: ["5FC9F450C68A6495"]
 			hide: true
+			optional: true
 			id: "6BDEABBAE05394E2"
 			tasks: [{
 				id: "228019F3C70D484A"
@@ -3614,6 +3638,7 @@
 			]
 			dependencies: ["2A8AE8EEB4DAFB2F"]
 			hide: true
+			optional: true
 			id: "156CCE3540A8A0F5"
 			tasks: [{
 				id: "649F01B1E3CAEC90"
@@ -3807,6 +3832,7 @@
 			]
 			dependencies: ["1BE9FC356719A6A9"]
 			hide: true
+			optional: true
 			id: "299D2D4AEB37D1B3"
 			tasks: [{
 				id: "68546559E2820F22"
@@ -3838,6 +3864,7 @@
 			]
 			dependencies: ["4BD59919AB6F7821"]
 			hide: true
+			optional: true
 			id: "24A2FC32F22490B1"
 			tasks: [{
 				id: "7F3F72CF71044056"
@@ -3862,7 +3889,7 @@
 			icon: "pneumaticcraft:pressure_chamber_wall"
 			x: 35.75d
 			y: -11.0d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"The Pressure Chamber is a multi-block structure from PneumaticCraft mainly used to compress various materials into others; like iron into compressed iron. It is made by creating a hollow cube out of Pressure Chamber Walls/Windows. The size of the cube can vary from 3x3x3 to 5x5x5. Windows are optional. The Chamber also requires a Valve, which has to connect to the air blocks in the Pressure Chamber."
 				""
@@ -3874,6 +3901,7 @@
 			dependencies: ["4BD59919AB6F7821"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "15BC03A8FBD93BD1"
 			tasks: [
 				{
@@ -3930,6 +3958,7 @@
 			description: ["You can also add Pressure Chamber Interfaces into the structure to allow the insertion and removal of items to and from the Pressure Chamber to be automated through pipes."]
 			dependencies: ["15BC03A8FBD93BD1"]
 			hide: true
+			optional: true
 			id: "5F5652C7D92EB316"
 			tasks: [{
 				id: "11DDCA30B93A7BFB"
@@ -3966,6 +3995,7 @@
 			]
 			dependencies: ["6EC60A1854CBA273"]
 			hide: true
+			optional: true
 			id: "4C59EFCBD11FAE8B"
 			tasks: [{
 				id: "2AD9B8ADAFE2A742"
@@ -4013,6 +4043,7 @@
 			]
 			dependencies: ["4BD59919AB6F7821"]
 			hide: true
+			optional: true
 			id: "0F4C828E12278E30"
 			tasks: [{
 				id: "1D2AB7D68896A811"
@@ -4046,6 +4077,7 @@
 			description: ["This cannon shoots air vortices! Harmless projectiles which repel entities, shear animals, and destroy plants and leaves.  With careful timing, you can also fling yourself considerable distances, but beware fall damage!"]
 			dependencies: ["6EC60A1854CBA273"]
 			hide: true
+			optional: true
 			id: "5B3A465AEC45BB8E"
 			tasks: [{
 				id: "1BF7E8AAA24C3241"
@@ -4204,6 +4236,7 @@
 			]
 			dependencies: ["216CAD724DF067BE"]
 			hide: true
+			optional: true
 			id: "50143904AB434CEA"
 			tasks: [{
 				id: "6A5EA7C1BA719B0E"
@@ -4263,6 +4296,7 @@
 			description: ["The Slimesling is used as a tool to quickly gain altitude and/or speed. To use the Slimesling, the use key (default right click) must be held and aimed at the side or top of the block to bounce off of. The player must be touching the ground. Depending on how pulled back the Slimesling is, the user will be launched into the air opposite the direction which they were facing when aiming at the block."]
 			dependencies: ["50143904AB434CEA"]
 			hide: true
+			optional: true
 			id: "352B7B9663432EBF"
 			tasks: [{
 				id: "53DE8EBBC4920088"
@@ -4313,6 +4347,7 @@
 			dependencies: ["7A17E27EBC5C1898"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "00C6886FFB98EB58"
 			tasks: [
 				{
@@ -4347,6 +4382,7 @@
 			]
 			dependencies: ["2C70A1CA8856F142"]
 			hide: true
+			optional: true
 			id: "46AD6C13530B4137"
 			tasks: [{
 				id: "4DA6B46F4BDC3024"
@@ -4508,6 +4544,7 @@
 			]
 			dependencies: ["7A17E27EBC5C1898"]
 			hide: true
+			optional: true
 			id: "6218BAC5D82FD7B7"
 			tasks: [{
 				id: "48BD664AF9969224"
@@ -4560,6 +4597,7 @@
 			]
 			dependencies: ["7A17E27EBC5C1898"]
 			hide: true
+			optional: true
 			id: "1D5FD8E0CE6F0498"
 			tasks: [{
 				id: "7D2E2C0B4DF232A4"
@@ -4610,6 +4648,7 @@
 			]
 			dependencies: ["7A17E27EBC5C1898"]
 			hide: true
+			optional: true
 			id: "0BEB22AF74D3C7BF"
 			tasks: [{
 				id: "3507EC7FD13B980D"
@@ -4660,6 +4699,7 @@
 			]
 			dependencies: ["7A17E27EBC5C1898"]
 			hide: true
+			optional: true
 			id: "08E56F18155EA26B"
 			tasks: [{
 				id: "13E158CFB49E4DF6"
@@ -4766,6 +4806,7 @@
 			]
 			dependencies: ["48E42BAB1A990772"]
 			hide: true
+			optional: true
 			id: "7EDF95AA719D3B6D"
 			tasks: [{
 				id: "727EF936BABAE20E"
@@ -4843,6 +4884,7 @@
 			]
 			dependencies: ["370F94752A12DF85"]
 			hide: true
+			optional: true
 			id: "5EAF1E4A90C349C1"
 			tasks: [{
 				id: "0E1FD018C628ABD7"
@@ -4885,6 +4927,7 @@
 			]
 			dependencies: ["296E617E84C35438"]
 			hide: true
+			optional: true
 			id: "6BC4FBA9984FEF11"
 			tasks: [{
 				id: "51D648A6E16E14DF"
@@ -4968,6 +5011,7 @@
 			]
 			dependencies: ["5FC9F450C68A6495"]
 			hide: true
+			optional: true
 			id: "1AF1E53C607EA70C"
 			tasks: [{
 				id: "30BAEE44C3C1B7FC"
@@ -4987,6 +5031,7 @@
 			description: ["The Bellethorne is the most straightforward functional flower to produce. It will utilize Mana from a nearby Mana Pools to harm mobs but not the players around it."]
 			dependencies: ["2A8AE8EEB4DAFB2F"]
 			hide: true
+			optional: true
 			id: "5F8AD432F9DBCD69"
 			tasks: [{
 				id: "24462A71AE7272B8"
@@ -5156,6 +5201,7 @@
 			]
 			dependencies: ["25D276886A503FC0"]
 			hide: true
+			optional: true
 			id: "3229A88E9F6CDA98"
 			tasks: [{
 				id: "7EAE120071AA4012"
@@ -5240,11 +5286,11 @@
 			]
 		}
 		{
-			title: "Large Bronze Boiler!"
+			title: "Large Bronze Boiler! [Optional]"
 			icon: "masterfulmachinery:basic_controller"
 			x: -4.0d
 			y: 1.5d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"Now that you know how to make cooling frames, it's time to move on to our next multiblock structure. "
 				""
@@ -5259,6 +5305,7 @@
 			dependencies: ["05FB1BC53F843385"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "552B74A5E81CF677"
 			tasks: [
 				{
@@ -5347,12 +5394,16 @@
 			title: "Multiblock Side Quests?"
 			x: -7.5d
 			y: 1.5d
-			shape: "gear"
-			description: ["Multiblock quests aren't always part of the main questline. The upcoming Large Bronze Boiler for example, is also just a side quest, since you don't necessarily need it. But honestly, they're usually pretty handy for your progression."]
+			shape: "hexagon"
+			description: [
+				"Multiblock quests are not always part of the main questline. If this is the case, you can recognise it by the shape of the quest. Optional multiblock quests are shaped like a hexagon and are bigger."
+				""
+				"The upcoming Large Bronze Boiler, for example, is just a side quest since it isn't necessary. However, they're usually pretty useful for your progression."
+			]
 			dependencies: ["51A1CF021F3C3187"]
 			hide: true
 			size: 2.0d
-			repeatable: true
+			optional: true
 			id: "05FB1BC53F843385"
 			tasks: [{
 				id: "39EEFCC5DF0F96A6"
@@ -5369,7 +5420,7 @@
 			icon: "mekanism:dynamic_tank"
 			x: 19.5d
 			y: -11.0d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"With Dynamic Tank Blocks, Dynamic Valves, and optionally Structural Glass, you can make a multi-block fluid storage structure that can hold a lot of a single type of fluid. The smallest size is 3x3x3, and the largest is 18x18x18. If you've got a valid Dynamic Tank structure, it'll flash with \"active redstone\" particles when you're done."
 				""
@@ -5382,6 +5433,7 @@
 			dependencies: ["5A1E8B32C5D7D958"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "21C2369A3CD2EA6F"
 			tasks: [
 				{
@@ -5442,7 +5494,7 @@
 			icon: "masterfulmachinery:steel_boiler_controller"
 			x: 27.5d
 			y: -11.0d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"The Large Steel Boiler is pretty awesome. If you have it, you'll be well supplied for a long time. It produces 400mb of steam per tick and uses tons of water. You will definitely need better water collectors or many smaller ones."
 				""
@@ -5455,6 +5507,7 @@
 			dependencies: ["2C70A1CA8856F142"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "6663E4F67D7594A2"
 			tasks: [
 				{
@@ -5554,6 +5607,7 @@
 			]
 			dependencies: ["49FEC7A61007E047"]
 			hide: true
+			optional: true
 			id: "34FF71E9FFDCB20B"
 			tasks: [{
 				id: "25F176CDD4F973E5"
@@ -5588,6 +5642,7 @@
 			description: ["The teleport pad when used from the overworld, will take you to a flat mining dimension. Here you can easily find all the ores available in the overworld without messing up your actual landscape."]
 			dependencies: ["68460CE103B2E57B"]
 			hide: true
+			optional: true
 			id: "5C64FE4201CBCD5E"
 			tasks: [{
 				id: "17426D55B3B0D84B"
@@ -5716,6 +5771,7 @@
 			]
 			dependencies: ["056B81FD25E2F828"]
 			hide: true
+			optional: true
 			id: "2B2EFCF8BC68F6EC"
 			tasks: [{
 				id: "3DF0EF28793D6B22"
@@ -5761,6 +5817,7 @@
 			]
 			dependencies: ["1B3C3A3BC818755F"]
 			hide: true
+			optional: true
 			id: "445C45D2E77AC892"
 			tasks: [{
 				id: "4D508F3E41FA4422"
@@ -5787,6 +5844,7 @@
 			description: ["Just another fancy way to store fluids."]
 			dependencies: ["0A71F7D6675E64CF"]
 			hide: true
+			optional: true
 			id: "1A9F8DF785B1188C"
 			tasks: [{
 				id: "4F6F59A41AC9C46B"
@@ -5825,6 +5883,7 @@
 			]
 			dependencies: ["1AA30549C219B9D2"]
 			hide: true
+			optional: true
 			id: "0222B8002D83DBA2"
 			tasks: [{
 				id: "033E67BF9ED3B66D"
@@ -5872,6 +5931,7 @@
 			]
 			dependencies: ["0222B8002D83DBA2"]
 			hide: true
+			optional: true
 			id: "4CAE3EF358211352"
 			tasks: [{
 				id: "330BC6B0BC022A10"
@@ -5909,6 +5969,7 @@
 			]
 			dependencies: ["5FB3404780403AFF"]
 			hide: true
+			optional: true
 			id: "7755AB8A694AB6B8"
 			tasks: [{
 				id: "1D59C92A52E978CB"
@@ -5958,6 +6019,7 @@
 			]
 			dependencies: ["533E604449114ED7"]
 			hide: true
+			optional: true
 			id: "25669D63E165EF3B"
 			tasks: [
 				{
@@ -5997,6 +6059,7 @@
 			description: ["World Transporters can be used to pick up items into inventories. They can also be used to drop items into the world."]
 			dependencies: ["25669D63E165EF3B"]
 			hide: true
+			optional: true
 			id: "4A933ECC59005514"
 			tasks: [{
 				id: "0BFF326D6FA634A1"
@@ -6031,6 +6094,7 @@
 			description: ["If you've got the chance to get your hands on Molten Ender, I'd suggest moving up to the stone hook level."]
 			dependencies: ["48E42BAB1A990772"]
 			hide: true
+			optional: true
 			id: "7EAAE5EBDA9BD27E"
 			tasks: [{
 				id: "475D3B6DEEA44769"

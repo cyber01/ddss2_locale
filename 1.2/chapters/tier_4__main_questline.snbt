@@ -21,7 +21,7 @@
 				Count: 1b
 				tag: { }
 			}
-			x: -16.25d
+			x: -16.5d
 			y: -0.75d
 			description: [
 				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.510FBD97BEEB61A8.description.0}"
@@ -1215,6 +1215,7 @@
 			x: 12.25d
 			y: 9.0d
 			shape: "circle"
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.67793E4FB15EB65F.description.0}"]
 			dependencies: ["613E43E31EE353A1"]
 			hide: true
 			optional: true
@@ -1272,6 +1273,7 @@
 			x: 15.75d
 			y: 9.0d
 			shape: "circle"
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.5E7170779001721E.description.0}"]
 			dependencies: ["613E43E31EE353A1"]
 			hide: true
 			optional: true
@@ -1440,6 +1442,7 @@
 			x: 14.0d
 			y: 9.0d
 			shape: "circle"
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.378C658B25A5FF8A.description.0}"]
 			dependencies: ["613E43E31EE353A1"]
 			hide: true
 			optional: true
@@ -3546,6 +3549,7 @@
 			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.1996A3048AE3F781.title}"
 			x: 58.0d
 			y: 6.25d
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.1996A3048AE3F781.description.0}"]
 			dependencies: ["0C6412D7D5E24520"]
 			hide: true
 			id: "1996A3048AE3F781"
@@ -3627,6 +3631,7 @@
 			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.48E91D2BD8BB01C4.title}"
 			x: 62.75d
 			y: 6.25d
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.48E91D2BD8BB01C4.description.0}"]
 			dependencies: ["1996A3048AE3F781"]
 			hide: true
 			id: "48E91D2BD8BB01C4"
@@ -5335,9 +5340,9 @@
 		{
 			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.3F3ECE46F98DA029.title}"
 			icon: "powah:reactor_niotic"
-			x: 70.5d
-			y: -4.0d
-			shape: "gear"
+			x: 70.0d
+			y: -5.0d
+			shape: "hexagon"
 			description: [
 				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.3F3ECE46F98DA029.description.0}"
 				""
@@ -5396,13 +5401,15 @@
 		{
 			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.49C82F37DC117691.title}"
 			icon: "masterfulmachinery:tier4_controller"
-			x: 70.5d
-			y: 2.0d
-			shape: "gear"
+			x: 70.0d
+			y: 2.5d
+			shape: "hexagon"
 			description: [
 				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.49C82F37DC117691.description.0}"
 				""
 				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.49C82F37DC117691.description.1}"
+				""
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.49C82F37DC117691.description.2}"
 			]
 			dependencies: ["3DE4168D8449DC92"]
 			hide: true
@@ -5432,6 +5439,11 @@
 					item: "kubejs:ultra_hull"
 					count: 20L
 				}
+				{
+					id: "6DDF542300756466"
+					type: "item"
+					item: "xkdeco:factory_vent_fan_big"
+				}
 			]
 			rewards: [
 				{
@@ -5448,7 +5460,7 @@
 					id: "33BAEDBE91633A18"
 					type: "item"
 					item: "kubejs:ultra_hull"
-					count: 16
+					count: 11
 				}
 				{
 					id: "3A7713BFD54F6462"
@@ -5475,10 +5487,10 @@
 		}
 		{
 			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.0D8A1FA65F73496B.title}"
-			x: 72.0d
-			y: -1.0d
+			x: 75.5d
+			y: -3.5d
 			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.0D8A1FA65F73496B.description.0}"]
-			dependencies: ["3DE4168D8449DC92"]
+			dependencies: ["2FD5DD41055E14B3"]
 			hide: true
 			id: "0D8A1FA65F73496B"
 			tasks: [{
@@ -5486,11 +5498,997 @@
 				type: "item"
 				item: "astralsorcery:resonating_gem"
 			}]
-			rewards: [{
-				id: "2B23575F4CEFD7C4"
+			rewards: [
+				{
+					id: "2B23575F4CEFD7C4"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+					count: 4
+				}
+				{
+					id: "5ED650D532121FD2"
+					type: "item"
+					item: "mekanism:alloy_atomic"
+				}
+				{
+					id: "45E8559DC46B617E"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.156C3FF6D0928FB2.title}"
+			icon: "astralsorcery:altar_radiance"
+			x: 75.5d
+			y: -9.0d
+			shape: "gear"
+			description: [
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.156C3FF6D0928FB2.description.0}"
+				""
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.156C3FF6D0928FB2.description.1}"
+			]
+			dependencies: ["0D8A1FA65F73496B"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "156C3FF6D0928FB2"
+			tasks: [
+				{
+					id: "68A96C84D98F4608"
+					type: "item"
+					item: "astralsorcery:altar_radiance"
+				}
+				{
+					id: "5AE29E03D9153292"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+				{
+					id: "4E558FA927513943"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 64L
+				}
+				{
+					id: "7BCE4A7B36080C14"
+					type: "item"
+					title: "Any #forge:stone/marble"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:stone/marble"
+						}
+					}
+					count: 12L
+				}
+				{
+					id: "242D3A9E9B92D8A9"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 8L
+				}
+				{
+					id: "1BB8863774B22880"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "47B5DED6799566F0"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 4
+				}
+				{
+					id: "11EF2AEC7084C0DB"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 49
+				}
+				{
+					id: "6238B80FB76976C4"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t4_bags"
+								BagType: "treasurebags:t4_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "27DD57E9B9A6C5CD"
+					type: "item"
+					item: "kubejs:coin_t4"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.2FD5DD41055E14B3.title}"
+			x: 72.0d
+			y: -3.5d
+			description: [
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.2FD5DD41055E14B3.description.0}"
+				""
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.2FD5DD41055E14B3.description.1}"
+			]
+			dependencies: ["3DE4168D8449DC92"]
+			hide: true
+			id: "2FD5DD41055E14B3"
+			tasks: [{
+				id: "2C90A36AD87D12A3"
 				type: "item"
-				item: "astralsorcery:resonating_gem"
+				item: {
+					id: "astralsorcery:celestial_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 1
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:ritual.effect"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:ritual.range"
+										pLevel: 1
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:constellation.lucerna"
+										pLevel: 1
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
 			}]
+			rewards: [
+				{
+					id: "36455008E40F2F31"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 1
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:ritual.effect"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:ritual.range"
+											pLevel: 1
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:constellation.lucerna"
+											pLevel: 1
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "3FFEF40CADABC34D"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.0863E270077B1B4A.title}"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:vom_t4"
+				}
+			}
+			x: 82.0d
+			y: -5.5d
+			shape: "gear"
+			description: [
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.0863E270077B1B4A.description.0}"
+				""
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.0863E270077B1B4A.description.1}"
+			]
+			dependencies: ["6656340829EC1817"]
+			hide: true
+			size: 2.0d
+			id: "0863E270077B1B4A"
+			tasks: [
+				{
+					id: "45ABE61DD694742F"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:vom_t4"
+						}
+					}
+				}
+				{
+					id: "2E38A4DF7AE9BD37"
+					type: "item"
+					item: "kubejs:mbcasing_t4"
+					count: 9L
+				}
+				{
+					id: "1B73A42361CA988D"
+					type: "item"
+					item: "kubejs:ultra_hull"
+					count: 20L
+				}
+			]
+			rewards: [
+				{
+					id: "152641620AA5B8E6"
+					type: "item"
+					item: "kubejs:ultra_hull"
+					count: 12
+				}
+				{
+					id: "5090F91599D0E576"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t4_bags"
+								BagType: "treasurebags:t4_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "22E4B5E353A24A8D"
+					type: "item"
+					item: "kubejs:crate_t4"
+				}
+				{
+					id: "1ACBC13C1C6C2008"
+					type: "choice"
+					table_id: 1471641316606276385L
+				}
+				{
+					id: "7BC050C76C5EE2A7"
+					type: "item"
+					item: "jaopca:boss_tools_compresseds.pure_titanium"
+				}
+				{
+					id: "70785107B2408DA3"
+					type: "item"
+					item: "kubejs:coin_t4"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.6656340829EC1817.title}"
+			x: 78.5d
+			y: -3.5d
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.6656340829EC1817.description.0}"]
+			dependencies: ["0D8A1FA65F73496B"]
+			hide: true
+			id: "6656340829EC1817"
+			tasks: [{
+				id: "65ED4510EB0D44D5"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_2000"
+			}]
+			rewards: [
+				{
+					id: "60C4D1E5E50C5D8A"
+					type: "item"
+					item: "rftoolscontrol:cpu_core_2000"
+				}
+				{
+					id: "6D8D82D34A7A1C3B"
+					type: "item"
+					item: "kubejs:pcb_t4"
+				}
+				{
+					id: "7341A562B27D9F7C"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.632124B076AC2F80.title}"
+			icon: "boss_tools:golden_engine"
+			x: 82.0d
+			y: -1.75d
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.632124B076AC2F80.description.0}"]
+			dependencies: ["6656340829EC1817"]
+			hide: true
+			id: "632124B076AC2F80"
+			tasks: [
+				{
+					id: "0DEBDF39AC8C61AD"
+					type: "item"
+					item: "boss_tools:golden_tank"
+				}
+				{
+					id: "767A8757EB7CA15E"
+					type: "item"
+					item: "boss_tools:golden_engine"
+					count: 6L
+				}
+			]
+			rewards: [
+				{
+					id: "5833071C5CFE699D"
+					type: "item"
+					item: "boss_tools:golden_tank"
+					count: 3
+				}
+				{
+					id: "36EAC69BC8F58CC8"
+					type: "item"
+					item: "boss_tools:compressed_desh"
+					count: 2
+				}
+				{
+					id: "37F41D4AD8F8F42E"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.2A604B6FB0152AE1.title}"
+			x: 72.0d
+			y: 1.25d
+			description: [
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.2A604B6FB0152AE1.description.0}"
+				""
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.2A604B6FB0152AE1.description.1}"
+			]
+			dependencies: ["3DE4168D8449DC92"]
+			hide: true
+			id: "2A604B6FB0152AE1"
+			tasks: [{
+				id: "35702FC4B33087D7"
+				type: "item"
+				item: {
+					id: "fluidcells:filled_fluid_cell"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "kubejs:cryo_t2"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7B17BE26F4D9F7B5"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "kubejs:coolant_t2"
+								Amount: 1000
+							}
+						}
+					}
+					count: 10
+				}
+				{
+					id: "063C6024C22798C4"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.24F64199E6EC846C.title}"
+			x: 75.5d
+			y: 1.25d
+			description: [
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.24F64199E6EC846C.description.0}"
+				""
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.24F64199E6EC846C.description.1}"
+			]
+			dependencies: ["2A604B6FB0152AE1"]
+			hide: true
+			id: "24F64199E6EC846C"
+			tasks: [{
+				id: "65817F0028204AC9"
+				type: "item"
+				item: {
+					id: "fluidcells:filled_fluid_cell"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "kubejs:coolant_t3"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "516D44776825FF0C"
+					type: "item"
+					item: {
+						id: "silents_mechanisms:canister"
+						Count: 1b
+						tag: {
+							CanisterFluid: "kubejs:coolant_t3"
+						}
+					}
+				}
+				{
+					id: "07616ACE141F5F90"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.2560BB8B62BD6AFA.title}"
+			x: 78.5d
+			y: 1.25d
+			description: [
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.2560BB8B62BD6AFA.description.0}"
+				""
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.2560BB8B62BD6AFA.description.1}"
+			]
+			dependencies: ["24F64199E6EC846C"]
+			hide: true
+			id: "2560BB8B62BD6AFA"
+			tasks: [{
+				id: "116C5CF218B8C75B"
+				type: "item"
+				item: "kubejs:materia_infused_plastic"
+			}]
+			rewards: [
+				{
+					id: "08EB65D1A2F4D7CD"
+					type: "item"
+					item: "kubejs:materia_t3"
+					count: 10
+				}
+				{
+					id: "2D95340C35CDB1F1"
+					type: "item"
+					item: "kubejs:materia_infused_plastic"
+				}
+				{
+					id: "60F8199E0B348E08"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.1963277FE5706ECB.title}"
+			x: 82.0d
+			y: 1.25d
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.1963277FE5706ECB.description.0}"]
+			dependencies: ["2560BB8B62BD6AFA"]
+			hide: true
+			id: "1963277FE5706ECB"
+			tasks: [{
+				id: "48533AE9962899E8"
+				type: "item"
+				item: {
+					id: "fluidcells:filled_fluid_cell"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "kubejs:hq_plastic"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "42257CB47BE9ED41"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "kubejs:hq_plastic"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "601AD8DD0B6A2F17"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.0C548764F184800E.title}"
+			x: 85.25d
+			y: 1.25d
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.0C548764F184800E.description.0}"]
+			dependencies: ["1963277FE5706ECB"]
+			hide: true
+			id: "0C548764F184800E"
+			tasks: [{
+				id: "11FCF9696EF204A0"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+			rewards: [
+				{
+					id: "30178EF34E8F699B"
+					type: "item"
+					item: "industrialforegoing:plastic"
+				}
+				{
+					id: "0454B337351851E2"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t4_bags"
+								BagType: "treasurebags:t4_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "2646B6CA105F4A11"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.2B44191077D70A66.title}"
+			x: 88.25d
+			y: 1.25d
+			description: [
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.2B44191077D70A66.description.0}"
+				""
+				"{ddss2.tier_4__main_questline.724F0BF493FB9CFF.2B44191077D70A66.description.1}"
+			]
+			dependencies: ["0C548764F184800E"]
+			hide: true
+			id: "2B44191077D70A66"
+			tasks: [{
+				id: "6DA6FE27A096F27B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "22AE471611346FF4"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.756D8FCBDC835513.title}"
+			x: 91.25d
+			y: 1.25d
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.756D8FCBDC835513.description.0}"]
+			dependencies: ["2B44191077D70A66"]
+			hide: true
+			id: "756D8FCBDC835513"
+			tasks: [{
+				id: "0EBB60991B9A792A"
+				type: "item"
+				item: "kubejs:hq_rubber_ball"
+			}]
+			rewards: [
+				{
+					id: "3702A64BD93C8BDC"
+					type: "item"
+					item: "kubejs:hq_rubber_ball"
+				}
+				{
+					id: "55DF17EB98FE8626"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t4_bags"
+								BagType: "treasurebags:t4_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "403EECD935EF9D67"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.5D541CF582891448.title}"
+			x: 85.25d
+			y: -3.75d
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.5D541CF582891448.description.0}"]
+			dependencies: [
+				"632124B076AC2F80"
+				"0863E270077B1B4A"
+			]
+			hide: true
+			id: "5D541CF582891448"
+			tasks: [{
+				id: "53E51380EAE01A71"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "7A9EA9D0A6636D01"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_ingot"
+					count: 2
+				}
+				{
+					id: "791B675FB0530D23"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t4_bags"
+								BagType: "treasurebags:t4_bag"
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "475906BE9347D73F"
+					type: "item"
+					item: "kubejs:crate_t4"
+					count: 2
+				}
+				{
+					id: "7A865497FC1BA379"
+					type: "choice"
+					table_id: 1471641316606276385L
+				}
+				{
+					id: "20D353911C902E39"
+					type: "item"
+					item: "jaopca:boss_tools_compresseds.pure_titanium"
+				}
+				{
+					id: "08F11AE49CE75A76"
+					type: "item"
+					item: "kubejs:coin_t4"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.34089C10F9D1256E.title}"
+			x: 88.25d
+			y: -3.75d
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.34089C10F9D1256E.description.0}"]
+			dependencies: ["5D541CF582891448"]
+			hide: true
+			id: "34089C10F9D1256E"
+			tasks: [{
+				id: "2D49988964685E0F"
+				type: "item"
+				item: "mysticalagriculture:absorption_iv_augment"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "43C9060DB1D210A8"
+					type: "item"
+					item: "mysticalagriculture:absorption_iv_augment"
+				}
+				{
+					id: "30D797B063F19B66"
+					type: "item"
+					item: "jaopca:boss_tools_compresseds.pure_titanium"
+				}
+				{
+					id: "1D833401307F4910"
+					type: "item"
+					item: "boss_tools:compressed_desh"
+				}
+				{
+					id: "64B28451F9C07FE5"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.154538D07CC19006.title}"
+			x: 91.25d
+			y: -3.75d
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.154538D07CC19006.description.0}"]
+			dependencies: ["34089C10F9D1256E"]
+			hide: true
+			id: "154538D07CC19006"
+			tasks: [{
+				id: "4038AE35473A53D0"
+				type: "item"
+				item: "evilcraft:promise_tier_3"
+			}]
+			rewards: [
+				{
+					id: "061D9ED16C05144D"
+					type: "item"
+					item: "evilcraft:promise_acceptor_diamond"
+				}
+				{
+					id: "629F6A5032542A3B"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:blast_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "2A6DA75B03AA5DE7"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+				}
+				{
+					id: "7179AFC4ECFB894D"
+					type: "item"
+					item: "kubejs:coin_t4"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.563BE992A7DC085C.title}"
+			x: 95.75d
+			y: -1.25d
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.563BE992A7DC085C.description.0}"]
+			dependencies: [
+				"154538D07CC19006"
+				"756D8FCBDC835513"
+			]
+			hide: true
+			size: 3.0d
+			id: "563BE992A7DC085C"
+			tasks: [{
+				id: "79A61CA23660F7A0"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "78B85ABCA2C997BA"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+				{
+					id: "3DAD4323A20C6ED8"
+					type: "item"
+					item: "paraglider:stamina_vessel"
+				}
+				{
+					id: "4FE5CF75CA0A11BE"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t4_bags"
+								BagType: "treasurebags:t4_bag"
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "09D9B21AF0476049"
+					type: "item"
+					item: "kubejs:crate_t4"
+					count: 5
+				}
+				{
+					id: "59D3332AB5C72677"
+					type: "choice"
+					table_id: 1471641316606276385L
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.7804C4C6B41693A3.title}"
+			icon: "mysticalagriculture:terrasteel_seeds"
+			x: 88.75d
+			y: 10.0d
+			shape: "heart"
+			subtitle: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.7804C4C6B41693A3.subtitle}"
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.7804C4C6B41693A3.description.0}"]
+			dependencies: ["7838BFB52338E422"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "7804C4C6B41693A3"
+			tasks: [
+				{
+					id: "136AD499DBE689DD"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "6E08F8C40022CC21"
+					type: "item"
+					item: "kubejs:coin_t4"
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "6801F9DBD91B0AC4"
+					type: "item"
+					item: "botania:terrasteel_block"
+					consume_items: true
+				}
+				{
+					id: "1FDBC3EF5D1A27CF"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_ingot"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5A6F1D9C1E72F8C2"
+				type: "item"
+				item: "mysticalagriculture:terrasteel_seeds"
+			}]
+		}
+		{
+			title: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.7B487F9FA49D75F9.title}"
+			icon: {
+				id: "ae2extras:1m_storage_cell"
+				Count: 1b
+				tag: { }
+			}
+			x: 32.25d
+			y: -6.75d
+			shape: "heart"
+			subtitle: "{ddss2.tier_4__main_questline.724F0BF493FB9CFF.7B487F9FA49D75F9.subtitle}"
+			description: ["{ddss2.tier_4__main_questline.724F0BF493FB9CFF.7B487F9FA49D75F9.description.0}"]
+			dependencies: ["7FF55C2D713E2619"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "7B487F9FA49D75F9"
+			tasks: [
+				{
+					id: "775F18874C7E8E23"
+					type: "item"
+					item: "kubejs:coin_t4"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "7828A326A786D5BC"
+					type: "item"
+					title: "Any #forge:ingots/all_dragonsteel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/all_dragonsteel"
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "2EE3526FF18902BA"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_ingot"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "47D2B9CCF0E80EA9"
+					type: "item"
+					item: {
+						id: "extrastorage:disk_1024k"
+						Count: 1b
+						tag: {
+							ID: [I;
+								2017447400
+								-2147464867
+								-2128407348
+								958087664
+							]
+						}
+					}
+				}
+				{
+					id: "2D2CCD5250F8D800"
+					type: "item"
+					item: {
+						id: "ae2extras:1m_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 	]
 }

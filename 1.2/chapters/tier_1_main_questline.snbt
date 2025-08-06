@@ -1324,6 +1324,7 @@
 			]
 			dependencies: ["11FE2A5E138A2CCF"]
 			hide: true
+			optional: true
 			id: "1E7FD862557D6A59"
 			tasks: [{
 				id: "5D1F43710AD9B0B9"
@@ -1360,6 +1361,7 @@
 			dependencies: ["361393940DCFF2EC"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "767C0D936BD684D7"
 			tasks: [
 				{
@@ -1435,6 +1437,7 @@
 			hide_dependency_lines: false
 			dependencies: ["5A94CE59E91A169B"]
 			hide: true
+			optional: true
 			id: "7113476A9F97B978"
 			tasks: [{
 				id: "5EA768FECF8C905C"
@@ -1466,6 +1469,7 @@
 			]
 			dependencies: ["51A1CF021F3C3187"]
 			hide: true
+			optional: true
 			id: "37D2F06D099C0125"
 			tasks: [{
 				id: "1C9F7D85D8B25954"
@@ -1631,10 +1635,20 @@
 					}
 				}
 				{
-					id: "243F2A032C075BD1"
+					id: "1925F691D30B4EDE"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:assembler01_steam"
+						}
+					}
+				}
+				{
+					id: "338E5EB9A918791C"
 					type: "item"
 					item: "kubejs:coin_t1"
-					count: 2
 				}
 			]
 		}
@@ -1952,6 +1966,7 @@
 			]
 			dependencies: ["48E42BAB1A990772"]
 			hide: true
+			optional: true
 			id: "6FA9145FC081C8CA"
 			tasks: [{
 				id: "593E1B9491D3E35A"
@@ -2040,6 +2055,7 @@
 			]
 			dependencies: ["60B68985AEE01F9D"]
 			hide: true
+			optional: true
 			id: "6DC25340FAE7A566"
 			tasks: [{
 				id: "2DEC3891807238C3"
@@ -2170,6 +2186,7 @@
 			]
 			dependencies: ["48E42BAB1A990772"]
 			hide: true
+			optional: true
 			id: "05486CC2F51F4A7A"
 			tasks: [{
 				id: "219AF3BBD9D56C76"
@@ -2197,6 +2214,7 @@
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.661F781D2DA3119F.description.0}"]
 			dependencies: ["05486CC2F51F4A7A"]
 			hide: true
+			optional: true
 			id: "661F781D2DA3119F"
 			tasks: [{
 				id: "54A6D95B8D692D89"
@@ -3130,6 +3148,7 @@
 			]
 			dependencies: ["5FB3404780403AFF"]
 			hide: true
+			optional: true
 			id: "0C2D2BF8C4FC1DF9"
 			tasks: [{
 				id: "6819E0E0FD50BA19"
@@ -3158,6 +3177,7 @@
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.21B0BC40C3CD644F.description.0}"]
 			dependencies: ["36439AB550A37907"]
 			hide: true
+			optional: true
 			id: "21B0BC40C3CD644F"
 			tasks: [{
 				id: "235DBD42ED55EF81"
@@ -3185,6 +3205,7 @@
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.07A6AD1F7E26DEED.description.0}"]
 			dependencies: ["36439AB550A37907"]
 			hide: true
+			optional: true
 			id: "07A6AD1F7E26DEED"
 			tasks: [{
 				id: "0566524B2248CDD8"
@@ -3217,6 +3238,7 @@
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.45A9C87325E2420E.description.0}"]
 			dependencies: ["36439AB550A37907"]
 			hide: true
+			optional: true
 			id: "45A9C87325E2420E"
 			tasks: [{
 				id: "35C06073A82C0085"
@@ -3250,6 +3272,7 @@
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.623DC1BBF8461F00.description.0}"]
 			dependencies: ["36439AB550A37907"]
 			hide: true
+			optional: true
 			id: "623DC1BBF8461F00"
 			tasks: [{
 				id: "1C75399D446AD083"
@@ -3585,6 +3608,7 @@
 			]
 			dependencies: ["5FC9F450C68A6495"]
 			hide: true
+			optional: true
 			id: "6BDEABBAE05394E2"
 			tasks: [{
 				id: "228019F3C70D484A"
@@ -3614,6 +3638,7 @@
 			]
 			dependencies: ["2A8AE8EEB4DAFB2F"]
 			hide: true
+			optional: true
 			id: "156CCE3540A8A0F5"
 			tasks: [{
 				id: "649F01B1E3CAEC90"
@@ -3807,6 +3832,7 @@
 			]
 			dependencies: ["1BE9FC356719A6A9"]
 			hide: true
+			optional: true
 			id: "299D2D4AEB37D1B3"
 			tasks: [{
 				id: "68546559E2820F22"
@@ -3838,6 +3864,7 @@
 			]
 			dependencies: ["4BD59919AB6F7821"]
 			hide: true
+			optional: true
 			id: "24A2FC32F22490B1"
 			tasks: [{
 				id: "7F3F72CF71044056"
@@ -3862,7 +3889,7 @@
 			icon: "pneumaticcraft:pressure_chamber_wall"
 			x: 35.75d
 			y: -11.0d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.15BC03A8FBD93BD1.description.0}"
 				""
@@ -3874,6 +3901,7 @@
 			dependencies: ["4BD59919AB6F7821"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "15BC03A8FBD93BD1"
 			tasks: [
 				{
@@ -3930,6 +3958,7 @@
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.5F5652C7D92EB316.description.0}"]
 			dependencies: ["15BC03A8FBD93BD1"]
 			hide: true
+			optional: true
 			id: "5F5652C7D92EB316"
 			tasks: [{
 				id: "11DDCA30B93A7BFB"
@@ -3966,6 +3995,7 @@
 			]
 			dependencies: ["6EC60A1854CBA273"]
 			hide: true
+			optional: true
 			id: "4C59EFCBD11FAE8B"
 			tasks: [{
 				id: "2AD9B8ADAFE2A742"
@@ -4013,6 +4043,7 @@
 			]
 			dependencies: ["4BD59919AB6F7821"]
 			hide: true
+			optional: true
 			id: "0F4C828E12278E30"
 			tasks: [{
 				id: "1D2AB7D68896A811"
@@ -4046,6 +4077,7 @@
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.5B3A465AEC45BB8E.description.0}"]
 			dependencies: ["6EC60A1854CBA273"]
 			hide: true
+			optional: true
 			id: "5B3A465AEC45BB8E"
 			tasks: [{
 				id: "1BF7E8AAA24C3241"
@@ -4204,6 +4236,7 @@
 			]
 			dependencies: ["216CAD724DF067BE"]
 			hide: true
+			optional: true
 			id: "50143904AB434CEA"
 			tasks: [{
 				id: "6A5EA7C1BA719B0E"
@@ -4260,8 +4293,10 @@
 			x: 1.0d
 			y: 9.75d
 			shape: "circle"
+			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.352B7B9663432EBF.description.0}"]
 			dependencies: ["50143904AB434CEA"]
 			hide: true
+			optional: true
 			id: "352B7B9663432EBF"
 			tasks: [{
 				id: "53DE8EBBC4920088"
@@ -4312,6 +4347,7 @@
 			dependencies: ["7A17E27EBC5C1898"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "00C6886FFB98EB58"
 			tasks: [
 				{
@@ -4346,6 +4382,7 @@
 			]
 			dependencies: ["2C70A1CA8856F142"]
 			hide: true
+			optional: true
 			id: "46AD6C13530B4137"
 			tasks: [{
 				id: "4DA6B46F4BDC3024"
@@ -4507,6 +4544,7 @@
 			]
 			dependencies: ["7A17E27EBC5C1898"]
 			hide: true
+			optional: true
 			id: "6218BAC5D82FD7B7"
 			tasks: [{
 				id: "48BD664AF9969224"
@@ -4559,6 +4597,7 @@
 			]
 			dependencies: ["7A17E27EBC5C1898"]
 			hide: true
+			optional: true
 			id: "1D5FD8E0CE6F0498"
 			tasks: [{
 				id: "7D2E2C0B4DF232A4"
@@ -4609,6 +4648,7 @@
 			]
 			dependencies: ["7A17E27EBC5C1898"]
 			hide: true
+			optional: true
 			id: "0BEB22AF74D3C7BF"
 			tasks: [{
 				id: "3507EC7FD13B980D"
@@ -4659,6 +4699,7 @@
 			]
 			dependencies: ["7A17E27EBC5C1898"]
 			hide: true
+			optional: true
 			id: "08E56F18155EA26B"
 			tasks: [{
 				id: "13E158CFB49E4DF6"
@@ -4765,6 +4806,7 @@
 			]
 			dependencies: ["48E42BAB1A990772"]
 			hide: true
+			optional: true
 			id: "7EDF95AA719D3B6D"
 			tasks: [{
 				id: "727EF936BABAE20E"
@@ -4842,6 +4884,7 @@
 			]
 			dependencies: ["370F94752A12DF85"]
 			hide: true
+			optional: true
 			id: "5EAF1E4A90C349C1"
 			tasks: [{
 				id: "0E1FD018C628ABD7"
@@ -4884,6 +4927,7 @@
 			]
 			dependencies: ["296E617E84C35438"]
 			hide: true
+			optional: true
 			id: "6BC4FBA9984FEF11"
 			tasks: [{
 				id: "51D648A6E16E14DF"
@@ -4967,6 +5011,7 @@
 			]
 			dependencies: ["5FC9F450C68A6495"]
 			hide: true
+			optional: true
 			id: "1AF1E53C607EA70C"
 			tasks: [{
 				id: "30BAEE44C3C1B7FC"
@@ -4986,6 +5031,7 @@
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.5F8AD432F9DBCD69.description.0}"]
 			dependencies: ["2A8AE8EEB4DAFB2F"]
 			hide: true
+			optional: true
 			id: "5F8AD432F9DBCD69"
 			tasks: [{
 				id: "24462A71AE7272B8"
@@ -5155,6 +5201,7 @@
 			]
 			dependencies: ["25D276886A503FC0"]
 			hide: true
+			optional: true
 			id: "3229A88E9F6CDA98"
 			tasks: [{
 				id: "7EAE120071AA4012"
@@ -5243,7 +5290,7 @@
 			icon: "masterfulmachinery:basic_controller"
 			x: -4.0d
 			y: 1.5d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.552B74A5E81CF677.description.0}"
 				""
@@ -5258,6 +5305,7 @@
 			dependencies: ["05FB1BC53F843385"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "552B74A5E81CF677"
 			tasks: [
 				{
@@ -5346,12 +5394,16 @@
 			title: "{ddss2.tier_1_main_questline.1DBF6954F499E5B3.05FB1BC53F843385.title}"
 			x: -7.5d
 			y: 1.5d
-			shape: "gear"
-			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.05FB1BC53F843385.description.0}"]
+			shape: "hexagon"
+			description: [
+				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.05FB1BC53F843385.description.0}"
+				""
+				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.05FB1BC53F843385.description.1}"
+			]
 			dependencies: ["51A1CF021F3C3187"]
 			hide: true
 			size: 2.0d
-			repeatable: true
+			optional: true
 			id: "05FB1BC53F843385"
 			tasks: [{
 				id: "39EEFCC5DF0F96A6"
@@ -5368,7 +5420,7 @@
 			icon: "mekanism:dynamic_tank"
 			x: 19.5d
 			y: -11.0d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.21C2369A3CD2EA6F.description.0}"
 				""
@@ -5381,6 +5433,7 @@
 			dependencies: ["5A1E8B32C5D7D958"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "21C2369A3CD2EA6F"
 			tasks: [
 				{
@@ -5441,7 +5494,7 @@
 			icon: "masterfulmachinery:steel_boiler_controller"
 			x: 27.5d
 			y: -11.0d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"{ddss2.tier_1_main_questline.1DBF6954F499E5B3.6663E4F67D7594A2.description.0}"
 				""
@@ -5454,6 +5507,7 @@
 			dependencies: ["2C70A1CA8856F142"]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "6663E4F67D7594A2"
 			tasks: [
 				{
@@ -5553,6 +5607,7 @@
 			]
 			dependencies: ["49FEC7A61007E047"]
 			hide: true
+			optional: true
 			id: "34FF71E9FFDCB20B"
 			tasks: [{
 				id: "25F176CDD4F973E5"
@@ -5587,6 +5642,7 @@
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.5C64FE4201CBCD5E.description.0}"]
 			dependencies: ["68460CE103B2E57B"]
 			hide: true
+			optional: true
 			id: "5C64FE4201CBCD5E"
 			tasks: [{
 				id: "17426D55B3B0D84B"
@@ -5715,6 +5771,7 @@
 			]
 			dependencies: ["056B81FD25E2F828"]
 			hide: true
+			optional: true
 			id: "2B2EFCF8BC68F6EC"
 			tasks: [{
 				id: "3DF0EF28793D6B22"
@@ -5760,6 +5817,7 @@
 			]
 			dependencies: ["1B3C3A3BC818755F"]
 			hide: true
+			optional: true
 			id: "445C45D2E77AC892"
 			tasks: [{
 				id: "4D508F3E41FA4422"
@@ -5786,6 +5844,7 @@
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.1A9F8DF785B1188C.description.0}"]
 			dependencies: ["0A71F7D6675E64CF"]
 			hide: true
+			optional: true
 			id: "1A9F8DF785B1188C"
 			tasks: [{
 				id: "4F6F59A41AC9C46B"
@@ -5824,6 +5883,7 @@
 			]
 			dependencies: ["1AA30549C219B9D2"]
 			hide: true
+			optional: true
 			id: "0222B8002D83DBA2"
 			tasks: [{
 				id: "033E67BF9ED3B66D"
@@ -5871,6 +5931,7 @@
 			]
 			dependencies: ["0222B8002D83DBA2"]
 			hide: true
+			optional: true
 			id: "4CAE3EF358211352"
 			tasks: [{
 				id: "330BC6B0BC022A10"
@@ -5908,6 +5969,7 @@
 			]
 			dependencies: ["5FB3404780403AFF"]
 			hide: true
+			optional: true
 			id: "7755AB8A694AB6B8"
 			tasks: [{
 				id: "1D59C92A52E978CB"
@@ -5957,6 +6019,7 @@
 			]
 			dependencies: ["533E604449114ED7"]
 			hide: true
+			optional: true
 			id: "25669D63E165EF3B"
 			tasks: [
 				{
@@ -5996,6 +6059,7 @@
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.4A933ECC59005514.description.0}"]
 			dependencies: ["25669D63E165EF3B"]
 			hide: true
+			optional: true
 			id: "4A933ECC59005514"
 			tasks: [{
 				id: "0BFF326D6FA634A1"
@@ -6030,6 +6094,7 @@
 			description: ["{ddss2.tier_1_main_questline.1DBF6954F499E5B3.7EAAE5EBDA9BD27E.description.0}"]
 			dependencies: ["48E42BAB1A990772"]
 			hide: true
+			optional: true
 			id: "7EAAE5EBDA9BD27E"
 			tasks: [{
 				id: "475D3B6DEEA44769"

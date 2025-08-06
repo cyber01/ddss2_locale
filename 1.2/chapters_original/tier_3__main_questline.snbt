@@ -558,7 +558,7 @@
 			icon: "immersiveengineering:generator"
 			x: -28.0d
 			y: -6.5d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"The (Bio)Diesel Generator is a 3×5×3 multiblock that generates Power by burning Biodiesel or other modded fuels. It produces 1500 FE/t."
 				""
@@ -2314,7 +2314,18 @@
 					item: "kubejs:motor_t3"
 				}
 				{
-					id: "078FC21F5D77A3D1"
+					id: "41C1C7AC75838523"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:assembler03_adv"
+						}
+					}
+				}
+				{
+					id: "30C2C5AD3694E0D2"
 					type: "item"
 					item: "kubejs:coin_t3"
 				}
@@ -3697,7 +3708,7 @@
 			]
 		}
 		{
-			title: "Sentient  Sword!"
+			title: "Sentient Sword!"
 			x: 49.25d
 			y: 17.0d
 			description: ["The Sentient Sword is used to collect Raw Will. This Raw Will is automatically added to the top leftmost Raw Will Tartaric Gem in your inventory. If you've got all the Raw Will Gems you can get, mobs will drop Demonic Will. You can enchant it. You can also use a Demon Will Crystal in the Anvil to repair it."]
@@ -4071,9 +4082,9 @@
 			title: "Blazing Powah Reactor!"
 			x: 61.5d
 			y: -5.5d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
-				"The Blazing Power Reactor is a \"small\" multiblock structure that generates energy by consuming uraninite. All Powah Reactors cannot explode, and you can build them by pointing and clicking on the ground if you have 36 reactor blocks of the same type in your inventory."
+				"The Blazing Powah Reactor is a \"small\" multiblock structure that generates energy by consuming uraninite. All Powah Reactors cannot explode, and you can build them by pointing and clicking on the ground if you have 36 reactor blocks of the same type in your inventory."
 				""
 				"Depending on your efficiency setup, this reactor can output up to 6,000 FE/t, but it's quite expensive to make."
 				""
@@ -4140,13 +4151,17 @@
 			icon: "masterfulmachinery:tier3_controller"
 			x: 61.5d
 			y: -0.5d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"I'm thrilled to tell you that the next stage of the Large Steam Turbine series produces an impressive 3500FE/t at a consumption of just 650mb steam/t!"
 				""
 				"While the machine is running, it produces small amounts of distilled water as a by-product in the fluid output hatch."
 				""
 				"{image:modpack:textures/quest_multiblock/steamturbine_t3.png width:165 height:125 align:1}"
+				""
+				"Attention!"
+				"The energy ports on this mod do not automatically push energy. You must use cables or devices that can pull, such as Pipez, Mekanism cables, Xnet, etc. "
+				"POWAH or Immersive Engineering cables won't work."
 			]
 			dependencies: ["093AFDBACEC4D7FF"]
 			hide: true
@@ -4185,13 +4200,18 @@
 					item: "kubejs:adv_hull"
 					count: 20L
 				}
+				{
+					id: "22B2F9972F051D05"
+					type: "item"
+					item: "xkdeco:factory_vent_fan_big"
+				}
 			]
 			rewards: [
 				{
 					id: "6D094BC800AD56CF"
 					type: "item"
 					item: "kubejs:adv_hull"
-					count: 16
+					count: 11
 				}
 				{
 					id: "1ADA75CDBC3AEFDA"
@@ -4459,7 +4479,7 @@
 			x: 67.5d
 			y: 2.25d
 			description: [
-				"Now that you have a T2 Blood Altar, we can move on to the next orb.The Apprentice Blood Orb allows you to store up to 25,000 LP in your network."
+				"Now that you have a T2 Blood Altar, we can move on to the next orb. The Apprentice Blood Orb allows you to store up to 25,000 LP in your network."
 				""
 				"You can use it to improve your Incense Altar to tier 2 and to make different objects, like the Void Sigil, Air Sigil, Sigil of the Fast Miner and more."
 			]
@@ -6015,6 +6035,7 @@
 			]
 		}
 		{
+			title: "Gold Promise Acceptor!"
 			x: 71.75d
 			y: -15.0d
 			description: ["It's time to fire up the Blood Infuser again! The Gold Promise Acceptor is the next level in the Promise Acceptor series, but unfortunately it consumes a lot of blood and pure gold. But I'm sure you're well prepared by now."]
@@ -7208,7 +7229,7 @@
 		}
 		{
 			title: "Jetpack Tier 3!"
-			x: 57.25d
+			x: 57.0d
 			y: -6.5d
 			shape: "circle"
 			description: ["This new Jetpack is an absolute game-changer! Not only does it have a super comfortable hover mode and top-notch power, but it also boasts a mind-blowing charging capacity of 10 million FE, which should last you for ages!"]
@@ -7530,6 +7551,81 @@
 					id: "38A9D550EDE0AD37"
 					type: "item"
 					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Crimsonsteel Boiler!"
+			icon: "xkdeco:factory_vent_fan"
+			x: 67.0d
+			y: -0.5d
+			shape: "hexagon"
+			description: [
+				"The Crimsonsteel Boiler is pretty much unbeatable when it comes to steam generation. It produces 2800mb of steam/t and consumes 4000mb of water/t."
+				""
+				"The problem is, it's really expensive to make because you need at least 8 full Crimsonsteel blocks, and it burns fuel 5 times faster."
+			]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "1C643411A89B98ED"
+			tasks: [
+				{
+					id: "1468C56DD8CC1076"
+					type: "item"
+					item: "masterfulmachinery:tier3_controller"
+				}
+				{
+					id: "3165157D7A79E09B"
+					type: "item"
+					item: "kubejs:adv_hull"
+					count: 12L
+				}
+				{
+					id: "096C71DCE646D294"
+					type: "item"
+					item: "silentgear:crimson_steel_block"
+					count: 7L
+				}
+				{
+					id: "06F664F8A6FB2A92"
+					type: "item"
+					item: "kubejs:mbcasing_t3"
+					count: 3L
+				}
+				{
+					id: "6F68E349FF8FC11F"
+					type: "item"
+					item: "xkdeco:factory_vent_fan"
+				}
+			]
+			rewards: [
+				{
+					id: "423398BC18AD95B9"
+					type: "item"
+					item: "kubejs:adv_hull"
+					count: 8
+				}
+				{
+					id: "3D41A1EF0B71C8E0"
+					type: "item"
+					item: "silentgear:crimson_steel_block"
+				}
+				{
+					id: "7204585103ACEA10"
+					type: "item"
+					item: "masterfulmachinery:tier3_item1_port_items_input"
+				}
+				{
+					id: "0A7A1F5AA483CD07"
+					type: "item"
+					item: "masterfulmachinery:tier3_fluid1_port_fluids_input"
+				}
+				{
+					id: "6332431468716F20"
+					type: "item"
+					item: "masterfulmachinery:tier3_fluid1_port_fluids_output"
 				}
 			]
 		}

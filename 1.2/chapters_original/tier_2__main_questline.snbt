@@ -1825,19 +1825,25 @@
 					item: "kubejs:circuit_t2"
 				}
 				{
-					id: "09EEA18A8FD5A7F9"
-					type: "item"
-					item: "kubejs:coin_t2"
-				}
-				{
 					id: "2B58A6DF90511785"
 					type: "item"
 					item: "kubejs:weak_module"
 				}
 				{
-					id: "12ABD613E571F701"
+					id: "3F3C49068C51962C"
 					type: "item"
-					item: "kubejs:coin_t1"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:assembler02_basic"
+						}
+					}
+				}
+				{
+					id: "5E42BE82FC387CCD"
+					type: "item"
+					item: "kubejs:coin_t2"
 				}
 			]
 		}
@@ -8304,11 +8310,11 @@
 			icon: "masterfulmachinery:freezer_controller"
 			x: 36.0d
 			y: -15.5d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
-				"The Large Froststeel Boiler is a powerful machine and the successor to the Steel Boiler, which produces large quantities of steam. Unfortunately, it also uses a lot of water."
+				"The Large Froststeel Boiler is a beast of a machine and the successor to the Steel Boiler. It uses way more water and burns fuel 2-3 times faster."
 				""
-				"The system produces 1,250mb of steam per/t, with a water consumption of 1,750 mb/t."
+				"This Boiler produces 1,250mb of steam/t, with a water consumption of 1,750 mb/t."
 				""
 				"{image:modpack:textures/quest_multiblock/froststeel_boiler.png width:160 height:120 align:1}"
 			]
@@ -8396,13 +8402,17 @@
 			icon: "masterfulmachinery:tier2_controller"
 			x: 5.0d
 			y: -9.0d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"This optional quest focuses on the Large Steam Turbine. This multiblock is present in all tiers from T2 onwards and generates power from steam. This turbine produces 750FE/t with a steam consumption of 250mb/t."
 				""
 				"While the machine is running, it produces small amounts of distilled water as a by-product in the fluid output hatch."
 				""
 				"{image:modpack:textures/quest_multiblock/steamturbine_t2.png width:160 height:120 align:1}"
+				""
+				"Attention!"
+				"The energy ports on this mod do not automatically push energy. You must use cables or devices that can pull, such as Pipez, Mekanism cables, Xnet, etc. "
+				"POWAH or Immersive Engineering cables won't work."
 			]
 			dependencies: ["5B0D5F897771C1AA"]
 			hide: true
@@ -8440,6 +8450,11 @@
 					type: "item"
 					item: "kubejs:basic_hull"
 					count: 20L
+				}
+				{
+					id: "361077455BE04F72"
+					type: "item"
+					item: "xkdeco:factory_vent_fan_big"
 				}
 			]
 			rewards: [

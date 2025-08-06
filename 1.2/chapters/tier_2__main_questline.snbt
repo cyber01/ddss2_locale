@@ -1825,19 +1825,25 @@
 					item: "kubejs:circuit_t2"
 				}
 				{
-					id: "09EEA18A8FD5A7F9"
-					type: "item"
-					item: "kubejs:coin_t2"
-				}
-				{
 					id: "2B58A6DF90511785"
 					type: "item"
 					item: "kubejs:weak_module"
 				}
 				{
-					id: "12ABD613E571F701"
+					id: "3F3C49068C51962C"
 					type: "item"
-					item: "kubejs:coin_t1"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:assembler02_basic"
+						}
+					}
+				}
+				{
+					id: "5E42BE82FC387CCD"
+					type: "item"
+					item: "kubejs:coin_t2"
 				}
 			]
 		}
@@ -7532,6 +7538,7 @@
 			x: -7.0d
 			y: -12.25d
 			shape: "circle"
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.07C8871595EC8369.description.0}"]
 			dependencies: ["5B0D5F897771C1AA"]
 			hide: true
 			id: "07C8871595EC8369"
@@ -8303,7 +8310,7 @@
 			icon: "masterfulmachinery:freezer_controller"
 			x: 36.0d
 			y: -15.5d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.2EB7C7653C5501FB.description.0}"
 				""
@@ -8395,13 +8402,17 @@
 			icon: "masterfulmachinery:tier2_controller"
 			x: 5.0d
 			y: -9.0d
-			shape: "gear"
+			shape: "hexagon"
 			description: [
 				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5DB030F037C2AF9E.description.0}"
 				""
 				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5DB030F037C2AF9E.description.1}"
 				""
 				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5DB030F037C2AF9E.description.2}"
+				""
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5DB030F037C2AF9E.description.3}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5DB030F037C2AF9E.description.4}"
+				"{ddss2.tier_2__main_questline.32722BB669FBBD6F.5DB030F037C2AF9E.description.5}"
 			]
 			dependencies: ["5B0D5F897771C1AA"]
 			hide: true
@@ -8439,6 +8450,11 @@
 					type: "item"
 					item: "kubejs:basic_hull"
 					count: 20L
+				}
+				{
+					id: "361077455BE04F72"
+					type: "item"
+					item: "xkdeco:factory_vent_fan_big"
 				}
 			]
 			rewards: [
@@ -8767,6 +8783,7 @@
 			x: -30.75d
 			y: -2.25d
 			shape: "circle"
+			description: ["{ddss2.tier_2__main_questline.32722BB669FBBD6F.748657418813103A.description.0}"]
 			dependencies: ["49C82129750A7631"]
 			hide: true
 			optional: true

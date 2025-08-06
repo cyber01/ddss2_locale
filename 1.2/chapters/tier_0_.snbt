@@ -280,6 +280,7 @@
 			x: 3.5d
 			y: -8.0d
 			shape: "circle"
+			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.14250DBDAE7803B4.description.0}"]
 			dependencies: ["401754560C0D4F0F"]
 			hide: true
 			optional: true
@@ -3535,12 +3536,6 @@
 			]
 			rewards: [
 				{
-					id: "77B90601E76B77DF"
-					type: "item"
-					item: "kubejs:coin_t1"
-					count: 5
-				}
-				{
 					id: "3E816FDC809A145C"
 					type: "item"
 					item: {
@@ -3569,6 +3564,17 @@
 					id: "0CF8B5F6F766B6AF"
 					type: "item"
 					item: "storagedrawers:obsidian_storage_upgrade"
+				}
+				{
+					id: "7FC0D5D5C4F51C0F"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+				{
+					id: "542C0A3C141DC2FE"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 5
 				}
 			]
 		}
@@ -3722,7 +3728,13 @@
 			tasks: [{
 				id: "05F34AE0129461B5"
 				type: "item"
-				item: "paraglider:paraglider"
+				item: {
+					id: "paraglider:paraglider"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -4160,6 +4172,8 @@
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.2AB9377D6925C8C8.description.0}"
 				""
 				"{ddss2.tier_0_.2F3E4F0FF24569B6.2AB9377D6925C8C8.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2AB9377D6925C8C8.description.2}"
 			]
 			dependencies: ["3699F9707D23A36B"]
 			hide: true

@@ -2186,7 +2186,7 @@
 			shape: "rsquare"
 			subtitle: "AoA"
 			description: [
-				"DDSS 2 contains AoA! (Advent of Ascension, Nevermine) Dimensions and materials of this mod are strictly integrated into this modpack and form an important part of the progression. Quests with this icon are mendatory AoA quests. These will be mainly informative in the beginning, but soon with corresponding requirements."
+				"DDSS 2 contains AoA! (Advent of Ascension, Nevermine) Dimensions and materials of this mod are strictly integrated into this modpack and form an important part of the progression. Quests with this icon are mandatory AoA quests. These will be mainly informative in the beginning, but soon with corresponding requirements."
 				"{image:aoa3:textures/item/strength_tablet.png width:100 height:100 align:1}"
 				""
 				"This is a mod with a large amount of content. Gameplay in the mod includes exploring 21 dimensions, each with its own generation, structures, mobs, blocks, and items. While traveling through the dimensions, you can mine ores, locate structures, and battle entities with various abilities. It's a lot of fun and there's a lot to do!"
@@ -2550,7 +2550,7 @@
 				""
 				"As you perform certain activities, you will earn xp for a given skill. Once enough xp has been obtained, the player's skill level will increase by 1. The amount of xp needed to increase to the next level will increase as the level gets higher."
 				""
-				"The highest obtainable level for all skills is 1000. Once you reaches level 1000, the circular border surrounding the skill icon will become yellow, and the xp bar will disappear. Attempting to gain more xp for a skill at level 1000 will not give the player any xp."
+				"The highest obtainable level for all skills is 1000. Once you reach level 1000, the circular border surrounding the skill icon will become yellow, and the xp bar will disappear. Attempting to gain more xp for a skill at level 1000 will not give the player any xp."
 			]
 			dependencies: ["0602A0659D0C0AED"]
 			hide: true
@@ -3299,7 +3299,7 @@
 			y: -3.5d
 			shape: "gear"
 			description: [
-				"Big quests shaped like gearwheels are classified as Multiblock quests. "
+				"Big quests shaped like gearwheels are classified as mandatory Multiblock quests."
 				""
 				"The Smeltery is a multi-block structure used to create higher level weapons and tools using metals and alloys. It can be used to smelt ores, ingots or blocks of almost any metal, and will finally allow you to double your ores more easily."
 				""
@@ -3498,7 +3498,7 @@
 			y: -1.5d
 			shape: "gear"
 			description: [
-				"Big quests shaped like gearwheels are classified as Multiblock quests."
+				"Big quests shaped like gearwheels are classified as mandatory Multiblock quests."
 				""
 				"The Crude Blast Furnace produces Steel Ingots and Slag by smelting Iron Ingots with Coal, Coal Coke or Charcoal as fuel. "
 				""
@@ -3536,12 +3536,6 @@
 			]
 			rewards: [
 				{
-					id: "77B90601E76B77DF"
-					type: "item"
-					item: "kubejs:coin_t1"
-					count: 5
-				}
-				{
 					id: "3E816FDC809A145C"
 					type: "item"
 					item: {
@@ -3570,6 +3564,17 @@
 					id: "0CF8B5F6F766B6AF"
 					type: "item"
 					item: "storagedrawers:obsidian_storage_upgrade"
+				}
+				{
+					id: "7FC0D5D5C4F51C0F"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+				{
+					id: "542C0A3C141DC2FE"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 5
 				}
 			]
 		}
@@ -3723,7 +3728,13 @@
 			tasks: [{
 				id: "05F34AE0129461B5"
 				type: "item"
-				item: "paraglider:paraglider"
+				item: {
+					id: "paraglider:paraglider"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -3771,9 +3782,9 @@
 			description: [
 				"DDSS2 contains The Spice Of Life Carrot Edition. It's all about variety, not punishment. If you eat a good mix of different foods, it'll reward you."
 				""
-				"When you eat 30 different foods, it'll add another heart to your life up to 10 Hearts."
+				"When you eat 40 different foods, it'll add another heart to your life up to 10 Hearts."
 				""
-				"So you get milestones at: 30, 60, 90, 120, 150, 180, 210, 240, 270, 300"
+				"So you get milestones at: 40, 80, 120, 160, 200, 240, 280, 320, 360, 400"
 			]
 			dependencies: ["3699F9707D23A36B"]
 			hide: true
@@ -4160,7 +4171,9 @@
 			description: [
 				"During the early stages of the game, collecting large amounts of ore can be tedious. Later on, I highly recommend the hammers from Tinkers and Silents, which come with lots of bonuses. However, if you are looking for a more vanilla-style hammer that can also be enchanted later on, there are earlier alternatives or general alternatives."
 				""
-				"The stone hammer can be crafted on the workbench and mines a 3x3 area. There are"
+				"The stone hammer can be crafted on the workbench and mines a 3x3 area."
+				""
+				"There are four different types of vanilla hammer: Stone, Iron, Diamond and Netherite."
 			]
 			dependencies: ["3699F9707D23A36B"]
 			hide: true

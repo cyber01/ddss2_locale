@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 6
 	filename: "the_plushie_collection_challenge"
-	title: "The Big Plushie Collection!"
+	title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.title}"
 	icon: {
 		id: "minecraft:player_head"
 		Count: 1b
@@ -31,10 +31,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.09332C9A4217B5C5.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.09332C9A4217B5C5.title}"
 			x: -2.0d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.09332C9A4217B5C5.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.09332C9A4217B5C5.description.0}"]
 			size: 2.0d
 			id: "09332C9A4217B5C5"
 			tasks: [{
@@ -95,7 +95,7 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.045E5D613537B512.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.045E5D613537B512.title}"
 			icon: {
 				id: "minecraft:player_head"
 				Count: 1b
@@ -121,7 +121,7 @@
 			}
 			x: 0.5d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.045E5D613537B512.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.045E5D613537B512.description.0}"]
 			size: 2.0d
 			id: "045E5D613537B512"
 			tasks: [{
@@ -183,7 +183,7 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.085DA323ABB34E01.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.085DA323ABB34E01.title}"
 			icon: {
 				id: "minecraft:player_head"
 				Count: 1b
@@ -209,7 +209,7 @@
 			}
 			x: -9.5d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.085DA323ABB34E01.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.085DA323ABB34E01.description.0}"]
 			size: 2.0d
 			id: "085DA323ABB34E01"
 			tasks: [{
@@ -293,10 +293,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.277E005C91CF71D9.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.277E005C91CF71D9.title}"
 			x: 8.0d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.277E005C91CF71D9.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.277E005C91CF71D9.description.0}"]
 			size: 2.0d
 			id: "277E005C91CF71D9"
 			tasks: [{
@@ -360,10 +360,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.41CD7B2DC30C27AD.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.41CD7B2DC30C27AD.title}"
 			x: 10.5d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.41CD7B2DC30C27AD.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.41CD7B2DC30C27AD.description.0}"]
 			size: 2.0d
 			id: "41CD7B2DC30C27AD"
 			tasks: [{
@@ -427,7 +427,7 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.58B3716B07BF5E40.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.58B3716B07BF5E40.title}"
 			icon: {
 				id: "minecraft:player_head"
 				Count: 1b
@@ -453,7 +453,7 @@
 			}
 			x: 3.0d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.58B3716B07BF5E40.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.58B3716B07BF5E40.description.0}"]
 			size: 2.0d
 			id: "58B3716B07BF5E40"
 			tasks: [{
@@ -514,10 +514,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.3F9450ED69C77EE2.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.3F9450ED69C77EE2.title}"
 			x: 5.5d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.3F9450ED69C77EE2.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.3F9450ED69C77EE2.description.0}"]
 			size: 2.0d
 			id: "3F9450ED69C77EE2"
 			tasks: [{
@@ -578,10 +578,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.77E97328AA83693B.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.77E97328AA83693B.title}"
 			x: 0.5d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.77E97328AA83693B.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.77E97328AA83693B.description.0}"]
 			size: 2.0d
 			id: "77E97328AA83693B"
 			tasks: [{
@@ -642,10 +642,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.18D7EB6A0570436B.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.18D7EB6A0570436B.title}"
 			x: -7.0d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.18D7EB6A0570436B.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.18D7EB6A0570436B.description.0}"]
 			size: 2.0d
 			id: "18D7EB6A0570436B"
 			tasks: [{
@@ -706,10 +706,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.71A02D58C74EF509.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.71A02D58C74EF509.title}"
 			x: -4.5d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.71A02D58C74EF509.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.71A02D58C74EF509.description.0}"]
 			size: 2.0d
 			id: "71A02D58C74EF509"
 			tasks: [{
@@ -770,10 +770,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.49173CEEF82E4B83.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.49173CEEF82E4B83.title}"
 			x: 13.0d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.49173CEEF82E4B83.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.49173CEEF82E4B83.description.0}"]
 			size: 2.0d
 			id: "49173CEEF82E4B83"
 			tasks: [{
@@ -834,10 +834,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.6CF263A8396ECFDE.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.6CF263A8396ECFDE.title}"
 			x: 8.0d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.6CF263A8396ECFDE.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.6CF263A8396ECFDE.description.0}"]
 			size: 2.0d
 			id: "6CF263A8396ECFDE"
 			tasks: [{
@@ -898,17 +898,17 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.66901BBC0006320B.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.66901BBC0006320B.title}"
 			x: -9.5d
 			y: -4.5d
 			description: [
-				"{ddss2.chef_de_cuisine.69E02EB1868B6E83.66901BBC0006320B.description.0}"
+				"{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.66901BBC0006320B.description.0}"
 				""
-				"{ddss2.chef_de_cuisine.69E02EB1868B6E83.66901BBC0006320B.description.1}"
+				"{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.66901BBC0006320B.description.1}"
 				""
-				"{ddss2.chef_de_cuisine.69E02EB1868B6E83.66901BBC0006320B.description.2}"
+				"{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.66901BBC0006320B.description.2}"
 				""
-				"{ddss2.chef_de_cuisine.69E02EB1868B6E83.66901BBC0006320B.description.3}"
+				"{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.66901BBC0006320B.description.3}"
 			]
 			size: 2.0d
 			id: "66901BBC0006320B"
@@ -998,10 +998,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.09CB5B7EA2DB3575.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.09CB5B7EA2DB3575.title}"
 			x: 10.5d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.09CB5B7EA2DB3575.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.09CB5B7EA2DB3575.description.0}"]
 			size: 2.0d
 			id: "09CB5B7EA2DB3575"
 			tasks: [{
@@ -1062,10 +1062,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.58F8367305A7F62E.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.58F8367305A7F62E.title}"
 			x: 3.0d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.58F8367305A7F62E.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.58F8367305A7F62E.description.0}"]
 			size: 2.0d
 			id: "58F8367305A7F62E"
 			tasks: [{
@@ -1129,10 +1129,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.5E651224D424C7E0.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.5E651224D424C7E0.title}"
 			x: -4.5d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.5E651224D424C7E0.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.5E651224D424C7E0.description.0}"]
 			size: 2.0d
 			id: "5E651224D424C7E0"
 			tasks: [{
@@ -1193,10 +1193,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.6B5DEFFB252228BC.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.6B5DEFFB252228BC.title}"
 			x: 5.5d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.6B5DEFFB252228BC.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.6B5DEFFB252228BC.description.0}"]
 			size: 2.0d
 			id: "6B5DEFFB252228BC"
 			tasks: [{
@@ -1260,10 +1260,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.710C41089433EC06.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.710C41089433EC06.title}"
 			x: -7.0d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.710C41089433EC06.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.710C41089433EC06.description.0}"]
 			size: 2.0d
 			id: "710C41089433EC06"
 			tasks: [{
@@ -1324,10 +1324,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.47F745ABD719EE30.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.47F745ABD719EE30.title}"
 			x: -2.0d
 			y: -0.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.47F745ABD719EE30.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.47F745ABD719EE30.description.0}"]
 			size: 2.0d
 			id: "47F745ABD719EE30"
 			tasks: [{
@@ -1388,10 +1388,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.53D01FB7E164D81C.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.53D01FB7E164D81C.title}"
 			x: 13.0d
 			y: -4.5d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.53D01FB7E164D81C.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.53D01FB7E164D81C.description.0}"]
 			size: 2.0d
 			id: "53D01FB7E164D81C"
 			tasks: [{
@@ -1452,10 +1452,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.38C65262D740AD60.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.38C65262D740AD60.title}"
 			x: 1.875d
 			y: 5.0d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.38C65262D740AD60.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.38C65262D740AD60.description.0}"]
 			size: 2.5d
 			id: "38C65262D740AD60"
 			tasks: [{
@@ -1517,10 +1517,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.17CD065C4B98BB90.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.17CD065C4B98BB90.title}"
 			x: -1.25d
 			y: 5.0d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.17CD065C4B98BB90.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.17CD065C4B98BB90.description.0}"]
 			size: 2.5d
 			id: "17CD065C4B98BB90"
 			tasks: [{
@@ -1582,10 +1582,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.6572FA35622D61C3.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.6572FA35622D61C3.title}"
 			x: -7.5d
 			y: 5.0d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.6572FA35622D61C3.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.6572FA35622D61C3.description.0}"]
 			size: 2.5d
 			id: "6572FA35622D61C3"
 			tasks: [{
@@ -1647,10 +1647,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.49DA23CE575624AC.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.49DA23CE575624AC.title}"
 			x: -4.375d
 			y: 5.0d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.49DA23CE575624AC.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.49DA23CE575624AC.description.0}"]
 			size: 2.5d
 			id: "49DA23CE575624AC"
 			tasks: [{
@@ -1712,10 +1712,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.19E7D66B2BC76F5A.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.19E7D66B2BC76F5A.title}"
 			x: 5.0d
 			y: 5.0d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.19E7D66B2BC76F5A.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.19E7D66B2BC76F5A.description.0}"]
 			size: 2.5d
 			id: "19E7D66B2BC76F5A"
 			tasks: [{
@@ -1777,10 +1777,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.620998324F1D6995.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.620998324F1D6995.title}"
 			x: 8.125d
 			y: 5.0d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.620998324F1D6995.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.620998324F1D6995.description.0}"]
 			size: 2.5d
 			id: "620998324F1D6995"
 			tasks: [{
@@ -1842,10 +1842,10 @@
 			]
 		}
 		{
-			title: "{ddss2.chef_de_cuisine.69E02EB1868B6E83.0C68FAD7A9AA812C.title}"
+			title: "{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.0C68FAD7A9AA812C.title}"
 			x: 11.25d
 			y: 5.0d
-			description: ["{ddss2.chef_de_cuisine.69E02EB1868B6E83.0C68FAD7A9AA812C.description.0}"]
+			description: ["{ddss2.the_plushie_collection_challenge.2F7F711D466AEE61.0C68FAD7A9AA812C.description.0}"]
 			size: 2.5d
 			id: "0C68FAD7A9AA812C"
 			tasks: [{
