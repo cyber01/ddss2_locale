@@ -1,0 +1,4338 @@
+{
+	id: "2F3E4F0FF24569B6"
+	group: ""
+	order_index: 0
+	filename: "tier_0_"
+	title: "{ddss2.tier_0_.2F3E4F0FF24569B6.title}"
+	icon: "thermal:device_tree_extractor"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.06F9BD392017336F.title}"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: -28.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "{ddss2.tier_0_.2F3E4F0FF24569B6.06F9BD392017336F.subtitle}"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.06F9BD392017336F.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.06F9BD392017336F.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.06F9BD392017336F.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.06F9BD392017336F.description.3}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.06F9BD392017336F.description.4}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.06F9BD392017336F.description.5}"
+			]
+			size: 3.0d
+			id: "06F9BD392017336F"
+			tasks: [{
+				id: "5D6BE1F4894668BE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6528D22BAD7A2593"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.776451C775EF6677.title}"
+			icon: "sophisticatedbackpacks:backpack"
+			x: -23.0d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.776451C775EF6677.description.0}"
+				""
+			]
+			dependencies: ["19D82E72BC44A213"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "776451C775EF6677"
+			tasks: [{
+				id: "7AFC18151F6998C9"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1E0C5ED0937C1089"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4A8B01968EB75784.title}"
+			icon: "kubejs:chest_yellow"
+			x: -19.0d
+			y: -1.5d
+			subtitle: "{ddss2.tier_0_.2F3E4F0FF24569B6.4A8B01968EB75784.subtitle}"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4A8B01968EB75784.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4A8B01968EB75784.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4A8B01968EB75784.description.2}"
+			]
+			dependencies: ["19D82E72BC44A213"]
+			hide: true
+			id: "4A8B01968EB75784"
+			tasks: [{
+				id: "597A0B1AFE8AE489"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1DFB5F1E9D035BCC"
+				type: "choice"
+				icon: "kubejs:chest_yellow"
+				auto: "disabled"
+				table_id: 7631017697181852460L
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.37E2019C3BD23D99.title}"
+			icon: "minecraft:oak_log"
+			x: -11.5d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.37E2019C3BD23D99.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.37E2019C3BD23D99.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.37E2019C3BD23D99.description.2}"
+				""
+			]
+			dependencies: ["438BC32DF0A617DC"]
+			hide: true
+			id: "37E2019C3BD23D99"
+			tasks: [{
+				id: "11A852B9F7505944"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "4D7B2BD656EB46F9"
+					type: "item"
+					icon: "minecraft:oak_log"
+					item: "minecraft:oak_log"
+					count: 4
+				}
+				{
+					id: "2949190C0931894A"
+					type: "item"
+					item: "minecraft:coal"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.68D5B65CD9DCE679.title}"
+			icon: {
+				id: "artisantools:sifter_flint"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: -3.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.68D5B65CD9DCE679.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.68D5B65CD9DCE679.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.68D5B65CD9DCE679.description.2}"
+			]
+			dependencies: ["0602A0659D0C0AED"]
+			hide: true
+			id: "68D5B65CD9DCE679"
+			tasks: [
+				{
+					id: "11E5D85690DA56FF"
+					type: "item"
+					title: "Any #artisantools:type/sifter"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "artisantools:type/sifter"
+						}
+					}
+				}
+				{
+					id: "3C9818257B84093C"
+					type: "item"
+					title: "Any #forge:gravel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:gravel"
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "64BC87DC155FB61F"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 8
+				}
+				{
+					id: "1F70DF0CA89CA01F"
+					type: "item"
+					item: "minecraft:string"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.401754560C0D4F0F.title}"
+			icon: "pamhc2crops:lettuceseeditem"
+			x: 3.5d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.401754560C0D4F0F.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.401754560C0D4F0F.description.1}"
+			]
+			dependencies: ["1CCEB6468E965738"]
+			hide: true
+			optional: true
+			id: "401754560C0D4F0F"
+			tasks: [{
+				id: "1AC53012043E0EC1"
+				type: "item"
+				item: "pamhc2crops:lettuceseeditem"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "530A80C2A40C0F6D"
+					type: "item"
+					item: "minecraft:potato"
+					count: 2
+				}
+				{
+					id: "00DF8C1059A45949"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.561E69BE9701456F.title}"
+			x: 7.0d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.561E69BE9701456F.description.0}"
+				""
+				""
+			]
+			dependencies: [
+				"401754560C0D4F0F"
+				"30212B07AF134F57"
+			]
+			hide: true
+			optional: true
+			id: "561E69BE9701456F"
+			tasks: [{
+				id: "2664355FEC089BEC"
+				type: "item"
+				item: "pamhc2foodcore:p8juiceitem"
+			}]
+			rewards: [
+				{
+					id: "1BF7C92D02B4FB5F"
+					type: "item"
+					item: "pamhc2foodcore:friedchickenitem"
+				}
+				{
+					id: "2DB31B8007068A42"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "268537F695C8990E"
+					type: "item"
+					item: "pamhc2foodcore:p8juiceitem"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.14250DBDAE7803B4.title}"
+			x: 3.5d
+			y: -8.0d
+			shape: "circle"
+			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.14250DBDAE7803B4.description.0}"]
+			dependencies: ["401754560C0D4F0F"]
+			hide: true
+			optional: true
+			id: "14250DBDAE7803B4"
+			tasks: [{
+				id: "4CA6B107EF560BE8"
+				type: "item"
+				item: "silentgems:potato_on_a_stick"
+			}]
+			rewards: [{
+				id: "1781400F915CB881"
+				type: "item"
+				item: "thermal:potato_block"
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.3699F9707D23A36B.title}"
+			icon: {
+				id: "tconstruct:crafting_station"
+				Count: 1b
+				tag: {
+					texture: "minecraft:dark_oak_log"
+				}
+			}
+			x: -9.5d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3699F9707D23A36B.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3699F9707D23A36B.description.1}"
+				""
+			]
+			dependencies: ["37E2019C3BD23D99"]
+			hide: true
+			id: "3699F9707D23A36B"
+			tasks: [
+				{
+					id: "50455316A96CBFC8"
+					type: "item"
+					title: "Any #forge:clay"
+					item: "minecraft:clay_ball"
+					count: 8L
+				}
+				{
+					id: "17FA0C6028742DEB"
+					type: "item"
+					title: "Any #forge:cobblestone"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:cobblestone"
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "54CC47C777065616"
+					type: "item"
+					title: "Any #forge:sand"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:sand"
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "5089F46D2BC7FAC6"
+					type: "item"
+					title: "Any #forge:workbenches"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:workbenches"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "09DB354344FD6BD0"
+					type: "item"
+					item: "minecraft:flint"
+					count: 2
+				}
+				{
+					id: "3415D7A59C62DF67"
+					type: "item"
+					item: "minecraft:string"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.292E4BC091902A53.title}"
+			icon: "ceramics:clay_bucket"
+			x: 1.5d
+			y: -1.5d
+			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.292E4BC091902A53.description.0}"]
+			dependencies: ["14BF0A0DA5EF287E"]
+			hide: true
+			id: "292E4BC091902A53"
+			tasks: [{
+				id: "0987F443BDB1396D"
+				type: "item"
+				item: "ceramics:clay_bucket"
+			}]
+			rewards: [
+				{
+					id: "6E0D9E63053CE9F7"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 5
+				}
+				{
+					id: "7E411BD2BED093B1"
+					type: "item"
+					item: "mysticalagriculture:inferium_essence"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.14BF0A0DA5EF287E.title}"
+			icon: "minecraft:furnace"
+			x: -0.5d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.14BF0A0DA5EF287E.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.14BF0A0DA5EF287E.description.1}"
+			]
+			dependencies: ["5A62187892BCBCAE"]
+			hide: true
+			id: "14BF0A0DA5EF287E"
+			tasks: [
+				{
+					id: "5545C2F01A5BAB82"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "099F5AB1FF5C4B0E"
+					type: "item"
+					item: "minecraft:brick"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "7C3322D7798BC7F6"
+					type: "item"
+					item: "minecraft:torch"
+					count: 8
+				}
+				{
+					id: "63E6381617DECAD9"
+					type: "item"
+					item: "minecraft:brick"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4469F1066B3E9CA7.title}"
+			icon: {
+				id: "artisantools:mortar_flint"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: -3.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4469F1066B3E9CA7.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4469F1066B3E9CA7.description.1}"
+				""
+			]
+			dependencies: ["68D5B65CD9DCE679"]
+			hide: true
+			id: "4469F1066B3E9CA7"
+			tasks: [
+				{
+					id: "55E471B87BB4A82D"
+					type: "item"
+					title: "Any #artisantools:type/mortar"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "artisantools:type/mortar"
+						}
+					}
+				}
+				{
+					id: "5FC02DAA587B1661"
+					type: "item"
+					title: "Any #artisantools:type/knife"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "artisantools:type/knife"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4B82573F9063EBBD"
+					type: "item"
+					item: "minecraft:white_wool"
+				}
+				{
+					id: "6D9300FA01B8DAF1"
+					type: "item"
+					item: {
+						id: "artisantools:hammer_iron"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.30212B07AF134F57.title}"
+			icon: "pamhc2foodcore:freshwateritem"
+			x: 10.0d
+			y: -4.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.30212B07AF134F57.description.0}"
+				""
+				""
+			]
+			dependencies: ["3D2452E0F8CCF357"]
+			hide: true
+			id: "30212B07AF134F57"
+			tasks: [
+				{
+					id: "2CB72EA6F305BAA1"
+					type: "item"
+					item: "thermal:sawdust"
+					count: 4L
+				}
+				{
+					id: "5D5E5A94B01E1872"
+					type: "item"
+					item: "pamhc2foodcore:freshwateritem"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "532702A5831090DF"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "1F0BC2D521FEF1DC"
+					type: "item"
+					item: "pamhc2foodcore:freshwateritem"
+					count: 10
+				}
+				{
+					id: "33EA546992EBB2D3"
+					type: "item"
+					item: "minecraft:beetroot_seeds"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.22361AB31C70B8D4.title}"
+			icon: "pamhc2trees:apple_sapling"
+			x: -9.5d
+			y: -4.5d
+			shape: "heart"
+			subtitle: "{ddss2.tier_0_.2F3E4F0FF24569B6.22361AB31C70B8D4.subtitle}"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.22361AB31C70B8D4.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.22361AB31C70B8D4.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.22361AB31C70B8D4.description.2}"
+			]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "22361AB31C70B8D4"
+			tasks: [{
+				id: "01F4F8A4E31BB1D6"
+				type: "item"
+				title: "Any #forge:dirt"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:dirt"
+					}
+				}
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0ADC08ED878862A6"
+				type: "item"
+				item: "pamhc2trees:apple_sapling"
+				count: 2
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.0102A8F56664D2C4.title}"
+			icon: "cyclic:apple_sprout"
+			x: -9.5d
+			y: -8.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0102A8F56664D2C4.description.0}"
+				""
+			]
+			dependencies: ["22361AB31C70B8D4"]
+			hide: true
+			optional: true
+			id: "0102A8F56664D2C4"
+			tasks: [{
+				id: "33FABD67D0E603A7"
+				type: "item"
+				item: "cyclic:apple_sprout"
+				count: 2L
+			}]
+			rewards: [{
+				id: "32CC1A160FB327DF"
+				type: "choice"
+				auto: "disabled"
+				table_id: 4085395676668132896L
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.3D2452E0F8CCF357.title}"
+			icon: "kubejs:coin_t1"
+			x: 7.0d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3D2452E0F8CCF357.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3D2452E0F8CCF357.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3D2452E0F8CCF357.description.2}"
+			]
+			dependencies: ["0439843C0167A9D8"]
+			hide: true
+			id: "3D2452E0F8CCF357"
+			tasks: [{
+				id: "4C8C15B7794B2F08"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "11E34A9F6DDB295B"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "65CDFBD88F20BC89"
+					type: "item"
+					item: "minecraft:white_wool"
+				}
+				{
+					id: "6121A3919A3B5220"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.6C7C325880447341.title}"
+			icon: {
+				id: "pickletweaks:flint_shears"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: -3.5d
+			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.6C7C325880447341.description.0}"]
+			dependencies: ["4469F1066B3E9CA7"]
+			hide: true
+			id: "6C7C325880447341"
+			tasks: [{
+				id: "367F714D91C8DCA2"
+				type: "item"
+				item: {
+					id: "pickletweaks:flint_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "01CF1AB654DF02B4"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BC77EF27726D64E"
+					type: "item"
+					item: "mysticalagriculture:inferium_essence"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.65CFD35469C3BC0F.title}"
+			icon: "minecraft:orange_bed"
+			x: 10.0d
+			y: 1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.65CFD35469C3BC0F.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.65CFD35469C3BC0F.description.1}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.65CFD35469C3BC0F.description.2}"
+			]
+			dependencies: ["3D2452E0F8CCF357"]
+			hide: true
+			id: "65CFD35469C3BC0F"
+			tasks: [{
+				id: "5A9B1050B513881D"
+				type: "item"
+				title: "Any #minecraft:beds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "26D0483CAF8253BE"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "2BD28CC00E0B9A01"
+					type: "item"
+					item: "minecraft:cooked_chicken"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.11DD3FBD3333C7B6.title}"
+			x: 9.5d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.11DD3FBD3333C7B6.description.0}"
+				""
+				""
+			]
+			dependencies: ["3D2452E0F8CCF357"]
+			hide: true
+			id: "11DD3FBD3333C7B6"
+			tasks: [{
+				id: "590696C65312CEC8"
+				type: "item"
+				item: "fluidtank:tank_wood"
+			}]
+			rewards: [
+				{
+					id: "2EBEB5B7FDFEC1FC"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+					count: 4
+				}
+				{
+					id: "4362A3E504F8A1BB"
+					type: "item"
+					item: "minecraft:glass"
+					count: 10
+				}
+				{
+					id: "599954579D174CD2"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.749B11968B7D5A66.title}"
+			x: 11.5d
+			y: -1.5d
+			shape: "rsquare"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.749B11968B7D5A66.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.749B11968B7D5A66.description.1}"
+			]
+			dependencies: ["11DD3FBD3333C7B6"]
+			hide: true
+			id: "749B11968B7D5A66"
+			tasks: [{
+				id: "5EB521593C007D86"
+				type: "item"
+				item: "fluidtank:reservoir_wood"
+			}]
+			rewards: [
+				{
+					id: "16AE217B1A378BDD"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "7DA5F1A994A244AF"
+					type: "item"
+					item: "minecraft:sugar_cane"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.1EDF4381123B8CF8.title}"
+			icon: "minecraft:iron_ingot"
+			x: 13.5d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "{ddss2.tier_0_.2F3E4F0FF24569B6.1EDF4381123B8CF8.subtitle}"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1EDF4381123B8CF8.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1EDF4381123B8CF8.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1EDF4381123B8CF8.description.2}"
+			]
+			dependencies: ["749B11968B7D5A66"]
+			hide: true
+			id: "1EDF4381123B8CF8"
+			tasks: [
+				{
+					id: "689C3B1D3BD7AAFF"
+					type: "item"
+					title: "Any #forge:ingots/iron"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/iron"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "1B78DB617CE1FBED"
+					type: "item"
+					title: "Any #forge:ingots/copper"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "4A10BD50AC017BD2"
+					type: "item"
+					title: "Any #forge:ingots/tin"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/tin"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "69EA957124DEC384"
+					type: "item"
+					title: "Any #forge:ingots/zinc"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/zinc"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "594AD44D695074D4"
+					type: "item"
+					title: "Any #forge:ingots/bismuth"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/bismuth"
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "0E62E7368044E578"
+					type: "choice"
+					table_id: 7651562546043366665L
+				}
+				{
+					id: "0A61B0C630943370"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "66CCD83C1D2C0781"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.0709DB042EF80D79.title}"
+			x: 12.5d
+			y: 1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0709DB042EF80D79.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0709DB042EF80D79.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0709DB042EF80D79.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0709DB042EF80D79.description.3}"
+				""
+			]
+			dependencies: ["65CFD35469C3BC0F"]
+			hide: true
+			id: "0709DB042EF80D79"
+			tasks: [{
+				id: "6AAFEE5C00E18814"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [
+				{
+					id: "6D6CD728FDAFA1AF"
+					type: "item"
+					item: "biomesoplenty:flesh"
+				}
+				{
+					id: "4F4DB160F4662572"
+					type: "item"
+					item: "thermal:apple_block"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.3D395B4492A2E158.title}"
+			x: 15.0d
+			y: 1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3D395B4492A2E158.description.0}"
+				""
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3D395B4492A2E158.description.1}"
+			]
+			dependencies: ["0709DB042EF80D79"]
+			hide: true
+			id: "3D395B4492A2E158"
+			tasks: [{
+				id: "5D758D697D3386D3"
+				type: "item"
+				item: "kubejs:materia_t1"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "166473EA2542F5AD"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "20E486820A58D814"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+				{
+					id: "3F124B97FDE19F5C"
+					type: "item"
+					item: "thermal:beetroot_block"
+				}
+				{
+					id: "0DD367C1876F2CE9"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.2FF4C06DCA0B21F0.title}"
+			icon: "kubejs:chad"
+			x: 12.5d
+			y: -4.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2FF4C06DCA0B21F0.description.0}"
+				""
+			]
+			dependencies: ["30212B07AF134F57"]
+			hide: true
+			id: "2FF4C06DCA0B21F0"
+			tasks: [
+				{
+					id: "730ECAADAD0492F7"
+					type: "item"
+					item: "kubejs:chad"
+					count: 2L
+				}
+				{
+					id: "6755879690469126"
+					type: "item"
+					item: "cyclic:biomass"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "2B7BD47B880ED0DD"
+					type: "item"
+					item: "kubejs:chad"
+					count: 4
+				}
+				{
+					id: "15499CE697421970"
+					type: "item"
+					item: "cyclic:biomass"
+					count: 2
+				}
+				{
+					id: "5CBB6255431E44AF"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4F77B5892759A466.title}"
+			icon: "kubejs:lq_plastic"
+			x: 15.0d
+			y: -4.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4F77B5892759A466.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4F77B5892759A466.description.1}"
+			]
+			dependencies: ["2FF4C06DCA0B21F0"]
+			hide: true
+			id: "4F77B5892759A466"
+			tasks: [
+				{
+					id: "1BD09D349F217379"
+					type: "item"
+					item: "kubejs:lq_plastic"
+					count: 2L
+				}
+				{
+					id: "657CE43EF3E99E9D"
+					type: "item"
+					item: "minecraft:paper"
+				}
+			]
+			rewards: [
+				{
+					id: "6DCCEA1558DC11A2"
+					type: "item"
+					item: {
+						id: "artisantools:hammer_iron"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2336CCEA3156B258"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "3D2373BCDC0E60EE"
+					type: "item"
+					item: "minecraft:paper"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.1FE6978B28D14B5D.title}"
+			icon: "comforts:sleeping_bag_light_blue"
+			x: 10.0d
+			y: 4.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1FE6978B28D14B5D.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1FE6978B28D14B5D.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1FE6978B28D14B5D.description.2}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1FE6978B28D14B5D.description.3}"
+			]
+			dependencies: ["65CFD35469C3BC0F"]
+			hide: true
+			optional: true
+			id: "1FE6978B28D14B5D"
+			tasks: [{
+				id: "0EF579ABBD8D3A51"
+				type: "item"
+				title: "Any #forge:sleepingbags"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:sleepingbags"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4FB9F8A3C634128C"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "24A671F369D932E7"
+					type: "item"
+					item: "minecraft:coal_block"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.2DC72B79BD32F731.title}"
+			x: -11.5d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2DC72B79BD32F731.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2DC72B79BD32F731.description.1}"
+			]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			optional: true
+			id: "2DC72B79BD32F731"
+			tasks: [{
+				id: "530D69E7BDD64B1B"
+				type: "item"
+				item: "silentgear:sinew"
+			}]
+			rewards: [{
+				id: "63F44095BC6DB764"
+				type: "item"
+				item: "silentgear:sinew_fiber"
+				count: 2
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.58832A7AE40A4D93.title}"
+			icon: "minecraft:light_blue_shulker_box"
+			x: 7.0d
+			y: 3.0d
+			shape: "heart"
+			subtitle: "{ddss2.tier_0_.2F3E4F0FF24569B6.58832A7AE40A4D93.subtitle}"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.58832A7AE40A4D93.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.58832A7AE40A4D93.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.58832A7AE40A4D93.description.2}"
+				""
+			]
+			dependencies: ["3D2452E0F8CCF357"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "58832A7AE40A4D93"
+			tasks: [
+				{
+					id: "5C47E9AB88B20028"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "191824D23B6376CA"
+					type: "item"
+					title: "Any #forge:chests/wooden"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:chests/wooden"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "2B515E68203B2C2F"
+					type: "item"
+					item: "minecraft:light_blue_shulker_box"
+				}
+				{
+					id: "572B04D14D8EA12B"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.5A62187892BCBCAE.title}"
+			icon: "minecraft:writable_book"
+			x: -2.5d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5A62187892BCBCAE.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5A62187892BCBCAE.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5A62187892BCBCAE.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5A62187892BCBCAE.description.3}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5A62187892BCBCAE.description.4}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5A62187892BCBCAE.description.5}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5A62187892BCBCAE.description.6}"
+			]
+			dependencies: ["0602A0659D0C0AED"]
+			hide: true
+			id: "5A62187892BCBCAE"
+			tasks: [{
+				id: "7373017B83F8E732"
+				type: "checkmark"
+				title: "Useful Commands!"
+			}]
+			rewards: [{
+				id: "01EEA3027ACACA45"
+				type: "item"
+				item: "minecraft:cooked_beef"
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.758404E9AEE3983F.title}"
+			x: 18.0d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.758404E9AEE3983F.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.758404E9AEE3983F.description.1}"
+				""
+			]
+			dependencies: [
+				"3D395B4492A2E158"
+				"4F77B5892759A466"
+				"7203DC15752F0650"
+			]
+			hide: true
+			id: "758404E9AEE3983F"
+			tasks: [{
+				id: "588FF4F6D2CC9587"
+				type: "item"
+				item: "artisanworktables:workstation_blacksmith"
+			}]
+			rewards: [
+				{
+					id: "7FA49C18C3091FB2"
+					type: "item"
+					item: {
+						id: "artisantools:file_iron"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F60BAB2068A7588"
+					type: "item"
+					item: "moreplates:copper_plate"
+					count: 4
+				}
+				{
+					id: "6E9EF20BA12A4EDE"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "11DF1278AA828F5B"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.04914CFC7657F0D2.title}"
+			x: 21.0d
+			y: -4.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.04914CFC7657F0D2.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.04914CFC7657F0D2.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.04914CFC7657F0D2.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.04914CFC7657F0D2.description.3}"
+			]
+			dependencies: ["758404E9AEE3983F"]
+			hide: true
+			id: "04914CFC7657F0D2"
+			tasks: [{
+				id: "6E473321B750786F"
+				type: "item"
+				item: "kubejs:bolts_t1"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "71666391DE0B4674"
+					type: "item"
+					item: "kubejs:bolts_t1"
+					count: 8
+				}
+				{
+					id: "2AF7F9917212B8BA"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4C1D7695D740237E.title}"
+			icon: {
+				id: "pickletweaks:flint_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4C1D7695D740237E.description.0}"
+				""
+				""
+			]
+			dependencies: ["68D5B65CD9DCE679"]
+			hide: true
+			optional: true
+			id: "4C1D7695D740237E"
+			tasks: [
+				{
+					id: "2FF72AB3C45A2B76"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17198BF9488ED2E8"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "064DF5F98CED04C1"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_helmet"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "2033D441C2BECDF8"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.6728A8A2AEB9F231.title}"
+			x: -1.5d
+			y: 0.25d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.6728A8A2AEB9F231.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.6728A8A2AEB9F231.description.1}"
+			]
+			dependencies: ["14BF0A0DA5EF287E"]
+			hide: true
+			optional: true
+			id: "6728A8A2AEB9F231"
+			tasks: [{
+				id: "28FC9D5ED174EF6B"
+				type: "item"
+				title: "How To Charcoal "
+				item: "pickletweaks:charcoal_piece"
+				count: 8L
+			}]
+			rewards: [{
+				id: "56154FA53BDC505B"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 4
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.314E80168E039AAE.title}"
+			x: -11.5d
+			y: -3.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.314E80168E039AAE.description.0}"
+				""
+			]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			optional: true
+			id: "314E80168E039AAE"
+			tasks: [{
+				id: "0B8A7B1B4CA2237A"
+				type: "item"
+				item: "extendedcrafting:handheld_table"
+			}]
+			rewards: [{
+				id: "49A2CF02A40D0AF8"
+				type: "item"
+				item: "minecraft:cooked_porkchop"
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4766D28BFCA9C2D8.title}"
+			icon: "silents_mechanisms:oak_drying_rack"
+			x: -7.5d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4766D28BFCA9C2D8.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4766D28BFCA9C2D8.description.1}"
+				""
+			]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			optional: true
+			id: "4766D28BFCA9C2D8"
+			tasks: [{
+				id: "7DBDAD8F36B7D4E9"
+				type: "item"
+				title: "Any #silents_mechanisms:drying_racks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "silents_mechanisms:drying_racks"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "733F27B21E4DCE71"
+					type: "item"
+					item: "silents_mechanisms:beef_jerky"
+				}
+				{
+					id: "063C99BB9D160584"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.165720DB93DBB5DB.title}"
+			x: 23.0d
+			y: -4.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.165720DB93DBB5DB.description.0}"
+				""
+			]
+			dependencies: ["04914CFC7657F0D2"]
+			hide: true
+			id: "165720DB93DBB5DB"
+			tasks: [{
+				id: "6489624B6765AC46"
+				type: "item"
+				item: "mysticalagriculture:machine_frame"
+			}]
+			rewards: [
+				{
+					id: "1B8ABDD000E30DCB"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "7BCD584838C201EB"
+					type: "item"
+					item: "mysticalagriculture:machine_frame"
+				}
+				{
+					id: "3B17EEB3A61F79D0"
+					type: "item"
+					item: "moreplates:bismuth_plate"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.1AD78958B0E30471.title}"
+			icon: "byg:snowdrops"
+			x: -16.25d
+			y: -3.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1AD78958B0E30471.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1AD78958B0E30471.description.1}"
+				""
+			]
+			dependencies: ["4A8B01968EB75784"]
+			hide: true
+			id: "1AD78958B0E30471"
+			tasks: [{
+				id: "4811D2C027217960"
+				type: "checkmark"
+				title: "Serene Seasons!"
+			}]
+			rewards: [{
+				id: "7B7822B86AD1F837"
+				type: "item"
+				item: "minecraft:cactus"
+				count: 2
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.6B55E6903C04A13A.title}"
+			x: 15.0d
+			y: -7.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.6B55E6903C04A13A.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.6B55E6903C04A13A.description.1}"
+				""
+			]
+			dependencies: ["4F77B5892759A466"]
+			hide: true
+			optional: true
+			id: "6B55E6903C04A13A"
+			tasks: [{
+				id: "61A1145B95441855"
+				type: "item"
+				item: "sereneseasons:calendar"
+			}]
+			rewards: [{
+				id: "74F47C1F1972DE73"
+				type: "item"
+				item: "pamhc2foodextended:fishtacoitem"
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.07BC85B437817EAD.title}"
+			x: 25.0d
+			y: -7.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.07BC85B437817EAD.description.0}"
+				""
+			]
+			dependencies: ["165720DB93DBB5DB"]
+			hide: true
+			optional: true
+			id: "07BC85B437817EAD"
+			tasks: [{
+				id: "2F04C7A5C03EEDBA"
+				type: "item"
+				item: {
+					id: "cyclic:crafting_bag"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							Size: 9
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7DFFA9F0F562A3EA"
+					type: "item"
+					item: "minecraft:jack_o_lantern"
+					count: 2
+				}
+				{
+					id: "6CE1E740660885EE"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.44F4E79F903DD22B.title}"
+			x: -0.5d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.44F4E79F903DD22B.description.0}"
+				""
+			]
+			dependencies: ["4469F1066B3E9CA7"]
+			hide: true
+			optional: true
+			id: "44F4E79F903DD22B"
+			tasks: [{
+				id: "2FE824A226B0094D"
+				type: "item"
+				item: "minecraft:string"
+				count: 2L
+			}]
+			rewards: [{
+				id: "79D222A1C185E148"
+				type: "item"
+				item: "minecraft:string"
+				count: 2
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.0AE0B723B1385D56.title}"
+			x: -0.5d
+			y: -8.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0AE0B723B1385D56.description.0}"
+				""
+			]
+			dependencies: ["44F4E79F903DD22B"]
+			hide: true
+			optional: true
+			id: "0AE0B723B1385D56"
+			tasks: [{
+				id: "7D2711A61AC95B71"
+				type: "item"
+				item: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1E6B2E8AEB0A4B26"
+					type: "item"
+					item: {
+						id: "minecraft:tipped_arrow"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_poison"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "219298B5E18689C8"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.08CC025EDF3B1359.title}"
+			x: 21.0d
+			y: -7.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.08CC025EDF3B1359.description.0}"
+				""
+			]
+			dependencies: ["165720DB93DBB5DB"]
+			hide: true
+			optional: true
+			id: "08CC025EDF3B1359"
+			tasks: [{
+				id: "5E557E29D2362E88"
+				type: "item"
+				item: "artisanworktables:workstation_carpenter"
+			}]
+			rewards: [
+				{
+					id: "51FCD9AE5BDE413D"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "7FA705DBA7762B8A"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 20
+				}
+				{
+					id: "3C08CB2396E336E4"
+					type: "item"
+					item: "minecraft:dark_oak_sapling"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.18C90BDB6D8D6C23.title}"
+			x: 0.5d
+			y: 0.25d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.18C90BDB6D8D6C23.description.0}"
+				""
+			]
+			dependencies: ["14BF0A0DA5EF287E"]
+			hide: true
+			optional: true
+			id: "18C90BDB6D8D6C23"
+			tasks: [{
+				id: "6A561EBF33300966"
+				type: "item"
+				item: "trashcans:item_trash_can"
+			}]
+			rewards: [
+				{
+					id: "206E67DDE2935D17"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:night_vision"
+						}
+					}
+				}
+				{
+					id: "6D76AC745CB6FDBE"
+					type: "item"
+					item: "minecraft:melon"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.0E39CE8C2AE18408.title}"
+			icon: "projectred-core:sand_coal_comp"
+			x: 21.0d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0E39CE8C2AE18408.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0E39CE8C2AE18408.description.1}"
+			]
+			dependencies: ["758404E9AEE3983F"]
+			hide: true
+			id: "0E39CE8C2AE18408"
+			tasks: [
+				{
+					id: "1B6CAE53CA36739E"
+					type: "item"
+					item: "projectred-core:sand_coal_comp"
+				}
+				{
+					id: "6F5B210576B32864"
+					type: "item"
+					item: "projectred-core:boule"
+				}
+			]
+			rewards: [
+				{
+					id: "7F6C38FE0204F17C"
+					type: "item"
+					item: "projectred-core:boule"
+				}
+				{
+					id: "78F8EF7453C7E353"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "67EA421216E093ED"
+					type: "item"
+					item: "minecraft:sand"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.279608974525D267.title}"
+			icon: "chemlib:ingot_silicon"
+			x: 23.0d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.279608974525D267.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.279608974525D267.description.1}"
+				""
+			]
+			dependencies: ["0E39CE8C2AE18408"]
+			hide: true
+			id: "279608974525D267"
+			tasks: [
+				{
+					id: "12EDBEF8A9AB1D45"
+					type: "item"
+					item: "projectred-core:silicon"
+					count: 3L
+				}
+				{
+					id: "7F5D871016F69DA5"
+					type: "item"
+					item: "chemlib:ingot_silicon"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "199907272F556FA2"
+					type: "item"
+					item: "chemlib:ingot_silicon"
+				}
+				{
+					id: "0767862CEEB1026F"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "4F693E11FF5443EF"
+					type: "item"
+					item: "moreplates:silicon2_plate"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.173D40B38702D1AB.title}"
+			icon: "artisanworktables:workstation_engineer"
+			x: 28.5d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.173D40B38702D1AB.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.173D40B38702D1AB.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.173D40B38702D1AB.description.2}"
+			]
+			dependencies: [
+				"279608974525D267"
+				"4BA674C407615B72"
+				"5032DE5BE925D739"
+			]
+			hide: true
+			id: "173D40B38702D1AB"
+			tasks: [
+				{
+					id: "6DD5D1309900A193"
+					type: "item"
+					item: "artisanworktables:workstation_engineer"
+				}
+				{
+					id: "69944ECCEAC25282"
+					type: "item"
+					item: "artisanworktables:workstation_chemist"
+				}
+			]
+			rewards: [
+				{
+					id: "33DDB7A353AFFAE2"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2
+				}
+				{
+					id: "63064AE2E7C7DCA7"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "7F7BF7B953624679"
+					type: "choice"
+					table_id: 3341174482915288993L
+				}
+				{
+					id: "3F1D4D83A61D56A4"
+					type: "item"
+					item: "kubejs:bolts_t1"
+					count: 4
+				}
+				{
+					id: "5734142250765352"
+					type: "item"
+					item: "moreplates:red_ingot_plate"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.1C20744F0E950356.title}"
+			x: 19.0d
+			y: -4.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1C20744F0E950356.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1C20744F0E950356.description.1}"
+				""
+			]
+			dependencies: ["04914CFC7657F0D2"]
+			hide: true
+			optional: true
+			id: "1C20744F0E950356"
+			tasks: [{
+				id: "1B8FD7039C023517"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+			rewards: [
+				{
+					id: "2A839709D1D38AE5"
+					type: "item"
+					item: "ironchest:copper_chest"
+				}
+				{
+					id: "4EC1E1308CEC3C8C"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4403A5576E3DA26B.title}"
+			x: 19.0d
+			y: -7.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4403A5576E3DA26B.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4403A5576E3DA26B.description.1}"
+				""
+			]
+			dependencies: ["1C20744F0E950356"]
+			hide: true
+			optional: true
+			id: "4403A5576E3DA26B"
+			tasks: [{
+				id: "61810FFF7DA9D1EB"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [
+				{
+					id: "056A2F0BAAEC5BB0"
+					type: "item"
+					item: "ironchest:copper_to_iron_chest_upgrade"
+					count: 2
+				}
+				{
+					id: "0A602F06C01736F7"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.2D7A57FB9AA6F34A.title}"
+			icon: "silents_mechanisms:bronze_dust"
+			x: 31.5d
+			y: -3.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2D7A57FB9AA6F34A.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2D7A57FB9AA6F34A.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2D7A57FB9AA6F34A.description.2}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2D7A57FB9AA6F34A.description.3}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2D7A57FB9AA6F34A.description.4}"
+			]
+			dependencies: ["173D40B38702D1AB"]
+			hide: true
+			id: "2D7A57FB9AA6F34A"
+			tasks: [
+				{
+					id: "7512BC17A79F8344"
+					type: "item"
+					title: "Any #forge:dusts/bronze"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dusts/bronze"
+						}
+					}
+				}
+				{
+					id: "5E99371DA5F29610"
+					type: "item"
+					title: "Any #forge:dusts/brass"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dusts/brass"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6273AD66D117321E"
+					type: "item"
+					item: "silents_mechanisms:copper_dust"
+					count: 9
+				}
+				{
+					id: "2B2407F4E930C1D4"
+					type: "item"
+					item: "silents_mechanisms:gold_dust"
+				}
+				{
+					id: "1918059BD4A87FE7"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.317DBF1CB847DEBB.title}"
+			icon: "extendedcrafting:advanced_table"
+			x: 33.5d
+			y: -1.5d
+			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.317DBF1CB847DEBB.description.0}"]
+			dependencies: [
+				"2D7A57FB9AA6F34A"
+				"79697FA8D40077C9"
+				"485EDA98DC0A6DA6"
+			]
+			hide: true
+			id: "317DBF1CB847DEBB"
+			tasks: [{
+				id: "71D180FEDB19B8A1"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+			rewards: [
+				{
+					id: "5DE5A35645CDE4D6"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "49407C95F6D31CE7"
+					type: "choice"
+					title: "Choose some basic plates!"
+					table_id: 3341174482915288993L
+				}
+				{
+					id: "5F0E3B968DC18BC3"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "6266B163E014211A"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.19D82E72BC44A213.title}"
+			icon: "kubejs:aoa_mainquest"
+			x: -23.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "{ddss2.tier_0_.2F3E4F0FF24569B6.19D82E72BC44A213.subtitle}"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.19D82E72BC44A213.description.0}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.19D82E72BC44A213.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.19D82E72BC44A213.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.19D82E72BC44A213.description.3}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.19D82E72BC44A213.description.4}"
+				""
+			]
+			dependencies: ["06F9BD392017336F"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "19D82E72BC44A213"
+			tasks: [{
+				id: "039E36E4E8285823"
+				type: "checkmark"
+				title: "FYI"
+			}]
+			rewards: [{
+				id: "22B2ACA1E90B191C"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.1CCEB6468E965738.title}"
+			icon: "mysticalagriculture:inferium_seeds"
+			x: 3.5d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1CCEB6468E965738.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1CCEB6468E965738.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1CCEB6468E965738.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1CCEB6468E965738.description.3}"
+			]
+			dependencies: [
+				"292E4BC091902A53"
+				"6C7C325880447341"
+				"514C379410D294E1"
+			]
+			hide: true
+			id: "1CCEB6468E965738"
+			tasks: [
+				{
+					id: "33FC04645456C186"
+					type: "item"
+					item: "immersiveengineering:seed"
+				}
+				{
+					id: "0E00359971F8AF12"
+					type: "item"
+					item: "mysticalagriculture:inferium_seeds"
+				}
+			]
+			rewards: [
+				{
+					id: "0CA85C8B6708A46E"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 15
+				}
+				{
+					id: "7B32BFDA267D554A"
+					type: "item"
+					item: "pamhc2crops:flaxseeditem"
+					count: 2
+				}
+				{
+					id: "6BF091815B4A06D5"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.79697FA8D40077C9.title}"
+			icon: "industrialforegoing:dryrubber"
+			x: 31.5d
+			y: 0.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.79697FA8D40077C9.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.79697FA8D40077C9.description.1}"
+			]
+			dependencies: ["173D40B38702D1AB"]
+			hide: true
+			id: "79697FA8D40077C9"
+			tasks: [{
+				id: "683B063CC2AB21E5"
+				type: "item"
+				item: "industrialforegoing:dryrubber"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "223815A877CA6391"
+					type: "item"
+					item: "minecraft:clay"
+					count: 4
+				}
+				{
+					id: "215F7E1335135078"
+					type: "item"
+					item: "minecraft:lapis_ore"
+					count: 2
+				}
+				{
+					id: "426D93FC446B0782"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.255DDE5B10E97A5A.title}"
+			icon: "mysticalagriculture:raw_materia_seeds"
+			x: 15.0d
+			y: 4.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.255DDE5B10E97A5A.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.255DDE5B10E97A5A.description.1}"
+			]
+			dependencies: ["3D395B4492A2E158"]
+			hide: true
+			optional: true
+			id: "255DDE5B10E97A5A"
+			tasks: [{
+				id: "12D04CE22BA057FA"
+				type: "item"
+				item: "mysticalagriculture:raw_materia_seeds"
+			}]
+			rewards: [
+				{
+					id: "148F136C97271029"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+				{
+					id: "72DB91B61EFA4B96"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.0439843C0167A9D8.title}"
+			icon: "mysticalagriculture:tinkers_bronze_essence"
+			x: 5.25d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0439843C0167A9D8.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0439843C0167A9D8.description.1}"
+			]
+			dependencies: ["1CCEB6468E965738"]
+			hide: true
+			id: "0439843C0167A9D8"
+			tasks: [{
+				id: "2147E8E1646E4728"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "64F9BC4553C55817"
+					type: "item"
+					item: "mysticalagriculture:prosperity_seed_base"
+				}
+				{
+					id: "5832C90D67EDED27"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.07385B5C12C901A1.title}"
+			icon: "mysticalagriculture:stone_seeds"
+			x: 5.25d
+			y: -3.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.07385B5C12C901A1.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.07385B5C12C901A1.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.07385B5C12C901A1.description.2}"
+			]
+			dependencies: ["0439843C0167A9D8"]
+			hide: true
+			optional: true
+			id: "07385B5C12C901A1"
+			tasks: [
+				{
+					id: "3A74A82BD72B248E"
+					type: "item"
+					item: "mysticalagriculture:dirt_seeds"
+				}
+				{
+					id: "4A5778CFA623EBC2"
+					type: "item"
+					item: "mysticalagriculture:stone_seeds"
+				}
+			]
+			rewards: [
+				{
+					id: "0C9E707E7832251C"
+					type: "item"
+					item: "mysticalagriculture:wood_seeds"
+				}
+				{
+					id: "43470CAAD8A01E69"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.485EDA98DC0A6DA6.title}"
+			x: 31.5d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.485EDA98DC0A6DA6.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.485EDA98DC0A6DA6.description.1}"
+			]
+			dependencies: ["173D40B38702D1AB"]
+			hide: true
+			id: "485EDA98DC0A6DA6"
+			tasks: [{
+				id: "1B275C5BF1A06364"
+				type: "item"
+				item: "moreplates:inferium_plate"
+			}]
+			rewards: [
+				{
+					id: "4FF5C0939CD07E3D"
+					type: "item"
+					item: "mysticalagriculture:prosperity_ingot"
+				}
+				{
+					id: "65F70ACBFB1D5903"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4720A0C605B1A886.title}"
+			x: 23.0d
+			y: -7.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4720A0C605B1A886.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4720A0C605B1A886.description.1}"
+			]
+			dependencies: ["165720DB93DBB5DB"]
+			hide: true
+			optional: true
+			id: "4720A0C605B1A886"
+			tasks: [{
+				id: "6A6E3EE33AE886DF"
+				type: "item"
+				item: "appliedenergistics2:grindstone"
+			}]
+			rewards: [
+				{
+					id: "23F3D9788E8DE86B"
+					type: "item"
+					item: "appliedenergistics2:crank"
+					count: 2
+				}
+				{
+					id: "0EBFA955FF90E3F4"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4C8E493FBFAC7374.title}"
+			icon: "kubejs:aoa_sidequest"
+			x: -13.5d
+			y: 2.5d
+			shape: "circle"
+			subtitle: "{ddss2.tier_0_.2F3E4F0FF24569B6.4C8E493FBFAC7374.subtitle}"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4C8E493FBFAC7374.description.0}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4C8E493FBFAC7374.description.1}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4C8E493FBFAC7374.description.2}"
+			]
+			dependencies: ["438BC32DF0A617DC"]
+			hide: true
+			optional: true
+			id: "4C8E493FBFAC7374"
+			tasks: [{
+				id: "13FB9FF31FD580FF"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "34822BDC159CC28E"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.438BC32DF0A617DC.title}"
+			icon: "kubejs:aoa_mainquest"
+			x: -13.5d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.438BC32DF0A617DC.description.0}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.438BC32DF0A617DC.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.438BC32DF0A617DC.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.438BC32DF0A617DC.description.3}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.438BC32DF0A617DC.description.4}"
+				""
+				""
+				""
+				""
+			]
+			dependencies: [
+				"2468700896FE5013"
+				"1AD78958B0E30471"
+				"0AC228C053844BB5"
+			]
+			hide: true
+			id: "438BC32DF0A617DC"
+			tasks: [{
+				id: "755C28500A29AAD8"
+				type: "checkmark"
+				title: "Resources"
+			}]
+			rewards: [{
+				id: "4C1E40689EB71541"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4D5C4D96A0534929.title}"
+			icon: "kubejs:aoa_mainquest"
+			x: -2.5d
+			y: 1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4D5C4D96A0534929.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4D5C4D96A0534929.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4D5C4D96A0534929.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4D5C4D96A0534929.description.3}"
+			]
+			dependencies: ["0602A0659D0C0AED"]
+			hide: true
+			id: "4D5C4D96A0534929"
+			tasks: [{
+				id: "16C49927C1D84379"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6DE1954F32A40B2A"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.3400A8E8109460FF.title}"
+			icon: "kubejs:aoa_mainquest"
+			x: -0.5d
+			y: 1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3400A8E8109460FF.description.0}"
+				""
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3400A8E8109460FF.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3400A8E8109460FF.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3400A8E8109460FF.description.3}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3400A8E8109460FF.description.4}"
+			]
+			dependencies: ["4D5C4D96A0534929"]
+			hide: true
+			id: "3400A8E8109460FF"
+			tasks: [{
+				id: "0ED9F5A5B953A675"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "694AF8C976D37052"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.1486E610FE51D2D8.title}"
+			icon: {
+				id: "aoa3:mint_magnum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					HideFlags: 2b
+				}
+			}
+			x: -19.25d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1486E610FE51D2D8.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1486E610FE51D2D8.description.1}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			optional: true
+			id: "1486E610FE51D2D8"
+			tasks: [{
+				id: "272CD067F84A30E2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "450DBE19EB0A6934"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.3ACFF9556C684A92.title}"
+			icon: {
+				id: "aoa3:atomizer"
+				Count: 1b
+				tag: {
+					Damage: 0
+					HideFlags: 2b
+				}
+			}
+			x: -18.0d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3ACFF9556C684A92.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3ACFF9556C684A92.description.1}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			optional: true
+			id: "3ACFF9556C684A92"
+			tasks: [{
+				id: "4A447A5920B91199"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "43271CB90669497C"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4AA08463CDDBFA91.title}"
+			icon: {
+				id: "aoa3:terminator"
+				Count: 1b
+				tag: {
+					Damage: 0
+					HideFlags: 2b
+				}
+			}
+			x: -16.75d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4AA08463CDDBFA91.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4AA08463CDDBFA91.description.1}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			optional: true
+			id: "4AA08463CDDBFA91"
+			tasks: [{
+				id: "25F1F392E60FCAD8"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1C0CF3AC5268FA55"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.2E743C574039D69E.title}"
+			icon: {
+				id: "aoa3:gimmick"
+				Count: 1b
+				tag: {
+					Damage: 0
+					HideFlags: 2b
+				}
+			}
+			x: -15.5d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2E743C574039D69E.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2E743C574039D69E.description.1}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			optional: true
+			id: "2E743C574039D69E"
+			tasks: [{
+				id: "234F80220D8DC26F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "13F61071F3ABA7B7"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.1D701C65C2F6286B.title}"
+			icon: {
+				id: "aoa3:boom_boom"
+				Count: 1b
+				tag: {
+					Damage: 0
+					HideFlags: 2b
+				}
+			}
+			x: -14.25d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1D701C65C2F6286B.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1D701C65C2F6286B.description.1}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			optional: true
+			id: "1D701C65C2F6286B"
+			tasks: [{
+				id: "582B40DC3DBB1403"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "79E8F155E7FE7F6B"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.05059FAEC05EDC68.title}"
+			icon: {
+				id: "aoa3:tidal_greatblade"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -13.0d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.05059FAEC05EDC68.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.05059FAEC05EDC68.description.1}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			optional: true
+			id: "05059FAEC05EDC68"
+			tasks: [{
+				id: "16D06D7DC30175D4"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "53A33193DE457963"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.2DB914ED663FB68F.title}"
+			icon: {
+				id: "aoa3:vulcammer_maul"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -11.75d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2DB914ED663FB68F.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2DB914ED663FB68F.description.1}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			optional: true
+			id: "2DB914ED663FB68F"
+			tasks: [{
+				id: "6396119DAD414D95"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "21FB959A6C60623E"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.706AAB1591E9A593.title}"
+			icon: {
+				id: "aoa3:sky_staff"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -10.5d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.706AAB1591E9A593.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.706AAB1591E9A593.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.706AAB1591E9A593.description.2}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			optional: true
+			id: "706AAB1591E9A593"
+			tasks: [{
+				id: "2C543EA66C19DD7C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7B678565B4255644"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.003A076CF7AE4F53.title}"
+			icon: {
+				id: "aoa3:spectral_crossbow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -9.25d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.003A076CF7AE4F53.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.003A076CF7AE4F53.description.1}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			optional: true
+			id: "003A076CF7AE4F53"
+			tasks: [{
+				id: "080C4B70D64EB7FC"
+				type: "checkmark"
+				title: "Archerguns"
+			}]
+			rewards: [{
+				id: "3A008D15DB5D1EB6"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.3998244B4F8FD87C.title}"
+			icon: {
+				id: "aoa3:hellfire"
+				Count: 1b
+				tag: {
+					HideFlags: 2b
+				}
+			}
+			x: -8.0d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3998244B4F8FD87C.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3998244B4F8FD87C.description.1}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			optional: true
+			id: "3998244B4F8FD87C"
+			tasks: [{
+				id: "363227A0EA4E1C52"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7C2F5BDA83DC49E3"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.514C379410D294E1.title}"
+			icon: "kubejs:aoa_mainquest"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.514C379410D294E1.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.514C379410D294E1.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.514C379410D294E1.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.514C379410D294E1.description.3}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.514C379410D294E1.description.4}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.514C379410D294E1.description.5}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.514C379410D294E1.description.6}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.514C379410D294E1.description.7}"
+			]
+			dependencies: ["3400A8E8109460FF"]
+			hide: true
+			id: "514C379410D294E1"
+			tasks: [{
+				id: "3BE7A4220D375258"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4F4EE10D3F192A10"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.1539E56BB410B423.title}"
+			icon: "kubejs:aoa_sidequest"
+			x: 1.5d
+			y: 3.5d
+			shape: "circle"
+			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.1539E56BB410B423.description.0}"]
+			dependencies: ["514C379410D294E1"]
+			hide: true
+			optional: true
+			id: "1539E56BB410B423"
+			tasks: [{
+				id: "1784EEA795392542"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "05451B21F775AADB"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.744178BD08338510.title}"
+			icon: {
+				id: "alexsmobs:roadrunner_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.25d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.744178BD08338510.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.744178BD08338510.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.744178BD08338510.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.744178BD08338510.description.3}"
+			]
+			dependencies: ["1539E56BB410B423"]
+			hide: true
+			optional: true
+			id: "744178BD08338510"
+			tasks: [{
+				id: "6CF383E41A69A0CD"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "39560D6120AD713F"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.0C1E58DF95CB2382.title}"
+			icon: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.75d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0C1E58DF95CB2382.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0C1E58DF95CB2382.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0C1E58DF95CB2382.description.2}"
+			]
+			dependencies: ["1539E56BB410B423"]
+			hide: true
+			optional: true
+			id: "0C1E58DF95CB2382"
+			tasks: [{
+				id: "50A3828B3FD72E37"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "76087A85D83A1DA0"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.3989E14B36742501.title}"
+			icon: "kubejs:aoa_mainquest"
+			x: 21.0d
+			y: 1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3989E14B36742501.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3989E14B36742501.description.1}"
+				""
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3989E14B36742501.description.2}"
+			]
+			dependencies: ["758404E9AEE3983F"]
+			hide: true
+			id: "3989E14B36742501"
+			tasks: [{
+				id: "4EA3EE77E218E876"
+				type: "item"
+				item: "aoa3:ancient_rock"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "56B9F92B6F3F9033"
+					type: "item"
+					item: "aoa3:ancient_rock"
+					count: 10
+				}
+				{
+					id: "1F7B1967A3F60135"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.1AC340811EE0C6FE.title}"
+			icon: "aoa3:runium_ore"
+			x: 23.0d
+			y: 1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1AC340811EE0C6FE.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.1AC340811EE0C6FE.description.1}"
+			]
+			dependencies: ["3989E14B36742501"]
+			hide: true
+			id: "1AC340811EE0C6FE"
+			tasks: [
+				{
+					id: "5EE572297B081E43"
+					type: "item"
+					icon: "aoa3:runium_chunk"
+					item: "aoa3:runium_chunk"
+					count: 2L
+				}
+				{
+					id: "21C8AEF03B40E5DA"
+					type: "item"
+					item: "aoa3:unpowered_rune"
+				}
+			]
+			rewards: [
+				{
+					id: "23596FC6B773015A"
+					type: "item"
+					item: "aoa3:runium_ore"
+					count: 5
+				}
+				{
+					id: "03C6D92FBB9EF506"
+					type: "item"
+					item: "pamhc2foodcore:caramelappleitem"
+				}
+				{
+					id: "402EEC4645F4C43A"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.509D6B0B38DD0CBD.title}"
+			icon: "ironfurnaces:iron_furnace"
+			x: 28.5d
+			y: -4.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.509D6B0B38DD0CBD.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.509D6B0B38DD0CBD.description.1}"
+			]
+			dependencies: ["173D40B38702D1AB"]
+			hide: true
+			optional: true
+			id: "509D6B0B38DD0CBD"
+			tasks: [{
+				id: "484BC8BA643DBBDF"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [
+				{
+					id: "4F7D036896AA3851"
+					type: "item"
+					item: "ironfurnaces:iron_furnace"
+				}
+				{
+					id: "07C66E74C0647A02"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "6ED3A13B08A61843"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.4BA674C407615B72.title}"
+			icon: "thermal:device_tree_extractor"
+			x: 25.0d
+			y: -3.25d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4BA674C407615B72.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4BA674C407615B72.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4BA674C407615B72.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.4BA674C407615B72.description.3}"
+			]
+			dependencies: ["165720DB93DBB5DB"]
+			hide: true
+			id: "4BA674C407615B72"
+			tasks: [{
+				id: "22D02CB96A939E01"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+			rewards: [
+				{
+					id: "4C24B38990A921A8"
+					type: "item"
+					item: "thermal:device_tree_extractor"
+				}
+				{
+					id: "170BE25925B1C0B9"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 10
+				}
+				{
+					id: "268842EC45BD204B"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.388D50AED0D3FA69.title}"
+			icon: "pamhc2crops:tomatoseeditem"
+			x: -16.25d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.388D50AED0D3FA69.description.0}"
+				""
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.388D50AED0D3FA69.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.388D50AED0D3FA69.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.388D50AED0D3FA69.description.3}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.388D50AED0D3FA69.description.4}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.388D50AED0D3FA69.description.5}"
+			]
+			dependencies: ["1AD78958B0E30471"]
+			hide: true
+			optional: true
+			id: "388D50AED0D3FA69"
+			tasks: [{
+				id: "69587A8D7BF59977"
+				type: "checkmark"
+				title: "As mentioned before, Crop Fertility is a key feature in Serene Seasons."
+			}]
+			rewards: [{
+				id: "140B8AA943663F6F"
+				type: "item"
+				item: "pamhc2crops:tomatoseeditem"
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.0D662056605EA505.title}"
+			icon: {
+				id: "aoa3:gods_greatblade"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0D662056605EA505.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0D662056605EA505.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0D662056605EA505.description.2}"
+			]
+			dependencies: ["1539E56BB410B423"]
+			hide: true
+			optional: true
+			id: "0D662056605EA505"
+			tasks: [{
+				id: "361810B66961CA6E"
+				type: "checkmark"
+				title: "Skill: Innervation"
+			}]
+			rewards: [{
+				id: "35090DAE15214FF0"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.2438FE1AFB255E80.title}"
+			icon: "tconstruct:smeltery_controller"
+			x: 35.5d
+			y: -3.5d
+			shape: "gear"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2438FE1AFB255E80.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2438FE1AFB255E80.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2438FE1AFB255E80.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2438FE1AFB255E80.description.3}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2438FE1AFB255E80.description.4}"
+			]
+			dependencies: ["317DBF1CB847DEBB"]
+			hide: true
+			size: 2.0d
+			id: "2438FE1AFB255E80"
+			tasks: [
+				{
+					id: "146976B4F1A291A5"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "463CF85F63625C3C"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 4L
+				}
+				{
+					id: "37A395E27E96E205"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "115EC55C132F3F05"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "4F3E50A436C74BAB"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 8
+				}
+				{
+					id: "407FD235E60C03EA"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "7B6A975342EE0DF7"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "2CE230A6E27018A5"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.401B0384EEA5BD59.title}"
+			icon: "minecraft:magma_block"
+			x: 35.5d
+			y: 0.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.401B0384EEA5BD59.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.401B0384EEA5BD59.description.1}"
+			]
+			dependencies: ["317DBF1CB847DEBB"]
+			hide: true
+			id: "401B0384EEA5BD59"
+			tasks: [
+				{
+					id: "0488B9BF26260289"
+					type: "dimension"
+					dimension: "minecraft:the_nether"
+				}
+				{
+					id: "4231BBCC0917D7D6"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 6L
+				}
+				{
+					id: "22F3844248D7E62F"
+					type: "item"
+					title: "Any #forge:netherrack"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:netherrack"
+						}
+					}
+					count: 48L
+				}
+			]
+			rewards: [
+				{
+					id: "6170FA7C3E728A1A"
+					type: "item"
+					item: "minecraft:nether_brick"
+					count: 8
+				}
+				{
+					id: "5E79DAA9733E91F3"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 3
+				}
+				{
+					id: "0285A464BA665277"
+					type: "item"
+					item: "kubejs:calcite_dust"
+					count: 2
+				}
+				{
+					id: "1B736BB907B764C9"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.5F1F303E6C12E8CC.title}"
+			icon: "kubejs:calcite_dust"
+			x: 35.5d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5F1F303E6C12E8CC.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5F1F303E6C12E8CC.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5F1F303E6C12E8CC.description.2}"
+			]
+			dependencies: ["317DBF1CB847DEBB"]
+			hide: true
+			id: "5F1F303E6C12E8CC"
+			tasks: [
+				{
+					id: "2925DB48EAB7D8AF"
+					type: "item"
+					item: "kubejs:calcite_dust"
+					count: 8L
+				}
+				{
+					id: "5478F4EEC45EA5C4"
+					type: "item"
+					item: "silents_mechanisms:lead_dust"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "243A6B28E8778123"
+					type: "item"
+					item: "kubejs:calcite_dust"
+					count: 10
+				}
+				{
+					id: "093473DB804B43A7"
+					type: "item"
+					item: "silents_mechanisms:lead_dust"
+					count: 10
+				}
+				{
+					id: "4D1D45C515F2DAD7"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.294894D5C29AE7EE.title}"
+			icon: "immersiveengineering:blastbrick"
+			x: 39.25d
+			y: -1.5d
+			shape: "gear"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.294894D5C29AE7EE.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.294894D5C29AE7EE.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.294894D5C29AE7EE.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.294894D5C29AE7EE.description.3}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.294894D5C29AE7EE.description.4}"
+			]
+			dependencies: [
+				"5F1F303E6C12E8CC"
+				"2438FE1AFB255E80"
+				"401B0384EEA5BD59"
+			]
+			hide: true
+			size: 3.0d
+			id: "294894D5C29AE7EE"
+			tasks: [
+				{
+					id: "76CF8847F4495F1A"
+					type: "item"
+					item: "immersiveengineering:blastbrick"
+					count: 27L
+				}
+				{
+					id: "5DC9F7812890091C"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3E816FDC809A145C"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "1E29D89F796CBEB5"
+					type: "choice"
+					table_id: 7651562546043366665L
+				}
+				{
+					id: "28BAB4742FF49F7E"
+					type: "item"
+					item: "pamhc2foodcore:basiccheeseburgeritem"
+					count: 2
+				}
+				{
+					id: "0CF8B5F6F766B6AF"
+					type: "item"
+					item: "storagedrawers:obsidian_storage_upgrade"
+				}
+				{
+					id: "7FC0D5D5C4F51C0F"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+				{
+					id: "542C0A3C141DC2FE"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.2220F0AF36BBD599.title}"
+			icon: {
+				id: "constructionwand:stone_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+			x: 17.0d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2220F0AF36BBD599.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2220F0AF36BBD599.description.1}"
+			]
+			dependencies: ["758404E9AEE3983F"]
+			hide: true
+			optional: true
+			id: "2220F0AF36BBD599"
+			tasks: [{
+				id: "414566E2691570F6"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0206332D0B408CA9"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "029CAFAFDE8A46B2"
+					type: "item"
+					item: "silents_mechanisms:rabbit_jerky"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.7A0D0768B26DB622.title}"
+			icon: "artisanworktables:workstation_chef"
+			x: 29.0d
+			y: -7.5d
+			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.7A0D0768B26DB622.description.0}"]
+			dependencies: ["165720DB93DBB5DB"]
+			hide: true
+			size: 3.0d
+			id: "7A0D0768B26DB622"
+			tasks: [{
+				id: "7D22075B0D9A3256"
+				type: "item"
+				item: "artisanworktables:workstation_chef"
+			}]
+			rewards: [
+				{
+					id: "78FA4DB9921F1B3F"
+					type: "item"
+					item: "pamhc2foodextended:cornedbeefitem"
+				}
+				{
+					id: "2896C1F66EC869E6"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 5
+				}
+				{
+					id: "56BF814CDCA4EFFC"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.6C294EB5FC40E559.title}"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: -7.75d
+			y: -3.5d
+			shape: "circle"
+			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.6C294EB5FC40E559.description.0}"]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			optional: true
+			id: "6C294EB5FC40E559"
+			tasks: [{
+				id: "618F7D1D2811A5D2"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "378B115CF32901B4"
+					type: "item"
+					item: "storagedrawers:oak_full_drawers_4"
+					count: 4
+				}
+				{
+					id: "4CBB39AB0EE0022F"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.47B0FB87B9CDF24B.title}"
+			x: 33.51785714285714d
+			y: 1.6071428571428612d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.47B0FB87B9CDF24B.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.47B0FB87B9CDF24B.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.47B0FB87B9CDF24B.description.2}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.47B0FB87B9CDF24B.description.3}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.47B0FB87B9CDF24B.description.4}"
+			]
+			dependencies: ["317DBF1CB847DEBB"]
+			hide: true
+			optional: true
+			id: "47B0FB87B9CDF24B"
+			tasks: [{
+				id: "05F34AE0129461B5"
+				type: "item"
+				item: {
+					id: "paraglider:paraglider"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A9928082A9D01CD"
+					type: "item"
+					item: "paraglider:stamina_vessel"
+				}
+				{
+					id: "50DEB83ACCC1C81C"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.0602A0659D0C0AED.title}"
+			icon: "minecraft:chest"
+			x: -4.5d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0602A0659D0C0AED.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0602A0659D0C0AED.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0602A0659D0C0AED.description.2}"
+			]
+			dependencies: ["72B590FC46D7304C"]
+			hide: true
+			id: "0602A0659D0C0AED"
+			tasks: [{
+				id: "49CCF03B6B50D2F8"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4203F4A52D4FEF7A"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.72B590FC46D7304C.title}"
+			icon: "solcarrot:food_book"
+			x: -6.75d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.72B590FC46D7304C.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.72B590FC46D7304C.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.72B590FC46D7304C.description.2}"
+			]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			id: "72B590FC46D7304C"
+			tasks: [{
+				id: "29992B7EEFCA526A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5C8112B637323698"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.02AE3CC3E439F7EF.title}"
+			icon: "mekanism:basic_bin"
+			x: -5.5d
+			y: -3.5d
+			shape: "circle"
+			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.02AE3CC3E439F7EF.description.0}"]
+			dependencies: ["6C294EB5FC40E559"]
+			hide: true
+			optional: true
+			id: "02AE3CC3E439F7EF"
+			tasks: [{
+				id: "71E05CFC2AEE468D"
+				type: "item"
+				item: "mekanism:basic_bin"
+			}]
+			rewards: [
+				{
+					id: "3D15FE9901B6EE78"
+					type: "item"
+					item: "mekanism:basic_bin"
+					count: 2
+				}
+				{
+					id: "73ADC5F5E19D611A"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.2468700896FE5013.title}"
+			icon: "botania:animated_torch"
+			x: -16.25d
+			y: 0.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2468700896FE5013.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2468700896FE5013.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2468700896FE5013.description.2}"
+			]
+			dependencies: ["4A8B01968EB75784"]
+			hide: true
+			id: "2468700896FE5013"
+			tasks: [{
+				id: "31919AABA13B7A97"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "4A2047515DA96D90"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 4
+				}
+				{
+					id: "2314602D2023AAF3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.0AC228C053844BB5.title}"
+			icon: {
+				id: "minecraft:golden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -16.25d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0AC228C053844BB5.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0AC228C053844BB5.description.1}"
+			]
+			dependencies: ["4A8B01968EB75784"]
+			hide: true
+			id: "0AC228C053844BB5"
+			tasks: [{
+				id: "337AD4DB9EF18665"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5DE1353CDBFF1F23"
+				type: "item"
+				item: "pamhc2foodextended:leafychickensandwichitem"
+				count: 2
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.3FA0ADE367CA32D1.title}"
+			x: 28.5d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3FA0ADE367CA32D1.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3FA0ADE367CA32D1.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.3FA0ADE367CA32D1.description.2}"
+			]
+			dependencies: ["173D40B38702D1AB"]
+			hide: true
+			optional: true
+			id: "3FA0ADE367CA32D1"
+			tasks: [{
+				id: "11B5BBCCE2D125DF"
+				type: "item"
+				item: {
+					id: "grapple_hooks:hook_wooden"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D95883FD8218F2E"
+					type: "item"
+					item: "pamhc2foodextended:chocolatemilkshakeitem"
+				}
+				{
+					id: "3AC5C2947AD2B8C0"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.055B66167133C766.title}"
+			x: 28.5d
+			y: 4.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.055B66167133C766.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.055B66167133C766.description.1}"
+			]
+			dependencies: ["3FA0ADE367CA32D1"]
+			hide: true
+			optional: true
+			id: "055B66167133C766"
+			tasks: [{
+				id: "245AED79BBEC5CC7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "472E5DB325F3CF21"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.7203DC15752F0650.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 15.5d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.7203DC15752F0650.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.7203DC15752F0650.description.1}"
+			]
+			dependencies: ["1EDF4381123B8CF8"]
+			hide: true
+			id: "7203DC15752F0650"
+			tasks: [{
+				id: "59259DAD272876F4"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "53F5FB834BB95108"
+					type: "item"
+					item: "silents_mechanisms:copper_ore"
+				}
+				{
+					id: "75D10A603C07CB9A"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.5032DE5BE925D739.title}"
+			icon: "mekanism:ingot_osmium"
+			x: 25.0d
+			y: 0.25d
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5032DE5BE925D739.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5032DE5BE925D739.description.1}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5032DE5BE925D739.description.2}"
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5032DE5BE925D739.description.3}"
+			]
+			dependencies: ["1AC340811EE0C6FE"]
+			hide: true
+			id: "5032DE5BE925D739"
+			tasks: [
+				{
+					id: "4B2946F844B572FF"
+					type: "item"
+					title: "Any #forge:ingots/limonite"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/limonite"
+						}
+					}
+				}
+				{
+					id: "20A85F3E6489697D"
+					type: "item"
+					title: "Any #forge:ingots/rosite"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/rosite"
+						}
+					}
+				}
+				{
+					id: "69E2822624027DE8"
+					type: "item"
+					title: "Any #forge:ingots/osmium"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/osmium"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "69AD73C9F084A9A5"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "30456230F9470174"
+					type: "item"
+					item: "pamhc2foodextended:beefwellingtonitem"
+				}
+				{
+					id: "255220336B938FB9"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.545035A70D8E7E2B.title}"
+			x: 24.0d
+			y: 3.5d
+			shape: "circle"
+			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.545035A70D8E7E2B.description.0}"]
+			dependencies: ["5032DE5BE925D739"]
+			hide: true
+			optional: true
+			id: "545035A70D8E7E2B"
+			tasks: [{
+				id: "0B5E9E235148751A"
+				type: "item"
+				item: {
+					id: "aoa3:rosite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5C160C802B1EE602"
+					type: "item"
+					item: "aoa3:rosite_ore"
+					count: 4
+				}
+				{
+					id: "546AD9E841D1E303"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "2AD6018A56EF75DB"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.47951B4AE979AC41.title}"
+			x: 26.0d
+			y: 3.5d
+			shape: "circle"
+			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.47951B4AE979AC41.description.0}"]
+			dependencies: ["5032DE5BE925D739"]
+			hide: true
+			optional: true
+			id: "47951B4AE979AC41"
+			tasks: [{
+				id: "13312DCB41FC7152"
+				type: "item"
+				item: {
+					id: "mekanismtools:osmium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5FA1DA581E3058E6"
+					type: "item"
+					item: {
+						id: "mekanismtools:osmium_helmet"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "045AF27E447784C8"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2AB9377D6925C8C8.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2AB9377D6925C8C8.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.2AB9377D6925C8C8.description.2}"
+			]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			optional: true
+			id: "2AB9377D6925C8C8"
+			tasks: [{
+				id: "6E7A73EB6769A4F6"
+				type: "item"
+				item: {
+					id: "hammers:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "75600E9FD83CEE73"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 8
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.54767E2DDFFBD33F.title}"
+			x: 19.0d
+			y: 1.5d
+			shape: "circle"
+			description: ["{ddss2.tier_0_.2F3E4F0FF24569B6.54767E2DDFFBD33F.description.0}"]
+			dependencies: ["758404E9AEE3983F"]
+			hide: true
+			optional: true
+			id: "54767E2DDFFBD33F"
+			tasks: [{
+				id: "0C44674B9390EED1"
+				type: "item"
+				item: {
+					id: "hammers:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "04632E727A9A2DF8"
+					type: "choice"
+					table_id: 4100322638183988232L
+				}
+				{
+					id: "6481A543E3E7F2C0"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.0E98506F0BBFC02F.title}"
+			x: 19.0d
+			y: 4.5d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0E98506F0BBFC02F.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.0E98506F0BBFC02F.description.1}"
+			]
+			dependencies: ["54767E2DDFFBD33F"]
+			hide: true
+			optional: true
+			id: "0E98506F0BBFC02F"
+			tasks: [{
+				id: "4E097A733F9A7C81"
+				type: "item"
+				item: {
+					id: "hammers:enhanced_iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71B8AA7739D80E38"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "09284A7C5033FD21"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.19B1768E60011914.title}"
+			x: -4.5d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.19B1768E60011914.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.19B1768E60011914.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.19B1768E60011914.description.2}"
+			]
+			dependencies: ["0602A0659D0C0AED"]
+			hide: true
+			optional: true
+			id: "19B1768E60011914"
+			tasks: [{
+				id: "7D1B5CAC779B0AE5"
+				type: "item"
+				item: "storagecabinet:storagecabinet_wood"
+			}]
+			rewards: [{
+				id: "644710DB2351BB2C"
+				type: "item"
+				item: "minecraft:birch_log"
+				count: 8
+			}]
+		}
+		{
+			title: "{ddss2.tier_0_.2F3E4F0FF24569B6.5D3CEA156C0EA45C.title}"
+			x: 35.5d
+			y: 3.75d
+			shape: "circle"
+			description: [
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5D3CEA156C0EA45C.description.0}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5D3CEA156C0EA45C.description.1}"
+				""
+				"{ddss2.tier_0_.2F3E4F0FF24569B6.5D3CEA156C0EA45C.description.2}"
+			]
+			dependencies: ["401B0384EEA5BD59"]
+			hide: true
+			optional: true
+			id: "5D3CEA156C0EA45C"
+			tasks: [{
+				id: "2CD374F38E3AC9F5"
+				type: "item"
+				item: "kubejs:crate_t1"
+			}]
+			rewards: [{
+				id: "453AB9C0B18087E5"
+				type: "item"
+				item: "kubejs:crate_t1"
+			}]
+		}
+	]
+}

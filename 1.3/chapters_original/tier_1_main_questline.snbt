@@ -1,0 +1,6193 @@
+{
+	id: "1DBF6954F499E5B3"
+	group: ""
+	order_index: 1
+	filename: "tier_1_main_questline"
+	title: "Tier 1 -> Main Questline"
+	icon: {
+		id: "custommachinery:custom_machine_item"
+		Count: 1b
+		tag: {
+			machine: "custommachinery:pulverizer01_steam"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome To Tier 1!"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -42.75d
+			y: -0.75d
+			shape: "rsquare"
+			description: [
+				"Welcome to Tier 1! The age of steam."
+				""
+				"In this chapter, we will build our first steam generators and machines including multiblocks. Touch the basics of certain magic mods and you will travel to your first fantasy dimensions."
+			]
+			dependencies: ["294894D5C29AE7EE"]
+			hide: true
+			size: 3.0d
+			id: "527873FF2A3E2D02"
+			tasks: [{
+				id: "5C509BA47BE2A2F8"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "148054AB35DA504A"
+					type: "item"
+					item: "industrialforegoing:dryrubber"
+				}
+				{
+					id: "504EA289B358E7E9"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Pneumatic Device T1"
+			icon: "kubejs:pump_t1"
+			x: -32.0d
+			y: -2.5d
+			description: [
+				"Pneumatic devices, like many items in ddss2, come in 6 different tiers. "
+				""
+				"These devices are incredibly versatile components that are used in a variety of applications. They are essential for machines that need to transfer items, fluids, or gases internally."
+				""
+				"It' s a pain to build them with the workshop, but for now there is no other way. Soon it will be easier with steam machines."
+			]
+			dependencies: ["195A62D298613F2D"]
+			hide: true
+			id: "11FE2A5E138A2CCF"
+			tasks: [{
+				id: "3767A1CFCE84D1E5"
+				type: "item"
+				item: "kubejs:pump_t1"
+			}]
+			rewards: [
+				{
+					id: "30435E1AB786E2CB"
+					type: "item"
+					auto: "disabled"
+					item: "kubejs:pump_t1"
+				}
+				{
+					id: "098F0370CA6131F2"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Insulating Glass"
+			icon: "immersiveengineering:insulating_glass"
+			x: -36.0d
+			y: -0.75d
+			description: [
+				"Insulating Glass is a lightweight type of heat-resistant glass used for various components where glass is indispensable."
+				""
+				"This is where osmium is used for the first time for components. The ore can be found between y level 0 and 60."
+				""
+				"The engineers workshop is needed. Later, an assembler will make the production of this glass more efficient."
+			]
+			dependencies: [
+				"66D0E0439701653D"
+				"4471D00098505CC0"
+			]
+			hide: true
+			id: "7141CBF29368D246"
+			tasks: [{
+				id: "534F8F38ADAE3689"
+				type: "item"
+				item: "immersiveengineering:insulating_glass"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "0570520C434DB321"
+					type: "item"
+					item: "mekanism:ingot_osmium"
+					count: 2
+				}
+				{
+					id: "16E0DD8C27AA0A7D"
+					type: "item"
+					item: "moreplates:inferium_stick"
+				}
+				{
+					id: "4956D77C33C61322"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Fluid Regulator"
+			icon: "kubejs:regulator"
+			x: -34.0d
+			y: -0.75d
+			description: ["The Fluid Regulator is an incredible piece of equipment that has a name that says it all. It's the perfect solution for controlling the flow of fluids in machines. And get this — it's not just limited to liquids. It's just as effective when it comes to gases and steam, making it a total game-changer!"]
+			dependencies: ["7141CBF29368D246"]
+			hide: true
+			id: "195A62D298613F2D"
+			tasks: [{
+				id: "7773C36F5FB73800"
+				type: "item"
+				item: "kubejs:regulator"
+			}]
+			rewards: [
+				{
+					id: "038E0F955129E72B"
+					type: "item"
+					item: "kubejs:regulator"
+				}
+				{
+					id: "69C20D041158EC9F"
+					type: "item"
+					item: "moreplates:aluminum_plate"
+					count: 4
+				}
+				{
+					id: "5AD94AEE4EF5FE96"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Low Pressure Boiler"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:boiler_lp"
+				}
+			}
+			x: -28.0d
+			y: -0.75d
+			description: [
+				"The low pressure boiler needs water and fuel (coal/wood) to produce steam. It produces 20mb of steam per tick. The burn time of the coal depends on its type."
+				""
+				"Start collecting steam in external tanks, you will need it soon enough once you start building your first machines."
+			]
+			dependencies: ["62EEAC6E559BF455"]
+			hide: true
+			id: "77C1E3CAFA1587DD"
+			tasks: [{
+				id: "457836AB820C0683"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:boiler_lp"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5BDF9AA463FB7F64"
+					type: "item"
+					item: "mysticalagradditions:inferium_coal"
+					count: 10
+				}
+				{
+					id: "078BA30EC7C4153C"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Large Cooling Cells T1"
+			icon: "kubejs:mbcasing_t1"
+			x: -7.5d
+			y: -0.75d
+			description: ["A Large Cooling Cell is a passive cooling case that protects machines and multiblock structures from overheating. It comes in 6 different tiers."]
+			dependencies: ["68460CE103B2E57B"]
+			hide: true
+			id: "51A1CF021F3C3187"
+			tasks: [{
+				id: "707526CACB695310"
+				type: "item"
+				item: "kubejs:mbcasing_t1"
+			}]
+			rewards: [
+				{
+					id: "41B0096ADFD89BA9"
+					type: "item"
+					item: "moreplates:bronze_plate"
+					count: 4
+				}
+				{
+					id: "769DB8E05F044B7D"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Water Collector T1"
+			icon: "watersources:water_source_tier_1"
+			x: -30.0d
+			y: -0.75d
+			description: [
+				"This machine extracts water from the environment and stores it in its internal tank. It can be collected using buckets or extracted with pipes. "
+				""
+				"This device comes in 4 tiers, the first one pumps water at a rate of 250mb every 4 tick. This is enough to supply at least 2 fully upgraded low pressure boilers with sufficient water."
+			]
+			dependencies: [
+				"11FE2A5E138A2CCF"
+				"34F3F6C598313C2B"
+			]
+			hide: true
+			id: "62EEAC6E559BF455"
+			tasks: [{
+				id: "04C25CE656B5C1A7"
+				type: "item"
+				icon: "watersources:water_source_tier_1"
+				item: "watersources:water_source_tier_2"
+			}]
+			rewards: [
+				{
+					id: "0D55480B3753E534"
+					type: "item"
+					item: "pamhc2foodcore:basichamburgeritem"
+				}
+				{
+					id: "30D84245B1898BE2"
+					type: "item"
+					item: "fluidtank:tank_wood"
+					count: 2
+				}
+				{
+					id: "4FDC8165450B2A5B"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Fluid Pipes"
+			x: -32.0d
+			y: 1.0d
+			description: [
+				"Pipes from the mod pipez are very efficient and are designed to create as little lag as possible. Unlike other pipes, these do not need to be replaced because the transfer rate of fluids/items/energy/gas is based on the upgrades used at the end of a pipe. Without upgrades, they function at a minimal rate."
+				""
+				"Pipes don't transfer anything if they are not set to extract. You can sneak-click onto the end of a connected pipe with a wrench to set it to extract. Click the extracting part of the pipe to change modes, add filters or add upgrades."
+				""
+				"Example on how to extract water from a Water Collector:"
+				"{image:modpack:textures/quest_images/water_collector.png width:160 height:135 align:1}"
+			]
+			dependencies: ["195A62D298613F2D"]
+			hide: true
+			id: "34F3F6C598313C2B"
+			tasks: [{
+				id: "1A848DD367C17245"
+				type: "item"
+				item: { id: "pipez:fluid_pipe", Count: 4b }
+			}]
+			rewards: [
+				{
+					id: "1F390FC3368B6671"
+					type: "item"
+					item: "pipez:wrench"
+				}
+				{
+					id: "3D02BF9D7A96B441"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Fluid Cells!"
+			icon: "fluidcells:fluid_cell"
+			x: 19.5d
+			y: -8.25d
+			description: [
+				"Thanks to my buddy Atu1sto, the good old Fluid Cells from Tech Reborn have been reintroduced for version 1.16.5. Just like in DDSS 1, they can be used as a stackable bucket."
+				""
+				"Credits: https://www.curseforge.com/minecraft/mc-mods/fluid-cells"
+			]
+			dependencies: ["48E42BAB1A990772"]
+			hide: true
+			id: "5A1E8B32C5D7D958"
+			tasks: [{
+				id: "1A03B3E02B0148A9"
+				type: "item"
+				item: "fluidcells:fluid_cell"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "626FA0BD175EC614"
+					type: "item"
+					item: "fluidcells:fluid_cell"
+				}
+				{
+					id: "29ED94BFF6C7DFC9"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "5D08B683DB59854F"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Rubber Gasket Ring"
+			icon: "kubejs:gasket_ring"
+			x: -38.5d
+			y: -2.5d
+			description: [
+				"The next item we need to work on are gasket rings. These are essential for various machine parts."
+				""
+				"They are made from rubber and the better the quality of the rubber, the more you get out of it."
+			]
+			dependencies: ["527873FF2A3E2D02"]
+			hide: true
+			id: "66D0E0439701653D"
+			tasks: [{
+				id: "5582F5608CCB2ACC"
+				type: "item"
+				item: "kubejs:gasket_ring"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "20B817C477D85F1A"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "61C77A894AC6398D"
+					type: "item"
+					item: "moreplates:silicon2_plate"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Compressed Iron!"
+			icon: "pneumaticcraft:ingot_iron_compressed"
+			x: -26.0d
+			y: -2.5d
+			description: [
+				"To get these ingots before you can build a pressure chamber, you have to use TNT. We will already need a few to get further."
+				""
+				"Drop Iron Ingots and activate TNT next to the dropped item(s). 80% of the ingots will be converted into Compressed Iron Ingots. Unfortunately, the rest is gone."
+			]
+			dependencies: ["77C1E3CAFA1587DD"]
+			hide: true
+			id: "23AEFD22A925456E"
+			tasks: [{
+				id: "3087FDBBCC292559"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "6AF368F0DC05564E"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "46B46A375B9880B4"
+					type: "item"
+					item: "pneumaticcraft:ingot_iron_compressed"
+					count: 2
+				}
+				{
+					id: "3812F4AB5BB38100"
+					type: "item"
+					item: "pamhc2foodextended:leafychickensandwichitem"
+				}
+			]
+		}
+		{
+			title: "First Steam Motor!"
+			icon: "kubejs:motor_t1"
+			x: -24.0d
+			y: -0.75d
+			description: ["The Steam Motor is the first in a series of many motors that will take you through this pack. It is used for almost all steam machines."]
+			dependencies: [
+				"23AEFD22A925456E"
+				"054704F36F1C58FD"
+				"1B3C3A3BC818755F"
+			]
+			hide: true
+			id: "33E68EF1289B96C9"
+			tasks: [{
+				id: "376A6DDCEFDA17CD"
+				type: "item"
+				item: "kubejs:motor_t1"
+			}]
+			rewards: [
+				{
+					id: "3F7467B7E9CAD8C6"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "6819ED7390CCBF38"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Steam Alloy Smelter!"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:alloysmelter01_steam"
+				}
+			}
+			x: -21.25d
+			y: 1.0d
+			description: [
+				"The Alloy smelter! Probably the most useful machine for every Minecraft player. With the number of alloy combinations possible in this pack, this device is a real godsend, even if our first one runs on steam."
+				""
+				""
+				"All Steam machines are equipped with an upgrade and a \"boosting\" slot."
+			]
+			dependencies: ["33E68EF1289B96C9"]
+			hide: true
+			id: "5A94CE59E91A169B"
+			tasks: [{
+				id: "579DEF542CC3DD97"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:alloysmelter01_steam"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7758EC91F3349ABB"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "67BA5AAC2F4FFDFE"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "1B56B6ADCD5B1BEB"
+					type: "choice"
+					table_id: 7651562546043366665L
+				}
+				{
+					id: "12AB6FD095141B3D"
+					type: "choice"
+					table_id: 3341174482915288993L
+				}
+			]
+		}
+		{
+			title: "Crude Oil and Lubricant!"
+			icon: "pneumaticcraft:oil_bucket"
+			x: -26.0d
+			y: -0.75d
+			description: [
+				"Lubricant is used in many machine parts and motors. "
+				""
+				"The production without having machines beforehand is very annoying and requires crude oil. Later you can use tree oil, biodiesel and a bunch of other liquids."
+				""
+				"Fortunately, crude oil spawns randomly in hot biomes. These include Vanilla Deserts and modded biomes such as Red Deserts, Lush Savannas, and so on. You should set out on a journey to find it and fill a portable tank with it. Take enough with you; production is not very efficient with this early-game alternative."
+			]
+			dependencies: ["77C1E3CAFA1587DD"]
+			hide: true
+			id: "054704F36F1C58FD"
+			tasks: [{
+				id: "526FB3F5854776D1"
+				type: "item"
+				item: "immersivepetroleum:lubricant_bucket"
+			}]
+			rewards: [
+				{
+					id: "624FA85CB2F5C40C"
+					type: "item"
+					item: {
+						id: "fluidtank:tank_stone"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								tier: "stone"
+								tank: {
+									amount: 8000L
+									fluid: "pneumaticcraft:oil"
+									capacity: 16000L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "37CC3CE3C8E3964A"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Complex Alloy T1"
+			x: -18.5d
+			y: 1.0d
+			description: [
+				"The first important step you should take is to learn how to make Complex Alloy T1. Each age has its own Complex Alloy and you will always need the previous tier."
+				""
+				"The alloy usually contains ingots and other alloys from the respective age. With the exception of T1, most of the other complex alloys require you to visit other dimensions or even planets."
+				""
+				"A Void ore miner will make your life easier later on. But we'll get to that in a later stage."
+			]
+			dependencies: ["5A94CE59E91A169B"]
+			hide: true
+			id: "361393940DCFF2EC"
+			tasks: [{
+				id: "5AC97CB6A4103C88"
+				type: "item"
+				item: "kubejs:complexalloy_t1"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "57EBC735CD01AE34"
+					type: "item"
+					item: "kubejs:complex_plate_t1"
+					count: 2
+				}
+				{
+					id: "36D4A7F9FD76E504"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Coke Oven"
+			x: -38.5d
+			y: 1.0d
+			shape: "gear"
+			description: [
+				"The Coke Oven is our next multiblock structure. It is made with Coke Bricks arranged in a 3x3x3 solid cube and right-clicking on a central block of any face with an Engineer's Hammer."
+				""
+				"While you're working on your steam machine components, we need to start setting up the coke oven and fermenting Creosote oil. It will be used for your first purification fluid. More on this later."
+				""
+				"The by-product is either charcoal or coal coke, which burns a lot longer than coal and this is going to be very useful for the upcoming steam boiler."
+			]
+			dependencies: ["527873FF2A3E2D02"]
+			hide: true
+			size: 2.0d
+			id: "4471D00098505CC0"
+			tasks: [{
+				id: "5A33C49CDB4A9094"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 18L
+			}]
+			rewards: [
+				{
+					id: "4E4909D37E5A9D51"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 9
+				}
+				{
+					id: "44774D1A9EC59DA9"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Creosote Oil"
+			icon: "immersiveengineering:creosote_bucket"
+			x: -21.25d
+			y: -2.5d
+			description: ["As I mentioned earlier, creosote oil is made in the coke oven during the early stages of this modpack. Now is the perfect time to use it! Grab a bucket of this amazing stuff so we can move on to making purification fluid."]
+			dependencies: ["33E68EF1289B96C9"]
+			hide: true
+			id: "6E293080174C5B2C"
+			tasks: [{
+				id: "0CEA0D9FD7F7D8F0"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			rewards: [
+				{
+					id: "71973CE4A1C3200E"
+					type: "item"
+					item: "thermal:coal_coke"
+					count: 8
+				}
+				{
+					id: "10126E252EFAAA46"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "E-D-R-U ?"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:electroly_steam"
+				}
+			}
+			x: -15.75d
+			y: 1.0d
+			description: ["E-D-R-U stands for Electolysing, Distilling and Refining Unit. As the name suggests, this is a very versatile machine that can perform a wide variety of tasks."]
+			dependencies: ["361393940DCFF2EC"]
+			hide: true
+			id: "296E617E84C35438"
+			tasks: [{
+				id: "087AC0583CB25602"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:electroly_steam"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1AB84C4A12F568E8"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "6E59B188F928F9D1"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "731F4425935B7870"
+					type: "item"
+					item: "kubejs:pump_t1"
+				}
+			]
+		}
+		{
+			title: "Purification Fluid"
+			icon: "kubejs:weak_puri_bucket"
+			x: -15.75d
+			y: -2.5d
+			description: [
+				"Purification Fluid is used to refine and improve metals. Like Pure Iron, for example. "
+				""
+				"It's a bit of a pain to produce this in the workshop since you have to make it in buckets. We're going to build some machines soon to make production easier because we need to make a lot of this in the pack."
+			]
+			dependencies: ["370F94752A12DF85"]
+			hide: true
+			id: "1809466AFB5F379C"
+			tasks: [{
+				id: "2308D0CB3257FFB9"
+				type: "item"
+				item: "kubejs:weak_puri_bucket"
+			}]
+			rewards: [
+				{
+					id: "151A61C0E2DA3368"
+					type: "item"
+					item: {
+						id: "fluidtank:tank_wood"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								tier: "wood"
+								tank: {
+									amount: 4000L
+									fluid: "kubejs:weak_puri"
+									capacity: 4000L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "05DD661C2E8D4F35"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Pure Iron!"
+			x: -13.5d
+			y: -0.75d
+			description: [
+				"Now that you have the basic knowledge to produce pure metals, it's time to make some pure iron. This is for now the only way to get better machines."
+				""
+				"Take a look at JEI to see how pure iron is produced in the EDRU."
+			]
+			dependencies: [
+				"1809466AFB5F379C"
+				"296E617E84C35438"
+			]
+			hide: true
+			id: "7FB8F3D2C79F34A6"
+			tasks: [{
+				id: "6070E0110CA54362"
+				type: "item"
+				item: "kubejs:pure_iron"
+			}]
+			rewards: [
+				{
+					id: "0C9A63B52C747CB3"
+					type: "item"
+					item: "kubejs:pure_iron"
+					count: 2
+				}
+				{
+					id: "1025C3E7C8965AC6"
+					type: "item"
+					item: "moreplates:silicon2_stick"
+					count: 4
+				}
+				{
+					id: "6BDE7E13776D4B76"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "2EB218E9EB1CA72E"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Pneumatic Gearbox!"
+			icon: "extendedcrafting:frame"
+			x: 1.0d
+			y: -0.75d
+			description: ["The pneumatic gearbox is an essential component of most steam machines."]
+			dependencies: ["056B81FD25E2F828"]
+			hide: true
+			id: "49FEC7A61007E047"
+			tasks: [{
+				id: "7488F2D032041D04"
+				type: "item"
+				item: "extendedcrafting:frame"
+			}]
+			rewards: [
+				{
+					id: "5EAB6143CA4B110D"
+					type: "item"
+					item: "immersiveengineering:component_iron"
+				}
+				{
+					id: "29CF58EECDE2BB8F"
+					type: "item"
+					item: "moreplates:tin_gear"
+				}
+				{
+					id: "7CB3B57E26F6F514"
+					type: "item"
+					item: "kubejs:pure_iron_gear"
+				}
+				{
+					id: "4E870E71AB62C121"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Catalyst for a new dimension..."
+			x: -7.5d
+			y: -4.5d
+			description: ["The Catalyst is an item used to activate The Undergarden portal."]
+			dependencies: ["5B5E57531C283E95"]
+			hide: true
+			id: "7AC964ED6C715C03"
+			tasks: [{
+				id: "0AC6028A51694364"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+			rewards: [
+				{
+					id: "04CE172CBC49B28E"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "216437D0C5FB8D4C"
+					type: "item"
+					item: "kubejs:materia_t1"
+				}
+				{
+					id: "175391B89D1F9529"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Pure Aquamarine!"
+			x: -10.5d
+			y: -4.5d
+			description: ["Just like Pure Iron, Aquamarine can also be refined with an EDRU and later with a Fusion Computer."]
+			dependencies: ["5020FB384A719C41"]
+			hide: true
+			id: "5B5E57531C283E95"
+			tasks: [{
+				id: "7A392076504B2C78"
+				type: "item"
+				item: "kubejs:pure_aqua"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "633D44A088E0FAF5"
+					type: "item"
+					item: "kubejs:pure_aqua"
+					count: 2
+				}
+				{
+					id: "2B670FA1274E73D0"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "The Undergarden!"
+			icon: "aoa3:creeponia_portal"
+			x: -4.5d
+			y: -4.5d
+			description: [
+				"The Undergarden is a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."
+				""
+				"An Undergarden portal is built in a very similar manner to the Nether portal. It is built as a vertical, rectangular frame of stone bricks, Use the Catalyst to activate it."
+				""
+				"{image:modpack:textures/quest_images/portal_undergarden.png width:100 height:150 align:1}"
+			]
+			dependencies: ["7AC964ED6C715C03"]
+			hide: true
+			id: "67424363A823905E"
+			tasks: [{
+				id: "50313462C666C718"
+				type: "item"
+				item: "minecraft:stone_bricks"
+				count: 14L
+			}]
+			rewards: [
+				{
+					id: "2B3C01B22BE2E9AC"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/plushies"
+								BagType: "treasurebags:plushies"
+							}
+						}
+					}
+				}
+				{
+					id: "54D74D1EB67CEDB0"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Froststeel + Cloggrum"
+			icon: "undergarden:froststeel_ingot"
+			x: -1.75d
+			y: -4.5d
+			description: [
+				"Froststeel and Cloggrum ore can be found naturally in the undergarden. "
+				""
+				"To be more specific; in Frostfields and Gronglegrowth biomes."
+				""
+				"Both will be used in upcoming tasks. So it doesn't hurt to take a couple of them with you while you have a look at The Undergarden."
+			]
+			dependencies: ["67424363A823905E"]
+			hide: true
+			id: "08E3930C9FC3BFF0"
+			tasks: [
+				{
+					id: "1CA360578857A8DB"
+					type: "item"
+					item: "undergarden:froststeel_ingot"
+					count: 2L
+				}
+				{
+					id: "60BE650D9F169C36"
+					type: "item"
+					item: "undergarden:cloggrum_ingot"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "1B030A6A925A96A5"
+					type: "item"
+					item: "undergarden:froststeel_ore"
+					count: 2
+				}
+				{
+					id: "52A7CBD11E6E72A7"
+					type: "item"
+					item: "undergarden:cloggrum_ore"
+					count: 2
+				}
+				{
+					id: "6044409C725F8A67"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Storage Drawer Upgrade!"
+			x: 13.0d
+			y: -6.75d
+			shape: "circle"
+			description: [
+				"The Storage Upgrade (II) increases the maximum storage of a Drawer by 4 times its base value. For instance, with only one installed it will increase the maximum storage to 128 stacks from 32."
+				""
+				"It can be applied by right-clicking with it on a Drawer or placed manually in the Drawer's GUI when right-clicked with an empty hand. The Upgrade can be removed through the Drawer's GUI. Upgrades stack additively with each other."
+			]
+			dependencies: [
+				"07E401FDB18E6789"
+				"48E42BAB1A990772"
+			]
+			hide: true
+			id: "43A6EE409CF760A3"
+			tasks: [{
+				id: "2D8FB2EDF2E2B351"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "7EC265FE269E8F2A"
+					type: "item"
+					item: "storagedrawers:iron_storage_upgrade"
+				}
+				{
+					id: "3619AF981964B3BD"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Air Grate Module"
+			x: 1.0d
+			y: -4.5d
+			description: ["Air Grate Modules are used in almost all steam machines and are responsible for releasing excess steam and ensuring proper air circulation."]
+			dependencies: ["08E3930C9FC3BFF0"]
+			hide: true
+			id: "694F82134D96CAC9"
+			tasks: [{
+				id: "56087F918405EA1C"
+				type: "item"
+				item: "pneumaticcraft:air_grate_module"
+			}]
+			rewards: [
+				{
+					id: "22F8BC67262B882E"
+					type: "item"
+					item: "pneumaticcraft:pressure_tube"
+					count: 2
+				}
+				{
+					id: "6C7F9E2CECA9AB39"
+					type: "item"
+					item: "pamhc2foodextended:fishdinneritem"
+				}
+				{
+					id: "3EEC035008F60B68"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Forming Press!"
+			x: 4.25d
+			y: -2.75d
+			description: ["You've wasted more than enough materials with the Metallurgic Workstation so far. With the Forming press, you can produce materials such as plates much more efficiently and cost-effectively."]
+			dependencies: [
+				"694F82134D96CAC9"
+				"49FEC7A61007E047"
+			]
+			hide: true
+			id: "60B68985AEE01F9D"
+			tasks: [{
+				id: "3CE1692A7C63EA39"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:fpress_steam"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5488DA74CD2187B5"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "5CE9823FE81AC337"
+					type: "choice"
+					table_id: 3392331986169005950L
+				}
+				{
+					id: "047FDAABA69AB831"
+					type: "item"
+					item: "immersiveengineering:mold_plate"
+				}
+				{
+					id: "085F59377C98B39D"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Soul Jars?"
+			x: -5.5d
+			y: 4.0d
+			description: [
+				"Soul Jars are used to store the \"soul\" of some entities like cows or zombies. To craft an empty one you need to find some soulium ore in the nether."
+				""
+				"These jars are used to craft all the different tiers of spiritual crystals."
+			]
+			dependencies: ["03403AA575E736BC"]
+			hide: true
+			id: "608C24F724F3E677"
+			tasks: [{
+				id: "4B8EA7992A11DBBF"
+				type: "item"
+				item: "kubejs:soul_jar"
+			}]
+			rewards: [
+				{
+					id: "5FB2DDA011663F44"
+					type: "item"
+					item: "mysticalagriculture:soulium_ore"
+					count: 2
+				}
+				{
+					id: "47AE9C1DB378368F"
+					type: "item"
+					item: "kubejs:materia_t1"
+				}
+				{
+					id: "4338ED6DEB3FBF6F"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Hydrogen + Heavy Water"
+			icon: "mekanism:hydrogen_bucket"
+			x: -13.5d
+			y: 4.0d
+			description: [
+				"If you process water in the EDRU, you get hydrogen on one side and heavy water on the other."
+				""
+				"Among other things, we use hydrogen to create purge fluid, which will be useful later on, and we use heavy water to make our first boosting mixture."
+			]
+			dependencies: ["296E617E84C35438"]
+			hide: true
+			id: "608F87728A3FFA8E"
+			tasks: [
+				{
+					id: "4757C027C640101A"
+					type: "item"
+					item: "mekanism:hydrogen_bucket"
+				}
+				{
+					id: "43566BBCBFC16B16"
+					type: "item"
+					item: "mekanism:heavy_water_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "5255A675F13DD2EB"
+					type: "item"
+					item: "fluidtank:tank_stone"
+					count: 2
+				}
+				{
+					id: "058B83317573CE81"
+					type: "item"
+					item: "storagedrawers:obsidian_storage_upgrade"
+					count: 2
+				}
+				{
+					id: "23EA62E532FA8D85"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "17CC09E5D6DA2D3D"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Purge Fluid?"
+			icon: "woot:mob_essence_fluid_bucket"
+			x: -9.5d
+			y: 4.0d
+			description: [
+				"To produce some purge fluid you have to process various mob drops in the EDRU together with hydrogen. Check JEI for more information."
+				""
+				"Purge fluid is essential for filling soul jars. These in turn are used for Spiritual Crystals. More on this later."
+			]
+			dependencies: ["608F87728A3FFA8E"]
+			hide: true
+			id: "03403AA575E736BC"
+			tasks: [{
+				id: "35F3B7BA9FAEF55E"
+				type: "item"
+				item: "woot:mob_essence_fluid_bucket"
+			}]
+			rewards: [
+				{
+					id: "3656868150E2D710"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "3953418354D6CBDC"
+					type: "item"
+					item: "minecraft:beef"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Spiritual Crystals!"
+			icon: "kubejs:crystal_t1"
+			x: -1.75d
+			y: 4.0d
+			description: [
+				"You will often encounter Spiritual Crystals when using the Magic Materializer. Many recipes that are processed there often require a crystal in addition to the normal materials. "
+				""
+				"Each crystal requires a filled soul jar. The material required in the soul jar varies depending on the crystal. You often have several options available per age/tier."
+				""
+				"In T1, for example, you can use things like cow or pig products. Check JEI for more detailed information."
+			]
+			dependencies: ["608C24F724F3E677"]
+			hide: true
+			id: "428D8CCA2B8DAA72"
+			tasks: [{
+				id: "14A9E415FD1B9B5C"
+				type: "item"
+				item: "kubejs:crystal_t1"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "3DB8995D9276FB3E"
+					type: "item"
+					item: "kubejs:crystal_t1"
+				}
+				{
+					id: "6BD00A756D9E0DBD"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Drawer Controller"
+			x: -32.0d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"The Drawer Controller is used to interact with a group of drawers. It has to be touching the drawer bank. "
+				""
+				"The Drawer Controller can coordinate the function of all connected drawers within a 12 block range along any axis. Right-clicking materials on a Drawer Controller will automatically deposit the materials in the appropriate drawer. There can be only one Drawer Controller in the system. To add more item entry points, the Controller Slave should be used instead."
+				""
+				"The Controller is compatible with most automation techniques including Applied Energistics 2 and Refined Storage."
+			]
+			dependencies: ["11FE2A5E138A2CCF"]
+			hide: true
+			optional: true
+			id: "1E7FD862557D6A59"
+			tasks: [{
+				id: "5D1F43710AD9B0B9"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [
+				{
+					id: "7860D0C6638F80D2"
+					type: "item"
+					item: "storagedrawers:controller_slave"
+				}
+				{
+					id: "5F9D13A92B4CF685"
+					type: "item"
+					item: "storagedrawers:oak_trim"
+					count: 8
+				}
+				{
+					id: "297AAA27B31EFEDF"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Elite Bin Deal!"
+			icon: "mekanism:advanced_bin"
+			x: -18.5d
+			y: 5.5d
+			shape: "heart"
+			subtitle: "Trading Quest"
+			description: ["32'768 stacks in just one block. Not THAT bad..."]
+			dependencies: ["361393940DCFF2EC"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "767C0D936BD684D7"
+			tasks: [
+				{
+					id: "12D45B34F0EEDC6B"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "4EE29AD4529EF245"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "1651DB89E462B825"
+				type: "item"
+				item: "mekanism:elite_bin"
+			}]
+		}
+		{
+			title: "Magic Materializer!"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:magic01_steam"
+				}
+			}
+			x: 1.0d
+			y: 4.0d
+			description: ["As the name implies, the Magic Materializer is used to create heaps of magical items. In addition to a boosting slot, it also has a spiritual crystal slot. These crystals are often used and consumed for all kinds of magic recipes."]
+			dependencies: [
+				"49FEC7A61007E047"
+				"428D8CCA2B8DAA72"
+			]
+			hide: true
+			id: "216CAD724DF067BE"
+			tasks: [{
+				id: "35B261CF3C650645"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:magic01_steam"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "642A8F12F1D7DDDD"
+					type: "item"
+					item: "kubejs:soul_t1"
+					count: 4
+				}
+				{
+					id: "70CC2583E548EFEE"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Steam Machine Upgrade: Speed"
+			icon: "kubejs:upgrade_steam_speed"
+			x: -21.25d
+			y: 4.0d
+			shape: "circle"
+			description: ["The upgrade slot of all steam machines can hold up to 2 speed upgrades, which in turn significantly increases the steam costs."]
+			hide_dependency_lines: false
+			dependencies: ["5A94CE59E91A169B"]
+			hide: true
+			optional: true
+			id: "7113476A9F97B978"
+			tasks: [{
+				id: "5EA768FECF8C905C"
+				type: "item"
+				item: "kubejs:upgrade_steam_speed"
+			}]
+			rewards: [
+				{
+					id: "0D9BBA4B64C4609D"
+					type: "item"
+					item: "kubejs:upgrade_steam_speed"
+				}
+				{
+					id: "655E7A9B30235524"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Steam Generator Upgrade: Cooling"
+			x: -7.5d
+			y: -3.0d
+			shape: "circle"
+			description: [
+				"The cooling upgrade increases the amount of steam produced in a Low or High Pressure Boiler by 25% but also increases the amount of water consumed by 35%."
+				""
+				"The LP boiler can hold up to 2 upgrades and the HP boiler up to 4."
+			]
+			dependencies: ["51A1CF021F3C3187"]
+			hide: true
+			optional: true
+			id: "37D2F06D099C0125"
+			tasks: [{
+				id: "1C9F7D85D8B25954"
+				type: "item"
+				item: "kubejs:upgrade_steam_cooling"
+			}]
+			rewards: [
+				{
+					id: "56243B37FA9E33B3"
+					type: "item"
+					item: "kubejs:upgrade_steam_cooling"
+				}
+				{
+					id: "3DE1264692505164"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Boost The Planet!"
+			x: 4.25d
+			y: 4.0d
+			description: [
+				"Each custom machine in ddss2 has a boosting slot. "
+				""
+				"This slot is intended for the use of boosting mixtures. These mixtures increase the number of items produced. The higher the quality of the mixture, the more you can boost the desired item. The number of boosted items varies and not every item can be boosted. But on the whole you can say that 85% of the recipes have a boosting option."
+				""
+				"The higher the tier of the machine, the higher the mixtures you can use. For example, a T1 machine cannot use a T4 boosting mixture."
+				""
+				"{image:modpack:textures/quest_images/bossting_mixture.png width:170 height:110 align:1}"
+			]
+			dependencies: ["216CAD724DF067BE"]
+			hide: true
+			id: "26D6C14036495CB9"
+			tasks: [{
+				id: "16C27A1CEFA5CEC7"
+				type: "item"
+				item: "kubejs:mixture_t1"
+			}]
+			rewards: [
+				{
+					id: "63622870CFB78F98"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 2
+				}
+				{
+					id: "5040560B37257A88"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "0E4B987B9061A436"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Mechanical Arm T1"
+			x: 4.25d
+			y: -8.25d
+			description: ["A mechanical arm, or robotic arm if you like, is mostly used in machines where several complex tasks have to be performed simultaneously. For example, the assembler."]
+			dependencies: ["60B68985AEE01F9D"]
+			hide: true
+			id: "1AA30549C219B9D2"
+			tasks: [{
+				id: "3EC89A641C8CB6AB"
+				type: "item"
+				item: "kubejs:mech_arm_t1"
+			}]
+			rewards: [
+				{
+					id: "26B0AB92AB16E5B9"
+					type: "item"
+					item: "kubejs:pure_iron_stick"
+					count: 3
+				}
+				{
+					id: "1ACDC79F4839D7AE"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+				}
+				{
+					id: "647E1B6B732D2F37"
+					type: "item"
+					item: "kubejs:motor_t1"
+				}
+				{
+					id: "3AA2355E8DDE99C1"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Steam Assembler!"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:assembler01_steam"
+				}
+			}
+			x: 13.0d
+			y: -8.25d
+			description: [
+				"Finally the first assembler. This machine opens up endless possibilities in terms of production and will simplify a lot of things."
+				""
+				"Don't worry about the different fluid tanks in the machine. Steam only ever goes into the first slot and is used there as fuel. So you can't accidentally put a different fluid into the internal steam tank."
+			]
+			dependencies: ["1AA30549C219B9D2"]
+			hide: true
+			id: "48E42BAB1A990772"
+			tasks: [{
+				id: "6F94D334401867D0"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:assembler01_steam"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6539DD7FEFFC41A9"
+					type: "item"
+					item: "extendedcrafting:frame"
+				}
+				{
+					id: "550BA329B0C9E975"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "1925F691D30B4EDE"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:assembler01_steam"
+						}
+					}
+				}
+				{
+					id: "338E5EB9A918791C"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "State Circuits?"
+			icon: "kubejs:m_circuit1"
+			x: -1.75d
+			y: -0.75d
+			description: [
+				"State Circuits are mainly used in specific \"State-Circuit-Slots\" on machines, to avoid conflicts with other recipes, or just to have a wider range of items to craft. You can change its value with a screwdriver in a workbench or with a Chisel + Circuit Configurator."
+				""
+				"In order to get a state circuit you need to craft a Modular Circuit Board."
+				""
+				"{image:modpack:textures/quest_images/states.png width:140 height:110 align:1}"
+				""
+				"These circuits are of course not consumed when crafting recipes."
+			]
+			dependencies: ["51A1CF021F3C3187"]
+			hide: true
+			id: "056B81FD25E2F828"
+			tasks: [{
+				id: "77B5579AE6A09A9F"
+				type: "item"
+				title: "Any #forge:modular_circuits"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:modular_circuits"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "76B9AEF3D69D5376"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "7B85DD5C76AFA4D2"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "6922D428F26BE565"
+					type: "item"
+					item: "projectred-core:plate"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Steam Mixer + Bottler!"
+			x: 10.0d
+			y: -6.25d
+			description: [
+				"With a steam mixer and bottler, you can not only completely replace the chemists workstation, but it also opens up many new possibilities! It also automatically fills cells, buckets and canisters with the desired fluid."
+				""
+				"Don't worry about the different fluid tanks in the machine. Steam only ever goes into the first slot and is used there as fuel. So you can't accidentally put a different fluid into the internal steam tank."
+			]
+			dependencies: ["60B68985AEE01F9D"]
+			hide: true
+			id: "7FA40E74967CC564"
+			tasks: [{
+				id: "1C1FBE5DA3B93C0A"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:mixer_steam"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "339CE027661D9CB8"
+					type: "item"
+					item: "kubejs:pump_t1"
+				}
+				{
+					id: "60C0E1446679EDCA"
+					type: "item"
+					item: "kubejs:pure_iron"
+				}
+				{
+					id: "3BFC5916A748719D"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Steam Extractor!"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:extractor_steam"
+				}
+			}
+			x: 10.0d
+			y: -3.75d
+			description: [
+				"The steam extractor can extract liquids and other items from a wide range of materials. Whether from ores, coal or wooden planks. It also completely replaces the coke oven. Check JEI for more information."
+				""
+				"The extractor has a “boosting” and “circuit state” slot."
+			]
+			dependencies: ["60B68985AEE01F9D"]
+			hide: true
+			id: "6999A338A178DA5A"
+			tasks: [{
+				id: "0D24CAE5B66453B4"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:extractor_steam"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "27E1916C73340089"
+					type: "item"
+					item: "integrateddynamics:menril_sapling"
+					count: 2
+				}
+				{
+					id: "67937ECF3CA7F546"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Menril Resin?"
+			icon: "integrateddynamics:bucket_menril_resin"
+			x: 10.0d
+			y: -5.0d
+			description: [
+				"To get some menril resin you need to find some Menril Trees or plant them with the aquired saplings from the previous quest."
+				""
+				"Menril Trees spawns occasionally in the Overworld and abundantly in Meneglin biomes."
+				""
+				"{image:modpack:textures/quest_images/menriltree.png width:100 height:170 align:1}"
+			]
+			dependencies: ["6999A338A178DA5A"]
+			hide: true
+			id: "7DCB25FA65CEBB73"
+			tasks: [{
+				id: "4D515F78C8831F4E"
+				type: "item"
+				item: "integrateddynamics:bucket_menril_resin"
+			}]
+			rewards: [
+				{
+					id: "6C77410B67EA1A17"
+					type: "item"
+					item: "integrateddynamics:menril_log"
+					count: 8
+				}
+				{
+					id: "1B4AD22F7293CE28"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Upgrade Compound?"
+			icon: "kubejs:upgrade_comp"
+			x: 13.0d
+			y: -5.0d
+			description: [
+				"You are going to use upgrade compound very often and in large quantities throughout the modpack. It is mostly used to upgrade things as you may have expected^^"
+				""
+				"In addition to menril resin, you also need hemp fiber, (which you have fortunately already planted in Tier 0) materia and some gems of your choice. Whatever you have most left."
+			]
+			dependencies: [
+				"7DCB25FA65CEBB73"
+				"6999A338A178DA5A"
+				"7FA40E74967CC564"
+			]
+			hide: true
+			id: "07E401FDB18E6789"
+			tasks: [{
+				id: "41ECA86598F52797"
+				type: "item"
+				item: "kubejs:upgrade_comp"
+			}]
+			rewards: [
+				{
+					id: "51F06019166267CE"
+					type: "item"
+					item: "kubejs:upgrade_comp"
+				}
+				{
+					id: "7608A87B255409F1"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Essence-Omatic!"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:essencomatic_steam"
+				}
+			}
+			x: 10.0d
+			y: 1.25d
+			description: [
+				"The Essence-Omatic is a machine that revolves around the use of mystical agriculture. Not only to upgrade inferium to higher tiers but also to produce materials from the extracted essences."
+				""
+				"This device allows you to make almost anything. Every imaginable plank or stone, other useful utensils and of course all the metals. You want to reproduce a certain type of wood from Biomes o Plenty for your house? No problem, you just have to find the wood type at least once and then you can use it as a template. Check JEI for more information."
+			]
+			dependencies: ["60B68985AEE01F9D"]
+			hide: true
+			id: "33E5C1CE1BEC602B"
+			tasks: [{
+				id: "1DC546D1354B8101"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:essencomatic_steam"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5D226FC673D02EA1"
+					type: "choice"
+					table_id: 453838955048255642L
+				}
+				{
+					id: "3B9F3A1F025BFE6F"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Steam Macerator!"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:pulverizer01_steam"
+				}
+			}
+			x: 10.0d
+			y: -2.5d
+			description: [
+				"The Macerator is an all-purpose grinding machine, capable of breaking down ores and other items into their respective Dust, which can later be smelted into their respective ingots."
+				""
+				"It also efficiently converts coal into coal dust, blaze rods into blaze powder and much much more."
+				""
+				"The device also has a boosting slot which allows you to get even more out of your ores!"
+			]
+			dependencies: ["60B68985AEE01F9D"]
+			hide: true
+			id: "3865D2B5EF871E12"
+			tasks: [{
+				id: "06A05BE1BF98AF7A"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:pulverizer01_steam"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A6A25E87565A69F"
+					type: "choice"
+					table_id: 4100322638183988232L
+				}
+				{
+					id: "7B327A21625C60A2"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Silver Chest!"
+			x: 10.75d
+			y: -10.75d
+			shape: "circle"
+			description: [
+				"The capacity of the silver chest is 72 inventory slots and it can be placed next to another chest."
+				""
+			]
+			dependencies: ["48E42BAB1A990772"]
+			hide: true
+			optional: true
+			id: "6FA9145FC081C8CA"
+			tasks: [{
+				id: "593E1B9491D3E35A"
+				type: "item"
+				item: "ironchest:silver_chest"
+			}]
+			rewards: [
+				{
+					id: "7E963571523096F5"
+					type: "item"
+					item: "ironchest:copper_to_iron_chest_upgrade"
+					count: 2
+				}
+				{
+					id: "23EE5944529D7C25"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Steam Centrifuge!"
+			x: 10.0d
+			y: 2.5d
+			description: [
+				"The Centrifuge is a processing machine that separates large amounts of minerals, compounds, combs, magic stuff or fluids into other components and fluids."
+				""
+				"For example, you can extract the following materials:"
+				"- Metal nuggets from lava"
+				"- Latex from myrmex resin or slimeballs"
+				"- Magic dust from condensed blood"
+				"- Ore chunks from nitronite"
+				"And much more!"
+			]
+			dependencies: ["60B68985AEE01F9D"]
+			hide: true
+			id: "2187A8F9566A79D4"
+			tasks: [{
+				id: "4955177B41521784"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:centri01"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "33E0BDD1039F2D5B"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 16
+				}
+				{
+					id: "728471F8B13EC864"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "6D75E1BFFDD5CF34"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Steam Recycler!"
+			x: 1.0d
+			y: -2.75d
+			shape: "circle"
+			description: [
+				"As its name suggests, this device is an excellent way to recycle materials you no longer need or have in excess. But that's not all — it also opens LootCrates!"
+				""
+				"The recycler has upgrade slots like most other machines, but it is the only device that does not have the option to boost things."
+			]
+			dependencies: ["60B68985AEE01F9D"]
+			hide: true
+			optional: true
+			id: "6DC25340FAE7A566"
+			tasks: [{
+				id: "2DEC3891807238C3"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:recycler_steam"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "44D9F150A3CC1CEF"
+					type: "item"
+					item: "minecraft:glowstone"
+				}
+				{
+					id: "5647227AC5BAE66F"
+					type: "item"
+					item: "silents_mechanisms:lead_block"
+				}
+				{
+					id: "02DA962683CFCDB7"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Steam Cutter!"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:laser01_steam"
+				}
+			}
+			x: 10.0d
+			y: -1.25d
+			description: [
+				"A cutting machine cuts all kinds of things to make your life easier. It has many possible uses. In order for the machine to be able to cut something, it always needs small amounts of lubricant in addition to steam."
+				""
+				"For example you can use it to craft planks out of logs much more efficently."
+			]
+			dependencies: ["60B68985AEE01F9D"]
+			hide: true
+			id: "46880F491BB2F54D"
+			tasks: [{
+				id: "41F08899E888C64C"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:laser01_steam"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "12E6B8255FFE00BD"
+					type: "item"
+					item: "minecraft:jungle_log"
+					count: 8
+				}
+				{
+					id: "0B65F9448939AFDE"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+					count: 4
+				}
+				{
+					id: "0B497CEF7ABB992D"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Steam Fluid Mixer and Solidifier!"
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"With this machine you can perform various tasks related to liquids. From mixing certain liquids together to creating an item that is obtained from a solidification process, this and much more is possible."
+				""
+				"This device has a “boosting” and “circuit state” slot."
+			]
+			dependencies: ["60B68985AEE01F9D"]
+			hide: true
+			id: "46015259444D3BC8"
+			tasks: [{
+				id: "56CE1BACA3CD0C3A"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:flumixer_steam"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3CE4FFEAE6461AA3"
+					type: "item"
+					item: "pneumaticcraft:air_grate_module"
+				}
+				{
+					id: "1F4967D95F70ABC2"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Gold Furnace"
+			x: 12.25d
+			y: -10.75d
+			shape: "circle"
+			description: [
+				"The Gold Furnace is created by either crafting the block itself, or using the Iron to Gold Furnace Upgrade on an Iron Furnace. It takes only 6 seconds to smelt 1 item."
+				""
+				"These furnaces come in different tiers and with a variety of upgrades that can make them even more efficient."
+			]
+			dependencies: ["48E42BAB1A990772"]
+			hide: true
+			optional: true
+			id: "05486CC2F51F4A7A"
+			tasks: [{
+				id: "219AF3BBD9D56C76"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			rewards: [
+				{
+					id: "43EC7B59390DBF24"
+					type: "item"
+					item: "ironfurnaces:upgrade_gold"
+				}
+				{
+					id: "6C31C4DD8BE1BD0B"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Furnace Upgrade: Speed"
+			x: 12.25d
+			y: -13.0d
+			shape: "circle"
+			description: ["This upgrade halves the cooking time of all recipes but doubles the amount of fuel required."]
+			dependencies: ["05486CC2F51F4A7A"]
+			hide: true
+			optional: true
+			id: "661F781D2DA3119F"
+			tasks: [{
+				id: "54A6D95B8D692D89"
+				type: "item"
+				item: "ironfurnaces:augment_speed"
+			}]
+			rewards: [
+				{
+					id: "5BA25BC66A1A9C7C"
+					type: "item"
+					item: "minecraft:coal_block"
+				}
+				{
+					id: "5DA85363A0EC9D77"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Infusion Crystals?"
+			x: 13.0d
+			y: 1.25d
+			description: [
+				"The Infusion Crystal is an item used for crafting higher tier essences."
+				""
+				"There are 5 regular Infusion Crystals as well as an upgraded Master Infusion Crystal. The main difference between them is the amount of uses each crystal has."
+				""
+				"The Inferium Crystal has 500 uses."
+			]
+			dependencies: ["33E5C1CE1BEC602B"]
+			hide: true
+			id: "1B911C97E9161454"
+			tasks: [{
+				id: "4C321FBAA98E5E68"
+				type: "item"
+				item: {
+					id: "matc:inferium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "40A75997FE5C53B5"
+					type: "item"
+					item: "mysticalagriculture:inferium_block"
+				}
+				{
+					id: "7BB42C46F25259D8"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+				{
+					id: "5F7BE666766A1566"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Rich Slag"
+			x: 13.0d
+			y: -2.5d
+			description: [
+				"Rich slag is a common by-product when processing ores in a macerator or creating alloys in an alloy smelter. "
+				""
+				"Collect as much as you can because we will need it later for high-quality materia."
+			]
+			dependencies: ["3865D2B5EF871E12"]
+			hide: true
+			id: "6C251C5F1403A83B"
+			tasks: [{
+				id: "339EFE8FDFFC152A"
+				type: "item"
+				item: "thermal:rich_slag"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "1433D7C7598A8926"
+					type: "item"
+					item: "thermal:rich_slag"
+					count: 4
+				}
+				{
+					id: "1EB883C0D8220170"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Flammable Dust?"
+			x: 15.75d
+			y: 2.5d
+			description: ["Flammable Dust can be obtained by processing redstone dust in a centrifuge. This is primarily used to upgrade materia and for various weapons in AoA."]
+			dependencies: ["2187A8F9566A79D4"]
+			hide: true
+			id: "2A3234C9029A7A48"
+			tasks: [{
+				id: "2F71A043D0FEFA54"
+				type: "item"
+				item: "aoa3:flammable_dust"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "73AAD609B385F330"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "41B14C4880033DFB"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "More Molds!"
+			x: 13.0d
+			y: -1.25d
+			description: [
+				"Molds are used to press various metals into specific shapes in the forming press. There is a wide variety of molds and many possible applications."
+				""
+				"The steam cutter can produce these for you if you don't want to do it in the workshop."
+			]
+			dependencies: ["46880F491BB2F54D"]
+			hide: true
+			id: "4610C93BCD7BBBD4"
+			tasks: [{
+				id: "7761FDD4EE58552F"
+				type: "item"
+				item: "immersiveengineering:mold_rod"
+			}]
+			rewards: [
+				{
+					id: "6082FA3DB844C433"
+					type: "item"
+					item: "moreplates:diamond_plate"
+				}
+				{
+					id: "441AE50DDB9A88E4"
+					type: "item"
+					item: "immersiveengineering:mold_packing_9"
+				}
+				{
+					id: "7957D160FEE61EB5"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Salt Blocks"
+			x: 13.0d
+			y: 0.0d
+			description: [
+				"With a solidifier you can get salt very easily by creating blocks directly. At first it will only be useful for food, but soon it will have some other applications..."
+				""
+				"Oh and by the way, This salt block is also commonly found on shores or underwater. When mined, it will drop 4 Salt."
+			]
+			dependencies: ["46015259444D3BC8"]
+			hide: true
+			id: "7C72AD82A8C49CFB"
+			tasks: [{
+				id: "2327CEE399DD25E4"
+				type: "item"
+				item: "mekanism:block_salt"
+			}]
+			rewards: [
+				{
+					id: "217A0D44029A23C9"
+					type: "item"
+					item: "mekanism:salt"
+					count: 8
+				}
+				{
+					id: "1E97CF87B2FADBB7"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Pure Daisy"
+			x: 19.5d
+			y: 9.0d
+			description: [
+				"The Pure Daisy is mainly used for converting Wood and Stone into Livingwood and Livingrock respectively. However, it can also convert Netherrack into Cobblestone, Blaze Mesh into Obsidian, Soul Sand into Sand, Ice into Packed Ice and Water into Snow."
+				""
+				"The tooltip references a quote from Mashiro Shiina, a character from the anime \"Sakurasou no Pet na Kanojo\"."
+			]
+			dependencies: ["27215A91314B78B6"]
+			hide: true
+			id: "6B864071B3C294DD"
+			tasks: [{
+				id: "2F82303A025CE7BB"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [
+				{
+					id: "76CC575DDD22BE32"
+					type: "item"
+					item: "minecraft:stone"
+					count: 16
+				}
+				{
+					id: "110A5C518753FE9B"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Livingrock!"
+			x: 21.75d
+			y: 10.25d
+			description: ["Livingrock is created by placing a block of Stone adjacent to a Pure Daisy. After a minute it will transform into Livingrock. :0"]
+			dependencies: ["6B864071B3C294DD"]
+			hide: true
+			id: "5F0C6B55A4B0491B"
+			tasks: [{
+				id: "417A2A16001C425F"
+				type: "item"
+				item: "botania:livingrock"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "5A2023AF728688F4"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "756A023256E74C63"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "End Agglomeratio"
+			x: 10.0d
+			y: 4.0d
+			description: ["End agglomeratio-dust can be obtained most easily from the centrifuge by decomposing bonemeal."]
+			dependencies: [
+				"2187A8F9566A79D4"
+				"135D46860C6990F1"
+			]
+			hide: true
+			id: "7E7C3436B5899A70"
+			tasks: [{
+				id: "155D8AF2F9088E04"
+				type: "item"
+				item: "mysticalagriculture:end_agglomeratio"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "12139953BE764C99"
+					type: "item"
+					item: "mysticalagriculture:end_agglomeratio"
+					count: 2
+				}
+				{
+					id: "4F457B56E4B895A4"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Mystical Seedbag T1"
+			x: 13.0d
+			y: 4.0d
+			description: ["These seedbags are used to produce mystical agriculture seeds. Depending on the tier, a corresponding bag is required."]
+			dependencies: ["7E7C3436B5899A70"]
+			hide: true
+			id: "5F17A14960A92ABC"
+			tasks: [{
+				id: "6C5C9F25DC971193"
+				type: "item"
+				item: "kubejs:seed_t1"
+			}]
+			rewards: [
+				{
+					id: "4BD8C5B79DF7B1A3"
+					type: "item"
+					item: "kubejs:seed_t1"
+				}
+				{
+					id: "6F1F398E50D06CDB"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 7.5d
+			description: [
+				"The Water Seed is one of many tier 1 seeds. It can be planted on farmland to grow water crop. When fully grown, the crop can be harvested for water essence which we use soon for our first hydroangea."
+				""
+				"Elemental seeds need corresponding agglomeratio to be crafted."
+			]
+			dependencies: ["5F17A14960A92ABC"]
+			hide: true
+			id: "7A17E27EBC5C1898"
+			tasks: [{
+				id: "141716F9B87654DA"
+				type: "item"
+				item: "mysticalagriculture:water_seeds"
+			}]
+			rewards: [
+				{
+					id: "3E0AA59A4FE7178D"
+					type: "item"
+					item: "mysticalagriculture:fire_seeds"
+				}
+				{
+					id: "4B6A0ADF548350F3"
+					type: "item"
+					item: "pamhc2foodcore:freshwateritem"
+					count: 16
+				}
+				{
+					id: "0796C10A1CF84363"
+					type: "item"
+					item: "mysticalagriculture:inferium_block"
+				}
+				{
+					id: "79C3FE4892C3E3B4"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Hydroangeas!"
+			x: 19.5d
+			y: 5.75d
+			description: [
+				"It's time do dive into basics of botanias mana generation."
+				""
+				"The Hydroangeas generates Mana by consuming Water source blocks in a 3×3 area around it. Consuming a source block will power it for 2 seconds. If that Water source would be immediately replaced (by other Water sources that surround the Hydroangeas), the source will not be consumed. After 3 days it turns into a dead bush and must be replaced."
+				""
+				"When active, having consumed Water, the Hydroangeas produces 1 Mana every 3 ticks. If it is raining, this increases to 1 Mana every 2 ticks."
+			]
+			dependencies: ["27215A91314B78B6"]
+			hide: true
+			id: "6874DE0EA5C1F727"
+			tasks: [{
+				id: "4EA361155081B586"
+				type: "item"
+				item: "botania:hydroangeas"
+			}]
+			rewards: [
+				{
+					id: "7CB8A158C2B2AB04"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "688750AD86B1021A"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "642CDD758B9F3E63"
+					type: "item"
+					item: "botania:white_petal"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Livingwood!"
+			x: 21.75d
+			y: 7.5d
+			description: ["Place any Wood Log next to a Pure Daisy. After a minute it will transform into Livingwood."]
+			dependencies: ["6B864071B3C294DD"]
+			hide: true
+			id: "318EEBC4F9D3E531"
+			tasks: [{
+				id: "13F6473D136770C6"
+				type: "item"
+				item: "botania:livingwood"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "5D42BCCA36195E3C"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 16
+				}
+				{
+					id: "255E6D15FAB6C01E"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Wand of the Forest!"
+			icon: {
+				id: "botania:twig_wand"
+				Count: 1b
+				tag: {
+					color1: 0
+					color2: 0
+				}
+			}
+			x: 25.75d
+			y: 7.5d
+			description: [
+				"The Wand of the Forest is probably botanias most important tool."
+				""
+				"The Lexica Botania describes it as \"the general multi-use tool for a botanist.\" It is used to rotate Mana Spreaders and view their burst paths, check the Mana stored in a Mana Pool, activate or check the progress of a Botanical Brewery or Runic Altar, and bind generating or functional flora to nearby Mana Pools or Spreaders."
+			]
+			dependencies: [
+				"5F0C6B55A4B0491B"
+				"318EEBC4F9D3E531"
+				"6874DE0EA5C1F727"
+			]
+			hide: true
+			id: "1B3441C596BAD1BF"
+			tasks: [{
+				id: "211B32036A17EAC4"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "70AC28117949BDFC"
+					type: "item"
+					item: "projectred-core:electrotine_dust"
+					count: 2
+				}
+				{
+					id: "416CEC438D9C94B5"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Lexica Botania"
+			icon: {
+				id: "botania:lexicon"
+				Count: 1b
+				tag: { }
+			}
+			x: 16.25d
+			y: 7.5d
+			description: [
+				"The Lexica Botania is a repository of all information necessary to progress through the mod."
+				""
+				"Holding the Ctrl key when hovering the cursor over an item with an entry while the book is in the hotbar will open the item's entry. Shift right-clicking with the Lexica on a block will open the relevant page, if one exists, otherwise it will attempt to open a relevant wiki page in the user's web browser."
+			]
+			dependencies: ["7A17E27EBC5C1898"]
+			hide: true
+			id: "27215A91314B78B6"
+			tasks: [{
+				id: "652C6E9ADF519CA4"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3B9F1091DAFC51C8"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Mana Spreader"
+			x: 27.25d
+			y: 5.25d
+			description: [
+				"The Mana Spreader is used to transport Mana."
+				""
+				"The direction of the Mana bursts can be manipulated by shift-right clicking on it with the Wand of the Forest. There is an alternative method of orientating the Mana Spreader, and that is to bind it to another block. To do so, shift right-click on the Mana Spreader then shift right-click on another block to automatically orient the Mana Spreader to direct its Mana bursts to that block. Mana Spreaders fire Mana in discrete bursts rather than in a continuous stream."
+			]
+			dependencies: ["1B3441C596BAD1BF"]
+			hide: true
+			id: "0FAC9E5B3BC714B6"
+			tasks: [{
+				id: "5117D818D0E6A132"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [
+				{
+					id: "26D6DDF99F55838C"
+					type: "item"
+					item: "botania:hydroangeas_motif"
+				}
+				{
+					id: "3F61ED273CD59EC1"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+				{
+					id: "7764D4E30F9AFE1F"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Mana Pool!"
+			x: 24.25d
+			y: 5.25d
+			description: [
+				"The Mana Pool is the primary block for Mana storage in the mod and can store an extremely large amount of Mana inside (1,000,000 Mana)."
+				""
+				" Mana stored in the pool can be used to power other blocks in Botania that require Mana to function, such as functional flowers."
+			]
+			dependencies: ["1B3441C596BAD1BF"]
+			hide: true
+			id: "465452A8AB9043E6"
+			tasks: [{
+				id: "44FFD6652306E9AF"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [
+				{
+					id: "4301BE022FFE6DC2"
+					type: "item"
+					item: "minecraft:villager_spawn_egg"
+				}
+				{
+					id: "29D2C014F6A90C6B"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "337B3BA73AC8C353"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
+		}
+		{
+			title: "Mana Infused Items!"
+			icon: "botania:manasteel_ingot"
+			x: 25.75d
+			y: 3.0d
+			description: [
+				"Mana infused items are a very important resource and will take you through this pack for a while."
+				""
+				"For Mana Powder there is no other way then using charged runium for now. You can find it in the overworld between Y-LVL 1-25 in deepslates."
+				""
+				"Everything else shouldn't be a difficult task for you."
+			]
+			dependencies: [
+				"465452A8AB9043E6"
+				"0FAC9E5B3BC714B6"
+			]
+			hide: true
+			id: "36439AB550A37907"
+			tasks: [
+				{
+					id: "00DB053584F3A73F"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "3FD690884C5BF110"
+					type: "item"
+					item: "botania:mana_powder"
+				}
+				{
+					id: "52D6A436A86B2780"
+					type: "item"
+					item: "botania:mana_pearl"
+				}
+			]
+			rewards: [
+				{
+					id: "064C666B1C80C4A4"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+				{
+					id: "4118258860973E55"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Your First Mana Tablet!"
+			x: 25.75d
+			y: -0.5d
+			description: [
+				"The mana tablet is a tool for using mana in a portable way.  It can store up to 500,000 Mana, equivalent to a half of a mana pool."
+				""
+				"Dropping one of these on a Mana Pool will allow them to transfer Mana from one to the other, depending on which way Mana is flowing. This can be viewed while looking at a manapool when wielding a wand of the forest."
+			]
+			dependencies: ["36439AB550A37907"]
+			hide: true
+			id: "5F998BF89833F59F"
+			tasks: [{
+				id: "119FB4CC8412BCC3"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3A799B770404C3FA"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "69D5B09470085CE1"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Liquid Enchant?!"
+			x: 13.0d
+			y: -3.75d
+			description: [
+				"Liquid enchant is easy to produce. All you have to do is extract the liquid from enchanted books or tomes."
+				""
+				"It is used in a lot of magic items so it doesn't hurt to grab every enchanted book you can find in dungeons out there."
+			]
+			dependencies: ["6999A338A178DA5A"]
+			hide: true
+			id: "205EA7CF43E371F5"
+			tasks: [{
+				id: "568B4C80C00EC44D"
+				type: "item"
+				item: "woot:enchant_fluid_bucket"
+			}]
+			rewards: [
+				{
+					id: "257AC910D7D018DC"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:frost_walker"
+							}]
+						}
+					}
+				}
+				{
+					id: "552EAB6AA224C1E8"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 6s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "3CD34044EB4EEB68"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Ancient Teleportation...."
+			icon: "kubejs:aoa_mainquest"
+			x: 25.75d
+			y: -2.5d
+			description: [
+				"The primary method for accessing all of the dimensions added by AoA is through a portal made of ancient rock and carved runes."
+				""
+				"Ancient rock can be found in a Ruined Teleporter structure or just naturally underground, while the carved runes (except carved rune of power) can be found inside dungeon chests. The carved rune of power is an exception, it must be crafted or traded instead of found."
+				""
+				"If you're unlucky with dungeons, you have still the possibility to craft all of the carved runes needed."
+				""
+				"We'll build the portal in the next quest when you have everything ready."
+			]
+			dependencies: [
+				"2A3234C9029A7A48"
+				"6C251C5F1403A83B"
+				"5F998BF89833F59F"
+				"48E42BAB1A990772"
+				"7C72AD82A8C49CFB"
+				"4610C93BCD7BBBD4"
+				"27997C4125DC4B77"
+				"3ACAB4D89AD5F86A"
+				"07EF167DD30A887E"
+			]
+			hide: true
+			id: "533E604449114ED7"
+			tasks: [
+				{
+					id: "5F13A2EF03D53A68"
+					type: "item"
+					item: "aoa3:carved_rune_of_power"
+				}
+				{
+					id: "43FBEE7029A97B20"
+					type: "item"
+					item: "aoa3:carved_rune_of_direction"
+				}
+				{
+					id: "46712D0738B34791"
+					type: "item"
+					item: "aoa3:carved_rune_of_reality"
+				}
+				{
+					id: "2C7F20893A84C9FB"
+					type: "item"
+					item: "aoa3:carved_rune_of_space"
+				}
+				{
+					id: "30D31F8A0358E2B6"
+					type: "item"
+					item: "aoa3:carved_rune_of_travel"
+				}
+				{
+					id: "4A54C6314687436C"
+					type: "item"
+					item: "aoa3:ancient_rock"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "32AC8B77EFABCE74"
+					type: "item"
+					item: "aoa3:ancient_rock"
+					count: 8
+				}
+				{
+					id: "74DF3EBC3B48315B"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "The Portal Frame!"
+			icon: "kubejs:aoa_mainquest"
+			x: 28.25d
+			y: -2.5d
+			description: [
+				"You have to build the frame to be 5 blocks long and 6 blocks tall, and all of the listed materials from the previous quest must be present in the portal structure. The Carved Rune of Power has to go in the center spot on the bottom of the portal frame. The rest of the carved runes can go anywhere. The corners are not optional (see diagram below)."
+				""
+				"{image:modpack:textures/quest_images/portal_frame.png width:170 height:140 align:1}"
+			]
+			dependencies: ["533E604449114ED7"]
+			hide: true
+			id: "73A4FC40AF50A5C6"
+			tasks: [{
+				id: "48FDFF6910B54355"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "15A7DDBD00E55BF1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Realmstones?"
+			icon: "kubejs:aoa_mainquest"
+			x: 30.75d
+			y: -2.5d
+			description: [
+				"Once the portal structure is created, you can activate the portal using a Realmstone. To activate it, you must use a realmstone on the Carved Rune of Power. The stone is not consumed."
+				""
+				"Realmstones are used to tell the portal in which dimension you want to travel. So you don't build a separate portal for each dimension, but simply use different realmstones. In DDSS 2, all realmstones must be crafted based on your progress in the game."
+				""
+				"Note: If you're familiar with AoA then you've already figured it out. AoA things in DDSS 2 do not work here as they do by default^^"
+				""
+				"Note 2: If you want to use this portal for everything in the future, there is also a realmstone for the Nether."
+			]
+			dependencies: ["73A4FC40AF50A5C6"]
+			hide: true
+			id: "5FB3404780403AFF"
+			tasks: [{
+				id: "0307D077A907BC82"
+				type: "item"
+				item: "aoa3:precasia_realmstone"
+			}]
+			rewards: [
+				{
+					id: "0B361B2D61462C85"
+					type: "item"
+					item: "aoa3:nether_realmstone"
+				}
+				{
+					id: "3E82DE940C01701B"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "6398D6F0D6861320"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Precasia!"
+			icon: "aoa3:precasia_portal"
+			x: 33.25d
+			y: -2.5d
+			description: [
+				"Use your new Realmstone to get to Precasia."
+				""
+				"Precasia is a prehistoric dimension and has a day/night cycle similar to the Overworld. Respawn anchors, clocks, and maps all function normally. Beds can be slept in during the night, but they will not skip to morning. "
+				""
+				"Precasia's generation consists of flat and hilly areas."
+				"Four different fossil ores can be found underground in veins. This dimension is also known to have a lot of ovium, jauxum and skystone."
+				""
+				"Here you will also find new mobs, dungeons and friendly NPCs like the Lottoman, which is similiar to a vanilla villager. However, they have their own currency."
+			]
+			dependencies: ["5FB3404780403AFF"]
+			hide: true
+			id: "56B37DC076E077BD"
+			tasks: [{
+				id: "564D02E8C85C73DD"
+				type: "dimension"
+				dimension: "aoa3:precasia"
+			}]
+			rewards: [
+				{
+					id: "5020FCC0176BBF3B"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "5D2920F9ECA2B4B7"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "AoA Currency"
+			icon: "aoa3:copper_coin"
+			x: 31.75d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"There are various merchants in AoA. Some in certain dimensions and others wander around the overworld. They all have their own currency and accept nothing else. This currency drops from various entities in AoA dimensions or can be found in dungeons there. You can also convert DDSS 2 coins to AoA coins, but this will cost you a few materials. But the good thing is you can boost them!"
+				""
+				"AOA NPCs trade with the following coins:"
+				"-Copper Coins"
+				"-Silver Coins"
+				"-Gold Coins"
+				"-Lunaver Coins"
+			]
+			dependencies: ["5FB3404780403AFF"]
+			hide: true
+			optional: true
+			id: "0C2D2BF8C4FC1DF9"
+			tasks: [{
+				id: "6819E0E0FD50BA19"
+				type: "item"
+				item: "aoa3:copper_coin"
+			}]
+			rewards: [
+				{
+					id: "5DE43655AB4406F9"
+					type: "item"
+					item: "aoa3:copper_coin"
+					count: 5
+				}
+				{
+					id: "1E268200A5CEE100"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Floral Obedience Stick"
+			x: 23.25d
+			y: 1.0d
+			shape: "circle"
+			description: ["The Floral Obedience Stick is a tool that will bind all generating flowers in its range to it when used on any mana spreader, and do the same for functional flowers when used on a manapool."]
+			dependencies: ["36439AB550A37907"]
+			hide: true
+			optional: true
+			id: "21B0BC40C3CD644F"
+			tasks: [{
+				id: "235DBD42ED55EF81"
+				type: "item"
+				item: "botania:obedience_stick"
+			}]
+			rewards: [
+				{
+					id: "4622FD7209A49C82"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+				}
+				{
+					id: "1532C89A4B7F19DC"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Manaseer Monocle"
+			x: 28.25d
+			y: 1.0d
+			shape: "circle"
+			description: ["The Manaseer Monocle is a \"bauble\" item. When equipped in the baubles amulet slot, it shows nearby mana bursts (even those out of line of sight) and the functional radii of flowers to the player."]
+			dependencies: ["36439AB550A37907"]
+			hide: true
+			optional: true
+			id: "07A6AD1F7E26DEED"
+			tasks: [{
+				id: "0566524B2248CDD8"
+				type: "item"
+				item: {
+					id: "botania:monocle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4F8375694BBB9507"
+					type: "item"
+					item: "storagedrawers:compacting_drawers_3"
+					count: 2
+				}
+				{
+					id: "09CFDD62A8F40173"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Manasteel Shears"
+			x: 22.5d
+			y: 3.0d
+			shape: "circle"
+			description: ["The Manasteel Shears is a tool that uses Mana from Mana Tablet or any other Mana providing item in the player's inventory to prevent item damage or repair itself, using 30 Mana per point of durability. Unlike vanilla Shears, these will trigger tripwire."]
+			dependencies: ["36439AB550A37907"]
+			hide: true
+			optional: true
+			id: "45A9C87325E2420E"
+			tasks: [{
+				id: "35C06073A82C0085"
+				type: "item"
+				item: {
+					id: "botania:manasteel_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "576C3D81717DB687"
+					type: "item"
+					item: "kubejs:crystal_t1"
+				}
+				{
+					id: "118DECACAA2D277F"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Hand of Ender"
+			x: 29.0d
+			y: 3.0d
+			shape: "circle"
+			description: ["The Hand of Ender is a tool which opens the player's Ender Chest inventory at the cost of 250 Mana. If used on another player, it will open their Ender Chest instead at the cost of 5,000 Mana."]
+			dependencies: ["36439AB550A37907"]
+			hide: true
+			optional: true
+			id: "623DC1BBF8461F00"
+			tasks: [{
+				id: "1C75399D446AD083"
+				type: "item"
+				item: "botania:ender_hand"
+			}]
+			rewards: [
+				{
+					id: "366C721295C892CE"
+					type: "item"
+					item: "pamhc2foodextended:heartybreakfastitem"
+					count: 2
+				}
+				{
+					id: "679FCCEC89C732B1"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Precasias Resources"
+			icon: "taiga:jauxum_ingot"
+			x: 35.75d
+			y: -2.5d
+			description: ["Precasia's most valuable goods include jauxum, skeletal items and skystone. Collect a few, they will be useful."]
+			dependencies: ["56B37DC076E077BD"]
+			hide: true
+			id: "4C8A4EDDFA24312F"
+			tasks: [
+				{
+					id: "38EA9212519104F6"
+					type: "item"
+					item: "taiga:jauxum_ingot"
+					count: 4L
+				}
+				{
+					id: "4143E67F137B8F85"
+					type: "item"
+					item: "aoa3:skeletal_ingot"
+					count: 4L
+				}
+				{
+					id: "6EA2B3844D6DF789"
+					type: "item"
+					item: "appliedenergistics2:sky_stone_block"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "2D5DF586397BF8C0"
+					type: "item"
+					item: "taiga:jauxum_ore"
+					count: 2
+				}
+				{
+					id: "536196EC822ADB65"
+					type: "item"
+					item: "aoa3:chestbone_fragments_ore"
+					count: 2
+				}
+				{
+					id: "10087329E43822C0"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Void Ore Miner T1!"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:vom_t1"
+				}
+			}
+			x: 44.0d
+			y: -1.5d
+			shape: "gear"
+			description: [
+				"The Void Ore Miner is a multiblock structure that can produce various ores and resources using steam or energy. It consists of 6 tiers, and the higher the tier, the more valuable ores and items can be produced."
+				""
+				"Steam or energy must always be supplied to the main block. The same applies to extracting items from the machine. This means this specific multiblock has no hatches or ports."
+				""
+				"Check the next optional quest to see on how to build the entire structure of your first Void Ore Miner."
+			]
+			dependencies: [
+				"0A71F7D6675E64CF"
+				"354D373FF827C427"
+			]
+			hide: true
+			size: 2.0d
+			id: "5FC9F450C68A6495"
+			tasks: [
+				{
+					id: "4074A259E63867A7"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:vom_t1"
+						}
+					}
+				}
+				{
+					id: "25A701838FCF6280"
+					type: "item"
+					item: "kubejs:mbcasing_t1"
+					count: 9L
+				}
+				{
+					id: "02332EB78B544CC8"
+					type: "item"
+					item: "cyclic:mason_steel"
+					count: 20L
+				}
+			]
+			rewards: [
+				{
+					id: "4FA40EB2224920F5"
+					type: "item"
+					item: "kubejs:complex_plate_t1"
+					count: 3
+				}
+				{
+					id: "7821C212886EC21D"
+					type: "item"
+					item: "kubejs:motor_t1"
+				}
+				{
+					id: "355967841FA36FB3"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 4
+				}
+				{
+					id: "2596EF8D8C7C026B"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "1FF1891A82E8CF2C"
+					type: "item"
+					item: "aoa3:copper_coin"
+				}
+				{
+					id: "4EF320D2F63627C2"
+					type: "item"
+					item: "cyclic:mason_steel"
+					count: 12
+				}
+				{
+					id: "589DF3009BE41F3C"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Luminous Crafting Table!"
+			x: 35.75d
+			y: -4.5d
+			description: [
+				"The Luminous Crafting Table is a specialized crafting table designed specifically for the creation of your initial Astral Sorcery items."
+				""
+				"The table must be exposed to the open sky to work. When opened, the GUI shows the crafting grid, with a starlight meter at the bottom of the window when that needs to be filled to a certain level in order to craft an item. Different items need more or fewer amounts of starlight in the meter to work. To use it, place the items in the crafting grid, and wait until the desired item you want to craft shows up on the side of the grid in the GUI. You must then right-click the table with a resonating wand, and the item will pop out."
+				""
+				"The table receives more starlight the higher it is in the sky, so it should be moved to a high place. Supposedly, Certain places \"charge\" the table faster than others. It is best to craft at night since that is when it receives the most starlight."
+			]
+			dependencies: ["1359409A64DC125C"]
+			hide: true
+			id: "1D09392E2565B7BF"
+			tasks: [{
+				id: "7EA2369E354F82AF"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [
+				{
+					id: "6ADF1050418FF92C"
+					type: "item"
+					item: "astralsorcery:aquamarine_sand_ore"
+					count: 4
+				}
+				{
+					id: "40C8BA9BCD5E6442"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "2040E0C35D5F3DCA"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Resonating Wand"
+			x: 35.75d
+			y: -6.5d
+			description: [
+				""
+				"This is your most important tool if you want to interact with Astral Sorcery tables. It also helps you to find Rock Crystal Ore in the world!"
+				""
+				"Hold your resonating wand out at night (offhand or main hand, either works) and travel the world, you will see starlight rising up from the ground in the approximate area of the location of a Rock Crystal ore(if you can't see any keep looking, it is considerably rare). Go to the center of the glimmering area and mark the coordinates down(preferably making a waypoint using some minimap mod, if you do set the y coordinate to 4 Since Rock Crystal Ores only spawn near bedrock) and go mine them later. Using a pickaxe enchanted with Fortune will increase your yield substantially. It is recommended you get at least a Fortune III pickaxe  as it will reduce the number of ores you need to find in the future."
+				""
+				"You don't need to look for your first Rock Crystal Ore. You'll get it as a small “thank you for playing my pack” gift ;-)"
+			]
+			dependencies: ["1D09392E2565B7BF"]
+			hide: true
+			id: "25D276886A503FC0"
+			tasks: [{
+				id: "1675B33C524F6AED"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [
+				{
+					id: "56CC960A922F1A20"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+				{
+					id: "63DC65DEA42D1439"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Lightwell!"
+			x: 40.75d
+			y: -4.5d
+			description: [
+				"The Lightwell allows for the condensation and collection of liquid starlight when certain items are placed within them."
+				""
+				"Aquamarine, Resonating Gems, Rock Crystals and Celestial Crystals, in order from least to most output, can be used for starlight collection. Each Lightwell can only hold up to 2 buckets of liquid starlight but can be used with a Containment Chalice or other kinds of infrastructure to make it more productive."
+			]
+			dependencies: ["3C4CE3542EB9094C"]
+			hide: true
+			id: "2A8AE8EEB4DAFB2F"
+			tasks: [{
+				id: "49F438D382A58F32"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+			rewards: [
+				{
+					id: "104A685E0EEB8EFF"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 2
+				}
+				{
+					id: "036B3E7B75BC8FE9"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Canisters!"
+			x: 40.75d
+			y: -0.5d
+			description: [
+				"Canisters are containers that can be filled with a specific liquid and are mainly used in the construction of machines. They cannot be filled or emptied manually and are therefore not suitable as portable containers. For this purpose you still need to use Fluid Cells."
+				""
+				"Mana glass is required for the production of these canisters."
+			]
+			dependencies: ["5AD31978A284AD39"]
+			hide: true
+			id: "0A71F7D6675E64CF"
+			tasks: [{
+				id: "51773C0CE6237B0C"
+				type: "item"
+				item: "silents_mechanisms:empty_canister"
+			}]
+			rewards: [
+				{
+					id: "1D05F3A7DDEA2B5B"
+					type: "item"
+					item: "silents_mechanisms:empty_canister"
+				}
+				{
+					id: "37F23C189219170A"
+					type: "item"
+					item: "kubejs:materia_t1"
+				}
+				{
+					id: "4052521009B30506"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "VOM Structure!"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 42.75d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"Place down your T1 Vom core block and open its GUI. Then click on the processing arrow like in the picture below."
+				"{image:modpack:textures/quest_images/vom_gui1.png width:275 height:100 align:1}"
+				""
+				"Now click on the \"Requires a structure\" button. This projects a hologram of the entire structure in the world."
+				"{image:modpack:textures/quest_images/vom_gui2.png width:210 height:140 align:1}"
+			]
+			dependencies: ["5FC9F450C68A6495"]
+			hide: true
+			optional: true
+			id: "6BDEABBAE05394E2"
+			tasks: [{
+				id: "228019F3C70D484A"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "5DBBFA3364AD1AD0"
+					type: "item"
+					item: "kubejs:mixture_t1"
+				}
+				{
+					id: "2636F8A041086394"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Fosic Resonator"
+			x: 44.0d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"The Fosic Resonator is used to find locations of high concentrations of starlight to help power the player's Starlight Altar. When holding this device in a hand, areas of high starlight will have a blue mist over them at night. Higher concentrations have white sparkles coming off of the block. These locations are great for Altars and Spectral Relays."
+				""
+			]
+			dependencies: ["2A8AE8EEB4DAFB2F"]
+			hide: true
+			optional: true
+			id: "156CCE3540A8A0F5"
+			tasks: [{
+				id: "649F01B1E3CAEC90"
+				type: "item"
+				item: {
+					id: "astralsorcery:resonator"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							upgrades: [0]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "04D6B7CE4D6FA064"
+					type: "item"
+					item: "astralsorcery:liquid_starlight_bucket"
+				}
+				{
+					id: "720BCE8CF179274C"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 16
+				}
+				{
+					id: "3F2ADBBC28AEE7C1"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			x: 28.25d
+			y: -0.5d
+			description: [
+				"It's probably not a bad idea to improve your mana production."
+				""
+				"The Endoflame consumes any fuel dropped in a 7×7×7 area around it, then produces 3 Mana every 2 ticks for half of the fuel's burn time (30 Mana every second). For example, Charcoal, which is used to smelt 8 items, is burned for 800 ticks (40 seconds), producing 1200 Mana."
+				""
+				"The flower doesn't consume fuel while it's active. Fuels that leave a container or other byproduct behind (such as Lava Buckets) will not be consumed. Fuels with burn time longer than 32,000 ticks (doubled value of a Block of Coal) will have their burn time reduced down to that value."
+				""
+				"Endoflames can store 300 Mana internally and they can be bound to a Mana Spreader within 6 blocks of itself to transfer its Mana."
+			]
+			dependencies: ["5F998BF89833F59F"]
+			hide: true
+			id: "5AD31978A284AD39"
+			tasks: [{
+				id: "376E86168D847B01"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [
+				{
+					id: "241FF29A0B100CE5"
+					type: "item"
+					item: "mysticalagradditions:inferium_coal_block"
+					count: 2
+				}
+				{
+					id: "60E5E80017AB04F9"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Air Compressor!"
+			x: 35.75d
+			y: -8.25d
+			description: [
+				"An Air Compressor is the foundation of pneumaticcraft. It is used to create compressed air from items that burn in a furnace. Compressors are split into two tiers: Normal and Advanced. Normal ones can only withstand 5.0 bar of pressure. Advanced compressors can withstand 20.0 bar of pressure and operate faster."
+				""
+				"The centre slot is used for fuel. The four slots on the left are for pneumaticcraft upgrades."
+			]
+			dependencies: ["4E9C3372CD53278C"]
+			hide: true
+			id: "4BD59919AB6F7821"
+			tasks: [{
+				id: "6E31F03D6E4BC24B"
+				type: "item"
+				item: "pneumaticcraft:air_compressor"
+			}]
+			rewards: [
+				{
+					id: "38D4FFC6D8B4DD19"
+					type: "item"
+					item: "thermal:coal_coke_block"
+				}
+				{
+					id: "2E217F32F5D6442C"
+					type: "item"
+					item: "pneumaticcraft:ingot_iron_compressed"
+					count: 8
+				}
+				{
+					id: "08EE6E25F716F2B5"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Charging Station!"
+			x: 40.75d
+			y: -8.25d
+			description: [
+				"The Charging Station is used to charge or discharge Pneumatic-Craft items like the Air Canister, Amadron Tablet etc."
+				""
+				"Unlike other charging systems, the Charging Station will equalize the pressure in the two items which means that in order to achieve a higher pressure in an item, a higher network pressure must be acheived. This goes as well for discharging items. A low pressure Air Canister cannot pressurize a higher pressure network."
+			]
+			dependencies: ["4BD59919AB6F7821"]
+			hide: true
+			id: "6EC60A1854CBA273"
+			tasks: [{
+				id: "20DF484328D8EB5A"
+				type: "item"
+				item: "pneumaticcraft:charging_station"
+			}]
+			rewards: [
+				{
+					id: "40DDC0284304236B"
+					type: "item"
+					item: "moreplates:iron_plate"
+					count: 2
+				}
+				{
+					id: "257978D05C75BF46"
+					type: "item"
+					item: "kubejs:materia_t1"
+				}
+				{
+					id: "6094C448C86F15F8"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Amadron Tablet"
+			x: 47.5d
+			y: -8.25d
+			description: [
+				"In DDSS2 the Amadron tablet is used as an ingame shop and allows you to buy various things for DDSS2 coins which are then delivered with a drone."
+				""
+				"All you have to do is hold the Amadron tablet in your hand and select a chest with shift-right click. Place all the coins in this box so that the drone can pick them up when you place an order. The drone will then deliver the desired items in the same chest."
+				""
+				"The tablet needs air pressure to work. You can fill it with the charging station from the previous quest."
+			]
+			dependencies: ["6EC60A1854CBA273"]
+			hide: true
+			id: "1BE9FC356719A6A9"
+			tasks: [{
+				id: "2FBD60AA61A0EA12"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+			rewards: [
+				{
+					id: "240D4CDBBC4133F1"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+				{
+					id: "32A7B39BA72F36F2"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Volume Upgrade?"
+			x: 47.5d
+			y: -11.0d
+			shape: "circle"
+			description: [
+				"This upgrade increases the Amadron Tablet's air storage allowing the tablet to run longer between recharges."
+				""
+				"In other pneumaticcraft devices, of course, it also increases the internal tank accordingly."
+			]
+			dependencies: ["1BE9FC356719A6A9"]
+			hide: true
+			optional: true
+			id: "299D2D4AEB37D1B3"
+			tasks: [{
+				id: "68546559E2820F22"
+				type: "item"
+				item: "pneumaticcraft:volume_upgrade"
+			}]
+			rewards: [
+				{
+					id: "3A7A7FFB23F7F39A"
+					type: "item"
+					item: "pneumaticcraft:volume_upgrade"
+				}
+				{
+					id: "5585C6C6CE90AA57"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Pneumaticcraft Upgrades"
+			x: 34.0d
+			y: -11.0d
+			shape: "circle"
+			description: [
+				"Pneumaticcraft includes a whole range of different upgrades. Not only for the machines but also for armor and other equipment. Many of the upgrades can be stacked. JEI can give you more information about this."
+				""
+				"In this example, we want to apply a speed upgrade for the compressor. The normal compressor can be equipped with up to 10 speed upgrades at once. This increases the speed at which pressure is generated and the burn rate of the fuel enormously."
+			]
+			dependencies: ["4BD59919AB6F7821"]
+			hide: true
+			optional: true
+			id: "24A2FC32F22490B1"
+			tasks: [{
+				id: "7F3F72CF71044056"
+				type: "item"
+				item: "pneumaticcraft:speed_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0DC9E606AA009AEA"
+					type: "item"
+					item: "pneumaticcraft:speed_upgrade"
+				}
+				{
+					id: "2C8379664A5F59D0"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Stop Wasting Iron!"
+			icon: "pneumaticcraft:pressure_chamber_wall"
+			x: 35.75d
+			y: -11.0d
+			shape: "hexagon"
+			description: [
+				"The Pressure Chamber is a multi-block structure from PneumaticCraft mainly used to compress various materials into others; like iron into compressed iron. It is made by creating a hollow cube out of Pressure Chamber Walls/Windows. The size of the cube can vary from 3x3x3 to 5x5x5. Windows are optional. The Chamber also requires a Valve, which has to connect to the air blocks in the Pressure Chamber."
+				""
+				""
+				"At least one Valve is required, but more can be added. When the Pressure Chamber construction is completed, the GUI can be opened with a right-click of any of its constituent blocks."
+				""
+				"{image:modpack:textures/quest_images/press_chamber.png width:250 height:135 align:1}"
+			]
+			dependencies: ["4BD59919AB6F7821"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "15BC03A8FBD93BD1"
+			tasks: [
+				{
+					id: "1DDFF4EFB9A22D2F"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					count: 16L
+				}
+				{
+					id: "6F4A7DACBDF6F0B1"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+			]
+			rewards: [
+				{
+					id: "7B8ED5D832B44AE7"
+					type: "item"
+					item: "pneumaticcraft:pressure_tube"
+					count: 8
+				}
+				{
+					id: "54F58E82F07F0E05"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					count: 9
+				}
+				{
+					id: "70D6B477BA3D0F3E"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "06258E8B6C88F1E5"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Chamber Interfaces"
+			x: 35.75d
+			y: -13.5d
+			shape: "circle"
+			description: ["You can also add Pressure Chamber Interfaces into the structure to allow the insertion and removal of items to and from the Pressure Chamber to be automated through pipes."]
+			dependencies: ["15BC03A8FBD93BD1"]
+			hide: true
+			optional: true
+			id: "5F5652C7D92EB316"
+			tasks: [{
+				id: "11DDCA30B93A7BFB"
+				type: "item"
+				item: "pneumaticcraft:pressure_chamber_interface"
+			}]
+			rewards: [
+				{
+					id: "528B07B07AAA575B"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+				}
+				{
+					id: "499A7977B5E33A65"
+					type: "item"
+					item: "kubejs:seed_t1"
+				}
+				{
+					id: "353399BA3F77F593"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Pneumatic Jackhammer!"
+			x: 42.0d
+			y: -11.0d
+			shape: "circle"
+			description: [
+				"The Pneumatic Jackammer is basically an air pressure operated paxel. It requires a drill bit to function and the higher the quality of the drill bit, the larger the area that can be removed in one fell swoop."
+				""
+				"In addition, the device can be equipped with a silktouch or luck book to achieve the desired effect."
+			]
+			dependencies: ["6EC60A1854CBA273"]
+			hide: true
+			optional: true
+			id: "4C59EFCBD11FAE8B"
+			tasks: [{
+				id: "2AD9B8ADAFE2A742"
+				type: "item"
+				item: "pneumaticcraft:jackhammer"
+			}]
+			rewards: [
+				{
+					id: "13252EA846E68E18"
+					type: "item"
+					item: "pneumaticcraft:drill_bit_iron"
+				}
+				{
+					id: "76017D3811AD9708"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "022E2869DE5F6945"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Liquid Compressor!"
+			x: 37.5d
+			y: -11.0d
+			shape: "circle"
+			description: [
+				"The liquid compressor generates compressed air by using liquid fuels like lava or kerosene. The compressor has an advanced version that runs much faster than the normal one."
+				""
+				"This compressor generates heat, it can be cooled by attaching a heat sink to it, it also have several upgrade slots."
+				""
+				"To see every possible fuel check the \"Available Fuels\" tab in the machine GUI. This tab is ordered from best to worst fuel."
+			]
+			dependencies: ["4BD59919AB6F7821"]
+			hide: true
+			optional: true
+			id: "0F4C828E12278E30"
+			tasks: [{
+				id: "1D2AB7D68896A811"
+				type: "item"
+				item: "pneumaticcraft:liquid_compressor"
+			}]
+			rewards: [
+				{
+					id: "626BD895619C5C78"
+					type: "item"
+					item: "pneumaticcraft:heat_sink"
+				}
+				{
+					id: "7BBDC36BF0984767"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+					count: 2
+				}
+				{
+					id: "49506E90D8DC8FD9"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Vortex Cannon!"
+			x: 39.5d
+			y: -11.0d
+			shape: "circle"
+			description: ["This cannon shoots air vortices! Harmless projectiles which repel entities, shear animals, and destroy plants and leaves.  With careful timing, you can also fling yourself considerable distances, but beware fall damage!"]
+			dependencies: ["6EC60A1854CBA273"]
+			hide: true
+			optional: true
+			id: "5B3A465AEC45BB8E"
+			tasks: [{
+				id: "1BF7E8AAA24C3241"
+				type: "item"
+				item: "pneumaticcraft:vortex_cannon"
+			}]
+			rewards: [
+				{
+					id: "700A9086192C4EA9"
+					type: "item"
+					item: "pamhc2foodextended:gourmetbeefburgeritem"
+				}
+				{
+					id: "41B54B1A81CEAB43"
+					type: "item"
+					item: "kubejs:mixture_t1"
+				}
+				{
+					id: "17745006CD3BBC98"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Program Cards"
+			x: 47.5d
+			y: -1.5d
+			description: [
+				"These program cards are used in Void Miners to control what exactly should be searched for. Ores and Stones is probably the most important and most useful card."
+				""
+				"The card has its own slot in a VOM and is not consumed or destroyed."
+			]
+			dependencies: ["5FC9F450C68A6495"]
+			hide: true
+			id: "740E2622DCDF5E09"
+			tasks: [{
+				id: "1EF0DC4EA5EC07DA"
+				type: "item"
+				item: "kubejs:vom_card_ore"
+			}]
+			rewards: [
+				{
+					id: "79CD6683FE98E62B"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 2
+				}
+				{
+					id: "5D3B52AF8C851BA5"
+					type: "item"
+					item: "aoa3:copper_coin"
+					count: 10
+				}
+				{
+					id: "4A4E462DF44D8B14"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Barathos!? (Unlocks Chapter: Main Questline T2)"
+			x: 54.0d
+			y: -4.8d
+			description: [
+				"The Barathos RealmStone is used to access the Barathos dimension."
+				""
+				"And with this quest we reach the end of Tier 1. In the next stage, we pick up right here and learn more about Barathos and its secrets!"
+				""
+				"You have done a fantastic job so far! For the completion of this chapter, you will now be properly rewarded!"
+			]
+			dependencies: [
+				"740E2622DCDF5E09"
+				"1BE9FC356719A6A9"
+			]
+			hide: true
+			size: 3.0d
+			id: "0A52477E69679A16"
+			tasks: [{
+				id: "407C2880CCD850BE"
+				type: "item"
+				item: "aoa3:barathos_realmstone"
+			}]
+			rewards: [
+				{
+					id: "59889C1E649EAE21"
+					type: "choice"
+					table_id: 7651562546043366665L
+				}
+				{
+					id: "44AB7C1560225B09"
+					type: "choice"
+					table_id: 3341174482915288993L
+				}
+				{
+					id: "21B4E0A5C1F64627"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 8
+				}
+				{
+					id: "64EEFCA20E02CFE1"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "0939784A431162CD"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 10
+				}
+				{
+					id: "1408F2E5609085E7"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+				{
+					id: "7CE78FB4EB204858"
+					type: "item"
+					item: {
+						id: "matc:inferium_crystal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1AE6C24197EE7215"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Slime Boots!"
+			x: 1.0d
+			y: 6.75d
+			shape: "circle"
+			description: [
+				"Slime Boots negate fall damage and bounce the user off the ground."
+				""
+				"As an armor piece worn the boots slot, falling from a block height of more than 2 will cause you to bounce back up at about half the height of the amount dropped. You then continually drop down to the ground and bounce back up to a lower height until the block height is only 2. Due to this ability, Slimeslings are intended to be used with it for fast travel."
+			]
+			dependencies: ["216CAD724DF067BE"]
+			hide: true
+			optional: true
+			id: "50143904AB434CEA"
+			tasks: [{
+				id: "6A5EA7C1BA719B0E"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_boots"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 546.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:bouncy"
+								level: 1s
+							}
+							{
+								name: "tconstruct:leaping"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5BFF96B2DD4CB71A"
+					type: "item"
+					item: "tconstruct:earth_congealed_slime"
+				}
+				{
+					id: "4A7585C3E46EFC15"
+					type: "item"
+					item: "kubejs:materia_t1"
+				}
+				{
+					id: "194394FE98B0C8C0"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Slimesling!"
+			x: 1.0d
+			y: 9.75d
+			shape: "circle"
+			description: ["The Slimesling is used as a tool to quickly gain altitude and/or speed. To use the Slimesling, the use key (default right click) must be held and aimed at the side or top of the block to bounce off of. The player must be touching the ground. Depending on how pulled back the Slimesling is, the user will be launched into the air opposite the direction which they were facing when aiming at the block."]
+			dependencies: ["50143904AB434CEA"]
+			hide: true
+			optional: true
+			id: "352B7B9663432EBF"
+			tasks: [{
+				id: "53DE8EBBC4920088"
+				type: "item"
+				item: {
+					id: "tconstruct:earth_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5A64F0680E7492FB"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "51D7A10ACDA2F1DC"
+					type: "item"
+					item: "mysticalagriculture:slime_seeds"
+				}
+				{
+					id: "0F6887C9D3D0C8B5"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Bismuth Seed Deal!"
+			icon: "mysticalagriculture:bismuth_seeds"
+			x: 9.5d
+			y: 7.5d
+			shape: "heart"
+			subtitle: "Trading Quest"
+			description: ["A Bismuth Seed will cost you at least 4 bismuth blocks and a few other things. Isn't it better to take this deal? Or what do you think?"]
+			dependencies: ["7A17E27EBC5C1898"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "00C6886FFB98EB58"
+			tasks: [
+				{
+					id: "4FF4B5D9D21825ED"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "642CAFAD14616677"
+					type: "item"
+					item: "silents_mechanisms:bismuth_block"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0FF0EA460AC7C5B3"
+				type: "item"
+				item: "mysticalagriculture:bismuth_seeds"
+			}]
+		}
+		{
+			title: "High Pressure Boiler!"
+			x: 24.5d
+			y: -11.0d
+			shape: "circle"
+			description: [
+				"The High Pressure Boiler is the perfect choice for anyone looking for top-tier singleblock performance and unmatched versatility. It's a significant upgrade from its predecessor, offering a larger tank for both water and steam, along with the flexibility to install more upgrades than before."
+				""
+				"The HP Boiler produces 40mb Steam per Tick without any upgrades."
+			]
+			dependencies: ["2C70A1CA8856F142"]
+			hide: true
+			optional: true
+			id: "46AD6C13530B4137"
+			tasks: [{
+				id: "4DA6B46F4BDC3024"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:boiler_hp"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "53E092657DA2518B"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 2
+				}
+				{
+					id: "2D6DBF114A7EFF89"
+					type: "item"
+					item: "extendedcrafting:frame"
+				}
+				{
+					id: "130EFE916614B8B3"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Pneumatic Cylinder!"
+			x: 26.0d
+			y: -8.25d
+			description: ["Pneumatic cylinder, also known as air cylinder, is a mechanical device which uses the power of compressed gas to produce a force in a reciprocating linear motion."]
+			dependencies: ["5A1E8B32C5D7D958"]
+			hide: true
+			id: "2C70A1CA8856F142"
+			tasks: [{
+				id: "358F66C2AAC4C070"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_cylinder"
+			}]
+			rewards: [
+				{
+					id: "7C3DE37209325310"
+					type: "item"
+					item: "pneumaticcraft:pneumatic_cylinder"
+				}
+				{
+					id: "7025D021837BC286"
+					type: "item"
+					item: "kubejs:complex_plate_t1"
+					count: 4
+				}
+				{
+					id: "30C7F934617EED65"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Astral Relay and Glass Lens"
+			icon: "astralsorcery:spectral_relay"
+			x: 40.75d
+			y: -2.5d
+			description: [
+				"The Astral Relay is a \"block\" that can either be used to bring more starlight to a Luminous Crafting Table (or any of its upgrades), to set the target Constellation of an Attunement Altar, or to provide items for an Iridescent Altar. They can hold a single item."
+				""
+				"For this to work right, you've got to build a small multiblock platform under the relay. You'll need 4 Chiseled Marble, 4 Marble Arch, and a Sooty Marble. Then, if you right-click with the Resonating Wand on a relay where you've already placed a Glass Lens, the platform's hologram will appear."
+				""
+				"However, placing too many relays close to each other will result in one cannibalizing the others' starlight and will most likely create much more... disappointing results.."
+			]
+			dependencies: ["2A8AE8EEB4DAFB2F"]
+			hide: true
+			id: "354D373FF827C427"
+			tasks: [
+				{
+					id: "26561178E212DE70"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+				}
+				{
+					id: "5008E5E8C158C6EB"
+					type: "item"
+					item: "astralsorcery:glass_lens"
+				}
+			]
+			rewards: [
+				{
+					id: "79C38480FEDEC6B6"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+				}
+				{
+					id: "5FE60F0BB232419A"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+				{
+					id: "42D0B881080AFFE4"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Ethanol!"
+			x: 15.75d
+			y: -3.75d
+			description: ["Hey, just wanted to let you know that if you put vegetables in an extractor, you'll get ethanol. It's a good idea to start collecting it now, because we're going to need a lot of it by the time we get to Tier 2."]
+			dependencies: ["205EA7CF43E371F5"]
+			hide: true
+			id: "27997C4125DC4B77"
+			tasks: [{
+				id: "00C88879BD52EDCD"
+				type: "item"
+				item: "immersiveengineering:ethanol_bucket"
+			}]
+			rewards: [
+				{
+					id: "509ECAB1864E4631"
+					type: "item"
+					item: {
+						id: "fluidtank:tank_stone"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								tier: "stone"
+								tank: {
+									amount: 4000L
+									fluid: "immersiveengineering:ethanol"
+									capacity: 16000L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "4757883666479914"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Iron Seeds"
+			x: 14.0d
+			y: 11.25d
+			shape: "circle"
+			description: [
+				"Iron Seeds!"
+				""
+				"I'd say this is probably the most used metal in the pack. Maybe"
+			]
+			dependencies: ["7A17E27EBC5C1898"]
+			hide: true
+			optional: true
+			id: "6218BAC5D82FD7B7"
+			tasks: [{
+				id: "48BD664AF9969224"
+				type: "item"
+				item: "mysticalagriculture:iron_seeds"
+			}]
+			rewards: [
+				{
+					id: "0877E8A4AA399C7D"
+					type: "item"
+					item: "kubejs:seed_t1"
+				}
+				{
+					id: "3A0FA9510E766E79"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "317ECDE602943535"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "02FEA63650A878FE"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Silicon Seeds!"
+			x: 15.75d
+			y: 11.25d
+			shape: "circle"
+			description: [
+				"Silicon Seeds!"
+				""
+				""
+				"Silicone has a wide range of applications. It would be a valuable addition to the range of products to produce a seed right?"
+			]
+			dependencies: ["7A17E27EBC5C1898"]
+			hide: true
+			optional: true
+			id: "1D5FD8E0CE6F0498"
+			tasks: [{
+				id: "7D2E2C0B4DF232A4"
+				type: "item"
+				item: "mysticalagriculture:silicon_seeds"
+			}]
+			rewards: [
+				{
+					id: "16829928325DDCB8"
+					type: "item"
+					item: "kubejs:seed_t1"
+				}
+				{
+					id: "2A5319284B6F05A9"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "4B135995AF68C0F6"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "2ACC7B4A6481D02B"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Copper Seeds"
+			x: 12.25d
+			y: 11.25d
+			shape: "circle"
+			description: [
+				"Copper Seeds! Used alot in all kind of alloys..."
+				""
+			]
+			dependencies: ["7A17E27EBC5C1898"]
+			hide: true
+			optional: true
+			id: "0BEB22AF74D3C7BF"
+			tasks: [{
+				id: "3507EC7FD13B980D"
+				type: "item"
+				item: "mysticalagriculture:copper_seeds"
+			}]
+			rewards: [
+				{
+					id: "2A29D120CD4CCEAE"
+					type: "item"
+					item: "kubejs:seed_t1"
+				}
+				{
+					id: "4178206570B42FBA"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "6908E99043F4CB9D"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "2DD09985D1755527"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Coal Seeds"
+			x: 10.5d
+			y: 11.25d
+			shape: "circle"
+			description: [
+				"Coal Seeds! Infinite solid fuel...."
+				""
+			]
+			dependencies: ["7A17E27EBC5C1898"]
+			hide: true
+			optional: true
+			id: "08E56F18155EA26B"
+			tasks: [{
+				id: "13E158CFB49E4DF6"
+				type: "item"
+				item: "mysticalagriculture:coal_seeds"
+			}]
+			rewards: [
+				{
+					id: "1FAF443AFF31522E"
+					type: "item"
+					item: "kubejs:seed_t1"
+				}
+				{
+					id: "7614E9E57FF327A7"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 6
+				}
+				{
+					id: "40ADCEC22747A53E"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "07AE85379BFD6C57"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "A Bloody Situation..."
+			x: 7.25d
+			y: 4.0d
+			description: [
+				"Blood is a serious matter, and even if you do not need it right away, it would be good to start collecting it now. The blood extractor is the right tool for this."
+				""
+				"Killing any mob will fill all Blood Extractors in your inventory with 5 to 40 mB of Blood per 1 heart maximum health of the killed mob."
+				""
+				"The Extractor can hold 5,000 mB of fluid by default. It can be combined with other Blood Extractors or Dark Tanks in any crafting grid to add up their capacity, up to a maximum of 65,536,000 mB!"
+			]
+			dependencies: ["26D6C14036495CB9"]
+			hide: true
+			id: "135D46860C6990F1"
+			tasks: [{
+				id: "27FC15B709BCA69D"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_extractor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "765367C4905F927B"
+					type: "item"
+					item: {
+						id: "evilcraft:blood_extractor"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5AF080A98114779F"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "6DDBB198B6279CA7"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Copper Tanks!"
+			icon: "fluidtank:tank_copper"
+			x: 15.25d
+			y: -10.75d
+			shape: "circle"
+			description: [
+				"Use the steam assembler to produce a copper tank. It has a capacity of 40,000 mb."
+				""
+				"You can convert those fluid tanks to other modded tanks. For example, you can convert the Copper Tank to an Advanced Fluid Tank from Mekanism. Check JEI for more information."
+			]
+			dependencies: ["48E42BAB1A990772"]
+			hide: true
+			optional: true
+			id: "7EDF95AA719D3B6D"
+			tasks: [{
+				id: "727EF936BABAE20E"
+				type: "item"
+				item: "fluidtank:tank_copper"
+			}]
+			rewards: [
+				{
+					id: "7BA854E6E614F702"
+					type: "item"
+					item: "ironfurnaces:upgrade_iron"
+				}
+				{
+					id: "260ACA80420400C1"
+					type: "item"
+					item: "kubejs:mixture_t1"
+				}
+				{
+					id: "6EF30E5A14EE2D4B"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Purification Dust?"
+			icon: "thermal:lapis_dust"
+			x: -18.5d
+			y: -2.5d
+			description: [
+				"Let's get started on making purification fluid! First, we'll need some purification dust."
+				""
+				"You've got options: lapis, ovium, or glowcane dust. Just use one of these three substances for the purification process. It's totally up to you which one you use. Go ahead and use whatever you have on hand!"
+			]
+			dependencies: ["6E293080174C5B2C"]
+			hide: true
+			id: "370F94752A12DF85"
+			tasks: [{
+				id: "4947C45E687916AB"
+				type: "item"
+				title: "Any #forge:purification_dust_weak"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:purification_dust_weak"
+					}
+				}
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "05B3BEE40C8AEE5E"
+					type: "item"
+					item: "minecraft:lapis_ore"
+					count: 2
+				}
+				{
+					id: "56F2F6A36432E8DC"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "What the heck is glowcane?"
+			x: -18.5d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"Now that you know what purification dust means, you might be wondering what glowcane is. It could be very useful. Let me give you a quick rundown."
+				""
+				"Glowcane is a block found near water in the Glowshroom Bayou biome from the mod \"Oh the biomes youll go\". It comes in four variants: Blue, Pink, Purple and Red and can be used to craft glowcane dust of their respective colors."
+				""
+			]
+			dependencies: ["370F94752A12DF85"]
+			hide: true
+			optional: true
+			id: "5EAF1E4A90C349C1"
+			tasks: [{
+				id: "0E1FD018C628ABD7"
+				type: "item"
+				item: "byg:blue_glowcane_block"
+			}]
+			rewards: [
+				{
+					id: "23563672A5217581"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "747B107C7D2B5532"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Tree Oil"
+			x: -15.75d
+			y: 4.0d
+			shape: "circle"
+			description: [
+				"Tree oil can be refined by processing resin in an EDRU. It is mainly used to produce lubricant more cheaply without having to waste crude oil and in T2 its pretty useful to get MQ Plastic."
+				""
+				"You should definitely consider this because oil pumps are still a long way off."
+				""
+				"In T2, you can extract Tree Oil dircetly from logs."
+			]
+			dependencies: ["296E617E84C35438"]
+			hide: true
+			optional: true
+			id: "6BC4FBA9984FEF11"
+			tasks: [{
+				id: "51D648A6E16E14DF"
+				type: "item"
+				item: "thermal:tree_oil_bucket"
+			}]
+			rewards: [
+				{
+					id: "60A8440D8653C35C"
+					type: "item"
+					item: {
+						id: "fluidtank:tank_wood"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								tier: "wood"
+								tank: {
+									amount: 4000L
+									fluid: "thermal:resin"
+									capacity: 4000L
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "13A688D44044585F"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Prudentium Essence!"
+			x: 15.75d
+			y: 1.25d
+			description: [
+				"Now that you have the Essence-Omatic and the necessary crystals, you can finally start upgrading Inferium to Prudentium. Especially with steam machines it takes a bit longer and there are only a few upgrade options. So it's not a bad idea to start now."
+				""
+				"Note: If you make blocks from Inferium Essence, you can upgrade the entire block directly to the next higher level. This saves you the many small steps."
+			]
+			dependencies: ["1B911C97E9161454"]
+			hide: true
+			id: "3ACAB4D89AD5F86A"
+			tasks: [{
+				id: "6B1FF1D5BDB935CF"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+			rewards: [
+				{
+					id: "1E9681975DC1BCC5"
+					type: "item"
+					item: "mysticalagradditions:prudentium_apple"
+				}
+				{
+					id: "0710D2F8C37E263E"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "VOM T1 Loottable"
+			icon: "minecraft:iron_ore"
+			x: 45.25d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"You'll be thrilled to know that you can get all the info you need on possible ores spawning from a T1 VOM or higher through JEI."
+				""
+				"But, if you're short on time, no worries! Here's a quick overview to get you started."
+				""
+				"- Iron, Copper, Tin, Zinc"
+				"- Lead, Bauxite, Bismuth"
+				"- Tiberium, Dilithium, Basalt"
+				"- Coal, Redstone, Inferium"
+				"- Prosperity, Runium"
+				"- Froststeel, Cloggrum"
+			]
+			dependencies: ["5FC9F450C68A6495"]
+			hide: true
+			optional: true
+			id: "1AF1E53C607EA70C"
+			tasks: [{
+				id: "30BAEE44C3C1B7FC"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "23CBF11EF14F6542"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Bellethorne"
+			x: 44.0d
+			y: -3.5d
+			shape: "circle"
+			description: ["The Bellethorne is the most straightforward functional flower to produce. It will utilize Mana from a nearby Mana Pools to harm mobs but not the players around it."]
+			dependencies: ["2A8AE8EEB4DAFB2F"]
+			hide: true
+			optional: true
+			id: "5F8AD432F9DBCD69"
+			tasks: [{
+				id: "24462A71AE7272B8"
+				type: "item"
+				item: "botania:bellethorn"
+			}]
+			rewards: [
+				{
+					id: "5BDDB94492892A0E"
+					type: "choice"
+					table_id: 2941367541881900481L
+				}
+				{
+					id: "6FB3EA2A5E7B4220"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "A Magical Beginning!"
+			x: 38.25d
+			y: -2.5d
+			description: [
+				"Once you've had enough of exploring new dimensions, let's start with the basics of Astral Sorcery so we can take advantage of this magical mod."
+				""
+				"The Astral Tome Book serves as the mod's in-game documentation. It also has an inventory that can store Constellation Papers when shift right-clicked in hand."
+				""
+				"Don't follow the recipes in the book, though. This modpack does a few things a little differently, but I'm sure you've already noticed that. :)"
+			]
+			dependencies: ["4C8A4EDDFA24312F"]
+			hide: true
+			id: "7140A7FFBDCAAA6B"
+			tasks: [{
+				id: "3043A47766782C81"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+			rewards: [
+				{
+					id: "18474A8F2CA9A9CF"
+					type: "item"
+					item: "astralsorcery:aquamarine_sand_ore"
+					count: 2
+				}
+				{
+					id: "7F08DEF05F2C7E13"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Getting Started In Astral"
+			icon: "astralsorcery:marble_raw"
+			x: 38.25d
+			y: -4.5d
+			description: [
+				"The second thing you will need to do to get started is to look for shrines and Constellation Papers all over the world."
+				""
+				"You should also collect some more Aquamarine and Marble, and prepare some Manasteel as well."
+			]
+			dependencies: ["7140A7FFBDCAAA6B"]
+			hide: true
+			id: "1359409A64DC125C"
+			tasks: [{
+				id: "7C67AC389B01B45B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "01F2C6145D8CA73F"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			x: 38.25d
+			y: -6.5d
+			dependencies: ["25D276886A503FC0"]
+			hide: true
+			id: "66919A2B50A09434"
+			tasks: [{
+				id: "47B9F82B59FB2467"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+		}
+		{
+			title: "Constellations *,,*"
+			icon: {
+				id: "astralsorcery:constellation_paper"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			x: 40.75d
+			y: -6.5d
+			description: [
+				"You don't have to do this right now if you don't want to, but you should at least know about constellations."
+				""
+				"So, with the Looking Glass in hand, just right-click and look into the sky. A box will pop up, and you'll see it zoomed into the sky. What you're looking for is Constellations."
+				""
+				"You'll know you've found them when you see bigger stars that fade in and out in the center of the box. Keep in mind that these constellations can be tricky to spot; sometimes you'll get lucky and find them, and other nights, well you dont. Or you might see different ones each night."
+				""
+				"Once you've found a constellation, exit the telescope (don't move) and open your Tome. You'll see what constellation it is under the \"Constellation\" tab.   "
+				""
+				"One thing to note is that the Constellation Horologium will appear every 36 days, so it's pretty rare!"
+			]
+			dependencies: ["66919A2B50A09434"]
+			hide: true
+			id: "3C4CE3542EB9094C"
+			tasks: [{
+				id: "5B6B103EEE8EBB28"
+				type: "checkmark"
+				title: "Constellations *-*"
+			}]
+			rewards: [{
+				id: "3F9E53BBF00E00E0"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Rock Crystal Tools"
+			icon: {
+				id: "astralsorcery:crystal_sword"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:tool.durability"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:tool.efficiency"
+									pLevel: 3
+									discovered: 1b
+								}
+							]
+						}
+					}
+					Damage: 0
+				}
+			}
+			x: 33.25d
+			y: -6.5d
+			shape: "circle"
+			description: [
+				"You may have noticed that rock crystals come in different qualities, and each one has its own unique stats, like size and shape. If you're interested in crafting tools or weapons from rock crystals, there are a few things to keep in mind."
+				""
+				"Size and Tool Durability: Increase tool / weapon durability."
+				"Shape and Efficiency: Increase tool speed or weapon damage"
+			]
+			dependencies: ["25D276886A503FC0"]
+			hide: true
+			optional: true
+			id: "3229A88E9F6CDA98"
+			tasks: [{
+				id: "7EAE120071AA4012"
+				type: "item"
+				item: {
+					id: "astralsorcery:crystal_sword"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.durability"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "428D13D7C6027701"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+				{
+					id: "2EA423E67C76250D"
+					type: "item"
+					item: "kubejs:mixture_t1"
+				}
+				{
+					id: "1CF11DD3C2C426B4"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Aquamarine?"
+			icon: "astralsorcery:aquamarine_sand_ore"
+			x: -13.5d
+			y: -4.5d
+			description: ["Aquamarine can be found relatively often along just about any land biome that is connected to water in some way, as they spawn in the sand."]
+			dependencies: ["7FB8F3D2C79F34A6"]
+			hide: true
+			id: "5020FB384A719C41"
+			tasks: [{
+				id: "1238355229D0491D"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+			rewards: [
+				{
+					id: "0236F619A7978D41"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+				}
+				{
+					id: "780A7DB82243ED06"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Large Bronze Boiler! [Optional]"
+			icon: "masterfulmachinery:basic_controller"
+			x: -4.0d
+			y: 1.5d
+			shape: "hexagon"
+			description: [
+				"Now that you know how to make cooling frames, it's time to move on to our next multiblock structure. "
+				""
+				"The Large Bronze Boiler is a 3x3x3 multiblock structure. It consists of a controller, 21x bronze hulls, 1x item input hatch, 1x fluid input hatch, 1x fluid output hatch and 2x Large Cooling Cell T1."
+				""
+				"It produces 150mb of steam per tick. That makes it just as efficient as 7.5 low-pressure boilers. The only drawback is that it requires a lot of water. Some dedicated Water Collectors are needed."
+				"{image:modpack:textures/quest_images/bronze_boiler_.png width:150 height:110 align:1}"
+				"Check out JEI for the exact building instructions. Press U on the controller."
+				""
+				"Please be aware that steam can be used to power Universal Fluid generators and Large Steam Turbines to produce electricity. From this perspective, steam can accompany you for a considerable period if you wish it to."
+			]
+			dependencies: ["05FB1BC53F843385"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "552B74A5E81CF677"
+			tasks: [
+				{
+					id: "297DCD38025A8CDB"
+					type: "item"
+					item: "masterfulmachinery:basic_controller"
+				}
+				{
+					id: "78C9D263B5E83EFB"
+					type: "item"
+					item: "masterfulmachinery:basic_item1_port_items_input"
+				}
+				{
+					id: "35CB3687944EFFF7"
+					type: "item"
+					item: "masterfulmachinery:basic_fluid1_port_fluids_input"
+				}
+				{
+					id: "3EF43D33CDD3568E"
+					type: "item"
+					item: "masterfulmachinery:basic_fluid1_port_fluids_output"
+				}
+				{
+					id: "35759295FF2B0991"
+					type: "item"
+					item: "kubejs:bronze_hull"
+					count: 11L
+				}
+			]
+			rewards: [
+				{
+					id: "305145B1818A2329"
+					type: "item"
+					item: "kubejs:bronze_hull"
+					count: 10
+				}
+				{
+					id: "2DC8066735FE3388"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "11C00D7E5FA94AB9"
+					type: "choice"
+					table_id: 7651562546043366665L
+				}
+				{
+					id: "56271D75927A43CA"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:knockback"
+							}]
+						}
+					}
+				}
+				{
+					id: "4FD90508C517C206"
+					type: "item"
+					item: "kubejs:mbcasing_t1"
+					count: 2
+				}
+				{
+					id: "061F973D7435BDBF"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Multiblock Side Quests?"
+			x: -7.5d
+			y: 1.5d
+			shape: "hexagon"
+			description: [
+				"Multiblock quests are not always part of the main questline. If this is the case, you can recognise it by the shape of the quest. Optional multiblock quests are shaped like a hexagon and are bigger."
+				""
+				"The upcoming Large Bronze Boiler, for example, is just a side quest since it isn't necessary. However, they're usually pretty useful for your progression."
+			]
+			dependencies: ["51A1CF021F3C3187"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "05FB1BC53F843385"
+			tasks: [{
+				id: "39EEFCC5DF0F96A6"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "64146F8E3A5463D6"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Dynamic Fluid Tank!"
+			icon: "mekanism:dynamic_tank"
+			x: 19.5d
+			y: -11.0d
+			shape: "hexagon"
+			description: [
+				"With Dynamic Tank Blocks, Dynamic Valves, and optionally Structural Glass, you can make a multi-block fluid storage structure that can hold a lot of a single type of fluid. The smallest size is 3x3x3, and the largest is 18x18x18. If you've got a valid Dynamic Tank structure, it'll flash with \"active redstone\" particles when you're done."
+				""
+				""
+				"Every block in the multiblock and the blocks inside it increase the tank's capacity. Each block adds 32,000 mB of liquid capacity or 2,000,000 mB of gas capacity by default."
+				""
+				"In short a 3x3x3 fluid tank can hold 864'000mb of a liquid or 54'000'000 mb of some gas."
+				"{image:modpack:textures/quest_images/dynamic_tank.png width:170 height:120 align:1}"
+			]
+			dependencies: ["5A1E8B32C5D7D958"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "21C2369A3CD2EA6F"
+			tasks: [
+				{
+					id: "6C991FC284152DF1"
+					type: "item"
+					item: "mekanism:dynamic_tank"
+					count: 15L
+				}
+				{
+					id: "73578835FAD559B0"
+					type: "item"
+					item: "mekanism:dynamic_valve"
+				}
+			]
+			rewards: [
+				{
+					id: "6943A0E4A431445A"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 3
+				}
+				{
+					id: "6ABA21A5A5628ED8"
+					type: "item"
+					item: "mekanism:dynamic_valve"
+				}
+				{
+					id: "2903A3856F2D4645"
+					type: "item"
+					item: "mekanism:dynamic_tank"
+					count: 6
+				}
+				{
+					id: "287305A024775BB3"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "0D58553358D470FB"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Large Steel Boiler!"
+			icon: "masterfulmachinery:steel_boiler_controller"
+			x: 27.5d
+			y: -11.0d
+			shape: "hexagon"
+			description: [
+				"The Large Steel Boiler is pretty awesome. If you have it, you'll be well supplied for a long time. It produces 400mb of steam per tick and uses tons of water. You will definitely need better water collectors or many smaller ones."
+				""
+				"It is one level higher than the Bronze Boiler, but otherwise has the same size and number of input/output hatches. "
+				""
+				"{image:modpack:textures/quest_multiblock/steel_boiler.png width:160 height:115 align:1}"
+				""
+				"Please be aware that steam can be used to power Universal Fluid generators in Tier 2 to produce electricity. From this perspective, steam can accompany you for a considerable period if you wish it to."
+			]
+			dependencies: ["2C70A1CA8856F142"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "6663E4F67D7594A2"
+			tasks: [
+				{
+					id: "7DA0838D01981F51"
+					type: "item"
+					item: "masterfulmachinery:steel_boiler_controller"
+				}
+				{
+					id: "6AC3B57804D918C9"
+					type: "item"
+					item: "masterfulmachinery:steel_boiler_item1_port_items_input"
+				}
+				{
+					id: "7B034226DB834838"
+					type: "item"
+					item: "masterfulmachinery:steel_boiler_fluid1_port_fluids_input"
+				}
+				{
+					id: "2FC4A76D8BB617BE"
+					type: "item"
+					item: "masterfulmachinery:steel_boiler_fluid1_port_fluids_output"
+				}
+				{
+					id: "3EC85D07E8352A64"
+					type: "item"
+					item: "kubejs:steam_hull"
+					count: 20L
+				}
+				{
+					id: "6C97796449826519"
+					type: "item"
+					item: "kubejs:mbcasing_t1"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "48CFD0E0C4F09392"
+					type: "item"
+					item: "kubejs:steam_hull"
+					count: 9
+				}
+				{
+					id: "60DB1AFA8589CA3B"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "7FDDC626917D98A4"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:assembler01_steam"
+						}
+					}
+				}
+				{
+					id: "04ECBF5FFD451CA7"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:essencomatic_steam"
+						}
+					}
+				}
+				{
+					id: "40B2B980E554A112"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Water Collector Tier 2"
+			x: 4.25d
+			y: -0.75d
+			shape: "circle"
+			description: [
+				"The second tier of Water Collectors."
+				""
+				"It produces 500mb of water every 3 ticks which is a significant upgrade. It can feed 7 Low Pressure Boilers at once."
+			]
+			dependencies: ["49FEC7A61007E047"]
+			hide: true
+			optional: true
+			id: "34FF71E9FFDCB20B"
+			tasks: [{
+				id: "25F176CDD4F973E5"
+				type: "item"
+				item: "watersources:water_source_tier_3"
+			}]
+			rewards: [
+				{
+					id: "403684B23642F378"
+					type: "item"
+					item: "fluidtank:tank_stone"
+					count: 2
+				}
+				{
+					id: "72C1838B49C25D0D"
+					type: "item"
+					item: "pipez:fluid_pipe"
+					count: 8
+				}
+				{
+					id: "0C487763C04EF5FC"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Teleport Pad?"
+			x: -10.5d
+			y: -3.0d
+			shape: "circle"
+			description: ["The teleport pad when used from the overworld, will take you to a flat mining dimension. Here you can easily find all the ores available in the overworld without messing up your actual landscape."]
+			dependencies: ["68460CE103B2E57B"]
+			hide: true
+			optional: true
+			id: "5C64FE4201CBCD5E"
+			tasks: [{
+				id: "17426D55B3B0D84B"
+				type: "item"
+				item: "allthemodium:teleport_pad"
+			}]
+			rewards: [
+				{
+					id: "50DB122558398CA1"
+					type: "item"
+					item: "kubejs:pure_iron"
+					count: 4
+				}
+				{
+					id: "33D56A45C481BCA8"
+					type: "item"
+					item: "moreplates:steel_plate"
+					count: 4
+				}
+				{
+					id: "6FE0AEEA586BFC93"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "109699D44FB3E673"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Majestic Ingots?"
+			icon: "extendedcrafting:the_ultimate_ingot"
+			x: -10.5d
+			y: -0.75d
+			description: [
+				"You may have heard of Majestic Ingots, or even found some. These can be found in almost every dungeon, either as an ingot or sometimes just a few nuggets. But they are rare!"
+				""
+				"They are a very valuable resource and can be used to craft some magical items. You can make them yourself later, but it's not an easy process. You will be given one to start with, perhaps you will want to build the teleportation pad to the Mining Dimension in the next optional quest."
+			]
+			dependencies: ["7FB8F3D2C79F34A6"]
+			hide: true
+			id: "68460CE103B2E57B"
+			tasks: [{
+				id: "7039F966D3666384"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6D14BACD2E079AA7"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			title: "Finally Purification Compound!"
+			x: 15.75d
+			y: -5.0d
+			description: ["At last you no longer have to make Purification Compound with buckets. The mixer and extractor allow you to work much more efficiently and you no longer have to rely on the chemists workshop!"]
+			dependencies: ["07E401FDB18E6789"]
+			hide: true
+			id: "07EF167DD30A887E"
+			tasks: [{
+				id: "1E5CBABE0A64A1FB"
+				type: "item"
+				item: "kubejs:weak_puri_comp"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "3DE650B822510243"
+					type: "item"
+					item: "kubejs:weak_puri_comp"
+					count: 2
+				}
+				{
+					id: "33EA2E005B7C9B95"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Stone Tank!"
+			x: -26.0d
+			y: 1.0d
+			description: ["The stone tank has a capacity of 16,000 mb for any given fluid, and can be arranged in vertical stacks. It may be beneficial to consider additional fluid storage capacity to accommodate your steam requirements."]
+			dependencies: ["77C1E3CAFA1587DD"]
+			hide: true
+			id: "1B3C3A3BC818755F"
+			tasks: [{
+				id: "7B5AA37C5EFAC09C"
+				type: "item"
+				item: "fluidtank:tank_stone"
+			}]
+			rewards: [
+				{
+					id: "2D4EF715568A9F42"
+					type: "item"
+					item: "fluidtank:tank_stone"
+				}
+				{
+					id: "768B59093059BDAF"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			x: -1.75d
+			y: -2.75d
+			shape: "circle"
+			description: [
+				"Right-clicking with the chisel in your hand will open a GUI that allows you to convert various blocks into many different varieties. This is mainly for decoration."
+				""
+				"But it is also used to change the state of a circuit, as mentioned in the previous quest."
+			]
+			dependencies: ["056B81FD25E2F828"]
+			hide: true
+			optional: true
+			id: "2B2EFCF8BC68F6EC"
+			tasks: [{
+				id: "3DF0EF28793D6B22"
+				type: "item"
+				item: {
+					id: "chisel:iron_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						chiseldata: {
+							target: {
+								id: "minecraft:air"
+								Count: 0b
+								tag: { }
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "23280238F5659288"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 2
+				}
+				{
+					id: "562D3C612750A0EC"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Basic Fluid Tank"
+			x: -26.0d
+			y: 4.0d
+			shape: "circle"
+			description: [
+				"Fluid tanks can be converted into various other modded tanks. For example, if you combine a Stone Tank with an Osmium Ingot in a Workbench, you will get a Mekanism Basic Tank with the same capacity."
+				""
+				"The advantage of a Mekanism Fluid Tank is that it can be set to automatically push fluids."
+			]
+			dependencies: ["1B3C3A3BC818755F"]
+			hide: true
+			optional: true
+			id: "445C45D2E77AC892"
+			tasks: [{
+				id: "4D508F3E41FA4422"
+				type: "item"
+				item: "mekanism:basic_fluid_tank"
+			}]
+			rewards: [
+				{
+					id: "46B4B2B3F7D416F0"
+					type: "item"
+					item: "pamhc2foodcore:basicfishsandwichitem"
+				}
+				{
+					id: "6319F76C412B4ABB"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			x: 40.75d
+			y: 1.5d
+			shape: "circle"
+			description: ["Just another fancy way to store fluids."]
+			dependencies: ["0A71F7D6675E64CF"]
+			hide: true
+			optional: true
+			id: "1A9F8DF785B1188C"
+			tasks: [{
+				id: "4F6F59A41AC9C46B"
+				type: "item"
+				item: "miniutilities:stone_drum"
+			}]
+			rewards: [
+				{
+					id: "5816BA07D6EDDD8B"
+					type: "item"
+					item: "miniutilities:stone_drum"
+				}
+				{
+					id: "5EABA15BE86A6A3D"
+					type: "item"
+					item: "kubejs:mixture_t1"
+				}
+				{
+					id: "2EF018EDD251F370"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Solid Fuel Quarry"
+			x: 4.25d
+			y: -10.75d
+			shape: "circle"
+			description: [
+				"The Solid Fuel Quarry is a classic Quarry in the old \"BuildCraft\" style that can be operated with solid fuel such as coal or wood. It's a bit slow, but it's great for digging up big areas and finding resources in the early game."
+				""
+				"With markers, it is possible for the Solid Fuel Quarry to cover a maximum area of 256x256 blocks. Don't worry, it works just as well in an 11x11 radius without using them."
+				""
+				"When using markers, the quarry must be placed next to one of them."
+			]
+			dependencies: ["1AA30549C219B9D2"]
+			hide: true
+			optional: true
+			id: "0222B8002D83DBA2"
+			tasks: [{
+				id: "033E67BF9ED3B66D"
+				type: "item"
+				item: "quarryplus:solidquarry"
+			}]
+			rewards: [
+				{
+					id: "5651021ABC8ED646"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6AED76FC9881FB5A"
+					type: "item"
+					item: "kubejs:mech_arm_t1"
+				}
+				{
+					id: "65B9A1DC66887219"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Quarry Markers"
+			x: 4.25d
+			y: -13.0d
+			shape: "circle"
+			description: [
+				"Use four markers to indicate an area where your Quarrys should demolish everything."
+				""
+				"If you set up a redstone signal next to a marker, you'll see laser-like lines that make it a breeze to place more markers, especially if they're a bit further away."
+			]
+			dependencies: ["0222B8002D83DBA2"]
+			hide: true
+			optional: true
+			id: "4CAE3EF358211352"
+			tasks: [{
+				id: "330BC6B0BC022A10"
+				type: "item"
+				item: "quarryplus:markerplus"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "0E0F7B3D93C23FB0"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "0B82D341C6BCB2D5"
+					type: "item"
+					item: "kubejs:mixture_t1"
+				}
+				{
+					id: "0DB653CA0EEA3DD3"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Undergarden Realmstone!"
+			x: 29.75d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"Now that you have access to the Ancient Portal Frame, you can create Realmstones for other dimensions, such as the Undergarden."
+				""
+				"It's not mandatory, but it's useful if you prefer to have all portals in one place."
+			]
+			dependencies: ["5FB3404780403AFF"]
+			hide: true
+			optional: true
+			id: "7755AB8A694AB6B8"
+			tasks: [{
+				id: "1D59C92A52E978CB"
+				type: "item"
+				item: "aoaendr:undergarden_realmstone"
+			}]
+			rewards: [
+				{
+					id: "0984847CB6CBDDD8"
+					type: "item"
+					item: "kubejs:pure_iron"
+					count: 2
+				}
+				{
+					id: "74D7E2E309C6E0D1"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "0200220907EC5143"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Item and Fluid Transporters!"
+			icon: "industrialforegoing:item_transporter_type"
+			x: 25.75d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"Now that you have crafted an Assembler and a Magic Materializer, it's time to explore Transporters. You might know them as Translocators."
+				""
+				"The Item and Fluid Transporter is used to transfer items and fluids between inventories located one block apart. Right-clicking the centre of the transporter with an empty hand will toggle between import and export mode, as indicated by the centre piece moving in or out."
+				""
+				"You can filter items in the GUI using the blacklist and whitelist functions. You can also apply speed and efficiency upgrades from Industrial Foregoing by right-clicking them on the outer ring of the transporter."
+			]
+			dependencies: ["533E604449114ED7"]
+			hide: true
+			optional: true
+			id: "25669D63E165EF3B"
+			tasks: [
+				{
+					id: "4A7D37347987F8A3"
+					type: "item"
+					item: "industrialforegoing:item_transporter_type"
+				}
+				{
+					id: "601944CC001254DC"
+					type: "item"
+					item: "industrialforegoing:fluid_transporter_type"
+				}
+			]
+			rewards: [
+				{
+					id: "65F6CF8B7103B175"
+					type: "item"
+					item: "industrialforegoing:item_transporter_type"
+				}
+				{
+					id: "07E065AE7AC8A89E"
+					type: "item"
+					item: "industrialforegoing:fluid_transporter_type"
+				}
+				{
+					id: "4EB46A0037AEA53E"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "World Transporter!"
+			x: 23.0d
+			y: -5.5d
+			shape: "circle"
+			description: ["World Transporters can be used to pick up items into inventories. They can also be used to drop items into the world."]
+			dependencies: ["25669D63E165EF3B"]
+			hide: true
+			optional: true
+			id: "4A933ECC59005514"
+			tasks: [{
+				id: "0BFF326D6FA634A1"
+				type: "item"
+				item: "industrialforegoing:world_transporter_type"
+			}]
+			rewards: [
+				{
+					id: "19EA17860826D8C5"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+					count: 4
+				}
+				{
+					id: "5553C45C82068FB3"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 4
+				}
+				{
+					id: "4189C21BBC675442"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Stone Hook!"
+			x: 13.75d
+			y: -10.75d
+			shape: "circle"
+			description: ["If you've got the chance to get your hands on Molten Ender, I'd suggest moving up to the stone hook level."]
+			dependencies: ["48E42BAB1A990772"]
+			hide: true
+			optional: true
+			id: "7EAAE5EBDA9BD27E"
+			tasks: [{
+				id: "475D3B6DEEA44769"
+				type: "item"
+				item: {
+					id: "grapple_hooks:hook_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6DB1119984DDD8C5"
+					type: "item"
+					item: "undergarden:froststeel_ore"
+					count: 4
+				}
+				{
+					id: "325E84EABD1A91DE"
+					type: "item"
+					item: "kubejs:complexalloy_t1"
+				}
+				{
+					id: "22B8E7F4841C8D14"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Infusion Table!"
+			icon: "kubejs:aoa_mainquest"
+			x: 31.0d
+			y: -8.25d
+			description: [
+				"The Infusion Table is a utility block used for creating specific AoA weapons and armour."
+				""
+				"The process is very similar to crafting them at the crafting table. To create a specific weapon or piece of armour, two things must be done. First, insert an item (usually a frame) into the leftmost input slot. Second, insert the correct ingredients into the 3x3 grid in the middle as you would for regular crafting."
+				""
+				"We're going to cover most of these items in an Adventure Quest tab, but it's important to know about this block so you can start figuring out better weapons and armour. The reason the quest is here is because we need it for some specific tasks in our main progression later on."
+			]
+			dependencies: ["2C70A1CA8856F142"]
+			hide: true
+			id: "4E9C3372CD53278C"
+			tasks: [{
+				id: "462D889EEE6DDDCD"
+				type: "item"
+				item: "aoa3:infusion_table"
+			}]
+			rewards: [
+				{
+					id: "430E737F5252C416"
+					type: "item"
+					item: "extendedcrafting:frame"
+				}
+				{
+					id: "5B53A90F86504FAA"
+					type: "item"
+					item: "pneumaticcraft:ingot_iron_compressed"
+					count: 4
+				}
+				{
+					id: "01C3B24E390FCAA4"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t1_bags"
+								BagType: "treasurebags:t1_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "46261663C3D73E03"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Tier 1"
+			icon: "ftbquests:book"
+			disable_toast: true
+			x: -42.75d
+			y: 0.0d
+			description: ["This chapter begins once you have completed the final T0 quest: \"Blast Furnace\""]
+			optional: true
+			id: "0D02FFA6E4C19EED"
+		}
+	]
+}
