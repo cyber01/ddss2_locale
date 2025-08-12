@@ -1,0 +1,7621 @@
+{
+	id: "503658F55EB7952F"
+	group: ""
+	order_index: 3
+	filename: "tier_3__main_questline"
+	title: "Tier 3 -> Main Questline"
+	icon: {
+		id: "custommachinery:custom_machine_item"
+		Count: 1b
+		tag: {
+			machine: "custommachinery:pulverizer03_adv"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome To Tier 3!"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -36.75d
+			y: -3.0d
+			description: [
+				"Welcome To Tier 3! It is a great achievement to have come this far!"
+				""
+				"Get ready, because this chapter is going to be wild! First, we have the incredible opportunity to work with Immersive Petroleum multiblocks to create amazing products like Diesel and Sulfurized Diesel. Not only will these fuels improve the performance of generators, but they'll also produce High-Carbon-Petroleum Steel Ingots! Afterwards, we'll dive into the main part of the T3 machinery, accompanied by Bloodmagic's secrets and further unknown dimensions. This chapter is going to be absolutely thrilling! And as if that wasn't enough, we also built our first rocket to fly to the moon!"
+				""
+				"There's so much to do, and we can't wait to get started! Let's dive right in! :D"
+			]
+			dependencies: ["504FE99F304C2094"]
+			hide: true
+			size: 3.0d
+			id: "1B19951C6B4D5371"
+			tasks: [{
+				id: "0E522CBBADDDEF35"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "712BABDABF4D3CE4"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Projector!"
+			x: -32.0d
+			y: -5.0d
+			description: [
+				"When you're working on big multiblock structures from Immersive Petroleum/Engineering, going to your Engineer's Manual over and over again has become annoying. By making a basic projector, you can show the plans of these structures to use as a template. "
+				""
+				"The left side shows a list of every existing multiblock. Selecting one will show the finished multiblock on the right side, and also the currently selected multiblock name will show up over the GUI itself."
+				""
+				"The centre has buttons that let you change the rotation and mirroring. The current rotation is shown above the buttons.When you're happy, click 'Confirm' to save your choice and close the GUI."
+			]
+			dependencies: ["1B19951C6B4D5371"]
+			hide: true
+			id: "03877A82145E023E"
+			tasks: [{
+				id: "46894EE4195D5693"
+				type: "item"
+				item: "immersivepetroleum:projector"
+			}]
+			rewards: [
+				{
+					id: "0927373798CB994B"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+				}
+				{
+					id: "04C6F876070BD7F6"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "We Need Some Diesel! And Way More Energy..."
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -28.0d
+			y: -3.0d
+			description: [
+				"To proceed with the production of T3 components and machines, there is a requirement for the next level of Complex Alloy Ingots. In order to achieve this objective, it is first necessary to produce high-carbon petroleum steel. The earliest method for this process is a series of Immersive Petroleum multiblocks, as we require sulfurized diesel and diesel for the production."
+				""
+				"Another thing is that we won't have enough energy for this project. The distillation tower alone needs roughly 800 FE/t, and if you also want to operate pumpjacks for oil, another 1,000 FE/t will easily be added. So, if you haven't already built over 20 Furnators/Dynamos/Fluid Generators, I'd say it's worth building the Large Steam Turbine from T2 or/and the (Bio)Diesel Generator from IE."
+				""
+				"Note: Diesel's also great for universal fluid generators (T3+). It's really effective, and we don't really care about the environment in minecraft anyway."
+			]
+			dependencies: [
+				"03877A82145E023E"
+				"63451D6FBEF8277A"
+				"50FCE8CB54E1B746"
+			]
+			hide: true
+			id: "62180FC895AD00C2"
+			tasks: [{
+				id: "4F3E6A1E54170913"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6F5B7234BD8416F3"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Core Sample Drill?"
+			x: -32.0d
+			y: -1.0d
+			description: [
+				"The Core Sample Drill is a machine used to detect and analyse mineral deposits and fluid reservoirs that can be extracted by an excavator or by a pumpjack."
+				""
+				"The Sample Drill is placed as a single block but is three blocks high. The bottom block accepts power. 100 FE/t are required to run it."
+				""
+				"It takes 10 seconds to complete its work. When it has finished, it can be right-clicked to get a core sample. The sample shows how much water, lava or oil this chunk has in mB and what type of deposit it is. It is possible that the chunk has none of these liquids or minerals."
+			]
+			dependencies: ["1B19951C6B4D5371"]
+			hide: true
+			id: "50FCE8CB54E1B746"
+			tasks: [{
+				id: "710A41F34AA4F19D"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+			rewards: [
+				{
+					id: "3A40242E09706000"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "56F7E8719C04C061"
+					type: "item"
+					item: "silents_mechanisms:steel_block"
+				}
+				{
+					id: "1854B070965BBC10"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Materia T3!"
+			x: -32.0d
+			y: -3.0d
+			description: ["With all the equipment we have built in the previous stage, we are now finally able to produce Materia T3. As always, this will be a very important part of the rope. After all, we have learned that Materia is everywhere....."]
+			dependencies: ["1B19951C6B4D5371"]
+			hide: true
+			id: "63451D6FBEF8277A"
+			tasks: [{
+				id: "26AD0B9A52245EA1"
+				type: "item"
+				item: "kubejs:materia_t3"
+			}]
+			rewards: [
+				{
+					id: "72AEB429751AD109"
+					type: "item"
+					item: "kubejs:materia_t2"
+					count: 4
+				}
+				{
+					id: "48FBF2D8A839F6D1"
+					type: "item"
+					item: "thermal:rich_slag"
+					count: 10
+				}
+				{
+					id: "673FA8347F934D39"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Distillation Tower "
+			icon: "pneumaticcraft:drill_pipe"
+			x: -24.0d
+			y: -3.0d
+			shape: "gear"
+			description: [
+				"The distillation tower is a large 4x16x4 multiblock used to process crude oil into other fluids such as sulfurized diesel and light oil. This tower operates pretty fast! The quest will tell you exactly how many blocks you need and give you the rest of them as a reward."
+				""
+				"Crude oil is fed into the port at the rear of the distillation tower. Electricity is fed in through the top of the furnace at the rear of the Multiblock. By-products are discharged through the port at the front of the unit and liquids through the bottom. The Multiblock processes can be stopped via Redstone using the red dot control panel."
+				"{image:modpack:textures/quest_multiblock/dist_tower.png width:100 height:125 align:1}"
+				""
+				"You can also use the crude oil that you sometimes find on the surface of the overworld."
+			]
+			dependencies: ["62180FC895AD00C2"]
+			hide: true
+			size: 2.0d
+			id: "26E021581397820E"
+			tasks: [
+				{
+					id: "51DA87D30BDFB901"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "74A6CEFDFCBC6116"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 25L
+				}
+				{
+					id: "592C12798E688A19"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 40L
+				}
+				{
+					id: "194CC49C17A16A02"
+					type: "item"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
+					count: 30L
+				}
+				{
+					id: "00411E2D5EED0DA2"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+			rewards: [
+				{
+					id: "5E499FECA1E0987F"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 20
+				}
+				{
+					id: "05F6E8DCDAF44195"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 17
+				}
+				{
+					id: "08EE8A49DE2C9E5D"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "09EFD8BC60F7DA67"
+					type: "item"
+					item: "pamhc2foodextended:coleslawburgeritem"
+				}
+				{
+					id: "0C631DB18934F11F"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Pumpjack!"
+			icon: "pneumaticcraft:vacuum_pump"
+			x: -24.0d
+			y: 0.5d
+			shape: "gear"
+			description: [
+				"The Pumpjack is a 6×4×3 multiblock that extracts fluids like crude oil from reservoirs that are below the bedrock. This machine needs 1000 FE/t to work. The quest will tell you exactly how many blocks you need and give you the rest of them as a reward."
+				""
+				"Once it's turned on AND! an empty pipe is connected to either fluid port, the jack pumps at a rate of 25mb/t. That's 30,000mb per minute. If there's a reservoir below it, it brings the fluid to the surface. Using multiple pumpjacks in one area makes it easier to extract something. It's not gonna work without fluid tank or pipe nearby."
+				""
+				"The oil reservoirs in DDSS2 are not infinite, but they are very large! They can hold up to 150 million mb of oil. It will last a while until you have to find a new one."
+				"{image:modpack:textures/quest_multiblock/pumpjack.png width:125 height:130 align:1}"
+			]
+			dependencies: ["62180FC895AD00C2"]
+			hide: true
+			size: 2.0d
+			id: "4DBC2DC7967C855B"
+			tasks: [
+				{
+					id: "633872EB680B1EE3"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "5FAE23D7A02678F4"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "774FBE57956D5DE3"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 11L
+				}
+				{
+					id: "26644913FD62D30D"
+					type: "item"
+					title: "Any #forge:storage_blocks/steel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/steel"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "50CFA178AEB00AD9"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+			rewards: [
+				{
+					id: "616367D2F11EFA33"
+					type: "item"
+					item: "immersiveengineering:treated_fence"
+					count: 6
+				}
+				{
+					id: "660D6F8A5ED6F31A"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 4
+				}
+				{
+					id: "02EA8C4A7D0F9BC5"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 4
+				}
+				{
+					id: "30269F586097F142"
+					type: "item"
+					item: "pamhc2foodextended:baconmushroomburgeritem"
+				}
+				{
+					id: "6CF75E3E131F382E"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "264A4FAD7FE34551"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Sulfur Recovery Unit!"
+			icon: "immersiveengineering:logic_unit"
+			x: -24.0d
+			y: -6.5d
+			shape: "gear"
+			description: [
+				"The Sulfur Recovery Unit is a multiblock machine that seperates Sulfur from Sulfurized Diesel. This machine needs 512 FE/t to work. The quest will tell you exactly how many blocks you need and give you the rest of them as a reward."
+				""
+				"This machine has the nice side effect that you can get a lot of sulfur out of it, but of course the main point of the whole thing is that we get Diesel."
+				""
+				"{image:modpack:textures/quest_multiblock/recovery_unit.png width:125 height:125 align:1}"
+			]
+			dependencies: ["62180FC895AD00C2"]
+			hide: true
+			size: 2.0d
+			id: "21277B614B24FE6E"
+			tasks: [
+				{
+					id: "0CB142D8B6D3A0E7"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "5F7B6BA9B29FE6DD"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "7EF67520606517EE"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 10L
+				}
+				{
+					id: "79E5885068F9BA08"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "2EC82BA3CBA5C74B"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+			rewards: [
+				{
+					id: "0D155A9F1F1BA21E"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 5
+				}
+				{
+					id: "5FC06C17D718BAF1"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 4
+				}
+				{
+					id: "38657BC5444CC492"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "2C0324AC2A094E98"
+					type: "item"
+					item: "pamhc2foodextended:eggsbenedictitem"
+				}
+				{
+					id: "04C1E42741CA425D"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Diesel, Light and Heavy Oil"
+			icon: {
+				id: "fluidcells:filled_fluid_cell"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "thermal:light_oil"
+						Amount: 1000
+					}
+				}
+			}
+			x: -20.25d
+			y: -3.0d
+			description: [
+				"Finally, we have everything we need to make Diesel. You should also have collected a good amount of light and heavy oil by now, which will be interesting later on."
+				""
+				"Sulfurized Diesel, Diesel and Light Oil can also be used to fuel the (Bio)Diesel Generator from IE."
+			]
+			dependencies: [
+				"26E021581397820E"
+				"4DBC2DC7967C855B"
+				"21277B614B24FE6E"
+			]
+			hide: true
+			id: "4E066BC181768509"
+			tasks: [
+				{
+					id: "6A132A44795264EA"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "pneumaticcraft:diesel"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "382C0873511A2CF0"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "thermal:light_oil"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "5B997B2CA5B46568"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "thermal:heavy_oil"
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2AB0BB3A36BB599E"
+					type: "item"
+					item: "mekanism:advanced_mechanical_pipe"
+					count: 16
+				}
+				{
+					id: "1664ECADC58AA567"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "(Bio)Diesel Generator"
+			icon: "immersiveengineering:generator"
+			x: -28.0d
+			y: -6.5d
+			shape: "hexagon"
+			description: [
+				"The (Bio)Diesel Generator is a 3×5×3 multiblock that generates Power by burning Biodiesel or other modded fuels. It produces 1500 FE/t."
+				""
+				"The generator has no GUI. Fuel must be fed through the side ports near the front of the machine (indicated by blue dots). Power is exported through the three plugs on the top near the front of the machine (each with a small copper-colored dot). The generator can be stopped by applying a Redstone signal to the \"control panel\" on the side of the machine (indicated by a red dot)."
+				""
+				"Fuel Values:"
+				"- Creosote Oil = 20 ticks"
+				"- Biodiesel, Biofuel, Light Oil = 250 ticks"
+				"- Sulfurized Diesel, Diesel = 350 ticks"
+			]
+			dependencies: ["62180FC895AD00C2"]
+			hide: true
+			size: 2.0d
+			id: "751E286858C9E3EA"
+			tasks: [
+				{
+					id: "57AF7A50E9B5FA46"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 13L
+				}
+				{
+					id: "5BE373B25E8E32FC"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 9L
+				}
+				{
+					id: "338033846F773AD1"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 4L
+				}
+				{
+					id: "68CAF629AB3CEBB6"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+			]
+			rewards: [
+				{
+					id: "48A6C6223BCF96AC"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5
+				}
+				{
+					id: "7A87E4D0D7E7FD38"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6
+				}
+				{
+					id: "78B14CED7A3EE37A"
+					type: "item"
+					item: "pamhc2foodextended:paneertikkamasalaitem"
+				}
+				{
+					id: "4EC47A898905C2A3"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6803904F0E3BCF9F"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "High-Carbon Petroleum Steel!"
+			x: -17.0d
+			y: -4.5d
+			description: ["Now that we have Diesel, we can finally start producing high-carbon petroleum steel in the Fusion Computer."]
+			dependencies: ["4E066BC181768509"]
+			hide: true
+			id: "14CCEA6F4102EC34"
+			tasks: [{
+				id: "1488DEB451C2154F"
+				type: "item"
+				item: "kubejs:high_carbon_petroleum_steel"
+			}]
+			rewards: [
+				{
+					id: "59942A7385B67455"
+					type: "item"
+					item: "kubejs:high_carbon_petroleum_steel"
+					count: 4
+				}
+				{
+					id: "6EB86FB54F1B98CC"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "More Then Just Oil?"
+			x: -24.0d
+			y: 4.0d
+			shape: "circle"
+			description: ["There's more than meets the eye under the bedrock. You can also find distilled water or even nitronite..... Keep analyzing with the core sample drill."]
+			dependencies: ["4DBC2DC7967C855B"]
+			hide: true
+			id: "7A6F108A67E7FC49"
+			tasks: [{
+				id: "42BCC5D68831E1C9"
+				type: "checkmark"
+				title: "More then just Oil?"
+			}]
+			rewards: [{
+				id: "480FA8261B47C296"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Lumix!"
+			x: -17.0d
+			y: -1.5d
+			description: ["Lumix is another component for Complex Alloy T3. It is made in a fusion computer and needs terrax, palladium, and oxygen."]
+			dependencies: ["4E066BC181768509"]
+			hide: true
+			id: "27BA47C69DB1B838"
+			tasks: [{
+				id: "485EEC79EE54B742"
+				type: "item"
+				item: "taiga:lumix_ingot"
+			}]
+			rewards: [
+				{
+					id: "6F5A1720C39A86B5"
+					type: "item"
+					item: "kubejs:starlight_ingot"
+				}
+				{
+					id: "0F2459266DDA4433"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Complex Alloy T3!"
+			icon: "kubejs:complexalloy_t3"
+			x: -13.75d
+			y: -3.0d
+			description: [
+				"After working so hard, we can now finally make Complex Alloy T3! Amazing! "
+				""
+				"Oh, and don't forget to make a few T3 nuts and bolts. You can make them from any T3 rod, just like the predecessor."
+			]
+			dependencies: [
+				"14CCEA6F4102EC34"
+				"27BA47C69DB1B838"
+			]
+			hide: true
+			id: "4350E9E69B95DB53"
+			tasks: [
+				{
+					id: "277AEDF871F1755E"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 4L
+				}
+				{
+					id: "5ADAB4C8F8F8F32C"
+					type: "item"
+					item: "kubejs:bolts_t3"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "1E8856B9AE40A125"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 2
+				}
+				{
+					id: "5479424AEBEE7A09"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 8
+				}
+				{
+					id: "198BC4F27C9FF39F"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "It is very important to understand this..."
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -10.5d
+			y: -3.0d
+			description: [
+				"Please note that when you craft components for the next tier in machines that are one level behind, your devices are gonna use much more energy. "
+				""
+				"It uses the same amount of energy as if you were building it in the same tier. Your smaller machines can handle those tasks for a while, but it will be a good idea to move on when the time is right. I'm sharing this in case you're wondering why energy costs are going up so fast while crafting T3 parts."
+				""
+				"Please note that the average consumption of T3 single-block machines is usually between 300 and 400 FE/t, and there is a base chance of 30% for the by-product slots."
+			]
+			dependencies: ["4350E9E69B95DB53"]
+			hide: true
+			id: "74837DE401308F45"
+			tasks: [{
+				id: "1A26DA2AABF046A2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3DE55151436B00C4"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Unstable Cryogen Mixture MK1"
+			x: -7.25d
+			y: -7.0d
+			description: ["The subsequent step involves the production of Unstable Cryogen Mixture MK1. To achieve this, please use your Fluid Mixer. This fluid is used in the MQ Coolant procedure."]
+			dependencies: ["74837DE401308F45"]
+			hide: true
+			id: "43139F24B8E1AF1C"
+			tasks: [{
+				id: "48920D45FEF03637"
+				type: "item"
+				item: {
+					id: "fluidcells:filled_fluid_cell"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "kubejs:cryo_t1"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7E8A8503E99769CE"
+					type: "item"
+					item: "mekanism:advanced_fluid_tank"
+				}
+				{
+					id: "768A0A75D9D143BE"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "MQ Coolant!"
+			x: -1.25d
+			y: -7.0d
+			description: ["To proceed, please use your Vacuum Freezer to combine all the necessary substances to produce MQ Coolant, which is used for most T3 machines."]
+			dependencies: ["43139F24B8E1AF1C"]
+			hide: true
+			id: "19A1B03776CD395E"
+			tasks: [{
+				id: "36A9985B4F6B3EF0"
+				type: "item"
+				item: {
+					id: "fluidcells:filled_fluid_cell"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "kubejs:coolant_t2"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "724968230DA07C25"
+					type: "item"
+					item: "kubejs:mq_canister"
+				}
+				{
+					id: "6FAAEABBEADCD0E4"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Memory Module T3"
+			x: -7.25d
+			y: -4.0d
+			description: ["The next memory module is needed for T3 Circuits and Logic Processors. Remember, the better the plastic, the more you can make."]
+			dependencies: ["74837DE401308F45"]
+			hide: true
+			id: "33B63B6EC0D28527"
+			tasks: [{
+				id: "0A8C6F088104F5C3"
+				type: "item"
+				item: "rftoolsdim:part_memory_0"
+			}]
+			rewards: [
+				{
+					id: "5938F5D8CF06BAE2"
+					type: "item"
+					item: "rftoolsdim:part_memory_0"
+					count: 4
+				}
+				{
+					id: "10C0A28DD5262B62"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Control Circuit T3!"
+			x: -4.25d
+			y: -5.5d
+			description: [
+				"Once again, it's all about the circuits. These always need the tier below it and a lot of materials on top."
+				""
+				"One of the most useful recipes for using Boosting Mixture? Probably..."
+			]
+			dependencies: ["33B63B6EC0D28527"]
+			hide: true
+			id: "3946F6DCF4D0A994"
+			tasks: [{
+				id: "182F75B657114418"
+				type: "item"
+				item: "kubejs:circuit_t3"
+			}]
+			rewards: [
+				{
+					id: "7153586CBD240B40"
+					type: "item"
+					item: "pneumaticcraft:transistor"
+					count: 8
+				}
+				{
+					id: "5B7E81FF35F0075C"
+					type: "item"
+					item: "pneumaticcraft:capacitor"
+					count: 8
+				}
+				{
+					id: "4DFF47F81DA691E0"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Logic Processor T3!"
+			x: -4.25d
+			y: -2.5d
+			description: [
+				"In this tier, the logic processors are utilized at an earlier stage. The remarkable capabilities of modern small electronic devices are truly astounding. It is impressive to consider the potential of such compact chips."
+				""
+				"Don't forget to boost those little things. This could be absolutely worth it! MQ Rubber isn't available yet to increase production. Unless, of course, you buy some with the Amadron tablet..."
+			]
+			dependencies: ["33B63B6EC0D28527"]
+			hide: true
+			id: "00FEE584663E8CC5"
+			tasks: [{
+				id: "37F96FC39A7E9B5D"
+				type: "item"
+				item: "kubejs:logic_t3"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "4B4F542FE5A3EFAA"
+					type: "item"
+					item: "kubejs:complex_plate_t3"
+				}
+				{
+					id: "302FF971FFFF0875"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "65D28D8341D10769"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Electromagnetic Coils T3!"
+			x: -7.25d
+			y: -1.0d
+			description: ["The next level of electromagnetic coils. As you can see, you can never have enough empty spools. Do you already have a good supply?"]
+			dependencies: ["74837DE401308F45"]
+			hide: true
+			id: "5790F49D63E95CB1"
+			tasks: [{
+				id: "3D2379C309E77469"
+				type: "item"
+				item: "kubejs:coil_t3"
+			}]
+			rewards: [
+				{
+					id: "437CF1522EC4A4C1"
+					type: "item"
+					item: "moreplates:platinum_gear"
+				}
+				{
+					id: "6BEBA605D65B67EC"
+					type: "item"
+					item: "projectred-core:electrotine_silicon"
+					count: 2
+				}
+				{
+					id: "634F91DC703F8CA1"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Electric Motor T3!"
+			x: -1.25d
+			y: -1.0d
+			description: ["This new T3 Electric Motor is obviously a lot more powerful than the old one. The main differences here are that platinum comes into play. It's not a metal you often find in the overworld. But don't worry, a solution is on the way."]
+			dependencies: ["5790F49D63E95CB1"]
+			hide: true
+			id: "6A494600A36D8851"
+			tasks: [{
+				id: "0333FB45AF1570B3"
+				type: "item"
+				item: "kubejs:motor_t3"
+			}]
+			rewards: [
+				{
+					id: "3499CD4FF05A8838"
+					type: "item"
+					item: "kubejs:coil_t3"
+				}
+				{
+					id: "5D3301D2C69B4397"
+					type: "item"
+					item: "silents_mechanisms:platinum_ore"
+					count: 2
+				}
+				{
+					id: "5AC486E269333F2D"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Reinforced Alloy"
+			x: -7.25d
+			y: 1.25d
+			description: [
+				"You can make Reinforced Alloy using the Metallurgic Infuser and Triberium. It is used in various T3 machines and parts."
+				""
+				"Please note: this is TRI-berium, not TI-berium. There is a risk of confusion."
+			]
+			dependencies: ["74837DE401308F45"]
+			hide: true
+			id: "2427F9D7AE9378EA"
+			tasks: [{
+				id: "346F375FBB941412"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [
+				{
+					id: "570A92B14A77692D"
+					type: "item"
+					item: "thermal:diamond_dust"
+				}
+				{
+					id: "33CF15915ECACEB2"
+					type: "item"
+					item: "taiga:triberium_ingot"
+				}
+				{
+					id: "6A706DE5C13E81D9"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Pneumatic Device T3"
+			x: -1.25d
+			y: 1.25d
+			description: ["This is the next step in the pneumatic devices series. One thing's for sure, gasket rings always seem to be needed..."]
+			dependencies: ["5D02DF2CD98FA3C8"]
+			hide: true
+			id: "1C8344D1A1F0A7B4"
+			tasks: [{
+				id: "0DFB2897E3FFB581"
+				type: "item"
+				item: "kubejs:pump_t3"
+			}]
+			rewards: [
+				{
+					id: "1EC1BE439A828DAD"
+					type: "item"
+					item: "kubejs:gasket_ring"
+					count: 4
+				}
+				{
+					id: "3E7F4575B69AC7A4"
+					type: "item"
+					item: "pneumaticcraft:pneumatic_cylinder"
+				}
+				{
+					id: "79631A9FB3CCE953"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Complex PCB T3? o_Ô"
+			x: -1.25d
+			y: -4.0d
+			description: ["Most Tier 3 machines are no longer built with individual circuits or logic processors. They use complex PCB boards that connect everything in one. You'll need some empty PCB's for this, and you'll also need etching acid. Thankfully, you learned how to make this in T2."]
+			dependencies: [
+				"3946F6DCF4D0A994"
+				"00FEE584663E8CC5"
+			]
+			hide: true
+			id: "330F8A75DDB717AF"
+			tasks: [{
+				id: "36FAAEBDB7E0362B"
+				type: "item"
+				item: "kubejs:pcb_t3"
+			}]
+			rewards: [
+				{
+					id: "3F5F56BA770DA325"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "271D53A451A476C7"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "pneumaticcraft:etching_acid"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "5EB12572DB640CE8"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Tier 3 Capacitor"
+			x: -4.25d
+			y: 1.25d
+			description: ["T3 capacitors store much more energy than its predecessor and are therefore used in T3 machines and equipment to significantly increase their FE buffer."]
+			dependencies: ["2427F9D7AE9378EA"]
+			hide: true
+			id: "5D02DF2CD98FA3C8"
+			tasks: [{
+				id: "2EFC780954A08C95"
+				type: "item"
+				item: "ironjetpacks:tier_3_capacitor"
+			}]
+			rewards: [
+				{
+					id: "03F25CEE6E4B8F28"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "kubejs:mercury"
+								Amount: 1000
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3A5DC0B10835B4C0"
+					type: "item"
+					item: "powah:dielectric_casing"
+				}
+				{
+					id: "67A2460D8FC29157"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Advanced Alloy Smeltery T3!"
+			x: 2.5d
+			y: -3.0d
+			description: [
+				"The new Alloy Smelter is not only slightly faster by default, it also accepts more upgrades than T2 machines and of course allows you to create new alloys such as Refined Obsidian or Refined Glowstone."
+				""
+				"T3 machines hold up to 6 upgrades of each type and use an average of 300 FE/t without using upgrades and/or boosting mixutre."
+			]
+			dependencies: [
+				"330F8A75DDB717AF"
+				"19A1B03776CD395E"
+				"6A494600A36D8851"
+				"1C8344D1A1F0A7B4"
+			]
+			hide: true
+			id: "1EABF9A0FDC18D75"
+			tasks: [{
+				id: "539F7B07B91738DE"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:alloysmelter03_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "124D24B296810699"
+					type: "item"
+					item: "kubejs:pure_gold"
+					count: 4
+				}
+				{
+					id: "21BC3E24784EB1F5"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "0F33E0F5F8973636"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Refined Obsidian and Glowstone!"
+			icon: "mekanism:ingot_refined_obsidian"
+			x: 6.5d
+			y: -3.0d
+			description: [
+				"As mentioned earlier, you can now make Refined Obsidian and Refined Glowstone. We will need both for the next steps."
+				""
+				"As Refined Obsidian needs mana diamonds and therefore mana, it's worth checking that your mana production is still on track and producing enough."
+			]
+			dependencies: ["1EABF9A0FDC18D75"]
+			hide: true
+			id: "0EC14D4A0F5F753E"
+			tasks: [
+				{
+					id: "2BC79CD067BECE0E"
+					type: "item"
+					item: "mekanism:ingot_refined_obsidian"
+				}
+				{
+					id: "24A9A3F2FB237B1C"
+					type: "item"
+					item: "mekanism:ingot_refined_glowstone"
+				}
+			]
+			rewards: [
+				{
+					id: "72E2A16BAEC10AEC"
+					type: "item"
+					item: "botania:endoflame"
+					count: 2
+				}
+				{
+					id: "7BB1A33D86ADE906"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+				{
+					id: "68793341410414F3"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Universal Fluid Generator T3!"
+			x: 13.0d
+			y: -4.75d
+			description: [
+				"The next tier of the Universal Fluid Generator Series is capable of accepting new fuels that can generate power. T2 Fuels (i.e. fuels that were accepted in the previous tier) also work and provide much more energy than in a T2 Generator. The disadvantage of older fuels is that they require four times more fuel to achieve the same level of efficiency."
+				""
+				"Blood, Life Essence, Sulfurized Diesel and Light Oil produce 600FE/t."
+				""
+				"Diesel and Kerosene 650FE/t."
+				""
+				"Rocket Fuel 750FE/t."
+				""
+				"All T2 Fuels 500FE/t."
+				""
+				"The amount burned per second varies depending on the type of fuel used. Check JEI for the numbers."
+			]
+			dependencies: ["1D3B9ABC78F7DB34"]
+			hide: true
+			id: "408E0EABF0FD70C6"
+			tasks: [{
+				id: "007A1E0099AF62E7"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:diesel03"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0362CF039B754E31"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "immersivepetroleum:diesel_sulfur"
+								Amount: 1000
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "09E09CAB6E9D5A0D"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "62D5892E17C0F7BB"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "EDRU T3!"
+			x: 13.0d
+			y: -1.5d
+			description: [
+				"The latest EDRU model boasts the capacity to install six upgrades of each type, along with a selection of new recipes."
+				""
+				"Some important examples include kerosene and rocket fuel."
+			]
+			dependencies: ["1D3B9ABC78F7DB34"]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "4E4D2BE354BCF2A3"
+			tasks: [{
+				id: "46540ED430C4C30D"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:electroly_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00489FBCEC897456"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "4AD3F4F34166AEE7"
+					type: "item"
+					item: "kubejs:pcb_t3"
+				}
+				{
+					id: "3E54BE1A6764DAB6"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Kerosene!"
+			x: 15.75d
+			y: -3.0d
+			description: [
+				"Kerosene can be distilled from either Diesel or Sulfurized diesel. The choice is yours."
+				""
+				"This fuel can be used to generate power with your new Universal Fluid Generator and is also used later in this tier to produce rocket fuel, which is crucial for our space missions."
+			]
+			dependencies: [
+				"4E4D2BE354BCF2A3"
+				"408E0EABF0FD70C6"
+			]
+			hide: true
+			id: "1783C76319E1730F"
+			tasks: [{
+				id: "3B0E416311A519C9"
+				type: "item"
+				item: {
+					id: "fluidcells:filled_fluid_cell"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "pneumaticcraft:kerosene"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "16B70B9032EDDC24"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "pneumaticcraft:kerosene"
+								Amount: 1000
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "114CA287158C7273"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "PSImetal!"
+			x: 18.75d
+			y: -4.75d
+			description: ["Psimetal has both magical and technical applications. There are various ways to obtain this metal, but currently, the only technological method is to combine pure gold with Condensed Void in an EDRU T3."]
+			dependencies: ["1783C76319E1730F"]
+			hide: true
+			id: "108B1DCBF0E393E8"
+			tasks: [{
+				id: "060C234E2E9DE285"
+				type: "item"
+				item: "psi:psimetal"
+			}]
+			rewards: [
+				{
+					id: "1EEB20294DEEABBC"
+					type: "item"
+					item: "psi:psimetal"
+					count: 2
+				}
+				{
+					id: "1385FFAF9C8BB790"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Cooling Cell T3!"
+			x: 18.75d
+			y: -1.5d
+			description: [
+				"In order to tackle new and more complex multiblocks, we first need a new and improved version of the Cooling Frames."
+				""
+				"It is important to note that the higher the quality of the coolant used, the greater the number of frames that can be produced at once."
+			]
+			dependencies: ["1783C76319E1730F"]
+			hide: true
+			id: "5B3AA0A0B26C40E6"
+			tasks: [{
+				id: "136E7C0E9552D919"
+				type: "item"
+				item: "kubejs:mbcasing_t3"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "336129D175906783"
+					type: "item"
+					item: "kubejs:mbcasing_t3"
+					count: 15
+				}
+				{
+					id: "50BEE15E996E042F"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Advanced Fusion Computer (T3)!"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:fpc_t3"
+				}
+			}
+			x: 22.0d
+			y: -3.0d
+			shape: "gear"
+			description: [
+				"Just like its predecessor, the Advanced Fusion Computer is made up of a few different parts. These include T3 cooling frames and white psimetal plates."
+				""
+				"As well as all the recipes from the last version, it also offers new possibilities such as making Pure Steel, Crimson Steel, Tantalum and more."
+				""
+				"It needs 1000 FE/t to keep going normally, and it can hold up to six upgrades of each type."
+			]
+			dependencies: [
+				"108B1DCBF0E393E8"
+				"5B3AA0A0B26C40E6"
+			]
+			hide: true
+			size: 2.0d
+			id: "599BA77D3321A3A3"
+			tasks: [
+				{
+					id: "532E70BE968AB4B1"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:fpc_t3"
+						}
+					}
+				}
+				{
+					id: "68AEBB23F609C5A0"
+					type: "item"
+					item: "kubejs:mbcasing_t3"
+					count: 10L
+				}
+				{
+					id: "24ABE93C21F2C683"
+					type: "item"
+					item: "psi:white_psimetal_plate"
+					count: 12L
+				}
+			]
+			rewards: [
+				{
+					id: "78283C0F5B378E27"
+					type: "item"
+					item: "chisel:futura/controller_purple"
+					count: 36
+				}
+				{
+					id: "48787CF28748C779"
+					type: "item"
+					item: "psi:white_psimetal_plate"
+					count: 9
+				}
+				{
+					id: "7FC18442216EA1F9"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "22D42FC4444BFB4F"
+					type: "item"
+					item: "ironjetpacks:tier_3_capacitor"
+					count: 2
+				}
+				{
+					id: "1474D9E73D53357C"
+					type: "item"
+					item: "kubejs:pcb_t3"
+				}
+				{
+					id: "1921578ADEC9B99D"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Tantalum?"
+			x: 25.5d
+			y: -1.0d
+			description: [
+				"Tantalum is a very hard, ductile, lustrous, blue-gray transition metal that is highly corrosion-resistant. Its uses are not limited to technological materials, but also extend to the art of bloodmagic."
+				""
+				"Production requires an Advanced Fusion Computer, Platinum and High Carbon-Petroleum Steel."
+			]
+			dependencies: ["599BA77D3321A3A3"]
+			hide: true
+			id: "1D878BDED754C4CC"
+			tasks: [{
+				id: "2580357B5A616201"
+				type: "item"
+				item: "chemlib:ingot_tantalum"
+			}]
+			rewards: [
+				{
+					id: "15F8F462FF5E3767"
+					type: "item"
+					item: "silents_mechanisms:platinum_ore"
+					count: 2
+				}
+				{
+					id: "6D95E4D3C67936B7"
+					type: "item"
+					item: "tombstone:grave_dust"
+					count: 4
+				}
+				{
+					id: "0FD0A4A155300C13"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Pure Steel!"
+			x: 25.5d
+			y: -3.0d
+			description: [
+				"Just like Pure Gold, Pure Steel needs to be processed in a Fusion Computer with Void Drops."
+				""
+				"This material unlocks most of the remaining T3 machines and also opens up access to the Energizing Orb."
+			]
+			dependencies: ["599BA77D3321A3A3"]
+			hide: true
+			id: "2133F4C5C2308A45"
+			tasks: [{
+				id: "588C8A9187C5E76D"
+				type: "item"
+				item: "kubejs:pure_steel"
+			}]
+			rewards: [
+				{
+					id: "2EB2B950843CCD86"
+					type: "item"
+					item: "kubejs:void_drop"
+					count: 10
+				}
+				{
+					id: "77B029BAF18FFD2A"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "kubejs:weak_puri"
+								Amount: 1000
+							}
+						}
+					}
+					count: 6
+				}
+				{
+					id: "7344E95B434DA9DA"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Spiritual Crystal T3!"
+			x: 28.0d
+			y: -1.0d
+			description: ["The third tier of Spiritual Crystals are made from Tantalum. In addition, the new Soul Jar T3 is required, and this can be made from various mob drops, such as bones, gunpowder and spider eyes."]
+			dependencies: ["1D878BDED754C4CC"]
+			hide: true
+			id: "37F087C38FD3E4B0"
+			tasks: [{
+				id: "51F4B565BC8F2CA1"
+				type: "item"
+				item: "kubejs:crystal_t3"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "45F5C56F8BB64427"
+					type: "item"
+					item: "kubejs:soul_t3"
+					count: 2
+				}
+				{
+					id: "47B5EB6B6AF31573"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Advanced Magic Materializer (T3)!"
+			x: 30.5d
+			y: -1.0d
+			description: ["The latest addition to the Magic Materializer T3 series unveils a plethora of possibilities for a wide array of magic items, in addition to the comprehensive selection of Mystical Agricultures T3 seeds."]
+			dependencies: ["37F087C38FD3E4B0"]
+			hide: true
+			id: "5A257BF777F8E23C"
+			tasks: [{
+				id: "118EC509AE403F1D"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:magic03_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "43D19172F2055F49"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "0B5732A6E89E96F9"
+					type: "item"
+					item: "chemlib:ingot_tantalum"
+					count: 2
+				}
+				{
+					id: "3A5CC69D6FDCAE54"
+					type: "item"
+					item: "kubejs:logic_t3"
+					count: 4
+				}
+				{
+					id: "71C65D6B1A68DE47"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Energizing Orb!"
+			x: 28.0d
+			y: -3.0d
+			description: [
+				"The Energizing Orb is an amazing little altar where you can do some pretty cool things with the items you place on it by applying high voltage. The energy is emitted by Energizing Rods from the surrounding area, which are mounted directly on a power cable."
+				""
+				"This incredible device can help you create amazing materials like Energized Steel, Blazing Crystals and much more!"
+			]
+			dependencies: ["2133F4C5C2308A45"]
+			hide: true
+			id: "690ADAD56673FC38"
+			tasks: [{
+				id: "4CFF26DD8949C592"
+				type: "item"
+				item: "powah:energizing_orb"
+			}]
+			rewards: [
+				{
+					id: "367E32088143504A"
+					type: "item"
+					item: "powah:energizing_rod_blazing"
+					count: 2
+				}
+				{
+					id: "3ED7E484F4C0B6A8"
+					type: "item"
+					item: "kubejs:mixture_t1"
+				}
+				{
+					id: "3E4B5001345E2234"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "The Iromine Realmstone....?!"
+			icon: "kubejs:aoa_mainquest"
+			x: 33.5d
+			y: -3.0d
+			description: [
+				"Iromine is a chaotic steampunk-like dimension."
+				""
+				"To craft the Realmstone and access this dimension with your Ancient Portal, you'll need some Energized Steel, Tantalum and a couple of other things."
+			]
+			dependencies: [
+				"5A257BF777F8E23C"
+				"206D4DD3D97DA3CB"
+				"1A649107898105AE"
+			]
+			hide: true
+			id: "505C03F139CEA7F9"
+			tasks: [{
+				id: "7D6D1BA87C5641A6"
+				type: "item"
+				item: "aoa3:iromine_realmstone"
+			}]
+			rewards: [
+				{
+					id: "3400DC8E65D3BEB2"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "6F653E0ADF27D705"
+					type: "item"
+					item: "kubejs:circuit_t3"
+					count: 2
+				}
+				{
+					id: "6B886430B5D22A27"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Energized Steel!"
+			x: 30.5d
+			y: -3.0d
+			description: [
+				"You can make Energized Steel by mixing Aluminium Steel, Redstone Alloy and the right amount of energy in your new Energizing Orb."
+				""
+				"You can also convert the blocks directly instead of producing individual ingots to save time and be more efficient. Obviously, this does require a bit more energy."
+			]
+			dependencies: ["690ADAD56673FC38"]
+			hide: true
+			id: "206D4DD3D97DA3CB"
+			tasks: [{
+				id: "2C2DA42430F82E85"
+				type: "item"
+				item: "powah:steel_energized"
+			}]
+			rewards: [
+				{
+					id: "79E0FE05AB1148FB"
+					type: "item"
+					item: "powah:steel_energized"
+				}
+				{
+					id: "7FECDBE310AF398A"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Starmetal!"
+			x: 25.5d
+			y: -5.0d
+			description: [
+				"Starmetal is a vital element on the road to even more advanced technologies and astral sorcery – it's an exciting journey ahead!"
+				""
+				"Get your Advanced Fusion Computer ready and get crafting!"
+			]
+			dependencies: ["599BA77D3321A3A3"]
+			hide: true
+			id: "79751C074F08A08F"
+			tasks: [{
+				id: "33C4D4BAE152949D"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
+			rewards: [
+				{
+					id: "229A2D4C3BF94F65"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+				{
+					id: "73C458D4DFF8B379"
+					type: "item"
+					item: "kubejs:materia_t3"
+					count: 4
+				}
+				{
+					id: "47AAD12C84C4A2B7"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Blazing Crystals!"
+			x: 30.5d
+			y: -5.0d
+			description: ["The next item we'll be crafting is the Blazing Crystal. You can produce some by exposing blazing rods to the high voltage in your Energizing Orb."]
+			dependencies: [
+				"690ADAD56673FC38"
+				"79751C074F08A08F"
+			]
+			hide: true
+			id: "1A649107898105AE"
+			tasks: [{
+				id: "04BA2EF6C5F40E8A"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
+			rewards: [
+				{
+					id: "502162579AD8BFBB"
+					type: "item"
+					item: "powah:crystal_blazing"
+					count: 4
+				}
+				{
+					id: "40625380E530141B"
+					type: "item"
+					item: "botania:blaze_block"
+				}
+				{
+					id: "566FE2EE2DFB3575"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Blazing Furnator!"
+			x: 29.25d
+			y: -7.75d
+			shape: "circle"
+			description: [
+				"Like its predecessor, the Blazing Furnator simply produces power from burnable fuels. Although this seems outdated, this furnator produces 500 FE/t and transfers energy quickly!"
+				""
+				"On top of that, it still has a charging slot for quickly filling up your items."
+			]
+			dependencies: ["1A649107898105AE"]
+			hide: true
+			id: "3DA08BFE71F2A32E"
+			tasks: [{
+				id: "666108D95C549F2E"
+				type: "item"
+				item: "powah:furnator_blazing"
+			}]
+			rewards: [
+				{
+					id: "00F352E8A6803892"
+					type: "item"
+					item: "powah:energy_cell_hardened"
+				}
+				{
+					id: "037A5EDA60FA324C"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "2F08C14A879A51CD"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Solar Panel 2!"
+			x: 31.75d
+			y: -7.75d
+			shape: "circle"
+			description: ["The second solar panel also generates 500FE/t and can transfer up to 2000FE/t. Like the previous model, it can be upgraded to improve efficiency, transfer rate and capacity."]
+			dependencies: ["1A649107898105AE"]
+			hide: true
+			id: "30A44F8A0EF23FA2"
+			tasks: [{
+				id: "63A3506E27D2A566"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+			rewards: [
+				{
+					id: "1BB7D6074CBB0C3F"
+					type: "item"
+					item: "solarflux:sp_1"
+				}
+				{
+					id: "452E5A0FD627C4CD"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Let's Visit Iromine!"
+			x: 36.25d
+			y: -3.0d
+			description: [
+				"Iromine is probably one of the most chaotic dimensions in Advent of Ascension. The mobs share a mechanical theme."
+				""
+				"The landscape consists of a series of hills and flat areas. The dimension's stone layer is composed of iromine stone going down until towards y = 0, where there exists a layer of Dimensional Fabric (Basically Bedrock). Caves generated underground are similar to Overworld caves. "
+				""
+				"There are currently seven structures in Iromine, as well as a few hostile mobs and the feared MechBot, which is the boss that can only be summoned in this specific dimension."
+			]
+			dependencies: ["505C03F139CEA7F9"]
+			hide: true
+			id: "0F2456B66C10E3A0"
+			tasks: [{
+				id: "078F50E587BE457A"
+				type: "dimension"
+				dimension: "aoa3:iromine"
+			}]
+			rewards: [{
+				id: "0B64F1C48725DBFD"
+				type: "item"
+				item: "kubejs:coin_t3"
+			}]
+		}
+		{
+			title: "Ironmine's Mineral Resources...."
+			icon: "aoa3:lyon_ingot"
+			x: 39.0d
+			y: -3.0d
+			description: [
+				"Ironmine is known for hiding valuable resources."
+				""
+				"Here, you will find the exclusive Lyon ore, which cannot be found anywhere else. There are also large quantities of platinum, diamond, emerald, nickel, dimensional shards and duranite ore. According to rumours, whole blocks of steel are also rare finds..."
+			]
+			dependencies: ["0F2456B66C10E3A0"]
+			hide: true
+			id: "183969FE8F7110E9"
+			tasks: [
+				{
+					id: "61B0867D92CC1A80"
+					type: "item"
+					item: "aoa3:lyon_ingot"
+					count: 4L
+				}
+				{
+					id: "5A926C5EDB2630B0"
+					type: "item"
+					item: "silents_mechanisms:platinum_ingot"
+					count: 4L
+				}
+				{
+					id: "7B6AECB08D6556D8"
+					type: "item"
+					item: "taiga:duranite_ingot"
+					count: 4L
+				}
+				{
+					id: "3A19BDBE21CF19D6"
+					type: "item"
+					item: "rftoolsbase:dimensionalshard"
+				}
+			]
+			rewards: [
+				{
+					id: "64791CB2AD5C0C02"
+					type: "item"
+					item: "aoa3:lyon_ore"
+					count: 2
+				}
+				{
+					id: "74B1D7D1CDCEE666"
+					type: "item"
+					item: "silents_mechanisms:platinum_ore"
+					count: 2
+				}
+				{
+					id: "0F1E4E09CC86B7CB"
+					type: "item"
+					item: "taiga:duranite_ore"
+					count: 2
+				}
+				{
+					id: "5F0D9FF66A8BD208"
+					type: "item"
+					item: "rftoolsbase:dimensionalshard_nether"
+					count: 2
+				}
+				{
+					id: "0F31784884073B5F"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Advanced Forming Press T3!"
+			x: 10.25d
+			y: -3.0d
+			description: ["The New Forming Press can be used to make more advanced plates, rods and gears. Some examples of materials include Refined Glowstone and Obsidian, as well as Starmetal and many more."]
+			dependencies: ["0EC14D4A0F5F753E"]
+			hide: true
+			id: "1D3B9ABC78F7DB34"
+			tasks: [{
+				id: "3AA0E450EEFE57B1"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:fpress_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "389F11C530B7306C"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "10DF7209222325CB"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 2
+				}
+				{
+					id: "19EB905694E275DA"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "S.C.A.R.A. T3"
+			x: 41.5d
+			y: -3.0d
+			description: ["Now that you've got Lyon and enough Platinum, you can crack on with the next tier of the SCARA series so we can build the remaining T3 machines to work more efficiently."]
+			dependencies: ["183969FE8F7110E9"]
+			hide: true
+			id: "0ECA3ED275A6A9D4"
+			tasks: [{
+				id: "62710C972C159553"
+				type: "item"
+				item: "kubejs:mech_arm_t3"
+			}]
+			rewards: [
+				{
+					id: "101D5BE34273BDA5"
+					type: "item"
+					item: "kubejs:mech_arm_t3"
+				}
+				{
+					id: "120F9AE0CE6CD410"
+					type: "item"
+					item: "kubejs:pcb_t3"
+				}
+				{
+					id: "2576B25EBCC72C3C"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 8
+				}
+				{
+					id: "0343637E410C2C05"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Water Collector Tier 4"
+			x: 6.5d
+			y: 0.25d
+			shape: "circle"
+			description: [
+				"The last tier of Water Collectors."
+				""
+				"If you still have some water issues... this device produces 2000mb every tick and that's pretty insane!"
+			]
+			dependencies: ["0EC14D4A0F5F753E"]
+			hide: true
+			id: "5BA2DFEA1FD3FC08"
+			tasks: [{
+				id: "6979E06D27A8519C"
+				type: "item"
+				item: "watersources:water_source_tier_5"
+			}]
+			rewards: [
+				{
+					id: "719D578C2B149957"
+					type: "item"
+					item: "fluidtank:tank_iron"
+				}
+				{
+					id: "50124FB77C04B0AE"
+					type: "item"
+					item: "mekanism:dynamic_tank"
+					count: 10
+				}
+				{
+					id: "12D88C282F51E50D"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Advanced Assembler!"
+			x: 45.5d
+			y: -7.5d
+			description: [
+				"The Assemblers series continues!"
+				""
+				"In addition to the enhanced efficiency and the expanded range of recipes that this machine provides, it should be noted that the third stage of Boosting Mixture is now available, enabling further multiplication of items."
+			]
+			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
+			id: "4E13E759F32C6D06"
+			tasks: [{
+				id: "20D8EFD2C06E2FC2"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:assembler03_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "53FCD60244CCF0A6"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 5
+				}
+				{
+					id: "7D0CD5D649B691DF"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "70EC846E35F5EB53"
+					type: "item"
+					item: "kubejs:motor_t3"
+				}
+				{
+					id: "41C1C7AC75838523"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:assembler03_adv"
+						}
+					}
+				}
+				{
+					id: "30C2C5AD3694E0D2"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Advanced Laser Cutter and Engraver!"
+			x: 45.5d
+			y: -3.0d
+			description: [
+				"We all know how much everyone loves the Laser Show, so i'm sure you'll agree that it has to go on!"
+				""
+				"Wow, what can be said here? Data-Cards and PCB's are faster and more efficient to produce, and now there's even the amazing possibility to use T3 Boosting mixture which rounds off the whole thing perfectly!"
+			]
+			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
+			id: "16BDB6EE54260BFD"
+			tasks: [{
+				id: "27D768F141DE7AD3"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:laser03_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0161C691A6EFAAFB"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "thermal:glowstone"
+								Amount: 1000
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "1888369DCE171F07"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "4570352C3547EEEE"
+					type: "item"
+					item: "kubejs:pump_t3"
+				}
+				{
+					id: "0A5701949FEE5D8B"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Silver Tank!"
+			x: 43.5d
+			y: -10.75d
+			shape: "circle"
+			description: [
+				""
+				"The Silver Tank stores up to 1'024'000mb of any fluid!"
+			]
+			dependencies: ["4E13E759F32C6D06"]
+			hide: true
+			id: "556706FB86EDDE47"
+			tasks: [{
+				id: "5D3690D119E065C3"
+				type: "item"
+				item: "fluidtank:tank_silver"
+			}]
+			rewards: [
+				{
+					id: "582CC8D133B6B008"
+					type: "item"
+					item: "miniutilities:iron_drum"
+					count: 2
+				}
+				{
+					id: "078F227C01EBFB82"
+					type: "item"
+					item: "kubejs:coil_t3"
+				}
+				{
+					id: "40D113E9BF474F8E"
+					type: "item"
+					item: {
+						id: "mekanism:basic_energy_cube"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "2500000"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "180568752F2E36CF"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Storage Upgrade (V)"
+			x: 42.0d
+			y: -10.75d
+			shape: "circle"
+			description: ["The Storage Upgrade (V) increases the maximum storage of a Drawer by 32 times its base value."]
+			dependencies: ["4E13E759F32C6D06"]
+			hide: true
+			id: "78CA0BE8062CDE61"
+			tasks: [{
+				id: "56A17AAFD2813219"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [
+				{
+					id: "630ED59639F3E38B"
+					type: "item"
+					item: "storagedrawers:diamond_storage_upgrade"
+				}
+				{
+					id: "7DE9CA8D7E1BFA4A"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Advanced Fluid Mixer and Solidifier!"
+			x: 45.5d
+			y: 0.0d
+			description: [
+				"The new Fluid Mixer/Solidifier will play a crucial role in this stage of the project as we prepare for the launch of the very first space mission."
+				""
+				"It should be noted that this would also allow for the use of T3-boosting mixture. The device has a capacity of six upgrades of each type."
+			]
+			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
+			id: "0620BAD9D4422140"
+			tasks: [{
+				id: "0507EEA2572C969E"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:flumixer_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "229AF79E27C5FEB6"
+					type: "item"
+					item: "kubejs:logic_t3"
+					count: 2
+				}
+				{
+					id: "3A636DBC1D696A82"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "4A2B2BF9294226C4"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "The Blood Altar!"
+			x: 30.5d
+			y: 11.0d
+			description: [
+				"The Blood Altar is the central block used for transmuting items, generating Life Essence, and transferring Life Essence into a Soul Network. It has an internal buffer of 10,000 LP."
+				""
+				"Although it may seem small and insignificant at first, it grows in strength and size throughout the pack, becoming a cornerstone of your power."
+				""
+				"Note: In 1.16.5 there are only 5 Blood Altar Tiers."
+			]
+			dependencies: ["5A257BF777F8E23C"]
+			hide: true
+			id: "3016168FD0085940"
+			tasks: [{
+				id: "73C1160FF3220096"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [
+				{
+					id: "5B5C43D7EEE64BFB"
+					type: "item"
+					item: "miniutilities:diamond_opinium_core"
+				}
+				{
+					id: "71D37666206D6012"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 8
+				}
+				{
+					id: "501071A8E77DA111"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Bloody Hell..."
+			x: 33.5d
+			y: 11.0d
+			description: [
+				"The Sacrificial Knife is used to draw life essence from the player's health. Right-clicking it in proximity to a Blood Altar will add 200 LP to the Altar, at a rate of 1 heart per instance."
+				""
+				"This knife will only drain health from the player using it. To acquire essence from other entities, the Dagger of Sacrifice is used instead."
+			]
+			dependencies: ["3016168FD0085940"]
+			hide: true
+			id: "30EE8E723ECC23B7"
+			tasks: [{
+				id: "5FBF7EB82053E0DF"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "11BE580AC7EFCC5C"
+				type: "item"
+				item: "kubejs:coin_t3"
+			}]
+		}
+		{
+			title: "The Weak Blood Orb!"
+			x: 36.5d
+			y: 11.0d
+			description: [
+				"The Weak Blood Orb is an item that can be used to charge your Soul Network, and contribute to various crafting recipes. It is the lowest-tier Blood Orb. "
+				""
+				"As with all Blood Orbs, the Weak Blood Orb must be bound to a player by right-clicking before it can be used. Once bound, using the orb will damage the player by 1 heart and add 200 LP to their network, up to a maximum of 5,000 LP."
+				""
+				"You can also automatically fill your network with a blood orb by placing it in a Blood Altar. This process takes the same number of hearts as the given LP, but works even when the orb is not being held. "
+			]
+			dependencies: ["30EE8E723ECC23B7"]
+			hide: true
+			id: "32FD53D12652BAFE"
+			tasks: [{
+				id: "48D754BA8F8F1CDE"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [
+				{
+					id: "298A0ACF4B4D81B1"
+					type: "item"
+					item: "kubejs:materia_t2"
+					count: 10
+				}
+				{
+					id: "2DCB33069537ECA9"
+					type: "item"
+					item: "kubejs:materia_t3"
+					count: 5
+				}
+				{
+					id: "13701BC54835CCB6"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "What's a Soul Network?"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 36.5d
+			y: 14.0d
+			shape: "circle"
+			description: [
+				"The Soul Network connects your Soul to all your bound items, rituals and blocks. In functional terms, it is a global storage system unique to each player that can be added to and extracted from using bound items as intermediaries. "
+				""
+				"When you first use an item that can be bound to a Soul Network, it will bind to you and be labelled as owned by you. As such, any action performed by the item that incurs a blood LP cost will drain your soul network. In some cases, if the item cannot obtain its LP from your Soul Network, it will instead take the LP cost directly from your health. In other cases, such as when an ongoing Ritual drains your network completely, the item will merely cause unceasing nausea until either the Ritual is deactivated or your Soul Network is refilled."
+			]
+			dependencies: ["32FD53D12652BAFE"]
+			hide: true
+			id: "52003DCD12A12E49"
+			tasks: [{
+				id: "636F32ABA55DAABE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "429751EE69F18619"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "First Slates!"
+			x: 39.75d
+			y: 11.0d
+			description: [
+				"Slates are a key part of the crafting process in Blood Magic. They were used to make sigils, runes and some other bits and pieces."
+				""
+				"They are made by infusing Life Essence into Materia in a Blood Altar."
+			]
+			dependencies: ["32FD53D12652BAFE"]
+			hide: true
+			id: "5F05451DCF2F1AE7"
+			tasks: [{
+				id: "459D86541BEB8B9C"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+			rewards: [
+				{
+					id: "123C9B44DFAF0510"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+				}
+				{
+					id: "1E26ABA40080D538"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Divination Sigil!"
+			x: 49.25d
+			y: 11.0d
+			description: ["The Divination Sigil displays the amount of Life Essence in a bound player's Soul Network. It can also show the tier and amount of essence in a Blood Altar or the tier of your Incense Altar."]
+			dependencies: ["4ACAA36DD8B3990F"]
+			hide: true
+			id: "765C0FD8CE7A5BC9"
+			tasks: [{
+				id: "52BBC6836823EA38"
+				type: "item"
+				item: "bloodmagic:divinationsigil"
+			}]
+			rewards: [
+				{
+					id: "2EB273564648931C"
+					type: "item"
+					item: "kubejs:materia_t3"
+					count: 5
+				}
+				{
+					id: "7AB1CFDE50B65910"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Alchemy Table!"
+			x: 42.75d
+			y: 11.0d
+			description: [
+				"The Alchemy Table is a highly versatile piece of equipment for a sanguimancer. It produce ingredients from other items, potions and even Anointments!"
+				""
+				"The Alchemy Table crafts items using LP from your Soul Network. The Soul Network used and the tier of recipes available are determined by the Blood Orb inserted on the right side of the GUI. "
+			]
+			dependencies: ["5F05451DCF2F1AE7"]
+			hide: true
+			id: "51144433913DA148"
+			tasks: [{
+				id: "142A6B48938E25CF"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [
+				{
+					id: "222B0EB37C372723"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 10
+				}
+				{
+					id: "43A29BA89FB70748"
+					type: "item"
+					item: "minecraft:white_dye"
+					count: 10
+				}
+				{
+					id: "3C2951F19A594478"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Arcane Ashes"
+			x: 45.5d
+			y: 11.0d
+			description: ["Arcane Ashes is a pivotal item in the creation of Alchemy Arrays and other items. It can be crafted in the Alchemy Table."]
+			dependencies: ["51144433913DA148"]
+			hide: true
+			id: "4ACAA36DD8B3990F"
+			tasks: [{
+				id: "07AA9AEC8424D4AD"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2CEB539FE8A5F622"
+					type: "item"
+					item: "bloodmagic:blankslate"
+				}
+				{
+					id: "30B551B32AD2AC5E"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Anointments what?"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 42.75d
+			y: 14.0d
+			shape: "circle"
+			description: ["An anointment is essentially a potion for your tools, weapons and even your Charges. Press Rightclick while holding an anointment in one hand to apply it to the item in your other hand, if possible. Not all anointments work on all equipment! Unlike potions, anointments aren't timed; rather, they wear off a bit at a time as your tool or weapon is used."]
+			dependencies: ["51144433913DA148"]
+			hide: true
+			id: "0A5DCE386A5F1FB0"
+			tasks: [{
+				id: "198D8E3D1985C38C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3ABFED9F14AA863D"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Advanced Macerator!"
+			x: 36.25d
+			y: -1.0d
+			description: ["This macerator shreds everything you throw at it. It is capable of producing new materials, such as Prismarine Agglomeratio."]
+			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
+			id: "743BC1FE7F56B329"
+			tasks: [{
+				id: "35CACC303EB65248"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:pulverizer03_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6B5DF3C41244E94F"
+					type: "item"
+					item: "minecraft:prismarine"
+				}
+				{
+					id: "01F46C670B72B12C"
+					type: "item"
+					item: "kubejs:motor_t3"
+				}
+				{
+					id: "3554BDC89F020534"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Prismarine Agglomeratio"
+			x: 36.25d
+			y: 1.5d
+			description: ["As the name suggests, Prismarine Agglomeration is obtained from prismarine. It is essential for the production of t3 seedbags and has other significant applications. It would therefore be prudent to consider prismarine seeds in the near future."]
+			dependencies: [
+				"743BC1FE7F56B329"
+				"5A257BF777F8E23C"
+			]
+			hide: true
+			id: "631F1D09E54D241A"
+			tasks: [{
+				id: "3BF02BC5CA92DC91"
+				type: "item"
+				item: "mysticalagriculture:prismarine_agglomeratio"
+			}]
+			rewards: [
+				{
+					id: "4EFE1367BECFCA8F"
+					type: "item"
+					item: "mysticalagriculture:prismarine_agglomeratio"
+				}
+				{
+					id: "356A3F16E3062DA3"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "T3 Seedbags"
+			x: 36.25d
+			y: 5.0d
+			description: ["Now, let's take a look at the T3 Seedbag. This tier's got loads of new types of seeds you can produce. Whatever you need, from Steel to Starmetal or Nickel, we've got it covered. The following side-quests only cover a small part of the possibilities because there are over 40 seeds to choose from."]
+			dependencies: ["631F1D09E54D241A"]
+			hide: true
+			id: "5F2CD5CEEA678D8C"
+			tasks: [{
+				id: "3EADDBD58EE61F28"
+				type: "item"
+				item: "kubejs:seed_t3"
+			}]
+			rewards: [
+				{
+					id: "4A82EBF7E564E08B"
+					type: "item"
+					item: "kubejs:seed_t3"
+				}
+				{
+					id: "392868686619E31C"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Corrupted Stone?"
+			x: 39.75d
+			y: 5.0d
+			description: [
+				"You might've already come across a Pile of Corrupted Stone. You've got to be careful with Silent Gear's Chaos System, otherwise this can happen. We haven't talked about this yet, but now there's a way to make Corrupted Stone straight away. Don't worry, the dust itself is harmless."
+				""
+				"All you need to do is sacrifice your Slates. The better the quality of your slate, the more Corrupted Stone Dust you get out of it. But for now, we'll start with the basic ones."
+			]
+			dependencies: [
+				"5F2CD5CEEA678D8C"
+				"5F05451DCF2F1AE7"
+			]
+			hide: true
+			id: "261A7410874FE5C7"
+			tasks: [{
+				id: "1298EC581F235B10"
+				type: "item"
+				item: "silentgems:corrupted_stone_pile"
+			}]
+			rewards: [
+				{
+					id: "286A09D457F14F7F"
+					type: "item"
+					item: "pamhc2foodcore:friedchickenitem"
+				}
+				{
+					id: "0AD6131E2647957F"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Boosting Mixture T3!"
+			x: 39.75d
+			y: 1.5d
+			description: ["At last, the next level of the famous Boosting Mixture! You know how it is, you can enhance all kinds of recipes, but it's really something else at level 3 and above!"]
+			dependencies: [
+				"631F1D09E54D241A"
+				"261A7410874FE5C7"
+			]
+			hide: true
+			id: "713A57C29CDB26CA"
+			tasks: [{
+				id: "710A5AC9F7EF6ED9"
+				type: "item"
+				item: "kubejs:mixture_t3"
+			}]
+			rewards: [
+				{
+					id: "11167DC1A626181F"
+					type: "item"
+					item: "kubejs:mixture_t3"
+				}
+				{
+					id: "613AB41D3A03FDCF"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "2B87B7E8B71EC3B3"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Advanced Centrifuge (T3)!"
+			x: 45.5d
+			y: 1.5d
+			description: [
+				"The Advanced Centrifuge has several notable features that should not be overlooked."
+				""
+				"For example, it can split Arcane Ashes into various components, such as additional Darkly Powder and Condensed Blood, but, more importantly, Corrupted Dirt Piles, which we will need at the beginning of T4. So, if you want to stock up in advance, that's certainly not a bad idea."
+			]
+			dependencies: [
+				"713A57C29CDB26CA"
+				"4ACAA36DD8B3990F"
+				"0ECA3ED275A6A9D4"
+			]
+			hide: true
+			id: "1A552CFCE63E0755"
+			tasks: [{
+				id: "562985880C97F232"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:centri03"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0950BC79C56C5A42"
+					type: "item"
+					item: {
+						id: "bloodmagic:arcaneashes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 16
+				}
+				{
+					id: "3F8BE2D67C3F50BB"
+					type: "item"
+					item: "kubejs:crystal_t3"
+					count: 4
+				}
+				{
+					id: "7B3724D34CE135F7"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Prismarine Seeds!"
+			x: 33.0d
+			y: 5.0d
+			shape: "circle"
+			description: ["As mentioned before, this seed is gonna be really helpful..."]
+			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
+			id: "5529182EB2C2E3A3"
+			tasks: [{
+				id: "0BD543957B211F55"
+				type: "item"
+				item: "mysticalagriculture:prismarine_seeds"
+			}]
+			rewards: [
+				{
+					id: "1E46EFF70D028D9D"
+					type: "item"
+					item: "kubejs:seed_t3"
+				}
+				{
+					id: "4522C2519248EDF1"
+					type: "item"
+					item: "mysticalagriculture:water_essence"
+					count: 32
+				}
+				{
+					id: "6E9F490D2AE77DB3"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Advanced Mixer T3!!"
+			x: 45.5d
+			y: -4.5d
+			description: ["The Advanced Mixer offers special recipes like MQ Rubber, enabling you to get much more out of your items, such as gasket rings! However, its sheer efficiency, coupled with the new upgrade slots and the ability to use the T3 Boosting Mixture, is reason enough to invest in this upgrade."]
+			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
+			id: "73DB83372E802B33"
+			tasks: [{
+				id: "42667F825868B6B1"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:mixer_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B134C6CA1D558D9"
+					type: "item"
+					item: "pamhc2foodextended:baconmushroomburgeritem"
+					count: 2
+				}
+				{
+					id: "5AC18AB45206B2DE"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "29CBE14C96BFE911"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Advanced Extractor T3!"
+			x: 45.5d
+			y: -1.5d
+			description: [
+				"I'm sure the Advanced Extractor will make your life easier."
+				""
+				"One major advantage of this device is that it can extract mercury directly from cinnabar and crimson iron ore, eliminating the need for centrifuge mechanics and reducing waste of these ores."
+			]
+			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
+			id: "50E4E7055497279D"
+			tasks: [{
+				id: "4299E88F91B657D5"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:extractor_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A058F69144DC8B7"
+					type: "item"
+					item: "thermal:cinnabar_ore"
+					count: 10
+				}
+				{
+					id: "1EF420E3189EF96B"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 2
+				}
+				{
+					id: "7099E4BA3E543901"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Mob Slaughter Factory!"
+			x: 49.25d
+			y: 9.0d
+			description: [
+				"The Mob Slaughter Factory is actually a T2 machine. Until now, it wasn't absolutely necessary, but this changes from here on as we need pink slime."
+				""
+				"How does it work? It's very simple: you just have to use the machine to process mobs and animals into liquid meat and pink slime. Animals killed by this machine will not produce drops or experience. The default working area is 1x3x1 in front of the machine, but this can be expanded using Range Addons. Mobs killed will produce 5mb of liquid meat per HP and 1mb of pink slime per HP (50mb of liquid meat and 10mb of pink slime for cows and pigs). This Factory deals 300 damage per operation, killing all vanilla mobs except the Wither in a single hit."
+			]
+			dependencies: ["765C0FD8CE7A5BC9"]
+			hide: true
+			id: "7E8ED69F906EBC4D"
+			tasks: [{
+				id: "1E4F73A307284B60"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [
+				{
+					id: "623982FB542BCCAF"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "bloodmagic:life_essence_fluid"
+								Amount: 1000
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3D04D422A55D1F03"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Hot Pink Slime!"
+			x: 49.25d
+			y: 6.5d
+			description: ["As soon as you have collected enough pink slime with your new factory, you can start producing hot pink slime balls."]
+			dependencies: ["7E8ED69F906EBC4D"]
+			hide: true
+			id: "650C8E3AE585C783"
+			tasks: [{
+				id: "527C907E42D5CF9C"
+				type: "item"
+				item: "industrialforegoing:pink_slime"
+			}]
+			rewards: [
+				{
+					id: "359AA9B5160AA0D8"
+					type: "item"
+					item: "industrialforegoing:pink_slime"
+					count: 4
+				}
+				{
+					id: "0ADA2D950F11DF98"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Hot Pink Slime Ingot!"
+			x: 52.0d
+			y: 6.5d
+			description: ["You can now process the hot pink slime balls into hot pink slime ingots. Don't worry — you can't burn yourself on them. However, the material is hot and unfinished, and we need it exactly as it is for our next task."]
+			dependencies: ["650C8E3AE585C783"]
+			hide: true
+			id: "6E96ED00C1BC27BB"
+			tasks: [{
+				id: "56CDCD05E1BA4361"
+				type: "item"
+				item: "kubejs:hot_pink"
+			}]
+			rewards: [
+				{
+					id: "450607D1E562CBFD"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "industrialforegoing:pink_slime"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "7A93E4CCBB3232F3"
+					type: "item"
+					item: "kubejs:materia_t2"
+					count: 10
+				}
+				{
+					id: "458C7A068ED188B0"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Terrestrial Agglomeration Plate!"
+			icon: "botania:terra_plate"
+			x: 52.0d
+			y: 9.0d
+			description: [
+				"The Terrestrial Agglomeration Plate is a plate on a multiblock structure added by Botania."
+				""
+				"Its sole purpose is to craft Hot Terrasteel which requires Hot Pinkslime Ingots and some other materials."
+				""
+				"{image:modpack:textures/quest_multiblock/terrestial_agglo.png width:100 height:100 align:1}"
+				""
+				"There's Livingrock under the plate!"
+			]
+			dependencies: ["6E96ED00C1BC27BB"]
+			hide: true
+			id: "1E1B016DD039A084"
+			tasks: [
+				{
+					id: "70C41AE2486A3A45"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "4DFB1A4EF3E78664"
+					type: "item"
+					title: "Any #botania:livingrock"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "botania:livingrock"
+						}
+					}
+					count: 5L
+				}
+				{
+					id: "38433FA28A41A90A"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "5F02260C1A466F6A"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6B52453440F65B8D"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 2
+				}
+				{
+					id: "22A358B0A390BA04"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 8
+				}
+				{
+					id: "2E435256CF055876"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Hot Terrasteel Ingot!"
+			x: 54.5d
+			y: 6.5d
+			description: [
+				"Hot Terrasteel is created via an infusion ritual atop a Terrestrial Agglomeration Plate. "
+				""
+				"To form one Hot Terrasteel Ingot, throw the required items onto the plate. The plate then must receive 500,000 Mana (Sparks are the best way to do this), without any of the items being picked up. If any of the items are picked up, the infusion will fail. As an indication of progress, several wisps of glowing blue smoke will fly out from the plate, rotate, fade from blue to green, and finally crash together on the items, combining them into Hot Terrasteel."
+			]
+			dependencies: ["63A9CF857D99A971"]
+			hide: true
+			id: "2C130C4DE6616533"
+			tasks: [{
+				id: "5C2393B83AB5E859"
+				type: "item"
+				item: "kubejs:hot_terrasteel"
+			}]
+			rewards: [
+				{
+					id: "100F6EFBE6B8725D"
+					type: "item"
+					item: "kubejs:hot_terrasteel"
+				}
+				{
+					id: "49AEABB5099F5CE9"
+					type: "item"
+					item: "kubejs:pcb_t3"
+				}
+				{
+					id: "5A52F2A8F3492C33"
+					type: "item"
+					item: "kubejs:motor_t3"
+					count: 2
+				}
+				{
+					id: "6542C5208236D5BD"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Sparks!"
+			x: 54.5d
+			y: 9.0d
+			description: [
+				"The Spark is used for transporting large amounts of mana."
+				""
+				"You can place Sparks on top of Mana Pools of any type, Terrestrial Agglomeration Plates, and Mana Enchanters by right-clicking them. A Spark's functional range is 25x25x25 (radius 12), centered on itself. When a device with an attached Spark needs mana, it will drain all Mana Pools with Sparks within its range."
+				""
+				"The Mana transfer speed is 1,000 Mana per tick, per connection."
+			]
+			dependencies: ["1E1B016DD039A084"]
+			hide: true
+			id: "63A9CF857D99A971"
+			tasks: [{
+				id: "13B8B6717D4B497A"
+				type: "item"
+				item: "botania:spark"
+			}]
+			rewards: [
+				{
+					id: "250AECC7CC814861"
+					type: "item"
+					item: "botania:spark"
+				}
+				{
+					id: "088D18A412A53C10"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Terrasteel!"
+			x: 55.5d
+			y: 2.25d
+			description: [
+				"Cool your Hot Terrasteel Ingots with MQ Coolant and Water in a Vacuum Freezer to get the proper Terrasteel Ingots."
+				""
+				"Keep in mind that you can boost Vacuum Freezer recipes!"
+			]
+			dependencies: [
+				"2C130C4DE6616533"
+				"54300C439CA1B8A8"
+			]
+			hide: true
+			id: "718CB06B6224B46B"
+			tasks: [{
+				id: "04BCBECF834B0D04"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "782C86610796B9BB"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "705A6D68DFEC2C71"
+					type: "item"
+					item: "botania:fabulous_pool"
+				}
+				{
+					id: "06F0C45C795560BF"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Advanced Essenc-omatic T3"
+			x: 45.5d
+			y: -6.0d
+			description: ["At last, the new Essence O-Matic! You can finally switch from Tertium to Imperium and process your essences even faster and boost them more effectively!"]
+			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
+			id: "0691D78C2A314DF0"
+			tasks: [{
+				id: "755FA8C112F37E78"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "custommachinery:essencomatic_adv"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7ABC8C471B6BA00B"
+					type: "item"
+					item: "mysticalagriculture:tertium_block"
+					count: 2
+				}
+				{
+					id: "40D5398CB5C13A05"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "49666B5856819DB3"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Tertium Infusion Crystal!"
+			x: 48.0d
+			y: -10.75d
+			shape: "circle"
+			description: ["The tertium infusion crystal is super durable, lasting up to 2000 uses!"]
+			dependencies: ["4E13E759F32C6D06"]
+			hide: true
+			id: "28B9F1EFDFB52650"
+			tasks: [{
+				id: "56B6F90EA5C31CDB"
+				type: "item"
+				item: {
+					id: "matc:tertium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "675B786B9DEBD4B4"
+					type: "item"
+					item: {
+						id: "matc:prudentium_crystal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F1B2DA481A2979D"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Book of Disenchantments!"
+			x: 25.5d
+			y: 6.25d
+			shape: "circle"
+			description: ["Can strip enchantments from an item and return them as books."]
+			dependencies: ["4277611AEAEBEE72"]
+			hide: true
+			id: "14F8B533D9C24A31"
+			tasks: [{
+				id: "2F0E5F1867F95E36"
+				type: "item"
+				item: "tombstone:book_of_disenchantment"
+			}]
+			rewards: [
+				{
+					id: "7BD534649D971A8C"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_ingot"
+				}
+				{
+					id: "43F448FF3C163FEE"
+					type: "item"
+					item: "miniutilities:diamond_opinium_core"
+				}
+				{
+					id: "3D23722E7347DB4E"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Routing Node 1"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 25.5d
+			y: 3.75d
+			description: [
+				"I'm just a routing node for more Magic Materializer recipes. :)"
+				""
+				"Nothing to see here...^^"
+			]
+			dependencies: ["5A257BF777F8E23C"]
+			hide: true
+			id: "4277611AEAEBEE72"
+			tasks: [{
+				id: "4833B0A1137BD7E5"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6F9A4E54DB3ED9D2"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Hellfire Forge!"
+			x: 39.75d
+			y: 17.0d
+			description: [
+				"You'll need the Hellfire Forge to craft recipes that require Will, which requires Demonic Will or a Tartaric Gem in the right slot with enough default Will to meet the required minimum."
+				""
+				"All recipes are shapeless, and ingredients can be in any slot. The drain amount will be subtracted from the stored will. Don't worry about losing the Demonic Will/Tartaric Gem. You can see the minimum and drain amounts in JEI when you hover over the arrow."
+			]
+			dependencies: ["5F05451DCF2F1AE7"]
+			hide: true
+			id: "2AEC28B67550CB4B"
+			tasks: [{
+				id: "34D3AD3B9A625A3B"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [
+				{
+					id: "1EAE0B07F60ACF77"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 4
+				}
+				{
+					id: "5B3EDC7279BFEB80"
+					type: "item"
+					item: "kubejs:materia_t3"
+				}
+				{
+					id: "5A8939D8D283B3F3"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Soul Snares!"
+			x: 42.75d
+			y: 17.0d
+			description: ["The Soul Snare is a tool and the earliest method to collect Demonic Will. Just right-click to throw it at a mob. If the Snare connects, it's bewitched for a few seconds (you'll see white particles). Killing the mob under these conditions makes it drop Demonic Will."]
+			dependencies: ["2AEC28B67550CB4B"]
+			hide: true
+			id: "534EF75B05828B90"
+			tasks: [{
+				id: "64F42B0B1C832F06"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+			rewards: [
+				{
+					id: "296A190DB52D7122"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+					count: 5
+				}
+				{
+					id: "403D0760C65A7FB0"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Petty Tartaric Gem"
+			x: 45.5d
+			y: 17.0d
+			description: [
+				"Demon Will is a great resource, but the fragments you've been getting are pretty weak. You're going to need a storage item, and a Tartaric Gem would be perfect. Also, it can absorb any extra Demon Will you might have lying around. Just drop them onto the floor and your shiny new gem will absorb them."
+				""
+				"Your first gem will hold up to 64 Will. It's a lot more compact than before. If you ever want to move Will from one gem to another, just hold the right button while holding the gem you want to empty, and it'll transfer its will into the first valid gem in your inventory."
+			]
+			dependencies: ["534EF75B05828B90"]
+			hide: true
+			id: "31E0AFE8215B7DF5"
+			tasks: [{
+				id: "05F6DC93E3C44F5E"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4323ADAD27B9B80F"
+					type: "item"
+					item: "kubejs:soul_t3"
+					count: 4
+				}
+				{
+					id: "71C1AD5C74173A86"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Sentient Sword!"
+			x: 49.25d
+			y: 17.0d
+			description: ["The Sentient Sword is used to collect Raw Will. This Raw Will is automatically added to the top leftmost Raw Will Tartaric Gem in your inventory. If you've got all the Raw Will Gems you can get, mobs will drop Demonic Will. You can enchant it. You can also use a Demon Will Crystal in the Anvil to repair it."]
+			dependencies: ["31E0AFE8215B7DF5"]
+			hide: true
+			id: "071D09B76F0B7394"
+			tasks: [{
+				id: "3EFEF701981D9937"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5C0B78059E8EE815"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "bloodmagic:life_essence_fluid"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "45916AABBF58998F"
+					type: "item"
+					item: "kubejs:pure_gold_plate"
+					count: 2
+				}
+				{
+					id: "13C22F842C567D51"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Ready To Rumble!"
+			x: 55.5d
+			y: -3.0d
+			description: [
+				"We have now built all the necessary machines and completed all the required steps to break new ground. We can now build the Ultimate Crafting Table, which will bring us one step closer to the moon. On the other hand, we can now make full use of everything that is left over from this tier, such as the Void Ore miner."
+				""
+				"We are now able to tackle many different tasks at the same time from this central point. As usual, you're welcome to take on as many side quests as you like, and you might even find some interesting stuff along the way."
+			]
+			dependencies: [
+				"16BDB6EE54260BFD"
+				"4E13E759F32C6D06"
+				"0691D78C2A314DF0"
+				"50E4E7055497279D"
+				"0620BAD9D4422140"
+				"1A552CFCE63E0755"
+				"718CB06B6224B46B"
+				"73DB83372E802B33"
+			]
+			hide: true
+			id: "093AFDBACEC4D7FF"
+			tasks: [{
+				id: "50DC2D9A03D0F9D5"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+			rewards: [
+				{
+					id: "48EC59FF8AC87411"
+					type: "item"
+					item: "miniutilities:gold_opinium_core"
+					count: 8
+				}
+				{
+					id: "2DA5A895840D0AFB"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 8
+				}
+				{
+					id: "03E1F0EAF682B8EE"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Incense Altar!"
+			x: 56.5d
+			y: 14.0d
+			description: [
+				"The Incense Altar can be used as either a single-block or a multi-block structure. It consists of an Incense Altar itself, tiered paths and \"Tranquility Blocks\". Standing near the altar allows you to gather tranquility, which lets you instantly sacrifice 90% of your health for a massive LP bonus."
+				""
+				"When used as a single block, it has a range of five blocks and an LP bonus of 20%, but no \"Tranquility\"."
+			]
+			dependencies: [
+				"071D09B76F0B7394"
+				"765C0FD8CE7A5BC9"
+			]
+			hide: true
+			id: "182DF4C25CAA7AA9"
+			tasks: [{
+				id: "11CC74DB4938D7A9"
+				type: "item"
+				item: "bloodmagic:incensealtar"
+			}]
+			rewards: [
+				{
+					id: "64BA5AC95FA9B193"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2
+				}
+				{
+					id: "39E93F465B5EA7E4"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 2
+				}
+				{
+					id: "1E0FF3658BE1C4DF"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Blank Runes!"
+			x: 56.5d
+			y: 9.0d
+			description: [
+				"The blank rune is the most basic type of rune. It can be used to craft other important runes or to upgrade the blood altar."
+				""
+				"There are a variety of runes that can be crafted from the blank rune. Some increase the amount of LP gained from self-sacrifice at the altar. Others increase the speed at which blood is transported between the altar and external tanks."
+			]
+			dependencies: ["182DF4C25CAA7AA9"]
+			hide: true
+			id: "73FD1F73F8350265"
+			tasks: [{
+				id: "61CA2B9388583A58"
+				type: "item"
+				item: "bloodmagic:blankrune"
+			}]
+			rewards: [
+				{
+					id: "5FB0117C3CCC0F76"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 4
+				}
+				{
+					id: "3858584BF51B9B9A"
+					type: "item"
+					item: "rftoolsbase:infused_diamond"
+				}
+				{
+					id: "19CB945BAF0E2277"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "The Sigil of the Blood Lamp!"
+			x: 49.25d
+			y: 14.0d
+			shape: "circle"
+			description: [
+				"The Sigil of the Blood Lamp is a useful tool for miners, dungeon delvers and Sanguimancer alike who dislike dark patches and find torches and glowstone blocks cumbersome. "
+				""
+				"When activated, this sigil launches a Blood Light in the direction you are facing. When it hits a block, it spawns an almost invisible light source at a cost of 10 LP."
+			]
+			dependencies: ["765C0FD8CE7A5BC9"]
+			hide: true
+			id: "639D54E0771F4CF7"
+			tasks: [{
+				id: "231D93159EA88D3F"
+				type: "item"
+				item: "bloodmagic:bloodlightsigil"
+			}]
+			rewards: [
+				{
+					id: "30757683982CD04C"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 4
+				}
+				{
+					id: "0DC8646E71BE9598"
+					type: "item"
+					item: {
+						id: "bloodmagic:arcaneashes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 6
+				}
+				{
+					id: "2BFAC6DE31A551F0"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Water Sigil!"
+			x: 47.5d
+			y: 14.0d
+			shape: "circle"
+			description: ["The Water Sigil can be used as an alternative to a bucket of water, enabling the creation of water source blocks at a cost of 100 LP per block. This essence is drawn from the network of the player to whom the sigil is bound."]
+			dependencies: ["765C0FD8CE7A5BC9"]
+			hide: true
+			id: "7CE4CED7C7089825"
+			tasks: [{
+				id: "36579C5C31B15878"
+				type: "item"
+				item: "bloodmagic:watersigil"
+			}]
+			rewards: [
+				{
+					id: "10B1E5C0F669AA10"
+					type: "item"
+					item: "kubejs:mq_canister"
+				}
+				{
+					id: "71E4881AA44BBCE4"
+					type: "item"
+					item: {
+						id: "bloodmagic:arcaneashes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3CA623750ECA4710"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Lava Sigil!"
+			x: 51.0d
+			y: 14.0d
+			shape: "circle"
+			description: ["The Lava Sigil can be used as an alternative to a bucket of lava, enabling the creation of lava source blocks at a cost of 1,000 LP each. "]
+			dependencies: ["765C0FD8CE7A5BC9"]
+			hide: true
+			id: "76346E48ABE6EDEB"
+			tasks: [{
+				id: "39256A9D6415E3AF"
+				type: "item"
+				item: "bloodmagic:lavasigil"
+			}]
+			rewards: [
+				{
+					id: "495F809733D25D2C"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 4
+				}
+				{
+					id: "2DC827A003A2B9CC"
+					type: "item"
+					item: "mysticalagriculture:fire_seeds"
+				}
+				{
+					id: "1A73105E2D50A652"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Self Sacrifice Rune!"
+			x: 56.5d
+			y: 6.5d
+			description: ["The Rune of Self-Sacrifice increases the amount of Life Essence gained in the Blood Altar through means that use a player's health. Each rune provides an additional bonus of 10%."]
+			dependencies: ["73FD1F73F8350265"]
+			hide: true
+			id: "54300C439CA1B8A8"
+			tasks: [{
+				id: "6155F9245A2C83A5"
+				type: "item"
+				item: "bloodmagic:selfsacrificerune"
+			}]
+			rewards: [
+				{
+					id: "6BCB7C7075FDFCE7"
+					type: "item"
+					item: "bloodmagic:selfsacrificerune"
+				}
+				{
+					id: "789E5A2F42F22BFB"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Speed Rune!"
+			x: 60.0d
+			y: 10.25d
+			shape: "circle"
+			description: ["The Speed Rune increases the speed of all crafting operations at the Blood Altar. Crafting speed (and the rate at which progress is lost when the altar is empty) increases by +20% for each rune."]
+			dependencies: ["73FD1F73F8350265"]
+			hide: true
+			id: "57866629A92AAECC"
+			tasks: [{
+				id: "365BCA26C7893708"
+				type: "item"
+				item: "bloodmagic:speedrune"
+			}]
+			rewards: [
+				{
+					id: "493EE0F3402C3947"
+					type: "item"
+					item: "bloodmagic:speedrune"
+				}
+				{
+					id: "6F1D41744669D64D"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Displacement Rune!"
+			x: 60.0d
+			y: 7.75d
+			shape: "circle"
+			description: ["The Displacement Rune increases the flow rate of life essence into and out of the altar when it is being pumped to or from an external tank."]
+			dependencies: ["73FD1F73F8350265"]
+			hide: true
+			id: "5D7E2B2C76466BF3"
+			tasks: [{
+				id: "0E935BA97E69A9C8"
+				type: "item"
+				item: "bloodmagic:dislocationrune"
+			}]
+			rewards: [
+				{
+					id: "6DBC7BC2DC348FE4"
+					type: "item"
+					item: "bloodmagic:dislocationrune"
+				}
+				{
+					id: "743A37E736DA2289"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Blazing Powah Reactor!"
+			x: 61.5d
+			y: -5.5d
+			shape: "hexagon"
+			description: [
+				"The Blazing Powah Reactor is a \"small\" multiblock structure that generates energy by consuming uraninite. All Powah Reactors cannot explode, and you can build them by pointing and clicking on the ground if you have 36 reactor blocks of the same type in your inventory."
+				""
+				"Depending on your efficiency setup, this reactor can output up to 6,000 FE/t, but it's quite expensive to make."
+				""
+				"Filling the carbon slot with coal of any kind enhances the reactor's fuel efficiency. This means your fuel will last longer."
+				""
+				"The overall power output will be increased by using Redstone in the Redstone Slot."
+				""
+				"To further increase fuel efficiency and power output, you can cool the reactor passively, actively, or both at the same time. Passively by inserting ice or dry ice, or actively with water or coolant. All Powah reactors in DDSS2 also accept LQ, MQ and HQ coolant."
+			]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			size: 2.0d
+			id: "3D867E3B28E4B75E"
+			tasks: [{
+				id: "4DE9847C926E057C"
+				type: "item"
+				item: "powah:reactor_blazing"
+				count: 36L
+			}]
+			rewards: [
+				{
+					id: "142E612384DE7350"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "7492A519F28A2A57"
+					type: "item"
+					item: "ironjetpacks:tier_3_capacitor"
+					count: 4
+				}
+				{
+					id: "1129BB4F2D65066B"
+					type: "item"
+					item: "pamhc2foodcore:baconcheeseburgeritem"
+					count: 4
+				}
+				{
+					id: "2D79CCB4BCC16031"
+					type: "item"
+					item: "kubejs:circuit_t3"
+					count: 4
+				}
+				{
+					id: "140368EC20EC258D"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Large Steam Turbine T3!"
+			icon: "masterfulmachinery:tier3_controller"
+			x: 61.5d
+			y: -0.5d
+			shape: "hexagon"
+			description: [
+				"I'm thrilled to tell you that the next stage of the Large Steam Turbine series produces an impressive 3500FE/t at a consumption of just 650mb steam/t!"
+				""
+				"While the machine is running, it produces small amounts of distilled water as a by-product in the fluid output hatch."
+				""
+				"{image:modpack:textures/quest_multiblock/steamturbine_t3.png width:165 height:125 align:1}"
+				""
+				"Attention!"
+				"The energy ports on this mod do not automatically push energy. You must use cables or devices that can pull, such as Pipez, Mekanism cables, Xnet, etc. "
+				"POWAH or Immersive Engineering cables won't work."
+			]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			size: 2.0d
+			id: "6BDFC0DAEF2BAEF1"
+			tasks: [
+				{
+					id: "379F4B30F4937E3B"
+					type: "item"
+					item: "masterfulmachinery:tier3_controller"
+				}
+				{
+					id: "4DD58DA444E6A73E"
+					type: "item"
+					item: "kubejs:mbcasing_t3"
+					count: 6L
+				}
+				{
+					id: "2A4338216FAA9F6A"
+					type: "item"
+					item: "masterfulmachinery:tier3_energy1_port_energy_output"
+				}
+				{
+					id: "24E3EDFDE09EB47A"
+					type: "item"
+					item: "masterfulmachinery:tier3_fluid1_port_fluids_input"
+				}
+				{
+					id: "6448B569B4BD92E0"
+					type: "item"
+					item: "masterfulmachinery:tier3_fluid1_port_fluids_output"
+				}
+				{
+					id: "4EC09530F8874A26"
+					type: "item"
+					item: "kubejs:adv_hull"
+					count: 20L
+				}
+				{
+					id: "22B2F9972F051D05"
+					type: "item"
+					item: "xkdeco:factory_vent_fan_big"
+				}
+			]
+			rewards: [
+				{
+					id: "6D094BC800AD56CF"
+					type: "item"
+					item: "kubejs:adv_hull"
+					count: 11
+				}
+				{
+					id: "1ADA75CDBC3AEFDA"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "42CA6A9BAF37E0CE"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Void Ore Miner T3!"
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "custommachinery:vom_t3"
+				}
+			}
+			x: 82.0d
+			y: -3.0d
+			shape: "gear"
+			description: [
+				"We can finally get our hands on the latest Void Ore Miner! Compared to the old version, it delivers over 10 new ores and, as with any new machine, it is more efficient, faster and can handle more upgrades."
+				""
+				"You can also now use T3 Boosting Mixture to extract an astonishing amount of ores."
+				""
+				"Each new tier generates new ores in addition to those from the previous tier. This means that the T3 Void Ore Miner generates a loot table from T1, an extra loot table from T2 and a third loot table from T3."
+			]
+			dependencies: [
+				"23BC54388CBD780E"
+				"45B3F05007A945C2"
+			]
+			hide: true
+			size: 2.0d
+			id: "3CA4BDDABF0849CB"
+			tasks: [
+				{
+					id: "3E9DD18879C2989B"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "custommachinery:vom_t3"
+						}
+					}
+				}
+				{
+					id: "6B7FF74F7EABB5B1"
+					type: "item"
+					item: "kubejs:mbcasing_t3"
+					count: 4L
+				}
+				{
+					id: "4096F810E862161A"
+					type: "item"
+					item: "kubejs:adv_hull"
+					count: 20L
+				}
+			]
+			rewards: [
+				{
+					id: "62B4BAA49ED712CE"
+					type: "item"
+					item: "kubejs:adv_hull"
+					count: 12
+				}
+				{
+					id: "555C787455C6F12A"
+					type: "item"
+					item: "kubejs:mbcasing_t3"
+					count: 5
+				}
+				{
+					id: "57B0CD0542CF2AC0"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "4A66F24EAA81BD0B"
+					type: "item"
+					item: "jaopca:boss_tools_compresseds.lumix"
+				}
+				{
+					id: "68DF463E65E2CCA5"
+					type: "item"
+					item: "moreplates:platinum_plate"
+					count: 20
+				}
+				{
+					id: "0A1C7C5CB0F601C7"
+					type: "item"
+					item: "ironjetpacks:tier_3_capacitor"
+					count: 4
+				}
+				{
+					id: "588CECFC4A2AA28E"
+					type: "item"
+					item: "jaopca:boss_tools_compresseds.elementium"
+				}
+				{
+					id: "54A94BC8D247EAA4"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Blood Altar T2!"
+			icon: "bloodmagic:altar"
+			x: 61.5d
+			y: 2.25d
+			description: [
+				"Your altar is more than just a single block. OK, your Tier 1 altar is, but if you want to delve further into the Dark Arts, you'll need to create a more impressive one. "
+				""
+				"Your tier 2 altar shouldn't be too difficult: you just need to place a ring of eight blank runes around the base of the altar, one block below its level. Simple and straightforward, right?"
+				""
+				"{image:modpack:textures/quest_multiblock/bloodaltar_t2.png width:120 height:120 align:1}"
+			]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			id: "04B956595FBCD3F0"
+			tasks: [{
+				id: "5CD4EA0D33C25AC7"
+				type: "checkmark"
+				title: "Blood Altar Tier 2!"
+			}]
+			rewards: [{
+				id: "574AA553A246F66D"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Teleposers!"
+			icon: "bloodmagic:teleposer"
+			x: 61.5d
+			y: 4.25d
+			shape: "circle"
+			description: [
+				"Teleposers are amazing – they allow for Redstone-controlled teleportation! All you need to do to get started is craft a Teleposition Focus (see quest below), bind it to your target Teleposer, place it in another Teleposer, and apply a Redstone signal to the Teleposer with a focus in it."
+				""
+				"Anything; blocks, items, entities or players within a defined area above the two teleposers will be swapped."
+				""
+				"However, nothing comes for free. Transporting blocks or entities via the teleposer will cost 1 LP for every two blocks traversed, up to a maximum of 1,000 LP per block/entity or 10,000 LP in total."
+			]
+			dependencies: ["04B956595FBCD3F0"]
+			hide: true
+			id: "0E20893D2C9C6FC8"
+			tasks: [
+				{
+					id: "6E2112B45E484165"
+					type: "item"
+					item: "bloodmagic:teleposer"
+				}
+				{
+					id: "2734CA6327950A2C"
+					type: "item"
+					item: "bloodmagic:teleposerfocus"
+				}
+			]
+			rewards: [
+				{
+					id: "4A69E8A342FB6033"
+					type: "item"
+					item: "bloodmagic:teleposer"
+				}
+				{
+					id: "5153232662F67465"
+					type: "item"
+					item: "iceandfire:dragonegg_blue"
+				}
+				{
+					id: "3D767B881DD3D5F0"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Teleposer Focus?"
+			icon: "bloodmagic:teleposerfocus"
+			x: 60.25d
+			y: 6.75d
+			shape: "circle"
+			description: [
+				"There are 3 different Teleposer Focus to choose from."
+				""
+				"The basic Teleposer Focus will swap anything within a 1x1x1 block area above the two Teleposers. Requires a T2 Altar."
+				""
+				"The Enhanced Teleposer Focus swaps items within a 3x3x3 block centred directly above the two Teleposers. Requires a T3 Altar."
+				""
+				"The Reinforced Teleposer Focus will swap anything within a 5x5x5 block centred directly above the two teleposers. Requires a T4 Altar."
+			]
+			dependencies: ["0E20893D2C9C6FC8"]
+			hide: true
+			id: "640A3A14661F2554"
+			tasks: [{
+				id: "54B3F07522928078"
+				type: "checkmark"
+				title: "Teleposer Focus?"
+			}]
+			rewards: [{
+				id: "1131E3C5B3BD97C2"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Teleposer Informations..."
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 62.75d
+			y: 6.75d
+			shape: "circle"
+			description: [
+				"Teleposers can be linked in various ways. They can be linked one-way, so that a redstone signal to the exiting teleposer has no effect. They can be linked two-way, so that each teleposer has a focus linking to the other teleposer. This makes you teleport back and forth at a redstone signal from either end. They can even be chained, for example from A to B to C and back to A."
+				""
+				"From base-traversing elevators to complex underground labyrinths, the possibilities are endless! All you need is blood :0"
+			]
+			dependencies: ["0E20893D2C9C6FC8"]
+			hide: true
+			id: "734446034234061D"
+			tasks: [{
+				id: "799DFF0E38950515"
+				type: "checkmark"
+				title: "Endless Possibilities!"
+			}]
+			rewards: [{
+				id: "66BE7114C6F70DF2"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Apprentice Blood Orb!"
+			x: 67.5d
+			y: 2.25d
+			description: [
+				"Now that you have a T2 Blood Altar, we can move on to the next orb. The Apprentice Blood Orb allows you to store up to 25,000 LP in your network."
+				""
+				"You can use it to improve your Incense Altar to tier 2 and to make different objects, like the Void Sigil, Air Sigil, Sigil of the Fast Miner and more."
+			]
+			dependencies: ["04B956595FBCD3F0"]
+			hide: true
+			id: "7968E24D778C035D"
+			tasks: [{
+				id: "28C4BA63876BAB85"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+			rewards: [
+				{
+					id: "1EE78797A6829E29"
+					type: "item"
+					item: "kubejs:void_drop"
+					count: 10
+				}
+				{
+					id: "338306406C1F33B3"
+					type: "item"
+					item: "kubejs:mixture_t2"
+					count: 5
+				}
+				{
+					id: "7B470950F7614E69"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Incense Altar Tier 2!"
+			x: 67.5d
+			y: 5.25d
+			shape: "circle"
+			description: [
+				"The second tier is formed by adding 3 x 3 blocks of Wooden Path or Tiled Wooden Path to the four cardinal directions."
+				""
+				"{image:modpack:textures/quest_multiblock/incense_t2_.png width:180 height:130 align:1}"
+			]
+			dependencies: ["7968E24D778C035D"]
+			hide: true
+			id: "4F950939FA5BA993"
+			tasks: [{
+				id: "311EB538ECFA9C31"
+				type: "item"
+				item: "bloodmagic:woodbrickpath"
+				count: 28L
+			}]
+			rewards: [
+				{
+					id: "28DB704D7781B993"
+					type: "item"
+					item: "bloodmagic:woodbrickpath"
+					count: 8
+				}
+				{
+					id: "60259E57EEDC3FF3"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Portal to Alfheim!"
+			icon: "botania:alfheim_portal"
+			x: 61.5d
+			y: -8.25d
+			description: [
+				"The Portal to Alfheim is a multiblock structure that allows you to exchange certain blocks and items, also known as elven trading. Unlike most portals, you can't travel through the Portal to Alfheim for now. In Tier 4, you'll get the chance to enter the real Alfheim Dimension."
+				""
+				"If the portal runs out of mana, or if a part of the structure is broken, the portal will close."
+				""
+				"{image:modpack:textures/quest_multiblock/alfheim.png width:140 height:120 align:1}"
+				""
+				"The portal frame is 5x5 and you'll need 8 Livingwood, 3 Glimmering Livingwood, and 1 Elven Gateway Core. Also, you'll need at least two Natura Pylons with Mana Pools below them. Put them in an 11×11×11 area centered on the gateway core."
+			]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			id: "6962B16303AA08BC"
+			tasks: [
+				{
+					id: "7FF65FEE800CF6DB"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "19C1696B7C0EAB1F"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+				{
+					id: "0486A7C806EDA3D2"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "10AC85ACF0264D8D"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3
+				}
+				{
+					id: "7C0E3B04DB9124EC"
+					type: "item"
+					item: "miniutilities:diamond_opinium_core"
+				}
+				{
+					id: "6944CC1872A14B5D"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+				{
+					id: "77C3FC3D9B1294F3"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "bloodmagic:life_essence_fluid"
+								Amount: 1000
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "5F728FBBA74401EC"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "About Alchemy Arrays..."
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 45.5d
+			y: 14.0d
+			shape: "circle"
+			description: [
+				"Alchemy Arrays are simple effects originating from circles drawn on the ground with Arcane Ashes. They are easy to build and useful in both early and late game applications."
+				""
+				"Here are a few examples:"
+				""
+				"Time-based arrays are straightforward arrays that control the time of day. Items will be consumed once the array begins to change the time. The Day array changes the time to the next sunrise. The Night array changes the time to the next sunset."
+				""
+				"The Spike Array is a simple array with one purpose. When a living entity steps into it, they take a full heart of damage. This makes it ideal for mob traps or for making your base more dangerous for players."
+			]
+			dependencies: ["4ACAA36DD8B3990F"]
+			hide: true
+			id: "7A78C0C39739B51A"
+			tasks: [{
+				id: "101050EF561386A4"
+				type: "checkmark"
+				title: "Alchemy Arrays?"
+			}]
+			rewards: [{
+				id: "3BC15EAC5EE30A55"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Elementium Ingots!"
+			x: 69.5d
+			y: -8.25d
+			description: ["For now, you can get Elementium Ingots by throwing a Starmetal Ingot into a Portal to Alfheim. If you throw a block of starmetal into a portal to Alfheim, you'll get a block of elementium back."]
+			dependencies: ["65886C916A5554FE"]
+			hide: true
+			id: "0421759366CAA386"
+			tasks: [{
+				id: "6179086F5BA61BAB"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [
+				{
+					id: "7526DD818F520C7A"
+					type: "item"
+					item: "jaopca:boss_tools_compresseds.tantalum"
+				}
+				{
+					id: "37773F03016B0A55"
+					type: "item"
+					item: "botania:elementium_ingot"
+				}
+				{
+					id: "0BBC2639C1738ABB"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "The Dagger of Sacrifice!"
+			x: 73.5d
+			y: 2.25d
+			description: [
+				"At this point, you will be able to craft a Dagger of Sacrifice in order to slaughter mobs and earn more LP. However, the Sacrifice Runes for boosting LP gathered by mobs won't be available until T4."
+				""
+			]
+			dependencies: ["7968E24D778C035D"]
+			hide: true
+			id: "331BC7C74B2FF095"
+			tasks: [{
+				id: "7D2901B7F3655A85"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [
+				{
+					id: "17FF256A0C0D9F8B"
+					type: "item"
+					item: "kubejs:motor_t3"
+					count: 4
+				}
+				{
+					id: "156D100C33B6E827"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "The Sigil of The Green Grove!"
+			x: 73.5d
+			y: 5.25d
+			shape: "circle"
+			description: [
+				"Using this sigil on a growable block will apply the bonemeal effect while consuming 150 LP."
+				""
+				"However, if you hold sneak while aiming at the air, the block will light up to indicate activation and consume 150 LP every 5 seconds until deactivated. A growth tick will be applied to every block in a 7x7x5 volume centred on the player. Great for farming crops!"
+			]
+			dependencies: ["331BC7C74B2FF095"]
+			hide: true
+			id: "5569993236477EAF"
+			tasks: [{
+				id: "0365419C51463AF3"
+				type: "item"
+				item: {
+					id: "bloodmagic:growthsigil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4001A43F3D28DCDB"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 2
+				}
+				{
+					id: "07F34C5623D0E282"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 5
+				}
+				{
+					id: "6AAB211621C1C0A7"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Void Sigil!"
+			x: 75.25d
+			y: 5.25d
+			shape: "circle"
+			description: ["Pressing left-click on the Void Sigil while looking at any fluid will destroy it at a cost of 50 LP per block. This is useful for clearing out irritating lava flows without the tedious process of placing and breaking individual blocks."]
+			dependencies: ["331BC7C74B2FF095"]
+			hide: true
+			id: "3EDA33E2F087BE3D"
+			tasks: [{
+				id: "5BC4239BD7F903A8"
+				type: "item"
+				item: "bloodmagic:voidsigil"
+			}]
+			rewards: [
+				{
+					id: "04BB3A73649CAE12"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 4
+				}
+				{
+					id: "77BCD42123A581DE"
+					type: "item"
+					item: "storagedrawers:void_upgrade"
+					count: 2
+				}
+				{
+					id: "0A512E1319C9A58C"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "The Air Sigil!"
+			x: 71.75d
+			y: 5.25d
+			shape: "circle"
+			description: [
+				"The Air Sigil throws you in the direction you're facing at a cost of 50 LP per use. Please note that this does not provide any Feather Falling effects, so be careful when landing!"
+				""
+				"It's a good way to get around quickly, albeit with some risk. Many an unwary mage has met their end by running out of LP while flying miles above the countryside."
+			]
+			dependencies: ["331BC7C74B2FF095"]
+			hide: true
+			id: "496A43F4B208ECB1"
+			tasks: [{
+				id: "31BC1A3C1F6DF323"
+				type: "item"
+				item: "bloodmagic:airsigil"
+			}]
+			rewards: [
+				{
+					id: "78B9869CE644DC4B"
+					type: "item"
+					item: "mysticalagriculture:air_seeds"
+				}
+				{
+					id: "63CADA77B4CF829C"
+					type: "item"
+					item: "silentgems:corrupted_stone_pile"
+					count: 6
+				}
+				{
+					id: "3288D1A69E53FEB8"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Extrapolated Bucket"
+			x: 68.25d
+			y: -11.5d
+			shape: "circle"
+			description: ["If you right-click with the Extrapolated Bucket on any liquid source block, it will permanently remove it. This bucket can't hold any liquids."]
+			dependencies: ["0421759366CAA386"]
+			hide: true
+			id: "34D3D5242C8420A9"
+			tasks: [{
+				id: "07DEE1CBB95B917C"
+				type: "item"
+				item: "botania:open_bucket"
+			}]
+			rewards: [
+				{
+					id: "7465330890F4628C"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+					count: 2
+				}
+				{
+					id: "6634623809BAC8CC"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Elementium Shears!"
+			x: 72.0d
+			y: -11.5d
+			shape: "circle"
+			description: ["The Elementium Shear, instead of using the item's durability, it can draw from a Mana Tablet or any other Mana-providing item in the player's inventory. While wielding the shears, right-clicking will shear any nearby sheep in a large area centered on the player."]
+			dependencies: ["0421759366CAA386"]
+			hide: true
+			id: "5D8D65B47188B841"
+			tasks: [{
+				id: "37D25560ED19E62F"
+				type: "item"
+				item: {
+					id: "botania:elementium_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4E784271BBE3F7A5"
+					type: "item"
+					item: "mysticalagriculture:sheep_seeds"
+				}
+				{
+					id: "2F6065F4463E7790"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Slime in a Bottle?"
+			x: 67.0d
+			y: -11.5d
+			shape: "circle"
+			description: ["If the player is holding this item while inside a Slime Chunk, the Slimeball inside the bottle will start to jump."]
+			dependencies: ["0421759366CAA386"]
+			hide: true
+			id: "07567F7E84F7523E"
+			tasks: [{
+				id: "0BEB8D61F455C5C2"
+				type: "item"
+				item: "botania:slime_bottle"
+			}]
+			rewards: [
+				{
+					id: "5A5C755148421BAA"
+					type: "item"
+					item: "minecraft:slime_block"
+					count: 5
+				}
+				{
+					id: "74041549D5028F0C"
+					type: "item"
+					item: "industrialforegoing:pink_slime"
+					count: 2
+				}
+				{
+					id: "0BBCDF45172EA3F0"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Elementium Gear"
+			icon: {
+				id: "botania:elementium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 70.75d
+			y: -11.5d
+			shape: "circle"
+			description: [
+				"Elementium Gear is a set of armor pieces that uses mana from a mana tablet or any other mana-providing item in the player's inventory to prevent damage to the item or repair it."
+				""
+				"If you're attacked while wearing a piece of Elementium Gear, there's an 11% chance a pixie will attack you. This chance stacks additively with other worn armor and accessories."
+				""
+				"Wearing a complete set of Elementium armor grants the Great Fairy's Blessing set bonus:"
+				""
+				"-A 10% decrease in the mana cost of all mana-using tools and rods."
+				"-Pixies spawned by the wearer inflict a random potion effect for two seconds: Blindness, Wither, Slowness, or Weakness."
+			]
+			dependencies: ["0421759366CAA386"]
+			hide: true
+			id: "3383AE55E8138AE9"
+			tasks: [
+				{
+					id: "689B18BA5CFF1B5A"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BB8806D73933778"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7A5599AAA0D9D56F"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2AFE08B94A720F2C"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B4B24BA44539F5A"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3A427383FBB77076"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Terrasteel Armor"
+			icon: {
+				id: "botania:terrasteel_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 52.0d
+			y: 2.25d
+			shape: "circle"
+			description: [
+				"Terrasteel armor can use mana from a mana tablet or any other mana-providing item in the player's inventory to prevent damage to the item or repair itself. In addition to providing diamond-level protection, it offers knockback resistance."
+				""
+				"Wearing a complete set of Terrasteel armor grants the Will of the Ancients set bonus."
+				""
+				"-Passive generation of 1 mana per tick."
+				"-20% decrease in mana cost for all mana-using tools and rods."
+				"-Passive regeneration of two health every four seconds if your hunger bar isn't full."
+				"-Effects of all Wills applied to this item."
+				""
+				"You can apply six Wills, which are dropped by the hard mode version of the Gaia Guardian, to the helmet by crafting them together. Each will has a different effect that is applied to entities hit by the wearer's critical hits."
+			]
+			dependencies: ["718CB06B6224B46B"]
+			hide: true
+			id: "36FF4C6CFACCD917"
+			tasks: [
+				{
+					id: "124D066D55B89AC9"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "13CA11BF2FDD5E61"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "39B5E977F91BAFA1"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "44571768C85E85DE"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "457B22F786E9CA20"
+					type: "item"
+					item: "botania:terrasteel_block"
+				}
+				{
+					id: "256A8BFB5D1A7FC6"
+					type: "item"
+					item: "kubejs:mixture_t2"
+					count: 2
+				}
+				{
+					id: "7F5B830898D8BFBF"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "The Terra Shatterer!"
+			x: 52.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"The Terra Shatterer uses mana from a Mana Tablet or any other mana-providing item in the player's inventory to prevent damage to items or repair itself."
+				""
+				"The pickaxe has several ranks: D, C, B, A, S, and SS. To upgrade from one rank to another, the tool must be dropped into a Mana Pool to absorb Mana. The more Mana absorbed, the higher the rank. According to the Botania Lexicon, the mana required to advance from one rank to the next increases tenfold."
+				""
+				"Each rank has a different strength for its active ability, which is activated by right-clicking. While active, the tool enables the player to break blocks in an extended area. If the player is wearing the Ring of Thor, the active area is extended further. "
+				""
+				"A maximum-upgraded Terrashatterer (Rank SS) can mine an area up to 11x11x11."
+			]
+			dependencies: ["718CB06B6224B46B"]
+			hide: true
+			id: "65FE853E507F8B1B"
+			tasks: [{
+				id: "5CEAD786C3698E22"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+				match_nbt: false
+			}]
+			rewards: [
+				{
+					id: "1ED60D5A3BDC220E"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_ingot"
+				}
+				{
+					id: "55DB2A648AAA1F81"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Terra Blade!"
+			x: 52.0d
+			y: 3.5d
+			shape: "circle"
+			description: [
+				"The Terra Blade uses mana from a Mana Tablet or any other mana-providing item in the player's inventory to prevent damage to the item or repair it."
+				""
+				"When you swing and the attack recharge meter is full, it will use 100 mana and create a damaging mana burst that deals 7 points of damage to the creature that is hit."
+			]
+			dependencies: ["718CB06B6224B46B"]
+			hide: true
+			id: "3461BA57CE6C0EB6"
+			tasks: [{
+				id: "121A91DCFFA73F0C"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "45FAA66865089EF1"
+					type: "item"
+					item: "kubejs:seed_t3"
+				}
+				{
+					id: "7FFCC24BD2425CCA"
+					type: "item"
+					item: "kubejs:mbcasing_t3"
+				}
+				{
+					id: "5C366AF2DBE2C65E"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Greater Band of Mana!"
+			x: 52.0d
+			y: -0.25d
+			shape: "circle"
+			description: [
+				"The Greater Band of Mana is an upgrade to the Band of Mana and stores 2,000,000 mana—four times as much as the previous tier."
+				""
+				"The durability bar shows how much mana has been stored in the Band, not how strong the item is. Another bar is above the player's hotbar, and it shows durability more clearly."
+			]
+			dependencies: ["718CB06B6224B46B"]
+			hide: true
+			id: "7C81D4E09B421D42"
+			tasks: [{
+				id: "02C35900D49D1F40"
+				type: "item"
+				item: {
+					id: "botania:mana_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "09611185F6B146FD"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "evilcraft:blood"
+								Amount: 1000
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "293F42A18A56A0B7"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 2
+				}
+				{
+					id: "0EB816EFB6D49900"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Greater Band of Aura!"
+			x: 52.0d
+			y: 4.75d
+			shape: "circle"
+			description: ["The Greater Band of Aura is an upgraded version of the Band of Aura. It generates mana much faster (10 mana per second compared to the Band of Aura's 2 mana per second)."]
+			dependencies: ["718CB06B6224B46B"]
+			hide: true
+			id: "43998E2D66CAB765"
+			tasks: [{
+				id: "0EA939B6951EF123"
+				type: "item"
+				item: {
+					id: "botania:aura_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "391BECF55E2E1903"
+					type: "item"
+					item: "kubejs:crystal_t3"
+					count: 4
+				}
+				{
+					id: "12D50C8471A89E32"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+				{
+					id: "0D433EECFF754B93"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Water infusion Scepter!"
+			x: 27.5d
+			y: 5.5d
+			shape: "circle"
+			description: ["The power to transform nearby streams into a steady source of water is truly remarkable. It fills lakes and rivers in the blink of an eye!"]
+			dependencies: ["4277611AEAEBEE72"]
+			hide: true
+			id: "06FAAB1EA494FE01"
+			tasks: [{
+				id: "11C31E5A96787938"
+				type: "item"
+				item: {
+					id: "cyclic:spell_water"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2FD04894902A9FE6"
+					type: "item"
+					item: "kubejs:mixture_t1"
+					count: 5
+				}
+				{
+					id: "4E2A317AE11DD50B"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Ender Wing?"
+			x: 23.5d
+			y: 5.5d
+			shape: "circle"
+			description: ["The incredible Ender Wing Warps you to world spawn, sacrificing only a small amount of its own durability for your advantage!"]
+			dependencies: ["4277611AEAEBEE72"]
+			hide: true
+			id: "0F8C27D9719D0974"
+			tasks: [{
+				id: "28A4BA7D6CF46619"
+				type: "item"
+				item: {
+					id: "cyclic:charm_world"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2E9AC620F13FD09D"
+					type: "item"
+					item: "xreliquary:nebulous_heart"
+				}
+				{
+					id: "7D44E7B0217FC2C5"
+					type: "item"
+					item: "mysticalagriculture:tertium_essence"
+					count: 8
+				}
+				{
+					id: "4A51A92EB789AC71"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Ender Orb!?"
+			x: 28.0d
+			y: 2.75d
+			shape: "circle"
+			description: ["This is like a regular ender pearl, but even better: you can toss, pick up, and toss again!"]
+			dependencies: ["4277611AEAEBEE72"]
+			hide: true
+			id: "51C167BFF20584E0"
+			tasks: [{
+				id: "4345C25C97AEFBDD"
+				type: "item"
+				item: {
+					id: "cyclic:ender_pearl_reuse"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "35BD419E8BB27053"
+					type: "item"
+					item: "chemlib:ingot_tantalum"
+				}
+				{
+					id: "57E3035062BC458E"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 2
+				}
+				{
+					id: "2AFA99363A50CE76"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Ice Infusion Scepter!"
+			x: 23.0d
+			y: 2.75d
+			shape: "circle"
+			description: ["This scepter turns nearby water blocks into ice. It costs durability to use."]
+			dependencies: ["4277611AEAEBEE72"]
+			hide: true
+			id: "1CF66C280DCA0E55"
+			tasks: [{
+				id: "1328CB490F1221C3"
+				type: "item"
+				item: {
+					id: "cyclic:spell_ice"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1B925EE5E18A72FE"
+					type: "item"
+					item: "minecraft:packed_ice"
+					count: 32
+				}
+				{
+					id: "6B21843E02F964DE"
+					type: "item"
+					item: "pamhc2foodcore:chocolateicecreamitem"
+					count: 5
+				}
+				{
+					id: "3B1475356300595B"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Rocket Engine Fans!"
+			x: 73.5d
+			y: -8.25d
+			description: ["Rocket engines require both active and passive cooling. For the passive cooling, we have these powerful elementium fans."]
+			dependencies: ["0421759366CAA386"]
+			hide: true
+			id: "6D0933C5911D792F"
+			tasks: [{
+				id: "4FA0FF6BD95504D7"
+				type: "item"
+				item: "boss_tools:engine_fan"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "2B4E3F1AA9FE1E69"
+					type: "item"
+					item: "jaopca:boss_tools_compresseds.pure_steel"
+					count: 2
+				}
+				{
+					id: "7A7B736680E241B3"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Nose Cones and Rocket Fins"
+			icon: "boss_tools:rocket_fin"
+			x: 73.5d
+			y: -3.0d
+			description: ["Let's take a look at the nose cones and rocket fins."]
+			dependencies: ["1B0A0CFB17B1C7BE"]
+			hide: true
+			id: "2D5B3A396E108278"
+			tasks: [
+				{
+					id: "334B2DC458F4FCEE"
+					type: "item"
+					item: "boss_tools:rocket_nose_cone"
+					count: 3L
+				}
+				{
+					id: "69D6E9C4B2E2E78E"
+					type: "item"
+					item: "boss_tools:rocket_fin"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "3390995C35FE998B"
+					type: "item"
+					item: "boss_tools:rocket_fin"
+					count: 2
+				}
+				{
+					id: "0B3800D61373E884"
+					type: "item"
+					item: "kubejs:motor_t3"
+					count: 4
+				}
+				{
+					id: "6F243F9B03529B64"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Basic Rocket Engines and Tanks"
+			icon: "boss_tools:iron_engine"
+			x: 69.5d
+			y: -3.0d
+			description: ["Next up: Basic Engines and Tanks for your rocket!"]
+			dependencies: ["1914E79A200CD220"]
+			hide: true
+			id: "1B0A0CFB17B1C7BE"
+			tasks: [
+				{
+					id: "6053BB556CC1E22F"
+					type: "item"
+					item: "boss_tools:iron_engine"
+					count: 4L
+				}
+				{
+					id: "7A6D5E3E0C462A17"
+					type: "item"
+					item: "boss_tools:iron_tank"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "035E24D5D314C52A"
+					type: "item"
+					item: "jaopca:boss_tools_compresseds.pure_steel"
+					count: 4
+				}
+				{
+					id: "443171794CE8CA71"
+					type: "item"
+					item: "pamhc2foodextended:gourmetbeefburgeritem"
+				}
+				{
+					id: "5DD6F98B9C742D84"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+				{
+					id: "637E8DB97694A41F"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Core Components for Rockets and VOMS!"
+			icon: "rftoolscontrol:cpu_core_1000"
+			x: 78.5d
+			y: -3.0d
+			description: ["Next, we need at least 3x CPU Core S1000, two Teleportation Cores and six PCBs (T3). These are the main parts needed for the Rocket and Void Ore Miner."]
+			dependencies: [
+				"331BC7C74B2FF095"
+				"2D5B3A396E108278"
+				"6D0933C5911D792F"
+			]
+			hide: true
+			id: "45B3F05007A945C2"
+			tasks: [
+				{
+					id: "61BA06632FB60C53"
+					type: "item"
+					item: "rftoolscontrol:cpu_core_1000"
+					count: 3L
+				}
+				{
+					id: "2EC2ED598BBEC011"
+					type: "item"
+					item: "mekanism:teleportation_core"
+					count: 2L
+				}
+				{
+					id: "74A471E9AA99495A"
+					type: "item"
+					item: "kubejs:pcb_t3"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "398BA8C4BCBB4FE0"
+					type: "item"
+					item: "kubejs:pcb_t3"
+					count: 2
+				}
+				{
+					id: "52143D655B3AD938"
+					type: "item"
+					item: "jaopca:boss_tools_compresseds.pure_steel"
+					count: 2
+				}
+				{
+					id: "4749EE6A2B25429C"
+					type: "item"
+					item: "kubejs:mech_arm_t3"
+				}
+				{
+					id: "33F646F45DC0BC88"
+					type: "item"
+					item: "miniutilities:netherite_opinium_core"
+				}
+				{
+					id: "16E1F933100A3364"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Obsidian Infused Rubber"
+			x: 61.5d
+			y: -3.0d
+			description: ["Now, we can focus on higher-quality rubber. LQ Rubber, mixed with Refined Obsidian, makes a rubber mixture that can then be processed further."]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			id: "3E494936F796046E"
+			tasks: [{
+				id: "5226EDD033DC6AAF"
+				type: "item"
+				item: "kubejs:infused_rubber"
+			}]
+			rewards: [
+				{
+					id: "456010D4079ACFEC"
+					type: "item"
+					item: "kubejs:infused_rubber"
+				}
+				{
+					id: "3839BD2A9BF2F230"
+					type: "item"
+					item: "industrialforegoing:dryrubber"
+					count: 4
+				}
+				{
+					id: "4D6E7060C45AB16C"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "MQ Rubber!"
+			x: 65.25d
+			y: -3.0d
+			description: [
+				"The previous product is now mixed with T3 Materia to produce medium-quality rubber. That's the whole process. It's not THAT bad!"
+				""
+			]
+			dependencies: ["3E494936F796046E"]
+			hide: true
+			id: "1914E79A200CD220"
+			tasks: [{
+				id: "5087C3BD8FC26333"
+				type: "item"
+				item: "thermal:rubber"
+			}]
+			rewards: [
+				{
+					id: "15C49B522D5B32BA"
+					type: "item"
+					item: "thermal:rubber"
+				}
+				{
+					id: "62F331DD92E7B6D2"
+					type: "item"
+					item: "kubejs:materia_t3"
+					count: 4
+				}
+				{
+					id: "02A17F540ACB05A7"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Celestial Altar!"
+			icon: "astralsorcery:altar_constellation"
+			x: 55.5d
+			y: -15.0d
+			shape: "gear"
+			description: [
+				"The Celestial Altar is the third tier of crafting altar and is used throughout the Constellation chapter of the Astral Tome."
+				""
+				"The Altar works in a similar way to the Starlight Crafting Altar, and can make all the same recipes. However, it has 8 extra input slots that can be used for more crafting recipes, can gather Starlight much more efficiently, and requires a larger structure to be built in order to support it."
+				""
+				"The dimensions of the structure are 11x5x11, and in addition to the Altar, it requires all of the materials requested and rewarded from this quest."
+				""
+				"{image:modpack:textures/quest_multiblock/celestial_altar.png width:170 height:120 align:1}"
+			]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			size: 2.0d
+			id: "20DCBAED866197D0"
+			tasks: [
+				{
+					id: "44CC9907B4130D24"
+					type: "item"
+					item: "astralsorcery:altar_constellation"
+				}
+				{
+					id: "036EB92C33376526"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+				{
+					id: "40B4A607F910C80A"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 40L
+				}
+				{
+					id: "051B67BA0B07C46E"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 8L
+				}
+				{
+					id: "0CFC8463AC5B7896"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "7EF00CE962F8DB14"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 12
+				}
+				{
+					id: "0160A9428C19B390"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 49
+				}
+				{
+					id: "453309FD365397B2"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "7A7198B2284612F1"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "A gate Through The Stars..."
+			icon: {
+				id: "astralsorcery:celestial_gateway"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			x: 56.25d
+			y: -18.5d
+			shape: "circle"
+			description: [
+				"The Celestial Gateway is a block that can be used to teleport players to other Celestial Gateways. When built correctly, approaching the gateway causes the surrounding area to darken and transform into a panoramic night sky. Celestial Gateways that can be teleported to are depicted as larger yellow stars against the starry backdrop. Sneaking or holding down the right-click button while looking at one will teleport the player to that gateway after a few seconds. While sneaking, a preview of the gateway will be shown."
+				""
+				"Gateways can be renamed using Anvils, which creates a small caption that appears when looking at the renamed Gateway."
+				""
+				"Gateways require a view of the sky, so they must be placed in areas without a roof, such as the Overworld."
+				""
+				"{image:modpack:textures/quest_multiblock/gateway.png width:120 height:100 align:1}"
+			]
+			dependencies: ["20DCBAED866197D0"]
+			hide: true
+			id: "6A828C01AC91837C"
+			tasks: [
+				{
+					id: "2610483E5F753F26"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "21904C2CFAB66A04"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 20L
+				}
+				{
+					id: "3B2EE729848744C1"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 25L
+				}
+				{
+					id: "50F3826DE778CB68"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+				{
+					id: "7E969D17C853A349"
+					type: "item"
+					item: "astralsorcery:marble_engraved"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "56FD23439A87799E"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "320345888D8A435E"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "The Resplendent Prism!"
+			x: 58.0d
+			y: -18.5d
+			shape: "circle"
+			description: [
+				"Wearing The Resplendent Prism in an amulet slot increases the level of enchantments on the player's gear, depending on the prism's configuration. Hovering over the item will reveal the enchantments to be increased. These enchantments can be rerolled."
+				""
+				"The prism can increase up to three different enchantments by one or two levels each. Very rarely, multiple instances of the same effect can be present, resulting in an increase of three or more. The increase can affect either only existing enchantments or, if not already present, additionally add the stated levels to tools able to receive them. Rarely, the increase can affect all existing enchantments."
+			]
+			dependencies: ["20DCBAED866197D0"]
+			hide: true
+			id: "0C1A8AF9408C9D48"
+			tasks: [{
+				id: "6AD08911C981A8B3"
+				type: "item"
+				item: {
+					id: "astralsorcery:enchantment_amulet"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							amuletEnchantments: [
+								{
+									ench: "cyclic:growth"
+									type: 1
+									level: 1
+								}
+								{
+									ench: "cyclic:ender"
+									type: 1
+									level: 1
+								}
+							]
+							amuletColor: -11690753
+						}
+					}
+				}
+				match_nbt: false
+			}]
+			rewards: [
+				{
+					id: "1998161C1FC25B61"
+					type: "item"
+					item: "kubejs:mixture_t3"
+					count: 3
+				}
+				{
+					id: "127BABD3FF0E1529"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "689E71F4E5F4A515"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Illumination Wand!"
+			x: 54.5d
+			y: -18.5d
+			shape: "circle"
+			description: [
+				"When right-clicked on a block, the Illumination Wand places a light source. If a light source is already present, it will be removed."
+				""
+				"Shift-right-clicking on a block turns it into an unbreakable translucent block. Shift-right-clicking on a translucent block reverts it to its previous state. The wand can be crafted with any dye to change the colour of placed light sources."
+			]
+			dependencies: ["20DCBAED866197D0"]
+			hide: true
+			id: "7BBA5C470F11606E"
+			tasks: [{
+				id: "108C211D44C677CC"
+				type: "item"
+				item: {
+					id: "astralsorcery:illumination_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "748A3892534A8FB0"
+					type: "item"
+					item: "mysticalagriculture:creeper_seeds"
+				}
+				{
+					id: "384F5269752DD93E"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "4A5B2D6BBB8915E0"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Sealing Sigil"
+			x: 52.75d
+			y: -18.5d
+			shape: "circle"
+			description: ["In Astral Sorcery, a sealing sigil can be used to disable an unlocked perk permanently, preventing its effects from taking place. This is useful for perks with undesirable side effects, or when a player prefers not to have the perk active."]
+			dependencies: ["20DCBAED866197D0"]
+			hide: true
+			id: "137CE480A49C8EC8"
+			tasks: [{
+				id: "2BA8E0BE4AE14594"
+				type: "item"
+				item: "astralsorcery:perk_seal"
+			}]
+			rewards: [
+				{
+					id: "31199AED9A5E3CDD"
+					type: "item"
+					item: "kubejs:starlight_ingot"
+					count: 6
+				}
+				{
+					id: "0E11629CD5CECFE5"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Ritual Anchors"
+			x: 63.0d
+			y: -15.0d
+			description: [
+				"Ritual anchors can be used to proxy active rituals from any distance. They must be linked with a Linking Tool."
+				""
+				"The same anchors are also used to stabilize more sophisticated void ore miners, which is why we need them right now."
+			]
+			dependencies: ["20DCBAED866197D0"]
+			hide: true
+			id: "2F11D69FAEA435AB"
+			tasks: [{
+				id: "655DF429DA2DC5DB"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "7C1E9A3A368FF279"
+					type: "item"
+					item: "astralsorcery:ritual_link"
+					count: 2
+				}
+				{
+					id: "03FD619554A7DC83"
+					type: "item"
+					item: "kubejs:pcb_t3"
+				}
+				{
+					id: "6691633E2433778C"
+					type: "item"
+					item: "thermal:enderium_glass"
+					count: 4
+				}
+				{
+					id: "4CD2D6BBBDBE2E9C"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Gold Promise Acceptor!"
+			x: 71.75d
+			y: -15.0d
+			description: ["It's time to fire up the Blood Infuser again! The Gold Promise Acceptor is the next level in the Promise Acceptor series, but unfortunately it consumes a lot of blood and pure gold. But I'm sure you're well prepared by now."]
+			dependencies: ["2F11D69FAEA435AB"]
+			hide: true
+			id: "7798537A0159ECD0"
+			tasks: [{
+				id: "3A17CAD10CD1E6C9"
+				type: "item"
+				item: "evilcraft:promise_acceptor_gold"
+			}]
+			rewards: [
+				{
+					id: "5871CAC457ADD601"
+					type: "item"
+					item: "jaopca:storage_blocks.pure_gold"
+				}
+				{
+					id: "2B4558990BDC2BB7"
+					type: "item"
+					item: "evilcraft:promise_acceptor_gold"
+				}
+				{
+					id: "12DC8469BBB9D686"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Promise of Tenacity 2!"
+			x: 82.0d
+			y: -15.0d
+			description: ["And while we're at it, let's build the next upgrade for the Blood Infuser, because we need at least one for our rocket, and also so that we're prepared for the next tier!"]
+			dependencies: ["7798537A0159ECD0"]
+			hide: true
+			id: "23BC54388CBD780E"
+			tasks: [{
+				id: "56E08FF8AD2C1F74"
+				type: "item"
+				item: "evilcraft:promise_tier_2"
+			}]
+			rewards: [
+				{
+					id: "6209ACAD79DB1575"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "56DBBC9DF7C87CEB"
+					type: "item"
+					item: "jaopca:boss_tools_compresseds.pure_steel"
+					count: 2
+				}
+				{
+					id: "2ED7CFCE3A61CC8E"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Launch Pad!"
+			x: 87.25d
+			y: -1.5d
+			description: ["It may be hard to believe, but the launch pad is actually used as a stable foundation for launching the rocket."]
+			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
+			id: "2021E9BD49832151"
+			tasks: [{
+				id: "3D26D01AE4CC116C"
+				type: "item"
+				item: "boss_tools:rocket_launch_pad"
+				count: 9L
+			}]
+			rewards: [
+				{
+					id: "1434898187C6F150"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "126ED3801DDE27E9"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Fuel Loader!"
+			x: 87.25d
+			y: -6.0d
+			description: ["The Fuel Loader is a machine that fills rockets and vehicles with rocket fuel. It only works up to two blocks away, so keep it close to your things."]
+			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
+			id: "11FE7EB287656751"
+			tasks: [{
+				id: "69D63A366A9A30A7"
+				type: "item"
+				item: "boss_tools_giselle_addon:fuel_loader"
+			}]
+			rewards: [
+				{
+					id: "318878B62D579088"
+					type: "item"
+					item: "fluidtank:tank_iron"
+					count: 4
+				}
+				{
+					id: "533ED05935BBFB3C"
+					type: "item"
+					item: "pipez:universal_pipe"
+					count: 10
+				}
+				{
+					id: "098AA9F1F0782521"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Oxygen Loader!"
+			x: 87.25d
+			y: 0.0d
+			description: ["As the name suggests, the oxygen loader is exactly that. It fills oxygen tanks and your spacesuit with oxygen, making it an essential piece of equipment."]
+			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
+			id: "2B918EBA8E853587"
+			tasks: [{
+				id: "2D857485738CBB3B"
+				type: "item"
+				item: "boss_tools:oxygen_loader"
+			}]
+			rewards: [
+				{
+					id: "464A7537153E14C0"
+					type: "item"
+					item: "mekanism:basic_chemical_tank"
+					count: 2
+				}
+				{
+					id: "48D67C7A8234DC0A"
+					type: "item"
+					item: "kubejs:materia_t3"
+					count: 10
+				}
+				{
+					id: "7D76C928CC6EA48D"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "boss_tools:space_suit"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 87.25d
+			y: -4.5d
+			description: ["We also really need the space suit. Without it, you wouldn't last two minutes. It won't be easy to get hold of, and above all, it won't be cheap. Take your time, you'll need it."]
+			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
+			id: "451528ED4BA7D149"
+			tasks: [
+				{
+					id: "16B70DE681AD7FCA"
+					type: "item"
+					item: {
+						id: "boss_tools:space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F8F7C2B654AEDED"
+					type: "item"
+					item: {
+						id: "boss_tools:oxygen_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "30D5C7415EBB6D53"
+					type: "item"
+					item: {
+						id: "boss_tools:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1100FDBD32E335B1"
+					type: "item"
+					item: {
+						id: "boss_tools:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F935401C00AE11C"
+					type: "item"
+					item: "botania:elementium_block"
+				}
+				{
+					id: "4004410FFAF15CBD"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Rocket Fuel!"
+			x: 87.25d
+			y: -3.0d
+			description: ["Mixing kerosene with energised glowstone produces rocket fuel. And that's exactly what you need to put into your fuel loader!"]
+			dependencies: ["3CA4BDDABF0849CB"]
+			hide: true
+			id: "69BB9154156C9F3D"
+			tasks: [{
+				id: "0EEC573DFB237391"
+				type: "item"
+				item: {
+					id: "fluidcells:filled_fluid_cell"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "boss_tools:fuel"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "11441CDA376773A1"
+					type: "item"
+					item: {
+						id: "fluidcells:filled_fluid_cell"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "boss_tools:fuel"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "7059082351DD5A62"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Tier 1 Rocket! (Unlocks Chapter: Main Questline T4)"
+			x: 93.0d
+			y: -3.0d
+			description: [
+				"Finally, we come to the T1 Rocket!"
+				""
+				"With this rocket, you can fly to the Moon, build a space station in Earth's orbit, or even in the Moon's orbit. Don't forget to wear your spacesuit and take everything you need with you."
+				""
+				"If anything goes wrong, you can always use the Home command to return, but you should definitely consider teleportation options and prepare accordingly so that you don't always need a rocket to get there."
+				""
+				"Congratulations! You have completed the third chapter! We'll see you again in Tier 4 when it's time for your first trip to the moon!"
+			]
+			dependencies: [
+				"2021E9BD49832151"
+				"2B918EBA8E853587"
+				"11FE7EB287656751"
+				"69BB9154156C9F3D"
+				"451528ED4BA7D149"
+			]
+			hide: true
+			size: 3.0d
+			id: "7863192AF3DC02F0"
+			tasks: [{
+				id: "26C32142A57200D6"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0DA9CC5C1C3130DB"
+					type: "item"
+					item: "paraglider:stamina_vessel"
+				}
+				{
+					id: "11841142A4C944A0"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+				{
+					id: "5543BF2096BD9AC0"
+					type: "item"
+					item: "kubejs:mixture_t3"
+					count: 10
+				}
+				{
+					id: "4DDA9E8999907E83"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "41E7D4F9D63EB792"
+					type: "item"
+					item: "jaopca:storage_blocks.pure_steel"
+				}
+				{
+					id: "07FEBEA40F252497"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 16
+				}
+				{
+					id: "08772FB5A1ED52B0"
+					type: "item"
+					item: "kubejs:seed_t3"
+				}
+				{
+					id: "000ABE67AE059393"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "C A N D Y L A N D"
+			icon: "kubejs:aoa_sidequest"
+			x: 69.5d
+			y: -11.5d
+			shape: "circle"
+			description: [
+				"Candyland is a dimension themed around candy."
+				""
+				"This dimension is not part of the main progression, but it has some interesting features, particularly with regard to sugar and food. Since you need exponentially more and more sugar for each new level of a boosting mixture, this dimension might be for you."
+				""
+				"However, before I tell you more, you first need the Realmstone."
+			]
+			dependencies: ["0421759366CAA386"]
+			hide: true
+			id: "036DC2D63D5DF2E8"
+			tasks: [{
+				id: "556D082A8909328E"
+				type: "item"
+				item: "aoa3:candyland_realmstone"
+			}]
+			rewards: [
+				{
+					id: "47FA65452609592F"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6C873C125009EC90"
+					type: "item"
+					item: "jaopca:boss_tools_compresseds.pure_steel"
+				}
+				{
+					id: "4F96D67B6CC9515A"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Let's Visit Candyland!"
+			x: 69.5d
+			y: -13.5d
+			shape: "circle"
+			description: [
+				"The surface of Candyland is mostly flat, with only minor differences in elevation. It is covered in plants and large, candy-like structures. Lakes filled with candied water can be found on the surface, and these are useful for use in a centrifuge or liquid-solidifier. All structures in this dimension are found on the surface."
+				""
+				"The underground is made of candied dirt, while the surface is made of candied grass. There is no stone in Candyland; instead, the candied dirt extends all the way down to the bottom of the world, where a layer of dimensional fabric exists in place of bedrock. There are no caves underground."
+				""
+				"Although there are no caves, there are still plenty of valuable resources. As well as the useful candied water on the surface, you will find whole blocks of sugar, sugarcane and honey underground. You can also process all the chocolate blocks found on the surface."
+				""
+				"But wait, there's more! I heard that there are T3 loot crates buried underground!"
+			]
+			dependencies: ["036DC2D63D5DF2E8"]
+			hide: true
+			id: "3A20804642C08B08"
+			tasks: [{
+				id: "4A2BE061E42BFEC5"
+				type: "dimension"
+				dimension: "aoa3:candyland"
+			}]
+			rewards: [
+				{
+					id: "04A2CE02A1DB4DFD"
+					type: "item"
+					item: "pamhc2foodcore:chocolatecakeitem"
+				}
+				{
+					id: "706C738B62C5AD1B"
+					type: "item"
+					item: "pamhc2foodextended:peanutchocolatebaritem"
+				}
+				{
+					id: "6F2EE56BF7D255FA"
+					type: "item"
+					item: "pamhc2foodcore:chocolatecaramelfudgeitem"
+				}
+				{
+					id: "6EBBDB669A7B9842"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "The Powered Diamond Anvil!"
+			x: 25.5d
+			y: 1.25d
+			shape: "circle"
+			description: [
+				"The Powered Diamond Anvil is used to repair things using energy."
+				""
+				"Put the items that need to be repaired in the left slot. The items that have been repaired will then move to the right slot by themselves."
+			]
+			dependencies: ["4277611AEAEBEE72"]
+			hide: true
+			id: "778AC7096EE6CF9C"
+			tasks: [{
+				id: "400437689E7D945D"
+				type: "item"
+				item: "cyclic:anvil"
+			}]
+			rewards: [
+				{
+					id: "1C662E1770CDF5E0"
+					type: "item"
+					item: "botania:mana_diamond"
+					count: 4
+				}
+				{
+					id: "154C255ED6D3E021"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6E87C25FE5469DDD"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 16
+				}
+				{
+					id: "0DDEFE24EA870DF6"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Tesseracts!"
+			x: 78.5d
+			y: 0.75d
+			shape: "circle"
+			description: [
+				"The Tesseract can instantly transfer FE, items or fluids from one location to another, regardless of distance or dimension."
+				""
+				"For this to work, the Tesseracts must be on the same frequency/channel, the chunks they are in must be loaded, and they must be allowed to transfer the correct resource. There are no limits to how much or how quickly the Tesseract can transport."
+			]
+			dependencies: ["45B3F05007A945C2"]
+			hide: true
+			id: "51D63BEFCFF58B24"
+			tasks: [{
+				id: "10E015E9EE2DF4E9"
+				type: "item"
+				item: "tesseract:tesseract"
+			}]
+			rewards: [
+				{
+					id: "35A975FA714FC81F"
+					type: "item"
+					item: "tesseract:tesseract"
+				}
+				{
+					id: "47E7E503B2952627"
+					type: "item"
+					item: "kubejs:materia_t3"
+				}
+			]
+		}
+		{
+			title: "Advanced Chunk Loader!"
+			x: 49.5d
+			y: -10.75d
+			shape: "circle"
+			description: [
+				"The advanced version of Chunkloaders is capable of loading a 5 by 5 chunk area."
+				""
+				"Remember that you can load your chunks for free using the FTB Chunks Minimap tool. However, if you are playing on a server, the number of chunks that can be loaded may be drastically reduced or even blocked entirely."
+			]
+			dependencies: ["4E13E759F32C6D06"]
+			hide: true
+			id: "3F46329A2C73FC4D"
+			tasks: [{
+				id: "060D048EB9A1FE52"
+				type: "item"
+				item: "chunkloaders:advanced_chunk_loader"
+			}]
+			rewards: [
+				{
+					id: "21C61A9FB76DB2C1"
+					type: "item"
+					item: "chunkloaders:basic_chunk_loader"
+				}
+				{
+					id: "322E1BAF752285E6"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 8
+				}
+				{
+					id: "45DCE28D9C865FAE"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Travel Staff!"
+			x: 53.75d
+			y: -9.5d
+			shape: "circle"
+			description: [
+				"The Travel Staff is a very powerful tool with two different uses. Shift-right clicking with it teleports you a few blocks ahead, but this comes with a short cooldown period."
+				""
+				"Another use case is when you have set up some travel anchors around your base. Look at an anchor and right-click with the staff in your hand to instantly teleport there."
+			]
+			dependencies: ["26347FF747EA12A4"]
+			hide: true
+			id: "65FF8CE272E71094"
+			tasks: [{
+				id: "783404CEA13B9EC5"
+				type: "item"
+				item: {
+					id: "travel_anchors:travel_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "493AC50751BF466D"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "3B793B8BCFF3808E"
+					type: "item"
+					item: "astralsorcery:illumination_powder"
+					count: 4
+				}
+				{
+					id: "096D413102E58E3E"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Travel Anchor?"
+			x: 53.75d
+			y: -6.5d
+			shape: "circle"
+			description: [
+				"A Travel Anchor is a block that allows players to instantly teleport between two such blocks. Players can see all Travel Anchors through other blocks within an approximate 40-block radius while standing on one or holding a Travel Staff."
+				""
+				"To travel, stand on a Travel Anchor and look at the Anchor to which you want to travel, then right-click. With the staff, you just need to right-click on the required anchor."
+				""
+				"Note: When placing an anchor, right-click on it and give it a name. Press ESC when you're done."
+			]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			id: "26347FF747EA12A4"
+			tasks: [{
+				id: "6F409C7FEDE86E21"
+				type: "item"
+				item: "travel_anchors:travel_anchor"
+			}]
+			rewards: [
+				{
+					id: "04D5AAEB728866FF"
+					type: "item"
+					item: "travel_anchors:travel_anchor"
+				}
+				{
+					id: "61B24441011CE6FB"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 4
+				}
+				{
+					id: "1E423C14EF34F6B6"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Building Gadget!"
+			x: 46.5d
+			y: -10.75d
+			shape: "circle"
+			description: [
+				"Building large structures can sometimes be tedious and require a lot of effort. Not all of us are great builders, after all!  That's where Dire's Building Gadgets come in, aiming to make building a little bit easier."
+				""
+				"In short: The Building Gadget enables you to construct various structures using different building modes."
+			]
+			dependencies: ["4E13E759F32C6D06"]
+			hide: true
+			id: "3BE5043756A4A06C"
+			tasks: [{
+				id: "14C21B556EB6DB8F"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4D2672D0E73B4EEC"
+					type: "item"
+					item: "miniutilities:gold_opinium_core"
+				}
+				{
+					id: "200530F8375A24EB"
+					type: "item"
+					item: "exchangers:exchanger_core_tier2"
+				}
+				{
+					id: "5BD378515DA59E01"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Pixies Everywhere?"
+			x: 65.25d
+			y: -8.25d
+			description: [
+				"There are different kinds of pixies in DDSS2, including different kinds of pixie dust."
+				""
+				"To trade with the Alfheim Elves, you first need to find Ice and Fire Pixies and convert their dust, or use your T3 Centrifuge to process some Hot Pink Slime. What will you do?"
+			]
+			dependencies: ["6962B16303AA08BC"]
+			hide: true
+			id: "65886C916A5554FE"
+			tasks: [{
+				id: "5C48699B9CD31E5A"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [
+				{
+					id: "7D2724BAF7AC9632"
+					type: "item"
+					item: "iceandfire:pixie_dust"
+					count: 2
+				}
+				{
+					id: "31F968726B777810"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Kekimurus?"
+			x: 65.25d
+			y: -5.0d
+			shape: "circle"
+			description: [
+				"The Kekimurus is a generating flower that generates Mana by consuming Cake."
+				""
+				"Every four seconds, the flower attempts to consume one slice of cake within an 11×11×11 area around itself. This produces 1,800 mana per slice, resulting in 12,600 mana per cake. It tries to eat any block that is an instance of the Vanilla 'CakeBlock' class. Therefore, most cakes from other mods, such as Tinkers' Construct and Thermal Cultivation to name a few, can also be eaten."
+			]
+			dependencies: ["65886C916A5554FE"]
+			hide: true
+			id: "1AB6ED095A136096"
+			tasks: [{
+				id: "7C08B9C1D15D9CB2"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+			rewards: [
+				{
+					id: "15E0B5B68BE5622D"
+					type: "item"
+					item: "minecraft:cake"
+				}
+				{
+					id: "4B7B624554AFEED5"
+					type: "item"
+					item: "thermal:chocolate_cake"
+				}
+				{
+					id: "260EE79FBE46A17D"
+					type: "item"
+					item: "evilcraft:promise_acceptor_iron"
+				}
+				{
+					id: "40778D74AE502A0B"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Spectrolus?"
+			x: 66.75d
+			y: -5.0d
+			shape: "circle"
+			description: [
+				"The Spectrolus is a Mana-generating flower that consumes wool of specific colours."
+				""
+				"A Spectrolus will consume any blocks of wool dropped within one block of it. While it will consume any and all wool, it will only generate mana from certain colours. It will only generate mana if the wool is the correct colour. The colours of wool it accepts follow the standard metadata order: White, orange, magenta, light blue, yellow, lime, pink, grey, light grey, cyan, purple, blue, brown, green, red and black."
+				""
+				"Each correct block of wool consumed generates 1,200 mana. The next colour in the order can be checked by looking at the Spectrolus while holding a Wand of the Forest. A Spectrolus can store 16,000 mana internally and can be bound to a mana spreader within six blocks of itself to transfer its mana."
+			]
+			dependencies: ["65886C916A5554FE"]
+			hide: true
+			id: "4913860BC7E42D54"
+			tasks: [{
+				id: "61082685DC3A915D"
+				type: "item"
+				item: "botania:spectrolus"
+			}]
+			rewards: [
+				{
+					id: "3667F5890E53DACB"
+					type: "item"
+					item: "minecraft:sheep_spawn_egg"
+					count: 5
+				}
+				{
+					id: "3B4623B358AC855D"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 32
+				}
+				{
+					id: "7CC9061206C99251"
+					type: "item"
+					item: "kubejs:seed_t3"
+				}
+				{
+					id: "416C207E34017B09"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Rafflowsia?"
+			x: 63.75d
+			y: -5.0d
+			shape: "circle"
+			description: [
+				"The Rafflowsia is a special type of flower that generates mana by consuming other Botania flowers."
+				""
+				"Every two seconds, a Rafflowisia will scan the area within 11×11×11 blocks for any Botania flowers that can be crafted (excluding Rafflowsias). If it finds one, it will try to eat it and produce 2,100 mana. However, if it consumes the same flower multiple times in a row, it will produce less and less mana."
+			]
+			dependencies: ["65886C916A5554FE"]
+			hide: true
+			id: "03D1981A222DFEEB"
+			tasks: [{
+				id: "31050FDD616130DE"
+				type: "item"
+				item: "botania:rafflowsia"
+			}]
+			rewards: [
+				{
+					id: "134D292F379E079F"
+					type: "item"
+					item: "kubejs:materia_t2"
+					count: 8
+				}
+				{
+					id: "436C58B725D891C1"
+					type: "item"
+					item: "kubejs:mixture_t2"
+					count: 8
+				}
+				{
+					id: "18F2994B96A5461C"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Entangled Binder and Block!"
+			icon: {
+				id: "entangled:block"
+				Count: 1b
+				tag: { }
+			}
+			x: 70.5d
+			y: -18.5d
+			shape: "circle"
+			description: [
+				"Entangled provides the materials needed to bind two blocks together, enabling you to interact with them as if they were one block. This enables you to instantly transfer items, energy, fluids, or anything else you want. You can have more than six sides to work with, or simply hide your messy cables — the possibilities are endless!"
+				""
+				"If you remember Phantom Faces from Actually Additions, this is basically the same, just way more advanced!"
+			]
+			dependencies: ["7798537A0159ECD0"]
+			hide: true
+			id: "7C1EB95194014B79"
+			tasks: [
+				{
+					id: "511AB40F3B6A65CD"
+					type: "item"
+					item: "entangled:item"
+				}
+				{
+					id: "34EFE46EAAC681FE"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6CA984FF848586C2"
+					type: "item"
+					item: "rftoolspower:dimensionalcell_simple"
+					count: 2
+				}
+				{
+					id: "27B4437376F8C85A"
+					type: "item"
+					item: "miniutilities:gold_opinium_core"
+				}
+				{
+					id: "14FB8E22AA97595B"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Basic Mass-Fabrication Factory!"
+			x: 41.5d
+			y: -6.0d
+			shape: "circle"
+			description: [
+				"Mass Fabricators are your go-to guys for producing large quantities of items like plates or gears – and they do it super quickly!"
+				""
+				"Amazingly, they can process entire stacks of ores, doubling them and forming them directly into blocks!"
+				""
+				"The downside to this machine is that it requires a huge amount of energy. At least 2k FE/t is required, and since the basic factory can process three things at the same time, 6k FE/t is needed for full efficiency. However, energy upgrades could be the solution."
+			]
+			dependencies: ["0ECA3ED275A6A9D4"]
+			hide: true
+			id: "0B7D419B743DBC68"
+			tasks: [{
+				id: "00A5BFF7216FBF7A"
+				type: "item"
+				item: "mekanism:basic_combining_factory"
+			}]
+			rewards: [
+				{
+					id: "157F4F4983112359"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 4
+				}
+				{
+					id: "42A7FD56A35C2D53"
+					type: "item"
+					item: "kubejs:materia_t2"
+					count: 4
+				}
+				{
+					id: "4506DA04ABFFC3D7"
+					type: "item"
+					item: "kubejs:mixture_t2"
+					count: 4
+				}
+				{
+					id: "670C5685E08FFE59"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Powered Sanguinary Pedestal"
+			x: 73.0d
+			y: -18.5d
+			shape: "circle"
+			description: ["This is the upgraded version of the Sanguinary Pedestal, which increases the efficiency of blood extraction."]
+			dependencies: ["7798537A0159ECD0"]
+			hide: true
+			id: "0B08798284453313"
+			tasks: [{
+				id: "66FDD603F6EBA73E"
+				type: "item"
+				item: {
+					id: "evilcraft:sanguinary_pedestal_1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5E90A763AB9DFFF8"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 4
+				}
+				{
+					id: "56205139DE14E291"
+					type: "item"
+					item: "kubejs:materia_t3"
+					count: 4
+				}
+				{
+					id: "21233C8D11A3EE84"
+					type: "item"
+					item: "kubejs:mixture_t3"
+				}
+				{
+					id: "771DDD059AF46E10"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Aluminum Steel Seeds!"
+			x: 33.0d
+			y: 3.75d
+			shape: "circle"
+			description: ["Aluminium steel can be very annoying. Maybe consider this seed."]
+			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
+			id: "060A2492F230D4CD"
+			tasks: [{
+				id: "788A449D0C096FE5"
+				type: "item"
+				item: "mysticalagriculture:aluminum_steel_seeds"
+			}]
+			rewards: [
+				{
+					id: "1B1D3B9C5233A495"
+					type: "item"
+					item: "kubejs:seed_t3"
+				}
+				{
+					id: "300F8ABA6E137F3A"
+					type: "item"
+					item: "mysticalagriculture:aluminum_steel_essence"
+					count: 40
+				}
+				{
+					id: "13DAB4CEBBF7A4A0"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Gold Seeds!"
+			x: 33.0d
+			y: 6.25d
+			shape: "circle"
+			description: ["Who can resist gold, a precious metal that has been used for centuries and is still prized today?"]
+			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
+			id: "5EF9F6C1F9AB9A58"
+			tasks: [{
+				id: "764320B7EEAFF542"
+				type: "item"
+				item: "mysticalagriculture:gold_seeds"
+			}]
+			rewards: [
+				{
+					id: "792D8EAE03A3D033"
+					type: "item"
+					item: "kubejs:seed_t3"
+				}
+				{
+					id: "664AE24AB479ED03"
+					type: "item"
+					item: "mysticalagriculture:gold_essence"
+					count: 40
+				}
+				{
+					id: "4BF7512D07924493"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			x: 33.0d
+			y: 2.5d
+			shape: "circle"
+			description: ["That seed is absolutely perfect! It'd be incredibly useful, don't you think?"]
+			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
+			id: "5216C8D97A71706E"
+			tasks: [{
+				id: "1FB86ABD20DC952E"
+				type: "item"
+				item: "mysticalagriculture:starmetal_seeds"
+			}]
+			rewards: [
+				{
+					id: "65A50731998E5B1B"
+					type: "item"
+					item: "kubejs:seed_t3"
+				}
+				{
+					id: "6F9BD50B25174583"
+					type: "item"
+					item: "mysticalagriculture:starmetal_essence"
+					count: 40
+				}
+				{
+					id: "186AD4FD5956AED8"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			x: 33.0d
+			y: 7.5d
+			shape: "circle"
+			description: ["Say goodbye to wasting iron with this incredible seed! That sounds absolutely fantastic!"]
+			dependencies: ["5F2CD5CEEA678D8C"]
+			hide: true
+			id: "7170C996055DAD1A"
+			tasks: [{
+				id: "774CB6DCCB86EE86"
+				type: "item"
+				item: "mysticalagriculture:steel_seeds"
+			}]
+			rewards: [
+				{
+					id: "265A765B4D3295AF"
+					type: "item"
+					item: "kubejs:seed_t3"
+				}
+				{
+					id: "7D32CD4DBF853509"
+					type: "item"
+					item: "mysticalagriculture:steel_essence"
+					count: 40
+				}
+				{
+					id: "4B6933C796CCD136"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			x: 45.0d
+			y: -10.75d
+			shape: "circle"
+			description: ["I'm starting to think that the Golden Hook is going a bit overboard. But the main thing is that it's fun, right? =)"]
+			dependencies: ["4E13E759F32C6D06"]
+			hide: true
+			id: "12ECF28AFBCC479A"
+			tasks: [{
+				id: "0BC419729F75964D"
+				type: "item"
+				item: {
+					id: "grapple_hooks:hook_golden"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "595F09F18619A7EE"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 4
+				}
+				{
+					id: "430BF71B2CABD5E2"
+					type: "item"
+					item: "kubejs:coin_t2"
+				}
+			]
+		}
+		{
+			title: "Jetpack Tier 3!"
+			x: 57.0d
+			y: -6.5d
+			shape: "circle"
+			description: ["This new Jetpack is an absolute game-changer! Not only does it have a super comfortable hover mode and top-notch power, but it also boasts a mind-blowing charging capacity of 10 million FE, which should last you for ages!"]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			id: "0E50F10BFEAA6D21"
+			tasks: [{
+				id: "7EFFDA34E4A2EF22"
+				type: "item"
+				item: {
+					id: "ironjetpacks:tier_3_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "08668AC2B6504BEC"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "08EB82EABF12AAB3"
+					type: "item"
+					item: "powah:energy_cable_blazing"
+					count: 10
+				}
+				{
+					id: "1CFD8E5C5C88CC22"
+					type: "item"
+					item: "kubejs:complexalloy_t2"
+					count: 8
+				}
+				{
+					id: "3AF21FC338E588D4"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Pixie in a Jar Deal!"
+			icon: "iceandfire:pixie_jar_0"
+			x: 65.25d
+			y: -13.25d
+			shape: "heart"
+			subtitle: "Trading Quest"
+			description: ["Secure your endless supply of pixie dust today and get these two jars that you simply place on a hopper and let the pixies do the work. I think you'd love it!"]
+			dependencies: ["65886C916A5554FE"]
+			hide: true
+			size: 2.0d
+			id: "7E934ECF0DBC5943"
+			tasks: [
+				{
+					id: "42A8EF7AE3F8B009"
+					type: "item"
+					item: "kubejs:coin_t2"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "29C7CE7249D751DD"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 9L
+					consume_items: true
+				}
+				{
+					id: "308EB63114BA3BA3"
+					type: "item"
+					title: "Any #forge:ingots/terrasteel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/terrasteel"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "44B99E37537D08A4"
+					type: "item"
+					item: "iceandfire:pixie_jar_1"
+				}
+				{
+					id: "4BC24923C70C8D59"
+					type: "item"
+					item: "iceandfire:pixie_jar_0"
+				}
+			]
+		}
+		{
+			title: "RS and/or AE2 Storage Deal!"
+			icon: {
+				id: "refinedstorage:64k_storage_disk"
+				Count: 1b
+				tag: {
+					Id: [I;
+						250083471
+						-374324794
+						-1876231896
+						-1464042444
+					]
+				}
+			}
+			x: 6.5d
+			y: -7.0d
+			shape: "heart"
+			subtitle: "Trading Quest"
+			description: ["Hey, if you're looking to free up some space in your RS or AE2 system, now's the time to consider this option. 64k storage cells aren't bad at all! Are you in?"]
+			dependencies: ["0EC14D4A0F5F753E"]
+			hide: true
+			size: 2.0d
+			id: "2C46BA2A22301E31"
+			tasks: [
+				{
+					id: "5FB494BD4285AEF0"
+					type: "item"
+					item: "kubejs:coin_t3"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "5E45AAEB2D05F2FB"
+					type: "item"
+					item: "kubejs:pcb_t3"
+					consume_items: true
+				}
+				{
+					id: "6B24D0BB47FB89F0"
+					type: "item"
+					item: "mekanism:ingot_refined_obsidian"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "77AD83672DC94CC0"
+					type: "item"
+					item: {
+						id: "refinedstorage:64k_storage_disk"
+						Count: 1b
+						tag: {
+							Id: [I;
+								250083471
+								-374324794
+								-1876231896
+								-1464042444
+							]
+						}
+					}
+				}
+				{
+					id: "086C8A41746F8A63"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:64k_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "Garden Cloche!"
+			x: 78.5d
+			y: -6.75d
+			shape: "circle"
+			description: [
+				"The Garden Cloche is used for growing crops inside it. It runs on 650 FE/t."
+				""
+				"In order for crops to grow, water and energy are required. Water can be added through the lower front, back or bottom ports, and energy can be added through the top or the lower left and right sides (anywhere with an orange dot, except through the front centre block)."
+				""
+				"Various Fertilizers can be added to increase the growth modifier (production speed), including bone meal. Using fertilizer does not increase energy consumption."
+			]
+			dependencies: ["45B3F05007A945C2"]
+			hide: true
+			id: "0267B9D5B7A2AEC9"
+			tasks: [{
+				id: "158E3FE3A4697125"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [
+				{
+					id: "752FA39D59D70509"
+					type: "item"
+					item: "immersiveengineering:cloche"
+				}
+				{
+					id: "11E614D265BC6874"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "302D987DDDD7583F"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Cloche Fertilizer?"
+			x: 78.5d
+			y: -10.0d
+			shape: "circle"
+			description: [
+				"The Cloche offers a selection of fertilizers to choose from. Below is a list of each one and its growth modification rate."
+				""
+				"Bone Meal -> 1.25x"
+				"Fertilizer -> 1.5x"
+				"Mystical Fertilizer -> 2.0x"
+				"Phyto-Gro -> 2.5x"
+				"Lilypad of Fertility -> 5.0x"
+			]
+			dependencies: ["0267B9D5B7A2AEC9"]
+			hide: true
+			id: "526417F7CD9E6A7E"
+			tasks: [{
+				id: "5D17E39C18ACCEDA"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "14C75BC5903BBCDB"
+					type: "item"
+					item: "industrialforegoing:fertilizer"
+				}
+				{
+					id: "11453DAA8C66D55F"
+					type: "item"
+					item: "mysticalagriculture:mystical_fertilizer"
+				}
+				{
+					id: "4B8FCAE915E3666F"
+					type: "item"
+					item: "thermal:phytogro"
+				}
+			]
+		}
+		{
+			title: "Tier 3"
+			icon: "ftbquests:book"
+			disable_toast: true
+			x: -36.75d
+			y: -2.25d
+			description: ["This chapter begins once you have completed the final T2 quest: \"Void Ore Miner T2\"."]
+			optional: true
+			id: "1D164BA6B6F963D5"
+		}
+		{
+			title: "Elven Mana Spreader!"
+			x: 69.5d
+			y: -5.0d
+			shape: "circle"
+			description: [
+				"The Elven Mana Spreader can fire Mana bursts up to 20 blocks before losing Mana, compared to the 12 blocks reached by the standard Mana Spreader. It also fires Mana more quickly."
+				""
+				"The Elven Mana Spreader also has a different Mana burst colour, which by default is pink, and can be changed using a Mana Lens. "
+				""
+				"To get your hands on dreamwood, you'll have to swap some of your tantalum for it with the elves."
+			]
+			dependencies: ["0421759366CAA386"]
+			hide: true
+			optional: true
+			id: "51E1F1DA24285980"
+			tasks: [{
+				id: "1285BD4D8253CD14"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [
+				{
+					id: "7F11A7C5C9F4DFE5"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t3_bags"
+								BagType: "treasurebags:t3_bag"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "32E2F488B9CD94A3"
+					type: "item"
+					item: "kubejs:complexalloy_t3"
+					count: 8
+				}
+				{
+					id: "38A9D550EDE0AD37"
+					type: "item"
+					item: "kubejs:coin_t3"
+				}
+			]
+		}
+		{
+			title: "Crimsonsteel Boiler!"
+			icon: "xkdeco:factory_vent_fan"
+			x: 67.0d
+			y: -0.5d
+			shape: "hexagon"
+			description: [
+				"The Crimsonsteel Boiler is pretty much unbeatable when it comes to steam generation. It produces 2800mb of steam/t and consumes 4000mb of water/t."
+				""
+				"The problem is, it's really expensive to make because you need at least 8 full Crimsonsteel blocks, and it burns fuel 5 times faster."
+			]
+			dependencies: ["093AFDBACEC4D7FF"]
+			hide: true
+			size: 2.0d
+			optional: true
+			id: "1C643411A89B98ED"
+			tasks: [
+				{
+					id: "1468C56DD8CC1076"
+					type: "item"
+					item: "masterfulmachinery:tier3_controller"
+				}
+				{
+					id: "3165157D7A79E09B"
+					type: "item"
+					item: "kubejs:adv_hull"
+					count: 12L
+				}
+				{
+					id: "096C71DCE646D294"
+					type: "item"
+					item: "silentgear:crimson_steel_block"
+					count: 7L
+				}
+				{
+					id: "06F664F8A6FB2A92"
+					type: "item"
+					item: "kubejs:mbcasing_t3"
+					count: 3L
+				}
+				{
+					id: "6F68E349FF8FC11F"
+					type: "item"
+					item: "xkdeco:factory_vent_fan"
+				}
+			]
+			rewards: [
+				{
+					id: "423398BC18AD95B9"
+					type: "item"
+					item: "kubejs:adv_hull"
+					count: 8
+				}
+				{
+					id: "3D41A1EF0B71C8E0"
+					type: "item"
+					item: "silentgear:crimson_steel_block"
+				}
+				{
+					id: "7204585103ACEA10"
+					type: "item"
+					item: "masterfulmachinery:tier3_item1_port_items_input"
+				}
+				{
+					id: "0A7A1F5AA483CD07"
+					type: "item"
+					item: "masterfulmachinery:tier3_fluid1_port_fluids_input"
+				}
+				{
+					id: "6332431468716F20"
+					type: "item"
+					item: "masterfulmachinery:tier3_fluid1_port_fluids_output"
+				}
+			]
+		}
+	]
+}
