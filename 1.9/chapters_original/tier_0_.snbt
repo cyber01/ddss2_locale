@@ -1,0 +1,4395 @@
+{
+	id: "2F3E4F0FF24569B6"
+	group: ""
+	order_index: 0
+	filename: "tier_0_"
+	title: "Tier 0 -> Main Questline"
+	icon: "thermal:device_tree_extractor"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome To Dungeons, Dragons and Space Shuttles 2!"
+			icon: "botania:cosmetic_questgiver_mark"
+			x: -28.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "Welcome!"
+			description: [
+				"Welcome to DDSS 2! This questbook will guide you step by step through this incredible modpack! You will use the variety of incredibly numerous mods (and dimensions!) that you may have never touched before. Get ready for a long and exciting adventure!"
+				""
+				"This pack combines most of the tech, magic and adventure mods to make it feel like a complete game rather than a bunch of mods thrown together. The quest book is divided into 6 chapters that cover all the important topics and things you need to work your way through this progression system. This also applies to the different dimensions that gradually become important. Therefore, be aware that some mods, such as Blood Magic, can only be started at a certain tech-magic level."
+				""
+				"Also keep in mind this is a hardcore adventure and expert quest-pack. Highly recommended to have at least a basic knowledge about modded minecraft and perhaps not the expectation of playing through this modpack in a week^^"
+				""
+				"This is a simple check-mark quest. Confirm in the upper left corner to continue. All mandatory quests are shaped like this one."
+				"{image:modpack:textures/quest_images/ddss2_logo.png width:100 height:100 align:1 fit:true}"
+				"Special thanks to sporefreak for reworking the DDSS2 logo <3"
+			]
+			size: 3.0d
+			id: "06F9BD392017336F"
+			tasks: [{
+				id: "5D6BE1F4894668BE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6528D22BAD7A2593"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "First Optional Quest?"
+			icon: "sophisticatedbackpacks:backpack"
+			x: -23.0d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"Quests with a round border are completely optional and up to you. However, they sometimes have good rewards..."
+				""
+			]
+			dependencies: ["19D82E72BC44A213"]
+			hide: true
+			size: 2.0d
+			id: "776451C775EF6677"
+			tasks: [{
+				id: "7AFC18151F6998C9"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1E0C5ED0937C1089"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			title: "Choose A Starter Kit!!"
+			icon: "kubejs:chest_yellow"
+			x: -19.0d
+			y: -1.5d
+			subtitle: "Starter Kit"
+			description: [
+				"This is a typical choice reward quest. To be able to choose something you must first complete the quest."
+				""
+				"The Tinkers and Silents Starter Kit provides you with basic iron tools and close combat weapons, as well as repair kits and 20 torches."
+				""
+				"The Inspector Gadget Starter Kit gives you a Golden Exchanger (which you can repair with gold in an anvil), a torch launcher (filled with 40 torches) and a Crossbow with 30 Arrows. However, in this kit there are no tools or other weapons so you have to start with vanilla tools, which you craft as usual up to iron."
+			]
+			dependencies: ["19D82E72BC44A213"]
+			hide: true
+			id: "4A8B01968EB75784"
+			tasks: [{
+				id: "597A0B1AFE8AE489"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1DFB5F1E9D035BCC"
+				type: "choice"
+				icon: "kubejs:chest_yellow"
+				auto: "disabled"
+				table_id: 7631017697181852460L
+			}]
+		}
+		{
+			title: "Let's Get Started!"
+			icon: "minecraft:oak_log"
+			x: -11.5d
+			y: -1.5d
+			description: [
+				"After all the information and goodies you've received, let's finally get started!"
+				""
+				"As you can see, the quest asks for 2 logs. "
+				""
+				"What kind of logs doesn't matter because it accepts ANY logs through the tag system. (Formerly known as oredict) You will encounter this in quests quite often."
+				""
+			]
+			dependencies: ["438BC32DF0A617DC"]
+			hide: true
+			id: "37E2019C3BD23D99"
+			tasks: [{
+				id: "11A852B9F7505944"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "4D7B2BD656EB46F9"
+					type: "item"
+					icon: "minecraft:oak_log"
+					item: "minecraft:oak_log"
+					count: 4
+				}
+				{
+					id: "2949190C0931894A"
+					type: "item"
+					item: "minecraft:coal"
+				}
+			]
+		}
+		{
+			title: "Sifters"
+			icon: {
+				id: "artisantools:sifter_flint"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: -3.5d
+			description: [
+				"Artisan sifters are cheap to make and suitable to get a lot of flint quickly through gravel or to get various seeds."
+				""
+				"Craft an artisan sifter from flint (or material of your choice) and find some gravel."
+				""
+				"You can make all the artisan tools you need from flint, which is a good alternative in the early stages of the game and helps you to save valuable materials."
+			]
+			dependencies: ["0602A0659D0C0AED"]
+			hide: true
+			id: "68D5B65CD9DCE679"
+			tasks: [
+				{
+					id: "11E5D85690DA56FF"
+					type: "item"
+					title: "Any #artisantools:type/sifter"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "artisantools:type/sifter"
+						}
+					}
+				}
+				{
+					id: "3C9818257B84093C"
+					type: "item"
+					title: "Any #forge:gravel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:gravel"
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "64BC87DC155FB61F"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 8
+				}
+				{
+					id: "1F70DF0CA89CA01F"
+					type: "item"
+					item: "minecraft:string"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Sifting Seeds?"
+			icon: "pamhc2crops:lettuceseeditem"
+			x: 3.5d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"In case you're unlucky finding some seeds, use your shears to obtain grass and the artisan sifter to craft them."
+				""
+				"{image:modpack:textures/quest_images/sifting_seeds.png width:210 height:100 align:1 fit:true}"
+			]
+			dependencies: ["1CCEB6468E965738"]
+			hide: true
+			id: "401754560C0D4F0F"
+			tasks: [{
+				id: "1AC53012043E0EC1"
+				type: "item"
+				item: "pamhc2crops:lettuceseeditem"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "530A80C2A40C0F6D"
+					type: "item"
+					item: "minecraft:potato"
+					count: 2
+				}
+				{
+					id: "00DF8C1059A45949"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "P8 Juice?"
+			x: 7.0d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"P8 juice is cheap to produce as it can be made from any vegetable."
+				""
+				""
+			]
+			dependencies: [
+				"401754560C0D4F0F"
+				"30212B07AF134F57"
+			]
+			hide: true
+			id: "561E69BE9701456F"
+			tasks: [{
+				id: "2664355FEC089BEC"
+				type: "item"
+				item: "pamhc2foodcore:p8juiceitem"
+			}]
+			rewards: [
+				{
+					id: "1BF7C92D02B4FB5F"
+					type: "item"
+					item: "pamhc2foodcore:friedchickenitem"
+				}
+				{
+					id: "2DB31B8007068A42"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "268537F695C8990E"
+					type: "item"
+					item: "pamhc2foodcore:p8juiceitem"
+				}
+			]
+		}
+		{
+			title: "Potato On A Stick!"
+			x: 3.5d
+			y: -8.0d
+			shape: "circle"
+			description: ["Well, what did you expect when you combine potatoes with sticks. /shrug"]
+			dependencies: ["401754560C0D4F0F"]
+			hide: true
+			id: "14250DBDAE7803B4"
+			tasks: [{
+				id: "4CA6B107EF560BE8"
+				type: "item"
+				item: "silentgems:potato_on_a_stick"
+			}]
+			rewards: [{
+				id: "1781400F915CB881"
+				type: "item"
+				item: "thermal:potato_block"
+			}]
+		}
+		{
+			title: "Just The Basics!"
+			icon: {
+				id: "tconstruct:crafting_station"
+				Count: 1b
+				tag: {
+					texture: "minecraft:dark_oak_log"
+				}
+			}
+			x: -9.5d
+			y: -1.5d
+			description: [
+				"Before you settle down somewhere we need certain basic materials and a workbench so that we can get off to a good start!"
+				""
+				"Tinkers Crafting-Station acts like a normal crafting table however it will keep its inventory when the GUI is closed."
+				""
+			]
+			dependencies: ["37E2019C3BD23D99"]
+			hide: true
+			id: "3699F9707D23A36B"
+			tasks: [
+				{
+					id: "50455316A96CBFC8"
+					type: "item"
+					title: "Any #forge:clay"
+					item: "minecraft:clay_ball"
+					count: 8L
+				}
+				{
+					id: "17FA0C6028742DEB"
+					type: "item"
+					title: "Any #forge:cobblestone"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:cobblestone"
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "54CC47C777065616"
+					type: "item"
+					title: "Any #forge:sand"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:sand"
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "5089F46D2BC7FAC6"
+					type: "item"
+					title: "Any #forge:workbenches"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:workbenches"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "09DB354344FD6BD0"
+					type: "item"
+					item: "minecraft:flint"
+					count: 2
+				}
+				{
+					id: "3415D7A59C62DF67"
+					type: "item"
+					item: "minecraft:string"
+				}
+				{
+					id: "39A9B93751AA5DFD"
+					type: "item"
+					item: "minecraft:leather"
+				}
+			]
+		}
+		{
+			title: "Clay Bucket!"
+			icon: "ceramics:clay_bucket"
+			x: 1.5d
+			y: -1.5d
+			description: ["A bucket made of clay. Easy to craft and versatile. However, it breaks when you empty hot liquids like lava with it."]
+			dependencies: ["14BF0A0DA5EF287E"]
+			hide: true
+			id: "292E4BC091902A53"
+			tasks: [{
+				id: "0987F443BDB1396D"
+				type: "item"
+				item: "ceramics:clay_bucket"
+			}]
+			rewards: [
+				{
+					id: "6E0D9E63053CE9F7"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 5
+				}
+				{
+					id: "7E411BD2BED093B1"
+					type: "item"
+					item: "mysticalagriculture:inferium_essence"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Furnace + Bricks"
+			icon: "minecraft:furnace"
+			x: -0.5d
+			y: -1.5d
+			description: [
+				"A furnace and some bricks. I don't think there's much to be said for such an expert veteran like you!"
+				""
+				"Keep the bricks for later."
+			]
+			dependencies: ["5A62187892BCBCAE"]
+			hide: true
+			id: "14BF0A0DA5EF287E"
+			tasks: [
+				{
+					id: "5545C2F01A5BAB82"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "099F5AB1FF5C4B0E"
+					type: "item"
+					item: "minecraft:brick"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "7C3322D7798BC7F6"
+					type: "item"
+					item: "minecraft:torch"
+					count: 8
+				}
+				{
+					id: "63E6381617DECAD9"
+					type: "item"
+					item: "minecraft:brick"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Mortars And Knifes"
+			icon: {
+				id: "artisantools:mortar_flint"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: -3.5d
+			description: [
+				"Mortars and knives are other artisan tools that are especially important during the early stages of the game."
+				""
+				"There are a lot of different artisan tools but we will not go into each one with quests. The basic rule is: better material = better durability."
+				""
+			]
+			dependencies: ["68D5B65CD9DCE679"]
+			hide: true
+			id: "4469F1066B3E9CA7"
+			tasks: [
+				{
+					id: "55E471B87BB4A82D"
+					type: "item"
+					title: "Any #artisantools:type/mortar"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "artisantools:type/mortar"
+						}
+					}
+				}
+				{
+					id: "5FC02DAA587B1661"
+					type: "item"
+					title: "Any #artisantools:type/knife"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "artisantools:type/knife"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4B82573F9063EBBD"
+					type: "item"
+					item: "minecraft:white_wool"
+				}
+				{
+					id: "6D9300FA01B8DAF1"
+					type: "item"
+					item: {
+						id: "artisantools:hammer_iron"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fresh Water and Sawdust!"
+			icon: "pamhc2foodcore:freshwateritem"
+			x: 10.0d
+			y: -4.5d
+			description: [
+				"Fresh water and sawdust are used for various recipes. One of them is chad which we will craft right afterwards."
+				""
+				""
+			]
+			dependencies: ["3D2452E0F8CCF357"]
+			hide: true
+			id: "30212B07AF134F57"
+			tasks: [
+				{
+					id: "2CB72EA6F305BAA1"
+					type: "item"
+					item: "thermal:sawdust"
+					count: 4L
+				}
+				{
+					id: "5D5E5A94B01E1872"
+					type: "item"
+					item: "pamhc2foodcore:freshwateritem"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "532702A5831090DF"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "1F0BC2D521FEF1DC"
+					type: "item"
+					item: "pamhc2foodcore:freshwateritem"
+					count: 10
+				}
+				{
+					id: "33EA546992EBB2D3"
+					type: "item"
+					item: "minecraft:beetroot_seeds"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Deal Or No Deal?"
+			icon: "pamhc2trees:apple_sapling"
+			x: -9.5d
+			y: -4.5d
+			shape: "heart"
+			subtitle: "Trading Quest"
+			description: [
+				"Quests shaped like a heart are \"trading\" quests."
+				""
+				"In this case, you trade the requested number of items in exchange for a reward. It's your call whether it's a worthwhile exchange. In the end, whether or not to go through with this exchange will depend on your personal situation. This first one might not be too hard."
+				""
+				"These quests are optional."
+			]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			size: 2.0d
+			id: "22361AB31C70B8D4"
+			tasks: [{
+				id: "01F4F8A4E31BB1D6"
+				type: "item"
+				title: "Any #forge:dirt"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:dirt"
+					}
+				}
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0ADC08ED878862A6"
+				type: "item"
+				item: "pamhc2trees:apple_sapling"
+				count: 2
+			}]
+		}
+		{
+			title: "Apple Sprout"
+			icon: "cyclic:apple_sprout"
+			x: -9.5d
+			y: -8.0d
+			shape: "circle"
+			description: [
+				"The Apple Sprout can be grown by placing it under any leaves. When fully grown breaking, it yields an Apple and an Apple Sprout."
+				""
+			]
+			dependencies: ["22361AB31C70B8D4"]
+			hide: true
+			id: "0102A8F56664D2C4"
+			tasks: [{
+				id: "33FABD67D0E603A7"
+				type: "item"
+				item: "cyclic:apple_sprout"
+				count: 2L
+			}]
+			rewards: [{
+				id: "32CC1A160FB327DF"
+				type: "choice"
+				auto: "disabled"
+				table_id: 4085395676668132896L
+			}]
+		}
+		{
+			title: "First Coins!"
+			icon: "kubejs:coin_t1"
+			x: 7.0d
+			y: -1.5d
+			description: [
+				"As you already noticed, you got some DDSS 2 coins from the previous quests. They come in 6 different tiers. The coins can be crafted to higher or lower tiers, depending on what you need."
+				""
+				"You can use the coins to trade with villagers or buy some valuable items in the store as soon as you get a amadron tablet from pneumaticcraft."
+				""
+				"T1/T2 coins can also be found in dungeons."
+			]
+			dependencies: ["0439843C0167A9D8"]
+			hide: true
+			id: "3D2452E0F8CCF357"
+			tasks: [{
+				id: "4C8C15B7794B2F08"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "11E34A9F6DDB295B"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "65CDFBD88F20BC89"
+					type: "item"
+					item: "minecraft:white_wool"
+				}
+				{
+					id: "6121A3919A3B5220"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Flint Shears"
+			icon: {
+				id: "pickletweaks:flint_shears"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: -3.5d
+			description: ["A pair of shears made of flint. Not as good as iron but it gets the job done."]
+			dependencies: ["4469F1066B3E9CA7"]
+			hide: true
+			id: "6C7C325880447341"
+			tasks: [{
+				id: "367F714D91C8DCA2"
+				type: "item"
+				item: {
+					id: "pickletweaks:flint_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "01CF1AB654DF02B4"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BC77EF27726D64E"
+					type: "item"
+					item: "mysticalagriculture:inferium_essence"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Sleep is necessary..."
+			icon: "minecraft:orange_bed"
+			x: 10.0d
+			y: 1.5d
+			description: [
+				"A bed allows you to sleep and to set/reset your spawn point. If the bed is obstructed, the player spawns at the default world spawning location. (unless you have set a home with the ftb command.)"
+				""
+				"Yeah everyone knows that..."
+				"But.. If you has not entered a bed or didn't die for 3 in-game days, phantoms can spawn... well... good thing i removed that in DDSS2. So no worries ;-)"
+			]
+			dependencies: ["3D2452E0F8CCF357"]
+			hide: true
+			id: "65CFD35469C3BC0F"
+			tasks: [{
+				id: "5A9B1050B513881D"
+				type: "item"
+				title: "Any #minecraft:beds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "26D0483CAF8253BE"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "2BD28CC00E0B9A01"
+					type: "item"
+					item: "minecraft:cooked_chicken"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Fluid Tanks!"
+			x: 9.5d
+			y: -1.5d
+			description: [
+				"Fluid tanks come in many different tiers. They allows you to store any fluid in a block and tanks can be joined vertically. You can connect pipes or just right click with buckets, cells or reservoirs to insert fluids."
+				""
+				""
+			]
+			dependencies: ["3D2452E0F8CCF357"]
+			hide: true
+			id: "11DD3FBD3333C7B6"
+			tasks: [{
+				id: "590696C65312CEC8"
+				type: "item"
+				item: "fluidtank:tank_wood"
+			}]
+			rewards: [
+				{
+					id: "2EBEB5B7FDFEC1FC"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+					count: 4
+				}
+				{
+					id: "4362A3E504F8A1BB"
+					type: "item"
+					item: "minecraft:glass"
+					count: 10
+				}
+				{
+					id: "599954579D174CD2"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Reservoir!"
+			x: 11.5d
+			y: -1.5d
+			shape: "rsquare"
+			description: [
+				"Reservoirs come in 3 tiers. They can be filled with any fluid. You can drain fluids in the world and push to tanks, workstations and machines."
+				""
+				"But you can't place fluids into the world with it."
+			]
+			dependencies: ["11DD3FBD3333C7B6"]
+			hide: true
+			id: "749B11968B7D5A66"
+			tasks: [{
+				id: "5EB521593C007D86"
+				type: "item"
+				item: "fluidtank:reservoir_wood"
+			}]
+			rewards: [
+				{
+					id: "16AE217B1A378BDD"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "7DA5F1A994A244AF"
+					type: "item"
+					item: "minecraft:sugar_cane"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Basic Ores And Ingots"
+			icon: "minecraft:iron_ingot"
+			x: 13.5d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "Caving For Beginners"
+			description: [
+				"If you like to get down and dirty, caving is the sport for you. Crawling through muddy surfaces or squeezing through narrow passages will give you a taste of nature and its precious treasures."
+				""
+				"Find some basic resources and turn them into ingots. Iron, copper, tin, zinc and bismuth are important main ingredients for many components and alloys."
+				""
+				"These can be found just about anywhere and very often."
+			]
+			dependencies: ["749B11968B7D5A66"]
+			hide: true
+			id: "1EDF4381123B8CF8"
+			tasks: [
+				{
+					id: "689C3B1D3BD7AAFF"
+					type: "item"
+					title: "Any #forge:ingots/iron"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/iron"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "1B78DB617CE1FBED"
+					type: "item"
+					title: "Any #forge:ingots/copper"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "4A10BD50AC017BD2"
+					type: "item"
+					title: "Any #forge:ingots/tin"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/tin"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "69EA957124DEC384"
+					type: "item"
+					title: "Any #forge:ingots/zinc"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/zinc"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "594AD44D695074D4"
+					type: "item"
+					title: "Any #forge:ingots/bismuth"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/bismuth"
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "0E62E7368044E578"
+					type: "choice"
+					table_id: 7651562546043366665L
+				}
+				{
+					id: "0A61B0C630943370"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "66CCD83C1D2C0781"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Materia is everything and everywhere..."
+			x: 12.5d
+			y: 1.5d
+			description: [
+				"Materia is an important element that will accompany you throughout the modpack and consists of 6 different tiers. It's needed for a wide variety of things and can be used to craft boosting mixtures. More about this later."
+				""
+				"Raw T1 Materia cannot be directly crafted without Mystical Agriculture and must therefore be obtained from other materials. The Primitive Materia Extractor can help you with this."
+				""
+				"There are many ways to obtain Materia. For example, all metallic tools can be converted into Materia. It might be interesting to recycle broken armor or tools instead of throwing them in lava. The same applies to many blocks made from mob drops, dungeon loot, or agricultural products. These include flesh blocks, crates of apples, inferium blocks, and even honeycombs if you want to set up some bees."
+				""
+				"Automating this process is straightforward. A mob farm and/or food/inferium farm can ensure a constant flow of materia. I would suggest producing it in a variety of methods because a significant amount is required."
+				""
+			]
+			dependencies: ["65CFD35469C3BC0F"]
+			hide: true
+			id: "0709DB042EF80D79"
+			tasks: [{
+				id: "6AAFEE5C00E18814"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+			rewards: [
+				{
+					id: "6D6CD728FDAFA1AF"
+					type: "item"
+					item: "biomesoplenty:flesh"
+				}
+				{
+					id: "4F4DB160F4662572"
+					type: "item"
+					item: "thermal:apple_block"
+				}
+			]
+		}
+		{
+			title: "Materia Tier 1"
+			x: 15.0d
+			y: 1.5d
+			description: [
+				"Extract materia as explained in the previous quest using the flesh and apple create block. Or any available material of your choice!"
+				""
+				""
+				"{image:modpack:textures/quest_images/flesh_materia.png width:130 height:100 align:1}"
+			]
+			dependencies: ["0709DB042EF80D79"]
+			hide: true
+			id: "3D395B4492A2E158"
+			tasks: [{
+				id: "5D758D697D3386D3"
+				type: "item"
+				item: "kubejs:materia_t1"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "166473EA2542F5AD"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "20E486820A58D814"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+				{
+					id: "3F124B97FDE19F5C"
+					type: "item"
+					item: "thermal:beetroot_block"
+				}
+				{
+					id: "0DD367C1876F2CE9"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Chad + Biomass"
+			icon: "kubejs:chad"
+			x: 12.5d
+			y: -4.5d
+			description: [
+				"Chad and Biomass are crafting components used in various recipes such as paper and low quality plastic."
+				""
+			]
+			dependencies: ["30212B07AF134F57"]
+			hide: true
+			id: "2FF4C06DCA0B21F0"
+			tasks: [
+				{
+					id: "730ECAADAD0492F7"
+					type: "item"
+					item: "kubejs:chad"
+					count: 2L
+				}
+				{
+					id: "6755879690469126"
+					type: "item"
+					item: "cyclic:biomass"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "2B7BD47B880ED0DD"
+					type: "item"
+					item: "kubejs:chad"
+					count: 4
+				}
+				{
+					id: "15499CE697421970"
+					type: "item"
+					item: "cyclic:biomass"
+					count: 2
+				}
+				{
+					id: "5CBB6255431E44AF"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "LQ Plastic and Paper"
+			icon: "kubejs:lq_plastic"
+			x: 15.0d
+			y: -4.5d
+			description: [
+				"Plastic comes in different qualities (LQ, MQ, HQ) and is used for a variety of recipes. In some, the quality increases the yield."
+				""
+				"There is not much to say about paper except that chad must be processed for its production."
+			]
+			dependencies: ["2FF4C06DCA0B21F0"]
+			hide: true
+			id: "4F77B5892759A466"
+			tasks: [
+				{
+					id: "1BD09D349F217379"
+					type: "item"
+					item: "kubejs:lq_plastic"
+					count: 2L
+				}
+				{
+					id: "657CE43EF3E99E9D"
+					type: "item"
+					item: "minecraft:paper"
+				}
+			]
+			rewards: [
+				{
+					id: "6DCCEA1558DC11A2"
+					type: "item"
+					item: {
+						id: "artisantools:hammer_iron"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2336CCEA3156B258"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "3D2373BCDC0E60EE"
+					type: "item"
+					item: "minecraft:paper"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Sleeping Bag!"
+			icon: "comforts:sleeping_bag_light_blue"
+			x: 10.0d
+			y: 4.5d
+			shape: "circle"
+			description: [
+				"Sleeping bags can be used just like beds except they don't set a player's spawn point on use, safely preserving a player's spawn point at their home base. Just like beds, they also come in 16 different colors!"
+				""
+				"The difference is that sleeping bags can be stacked and are more convenient to use on adventures since there is a small chance to break upon usage."
+				""
+				"They're placed on the ground."
+				"{image:modpack:textures/quest_images/sleepingbag.png width:150 height:100 align:1 fit:true}"
+			]
+			dependencies: ["65CFD35469C3BC0F"]
+			hide: true
+			id: "1FE6978B28D14B5D"
+			tasks: [{
+				id: "0EF579ABBD8D3A51"
+				type: "item"
+				title: "Any #forge:sleepingbags"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:sleepingbags"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4FB9F8A3C634128C"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "24A671F369D932E7"
+					type: "item"
+					item: "minecraft:coal_block"
+				}
+			]
+		}
+		{
+			title: "Sinew / Sinew Fibre"
+			x: -11.5d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"Sinew occasionally drops from cows, sheeps, and pigs."
+				""
+				"This can be processed to dried sinew to be further processed to sinew fibre. These can be used like normal strings."
+			]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			id: "2DC72B79BD32F731"
+			tasks: [{
+				id: "530D69E7BDD64B1B"
+				type: "item"
+				item: "silentgear:sinew"
+			}]
+			rewards: [{
+				id: "63F44095BC6DB764"
+				type: "item"
+				item: "silentgear:sinew_fiber"
+				count: 2
+			}]
+		}
+		{
+			title: "Shulker Box Deal!"
+			icon: "minecraft:light_blue_shulker_box"
+			x: 7.0d
+			y: 3.0d
+			shape: "heart"
+			subtitle: "Trading Quest"
+			description: [
+				"Trading Quest: Shulker Box."
+				""
+				"Shulker boxes can be mined with any tool or by hand, but using a pickaxe is the most effective. They drop themselves when mined. Unlike other containers, the contents of shulker boxes are stored within the dropped item, and not dropped separately."
+				""
+				"They can be recolored as desired. Combine the box in a crafting grid with the color of your choice."
+				""
+			]
+			dependencies: ["3D2452E0F8CCF357"]
+			hide: true
+			size: 2.0d
+			id: "58832A7AE40A4D93"
+			tasks: [
+				{
+					id: "5C47E9AB88B20028"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "191824D23B6376CA"
+					type: "item"
+					title: "Any #forge:chests/wooden"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:chests/wooden"
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "2B515E68203B2C2F"
+					type: "item"
+					item: "minecraft:light_blue_shulker_box"
+				}
+				{
+					id: "572B04D14D8EA12B"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Useful Commands!"
+			icon: "minecraft:writable_book"
+			x: -2.5d
+			y: -1.5d
+			description: [
+				"FTB offers a lot of useful commands! But there are some limitation in DDSS2."
+				""
+				"/sethome -> Will set a default home. (max. 1)"
+				""
+				"/home -> Will teleport you to the default home if it has been set. (30min cd)"
+				""
+				"/spawn -> Teleports you to Overworld spawn (60min cd)"
+				""
+				"/rtp -> Will teleport you to a random location anywhere in the world between 3000 and 8000 blocks far away even if the area isnt generated yet."
+				"(60min. cd and can only be used 20 times)"
+				""
+				"Note that these are the default settings for DDSS2. If you are playing on a server, some commands may be inaccessible or have different values."
+			]
+			dependencies: ["0602A0659D0C0AED"]
+			hide: true
+			id: "5A62187892BCBCAE"
+			tasks: [{
+				id: "7373017B83F8E732"
+				type: "checkmark"
+				title: "Useful Commands!"
+			}]
+			rewards: [{
+				id: "01EEA3027ACACA45"
+				type: "item"
+				item: "minecraft:cooked_beef"
+			}]
+		}
+		{
+			title: "Metallurgic Workstation!"
+			x: 18.0d
+			y: -1.5d
+			description: [
+				"Artisan workstations are mainly used to produce components for parts and machines. The metallurgic workstation is used for example for plates, gears, rods and more as long as you don't have machines for them."
+				""
+				"FYI: ALL recipes that can be made in artisan workstations can be automated in machines pretty soon!"
+				""
+			]
+			dependencies: [
+				"3D395B4492A2E158"
+				"4F77B5892759A466"
+				"7203DC15752F0650"
+			]
+			hide: true
+			id: "758404E9AEE3983F"
+			tasks: [{
+				id: "588FF4F6D2CC9587"
+				type: "item"
+				item: "artisanworktables:workstation_blacksmith"
+			}]
+			rewards: [
+				{
+					id: "7FA49C18C3091FB2"
+					type: "item"
+					item: {
+						id: "artisantools:file_iron"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F60BAB2068A7588"
+					type: "item"
+					item: "moreplates:copper_plate"
+					count: 4
+				}
+				{
+					id: "6E9EF20BA12A4EDE"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "11DF1278AA828F5B"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Nuts and Bolts!"
+			x: 21.0d
+			y: -4.5d
+			description: [
+				"Like many items in DDSS2, nuts and bolts come in six different tiers. To create them, you must first cut plates into rods, which are then turned into nuts and bolts."
+				""
+				"Machines can later produce way more than you could with the Metallurgic Workstation."
+				""
+				"They're used in most machines, casings, frames and various components."
+				""
+				"{image:modpack:textures/quest_images/nutsandbolts.png width:130 height:100 align:1}"
+			]
+			dependencies: ["758404E9AEE3983F"]
+			hide: true
+			id: "04914CFC7657F0D2"
+			tasks: [{
+				id: "6E473321B750786F"
+				type: "item"
+				item: "kubejs:bolts_t1"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "71666391DE0B4674"
+					type: "item"
+					item: "kubejs:bolts_t1"
+					count: 8
+				}
+				{
+					id: "2AF7F9917212B8BA"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Flint Armor"
+			icon: {
+				id: "pickletweaks:flint_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"Flint equipment is better than leather and slightly worse than iron. Cheap and good to start with."
+				""
+				""
+			]
+			dependencies: ["68D5B65CD9DCE679"]
+			hide: true
+			id: "4C1D7695D740237E"
+			tasks: [
+				{
+					id: "2FF72AB3C45A2B76"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17198BF9488ED2E8"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "064DF5F98CED04C1"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_helmet"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "2033D441C2BECDF8"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "How To Charcoal!"
+			x: -1.5d
+			y: 0.25d
+			shape: "circle"
+			description: [
+				"By smelting a log, 4 pieces of charcoal are generated. "
+				""
+				"Each piece melts 1 item. 8 pieces can be creafted into a whole charcoal."
+			]
+			dependencies: ["14BF0A0DA5EF287E"]
+			hide: true
+			id: "6728A8A2AEB9F231"
+			tasks: [{
+				id: "28FC9D5ED174EF6B"
+				type: "item"
+				title: "How To Charcoal "
+				item: "pickletweaks:charcoal_piece"
+				count: 8L
+			}]
+			rewards: [{
+				id: "56154FA53BDC505B"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 4
+			}]
+		}
+		{
+			title: "Handheld Crafting Table"
+			x: -11.5d
+			y: -3.5d
+			shape: "circle"
+			description: [
+				"The handheld crafting table is exactly as the name implies; it can be used as a portable crafting table without having to place it down."
+				""
+			]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			id: "314E80168E039AAE"
+			tasks: [{
+				id: "0B8A7B1B4CA2237A"
+				type: "item"
+				item: "extendedcrafting:handheld_table"
+			}]
+			rewards: [{
+				id: "49A2CF02A40D0AF8"
+				type: "item"
+				item: "minecraft:cooked_porkchop"
+			}]
+		}
+		{
+			title: "Drying Racks"
+			icon: "silents_mechanisms:oak_drying_rack"
+			x: -7.5d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"Drying Racks are used to \"dry\" meats and sponges. Right-clicking the rack with an item in hand will put the item on it."
+				""
+				"After placing some meat on a Drying Rack, that meat will be \"dried\" to produce the jerky version of it. Check JEI for more information."
+				""
+			]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			id: "4766D28BFCA9C2D8"
+			tasks: [{
+				id: "7DBDAD8F36B7D4E9"
+				type: "item"
+				title: "Any #silents_mechanisms:drying_racks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "silents_mechanisms:drying_racks"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "733F27B21E4DCE71"
+					type: "item"
+					item: "silents_mechanisms:beef_jerky"
+				}
+				{
+					id: "063C99BB9D160584"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Crafting Frames"
+			x: 23.0d
+			y: -4.5d
+			description: [
+				"Just a basic frame that is used for various low-tech recipes."
+				""
+			]
+			dependencies: ["04914CFC7657F0D2"]
+			hide: true
+			id: "165720DB93DBB5DB"
+			tasks: [{
+				id: "6489624B6765AC46"
+				type: "item"
+				item: "mysticalagriculture:machine_frame"
+			}]
+			rewards: [
+				{
+					id: "1B8ABDD000E30DCB"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "7BCD584838C201EB"
+					type: "item"
+					item: "mysticalagriculture:machine_frame"
+				}
+				{
+					id: "3B17EEB3A61F79D0"
+					type: "item"
+					item: "moreplates:bismuth_plate"
+				}
+			]
+		}
+		{
+			title: "Serene Season"
+			icon: "byg:snowdrops"
+			x: -16.25d
+			y: -3.5d
+			description: [
+				"We have Serene Season in this pack. Grass and foliage colors will change throughout the year, and in the winter, temperatures will shift and allow for snow to fall in some biomes that don't normally receive any."
+				""
+				"Seasons also affect various other features, like weather (More rain in Spring, more storms in Summer, etc.), and crop fertility! (Mystical Agriculture excluded)"
+				""
+			]
+			dependencies: ["4A8B01968EB75784"]
+			hide: true
+			id: "1AD78958B0E30471"
+			tasks: [{
+				id: "4811D2C027217960"
+				type: "checkmark"
+				title: "Serene Seasons!"
+			}]
+			rewards: [{
+				id: "7B7822B86AD1F837"
+				type: "item"
+				item: "minecraft:cactus"
+				count: 2
+			}]
+		}
+		{
+			title: "Calendar"
+			x: 15.0d
+			y: -7.5d
+			shape: "circle"
+			description: [
+				"The Calendar is used to display the current season, as well as how far along in the season it is. 1 dot is Early, 2 dots is Mid, and 3 dots is Late."
+				""
+				"It can also display the current tropical season (Wet or Dry) if you are in a tropical biome, or the Calendar is placed in an item frame in a tropical biome."
+				""
+			]
+			dependencies: ["4F77B5892759A466"]
+			hide: true
+			id: "6B55E6903C04A13A"
+			tasks: [{
+				id: "61A1145B95441855"
+				type: "item"
+				item: "sereneseasons:calendar"
+			}]
+			rewards: [{
+				id: "74F47C1F1972DE73"
+				type: "item"
+				item: "pamhc2foodextended:fishtacoitem"
+			}]
+		}
+		{
+			title: "Advanced Crafting Stick (Handheld)"
+			x: 25.0d
+			y: -7.5d
+			shape: "circle"
+			description: [
+				"This item acts like a normal handheld crafting table however it will keep its inventory when the GUI is closed."
+				""
+			]
+			dependencies: ["165720DB93DBB5DB"]
+			hide: true
+			id: "07BC85B437817EAD"
+			tasks: [{
+				id: "2F04C7A5C03EEDBA"
+				type: "item"
+				item: {
+					id: "cyclic:crafting_bag"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							Size: 9
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7DFFA9F0F562A3EA"
+					type: "item"
+					item: "minecraft:jack_o_lantern"
+					count: 2
+				}
+				{
+					id: "6CE1E740660885EE"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Strings"
+			x: -0.5d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"There are many ways to get strings. One of them would be to cut wool with a knife. If you' ve already found sheeps."
+				""
+			]
+			dependencies: ["4469F1066B3E9CA7"]
+			hide: true
+			id: "44F4E79F903DD22B"
+			tasks: [{
+				id: "2FE824A226B0094D"
+				type: "item"
+				item: "minecraft:string"
+				count: 2L
+			}]
+			rewards: [{
+				id: "79D222A1C185E148"
+				type: "item"
+				item: "minecraft:string"
+				count: 2
+			}]
+		}
+		{
+			title: "First Ranged Weapon"
+			x: -0.5d
+			y: -8.0d
+			shape: "circle"
+			description: [
+				"Everyone should have a ranged weapon asap. The bow is cheap and can shoot a large variety of special arrows."
+				""
+			]
+			dependencies: ["44F4E79F903DD22B"]
+			hide: true
+			id: "0AE0B723B1385D56"
+			tasks: [{
+				id: "7D2711A61AC95B71"
+				type: "item"
+				item: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1E6B2E8AEB0A4B26"
+					type: "item"
+					item: {
+						id: "minecraft:tipped_arrow"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_poison"
+						}
+					}
+					count: 10
+				}
+				{
+					id: "219298B5E18689C8"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Carpenter's Workstation"
+			x: 21.0d
+			y: -7.5d
+			shape: "circle"
+			description: [
+				"This workstation can be used for better processing of wood and to achieve higher yields. Highly recommended as long as you don't have machines that efficiently cut logs into planks."
+				""
+			]
+			dependencies: ["165720DB93DBB5DB"]
+			hide: true
+			id: "08CC025EDF3B1359"
+			tasks: [{
+				id: "5E557E29D2362E88"
+				type: "item"
+				item: "artisanworktables:workstation_carpenter"
+			}]
+			rewards: [
+				{
+					id: "51FCD9AE5BDE413D"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "7FA705DBA7762B8A"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 20
+				}
+				{
+					id: "3C08CB2396E336E4"
+					type: "item"
+					item: "minecraft:dark_oak_sapling"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Trash Can (Items)"
+			x: 0.5d
+			y: 0.25d
+			shape: "circle"
+			description: [
+				"Well, item trash-cans can void items and you can set filters inside the GUI. "
+				""
+			]
+			dependencies: ["14BF0A0DA5EF287E"]
+			hide: true
+			id: "18C90BDB6D8D6C23"
+			tasks: [{
+				id: "6A561EBF33300966"
+				type: "item"
+				item: "trashcans:item_trash_can"
+			}]
+			rewards: [
+				{
+					id: "206E67DDE2935D17"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:night_vision"
+						}
+					}
+				}
+				{
+					id: "6D76AC745CB6FDBE"
+					type: "item"
+					item: "minecraft:melon"
+				}
+			]
+		}
+		{
+			title: "Sandy Coal Compound and Silicon Boules"
+			icon: "projectred-core:sand_coal_comp"
+			x: 21.0d
+			y: -1.5d
+			description: [
+				"As with plastic or materia, silicon is also an important component of this pack. The silicon bouls used in the process are produced by smelting coal compounds in a furnace."
+				""
+				"You should use a mixer machine as soon as you can to craft sandy coal compounds efficiently."
+			]
+			dependencies: ["758404E9AEE3983F"]
+			hide: true
+			id: "0E39CE8C2AE18408"
+			tasks: [
+				{
+					id: "1B6CAE53CA36739E"
+					type: "item"
+					item: "projectred-core:sand_coal_comp"
+				}
+				{
+					id: "6F5B210576B32864"
+					type: "item"
+					item: "projectred-core:boule"
+				}
+			]
+			rewards: [
+				{
+					id: "7F6C38FE0204F17C"
+					type: "item"
+					item: "projectred-core:boule"
+				}
+				{
+					id: "78F8EF7453C7E353"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "67EA421216E093ED"
+					type: "item"
+					item: "minecraft:sand"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Silicon Plates And Ingots"
+			icon: "chemlib:ingot_silicon"
+			x: 23.0d
+			y: -1.5d
+			description: [
+				"Use a saw to cut silicon from boules."
+				""
+				"Silicon ingots can be made very simply by smelting silicon in a furnace. They're mainly used for silicon plates, gears and rods."
+				""
+			]
+			dependencies: ["0E39CE8C2AE18408"]
+			hide: true
+			id: "279608974525D267"
+			tasks: [
+				{
+					id: "12EDBEF8A9AB1D45"
+					type: "item"
+					item: "projectred-core:silicon"
+					count: 3L
+				}
+				{
+					id: "7F5D871016F69DA5"
+					type: "item"
+					item: "chemlib:ingot_silicon"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "199907272F556FA2"
+					type: "item"
+					item: "chemlib:ingot_silicon"
+				}
+				{
+					id: "0767862CEEB1026F"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "4F693E11FF5443EF"
+					type: "item"
+					item: "moreplates:silicon2_plate"
+				}
+			]
+		}
+		{
+			title: "Engineer's + Chemist's Workstation"
+			icon: "artisanworktables:workstation_engineer"
+			x: 28.5d
+			y: -1.5d
+			description: [
+				"Like all artisan workstations, these 2 will be used primarily during the beginning of your journey until you have machines to replace them."
+				""
+				"The Engineer's workstation allows you to craft items like low level circuits, motors and similar components etc."
+				""
+				"The chemist's workstation is used for items like glue compound, low level boosting mixture etc."
+			]
+			dependencies: [
+				"279608974525D267"
+				"4BA674C407615B72"
+				"5032DE5BE925D739"
+			]
+			hide: true
+			id: "173D40B38702D1AB"
+			tasks: [
+				{
+					id: "6DD5D1309900A193"
+					type: "item"
+					item: "artisanworktables:workstation_engineer"
+				}
+				{
+					id: "69944ECCEAC25282"
+					type: "item"
+					item: "artisanworktables:workstation_chemist"
+				}
+			]
+			rewards: [
+				{
+					id: "33DDB7A353AFFAE2"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 2
+				}
+				{
+					id: "63064AE2E7C7DCA7"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "7F7BF7B953624679"
+					type: "choice"
+					table_id: 3341174482915288993L
+				}
+				{
+					id: "3F1D4D83A61D56A4"
+					type: "item"
+					item: "kubejs:bolts_t1"
+					count: 4
+				}
+				{
+					id: "5734142250765352"
+					type: "item"
+					item: "moreplates:red_ingot_plate"
+				}
+			]
+		}
+		{
+			title: "Copper Chest"
+			x: 19.0d
+			y: -4.5d
+			shape: "circle"
+			description: [
+				"The capacity of a copper chest is 45 inventory slots and it can be placed next to another chest."
+				""
+				"Like all chests from the Iron Chests mod, it's a single chest only and cannot be combined to create a double chest."
+				""
+			]
+			dependencies: ["04914CFC7657F0D2"]
+			hide: true
+			id: "1C20744F0E950356"
+			tasks: [{
+				id: "1B8FD7039C023517"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+			rewards: [
+				{
+					id: "2A839709D1D38AE5"
+					type: "item"
+					item: "ironchest:copper_chest"
+				}
+				{
+					id: "4EC1E1308CEC3C8C"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Iron Chest!"
+			x: 19.0d
+			y: -7.5d
+			shape: "circle"
+			description: [
+				"The capacity of the iron chest is 54 inventory slots and it can be placed next to another chest."
+				""
+				"With a chest-upgrade you can more easily improve your chests and save some materials."
+				""
+			]
+			dependencies: ["1C20744F0E950356"]
+			hide: true
+			id: "4403A5576E3DA26B"
+			tasks: [{
+				id: "61810FFF7DA9D1EB"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [
+				{
+					id: "056A2F0BAAEC5BB0"
+					type: "item"
+					item: "ironchest:copper_to_iron_chest_upgrade"
+					count: 2
+				}
+				{
+					id: "0A602F06C01736F7"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Bronze and Brass"
+			icon: "silents_mechanisms:bronze_dust"
+			x: 31.5d
+			y: -1.5d
+			description: [
+				"This modpack has a large variety of different alloys."
+				""
+				"Some \"basic\" alloys, such as brass and bronze, can be produced without an alloy smelter. To do this, you have to mix the appropriate dusts together and process them with a mortar. Check JEI for further information."
+				""
+				"Brass requires 1x copper and 1x zinc"
+				"Bronze requires 3x copper and 1x tin"
+				""
+				"{image:modpack:textures/quest_images/dust_alloys.png width:180 height:100 align:1 fit:true}"
+			]
+			dependencies: ["173D40B38702D1AB"]
+			hide: true
+			id: "2D7A57FB9AA6F34A"
+			tasks: [
+				{
+					id: "7512BC17A79F8344"
+					type: "item"
+					title: "Any #forge:dusts/bronze"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dusts/bronze"
+						}
+					}
+				}
+				{
+					id: "5E99371DA5F29610"
+					type: "item"
+					title: "Any #forge:dusts/brass"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dusts/brass"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6273AD66D117321E"
+					type: "item"
+					item: "silents_mechanisms:copper_dust"
+					count: 9
+				}
+				{
+					id: "2B2407F4E930C1D4"
+					type: "item"
+					item: "silents_mechanisms:gold_dust"
+				}
+				{
+					id: "1918059BD4A87FE7"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Advanced Crafting Table!"
+			icon: "extendedcrafting:advanced_table"
+			x: 34.5d
+			y: -1.5d
+			description: ["This 5x5 workbench is the first of the 3 main large worktables in this pack and is used to craft most machines and devices. Later there is also an automatic version of it that consumes energy."]
+			dependencies: [
+				"2D7A57FB9AA6F34A"
+				"79697FA8D40077C9"
+				"485EDA98DC0A6DA6"
+			]
+			hide: true
+			id: "317DBF1CB847DEBB"
+			tasks: [{
+				id: "71D180FEDB19B8A1"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+			rewards: [
+				{
+					id: "5DE5A35645CDE4D6"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "49407C95F6D31CE7"
+					type: "choice"
+					title: "Choose some basic plates!"
+					table_id: 3341174482915288993L
+				}
+				{
+					id: "5F0E3B968DC18BC3"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "6266B163E014211A"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Advent of Ascension!"
+			icon: "kubejs:aoa_mainquest"
+			x: -23.0d
+			y: -1.5d
+			shape: "rsquare"
+			subtitle: "AoA"
+			description: [
+				"DDSS 2 contains AoA! (Advent of Ascension, Nevermine) Dimensions and materials of this mod are strictly integrated into this modpack and form an important part of the progression. Quests with this icon are mandatory AoA quests. These will be mainly informative in the beginning, but soon with corresponding requirements."
+				"{image:aoa3:textures/item/strength_tablet.png width:100 height:100 align:1}"
+				""
+				"This is a mod with a large amount of content. Gameplay in the mod includes exploring 21 dimensions, each with its own generation, structures, mobs, blocks, and items. While traveling through the dimensions, you can mine ores, locate structures, and battle entities with various abilities. It's a lot of fun and there's a lot to do!"
+				""
+				"You can gear up in one of the mod's many armor sets, most having a special ability granted to the player when worn. You may also choose between a large selection of weapons, ranging from melee weapons like swords, to ranged weapons, such as bows, guns, and staves. With the new gear in-hand, you can potentially battle one of the mod's 29 bosses. And some are ridiculously strong ;0"
+				""
+				"Along the way, you can also train various skills, which can grant you access to new areas of the game, and give you access to new items or resources."
+				""
+			]
+			dependencies: ["06F9BD392017336F"]
+			hide: true
+			size: 2.0d
+			id: "19D82E72BC44A213"
+			tasks: [{
+				id: "039E36E4E8285823"
+				type: "checkmark"
+				title: "FYI"
+			}]
+			rewards: [{
+				id: "22B2ACA1E90B191C"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "Industrial Hemp And Inferium"
+			icon: "mysticalagriculture:inferium_seeds"
+			x: 3.5d
+			y: -1.5d
+			description: [
+				"A more reliable plan is to start farming crops. Not only for food but also for materials such as industrial hemp or inferium because that will be used soon and often. "
+				""
+				"Industrial Hemp Seeds are obtained by breaking Grass. Planting them on tilled soil plants Industrial Hemp. They need a light level of at least 12 to grow."
+				""
+				"To craft inferium seeds, you need inferium essence. It can be acquired from harvesting or reprocessing Inferium Plants, mining Inferium Ore, or dropped from mobs. "
+				""
+				"And by the way, Mystical Crops are not affected by Serene Season ;-)"
+			]
+			dependencies: [
+				"292E4BC091902A53"
+				"6C7C325880447341"
+				"514C379410D294E1"
+			]
+			hide: true
+			id: "1CCEB6468E965738"
+			tasks: [
+				{
+					id: "33FC04645456C186"
+					type: "item"
+					item: "immersiveengineering:seed"
+				}
+				{
+					id: "0E00359971F8AF12"
+					type: "item"
+					item: "mysticalagriculture:inferium_seeds"
+				}
+			]
+			rewards: [
+				{
+					id: "0CA85C8B6708A46E"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 15
+				}
+				{
+					id: "7B32BFDA267D554A"
+					type: "item"
+					item: "pamhc2crops:flaxseeditem"
+					count: 2
+				}
+				{
+					id: "6BF091815B4A06D5"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Rubber"
+			icon: "industrialforegoing:dryrubber"
+			x: 31.5d
+			y: 0.5d
+			description: [
+				"Similiar to plastic, rubber also comes in different qualities."
+				""
+				"There are two ways to produce LQ Rubber. For starters, clay and biomass might be the easiest solution."
+			]
+			dependencies: ["173D40B38702D1AB"]
+			hide: true
+			id: "79697FA8D40077C9"
+			tasks: [{
+				id: "683B063CC2AB21E5"
+				type: "item"
+				item: "industrialforegoing:dryrubber"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "223815A877CA6391"
+					type: "item"
+					item: "minecraft:clay"
+					count: 4
+				}
+				{
+					id: "215F7E1335135078"
+					type: "item"
+					item: "minecraft:lapis_ore"
+					count: 2
+				}
+				{
+					id: "426D93FC446B0782"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Raw Materia Seeds"
+			icon: "mysticalagriculture:raw_materia_seeds"
+			x: 15.0d
+			y: 4.5d
+			shape: "circle"
+			description: [
+				"As already mentioned before, T1 Materia can also be produced via mystical agriculture. I recommend using this method in addition to other methods."
+				""
+				"T2 materia and higher can only be produced by crafting and only in certain machines."
+			]
+			dependencies: ["3D395B4492A2E158"]
+			hide: true
+			id: "255DDE5B10E97A5A"
+			tasks: [{
+				id: "12D04CE22BA057FA"
+				type: "item"
+				item: "mysticalagriculture:raw_materia_seeds"
+			}]
+			rewards: [
+				{
+					id: "148F136C97271029"
+					type: "item"
+					item: "kubejs:materia_t1"
+					count: 4
+				}
+				{
+					id: "72DB91B61EFA4B96"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "About Mystical Agriculture in DDSS 2..."
+			icon: "mysticalagriculture:tinkers_bronze_essence"
+			x: 5.25d
+			y: -1.5d
+			description: [
+				"Unlike other modpacks, you have to process plant-derived essences in machines. These will soon be available to you in the next chapter when you reach the age of steam. Until then, I still recommend to start collecting all the essences you can."
+				""
+				"Through machines, essences can be used very versatile. For example, when using wood essence, this system gives you the advantage of making any modded logs you want instead of being bound to vanilla logs. Provided you have found at least 1 log of this type."
+			]
+			dependencies: ["1CCEB6468E965738"]
+			hide: true
+			id: "0439843C0167A9D8"
+			tasks: [{
+				id: "2147E8E1646E4728"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "64F9BC4553C55817"
+					type: "item"
+					item: "mysticalagriculture:prosperity_seed_base"
+				}
+				{
+					id: "5832C90D67EDED27"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Tier 0 Seeds"
+			icon: "mysticalagriculture:stone_seeds"
+			x: 5.25d
+			y: -3.5d
+			shape: "circle"
+			description: [
+				"Tier 0 seeds are so ridiculously cheap that there is no reason to skip them from the beginning."
+				""
+				"You only need very little materials and prosperity seed base for them."
+				""
+				"If you haven't found any shards yet, they spawn as ore between y level 10 and 40."
+			]
+			dependencies: ["0439843C0167A9D8"]
+			hide: true
+			id: "07385B5C12C901A1"
+			tasks: [
+				{
+					id: "3A74A82BD72B248E"
+					type: "item"
+					item: "mysticalagriculture:dirt_seeds"
+				}
+				{
+					id: "4A5778CFA623EBC2"
+					type: "item"
+					item: "mysticalagriculture:stone_seeds"
+				}
+			]
+			rewards: [
+				{
+					id: "0C9E707E7832251C"
+					type: "item"
+					item: "mysticalagriculture:wood_seeds"
+				}
+				{
+					id: "43470CAAD8A01E69"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Mystical Agriculture Metals"
+			x: 31.5d
+			y: -3.5d
+			description: [
+				"Inferium and its enhanced tiers already have very extensive uses for a wide variety of things."
+				""
+				"But that's not all, these essences can also be processed into metals and thus corresponding plates or rods. And yes, you will need many of them sooner or later."
+			]
+			dependencies: ["173D40B38702D1AB"]
+			hide: true
+			id: "485EDA98DC0A6DA6"
+			tasks: [{
+				id: "1B275C5BF1A06364"
+				type: "item"
+				item: "moreplates:inferium_plate"
+			}]
+			rewards: [
+				{
+					id: "4FF5C0939CD07E3D"
+					type: "item"
+					item: "mysticalagriculture:prosperity_ingot"
+				}
+				{
+					id: "65F70ACBFB1D5903"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Grindstone!"
+			x: 23.0d
+			y: -7.5d
+			shape: "circle"
+			description: [
+				"The Grindstone provides a low tech solution for getting more out of your mining trips. It is much cheaper than its more high-tech counter parts, but it is slow and a considerable time sink."
+				""
+				"Place the Grindstone on the ground, place the Wooden Crank on the side with the hole, holding shift will ensure the crank is placed instead of opening the grindstone gui."
+			]
+			dependencies: ["165720DB93DBB5DB"]
+			hide: true
+			id: "4720A0C605B1A886"
+			tasks: [{
+				id: "6A6E3EE33AE886DF"
+				type: "item"
+				item: "appliedenergistics2:grindstone"
+			}]
+			rewards: [
+				{
+					id: "23F3D9788E8DE86B"
+					type: "item"
+					item: "appliedenergistics2:crank"
+					count: 2
+				}
+				{
+					id: "0EBFA955FF90E3F4"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Optional AoA Quests"
+			icon: "kubejs:aoa_sidequest"
+			x: -13.5d
+			y: 2.5d
+			shape: "circle"
+			subtitle: "AOA "
+			description: [
+				"A quest with this icon stands for an AoA side quest. This can start a single quest or a whole chain of them with information about skills, weapons and stuff like that or other interesting tasks to complete."
+				"{image:aoa3:textures/item/awareness_tablet.png width:100 height:100 align:1}"
+				"Learn more about all the powerful weapons in the upcoming quests below!"
+			]
+			dependencies: ["438BC32DF0A617DC"]
+			hide: true
+			id: "4C8E493FBFAC7374"
+			tasks: [{
+				id: "13FB9FF31FD580FF"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "34822BDC159CC28E"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "AoA Resource System"
+			icon: "kubejs:aoa_mainquest"
+			x: -13.5d
+			y: -1.5d
+			description: [
+				"Within AoA, there are 3 primary resource types available to you for performing various actions. By default, the GUI is toggled with the O key, but may be changed in the controls menu. "
+				"{image:modpack:textures/aoa/aoa_resources_1.png width:450 height:100 align:1 fit:true}"
+				""
+				"Spirit is a resource primarily used as ammunition for certain weapons. It has a cap of 200 and the rate of Spirit regeneration will increase depending on how much HP the player is currently missing, further increasing at lower HP values."
+				""
+				"Rage is a resource used by Vulcanes. It has a max cap of 100. It does not naturally regenerate. Taking damage from mobs will increase Rage. Other sources of damage like fall damage or environmental damage do not increase Rage. "
+				""
+				"Energy is a resource used by certain Skills for various physical-based abilities. "
+				""
+				""
+				""
+				""
+			]
+			dependencies: [
+				"2468700896FE5013"
+				"1AD78958B0E30471"
+				"0AC228C053844BB5"
+			]
+			hide: true
+			id: "438BC32DF0A617DC"
+			tasks: [{
+				id: "755C28500A29AAD8"
+				type: "checkmark"
+				title: "Resources"
+			}]
+			rewards: [{
+				id: "4C1E40689EB71541"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "AoA Skills"
+			icon: "kubejs:aoa_mainquest"
+			x: -2.5d
+			y: 1.5d
+			description: [
+				"Skills are a game mechanic in the mod that improve your stats, allow access to certain parts of the game, and enhance general gameplay. There are currently 5 trainable skills in Advent of Ascension."
+				""
+				"{image:modpack:textures/aoa/aoa_skills.png width:500 height:100 align:1 fit:true}"
+				""
+				"As you perform certain activities, you will earn xp for a given skill. Once enough xp has been obtained, the player's skill level will increase by 1. The amount of xp needed to increase to the next level will increase as the level gets higher."
+				""
+				"The highest obtainable level for all skills is 1000. Once you reach level 1000, the circular border surrounding the skill icon will become yellow, and the xp bar will disappear. Attempting to gain more xp for a skill at level 1000 will not give the player any xp."
+			]
+			dependencies: ["0602A0659D0C0AED"]
+			hide: true
+			id: "4D5C4D96A0534929"
+			tasks: [{
+				id: "16C49927C1D84379"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6DE1954F32A40B2A"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Skill: Extraction"
+			icon: "kubejs:aoa_mainquest"
+			x: -0.5d
+			y: 1.5d
+			description: [
+				"Extraction:"
+				""
+				""
+				"Extraction can be trained in two ways: mining blocks, and smelting items. "
+				""
+				"These skills give you certain bonuses every few levels. This one, for example, gives you with LvL 6 a 40% chance to find extra items when mining ores that drop minerals."
+				""
+				"As there are far too many bonuses to list them all, I advise you to visit the AoA wiki for more information."
+				""
+				"https://adventofascension.fandom.com/wiki/Extraction"
+			]
+			dependencies: ["4D5C4D96A0534929"]
+			hide: true
+			id: "3400A8E8109460FF"
+			tasks: [{
+				id: "0ED9F5A5B953A675"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "694AF8C976D37052"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Guns"
+			icon: {
+				id: "aoa3:mint_magnum"
+				Count: 1b
+				tag: {
+					Damage: 0
+					HideFlags: 2b
+				}
+			}
+			x: -19.25d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Guns are more or less what you'd expect, based on the name. These are ranged-weapons that fire bullet type projectiles from a distance. They generally have a moderate-to-high firing rate, with middling damage. They are excellent for medium-ranged combat or for dealing additional damage while recovering from some tough hits. They do take some time to unholster however when switched to, so not ideal for quick-combat scenarios."
+				""
+				"{image:modpack:textures/aoa/guns_aoa.png width:350 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			id: "1486E610FE51D2D8"
+			tasks: [{
+				id: "272CD067F84A30E2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "450DBE19EB0A6934"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Blasters"
+			icon: {
+				id: "aoa3:atomizer"
+				Count: 1b
+				tag: {
+					Damage: 0
+					HideFlags: 2b
+				}
+			}
+			x: -18.0d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Blasters are similar to guns in that they are ranged-weapons that fire projectiles from a distance. There are a few key differences however; first, blasters do not consume any physical ammunition, and instead rely on the player's Energy reserves. Running out of energy prevents you from firing any more shots. Secondly, blaster shots are energy-based damage, and will not penetrate through blocks, plants, or liquids. Additionally, while they require significantly less unholster time on average than guns, they do cause the user to slow down while firing them, making the user vulnerable."
+				""
+				"{image:modpack:textures/aoa/blaster_aoa.png width:350 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			id: "3ACFF9556C684A92"
+			tasks: [{
+				id: "4A447A5920B91199"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "43271CB90669497C"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Snipers"
+			icon: {
+				id: "aoa3:terminator"
+				Count: 1b
+				tag: {
+					Damage: 0
+					HideFlags: 2b
+				}
+			}
+			x: -16.75d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"A sub-type of guns, Snipers fire slugs instead of bullets, with projectiles that move significantly faster than normal guns. When firing a sniper, the user must crouch to scope in and gain stability. If the user doesn't crouch, the gun will recoil uncontrollably, and very likely miss the shot."
+				""
+				"{image:modpack:textures/aoa/sniper_aoa.png width:350 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			id: "4AA08463CDDBFA91"
+			tasks: [{
+				id: "25F1F392E60FCAD8"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1C0CF3AC5268FA55"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Shotguns"
+			icon: {
+				id: "aoa3:gimmick"
+				Count: 1b
+				tag: {
+					Damage: 0
+					HideFlags: 2b
+				}
+			}
+			x: -15.5d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Shotguns fire spreadshots instead of bullets. Shotguns fire much slower than normal guns and have much stronger recoil, but fire a volley of pellets at short-range rather than a single bullet. They excel at dealing out damage at short distance, but be entirely useless at medium-to-long distances."
+				""
+				"{image:modpack:textures/aoa/shotgun_aoa.png width:350 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			id: "2E743C574039D69E"
+			tasks: [{
+				id: "234F80220D8DC26F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "13F61071F3ABA7B7"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Cannons"
+			icon: {
+				id: "aoa3:boom_boom"
+				Count: 1b
+				tag: {
+					Damage: 0
+					HideFlags: 2b
+				}
+			}
+			x: -14.25d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Cannons are technically a sub-type of gun, firing cannonballs instead of bullets, having an unholster time, and dealing gun damage, however it is unlikely you would substitute a cannon in for a situation in which you would normally use a gun. Cannons excel at dealing damage to particularly tough targets, especially armoured targets. Cannons deal hefty damage in exchange for a slow fire-rate and strong recoil. Their large cannonball projectiles offer bonus damage against armoured enemies, which can be invaluable."
+				""
+				"{image:modpack:textures/aoa/canona_aoa.png width:350 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			id: "1D701C65C2F6286B"
+			tasks: [{
+				id: "582B40DC3DBB1403"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "79E8F155E7FE7F6B"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Greatblades"
+			icon: {
+				id: "aoa3:tidal_greatblade"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -13.0d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Greatblades could be considered a relation to normal swords in that they are large usually-bladed weapons that deal melee damage when swung at targets. The key distinction here however is that greatblades are significantly larger than normal swords, deal much higher damage per swing at the expense of slower swings, and carry an extended reach. Targets can be hit from further away than normal when using a greatblade, and this simple fact gives greatblades a uniquely useful position in combat."
+				""
+				"{image:modpack:textures/aoa/greatblades_aoa.png width:350 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			id: "05059FAEC05EDC68"
+			tasks: [{
+				id: "16D06D7DC30175D4"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "53A33193DE457963"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Mauls"
+			icon: {
+				id: "aoa3:vulcammer_maul"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -11.75d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Mauls are also similar to swords in that that deal close-range melee damage when swung, but mauls are traditionally used for keeping stronger targets at a healthy distance instead of general combat. Mauls deal very strong knockback to targets, and swing slightly slower than swords do, but also deal slightly more damage per-hit than swords do."
+				""
+				"{image:modpack:textures/aoa/mauls.png width:350 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			id: "2DB914ED663FB68F"
+			tasks: [{
+				id: "6396119DAD414D95"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "21FB959A6C60623E"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Staves"
+			icon: {
+				id: "aoa3:sky_staff"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -10.5d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Staves are magical utility items that vary greatly in usage. Some staves fire magical projectiles in a similar manner to blasters, others strengthen the user, deal AoE poison damage, heal friendly players and minions, and more various effects. Projectiles fired by staves deal armour penetrating magic damage against enemies, but not against players. Like blasters, these projectiles also cannot penetrate blocks, plants, or liquids."
+				""
+				"Staves require that the user have Runes in their inventory to cast spells from them. Each staff lists their required per-cast runes in the description tooltip."
+				""
+				"{image:modpack:textures/aoa/staves_aoa.png width:350 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			id: "706AAB1591E9A593"
+			tasks: [{
+				id: "2C543EA66C19DD7C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7B678565B4255644"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Crossbows"
+			icon: {
+				id: "aoa3:spectral_crossbow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -9.25d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Crossbows are alternative versions of Bows that also consume Arrows, along with being able to consume Firework Rockets. Unlike Bows, Crossbows must first be fully charged in order to be fired, afterwards the Crossbow must be used again to fire the Arrow/Firework Rocket. All Crossbows take 1.25 seconds to fully charge. Crossbows can also be used in the offhand without the need for the Brace enchantment."
+				""
+				"{image:modpack:textures/aoa/archerguns_aoa.png width:350 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			id: "003A076CF7AE4F53"
+			tasks: [{
+				id: "080C4B70D64EB7FC"
+				type: "checkmark"
+				title: "Archerguns"
+			}]
+			rewards: [{
+				id: "3A008D15DB5D1EB6"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Throwables"
+			icon: {
+				id: "aoa3:hellfire"
+				Count: 1b
+				tag: {
+					HideFlags: 2b
+				}
+			}
+			x: -8.0d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"This pack also adds some non-traditional throwable weapons, similar to how snowballs work. These weapons are cheap, simple, and easy to use, requiring only themselves as ammo, and offering varying effects. These are great for quick and easy ranged damage, but are not ideal when compared to high damage output weapons from other categories."
+				""
+				"{image:modpack:textures/aoa/throwable_aoa.png width:350 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4C8E493FBFAC7374"]
+			hide: true
+			id: "3998244B4F8FD87C"
+			tasks: [{
+				id: "363227A0EA4E1C52"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7C2F5BDA83DC49E3"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Skill: Farming"
+			icon: "kubejs:aoa_mainquest"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"Farming:"
+				""
+				"Farming is trained by either breaking certain crop-based blocks or by breeding animals."
+				""
+				"Crops will only give Farming xp if broken (or right-clicked) while fully grown."
+				""
+				"The amount of xp given depends on:"
+				"- the player's current Farming level. The higher the Farming level, the more xp that is given."
+				""
+				"- how many stages of growth a crop has. Crops that go through more stages of growth give more xp than crops with less stages."
+				""
+				"Check the wiki to see all the bonuses related to this skill if you are interested in using it. "
+				""
+				"https://adventofascension.fandom.com/wiki/Farming"
+			]
+			dependencies: ["3400A8E8109460FF"]
+			hide: true
+			id: "514C379410D294E1"
+			tasks: [{
+				id: "3BE7A4220D375258"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4F4EE10D3F192A10"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "All The Skills!"
+			icon: "kubejs:aoa_sidequest"
+			x: 1.5d
+			y: 3.5d
+			shape: "circle"
+			description: ["Read upcoming quests below to learn everything about the rest of AoA's skills."]
+			dependencies: ["514C379410D294E1"]
+			hide: true
+			id: "1539E56BB410B423"
+			tasks: [{
+				id: "1784EEA795392542"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "05451B21F775AADB"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "Dexterity"
+			icon: {
+				id: "alexsmobs:roadrunner_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.25d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Dexterity:"
+				""
+				"Dexterity can be trained by running, jumping, or by landing vanilla critical hits."
+				""
+				"Xp will not be earned under the following circumstances: if the player is in Creative or Spectator mode, or if the player is riding a mob. Xp will also not be earned from running if the player moves 1 block per tick or faster."
+				""
+				"Check the wiki to see all the bonuses related to this skill if you are interested in using it. "
+			]
+			dependencies: ["1539E56BB410B423"]
+			hide: true
+			id: "744178BD08338510"
+			tasks: [{
+				id: "6CF383E41A69A0CD"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "39560D6120AD713F"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Hauling"
+			icon: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.75d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Hauling:"
+				""
+				"Fishing with any fishing rod will give Hauling xp upon successfully catching something."
+				""
+				"Check the wiki to see all the bonuses related to this skill if you are interested in using it. "
+			]
+			dependencies: ["1539E56BB410B423"]
+			hide: true
+			id: "0C1E58DF95CB2382"
+			tasks: [{
+				id: "50A3828B3FD72E37"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "76087A85D83A1DA0"
+				type: "xp"
+				auto: "enabled"
+				xp: 3
+			}]
+		}
+		{
+			title: "Ancient Rock!"
+			icon: "kubejs:aoa_mainquest"
+			x: 21.0d
+			y: 1.5d
+			description: [
+				"The next step is to find some ancient rock. It is randomly generated like ore veins between Y1 and Y30. You could also try to track down a Ruined Teleporter Frame. These generate underground between Y10-Y20. Generally speaking, you'll have the best chances of finding one if you mine around underground at Y18."
+				""
+				"{image:modpack:textures/aoa/portalframe_aoa_1.png width:200 height:100 align:1 fit:true}"
+				""
+				""
+				"If you find one, take all the carved rune blocks with you. You gonna need it later as well."
+			]
+			dependencies: ["758404E9AEE3983F"]
+			hide: true
+			id: "3989E14B36742501"
+			tasks: [{
+				id: "4EA3EE77E218E876"
+				type: "item"
+				item: "aoa3:ancient_rock"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "56B9F92B6F3F9033"
+					type: "item"
+					item: "aoa3:ancient_rock"
+					count: 10
+				}
+				{
+					id: "1F7B1967A3F60135"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Runium Ore And Unpowered Runes"
+			icon: "aoa3:runium_ore"
+			x: 23.0d
+			y: 1.5d
+			description: [
+				"Runium ore generates in the overworld randolmy at y level 40-65 and on rare occasions deeper between 1-25. It can be smelted into runium chunks."
+				""
+				"The chunks and the unpowered runes are basic items used as crafting ingredient in a couple of recipes."
+			]
+			dependencies: ["3989E14B36742501"]
+			hide: true
+			id: "1AC340811EE0C6FE"
+			tasks: [
+				{
+					id: "5EE572297B081E43"
+					type: "item"
+					icon: "aoa3:runium_chunk"
+					item: "aoa3:runium_chunk"
+					count: 2L
+				}
+				{
+					id: "21C8AEF03B40E5DA"
+					type: "item"
+					item: "aoa3:unpowered_rune"
+				}
+			]
+			rewards: [
+				{
+					id: "23596FC6B773015A"
+					type: "item"
+					item: "aoa3:runium_ore"
+					count: 5
+				}
+				{
+					id: "03C6D92FBB9EF506"
+					type: "item"
+					item: "pamhc2foodcore:caramelappleitem"
+				}
+				{
+					id: "402EEC4645F4C43A"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Iron Furnace"
+			icon: "ironfurnaces:iron_furnace"
+			x: 27.25d
+			y: -4.5d
+			shape: "circle"
+			description: [
+				"An iron furnace is 20% faster than a vanilla furnace"
+				""
+				"These furnaces come in different tiers and with a variety of upgrades that can make them even more efficient."
+			]
+			dependencies: ["173D40B38702D1AB"]
+			hide: true
+			id: "509D6B0B38DD0CBD"
+			tasks: [{
+				id: "484BC8BA643DBBDF"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [
+				{
+					id: "4F7D036896AA3851"
+					type: "item"
+					item: "ironfurnaces:iron_furnace"
+				}
+				{
+					id: "07C66E74C0647A02"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "6ED3A13B08A61843"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Arboreal Extractor And Sticky Resin"
+			icon: "thermal:device_tree_extractor"
+			x: 25.0d
+			y: -3.25d
+			description: [
+				"An arboreal extractor is a device that extracts a fluid from a naturally grown adjacent tree."
+				""
+				"Place it next to the bottom of a tree, then it will start extracting a fluid. Bonemeal serves as a fertilizer and speeds up the process a bit."
+				""
+				"The goal is to collect as much resin as possible, as we will need it later in T1 and T2 for tree oil and super glue. Make sure you don't extract it from a maple or dark oak tree, or you'll end up with sap. If you have Menril trees nearby, take the opportunity to extract menril resin too. This will also be extremely useful later on."
+				""
+				"{image:modpack:textures/quest_images/arboreal.png width:150 height:100 align:1 fit:true}"
+			]
+			dependencies: ["165720DB93DBB5DB"]
+			hide: true
+			id: "4BA674C407615B72"
+			tasks: [{
+				id: "22D02CB96A939E01"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+			rewards: [
+				{
+					id: "4C24B38990A921A8"
+					type: "item"
+					item: "thermal:device_tree_extractor"
+				}
+				{
+					id: "170BE25925B1C0B9"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 10
+				}
+				{
+					id: "268842EC45BD204B"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Crop Fertility is a key feature in Serene Seasons."
+			icon: "pamhc2crops:tomatoseeditem"
+			x: -16.25d
+			y: -5.5d
+			shape: "circle"
+			description: [
+				"Throughout the seasons, the types of crops you can grow will change. Crops can be set to grow in any of the temperate seasons, and in biomes affected by tropical seasons, only Summer crops will be in season. Likewise, biomes that always receive snow will only be able to grow Winter crops."
+				""
+				""
+				"You can see which season(s) a crop is fertile in the tooltip that appears when you hover over the seeds for the crop, or in some cases, the crop itself. Seeds/crops that do not have a fertile season listed will not be affected by seasons at all."
+				""
+				"When a crop is in season, it will grow as it normally does, and you'll be able to use bonemeal to grow it faster like normal. When a crop is out of season, it will grow very slowly, and will require more bonemeal than usual to increase its growth stage. To grow out of season crops efficiently, you have three options:"
+				""
+				"-Placing glass/stained glass blocks within 16 blocks above crops to grow out of season crops above ground."
+				""
+				"-Using vanilla Bees. Bees will pollinate crops regardless of whether they're in season or not."
+				""
+				"-Growing out of season crops underground, as long as they're below y Level 30 and not exposed to the sky."
+			]
+			dependencies: ["1AD78958B0E30471"]
+			hide: true
+			id: "388D50AED0D3FA69"
+			tasks: [{
+				id: "69587A8D7BF59977"
+				type: "checkmark"
+				title: "As mentioned before, Crop Fertility is a key feature in Serene Seasons."
+			}]
+			rewards: [{
+				id: "140B8AA943663F6F"
+				type: "item"
+				item: "pamhc2crops:tomatoseeditem"
+			}]
+		}
+		{
+			title: "Innervation"
+			icon: {
+				id: "aoa3:gods_greatblade"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 6.0d
+			shape: "circle"
+			description: [
+				"Innervation:"
+				""
+				"There are two ways to obtain xp for Innervation: defeating mobs, and using Innervation abilities."
+				""
+				"Check the wiki to see all the bonuses related to this skill if you are interested in using it. "
+			]
+			dependencies: ["1539E56BB410B423"]
+			hide: true
+			id: "0D662056605EA505"
+			tasks: [{
+				id: "361810B66961CA6E"
+				type: "checkmark"
+				title: "Skill: Innervation"
+			}]
+			rewards: [{
+				id: "35090DAE15214FF0"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16
+			}]
+		}
+		{
+			title: "Tinker's Construct!"
+			icon: "tconstruct:smeltery_controller"
+			x: 37.0d
+			y: -3.5d
+			shape: "gear"
+			description: [
+				"Big quests shaped like gearwheels are classified as mandatory Multiblock quests."
+				""
+				"The Smeltery is a multi-block structure used to create higher level weapons and tools using metals and alloys. It can be used to smelt ores, ingots or blocks of almost any metal, and will finally allow you to double your ores more easily."
+				""
+				"What is also very important for our next steps is molten clay. This is no longer a problem with this big boy."
+				""
+				"Please note that it is possible to pour all liquids directly into any fluid container."
+				"{image:modpack:textures/quest_multiblock/molten_clay.png width:175 height:120 align:1}"
+			]
+			dependencies: ["317DBF1CB847DEBB"]
+			hide: true
+			size: 2.0d
+			id: "2438FE1AFB255E80"
+			tasks: [
+				{
+					id: "146976B4F1A291A5"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "463CF85F63625C3C"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 4L
+				}
+				{
+					id: "37A395E27E96E205"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "115EC55C132F3F05"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "4F3E50A436C74BAB"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 8
+				}
+				{
+					id: "407FD235E60C03EA"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "7B6A975342EE0DF7"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "2CE230A6E27018A5"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Your first journey leads to hell!"
+			icon: "minecraft:magma_block"
+			x: 37.0d
+			y: 0.5d
+			description: [
+				"Travel to the Nether and get some magma blocks and netherrack for bricks."
+				""
+				"You got some obsidian blocks in the previous quest but they are not enough. For the rest you have to find lava and create and mine obsidian with good old vanilla manners. Or you can find some while exploring the world..."
+			]
+			dependencies: ["317DBF1CB847DEBB"]
+			hide: true
+			id: "401B0384EEA5BD59"
+			tasks: [
+				{
+					id: "0488B9BF26260289"
+					type: "dimension"
+					dimension: "minecraft:the_nether"
+				}
+				{
+					id: "4231BBCC0917D7D6"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 6L
+				}
+				{
+					id: "22F3844248D7E62F"
+					type: "item"
+					title: "Any #forge:netherrack"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:netherrack"
+						}
+					}
+					count: 48L
+				}
+			]
+			rewards: [
+				{
+					id: "6170FA7C3E728A1A"
+					type: "item"
+					item: "minecraft:nether_brick"
+					count: 8
+				}
+				{
+					id: "5E79DAA9733E91F3"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 3
+				}
+				{
+					id: "0285A464BA665277"
+					type: "item"
+					item: "kubejs:calcite_dust"
+					count: 2
+				}
+				{
+					id: "1B736BB907B764C9"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Calcite and Lead Dust!"
+			icon: "kubejs:calcite_dust"
+			x: 37.0d
+			y: -1.5d
+			description: [
+				"Calcite dust is quite difficult to get if you don't have machines for it. But you have to start somewhere, don't you^^"
+				""
+				"To do this, you must first find limestone or fluorite, as well as normal stone. Then, grind all of these into dust using a mortar and blend them together."
+				""
+				"Lead, on the other hand, is fairly easy to find in its ore form. However, it lies deep underground between Y1 and Y30."
+			]
+			dependencies: ["317DBF1CB847DEBB"]
+			hide: true
+			id: "5F1F303E6C12E8CC"
+			tasks: [
+				{
+					id: "2925DB48EAB7D8AF"
+					type: "item"
+					item: "kubejs:calcite_dust"
+					count: 8L
+				}
+				{
+					id: "5478F4EEC45EA5C4"
+					type: "item"
+					item: "silents_mechanisms:lead_dust"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "243A6B28E8778123"
+					type: "item"
+					item: "kubejs:calcite_dust"
+					count: 10
+				}
+				{
+					id: "093473DB804B43A7"
+					type: "item"
+					item: "silents_mechanisms:lead_dust"
+					count: 10
+				}
+				{
+					id: "4D1D45C515F2DAD7"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Blast Furnace! (Unlocks Chapter: Main Questline T1)"
+			icon: "immersiveengineering:blastbrick"
+			x: 40.75d
+			y: -1.5d
+			shape: "gear"
+			description: [
+				"Big quests shaped like gearwheels are classified as mandatory Multiblock quests."
+				""
+				"The Crude Blast Furnace produces Steel Ingots and Slag by smelting Iron Ingots with Coal, Coal Coke or Charcoal as fuel. "
+				""
+				"Construction involves arranging 27 Blast Bricks into a cube and using an Engineer's Hammer on the front face to complete the structure."
+				""
+				"Steel will take us through the next era, especially to produce some Tier 1 Complex Alloys. But more on this later."
+				"{image:modpack:textures/quest_images/blastfurnace.png width:100 height:110 align:1}"
+			]
+			dependencies: [
+				"5F1F303E6C12E8CC"
+				"2438FE1AFB255E80"
+				"401B0384EEA5BD59"
+			]
+			hide: true
+			size: 3.0d
+			id: "294894D5C29AE7EE"
+			tasks: [
+				{
+					id: "76CF8847F4495F1A"
+					type: "item"
+					item: "immersiveengineering:blastbrick"
+					count: 27L
+				}
+				{
+					id: "5DC9F7812890091C"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3E816FDC809A145C"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "1E29D89F796CBEB5"
+					type: "choice"
+					table_id: 7651562546043366665L
+				}
+				{
+					id: "28BAB4742FF49F7E"
+					type: "item"
+					item: "pamhc2foodcore:basiccheeseburgeritem"
+					count: 2
+				}
+				{
+					id: "0CF8B5F6F766B6AF"
+					type: "item"
+					item: "storagedrawers:obsidian_storage_upgrade"
+				}
+				{
+					id: "7FC0D5D5C4F51C0F"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+				{
+					id: "542C0A3C141DC2FE"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Construction Wands!"
+			icon: {
+				id: "constructionwand:stone_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+			x: 17.0d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"With a Construction Wand you can place multiple blocks (up to 1024 with the best tier) at once, extending your build on the side you're facing."
+				""
+				"If that's not enough: later you can upgrade your wand with additional cores, allowing you to place a block behind the block you are facing, conjure blocks in mid air or destroy lots of blocks very fast."
+			]
+			dependencies: ["758404E9AEE3983F"]
+			hide: true
+			id: "2220F0AF36BBD599"
+			tasks: [{
+				id: "414566E2691570F6"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0206332D0B408CA9"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+				{
+					id: "029CAFAFDE8A46B2"
+					type: "item"
+					item: "silents_mechanisms:rabbit_jerky"
+				}
+			]
+		}
+		{
+			title: "Chefs Workstation! [Unlocks Chapter: Cooking and Fishing]"
+			icon: "artisanworktables:workstation_chef"
+			x: 28.5d
+			y: -7.5d
+			description: ["Although this workstation allows you to cook more advanced recipes, it is still very limited. As soon as you finally unlock your first Thermomix, you will be unstoppable and can let off steam with your culinary skills."]
+			dependencies: ["165720DB93DBB5DB"]
+			hide: true
+			size: 3.0d
+			id: "7A0D0768B26DB622"
+			tasks: [{
+				id: "7D22075B0D9A3256"
+				type: "item"
+				item: "artisanworktables:workstation_chef"
+			}]
+			rewards: [
+				{
+					id: "78FA4DB9921F1B3F"
+					type: "item"
+					item: "pamhc2foodextended:cornedbeefitem"
+				}
+				{
+					id: "2896C1F66EC869E6"
+					type: "item"
+					item: "kubejs:coin_t1"
+					count: 5
+				}
+				{
+					id: "56BF814CDCA4EFFC"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Storage Drawers"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: -7.75d
+			y: -3.5d
+			shape: "circle"
+			description: ["Storage drawers use in-world interactions in order to add and remove items from their inventory. They do, however, have user interfaces which can be used to see the specific number of items stored in each drawer, and to modify the various upgrades the drawers can have."]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			id: "6C294EB5FC40E559"
+			tasks: [{
+				id: "618F7D1D2811A5D2"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "378B115CF32901B4"
+					type: "item"
+					item: "storagedrawers:oak_full_drawers_4"
+					count: 4
+				}
+				{
+					id: "4CBB39AB0EE0022F"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Paraglider!"
+			x: 34.51785714285714d
+			y: 1.6071428571428612d
+			shape: "circle"
+			description: [
+				"If you want full Breath-of-the-Wild-style paragliding action in DDSS2, this item is for you!"
+				""
+				"While you're holding Paraglider midair, you fall more slowly, gliding over the land. Just like in BotW. This action consumes stamina and stamina can be increased with stamina vessels. Which are mainly obtained through quests."
+				""
+				"You can ride ascending wind to gain height! Look out for rising particles while holding the Paraglider."
+				""
+				"They works with fire and campfire. Don't try with lava. It doesn't work. I warned you ;-)"
+				""
+				"Last but not leas;t paragliders can be dyed."
+			]
+			dependencies: ["317DBF1CB847DEBB"]
+			hide: true
+			id: "47B0FB87B9CDF24B"
+			tasks: [{
+				id: "05F34AE0129461B5"
+				type: "item"
+				item: {
+					id: "paraglider:paraglider"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A9928082A9D01CD"
+					type: "item"
+					item: "paraglider:stamina_vessel"
+				}
+				{
+					id: "50DEB83ACCC1C81C"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Find Me!"
+			icon: "minecraft:chest"
+			x: -4.5d
+			y: -1.5d
+			description: [
+				"We have the mod \"FindMe\" in DDSS2!"
+				""
+				"It allows you to search for items in nearby inventories by pressing a key. For that you simply need to hover over an item (JEI Compatible) and press \"Y\" by default and cloud particles will spawn in the inventories that have that item."
+				""
+				"If it doesn't work, don't worry! Just check your keybinds. You can find it under \"Search nearby inventories for items\"."
+			]
+			dependencies: ["72B590FC46D7304C"]
+			hide: true
+			id: "0602A0659D0C0AED"
+			tasks: [{
+				id: "49CCF03B6B50D2F8"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4203F4A52D4FEF7A"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			title: "Food Book"
+			icon: "solcarrot:food_book"
+			x: -6.75d
+			y: -1.5d
+			description: [
+				"DDSS2 contains The Spice Of Life Carrot Edition. It's all about variety, not punishment. If you eat a good mix of different foods, it'll reward you."
+				""
+				"When you eat 40 different foods, it'll add another heart to your life up to 10 Hearts."
+				""
+				"So you get milestones at: 40, 80, 120, 160, 200, 240, 280, 320, 360, 400"
+			]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			id: "72B590FC46D7304C"
+			tasks: [{
+				id: "29992B7EEFCA526A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5C8112B637323698"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+		}
+		{
+			title: "Bins!"
+			icon: "mekanism:basic_bin"
+			x: -5.5d
+			y: -3.5d
+			shape: "circle"
+			description: ["Storage Bins are blocks that are used to store large quantities of a single type of item."]
+			dependencies: ["6C294EB5FC40E559"]
+			hide: true
+			id: "02AE3CC3E439F7EF"
+			tasks: [{
+				id: "71E05CFC2AEE468D"
+				type: "item"
+				item: "mekanism:basic_bin"
+			}]
+			rewards: [
+				{
+					id: "3D15FE9901B6EE78"
+					type: "item"
+					item: "mekanism:basic_bin"
+					count: 2
+				}
+				{
+					id: "73ADC5F5E19D611A"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "More Overlays and Chunk Borders "
+			icon: "botania:animated_torch"
+			x: -16.25d
+			y: 0.5d
+			description: [
+				"Just press F7 to switch the light overlay mode on and off. This means you can better light up your base and outside areas, and protect yourself from spawning monsters. A yellow cross means that mobs can spawn at night, while a red cross means they can spawn at any time."
+				""
+				"If you want to switch Chunk Borders on and off, just press F9. This is really important for multiblocks."
+				""
+				"Just make sure your multiblocks don't cross any chunk borders. If the nearby chunk of a multiblock machine isn't loaded at the same time (e.g. on world login), it can cause issues and lead to strange machine behaviour. It probably won't have much of an impact on a smeltery or a coke oven. But you can run into some problems with more complex multiblocks that have multiple input and output hatches. It's better to be safe than sorry, after all."
+			]
+			dependencies: ["4A8B01968EB75784"]
+			hide: true
+			id: "2468700896FE5013"
+			tasks: [{
+				id: "31919AABA13B7A97"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "4A2047515DA96D90"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 4
+				}
+				{
+					id: "2314602D2023AAF3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "About DDSS 2 And Its Mining Levels..."
+			icon: {
+				id: "minecraft:golden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -16.25d
+			y: -1.5d
+			description: [
+				"In DDSS 2, ores are not gated behind special mining levels, but if at all, then mostly through other dimensions. We have a lot of different great dimensions in DDSS 2, and we use a lot of them as a prerequisite for your main progression."
+				""
+				"This means that with mining level \"Obsidian\" and \"Netherite\" you will be able to mine pretty much everything, but I highly recommend specializing in either Tinker's Construct Tools or Silent Gear Tools because you can get a lot of benefits from them."
+			]
+			dependencies: ["4A8B01968EB75784"]
+			hide: true
+			id: "0AC228C053844BB5"
+			tasks: [{
+				id: "337AD4DB9EF18665"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5DE1353CDBFF1F23"
+				type: "item"
+				item: "pamhc2foodextended:leafychickensandwichitem"
+				count: 2
+			}]
+		}
+		{
+			title: "Wooden Hook!"
+			x: 28.5d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"These hooks are absolutely amazing! They'll help you climb mountains and move faster than you ever thought possible!"
+				""
+				"I'm not going to lie, the first wooden version might not have the greatest range, but trust me, the improved versions in the upcoming tiers are absolutely unbeatable!"
+				""
+				"But be careful! You can absolutely kill yourself with them!"
+			]
+			dependencies: ["173D40B38702D1AB"]
+			hide: true
+			id: "3FA0ADE367CA32D1"
+			tasks: [{
+				id: "11B5BBCCE2D125DF"
+				type: "item"
+				item: {
+					id: "grapple_hooks:hook_wooden"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D95883FD8218F2E"
+					type: "item"
+					item: "pamhc2foodextended:chocolatemilkshakeitem"
+				}
+				{
+					id: "3AC5C2947AD2B8C0"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Hook Enchantments!"
+			x: 28.5d
+			y: 4.5d
+			shape: "circle"
+			description: [
+				"I'm sure you'll be thrilled to hear that hooks can also be enchanted!"
+				""
+				"The hooks bring two enchantments into play: \"Hook Speed (1-7)\" and \"Rope Length (1-7).\" I think both are self-explanatory, but I just wanted to mention it."
+			]
+			dependencies: ["3FA0ADE367CA32D1"]
+			hide: true
+			id: "055B66167133C766"
+			tasks: [{
+				id: "245AED79BBEC5CC7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "472E5DB325F3CF21"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Ore Unification?"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 15.5d
+			y: -1.5d
+			description: [
+				"DDSS2 has a fully customized Ore Unification System. So, for example, you can't find many different types of modded copper ores, and smelt them into many different copper ingots."
+				""
+				"Regardless of the type of copper ore found, the end result should always be consistent. Nevertheless, you should not encounter any others, with the possible exception of variations such as nether copper ore."
+			]
+			dependencies: ["1EDF4381123B8CF8"]
+			hide: true
+			id: "7203DC15752F0650"
+			tasks: [{
+				id: "59259DAD272876F4"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "53F5FB834BB95108"
+					type: "item"
+					item: "silents_mechanisms:copper_ore"
+				}
+				{
+					id: "75D10A603C07CB9A"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "More Basic Ores and Ingots!"
+			icon: "mekanism:ingot_osmium"
+			x: 25.0d
+			y: 0.25d
+			description: [
+				"Limonite, Rosite and Osmium can also be found quite often in the overworld. These materials will all be very useful to us on our journey. For now, though, they can serve as good temporary tools or weapons, depending on your current equipment. Especially Rosite or Osmium."
+				""
+				"Limonite Ore at Y-Level 28–55"
+				"Rosite Ore at Y-Level 40–85."
+				"Osmium Ore at Y level 0-60."
+			]
+			dependencies: ["1AC340811EE0C6FE"]
+			hide: true
+			id: "5032DE5BE925D739"
+			tasks: [
+				{
+					id: "4B2946F844B572FF"
+					type: "item"
+					title: "Any #forge:ingots/limonite"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/limonite"
+						}
+					}
+				}
+				{
+					id: "20A85F3E6489697D"
+					type: "item"
+					title: "Any #forge:ingots/rosite"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/rosite"
+						}
+					}
+				}
+				{
+					id: "69E2822624027DE8"
+					type: "item"
+					title: "Any #forge:ingots/osmium"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/osmium"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "69AD73C9F084A9A5"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "30456230F9470174"
+					type: "item"
+					item: "pamhc2foodextended:beefwellingtonitem"
+				}
+				{
+					id: "255220336B938FB9"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Rosite Tools and Weapons!"
+			x: 24.0d
+			y: 3.5d
+			shape: "circle"
+			description: ["Rosite in particular is known for providing very good early game tools and weapons. The sword, for example, does more damage than a diamond sword."]
+			dependencies: ["5032DE5BE925D739"]
+			hide: true
+			id: "545035A70D8E7E2B"
+			tasks: [{
+				id: "0B5E9E235148751A"
+				type: "item"
+				item: {
+					id: "aoa3:rosite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5C160C802B1EE602"
+					type: "item"
+					item: "aoa3:rosite_ore"
+					count: 4
+				}
+				{
+					id: "546AD9E841D1E303"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "2AD6018A56EF75DB"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Osmium Armor!"
+			x: 26.0d
+			y: 3.5d
+			shape: "circle"
+			description: ["Osmium has very good early game armor that is stronger than iron but slightly weaker than diamond."]
+			dependencies: ["5032DE5BE925D739"]
+			hide: true
+			id: "47951B4AE979AC41"
+			tasks: [{
+				id: "13312DCB41FC7152"
+				type: "item"
+				item: {
+					id: "mekanismtools:osmium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5FA1DA581E3058E6"
+					type: "item"
+					item: {
+						id: "mekanismtools:osmium_helmet"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "045AF27E447784C8"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"During the early stages of the game, collecting large amounts of ore can be tedious. Later on, I highly recommend the hammers from Tinkers and Silents, which come with lots of bonuses. However, if you are looking for a more vanilla-style hammer that can also be enchanted later on, there are earlier alternatives or general alternatives."
+				""
+				"The stone hammer can be crafted on the workbench and mines a 3x3 area. You need an enhanced stick for it."
+				""
+				"There are four different types of vanilla hammer: Stone, Iron, Diamond and Netherite."
+			]
+			dependencies: ["3699F9707D23A36B"]
+			hide: true
+			id: "2AB9377D6925C8C8"
+			tasks: [{
+				id: "6E7A73EB6769A4F6"
+				type: "item"
+				item: {
+					id: "hammers:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "75600E9FD83CEE73"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 8
+			}]
+		}
+		{
+			title: "Iron Hammer!"
+			x: 19.0d
+			y: 1.5d
+			shape: "circle"
+			description: ["The iron hammer is clearly faster than the stone one, and it is also more durable."]
+			dependencies: ["758404E9AEE3983F"]
+			hide: true
+			id: "54767E2DDFFBD33F"
+			tasks: [{
+				id: "0C44674B9390EED1"
+				type: "item"
+				item: {
+					id: "hammers:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "04632E727A9A2DF8"
+					type: "choice"
+					table_id: 4100322638183988232L
+				}
+				{
+					id: "6481A543E3E7F2C0"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Enhanced Iron Hammer!"
+			x: 19.0d
+			y: 4.5d
+			shape: "circle"
+			description: [
+				"Iron, Diamond and Netherite hammers also have an enhanced version of it, which is even more durable, but even more importantly, way faster."
+				""
+				"If you've got enough iron, then by all means, go for it!"
+			]
+			dependencies: ["54767E2DDFFBD33F"]
+			hide: true
+			id: "0E98506F0BBFC02F"
+			tasks: [{
+				id: "4E097A733F9A7C81"
+				type: "item"
+				item: {
+					id: "hammers:enhanced_iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71B8AA7739D80E38"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "09284A7C5033FD21"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Loot-Crates?"
+			x: 37.0d
+			y: 3.75d
+			shape: "circle"
+			description: [
+				"In the Nether, you'll discover amazing loot crates just waiting to be opened! These crates are rare and usually well hidden in Netherrack, which makes them all the more exciting when you do find one! You can't open them yourself – you need a recycler, which you don't have yet. But if you see a few, feel free to take them with you!"
+				""
+				"Open those loot crates in a recycler and you could get up to five awesome dungeon loot items! Depending on which dimension you are in, you'll find loot crates with higher tiers and better loot – how awesome is that?!"
+				""
+				"Loot crates cannot be detected with a 'Scannables' scanner."
+			]
+			dependencies: ["401B0384EEA5BD59"]
+			hide: true
+			id: "5D3CEA156C0EA45C"
+			tasks: [{
+				id: "2CD374F38E3AC9F5"
+				type: "item"
+				item: "kubejs:crate_t1"
+			}]
+			rewards: [{
+				id: "453AB9C0B18087E5"
+				type: "item"
+				item: "kubejs:crate_t1"
+			}]
+		}
+		{
+			title: "Nature's Compass!"
+			x: 29.75d
+			y: -4.5d
+			shape: "circle"
+			description: [
+				"Nature's Compass is a utility item that allows users to search for a biome's location anywhere in the world and view detailed information about it."
+				""
+				"If you right-click while holding Nature's Compass, the biome selection GUI will open. Here, you can search for a biome or view information about it. Shift-right-clicking will reset the compass. When the compass is not pointing at a biome, it will point at the world spawn."
+				""
+				"It is compatible with all biomes, both vanilla and modded."
+			]
+			dependencies: ["173D40B38702D1AB"]
+			hide: true
+			id: "23F7B99AEF12C7FD"
+			tasks: [{
+				id: "786F0D353201B3A8"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2A812D80E6410725"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "196EC454B6A4F050"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Growth Accelerator?"
+			x: 31.5d
+			y: -6.25d
+			shape: "circle"
+			description: [
+				"Growth accelerators come in different tiers and are used to increase the growth rate of plants grown above them. They can be stacked on top of each other to increase growth speed further."
+				""
+				"Each tier has an increased range but provides the same amount of growth. Using the maximum amount of each tier is just as efficient as using only the maximum tier. Please note that the range is relative to one block below the crop."
+				""
+				"{image:modpack:textures/quest_images/growthaccelerator.png width:200 height:125 align:1}"
+			]
+			dependencies: ["485EDA98DC0A6DA6"]
+			hide: true
+			id: "7FBFBE3FECFB4B09"
+			tasks: [{
+				id: "0B7FADA67F65898A"
+				type: "item"
+				item: "mysticalagriculture:inferium_growth_accelerator"
+			}]
+			rewards: [
+				{
+					id: "6A707430ADD86212"
+					type: "item"
+					item: "mysticalagriculture:inferium_growth_accelerator"
+					count: 8
+				}
+				{
+					id: "6B5AE52CD230E541"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Dank Storage Tier 0!"
+			x: 34.5d
+			y: -4.75d
+			shape: "circle"
+			description: [
+				"The 'Dank' comes in seven different tiers and can be used as storage container, backpack and much more besides. These aren't your typical storage containers: each slot can hold much more than an ordinary stack, and the containers get larger with each tier."
+				""
+				"Firstly, there are two modes: Construction and Bag. These can be switched by toggling the usetype keybind while holding a Dank. Additionally, there is a block called a Dock that can be used to hold Dank Storage containers and allow them to interact with hoppers and other storage systems, or to upgrade your current Dank Storage container."
+				""
+				"Tier 0 has nine slots, each with a capacity of 256 items."
+			]
+			dependencies: ["317DBF1CB847DEBB"]
+			hide: true
+			id: "6D85787728EB92E9"
+			tasks: [{
+				id: "3441CF0892F62DE5"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_1"
+					Count: 1b
+					tag: {
+						inv: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4DF263FC40363401"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/t0_bags"
+								BagType: "treasurebags:t0_bag"
+							}
+						}
+					}
+				}
+				{
+					id: "6ADD62008919C384"
+					type: "item"
+					item: "silents_mechanisms:bismuth_ingot"
+					count: 4
+				}
+				{
+					id: "3CB600D9B0996E36"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+	]
+}
