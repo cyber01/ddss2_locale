@@ -1,0 +1,200 @@
+{
+	id: "53E1F3C0BFAC928D"
+	group: ""
+	order_index: 5
+	filename: "tier_5__main_questline"
+	title: "{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.title}"
+	icon: {
+		id: "custommachinery:custom_machine_item"
+		Count: 1b
+		tag: {
+			machine: "custommachinery:pulverizer05_master"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.5E25FFA00AF17740.title}"
+			icon: "ftbquests:book"
+			disable_toast: true
+			x: -10.25d
+			y: -1.5d
+			description: ["{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.5E25FFA00AF17740.description.0}"]
+			id: "5E25FFA00AF17740"
+		}
+		{
+			title: "{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.4B5A6E46F0095314.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -8.25d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.4B5A6E46F0095314.description.0}"
+				""
+				"{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.4B5A6E46F0095314.description.1}"
+				""
+				"{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.4B5A6E46F0095314.description.2}"
+			]
+			dependencies: ["563BE992A7DC085C"]
+			hide: true
+			size: 3.0d
+			id: "4B5A6E46F0095314"
+			tasks: [{
+				id: "535DC383516836FA"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4852182E8E68D535"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.0F0CB8532015F89A.title}"
+			icon: "aoa3:nowhere_portal"
+			x: -3.75d
+			y: -1.5d
+			description: [
+				"{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.0F0CB8532015F89A.description.0}"
+				""
+				"{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.0F0CB8532015F89A.description.1}"
+				""
+				"{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.0F0CB8532015F89A.description.2}"
+			]
+			dependencies: ["4B5A6E46F0095314"]
+			hide: true
+			id: "0F0CB8532015F89A"
+			tasks: [
+				{
+					id: "137764AF483D0F26"
+					type: "dimension"
+					dimension: "boss_tools:mars"
+				}
+				{
+					id: "02E3127B69CF6C02"
+					type: "item"
+					item: "allthemodium:allthemodium_ore"
+				}
+				{
+					id: "25AE3BEEE7322847"
+					type: "item"
+					item: {
+						id: "boss_tools:ice_shard"
+						Count: 10b
+						tag: {
+							Enchantments: [{
+								lvl: 1s
+								id: "ensorcellation:soulbound"
+							}]
+						}
+					}
+				}
+				{
+					id: "7D01153CD47970B0"
+					type: "item"
+					item: "kubejs:lithium_ore"
+				}
+				{
+					id: "52102EA7D2B4A0EC"
+					type: "item"
+					item: "taiga:uru_ore"
+				}
+				{
+					id: "74C8CD79FBC5AB1A"
+					type: "item"
+					item: "boss_tools:mars_sand"
+				}
+				{
+					id: "2B8F0028827315F1"
+					type: "item"
+					item: "boss_tools:mars_stone"
+				}
+			]
+			rewards: [
+				{
+					id: "15C3C92416247D4C"
+					type: "item"
+					item: "taiga:uru_ore"
+				}
+				{
+					id: "64D380CACD09D97C"
+					type: "item"
+					item: "allthemodium:allthemodium_ore"
+				}
+				{
+					id: "6347A994317EC2FE"
+					type: "item"
+					item: "kubejs:coin_t5"
+				}
+			]
+		}
+		{
+			title: "{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.66675045FD07E1FA.title}"
+			icon: "minecraft:tnt"
+			x: 0.0d
+			y: -1.5d
+			shape: "gear"
+			description: [
+				"{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.66675045FD07E1FA.description.0}"
+				""
+				"{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.66675045FD07E1FA.description.1}"
+				""
+				"{ddss2.tier_5__main_questline.53E1F3C0BFAC928D.66675045FD07E1FA.description.2}"
+			]
+			dependencies: ["0F0CB8532015F89A"]
+			hide: true
+			size: 2.0d
+			id: "66675045FD07E1FA"
+			tasks: [
+				{
+					id: "7E1BDB8A541FCE62"
+					type: "item"
+					item: "masterfulmachinery:tier4_controller"
+				}
+				{
+					id: "061E55332353F58E"
+					type: "item"
+					item: "extendedcrafting:the_ultimate_block"
+				}
+				{
+					id: "6B80B7A85859BE61"
+					type: "item"
+					item: "taiga:uru_block"
+					count: 8L
+				}
+				{
+					id: "54BD4484648ACF6F"
+					type: "item"
+					item: "kubejs:mbcasing_t4"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "7DA8B804DD33A4C9"
+					type: "item"
+					item: "masterfulmachinery:tier4_item1_port_items_input"
+				}
+				{
+					id: "1666DFC236586CEE"
+					type: "item"
+					item: "masterfulmachinery:tier4_item1_port_items_output"
+				}
+				{
+					id: "02F20EEBDAF879E9"
+					type: "item"
+					item: "masterfulmachinery:tier4_energy1_port_energy_input"
+				}
+				{
+					id: "411AC06F66365095"
+					type: "item"
+					item: "kubejs:coin_t5"
+				}
+			]
+		}
+	]
+}
