@@ -6708,7 +6708,8 @@
 				""
 				"-Red - Indicates the Storage Cell is Full."
 				"-Orange - Indicates the Storage Cell cannot hold any more types, but it can store more items."
-				"-Green - Indicates the cell can hold more types, or more items."
+				"-Blue - Indicates the cell can hold more types, or more items."
+				"-Green - Indicates the cell is empty."
 				"-Black - Indicates there is no channel, or power is offline."
 			]
 			dependencies: ["533F0D84B1B7A3C5"]

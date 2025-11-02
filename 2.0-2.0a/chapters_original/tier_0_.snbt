@@ -1349,7 +1349,7 @@
 		}
 		{
 			title: "Nuts and Bolts!"
-			x: 21.0d
+			x: 18.0d
 			y: -4.5d
 			description: [
 				"Like many items in DDSS2, nuts and bolts come in six different tiers. To create them, you must first cut plates into rods, which are then turned into nuts and bolts."
@@ -1986,8 +1986,8 @@
 		}
 		{
 			title: "Copper Chest"
-			x: 19.0d
-			y: -4.5d
+			x: 16.75d
+			y: -7.5d
 			shape: "circle"
 			description: [
 				"The capacity of a copper chest is 45 inventory slots and it can be placed next to another chest."
@@ -2018,8 +2018,8 @@
 		}
 		{
 			title: "Iron Chest!"
-			x: 19.0d
-			y: -7.5d
+			x: 16.75d
+			y: -10.25d
 			shape: "circle"
 			description: [
 				"The capacity of the iron chest is 54 inventory slots and it can be placed next to another chest."
@@ -4394,6 +4394,65 @@
 				}
 				{
 					id: "3CB600D9B0996E36"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Copper Barrel"
+			x: 19.0d
+			y: -7.5d
+			shape: "circle"
+			description: [
+				"The capacity of a copper barrels is 45 inventory slots."
+				""
+				"Barrel upgrades can also be used to upgrade iron chests."
+			]
+			dependencies: ["04914CFC7657F0D2"]
+			hide: true
+			id: "55A8337508183B11"
+			tasks: [{
+				id: "7FE6E93B721D5DF6"
+				type: "item"
+				item: "metalbarrels:copper_barrel"
+			}]
+			rewards: [
+				{
+					id: "587399CE9C6A64D3"
+					type: "item"
+					item: "metalbarrels:wood_to_copper"
+				}
+				{
+					id: "0EA9E387A0ECF7A5"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Iron Barrel"
+			x: 19.0d
+			y: -10.25d
+			shape: "circle"
+			description: ["Iron Barrels have an inventory size of 54 slots."]
+			dependencies: ["55A8337508183B11"]
+			hide: true
+			id: "479E2CAEF592B26C"
+			tasks: [{
+				id: "148CC73A1E78E77B"
+				type: "item"
+				item: "metalbarrels:iron_barrel"
+			}]
+			rewards: [
+				{
+					id: "5F46F65B0BD1996F"
+					type: "item"
+					item: "metalbarrels:copper_to_iron"
+					count: 2
+				}
+				{
+					id: "6F952BCA1E56D6CA"
 					type: "item"
 					item: "kubejs:coin_t1"
 				}
