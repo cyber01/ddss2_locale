@@ -1,0 +1,269 @@
+{
+	id: "69E02EB1868B6E83"
+	group: ""
+	order_index: 6
+	filename: "chef_de_cuisine"
+	title: "Cooking and Fishing"
+	icon: "pamhc2foodextended:baconmushroomburgeritem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to Cooking and Fishing!"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -9.0d
+			y: -1.0d
+			description: [
+				"Welcome to the cooking and fishing class! Here, we will expand our cooking skills so that we can survive and get as many hearts as possible."
+				""
+				"We're going to have so much fun exploring aquaculture fishing techniques to make our fish dishes even more delicious and to discover amazing treasures!"
+			]
+			dependencies: ["7A0D0768B26DB622"]
+			hide: true
+			size: 2.0d
+			id: "645A668C614F3B2E"
+			tasks: [{
+				id: "69DC8A838F61C2D6"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "751A8E3515498753"
+				type: "item"
+				item: "kubejs:coin_t1"
+			}]
+		}
+		{
+			title: "Salt and Wheat Flour!"
+			icon: "mekanism:salt"
+			x: -5.25d
+			y: 0.5d
+			description: [
+				"Salt can be produced very easily using water. However, it can also be found in block form in rivers and lakes. Later on, you can use a fluid mixer and solidifier to make salt blocks from water."
+				""
+				"To make wheat flour, you simply need to grind the wheat using either a mortar or a machine. I'm sure I don't need to explain to a professional like you how to obtain wheat."
+			]
+			dependencies: ["645A668C614F3B2E"]
+			hide: true
+			id: "58994753663D0F50"
+			tasks: [
+				{
+					id: "73B34AB4D1836F6D"
+					type: "item"
+					item: "mekanism:salt"
+				}
+				{
+					id: "29C76A23CB4E7F41"
+					type: "item"
+					item: "pneumaticcraft:wheat_flour"
+				}
+			]
+			rewards: [
+				{
+					id: "64F6C519E61A8371"
+					type: "item"
+					item: "mekanism:salt"
+				}
+				{
+					id: "31D414F2271ED13C"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Cooking and Fishing!"
+			icon: "ftbquests:book"
+			x: -9.0d
+			y: -0.75d
+			description: ["This chapter begins once you have completed the Tier 0 quest: \"Chefs Workstation!\"."]
+			id: "5B5077DAC57AEE4D"
+		}
+		{
+			title: "Milk!"
+			x: -5.25d
+			y: -2.5d
+			description: [
+				"Obtaining milk is just as easy as with other packs. Cows are your best option for now, and the milk you obtain can then be crafted into Fresh Milk."
+				""
+				"Soy milk is a great option if you're looking to cut out cows from your diet, and the good news is, this is totally doable without even needing T1 machines!"
+			]
+			dependencies: ["645A668C614F3B2E"]
+			hide: true
+			id: "1F301A3B73799534"
+			tasks: [{
+				id: "17582B31E938C382"
+				type: "item"
+				item: "pamhc2foodcore:freshmilkitem"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "44E95ECAE4444E49"
+					type: "item"
+					item: "pamhc2foodcore:freshmilkitem"
+					count: 4
+				}
+				{
+					id: "24314F00B5BFC3B7"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Cheese and Butter!"
+			icon: "pamhc2foodcore:cheeseitem"
+			x: -2.0d
+			y: -1.0d
+			description: [
+				"The Pack Creator is from Switzerland, so it's always about cheese, right? :D"
+				""
+				"Make cheese by mixing milk and salt together, and make butter by heating milk in a pan."
+				""
+				"I know making butter can't be that simple, but it's all good. We're not trying to impress Gordon Ramsey here."
+			]
+			dependencies: [
+				"1F301A3B73799534"
+				"58994753663D0F50"
+			]
+			hide: true
+			id: "0B9486A8D1968854"
+			tasks: [
+				{
+					id: "04F05B72D9C3BAD6"
+					type: "item"
+					item: "pamhc2foodcore:cheeseitem"
+				}
+				{
+					id: "3D87930991BFF11E"
+					type: "item"
+					item: "pamhc2foodcore:butteritem"
+				}
+			]
+			rewards: [
+				{
+					id: "77D385B167311253"
+					type: "item"
+					item: {
+						id: "artisantools:pan_majestic"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "18831F4DFDD1D744"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Dough!"
+			x: 0.25d
+			y: -1.0d
+			description: ["All you need to make a little dough is salt, water, and wheat flour."]
+			dependencies: ["0B9486A8D1968854"]
+			hide: true
+			id: "38E7E963169FF954"
+			tasks: [{
+				id: "3AD26C2EFCC8B3AF"
+				type: "item"
+				item: "pamhc2foodcore:doughitem"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "78D9F4887D6329A8"
+					type: "item"
+					item: "pamhc2foodcore:doughitem"
+					count: 2
+				}
+				{
+					id: "043A420951104E1F"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Bread and Toast!"
+			icon: "pamhc2foodcore:toastitem"
+			x: 2.5d
+			y: -1.0d
+			description: [
+				"So, whether you want to make bread or toast bread, you've got to knead the dough into a raw bread shape first. Then you can either bake it directly in the oven to make bread, or mix it with butter to make toast bread."
+				""
+				"We'll do both for now."
+			]
+			dependencies: ["38E7E963169FF954"]
+			id: "17BF734B62D62411"
+			tasks: [
+				{
+					id: "459FFFDD7D00F0F7"
+					type: "item"
+					item: "minecraft:bread"
+				}
+				{
+					id: "5426CF914421F3E3"
+					type: "item"
+					item: "pamhc2foodcore:toastitem"
+				}
+			]
+			rewards: [
+				{
+					id: "62926CB5BE148E49"
+					type: "item"
+					item: "kubejs:rawbread"
+					count: 2
+				}
+				{
+					id: "691BA8FF64EB73F6"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+		{
+			title: "Toast!"
+			x: 4.75d
+			y: -1.0d
+			description: [
+				"Toast is delicious as it is, but when you cut it into slices, you can do so much more with them! For example, you could make a delicious cheese toastie!"
+				""
+				"So.. cut your toast into slices and add cheese!"
+			]
+			dependencies: ["17BF734B62D62411"]
+			id: "4D5961D32D8719F3"
+			tasks: [{
+				id: "5F0D8C209716EF01"
+				type: "item"
+				item: "pamhc2foodextended:cheeseontoastitem"
+			}]
+			rewards: [
+				{
+					id: "198AA94D4F6CD00C"
+					type: "item"
+					item: "pamhc2foodcore:cheeseitem"
+					count: 4
+				}
+				{
+					id: "07AFA41FEF35A239"
+					type: "item"
+					item: "pamhc2foodcore:freshmilkitem"
+					count: 4
+				}
+				{
+					id: "01244CFD6238E6C8"
+					type: "item"
+					item: "kubejs:coin_t1"
+				}
+			]
+		}
+	]
+}
