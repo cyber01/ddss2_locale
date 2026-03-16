@@ -1,0 +1,28 @@
+{
+	id: "579499C69751F113"
+	group: ""
+	order_index: 6
+	filename: "tier_6_main_questline"
+	title: "{ddss2.tier_6_main_questline.579499C69751F113.title}"
+	icon: {
+		id: "custommachinery:custom_machine_item"
+		Count: 1b
+		tag: {
+			machine: "custommachinery:pulverizer06_fusion"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Tier 6"
+		icon: "ftbquests:book"
+		x: -13.5d
+		y: -1.75d
+		description: ["This chapter begins once you have completed the final T5 quest: \"Tier 3 Rocket\""]
+		id: "04A6565272B533E8"
+		tasks: [{
+			id: "30A8BAEB0952AD65"
+			type: "checkmark"
+		}]
+	}]
+}
