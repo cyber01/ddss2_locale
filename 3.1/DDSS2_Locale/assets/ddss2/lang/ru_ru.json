@@ -1,0 +1,17 @@
+{
+  "tips.title.tip": "Совет",
+
+
+
+
+  "gui.tips.list.title": "Список советов",
+  "gui.tips.list.search": "Поиск",
+  "gui.tips.list.show_disabled": "Показать отключённые",
+  "gui.tips.list.entry.tip_id": "ID совета: %s",
+  "gui.tips.list.entry.added_by": "Добавлен: %s",
+  "gui.tips.list.entry.cycle_time": "Продолжительность цикла: %s",
+  "gui.tips.list.entry.copied": "Скопирован!",
+  "gui.tips.list.entry.click_to_copy": "Нажми, чтобы скопировать ID",
+  "gui.tips.list.entry.disabled": "Отключено конфигурацией!",
+  "gui.tips.list.config": "Конфигурация"
+}
