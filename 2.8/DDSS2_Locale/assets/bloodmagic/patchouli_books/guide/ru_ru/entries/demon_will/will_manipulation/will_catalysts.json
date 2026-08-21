@@ -1,0 +1,67 @@
+{
+  "name": "Катализаторы Воли",
+  "icon": "bloodmagic:rawcatalyst",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Если у $(raw)Демонической Воли$() и есть недостаток, так это то, что собирать её — процесс медленный и утомительный. Даже если у тебя почти полностью заполнен $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарический Камень$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Разумный Меч$(), зачарованный на $(thing)Добычу III$() и дополнительно усиленный $(l:bloodmagic:alchemy_table/anointments/looting_anointment)Блеском Грабителя II$(), всё равно приходится заниматься этим вручную. А у тебя, как у настоящего гения, есть дела поважнее, чем бегать по миру, лупить пауков и рубить скелетов."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "К счастью, этот процесс можно полностью автоматизировать, освободив себе время для расширения своей злой империи (или для выращивания свёклы, если тебе так больше нравится). $(br2)Первый шаг — получить немного $(l:bloodmagic/demon_will/will_manipulation/crystallized_will)Кристаллов Воли$(). Подойдут любые: $(raw)Сырая$(), $(steadfast)Стойкая$(), $(destructive)Разрушительная$(), $(vengeful)Мстительная$() или $(corrosive)Коррозионная$() Воля — главное, чтобы у тебя было 4 кристалла одного типа."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Сырой Кластер Кристаллов",
+      "a.recipe": "bloodmagic:soulforge/raw_crystal_block",
+      "b.heading": "Стойкий Кластер",
+      "b.recipe": "bloodmagic:soulforge/steadfast_crystal_block",
+      "c.heading": "Разрушительный Кластер",
+      "c.recipe": "bloodmagic:soulforge/destructive_crystal_block"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Мстительный Кластер",
+      "a.recipe": "bloodmagic:soulforge/vengeful_crystal_block",
+      "b.heading": "Коррозионный Кластер",
+      "b.recipe": "bloodmagic:soulforge/corrosive_crystal_block"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Когда у тебя есть такой кластер, просто поставь его в любом чанке, обеспечь этот чанк волей соответствующего типа и жди. Со временем на кластере вырастут новые шпили, как и на $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Демоническом Кристаллизаторе$(). $(br2)Можно даже автоматизировать разрушение этих дополнительных шпилей с помощью ритуала $(l:bloodmagic:rituals/ritual_list/ritual_crystal_harvest)Трещина Расколотого Кристалла$(), а сбор кристаллов — с помощью $(l:bloodmagic:rituals/ritual_list/ritual_zephyr)Зов Зефира$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "С помощью базовой системы $(l:bloodmagic:demon_will/item_routing/routing_nodes)Маршрутизаторов$() можно даже отправлять излишки кристаллов обратно в $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Демонический Тигель$(), полностью автоматизируя процесс и получая чистую прибыль. $(br2)Однако ты, возможно, заметил одну проблему — эта схема очень медленная. Каждый кристалл даёт новый шпиль только раз в несколько минут и требует почти столько же воли для роста, сколько ты получаешь при его сжигании — в среднем выходит примерно 1 воля в минуту на шпиль."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_soulforge",
+      "a.heading": "Катализатор Сырой Воли",
+      "a.recipe": "bloodmagic:soulforge/raw_catalyst",
+      "b.heading": "Катализатор Стойкой Воли",
+      "b.recipe": "bloodmagic:soulforge/steadfast_catalyst",
+      "c.heading": "Катализатор Разрушительной Воли",
+      "c.recipe": "bloodmagic:soulforge/destructive_catalyst"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Катализатор Мстительной Воли",
+      "a.recipe": "bloodmagic:soulforge/vengeful_catalyst",
+      "b.heading": "Катализатор Коррозионной Воли",
+      "b.recipe": "bloodmagic:soulforge/corrosive_catalyst"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "К счастью, тут на помощь приходят наши новые друзья — $(item)Катализаторы Воли$(). Держи катализатор в руке и просто нажми [$(k:use)] по $(thing)Кластеру Кристаллов$() соответствующего типа, чтобы ускорить его рост! Каждый катализатор уменьшает количество воли, необходимое для роста шпиля, с 45 до 25 и ускоряет процесс в 10 раз. Одного катализатора хватает на 10 шпилей, что даёт чистую прибыль в 200 воли с каждого катализатора."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Можно даже использовать двойную дозу на кластере — тогда эффект продлится на 20 ростов вместо 10, но других преимуществ это не даст. $(br2)Конечно, проницательный сангвимансер заметит, что одна ручная проблема — бегать и бить монстров мечом — сменилась на другую — бегать и активировать кристаллы катализатором."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "К счастью, и для этого есть ритуал! $(l:bloodmagic:rituals/ritual_list/ritual_crystal_catalyst)Сбор Заблудших Душ$() автоматически применяет катализаторы ко всем кристаллам в своей зоне действия. С парой ферм и очень, очень хитрой системой $(thing)Маршрутизаторов$() можно автоматизировать всё сверху донизу... Но, как говорится, это уже задача для самого читателя."
+    }
+  ]
+}

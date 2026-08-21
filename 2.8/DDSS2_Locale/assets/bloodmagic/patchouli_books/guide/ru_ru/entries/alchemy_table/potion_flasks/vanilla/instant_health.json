@@ -1,0 +1,20 @@
+{
+  "name": "Мгновенное Исцеление",
+  "icon": "minecraft:glistering_melon_slice",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Мгновенное Исцеление$() восстанавливает цели 4 единицы здоровья за каждый уровень эффекта. Если цель — $(thing)нежить$(), она, наоборот, получает 4 единицы урона за уровень."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Мгновенное Исцеление",
+      "a.recipe": "bloodmagic:flask/health",
+      "b.heading": "Мгновенное Исцеление II",
+      "b.recipe": "bloodmagic:flask/potency_health",
+      "c.heading": "Мгновенное Исцеление III",
+      "c.recipe": "bloodmagic:flask/potency_average_health"
+    }
+  ]
+}

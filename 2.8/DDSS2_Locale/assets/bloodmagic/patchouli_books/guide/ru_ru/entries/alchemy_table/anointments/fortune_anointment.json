@@ -1,0 +1,37 @@
+{
+  "name": "Экстракт Фортуны",
+  "icon": "bloodmagic:fortune_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Фортуны",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment",
+      "text": "Увеличивает количество дропа с некоторых добываемых блоков. Эффект складывается с зачарованием «Удача». $(br2)Подходящие предметы: инструменты, мечи, заряды.$(br2)Накладывает: Фортуна I (256 блоков)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Фортуны L",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_l",
+      "text": "Улучшенная версия масла, действует в четыре раза дольше. $(br2)Накладывает: Фортуна I (1024 блока)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Фортуны II",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_2",
+      "text": "Улучшенная версия масла, увеличивает количество дропа. $(br2)Накладывает: Фортуна II (256 блоков)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Фортуны XL",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_xl",
+      "text": "Улучшенная версия масла, действует в шестнадцать раз дольше. $(br2)Накладывает: Фортуна I (4096 блоков)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Фортуны III",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_3",
+      "text": "Улучшенная версия масла, увеличивает количество дропа. $(br2)Накладывает: Фортуна III (256 блоков)"
+    }
+  ]
+}

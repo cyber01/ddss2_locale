@@ -1,0 +1,17 @@
+{
+  "name": "Маршрутизатор узлов",
+  "icon": "bloodmagic:noderouter",
+  "category": "bloodmagic:demon_will/item_routing",
+  "priority": "true",
+  "pages": [{
+    "type": "patchouli:text",
+    "text": "$(item)Маршрутизатор узлов$() используется для объединения узлов в единую сеть. Его использование очень простое — просто зажмите [$(k:sneak)] и [$(k:use)], наведясь на узел, затем повторите то же самое на другом узле в радиусе 16 блоков. Теперь эти два узла связаны между собой. Если вы хотите отменить выбор узла, просто нажмите [$(k:use)] на любом другом блоке. Подробнее см. в разделе $(l:bloodmagic:demon_will/item_routing/routing_nodes)«Маршрутизируемые узлы»$()."
+  },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Маршрутизатор узлов",
+      "recipe": "bloodmagic:soulforge/node_router",
+      "text": "$(italic)Немного волшебная палочка.$()"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Блеск расхитителя",
+  "icon": "bloodmagic:looting_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Блеск расхитителя",
+      "recipe": "bloodmagic:alchemytable/looting_anointment",
+      "text": "Увеличивает количество дропа с убитых мобов. Эффект складывается с зачарованием «Добыча». $(br2)Подходящие предметы: инструменты, мечи.$(br2)Накладывает: Расхищение I (256 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Блеск расхитителя L",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_l",
+      "text": "Улучшенная версия масла, действует в четыре раза дольше. $(br2)Накладывает: Расхищение I (1024 удара)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Блеск расхитителя II",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_2",
+      "text": "Улучшенная версия масла, ещё больше увеличивает количество дропа с убитых мобов. $(br2)Накладывает: Расхищение II (256 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Блеск расхитителя XL",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_xl",
+      "text": "Улучшенная версия масла, действует в шестнадцать раз дольше. $(br2)Накладывает: Расхищение I (4096 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Блеск расхитителя III",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_3",
+      "text": "Улучшенная версия масла, ещё больше увеличивает количество дропа с убитых мобов. $(br2)Накладывает: Расхищение III (256 ударов)"
+    }
+  ]
+}

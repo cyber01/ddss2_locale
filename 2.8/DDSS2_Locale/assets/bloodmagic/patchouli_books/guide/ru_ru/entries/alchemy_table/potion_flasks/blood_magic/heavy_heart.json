@@ -1,0 +1,31 @@
+{
+  "name": "Тяжёлое Сердце",
+  "icon": "minecraft:slime_ball",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Тяжёлое Сердце$() тянет цель вниз, значительно затрудняя полёт и плавание. $(br2)Создаётся из флакона, содержащего эффекты $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/gravity)Гравитация$() и $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/instant_health)Мгновенное лечение$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Тяжёлое Сердце (3:00)",
+      "a.recipe": "bloodmagic:flask/gravity_to_heart",
+      "b.heading": "Тяжёлое Сердце (8:00)",
+      "b.recipe": "bloodmagic:flask/length_heavy_heart",
+      "c.heading": "Тяжёлое Сердце II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_heavy_heart"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Стандартных катализаторов$() может дополнительно усилить ваши зелья."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Тяжёлое Сердце III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_heavy_heart",
+      "b.heading": "Тяжёлое Сердце (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_heavy_heart"
+    }
+  ]
+}

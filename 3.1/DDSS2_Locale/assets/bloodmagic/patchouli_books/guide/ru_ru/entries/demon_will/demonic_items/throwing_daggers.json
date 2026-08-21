@@ -1,0 +1,47 @@
+{
+  "name": "Метательные кинжалы",
+  "icon": "bloodmagic:throwing_dagger",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "extra_recipe_mappings": {
+    "bloodmagic:slate_ampoule": 3
+  },
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Луки$() и $(item)Арбалеты$() хороши по-своему, но просеивать $(item)Гравий$() в поисках $(item)Кремня$() и ощипывать куриц ради $(item)Перьев$() — это, честно говоря, ниже вашего достоинства. Эти блестящие (и очень острые) $(item)Метательные кинжалы$() обладают ещё и весьма коварными эффектами, если уж на то пошло."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Железный метательный кинжал",
+      "recipe": "bloodmagic:soulforge/throwing_dagger",
+      "anchor":"iron_throwing_dagger",
+      "text": "$(item)Железный метательный кинжал$() наносит быстрые удары, причиняя 10 урона с хорошей скоростью восстановления. Кроме того, если у вас есть $(l:bloodmagic:demon_will/will_manipulation/demon_will)Демоническая Воля$() (будь то в сыром виде или в $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарической жемчужине$()), при убийстве моба этим кинжалом будет выпадать $(raw)Воля$() так же, как с $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Одухотворённого меча$()."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Метательный кинжал-шприц",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_syringe",
+      "anchor":"syringe_throwing_dagger",
+      "text": "$(item)Метательный кинжал-шприц$() предназначен для сангвимансера, который больше заинтересован в получении $(blood)Жизненной эссенции$(), чем $(raw)Воли$(). Хотя он наносит немного меньше урона, он заметно дешевле, а убитые этим оружием враги могут оставить $(item)Сланцевую ампулу$() — или даже несколько, если они достаточно крепкие."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:slate_ampoule",
+      "title": "Сланцевая ампула",
+      "text": "Эти милые маленькие флаконы можно раздавить рядом с $(l:bloodmagic:altar/blood_altar)Кровавым Алтарём$(), чтобы передать в него $(blood)500 LP$(), при этом $(item)Ампула$() будет уничтожена. Этот прирост не зависит от наличия $(item)Рун$()."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Аметистовый метательный кинжал",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_copper",
+      "anchor":"amethyst_throwing_dagger",
+      "text": "$(item)Аметистовый метательный кинжал$() наносит столько же урона, сколько и $(item)Железный метательный кинжал$(), но мобы не будут оставлять $(raw)Волю$() при смерти. Вместо этого восемь таких кинжалов можно объединить с $(l:bloodmagic:alchemy_table/potions)Туманным алхимическим флаконом$() в $(item)Алхимической реакционной камере$(), чтобы получить $(item)Окружённые эффектом аметистовые метательные кинжалы$()."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "Окружённый эффектом метательный кинжал",
+      "recipe": "bloodmagic:arc/tipped_copper",
+      "text": "Эти кинжалы передают свой эффект любому мобу, в которого попадут, так же, как если бы тот вошёл в облако от $(item)Туманного алхимического флакона$(). Экспериментируйте с комбинациями эффектов, чтобы создать самые изощрённые и дьявольские кинжалы!"
+    }
+  ]
+}

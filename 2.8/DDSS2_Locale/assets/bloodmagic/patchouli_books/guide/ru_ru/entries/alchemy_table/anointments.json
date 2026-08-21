@@ -1,0 +1,17 @@
+{
+  "name": "Масла",
+  "icon": "bloodmagic:melee_anointment",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Масла$() — это по сути $(item)зелья$() для ваших инструментов, оружия и даже для $(l:bloodmagic:demon_will/demonic_items/explosive_charges)зарядов$(). Если зажать [$(k:use)] с $(item)маслом$() в одной руке, оно будет нанесено на предмет во второй руке, если это возможно. Не все масла работают на всех предметах! $(br2)В отличие от $(item)зелей$(), $(item)масла$() не имеют времени действия — они постепенно расходуются по мере использования инструмента или оружия."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Флакон с инкрустацией из плиты",
+      "recipe": "bloodmagic:alchemytable/slate_vial",
+      "text": "Прочный флакон, способный содержать смеси, которые иначе невозможно удержать."
+    }
+  ]
+}

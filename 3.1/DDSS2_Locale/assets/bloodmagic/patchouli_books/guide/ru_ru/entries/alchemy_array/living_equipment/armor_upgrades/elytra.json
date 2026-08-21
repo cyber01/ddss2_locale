@@ -1,0 +1,17 @@
+{
+  "name": "Элитры",
+  "icon": "minecraft:elytra",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Добавляет Элитры к вашей Живой Броне. Вместо прокачки, необходимо создать $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Том Улучшения$(). $(br2)Эта Элитра тратит прочность нагрудника, но в два раза медленнее обычной Элитры. $(br2)К тому же, выглядит очень круто."
+    },
+    {
+      "type": "bloodmagic:crafting_upgrade_array",
+      "a.heading": "Том Элитры",
+      "a.recipe": "bloodmagic:array/living_elytra_upgrade",
+      "b.upgrade": "bloodmagic:elytra"
+    }
+  ]
+}

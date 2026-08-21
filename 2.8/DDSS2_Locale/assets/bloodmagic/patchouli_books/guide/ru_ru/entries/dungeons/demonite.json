@@ -1,0 +1,45 @@
+{
+  "name": "Демонид",
+  "icon": "bloodmagic:dungeon_ore",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:dungeon_ore": 0,
+    "bloodmagic:rawdemonite": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Демонидная руда$() встречается только в $(thing)Подземельях$(), а именно в $(thing)Шахтах$(), куда можно попасть, найдя где-то в лабиринте $(item)Ключ прораба$() и использовав его для открытия $(thing)Пространственного искажения$(). Из этой руды можно получить $(item)Адские слитки$() или $(item)Адский песок$(). $(br2)Если добывать руду с зачарованием «Шёлковое касание», она выпадет целым блоком, иначе выпадут куски $(item)Сырого демонида$()."
+    },
+    {
+      "type": "patchouli:smelting",
+      "heading": "Адский слиток",
+      "recipe": "bloodmagic:smelting/ingot_from_demonite",
+      "recipe2": "bloodmagic:smelting/ingot_from_raw_hellforged",
+      "recipe3": "bloodmagic:smelting/ingot_hellforged"
+    },
+    {
+      "type": "patchouli:smelting",
+      "heading": "Адский слиток",
+      "recipe": "bloodmagic:smelting/ingot_hellforged"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "Адский песок",
+      "a.recipe": "bloodmagic:arc/dustsfrom_gravel_hellforged",
+      "b.recipe": "bloodmagic:arc/dustsfrom_ore_hellforged",
+      "c.recipe": "bloodmagic:arc/dustsfrom_raw_hellforged"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "Обработка демонида",
+      "a.recipe": "bloodmagic:arc/fragmentshellforged",
+      "b.recipe": "bloodmagic:arc/gravelshellforged"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Адский блок",
+      "recipe": "bloodmagic:hellforged_block"
+    }
+  ]
+}

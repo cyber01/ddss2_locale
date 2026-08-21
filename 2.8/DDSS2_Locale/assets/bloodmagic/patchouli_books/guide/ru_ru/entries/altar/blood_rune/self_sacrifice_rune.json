@@ -1,0 +1,25 @@
+{
+  "name": "Руна самопожертвования",
+  "icon": "bloodmagic:selfsacrificerune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна самопожертвования$() увеличивает количество $(blood)Жизненной эссенции$(), получаемой в $(l:bloodmagic:altar/blood_altar)Кровавом Алтаре$(/l) с помощью жертвования собственного здоровья игрока. Каждая руна даёт дополнительный бонус $(thing)+10%$() к количеству эссенции за каждую руну."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_self_sacrifice"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_self_sac_2",
+      "text":"Используя немного $(item)Незеритовых обломков$() и $(item)Сложных адских деталей$(), которые можно найти в $(l:bloodmagic:dungeons/endless_realm)Демоническом измерении$(/l), вы сможете удвоить силу вашей $(item)Руны самопожертвования$(), увеличивая бонус до $(thing)+20%$() за каждую руну."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/self_sac",
+      "text":"Если вы передумали, вы можете отменить рецепт в ARC."
+    }
+  ]
+}

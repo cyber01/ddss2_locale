@@ -1,0 +1,42 @@
+{
+  "name": "ЕЩЁ НЕ РЕАЛИЗОВАНО",
+  "icon": "minecraft:barrier",
+  "category": "bloodmagic:utility",
+  "extra_recipe_mappings": {
+    "bloodmagic:lightritualstone": 0,
+    "bloodmagic:mimic": 0,
+    "bloodmagic:ethereal_mimic": 0,
+    "bloodmagic:etherealslate": 0,
+    "bloodmagic:nether_soil": 0,
+    "bloodmagic:growing_doubt": 0,
+    "bloodmagic:doubt_bucket": 0,
+    "bloodmagic:activationcrystalawakened": 0,
+    "bloodmagic:will_power_anointment": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ладно, немного сломаем четвёртую стену. $(blood)Blood Magic$() всё ещё не полностью завершён, и некоторые вещи, которые ты помнишь из прошлых версий, пока что ЕЩЁ НЕ РЕАЛИЗОВАНЫ. Некоторые из них могут вернуться в будущем, другие — уже окончательно убраны. (Смотрим на тебя, Оковы и Оружие...)"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Ритуалы с Тайной золой. Некоторые из них скоро вернутся (tm), пока просто жди. $(li)Ритуал Связывания. Был убран ещё в 1.7.10, хватит спрашивать. $(li)Несовершенные ритуалы (Лазурит и др.) — часть из них реализована как Массивы с Тайной золой. $(li)Сигил Замёрзшего озера. $(li)Сигил Упругости. $(li)Сигил Стихийного Родства. $(li)Сигил Когтя. $(li)Ритуал Отторжения. $(li)Ритуал Сдерживания. $(li)Le Vulcano Frigius."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Ритуал Подавления. $(li)Разборщик ритуалов. $(li)Ритуальный делитель (Рассвет). $(li)Великий тартарический самоцвет. $(li)Спектральное оружие и инструменты. $(li)Сигил Перемещения. $(li)Сигил Разрыва Края. $(li)Сигил Сжатия. $(li)Сигил Фантомного моста. $(li)Сборка Высшего Алтаря. $(li)Крик Вечной Души. $(li)Гимн Истощения."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Врата Сгиба. $(li)Ритуал Пернатой Земли. $(li)Ритуал Изгнания. $(li)Пробуждённый кристалл активации."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Другие вещи могут появляться или исчезать по мере развития мода. $(br2)Для получения дополнительной информации смотри: $(li)$(l:https://github.com/WayofTime/BloodMagic)Blood Magic на Github$(), $(li)$(l:https://www.curseforge.com/minecraft/mc-mods/blood-magic)Страница Blood Magic на Curseforge$(), $(li)и $(l:https://discord.gg/VtNrGrs)Blood Magic Discord$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Это руководство было собрано Wrincewind и VT-14 на основе оригинального мануала Way, с помощью Patchouli и MinecraftGuides.net. Спасибо за игру! :)"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Ритуал Высокого Прыжка",
+  "icon": "minecraft:diamond_boots",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "name": "Ритуал Высокого Прыжка",
+      "multiblock_id": "bloodmagic:jumping",
+      "text": "Для упрощения постройки используй $(l:bloodmagic:rituals/ritual_diviner)Ритуальный делитель$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "jumping"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "jumping",
+      "page_type": "jumpRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "jumping",
+      "page_type": "jumpPower"
+    }
+  ]
+}

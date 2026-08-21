@@ -1,0 +1,6 @@
+{
+  "name": "Эффекты ванильного Майнкрафта",
+  "description": "Эти эффекты можно получить с помощью обычной $(item)Варочной стойки$(), хотя, конечно, не так эффективно.",
+  "icon": "minecraft:brewing_stand",
+  "parent": "bloodmagic:alchemy_table/potion_flasks"
+}

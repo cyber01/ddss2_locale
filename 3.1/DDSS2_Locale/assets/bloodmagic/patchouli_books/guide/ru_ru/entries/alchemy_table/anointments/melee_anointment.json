@@ -1,0 +1,37 @@
+{
+  "name": "Масло для заточки",
+  "icon": "bloodmagic:melee_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло для заточки",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment",
+      "text": "Временно увеличивает урон в ближнем бою на +3. $(br2)Подходящие предметы: инструменты, мечи.$(br2)Накладывает: Заточка I (256 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло для заточки L",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_l",
+      "text": "Улучшенная версия масла, действует в четыре раза дольше. $(br2)Накладывает: Заточка I (1024 удара)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло для заточки II",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_2",
+      "text": "Улучшенная версия масла, увеличивает урон в ближнем бою на +6. $(br2)Накладывает: Заточка II (256 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло для заточки XL",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_xl",
+      "text": "Улучшенная версия масла, действует в шестнадцать раз дольше. $(br2)Накладывает: Заточка I (4096 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло для заточки III",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_3",
+      "text": "Улучшенная версия масла, увеличивает урон в ближнем бою на +9. $(br2)Накладывает: Заточка III (256 ударов)"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Демоническая воля",
+  "description": "$(item)Демоническая воля$() — один из первых ресурсов, которые вы можете получить с помощью $(blood)Blood Magic$(). Собрав немного воли с помощью $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Петли для душ$(), вы сможете создать $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Малый тартарический камень$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Одухотворённый меч$(/l)$().",
+  "icon": "bloodmagic:basemonstersoul",
+  "sortnum": 3
+}

@@ -1,0 +1,130 @@
+{
+  "name": "Переработка руды",
+  "icon": "bloodmagic:basiccuttingfluid",
+  "category": "bloodmagic:utility",
+  "extra_recipe_mappings": {
+    "bloodmagic:copperfragment": 7,
+    "bloodmagic:goldfragment": 7,
+    "bloodmagic:fragment_netherite_scrap": 7,
+    "bloodmagic:coppergravel": 9,
+    "bloodmagic:goldgravel": 9,
+    "bloodmagic:gravel_netherite_scrap": 9,
+    "bloodmagic:coppersand": 7,
+    "bloodmagic:sand_netherite": 7
+      },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:alchemy_table/alchemy_table)Алхимический стол$() можно использовать, среди прочего, для удвоения руды, а $(l:bloodmagic:utility/alchemical_reaction_chamber)Алхимическая реакционная камера$() позволяет получать 2,5 слитка с $(item)сырой руды$() или 4,5 слитка с $(item)блока руды$(). Получай больше ресурсов из своих шахтёрских походов с помощью силы крови!"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Базовая режущая жидкость",
+      "anchor": "cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/basic_cutting_fluid_sigil",
+      "text": "$(item)Режущая жидкость$() — предпоследний этап любой переработки руды. Её можно использовать в $(l:bloodmagic:utility/alchemical_reaction_chamber)Алхимической реакционной камере$(), чтобы получить 3 песка руды из одного блока руды или 1,5 песка руды из одной сырой руды (в среднем). В этом примере используется $(l:bloodmagic:alchemy_array/sigil/water)Сигил воды$(), но можно использовать и обычную $(water)бутылку воды$()."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Промежуточная режущая жидкость",
+      "anchor": "intermediate_cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/intermediate_cutting_fluid_sigil",
+      "text": "Промежуточная режущая жидкость — улучшенная версия, которая служит в 8 раз дольше и увеличивает скорость крафта на 50%. Для получения $(l:bloodmagic:dungeons/tau_fruit)Тау-масла$() придётся отправиться $(l:bloodmagic:dungeons/lobby)в подземелья$()."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Продвинутая режущая жидкость",
+      "anchor": "advanced_cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/advance_cutting_fluid_sigil",
+      "text": "Продвинутая режущая жидкость служит в 16 раз дольше, удваивает скорость крафта и шанс получения бонусных ресурсов из любых рецептов, где она используется. Для этого потребуется отправиться глубоко $(l:bloodmagic:dungeons/endless_realm)в подземелья$() за $(l:bloodmagic:dungeons/demonite)Адским песком$()."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "Железный песок",
+      "a.recipe": "bloodmagic:alchemytable/sand_iron",
+      "b.heading": "Золотой песок",
+      "b.recipe": "bloodmagic:alchemytable/sand_gold"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "Руда в 3 песка металла",
+      "recipe": "bloodmagic:arc/dustsfrom_ore_iron",
+      "text": "Когда у тебя появится доступ к $(l:bloodmagic:utility/alchemical_reaction_chamber)Алхимической реакционной камере$(), ты сможешь получать 3 песка из каждой добытой руды."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe":"bloodmagic:smelting/ingot_iron",
+      "recipe2": "bloodmagic:smelting/ingot_gold"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Взрывной порошок",
+      "anchor": "ore_processing",
+      "recipe": "bloodmagic:alchemytable/explosive_powder",
+      "text": "$(item)Взрывной порошок$() в $(item)АРК$() используется для превращения $(item)руды$() в среднем в 4,5 $(item)фрагмента руды$(), или $(item)сырой руды$() в 2,25 руды, а также для превращения $(item)слитков$() в их вариант $(item)песка$(). Также он может превращать $(fire)адский камень$() в $(air)серу$() и 50 мб $(fire)лавы$(). Существует 2 улучшенные версии, смотри далее."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "Укреплённая взрывная капсула",
+      "a.recipe": "bloodmagic:alchemytable/explosive_cell",
+      "b.heading": "Адская взрывная капсула",
+      "b.recipe": "bloodmagic:alchemytable/hellforged_explosive_cell",
+      "text": "Укреплённая и адская взрывные капсулы служат дольше и работают быстрее, чем базовый вариант."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "Сырая руда в фрагменты",
+      "a.recipe": "bloodmagic:arc/fragmentsiron",
+      "b.heading": "Руда в фрагменты",
+      "b.recipe": "bloodmagic:arc/fragmentsfrom_ore_iron",
+      "c.heading": "Сера и лава",
+      "c.recipe": "bloodmagic:arc/netherrack_to_sulfer",
+      "c.fluid_output": "minecraft:lava_bucket"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Резонатор",
+      "recipe": "bloodmagic:soulforge/resonator",
+      "text": "$(item)Резонатор$() используется для превращения $(item)фрагментов руды$() в соответствующий $(item)гравий$() для дальнейшей переработки, а также создаёт $(item)Малую искажённую пыль$(). Укреплённый резонатор имеет в 4 раза больше прочности, а адский — в 16 раз больше и удваивает бонусные ресурсы."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_soulforge",
+      "a.heading": "Укреплённый резонатор",
+      "a.recipe": "bloodmagic:soulforge/primitive_resonator",
+      "b.heading": "Адский резонатор",
+      "b.recipe": "bloodmagic:soulforge/hellforged_resonator"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "Фрагмент в гравий",
+      "a.recipe": "bloodmagic:arc/gravelsiron",
+      "b.heading": "Гравий в песок",
+      "b.recipe": "bloodmagic:arc/dustsfrom_gravel_iron"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Искажённая пыль",
+      "recipe": "bloodmagic:corrupted_dust",
+      "text": "Малую искажённую пыль можно объединить в $(item)Искажённую пыль$(), которую можно использовать для увеличения выхода других руд. Примеры смотри далее."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "Искажённый уголь",
+      "a.recipe": "bloodmagic:alchemytable/corrupted_coal",
+      "b.heading": "Искажённое железо",
+      "b.recipe": "bloodmagic:alchemytable/corrupted_iron",
+      "c.heading": "Искажённые обломки",
+      "c.recipe": "bloodmagic:alchemytable/corrupted_netherite"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Топливная капсула (печь)",
+      "recipe": "bloodmagic:primitive_furnace_cell",
+      "text": "$(item)АРК$() также может работать как $(thing)печь$(), но в качестве топлива принимает только $(item)Примитивную топливную капсулу$() или $(l:bloodmagic:utility/lava_crystal)Лавовый кристалл$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Примитивная топливная капсула$() рассчитана на 128 использований. Это больше, чем $(item)блок угля$(), который используется для её крафта (60 предметов), и поскольку прочность тратится только после завершения крафта, топливо не будет расходоваться впустую."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Тартарические Камни",
+  "icon": "bloodmagic:soulgemgreater",
+  "category": "bloodmagic:demon_will/will_manipulation",
+
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/demon_will)Демоническая Воля$() — очень полезный ресурс, но те фрагменты, что ты получал до сих пор, явно недостаточно мощные. Тебе нужен предмет для хранения; $(item)Тартарический Камень$() отлично подойдёт для этой задачи. Более того, он может впитывать любую лишнюю $(l:bloodmagic:demon_will/will_manipulation/demon_will)Демоническую Волю$(), что у тебя завалялась. Просто выбрось их на пол, и твой новый блестящий камень впитает их."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Малый Тартарический Камень",
+      "recipe": "bloodmagic:soulforge/pettytartaricgem",
+      "text": "Твой первый камень может хранить максимум 64 единицы $(l:bloodmagic:demon_will/will_manipulation/demon_will)Воли$(). Гораздо компактнее, чем раньше! $(br2)Если ты когда-либо захочешь передать $(raw)Волю$() из одного камня в другой, просто зажми [$(k:use)], держа в руке камень, который хочешь опустошить, и его воля будет передана в первый подходящий камень в твоём инвентаре."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Твой $(item)Малый Тартарический Камень$() — полезный инструмент, но ему явно не хватает мощности. Аккуратно обработав его с помощью $(item)Алмаза$(), $(item)Лазурита$() и $(item)Редстоуна$(), ты нашёл способ увеличить его вместимость в четыре раза."
+    },  
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Меньший Тартарический Камень",
+      "recipe": "bloodmagic:soulforge/lessertartaricgem",
+      "text": "Этот усиленный камень может хранить до 256 единиц $(l:bloodmagic:demon_will/will_manipulation/demon_will)Воли$(). $(br2)Примечание: для улучшения нужен только один камень — $(item)Адская Кузня$() сначала будет забирать $(raw)Волю$() из камня, который используется в крафте, прежде чем использовать камень из специального слота. Не переживай, вновь созданный камень сохранит всю оставшуюся $(raw)Волю$() после процесса."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Твой $(item)Меньший Тартарический Камень$() — заметное улучшение, но его возможностей снова становится мало. Чтобы двигаться дальше, тебе придётся сосредоточиться на $(l:bloodmagic:altar/blood_altar)Алтаре Крови$(), ведь тебе потребуется $(l:bloodmagic:altar/slates)Пропитанная Плита$(). Объединив эту плиту с камнем и дополнительно улучшив его ещё одним $(item)Алмазом$() и $(item)Блоком Золота$(), ты снова увеличишь вместимость в четыре раза."
+    },  
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Обычный Тартарический Камень",
+      "recipe": "bloodmagic:soulforge/commontartaricgem",
+      "text": "Этот сложный камень может хранить впечатляющие 1 024 единицы $(l:bloodmagic:demon_will/will_manipulation/demon_will)Воли$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ты явно превзошёл себя, создав $(item)Обычный Тартарический Камень$(), но чувствуешь, что можешь сделать ещё больше. Однако для следующего шага потребуется всё, что ты изучал до этого. Тебе понадобится не только $(l:bloodmagic:altar/slates)Демоническая Плита$(), но и $(l:bloodmagic:utility/alchemical_reaction_chamber#blood_shard)Слабый Кровавый Осколок$() $(o)и$() $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Кристалл Демонической Воли$(). Конечно, награда будет соответствующей — твои $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Разумные Инструменты$() будут работать, как никогда раньше..."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Большой Тартарический Камень",
+      "recipe": "bloodmagic:soulforge/greatertartaricgem",
+      "text": "Этот шедевр магического искусства может хранить поразительные 4 096 единиц $(l:bloodmagic:demon_will/will_manipulation/demon_will)Воли$()."
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Поскольку у тебя установлен $(thing)Curios API$(), ты можешь надеть $(item)Тартарические Камни$() в качестве ожерелья. Если хочешь носить больше аксессуаров одновременно, попробуй использовать $(l:bloodmagic:alchemy_array/sigil/holding)Сигил Хранения$() или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Улучшение с Сокетами$() для своей $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой Брони$()."
+    }
+  ]
+}

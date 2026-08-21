@@ -1,0 +1,37 @@
+{
+  "name": "Экстракт Ловкости",
+  "icon": "bloodmagic:quick_draw_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Ловкости",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment",
+      "text": "Уменьшает время натяжения лука и арбалета на 33%. $(br2)Подходящие предметы: луки, арбалеты.$(br2)Накладывает: Ловкие руки I (256 выстрелов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Ловкости L",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_l",
+      "text": "Улучшенная версия масла, действует в четыре раза дольше. $(br2)Накладывает: Ловкие руки I (1024 выстрела)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Ловкости II",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_2",
+      "text": "Улучшенная версия масла, уменьшает время натяжения лука и арбалета на 50%. $(br2)Накладывает: Ловкие руки II (256 выстрелов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Ловкости XL",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_xl",
+      "text": "Улучшенная версия масла, действует в шестнадцать раз дольше. $(br2)Накладывает: Ловкие руки I (4096 выстрелов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Ловкости III",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_3",
+      "text": "Улучшенная версия масла, уменьшает время натяжения лука и арбалета на 67%. $(br2)Накладывает: Ловкие руки III (256 выстрелов)"
+    }
+  ]
+}

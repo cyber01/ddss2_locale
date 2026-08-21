@@ -1,0 +1,29 @@
+{
+  "name": "Индикатор Ауры Демонической Воли",
+  "icon": "bloodmagic:demonwillgauge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Пока $(item)Индикатор Ауры Демонической Воли$() находится в инвентаре игрока, на экране появится элемент интерфейса (HUD), показывающий, сколько $(raw)Демонической Воли$() содержится в локальной $(l:bloodmagic:demon_will/will_manipulation/aura)Ауре$(). $(br2)Сверху вниз отображаются следующие аспекты Воли: $(li)$(raw)Сырая$() $(li)$(corrosive)Коррозионная$() $(li)$(steadfast)Стойкая$() $(li)$(destructive)Разрушительная$() $(li)$(vengeful)Мстительная$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "recipe": "bloodmagic:soulforge/demon_will_gauge",
+      "heading": "Индикатор Ауры Демонической Воли",
+      "text": "На следующей странице показано изображение HUD-индикатора."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_will_aura_gauge.png"
+      ],
+      "title": "HUD-индикатор ауры",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Этот индикатор появляется в левом верхнем углу экрана. Цветные полосы дают примерную оценку количества каждого $(l:bloodmagic:demon_will/will_manipulation/aspected_will)аспекта Воли$() в текущем чанке. $(br2)Если зажать [$(k:sneak)], можно увидеть точные числовые значения для каждого аспекта — от 1 до 100 $(raw)Воли$() на каждый. 100 — это максимальное количество любого одного аспекта $(raw)Воли$() в чанке."
+    }
+  ]
+}
