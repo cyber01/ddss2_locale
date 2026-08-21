@@ -1,0 +1,14 @@
+{
+  "name": "Сигил Замёрзшего Озера [Ещё не реализовано]",
+  "icon": "bloodmagic:icesigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "extra_recipe_mappings": {
+    "bloodmagic:icesigil": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "[Заметки по разработке]$(br)[Ещё не реализовано]$(br2)Зачарование Ледоход (Frostwalker) в виде сигила."
+    }
+  ]
+}

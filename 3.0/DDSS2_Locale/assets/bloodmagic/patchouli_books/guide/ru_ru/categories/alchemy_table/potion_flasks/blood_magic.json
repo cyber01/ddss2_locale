@@ -1,0 +1,6 @@
+{
+  "name": "Эффекты Blood Magic",
+  "description": "Эти эффекты можно создать только с помощью настоящего сангвимансера.",
+  "icon": "bloodmagic:simplecatalyst",
+  "parent": "bloodmagic:alchemy_table/potion_flasks"
+}

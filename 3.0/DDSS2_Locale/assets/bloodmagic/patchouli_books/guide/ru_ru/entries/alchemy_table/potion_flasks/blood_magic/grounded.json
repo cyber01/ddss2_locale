@@ -1,0 +1,20 @@
+{
+  "name": "Приземлённость",
+  "icon": "minecraft:string",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Приземлённость$() не даёт цели прыгать. Однако плавание остаётся без изменений. $(br2)Создаётся из флакона с эффектом $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/jump_boost)Прыгучесть$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Приземлённость (3:00)",
+      "a.recipe": "bloodmagic:flask/jump_to_grounded",
+      "b.heading": "Приземлённость (8:00)",
+      "b.recipe": "bloodmagic:flask/length_grounded",
+      "c.heading": "Приземлённость (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_grounded"
+    }
+  ]
+}

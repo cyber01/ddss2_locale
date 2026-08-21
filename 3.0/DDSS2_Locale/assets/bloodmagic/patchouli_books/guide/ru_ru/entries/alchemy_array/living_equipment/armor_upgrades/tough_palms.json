@@ -1,0 +1,15 @@
+{
+  "name": "Крепкие ладони",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: увеличивает бонус к Самопожертвованию, вплоть до дополнительных 150%. $(br2)Прокачивается: при жертвоприношении крови с помощью Жертвенного кинжала. $(br2)Максимальный уровень: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:self_sacrifice"
+    }
+  ]
+}

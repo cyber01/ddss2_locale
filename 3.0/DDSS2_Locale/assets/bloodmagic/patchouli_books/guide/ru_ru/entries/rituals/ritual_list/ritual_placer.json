@@ -1,0 +1,27 @@
+{
+  "name": "Область Наполнителя",
+  "icon": "minecraft:dispenser",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "name": "Область Наполнителя",
+      "multiblock_id": "bloodmagic:placer",
+      "text": "Для упрощения постройки используй $(l:bloodmagic:rituals/ritual_diviner)Ритуальный делитель$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "placer"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "placer",
+      "page_type": "placerRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "placer",
+      "page_type": "chest"
+    }
+  ]
+}

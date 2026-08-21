@@ -1,0 +1,17 @@
+{
+  "name": "Одухотворённый меч",
+  "icon": "bloodmagic:soulsword",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Одухотворённый меч$() — это гораздо более эффективный инструмент для сбора $(l:bloodmagic:demon_will/will_manipulation/demon_will)Демонической Воли$(), чем $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Путы душ$(). Сначала он может показаться слабым, но его сила зависит от количества Воли, которую вы носите с собой, поэтому создание $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарической жемчужины$() обязательно. $(br2)Обратите внимание, что этот меч, как и все $(l:bloodmagic:demon_will/demonic_items/sentient_tools)одухотворённые инструменты$(), можно починить с помощью $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Кристаллизованной Воли$() на наковальне."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Одухотворённый меч",
+      "recipe": "bloodmagic:soulforge/sentientsword",
+      "text": "Этот меч отлично послужит вам.$(br2)Обратите внимание, что вы можете обновить характеристики меча, нажав [$(k:use)], когда он у вас в руке — если вы недавно получили много $(raw)Воли$() или впервые пробуете новый аспект Воли, это может быть полезно."
+    }
+  ]
+}

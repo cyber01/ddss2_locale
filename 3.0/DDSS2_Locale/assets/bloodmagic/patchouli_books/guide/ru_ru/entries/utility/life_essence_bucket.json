@@ -1,0 +1,17 @@
+{
+  "name": "Ведро Жизненной эссенции",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(blood)Жизненная эссенция$() отлично себя чувствует в $(l:bloodmagic:altar/blood_altar)Алтаре Крови$(), где её можно использовать для крафта или направлять в $(l:bloodmagic:altar/soul_network)Орб$() для питания $(thing)Ритуалов$(). Но что, если ты хочешь построить ров из этой жидкости вокруг своего $(l:bloodmagic:utility/incense_altar)Алтаря Благовоний$()? К счастью, получить $(blood)Жизненную эссенцию$() довольно просто. Просто помести $(item)Ведро$() в $(l:bloodmagic:altar/blood_altar)Алтарь Крови$() и подожди несколько секунд, пока оно наполнится. $(blood)1 LP$() = 1 мб, так что $(blood)1 000 LP$() вполне хватит для твоего $(item)Ведра$()."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Ведро Жизни",
+      "recipe": "bloodmagic:altar/bucket_life",
+      "text": "$(italic)Это точно не кровь. Кровь бы уже свернулась.$(br2)... Почему ты так на меня смотришь?$()"
+    }
+  ]
+}

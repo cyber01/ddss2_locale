@@ -1,0 +1,28 @@
+{
+  "name": "Демоническая Воля",
+  "icon": "bloodmagic:basemonstersoul",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:basemonstersoul": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Когда у тебя появится $(l:bloodmagic:altar/blood_altar)Алтарь Крови$(), тебе потребуется собрать немного $(item)Демонической Воли$(). Есть два способа получить Демоническую Волю:$(br)$(li)Убить моба, по которому был применён $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Путы Душ$(), и который умирает, когда появляются белые частицы.$(li)Убить враждебного моба с помощью $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Разумного Меча$().$(br)Поскольку ты только начинаешь играть с модом, у тебя ещё нет $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Разумного Меча$(),"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "поэтому тебе придётся использовать $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Путы Душ$(). $(br2)$(item)Демоническая Воля$() — это возобновляемый ресурс в $(blood)Blood Magic$(), который используется для питания $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Адской Кузни$(). $(br2)По лору $(blood)Blood Magic$(), $(raw)Демоническая Воля$() — это остаточный эффект, возникающий, когда демон наделяет своей волей тела мёртвых или других монстров."
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["bloodmagic:images/entries/demon_will/demon_will.png"],
+      "title": "Демоническая Воля",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Когда у тебя появится немного $(raw)Воли$(), ты сможешь использовать её для создания полезных инструментов в $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Адской Кузне$(). Если они захламляют твой инвентарь, возможно, тебе поможет $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарический Камень$()."
+    }
+  ]
+}

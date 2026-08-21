@@ -1,0 +1,27 @@
+{
+  "name": "Кристаллизованная Воля",
+  "icon": "bloodmagic:defaultcrystal",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:demoncrucible": 1,
+    "bloodmagic:demoncrystallizer": 1,
+    "bloodmagic:rawdemoncrystal": 1,
+    "bloodmagic:defaultcrystal": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Теперь, когда у тебя достаточно $(l:bloodmagic:demon_will/will_manipulation/demon_will)Демонической Воли$() в твоём $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарическом Камне$(), пора узнать, что произойдёт, если выпустить её в мир. $(br2)Для начала тебе нужно поместить $(raw)Волю$() в $(l:bloodmagic:demon_will/will_manipulation/aura)Ауру$(). Затем потребуется создать $(thing)Демонический Кристаллизатор$()."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Демонический Кристаллизатор",
+      "recipe": "bloodmagic:soulforge/demon_crystallizer",
+      "text": "Он будет медленно забирать $(l:bloodmagic:demon_will/will_manipulation/demon_will)Демоническую Волю$() из $(l:bloodmagic:demon_will/will_manipulation/aura)Ауры$() и создавать $(item)Кристаллы Воли$(). Первый шпиль стоит 100 $(raw)Воли$(), каждый следующий — по 40, но их можно сжечь в $(item)Демоническом Тигле$() за 50, получая чистую прибыль в 10. Максимальный $(item)Кластер Кристаллов$() может содержать до 7 шпилей."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если у тебя в инвентаре больше 512 единиц $(raw)Воли$() (в любых $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарических Камнях$() и любого одного типа), ты можешь собрать эти кристаллы, кликнув по шпилю пустой рукой ПКМ. При этом останется только центральный шпиль. $(br2)Однако, если у тебя недостаточно $(raw)Воли$(), тебе $(italic)очень$() нужен кристалл из центрального шпиля или ты просто спешишь, можно собрать все кристаллы киркой."
+    }
+  ]
+}

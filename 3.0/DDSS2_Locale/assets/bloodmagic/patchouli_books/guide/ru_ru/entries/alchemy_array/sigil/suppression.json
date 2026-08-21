@@ -1,0 +1,19 @@
+{
+  "name": "Сигил Подавления",
+  "icon": "bloodmagic:sigilofsuppression",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Сигил Подавления$(), при активации с помощью [$(k:use)], временно убирает все жидкости в радиусе примерно 6 блоков вокруг держателя. Через короткое время после того, как вы отойдёте от жидкости, она вернётся, как будто ничего не произошло. Это значительно облегчает исследование лавовых океанов в Нижнем мире, но будьте осторожны: не прыгайте в глубокие водоёмы с активным сигилом!"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент подавления",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_suppression",
+      "array.heading": "Сигил Подавления",
+      "array.recipe": "bloodmagic:array/suppressionsigil",
+      "array.text": "$(italic)Лучше, чем Сигил Пустоты\u00AE!"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Аура Демонической Воли",
+  "icon": "bloodmagic:demoncrucible",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Как мы уже $(l:bloodmagic:demon_will/will_manipulation/demon_will)выяснили$(), $(raw)Демоническая Воля$() скапливается вокруг определённых существ и наполняет их зловещей силой. Однако это не единственное место, где может существовать $(raw)Воля$(). Сжигая $(raw)Волю$() в $(item)Демоническом Тигле$(), можно выпустить её в $(thing)Ауру$(), что даёт интересные и полезные эффекты."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Демонический Тигель",
+      "recipe": "bloodmagic:soulforge/demon_crucible",
+      "text": "Положите заряженный $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарический Камень$(), любой аспект $(item)Демонической Воли$() или $(item)Демонический Кристалл$() внутрь и дайте ему поработать. $(item)Кристаллы$() будут расходоваться, когда количество $(raw)Воли$() в чанке опустится ниже 50, а $(raw)Демоническая Воля$() (в виде предмета или из $(item)Тартарического Камня$()) будет расходоваться понемногу, по мере необходимости."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_crucible.png"
+      ],
+      "title": "Демонический Тигель",
+      "border": true,
+      "text": "$(item)Демонический Тигель$() с $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарическим Камнем$() внутри."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Теперь у нас есть $(raw)Сырая Воля$() в атмосфере. Отлично, и что дальше? $(br2)Некоторые $(thing)Ритуалы$() $(l:bloodmagic:rituals/ritual_tinkerer)получают бонусы$() от $(raw)Сырой Воли$(), но главное преимущество — возможность создавать очищенные $(item)Кристаллы Демонической Воли$(), а затем $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)разделять их$() на $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Аспекты$(). $(br2)Получив $(item)Кристаллы Аспектной Воли$(), вы можете снова сжечь их в $(item)Тигле$(), чтобы выпустить их в $(thing)Ауру$() и использовать в ритуалах."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Важно отметить, что $(thing)Аура$() привязана к чанку. То есть любая $(raw)Воля$(), которую вы сжигаете, заполняет чанк, в котором вы это делаете, до максимума 100 для каждого типа. Измерить это можно с помощью $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Индикатора Ауры Демонической Воли$(). $(br2)Чтобы перемещать Демоническую Волю, просто разместите $(item)Демонический Пилон$() в соседнем чанке, и $(raw)Воля$() будет перетекать к нему."
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Демонический Пилон",
+      "recipe": "bloodmagic:soulforge/demon_pylon",
+      "text": "Пилон будет притягивать все виды воли из всех соседних чанков (не включая диагонали). Несколько пилонов можно соединять цепочкой для передачи воли на большие расстояния."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если вы поместите $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарический Камень$() в $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Адскую Кузню$(), он начнёт быстро поглощать $(raw)Волю$() из текущего чанка. $(br2)Если в чанке есть определённый аспект $(raw)Воли$(), например, $(raw)Сырая$() или $(corrosive)Коррозионная$(), и у вас есть пустой $(item)Тартарический Камень$(), вы сможете наполнить его этим аспектом. $(br2)Это позволяет изменять свойства ваших $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Разумных Инструментов$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Меча$() в зависимости от типа воли. Эффекты описаны $(l:bloodmagic:demon_will/will_manipulation/aspected_will#sentient_aspects)здесь$()."
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Связанные страницы",
+      "entries": [
+        "bloodmagic:rituals/ritual_tinkerer",
+        "bloodmagic:demon_will/will_manipulation/crystallized_will",
+        "bloodmagic:demon_will/will_manipulation/aspected_will",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_split",
+        "bloodmagic:rituals/ritual_list/ritual_crystal_harvest"
+      ],
+      "text": "Я чувствую, что могу сделать ещё больше..."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Сигил Лавы",
+  "icon": "bloodmagic:lavasigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Сигил Лавы — сестринский сигил для $(l:bloodmagic:alchemy_array/sigil/water)Сигила Воды$(). Нажмите [$(k:use)], держа $(item)Сигил Лавы$(), чтобы создать источник $(fire)лавы$() на земле за $(blood)1000 LP$(). Создаётся в $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Алхимическом круге$() с помощью $(item)Реагента лавы$() и $(item)Чистого сланца$(). Если в вашей $(l:bloodmagic:altar/soul_network)Сетевой Душе$() не хватит LP, вы потеряете 5 сердец."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент лавы",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_lava",
+      "array.heading": "Сигил Лавы",
+      "array.recipe": "bloodmagic:array/lavasigil",
+      "array.text": "$(italic)ГОРЯЧО! НЕ ЕШЬТЕ$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/lava_sigil1.png",
+        "bloodmagic:images/entries/sigil/lava_sigil2.png"
+      ],
+      "title": "Алхимический круг для Сигила Лавы",
+      "border": true,
+      "text": "Сигил Лавы рядом со своим кругом создания и его основное применение."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ведро лавы",
+      "recipe": "bloodmagic:alchemytable/sigil_lava_bucket",
+      "text": "Кроме того, его можно использовать в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимическом столе$() для автоматизации производства $(fire)ведер лавы$(). Сигил не расходуется в этом рецепте."
+    }
+  ]
+}

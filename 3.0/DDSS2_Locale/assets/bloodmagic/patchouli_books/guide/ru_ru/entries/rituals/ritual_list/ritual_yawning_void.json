@@ -1,0 +1,57 @@
+{
+  "name": "Зев Бездны",
+  "icon": "minecraft:black_stained_glass",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Зев Бездны",
+      "multiblock_id": "bloodmagic:yawning_void",
+      "text": "Для упрощения постройки используй $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный делитель [Сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "yawning_void"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "raw",
+      "text_overrides": [
+        ["Raw Will", "Сырая Воля"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "corrosive",
+      "text_overrides": [
+        ["filter", "фильтр"]
+      ],
+      "text": "Чтобы установить фильтр, помести любой $(item)Фильтр предметов$() в связанный $(item)Сундук$(). Ритуал будет использовать только первый найденный фильтр, но поддерживаются $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Стандартный$(), $(l:bloodmagic:demon_will/item_routing/tag_item_filter)Теговый$(), $(l:bloodmagic:demon_will/item_routing/mod_item_filter)Модовый$() и $(l:bloodmagic:demon_will/item_routing/composite_item_filter)Композитный фильтры предметов$(). Также поддерживается чёрный список!"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "quarryRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "chest",
+      "text_overrides": [
+        ["Item Filter", "Фильтр предметов"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "yawning_void",
+      "page_type": "placementRange"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Ритуал Дробителя",
+  "icon": "minecraft:iron_pickaxe",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал Дробителя",
+      "multiblock_id": "bloodmagic:crushing",
+      "text": "Для упрощения постройки используй $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный делитель [Сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crushing"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "raw",
+      "text_overrides": [
+        ["Raw Will", "сырая воля"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "corrosive",
+      "text_overrides": [
+        ["Cutting Fluid", "l:bloodmagic:alchemy_table/alchemy_table#cutting_fluid"],
+        ["Silk Touch", "Шёлковое касание"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "vengeful",
+      "text": "Например, он превратит уголь в угольные блоки, красную пыль — в блоки красной пыли и т.д."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "destructive",
+      "text_overrides": [
+        ["Fortune III", "Удача III"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "steadfast",
+      "text_overrides": [
+        ["Silk Touch", "Шёлковое касание"],
+        ["Fortune", "Удача"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "chest"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "crushingRange"
+    }
+  ]
+}

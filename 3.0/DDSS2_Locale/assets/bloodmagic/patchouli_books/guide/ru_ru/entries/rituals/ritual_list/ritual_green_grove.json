@@ -1,0 +1,63 @@
+{
+  "name": "Ритуал Зеленой Рощи",
+  "icon": "minecraft:bone_meal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал Зеленой Рощи",
+      "multiblock_id": "bloodmagic:green_grove",
+      "text": "Для упрощения постройки используй $(l:bloodmagic:rituals/ritual_diviner)Ритуальный делитель$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "green_grove"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "raw",
+      "text_overrides": [
+        ["Raw Will", "сырая воля"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "corrosive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "vengeful"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "destructive",
+      "text_overrides": [
+        ["Destructive Will", "разрушительная воля"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "growing"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "hydrate"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "green_grove",
+      "page_type": "leech"
+    }
+  ]
+}
