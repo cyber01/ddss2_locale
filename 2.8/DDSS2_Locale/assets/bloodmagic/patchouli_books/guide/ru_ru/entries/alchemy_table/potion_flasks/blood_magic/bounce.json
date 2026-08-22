@@ -1,0 +1,20 @@
+{
+  "name": "Пружинистость",
+  "icon": "minecraft:slime_ball",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Если цель должна получить урон от падения, эффект $(thing)Пружинистость$() вместо этого заставит её безвредно отскочить от земли. Уии! $(br2)Если присесть (зажать Shift) перед приземлением, отскока не произойдёт."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Пружинистость (3:00)",
+      "a.recipe": "bloodmagic:flask/bounce",
+      "b.heading": "Пружинистость (8:00)",
+      "b.recipe": "bloodmagic:flask/length_bounce",
+      "c.heading": "Пружинистость (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_bounce"
+    }
+  ]
+}

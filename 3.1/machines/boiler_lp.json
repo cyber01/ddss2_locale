@@ -1,0 +1,117 @@
+{
+  "name": "machine.ddss2.boiler_lp",
+  "appearance": {
+    "block": "custommachinery:machine/boiler_lp",
+    "hardness": 2.5,
+    "running": {
+      "block": "custommachinery:machine/boiler_lp_anim",
+      "lightlevel": 10
+    }
+  },
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "id": "input1",
+      "x": 100,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 142,
+      "y": 39,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 236,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+    {
+      "text": "Low Pressure Boiler",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 190,
+      "y": 20,
+      "type": "custommachinery:fluid",
+      "id": "output1"
+    },
+    {
+      "x": 47,
+      "y": 20,
+      "type": "custommachinery:fluid",
+      "id": "input2"
+    },
+    {
+      "id": "upgrade1",
+      "x": 27,
+      "y": 20,
+      "item": "kubejs:upgrade_steam_cooling",
+      "type": "custommachinery:slot"
+    },
+    {
+      "type": "custommachinery:reset",
+      "x": 155,
+      "y": 60
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "input1",
+      "filter": [
+        "#forge:modular_circuits",
+        "#forge:boosting_mixtures",
+        "#forge:utils/molds",
+        "#forge:custom_upgrades"
+      ],
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input2",
+      "capacity": 20000,
+      "whitelist": true,
+      "filter": [
+        "minecraft:water"
+      ],
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "output",
+      "id": "output1",
+      "capacity": 20000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade1",
+      "filter": [
+        "kubejs:upgrade_steam_cooling"
+      ],
+      "whitelist": true,
+      "mode": "input",
+      "capacity": 2,
+      "variant": "custommachinery:upgrade"
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15
+    }
+  ],
+  "catalysts": [
+    "custommachinery:boiler_hp"
+  ]
+}

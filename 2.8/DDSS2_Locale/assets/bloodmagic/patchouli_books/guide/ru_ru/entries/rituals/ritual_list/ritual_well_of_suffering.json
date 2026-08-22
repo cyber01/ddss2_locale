@@ -1,0 +1,41 @@
+{
+  "name": "Колодец Страданий",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Колодец Страданий",
+      "multiblock_id": "bloodmagic:well_of_suffering",
+      "text": "Для упрощения постройки используй $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный делитель [Сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "well_of_suffering",
+      "text_overrides": [
+        ["LP", "кровь"],
+        ["blood altar", "$(l:bloodmagic:altar/blood_altar)Кровавый Алтарь$(/l)"]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Этот ритуал наносит урон мобам в своей зоне поражения и помещает собранную $(blood)Кровь$() в ближайший $(l:bloodmagic:altar/blood_altar)Кровавый Алтарь$(). Положи $(l:bloodmagic:altar/soul_network)Кровавый Орб$(/l) в Алтарь, добавь несколько $(l:bloodmagic:altar/blood_rune/sacrifice_rune)Рун Жертвоприношения$(/l) для большей эффективности — и тебе больше не придётся беспокоиться о запасах крови... Пока ты можешь обеспечивать достаточное количество мобов."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "altar",
+      "text": "Ритуал может быть связан только с одним алтарём одновременно.",
+      "text_overrides": [
+        ["Blood Altar", "$(l:bloodmagic:altar/blood_altar)Кровавый Алтарь$(/l)"],
+        [" Blood", "кровь"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "damage",
+      "text": "Мобы всё равно будут дропать предметы, как если бы их убил не игрок."
+    }
+  ]
+}

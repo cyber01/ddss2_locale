@@ -1,0 +1,6 @@
+{
+  "name": "Алхимический стол",
+  "description": "$(l:bloodmagic:alchemy_table/alchemy_table)Алхимический стол$() — это очень универсальная часть снаряжения сангвимансера. Он может удваивать руды, создавать базовые ингредиенты из менее полезных предметов, а также создавать $(l:bloodmagic:alchemy_table/anointments)Масла$()!",
+  "icon": "bloodmagic:alchemytable",
+  "sortnum": 1
+}

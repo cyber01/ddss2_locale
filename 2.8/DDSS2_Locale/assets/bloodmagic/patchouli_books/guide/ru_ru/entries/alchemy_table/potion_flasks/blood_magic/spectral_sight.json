@@ -1,0 +1,31 @@
+{
+  "name": "Спектральное Зрение",
+  "icon": "minecraft:glowstone_dust",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Спектральное Зрение$() подсвечивает ближайших существ, как если бы на них был наложен эффект Сияния. Базовая дальность — 24 блока, а каждый следующий уровень увеличивает радиус ещё на 32 блока.$(br2)Создаётся из флакона с эффектом $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Ночного зрения$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Спектральное Зрение (3:00)",
+      "a.recipe": "bloodmagic:flask/night_to_spectral",
+      "b.heading": "Спектральное Зрение (8:00)",
+      "b.recipe": "bloodmagic:flask/length_spectral_sight",
+      "c.heading": "Спектральное Зрение II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_spectral_sight"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Стандартных катализаторов$() может дополнительно усилить ваши зелья."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Спектральное Зрение III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_spectral_sight",
+      "b.heading": "Спектральное Зрение (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_spectral_sight"
+    }
+  ]
+}

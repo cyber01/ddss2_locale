@@ -1,0 +1,175 @@
+{
+  "itemGroup.storagenetwork": "Простая сеть хранения",
+
+  "item.storagenetwork.network_book": "Книга-руководство по сети",
+  "storagenetwork.network_book.landing_text": "Простая сеть хранения управляет всеми вашими хранилищами. См. $(l:gs_setup)Начало работы$(/l) или найдите предмет.",
+
+  "block.storagenetwork.kabel": "Сетевой кабель",
+  "block.storagenetwork.kabel.guide": "Сетевой кабель подключается только к сетевым блокам.",
+  "block.storagenetwork.storage_kabel": "Связующий кабель",
+  "block.storagenetwork.storage_kabel.guide": "Каждый связующий кабель подключает одно хранилище к сети. Это основная точка подключения хранилищ к вашей сети, без управления приоритетом или автоматизацией. Улучшите до $(l:filter_kabel)версии с фильтром$(/l).",
+  "block.storagenetwork.export_kabel": "Экспортный кабель",
+  "block.storagenetwork.export_kabel.guide": "Подключённый к хранилищу, экспортирует предметы из сети в целевое хранилище. Имеет настройки приоритета для порядка сортировки среди других экспортных кабелей и опциональное управление редстоуном. Принимает улучшения.",
+  "block.storagenetwork.import_kabel": "Импортный кабель",
+  "block.storagenetwork.import_kabel.guide": "Постоянно импортирует из подключённого хранилища в сеть. Улучшите до $(l:import_filter_kabel)версии с фильтром$(/l) для большей автоматизации.",
+  "block.storagenetwork.import_filter_kabel": "Импортный кабель с фильтром",
+  "block.storagenetwork.import_filter_kabel.guide": "Постоянно импортирует из подключённого хранилища в сеть. Может быть настроен с помощью улучшений, фильтра предметов и управления редстоуном в окне управления. Режим «Разрешить» пропускает только предметы, соответствующие фильтру; режим «Игнорировать» забирает всё, кроме указанных. Импорт фильтра очищает его и заменяет содержимым хранилища.",
+  "block.storagenetwork.filter_kabel": "Связующий кабель с фильтром",
+  "block.storagenetwork.filter_kabel.guide": "Каждый связующий кабель подключает одно хранилище к сети. Имеет настройки приоритета для порядка сортировки среди других экспортных кабелей и принимает улучшения.",
+
+  "page.storagenetwork.gs_chunks": "Чанки",
+  "page.storagenetwork.gs_setup": "Настройка сети",
+  "page.storagenetwork.gs_priority": "Приоритет",
+  "storagenetwork.guide.getstarted": "Начало работы",
+  "storagenetwork.guide.upgrades": "Улучшения",
+  "storagenetwork.guide.upgrades.desc": "Улучшения используются в слотах $(l:export_kabel)экспортного кабеля$(/l) и $(l:import_filter_kabel)импортного кабеля с фильтром$(/l).",
+  "storagenetwork.guide.remotes": "Удалённые устройства",
+  "storagenetwork.guide.remotes.desc": "Используйте новое удалённое устройство на $(l:master)корневом узле$(/l), чтобы настроить его привязку к сети. Каждое удалённое устройство привязывается к точной позиции (x, y, z, d) корневого узла и может получить доступ к сетевому хранилищу, пока корневой узел не сломан и находится в загруженном чанке. Они работают без проводов с неограниченной дальностью.",
+  "storagenetwork.guide.blocks": "Блоки",
+  "storagenetwork.guide.blocks.desc": "Все сетевые блоки соединяются с любым сетевым кабелем или блоком и предоставляют различные способы доступа или функции сети.",
+  "storagenetwork.guide.cables": "Кабели",
+  "storagenetwork.guide.cables.desc": "Кабели соединяют блоки и узлы в сеть. Действующая сеть должна содержать ровно один $(l:master)корневой узел$(/l). Затем вам понадобится как минимум одно хранилище с $(l:storage_kabel)связующим кабелем$(/l).",
+  "storagenetwork.guide.getstarted.desc": "Различные страницы руководства",
+
+  "page.storagenetwork.gs_setup.left": "Краткое руководство по началу работы с Simple Storage Network. Соберите ингредиенты, несколько $(l:kabel)связующих кабелей$(/l) и $(l:master)корневой узел сети$(/l). Ваша сеть запустится, когда эти блоки будут размещены в мире. $(l:storage_kabel)Связующие кабели$(/l) подключат сундук или другое хранилище к вашей сети. Для доступа используйте $(l:inventory_remote)удалённые устройства$(/l) или $(l:request)столы запросов$(/l).",
+  "page.storagenetwork.gs_setup.right": "Попробуйте использовать функцию закладок.",
+  "page.storagenetwork.gs_priority.left": "Кабели сортируются по приоритету. Если интерфейс не предоставлен (например, для $(l:storage_kabel)связующих кабелей$(/l)), значение приоритета равно нулю. Когда пользователь выполняет запрос на вставку/извлечение в сети, она будет пытаться использовать узлы с наименьшим приоритетом, пока запрос не будет выполнен. Для автоматического импорта/экспорта все кабели обрабатываются, и приоритет определяет порядок каждый раз, одно действие за такт на кабель.",
+  "page.storagenetwork.gs_priority.right": "$(li)Сортируйте кабели по приоритету: сначала наименьшие числа.$(li)Равные числа обрабатываются вместе.$(li)Пример: [-2, -2, 0, 0, 1, 2, 4]$(li)Используйте узлы по одному в этом порядке.",
+
+  "page.storagenetwork.gs_chunks.left": "Сеть работает в мире только тогда, когда её $(l:master)корневой узел$(/l) находится в загруженном чанке. Конечные кабели сети, такие как $(l:storage_kabel)связующие кабели$(/l), могут находиться в другом чанке, чем корневой узел, и могут быть индивидуально отключены в зависимости от загрузки их чанка. Вы можете иметь несколько сетей в одном чанке, мире или измерении.",
+  "page.storagenetwork.gs_chunks.right": "$(li)Пример распределения: у сети может быть 20 связующих кабелей, но 5 из них находятся в незагруженном чанке. Сетевые экраны/удалённые устройства всё равно будут открываться, так как корень загружен, но содержимое этих незагруженных кабелей не отображается.$(li)Пример с удалённым устройством: я построил сеть хранения далеко от $(t:которые всегда загружены)спавн-чанков$(/t), на удалённой океанской базе. Когда я иду в Незер, чанки в обычном мире с корневым блоком выгружаются, поэтому мои $(l:inventory_remote)удалённые устройства$(/l) не могут подключиться.",
+
+  "block.storagenetwork.master": "Корневой узел сети хранения",
+  "block.storagenetwork.master.tooltip": "Используйте только один на сеть",
+  "block.storagenetwork.master.guide": "Главное сердце сети. Только ОДИН на сеть. Размещение более одного приведёт к поломке одного из них и может вызвать проблемы с подключением для удалённых устройств и кабелей. Перемещение корневого узла на новое место нарушит сеть, остановив импорт, экспорт и удалённый доступ. Несколько сетей в мире и измерении допустимы, если они не соединены друг с другом.",
+
+  "block.storagenetwork.request": "Стол запросов хранения",
+  "block.storagenetwork.request.guide": "Просмотр сетевого хранилища с полным доступом: прокрутка, извлечение и размещение предметов. Встроенная сетка крафта, которая забирает ингредиенты из сети. См. $(l:crafting_remote)удалённую версию здесь$(/l).",
+  "block.storagenetwork.request.tooltip": "Используется для обзора и запроса предметов из сети.",
+
+  "block.storagenetwork.inventory": "Сетевое хранилище (инвентарь)",
+  "block.storagenetwork.inventory.guide": "Просмотр сетевого хранилища с полным доступом: прокрутка, извлечение и размещение предметов. См. $(l:inventory_remote)удалённую версию здесь$(/l).",
+  "block.storagenetwork.inventory.tooltip": "Доступ к хранилищу без сетки крафта.",
+
+  "block.storagenetwork.exchange": "Сетевой интерфейс обмена",
+  "block.storagenetwork.exchange.guide": "Предоставляет доступ к сети и действует как контроллер для других систем автоматизации или хранилищ. Например, обычный воронка, направленная на этот интерфейс, будет вставлять предметы в сеть, аналогично $(l:import_kabel)импортному кабелю$(/l). Воронка снизу будет экспортировать любые предметы. Попробуйте это с другими модами на хранение!",
+  "block.storagenetwork.exchange.tooltip": "Конечная точка сети для подключения хранилищ.",
+
+  "block.storagenetwork.collector": "Сетевой интерфейс сбора",
+  "block.storagenetwork.collector.guide": "Предоставляет доступ к сети и действует как контроллер только для вставки для других систем автоматизации. Например, воронка, направленная на этот интерфейс, будет вставлять предметы в сеть, аналогично импортному кабелю. Не позволяет извлекать предметы. Попробуйте это с другими модами!",
+  "block.storagenetwork.collector.tooltip": "Вставленные предметы попадают в сеть.",
+
+  "item.storagenetwork.speed_upgrade": "Улучшение скорости",
+  "item.storagenetwork.speed_upgrade.guide": "Это улучшение можно установить в кабели. Увеличивает скорость импорта, который обычно происходит не каждый такт.",
+  "item.storagenetwork.speed_upgrade.tooltip": "Увеличивает скорость импорта/экспорта.",
+
+  "item.storagenetwork.operation_upgrade": "Улучшение операции",
+
+  "item.storagenetwork.stack_upgrade": "Улучшение стака",
+  "item.storagenetwork.stack_upgrade.tooltip": "Увеличивает размер стака задачи.",
+  "item.storagenetwork.stack_upgrade.guide": "Это улучшение можно установить в импортные или экспортные кабели. Увеличивает извлечение до целого стака (до 64) каждый раз при срабатывании кабеля вместо нескольких предметов.",
+
+  "item.storagenetwork.stock_upgrade": "Улучшение запаса",
+
+  "tooltip.storagenetwork.upgrade_1": "Активность кабеля зависит от количества предметов.",
+  "tooltip.storagenetwork.upgrade_3": "Поддерживает определённое количество предметов в подключённом хранилище (только в экспортном кабеле).",
+
+  "item.storagenetwork.builder_remote": "Удалённый строитель сети",
+  "item.storagenetwork.builder_remote.tooltip": "Привяжите к сети и блоку для строительства.",
+  "item.storagenetwork.builder_remote.guide": "Это удалённое устройство привязывается как обычно, но не имеет экрана. Вместо этого оно ищет блок, на который вы нажали, и пытается построить его копию, используя соответствующий предмет из сети.",
+  "item.storagenetwork.builder_remote.blockstate": "Состояние блока не выбрано; атакуйте, чтобы выбрать.",
+
+  "item.storagenetwork.inventory_remote": "Удалённое хранилище (инвентарь)",
+  "item.storagenetwork.inventory_remote.tooltip": "Используйте на корневом узле для удалённого доступа к хранилищу.",
+  "item.storagenetwork.inventory_remote.guide": "Полный удалённый доступ к сети, не ограниченный дальностью или измерением. Аналогично $(l:inventory)сетевому хранилищу$(/l). Открывается также с помощью привязки клавиш.",
+
+  "item.storagenetwork.crafting_remote": "Удалённое устройство с крафтом",
+  "item.storagenetwork.crafting_remote.tooltip": "Используйте на корневом узле для удалённого доступа к хранилищу.",
+  "item.storagenetwork.crafting_remote.guide": "Полный доступ к сети, не ограниченный дальностью или измерением. Встроенная сетка крафта. Аналогично $(l:request)столу запросов$(/l).",
+
+  "item.storagenetwork.picker_remote": "Удалённое устройство-выборщик",
+  "item.storagenetwork.picker_remote.tooltip": "Нажатие на блок извлечёт соответствующие блоки из сети.",
+  "item.storagenetwork.picker_remote.guide": "Это устройство привязывается как обычно, но не имеет экрана. Нажмите им на блок в мире. Это запросит либо 1, либо целый стак этого блока, в зависимости от того, сидите ли вы на корточках.",
+
+  "item.storagenetwork.collector_remote": "Удалённое устройство-сборщик",
+  "item.storagenetwork.collector_remote.tooltip": "Подобранные предметы перемещаются в сеть.",
+  "item.storagenetwork.collector_remote.guide": "Привяжите это устройство к сети как обычно. Оно работает из любого слота инвентаря (включая аксессуары, но не эндер-сундук), не обязательно держать в руке или на панели быстрого доступа. Когда вы подбираете любой предмет, оно вставит его в сеть, если это возможно.",
+
+  "block.storagenetwork.recipe.invalid": "Транзакция недействительна:",
+  "block.storagenetwork.recipe.invalidleft": "Установите вход слева",
+  "block.storagenetwork.recipe.invalidright": "Установите выход справа",
+  "block.storagenetwork.recipe.valid": "Транзакция действительна",
+
+  "item.remote.found": "Предмет найден, извлечение…",
+  "item.remote.notfound.item": "Предмет не найден в сети",
+  "item.remote.notfound": "Сеть не найдена, убедитесь, что чанк загружен",
+  "item.remote.notconnected": "Удалённое устройство не подключено, сначала привяжите его к главному узлу сети",
+  "item.remote.connected": "Удалённое устройство подключено к сети",
+  "item.remote.outofrange": "Вне диапазона",
+  "item.remote.notloaded": "Чанк не загружен",
+
+  "gui.storagenetwork.operate.tooltip": "Активно, если %s чем %d %s в сети",
+  "gui.storagenetwork.operate.tooltip.more": "больше",
+  "gui.storagenetwork.operate.tooltip.less": "меньше",
+
+  "gui.storagenetwork.refresh": "Обновить обработку транзакций: если она зависла в ожидании результата, это переключит её обратно в режим рецепта для сбора ингредиентов.",
+
+  "gui.storagenetwork.checkbox.meta": "Метаданные",
+  "gui.storagenetwork.checkbox.ore": "Словарь руды (OreDict)",
+  "gui.storagenetwork.checkbox.nbt": "NBT",
+
+  "gui.storagenetwork.import": "Импортировать содержимое как фильтр",
+  "gui.storagenetwork.allowlist": "Белый список",
+  "gui.storagenetwork.ignorelist": "Чёрный список",
+
+  "gui.storagenetwork.redstone.false": "Всегда включён",
+  "gui.storagenetwork.redstone.true": "Требуется сигнал редстоуна",
+
+  "gui.storagenetwork.sort": "Направление сортировки",
+  "gui.storagenetwork.priority.up": "Понизить приоритет (меньшее идёт первым)",
+  "gui.storagenetwork.priority.down": "Повысить приоритет (меньшее идёт первым)",
+
+  "gui.storagenetwork.req.tooltip_name": "Сортировать по названию",
+  "gui.storagenetwork.req.tooltip_mod": "Сортировать по моду",
+  "gui.storagenetwork.req.tooltip_amount": "Сортировать по количеству",
+
+  "gui.storagenetwork.shift": "Зажмите Shift для дополнительной информации.",
+
+  "gui.storagenetwork.fil.tooltip_in": "Только ввод",
+  "gui.storagenetwork.fil.tooltip_out": "Только вывод",
+  "gui.storagenetwork.fil.tooltip_both": "Ввод и вывод",
+  "gui.storagenetwork.fil.tooltip_mod": "Префикс @: поиск по моду.",
+  "gui.storagenetwork.fil.tooltip_tooltip": "Префикс #: поиск по подсказке.",
+  "gui.storagenetwork.fil.tooltip_tags": "Префикс $: поиск по словарю руды.",
+  "gui.storagenetwork.fil.tooltip_clear": "Очистить текст с помощью ПКМ или кнопки X",
+
+  "gui.storagenetwork.tooltip_clear": "Очистить поиск",
+  "gui.storagenetwork.fil.tooltip_jei_on": "Поиск JEI включён",
+  "gui.storagenetwork.fil.tooltip_jei_off": "Поиск JEI отключён",
+
+  "block.storagenetwork.kabel.tooltip": "Базовый сетевой кабель",
+  "block.storagenetwork.storage_kabel.tooltip": "Используется для подключения хранилища к сети.",
+  "block.storagenetwork.export_kabel.tooltip": "Экспортирует предметы из сети в подключённое хранилище.",
+  "block.storagenetwork.import_kabel.tooltip": "Импортирует все предметы из подключённого хранилища в сеть.",
+  "block.storagenetwork.filter_kabel.tooltip": "Связующий кабель с возможностью фильтрации.",
+  "block.storagenetwork.import_filter_kabel.tooltip": "Импортирует предметы с возможностью фильтрации.",
+
+  "tooltip.storagenetwork.kabel_P": "Может автоматизировать простые транзакции обработки.",
+
+  "block.storagenetwork.controller": "Контроллер",
+  "block.storagenetwork.controller.tooltip": "Управляет всеми обрабатывающими кабелями в сети",
+
+  "chat.main.emptyslots": "Возможные пустые слоты: ",
+  "chat.main.connectables": "Подключаемые устройства: ",
+
+  "key.storagenetwork.remote": "Удалённое устройство сети (аксессуар)",
+
+  "processing.buttons.toggle.true": "Всегда активно",
+  "processing.buttons.toggle.false": "Обрабатывать только запрошенное количество",
+  "processing.buttons.minus": "Уменьшить запрос",
+  "processing.buttons.plus": "Увеличить запрос",
+  "processing.empty.ingredients": "Пустые ингредиенты",
+
+  "gui.storagenetwork.processing.recipe": "Ингредиенты для каждого цикла будут отправлены, как если бы они поступали с этой стороны блока",
+  "gui.storagenetwork.processing.extract": "При извлечении результатов обработки они будут взяты, как если бы с этой стороны блока"
+}

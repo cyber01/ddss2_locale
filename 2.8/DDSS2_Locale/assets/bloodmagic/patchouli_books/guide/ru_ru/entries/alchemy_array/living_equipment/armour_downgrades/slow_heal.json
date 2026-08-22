@@ -1,0 +1,16 @@
+{
+  "name": "Болезнь",
+  "icon": "minecraft:ghast_tear",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: снижает эффективность всех источников исцеления. Максимум — уменьшение исцеления на 80%, то есть источник, который обычно восстанавливает 10 сердец, восстановит только 2."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/slow_heal",
+      "b.upgrade": "bloodmagic:slow_heal"
+    }
+  ]
+}

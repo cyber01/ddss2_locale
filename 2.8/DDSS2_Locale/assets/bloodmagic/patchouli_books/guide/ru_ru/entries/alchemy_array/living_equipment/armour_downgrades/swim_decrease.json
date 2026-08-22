@@ -1,0 +1,16 @@
+{
+  "name": "Бетонные ботинки",
+  "icon": "minecraft:water_bucket",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: значительно снижает вашу скорость плавания. Максимум — уменьшение скорости на 80%."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/swim_decrease",
+      "b.upgrade": "bloodmagic:swim_decrease"
+    }
+  ]
+}

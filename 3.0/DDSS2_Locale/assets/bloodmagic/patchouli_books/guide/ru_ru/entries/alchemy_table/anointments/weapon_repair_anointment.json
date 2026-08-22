@@ -1,0 +1,37 @@
+{
+  "name": "Масло Починки",
+  "icon": "bloodmagic:weapon_repair_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло Починки",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment",
+      "text": "Восстанавливает повреждённые инструменты на 1 прочность при использовании. $(br2)Подходящие предметы: инструменты, мечи.$(br2)Накладывает: Регулярное обслуживание I (256 использований)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло Починки L",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_l",
+      "text": "Улучшенная версия масла, действует в четыре раза дольше. $(br2)Накладывает: Регулярное обслуживание I (1024 использования)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло Починки II",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_2",
+      "text": "Улучшенная версия масла, восстанавливает инструмент на 2 прочности за каждое использование. Не срабатывает, если это приведёт к потере части бонуса починки. $(br2)Накладывает: Регулярное обслуживание II (256 использований)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло Починки XL",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_xl",
+      "text": "Улучшенная версия масла, действует в шестнадцать раз дольше. $(br2)Накладывает: Регулярное обслуживание I (4096 использований)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло Починки III",
+      "recipe": "bloodmagic:alchemytable/weapon_repair_anointment_3",
+      "text": "Улучшенная версия масла, восстанавливает инструмент на 3 прочности за каждое использование. Не срабатывает, если это приведёт к потере части бонуса починки. $(br2)Накладывает: Регулярное обслуживание III (256 использований)"
+    }
+  ]
+}

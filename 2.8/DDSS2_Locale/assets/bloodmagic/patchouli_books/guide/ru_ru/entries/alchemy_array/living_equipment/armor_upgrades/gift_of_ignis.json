@@ -1,0 +1,15 @@
+{
+  "name": "Дар Игниса",
+  "icon": "minecraft:blaze_powder",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: даёт эффект Огнестойкости. На более высоких уровнях длится дольше и перезаряжается быстрее. $(br2)Прокачивается: когда вы горите. ($(item)Зелья огнестойкости$() могут пригодиться.) $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:fire_resist"
+    }
+  ]
+}

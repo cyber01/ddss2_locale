@@ -1,0 +1,32 @@
+{
+  "name": "Медлительность",
+  "icon": "minecraft:soul_sand",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Медлительность$() уменьшает скорость передвижения цели на 15% за каждый уровень эффекта.$(br2)Создаётся из флакона с эффектом $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/speed)Скорости$() или $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/jump_boost)Прыгуна$().$(br2)См. далее для комбинаций с катализаторами."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Медлительность из Скорости",
+      "a.recipe": "bloodmagic:flask/speed_to_slow",
+      "b.heading": "Медлительность из Прыгуна",
+      "b.recipe": "bloodmagic:flask/jump_to_slow"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Медлительность (8:00)",
+      "a.recipe": "bloodmagic:flask/length_slowness",
+      "b.heading": "Медлительность II (1:30)",
+      "b.recipe": "bloodmagic:flask/potency_slowness"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Медлительность III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_slowness",
+      "b.heading": "Медлительность (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_slowness"
+    }
+  ]
+}

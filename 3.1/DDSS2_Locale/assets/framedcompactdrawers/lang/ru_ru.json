@@ -1,0 +1,13 @@
+{
+  "block.framedcompactdrawers.framed_compact_drawer": "Обрамленный уплотняющий ящик",
+  "block.framedcompactdrawers.framed_drawer_controller": "Обрамленный контроллер ящиков",
+  "block.framedcompactdrawers.framed_slave": "Обрамленный ведомый контроллер",
+  "block.framedcompactdrawers.framed_trim": "Обрамленная окантовка",
+  "block.framedcompactdrawers.framed_full_one": "Обрамленный ящик",
+  "block.framedcompactdrawers.framed_full_two": "Обрамленные ящики 1x2",
+  "block.framedcompactdrawers.framed_full_four": "Обрамленные ящики 2x2",
+  "block.framedcompactdrawers.framed_half_one": "Обрамленный половинный ящик",
+  "block.framedcompactdrawers.framed_half_two": "Обрамленные половинные ящики 1x2",
+  "block.framedcompactdrawers.framed_half_four": "Обрамленные половинные ящики 2x2",
+  "itemGroup.framed_compacting_drawers": "Обрамленные уплотняющие ящики"
+}

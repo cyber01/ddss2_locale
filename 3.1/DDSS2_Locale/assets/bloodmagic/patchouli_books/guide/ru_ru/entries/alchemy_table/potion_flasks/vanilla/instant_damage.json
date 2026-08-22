@@ -1,0 +1,29 @@
+{
+  "name": "Мгновенный Урон",
+  "icon": "minecraft:iron_sword",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Мгновенный Урон$() наносит цели 6 единиц $(thing)магического урона$() за каждый уровень эффекта. Если цель — $(thing)нежить$(), вместо этого она исцеляется на 6 единиц за уровень.$(br2)Создаётся из зелья $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/instant_health)Мгновенного Исцеления$() или $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/poison)Яда$()."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Урон из Исцеления",
+      "a.recipe": "bloodmagic:flask/health_to_harm",
+      "b.heading": "Урон из Яда",
+      "b.recipe": "bloodmagic:flask/poison_to_harm",
+      "c.heading": "Мгновенный Урон II",
+      "c.recipe": "bloodmagic:flask/potency_harm"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Стандартных катализаторов$() может дополнительно усилить ваши зелья."
+    },
+    {
+      "type": "bloodmagic:crafting_flask",
+      "heading": "Мгновенный Урон III",
+      "recipe": "bloodmagic:flask/potency_average_harm"
+    }
+  ]
+}

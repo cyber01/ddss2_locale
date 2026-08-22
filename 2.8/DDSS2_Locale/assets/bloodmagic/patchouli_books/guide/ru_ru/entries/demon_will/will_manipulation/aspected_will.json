@@ -1,0 +1,55 @@
+{
+  "name": "Аспекты Демонической Воли",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings": {
+    "bloodmagic:steadfastdemoncrystal": 2,
+    "bloodmagic:corrosivedemoncrystal": 2,
+    "bloodmagic:destructivedemoncrystal": 2,
+    "bloodmagic:vengefuldemoncrystal": 2,
+    "bloodmagic:steadfastcrystal": 2,
+    "bloodmagic:corrosivecrystal": 2,
+    "bloodmagic:destructivecrystal": 2,
+    "bloodmagic:vengefulcrystal": 2,
+    "bloodmagic:basemonstersoul_vengeful": 2,
+    "bloodmagic:basemonstersoul_corrosive": 2,
+    "bloodmagic:basemonstersoul_steadfast": 2,
+    "bloodmagic:basemonstersoul_destructive": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Выпустить $(l:bloodmagic:demon_will/will_manipulation/demon_will)Демоническую Волю$() в атмосферу оказалось отличной идеей. Она не только очень полезна для усиления $(item)Ритуалов$(), но ты также успешно сконденсировал её в $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Кристаллический кластер$() и теперь задумываешься, что делать дальше. $(br2)Эти $(item)Кристаллы$() кажутся тебе... какими-то противоречивыми. Возможно, определённый $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)Ритуал$() поможет выделить из них более чистые формы..."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/will_splitting.png"
+      ],
+      "title": "Аспекты Воли",
+      "border": true,
+      "text": "Ритуал $(l:bloodmagic:rituals/ritual_list/ritual_crystal_split)Резонанс Грани Кристалла$() в действии."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Теперь у нас есть $(item)Кристаллизованная Воля$() в четырёх новых \"вкусах\"! На $(water)Руне Воды$() — $(steadfast)Стойкая Воля$(), на $(air)Руне Воздуха$() — $(destructive)Разрушительная Воля$(), на $(fire)Руне Огня$() — $(vengeful)Мстительная Воля$(), а на $(earth)Руне Земли$() — $(corrosive)Коррозионная Воля.$() $(br2)Все эти новые типы Воли можно сжигать в $(item)Демоническом Тигле$() так же, как и Сырой Воли, а затем использовать в различных Ритуалах для получения интересных эффектов."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "sentient_aspects",
+      "text": "Однако, они также меняют поведение твоих Разумных Инструментов, делая их сильнее.$(br) $(li)$(raw)Сырая Воля$(): увеличивает урон. $(corrosive)$(li)Коррозионная Воля$(): атаки могут наложить отравление или иссушение на врагов, в остальном работает как $(raw)Сырая$(). $(vengeful)$(li)Мстительная Воля$(): увеличивает урон, но не так сильно, как $(raw)Сырая$(). Повышает скорость атаки. Даёт эффект ускорения, который усиливается при большем количестве Воли."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(steadfast)$(li)Стойкая Воля$(): увеличивает урон (но не так сильно, как $(raw)Сырая$()) и даёт Поглощение после убийства. $(destructive)$(li)Разрушительная Воля$(): увеличивает урон больше, чем любой другой тип воли, но снижает скорость атаки."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Ты, возможно, задаёшься вопросом: «Как же получить эту волю в пригодной для использования форме?» Всё просто. Положи ПУСТОЙ $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарический Камень$() в $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Адскую Кузню$(), находящуюся в том же чанке, что и $(item)Демонический Тигель$(), затем накорми Тигель кристаллами воли нужного аспекта. Твой $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарический Камень$() наполнится этим аспектом воли. Ты можешь менять, какой вид воли используют твои $(raw)Разумные Инструменты$(), зажав [$(k:use)] с ними в руке."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Обрати внимание: твои $(item)Разумные Инструменты$() будут использовать тот аспект $(raw)Воли$(), которого у тебя больше всего в инвентаре. Если у тебя 10 $(corrosive)Коррозионной Воли$() в одном $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарическом Камне$() и 1000 $(raw)Сырой Воли$() в другом, твой меч останется $(raw)Сырой$(). $(br2)$(l:bloodmagic:demon_will/will_manipulation/soul_forge)Адская Кузня$() принимает любой вид $(raw)воли$() для крафта, так что не переживай о необходимости таскать разные виды воли в разных $(item)Тартарических Камнях$()."
+    }
+  ]
+}

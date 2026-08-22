@@ -1,0 +1,56 @@
+{
+
+"tips.title.tip":"Tip",
+"tips.tip.freebitron_prime":"Rumors speak of a mysterious mob called Freebitron Prime. Clearly a very dangerous and feared enemy. If you see him... run",
+
+"tips.tip.ddss":"If you want to report some issues or suggest new mods, feel free to join the official DDSS discord. We have a great community! discord.gg/eUajYmK",
+
+"tips.tip.portals":"Unless you're going to the Nether or End, you can only get to the other dimensions by making a keystone or item. The quest book will tell you everything you need to know.",
+
+"tips.tip.dims":"In this pack you can explore over 22 Fantasy Dimensions and 4 Planets.",
+
+"tips.tip.alfheim":"The Alfheim portal is more than just a portal in DDSS 2. It really takes you into the Alfheim dimension...",
+
+"tips.tip.tiers":"DDSS 2 consists of 7 different eras (tier 0-6) with tier 6 being almost exclusively about creative items.",
+
+"tips.tip.dilithium":"Previously in DDSS 1 you could only find dilithium in deserts and oceans. In DDSS 2 you can find it in every overworld biome.",
+
+"tips.tip.jauxum":"Jauxum ore can only be found in the following dimensions: Precasia, Barathos and Celeve.",
+
+"tips.tip.grass":"Don't forget to touch the grass!",
+
+"tips.tip.piglins":"Piglins aren't too happy when you steal their ores in the Nether. When you're mining there, just make sure there are no Piglins within 10 blocks. It looks like they're not too bothered about Glowstone.",
+
+"tips.tip.oil":"If you need crude oil, you can find some in hot biomes such as vanilla deserts, but also in modded biomes such as red deserts, lush savannas, etc.",
+
+"tips.tip.boost":"Boosting mixtures come in six different tiers and can make life much easier. Although they are not always easy to make, they increase the number of crafted items produced by machines. It's always good to craft a circuit and get an extra one for free.",
+
+"tips.tip.nbt":"If you can, avoid storing items with NBT strings, like enchanted armour, in your Refined Storage or AE2 system. This is also really important for backpacks and other items that contain other items. If you do that, you might run into problems, and you might not be able to take the items back out again.",
+
+"tips.tip.sorting":"DDSS2 has a very lightweight sorting mod installed that doesn't clutter your chest inventories and interfaces with numerous buttons. Set the keys for your sorting options in the key bindings.",
+
+"tips.tip.torchlauncher":"The Cyclic Torch Launcher will break when the last torch is fired. Make sure you always store enough torches in it!",
+
+"tips.tip.netherite":"Ever wondered how many Netherite blocks you'd get if you mined out the entire Nether? 658.2 billion blocks",
+
+"tips.tip.sugarcane":"Sugarcanes in this pack grow 16 blocks high. They are affected by bonemeal and they also grow pretty fast with Cyclic Sprinkler!",
+
+"tips.tip.dismantler":"If you want to get your hands on a Waystone, you'll need to craft a Waystone-Dismantler. In Tier 3, you can also craft your own Waystones.",
+
+
+
+"gui.tips.list.title":"Tips List",
+"gui.tips.list.search":"Search",
+"gui.tips.list.show_disabled":"Show Disabled",
+"gui.tips.list.entry.tip_id":"Tip ID: %s",
+"gui.tips.list.entry.added_by":"Added by: %s",
+"gui.tips.list.entry.cycle_time":"Cycle Time: %s",
+"gui.tips.list.entry.copied":"Copied!",
+"gui.tips.list.entry.click_to_copy":"Click to copy ID",
+"gui.tips.list.entry.disabled":"Disabled by config!",
+"gui.tips.list.config":"Config"
+
+
+
+
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Ритуал Полного Источника",
+  "icon": "minecraft:water_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал Полного Источника",
+      "multiblock_id": "bloodmagic:water",
+      "text": "Для упрощения постройки используй $(l:bloodmagic:rituals/ritual_diviner)Ритуальный делитель$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "water",
+      "text_overrides": [
+        ["Master Ritual Stone", "$(l:bloodmagic:rituals/ritual_stones)Главный Ритуальный Камень$(/l)"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "water",
+      "page_type": "waterRange"
+    }
+  ]
+}

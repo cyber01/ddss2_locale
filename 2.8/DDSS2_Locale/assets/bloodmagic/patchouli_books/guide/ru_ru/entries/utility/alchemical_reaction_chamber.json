@@ -1,0 +1,61 @@
+{
+  "name": "Алхимическая реакционная камера",
+  "icon": "bloodmagic:alchemicalreactionchamber",
+  "category": "bloodmagic:utility",
+  "pages": [
+     {
+      "type": "patchouli:text",
+      "text": "$(item)Алхимическая реакционная камера$() ещё не полностью реализована, но уже сейчас может работать как $(thing)Печь$(), поддерживает $(l:bloodmagic:utility/ore_processing)утроение руды$(), позволяет возвращать $(l:bloodmagic:altar/soul_network)Кровавые Орбы$(), $(item)Незерит$() и $(item)Усиленные руны$() к их исходным предметам, а также на данный момент это единственный способ получить $(blood)Слабые кровавые осколки$(), которые создаются из $(l:bloodmagic:dungeons/tau_fruit)Насыщенного тау$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:arc"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Сангвинный ревертер",
+      "recipe": "bloodmagic:soulforge/sanguine_reverter",
+	  "anchor": "blood_shard",
+      "text": "$(item)Сангвинный ревертер$() используется для создания $(blood)Слабых кровавых осколков$(), а также для возврата $(l:bloodmagic:altar/soul_network)Кровавых Орбов$(), $(item)Незерита$() и $(item)Усиленных рун$() к их исходным предметам крафта."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "Слабый кровавый осколок",
+      "a.recipe": "bloodmagic:arc/weakbloodshard_tau",
+      "b.heading": "Реверсия слабого кровавого орба",
+      "b.recipe": "bloodmagic:arc/reversion/weak_blood_orb",
+      "c.heading": "Реверсия орба ученика",
+      "c.recipe": "bloodmagic:arc/reversion/apprentice_blood_orb"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "Реверсия орба мага",
+      "a.recipe": "bloodmagic:arc/reversion/magician_blood_orb",
+      "b.heading": "Реверсия орба мастера",
+      "b.recipe": "bloodmagic:arc/reversion/master_blood_orb",
+      "c.heading": "Реверсия незерита",
+      "c.recipe": "bloodmagic:arc/reversion/netherite_ingot"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "Реверсия усиленной руны",
+      "recipe": "bloodmagic:arc/reversion/speed",
+      "text": "Все усиленные руны можно вернуть этим способом — это лишь пример."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Ячейка гидратации",
+      "recipe": "bloodmagic:primitive_hydration_cell",
+      "text": "Ячейка гидратации используется для создания глины — краеугольного камня Баланса."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "Глина из песка",
+      "a.recipe": "bloodmagic:arc/clay_from_sand",
+      "a.fluid_input": "minecraft:water_bucket",
+      "b.heading": "Глина из терракоты",
+      "b.recipe": "bloodmagic:arc/clay_from_terracotta",
+      "b.fluid_input": "minecraft:water_bucket"
+    }
+  ]
+}

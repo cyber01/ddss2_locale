@@ -1,0 +1,242 @@
+{
+  "name": "machine.ddss2.electroly_basic",
+  "appearance": {
+    "block": "custommachinery:machine/electroly_basic",
+    "running": {
+      "block": "custommachinery:machine/elyse02_anim",
+      "lightlevel": 10
+    }
+  },
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "id": "input4",
+      "x": 87,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input5",
+      "texture": "custommachinery:textures/gui/boost4_slot.png",
+      "x": 87,
+      "y": 20,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input6",
+      "texture": "custommachinery:textures/gui/circuit_slot.png",
+      "x": 87,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output1",
+      "x": 190,
+      "y": 20,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output2",
+      "x": 190,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output3",
+      "x": 190,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 116,
+      "y": 41,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 236,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+    {
+      "text": "Basic E-D-R-U [T2]",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 67,
+      "y": 20,
+      "type": "custommachinery:fluid",
+      "id": "input1"
+    },
+    {
+      "x": 150,
+      "y": 20,
+      "type": "custommachinery:fluid",
+      "id": "output4"
+    },
+    {
+      "x": 170,
+      "y": 20,
+      "type": "custommachinery:fluid",
+      "id": "output5"
+    },
+    {
+      "x": 47,
+      "y": 20,
+      "type": "custommachinery:energy"
+    },
+    {
+      "id": "upgrade1",
+      "x": 27,
+      "y": 20,
+      "item": "mekanism:upgrade_speed",
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "upgrade2",
+      "x": 27,
+      "y": 38,
+      "item": "mekanism:upgrade_energy",
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "upgrade3",
+      "x": 27,
+      "y": 56,
+      "item": "kubejs:chance_upgrade",
+      "type": "custommachinery:slot"
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "input4",
+      "filter": [
+        "#forge:modular_circuits",
+        "#forge:boosting_mixtures",
+        "#forge:utils/molds",
+        "#forge:custom_upgrades"
+      ],
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input5",
+      "filter": [
+        "kubejs:mixture_t1",
+        "kubejs:mixture_t2",
+        "kubejs:mixture_t3",
+        "kubejs:mixture_t4",
+        "kubejs:mixture_t5",
+        "kubejs:mixture_t6"
+      ],
+      "whitelist": true,
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input6",
+      "filter": [
+        "#forge:modular_circuits"
+      ],
+      "whitelist": true,
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output1",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output2",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output3",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output4",
+      "capacity": 10000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "output",
+      "id": "output5",
+      "capacity": 10000,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "capacity": 100000,
+      "maxOutput": 0,
+      "type": "custommachinery:energy"
+    },
+    {
+      "mode": "input",
+      "id": "input1",
+      "capacity": 20000,
+      "filter": [
+        "mekanism:steam"
+      ],
+      "type": "custommachinery:fluid"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade1",
+      "filter": [
+        "mekanism:upgrade_speed"
+      ],
+      "whitelist": true,
+      "mode": "input",
+      "capacity": 4,
+      "variant": "custommachinery:upgrade"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade2",
+      "filter": [
+        "mekanism:upgrade_energy"
+      ],
+      "whitelist": true,
+      "mode": "input",
+      "capacity": 4,
+      "variant": "custommachinery:upgrade"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade3",
+      "filter": [
+        "kubejs:chance_upgrade"
+      ],
+      "whitelist": true,
+      "mode": "input",
+      "capacity": 4,
+      "variant": "custommachinery:upgrade"
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15
+    }
+  ],
+  "catalysts": [
+    "custommachinery:electroly_steam",
+    "custommachinery:electroly_adv",
+    "custommachinery:electroly_ultra",
+    "custommachinery:electroly_master",
+    "custommachinery:electroly_fusion"
+  ]
+}

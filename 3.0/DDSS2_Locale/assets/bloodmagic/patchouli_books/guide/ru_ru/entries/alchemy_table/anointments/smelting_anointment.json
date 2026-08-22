@@ -1,0 +1,25 @@
+{
+  "name": "Масло Медленного Горения",
+  "icon": "bloodmagic:smelting_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло Медленного Горения",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment",
+      "text": "Использует жар для автоплавки добытых блоков. $(br2)Подходящие предметы: инструменты, мечи, заряды.$(br2)Накладывает: Нагретый инструмент I (256 блоков)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло Медленного Горения L",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment_l",
+      "text": "Улучшенная версия масла, действует в четыре раза дольше. $(br2)Накладывает: Нагретый инструмент I (1024 блока)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Масло Медленного Горения XL",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment_xl",
+      "text": "Улучшенная версия масла, действует в шестнадцать раз дольше. $(br2)Накладывает: Нагретый инструмент I (4096 блоков)"
+    }
+  ]
+}

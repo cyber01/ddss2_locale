@@ -22,6 +22,7 @@
  - Download archive in attachments
  - Unpack archive
  - Copy content of chapters directory in <modpack_path>/config/ftbquests/quests/ with replacement
+ - Copy content of chapters directory in <modpack_path>/kubejs/data/custommachinery/ with replacement
  - Copy DDSS2_Locale.zip in <modpack_path>/resourcepacks/
  - *.json is not needed for translating
  - Run modpack
@@ -55,6 +56,7 @@ You need to make a Fork repository, translate the localization file (create a ne
  - Скачайте приложенный архив
  - Распакуйте архив
  - Скопируйте содержимое директории chapters в <папка со сборкой>/config/ftbquests/quests/ с заменой
+ - Скопируйте содержимое директории machines в <папка со сборкой>/kubejs/data/custommachinery/ с заменой
  - Скопируйте файл DDSS2_Locale.zip в <папка со сборкой>/resourcepacks/
  - Файлы *.json вам не понадобятся
  - Запустите сборку

@@ -1,0 +1,19 @@
+{
+  "name": "Сигил Телепозиции",
+  "icon": "bloodmagic:telepositionsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Телепортирует игрока к привязанному Телепозеру за $(blood)1000 LP$() за использование. Если зажать [$(k:sneak)] и кликнуть сигилом по Телепозеру, в сигиле сохранится его местоположение и измерение, что позволит быстро вернуться домой. $(br2)Только не забудьте случайно не сломать Телепозер!"
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент телепозиции",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_teleposition",
+      "array.heading": "Сигил Телепозиции",
+      "array.recipe": "bloodmagic:array/telepositionsigil",
+      "array.text": "$(italic)Теперь ты меня видишь...!$()"
+    }
+  ]
+}

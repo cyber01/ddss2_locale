@@ -1,0 +1,39 @@
+{
+  "name": "Основы Алхимического круга",
+  "icon": "bloodmagic:arcaneashes",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Мистический пепел$() — это предмет, необходимый для создания Алхимических кругов. $(item)Мистический пепел$() можно создать в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимическом столе$(), используя некоторые предметы начального этапа игры."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Мистический пепел",
+      "recipe": "bloodmagic:alchemytable/arcane_ash"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы создать Алхимический круг, зажмите [$(k:use)] и посмотрите на блок, держа в руке $(item)Мистический пепел$(). Это потратит 1 прочность из 20 у $(item)Мистического пепла$() и нарисует простой $(thing)Алхимический круг$(), который сам по себе не имеет эффекта. $(br2)Когда вы кликните по $(thing)Алхимическому кругу$(), он заберёт один $(item)предмет$() из вашей руки и поместит его в круг. Эти предметы используются для определения эффекта $(thing)Алхимического круга$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_array/simple_array.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_1.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_2.png"
+      ],
+      "title": "Алхимический круг",
+      "border": true,
+      "text": "$(thing)Алхимический круг$() с разными вариантами: без предметов; только с $(item)базовым предметом$(); с $(item)базовым предметом$() и $(item)катализатором$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Для каждого эффекта требуется два предмета: $(item)база$() и $(item)катализатор$(). $(item)База$() — это первый предмет, которым вы кликаете по кругу после его создания, а $(item)катализатор$() — второй. Если база подходит, внешний вид круга изменится, и круг активируется после добавления катализатора."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Хотя сейчас реализовано лишь несколько кругов, в будущем появятся круги от простых $(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)крафтовых кругов$(/l) до даже телепортационных."
+    }
+  ]
+}

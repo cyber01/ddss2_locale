@@ -1,0 +1,37 @@
+{
+  "name": "Лучная смазка",
+  "icon": "bloodmagic:bow_velocity_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Лучная смазка",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment",
+      "text": "Увеличивает скорость выпущенных стрел на 50%. Это также пропорционально увеличивает урон от стрел. Эффект складывается с ванильными зачарованиями. $(br2)Подходящие предметы: луки, арбалеты.$(br2)Накладывает: Меткий выстрел I (256 выстрелов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Лучная смазка L",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_l",
+      "text": "Улучшенная версия масла, действует в четыре раза дольше. $(br2)Накладывает: Меткий выстрел I (1024 выстрела)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Лучная смазка II",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_2",
+      "text": "Улучшенная версия масла, увеличивает скорость стрел на 100%. $(br2)Накладывает: Меткий выстрел II (256 выстрелов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Лучная смазка XL",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_xl",
+      "text": "Улучшенная версия масла, действует в шестнадцать раз дольше. $(br2)Накладывает: Меткий выстрел I (4096 выстрелов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Лучная смазка III",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_3",
+      "text": "Улучшенная версия масла, увеличивает скорость стрел на 150%. $(br2)Накладывает: Меткий выстрел III (256 выстрелов)"
+    }
+  ]
+}

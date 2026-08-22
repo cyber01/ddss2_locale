@@ -1,0 +1,25 @@
+{
+  "name": "Руна сферы",
+  "icon": "bloodmagic:orbcapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна сферы$() увеличивает вместимость $(item)Кровавой сферы$(), находящейся внутри Алтаря, на $(thing)+2%$() за каждую руну, пока сфера находится в Алтаре."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_orb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_orb_2",
+      "text":"Используя немного $(item)Незеритовых обломков$() и $(item)Сложных адских деталей$(), которые можно найти в $(l:bloodmagic:dungeons/endless_realm)Демоническом измерении$(/l), вы сможете удвоить силу вашей $(item)Руны сферы$(), увеличивая вместимость сферы на $(thing)+4%$() за каждую руну."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/orb_rune",
+      "text":"Если вы передумали, вы можете отменить рецепт в ARC."
+    }
+  ]
+}

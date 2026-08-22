@@ -1,0 +1,301 @@
+{
+  "name": "machine.ddss2.vom_t2",
+  "appearance": {
+    "block": "custommachinery:machine/vom_t2",
+    "running": {
+      "block": "custommachinery:machine/vom_t2_anim",
+      "lightlevel": 10
+    }
+  },
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "id": "input1",
+      "texture": "custommachinery:textures/gui/boost4_slot.png",
+      "x": 67,
+      "y": 30,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "input2",
+      "item": "mekanism:configuration_card",
+      "x": 67,
+      "y": 48,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output1",
+      "x": 118,
+      "y": 20,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output2",
+      "x": 136,
+      "y": 20,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output3",
+      "x": 154,
+      "y": 20,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output4",
+      "x": 172,
+      "y": 20,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output5",
+      "x": 190,
+      "y": 20,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output6",
+      "x": 118,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output7",
+      "x": 136,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output8",
+      "x": 154,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output9",
+      "x": 172,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output10",
+      "x": 190,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output11",
+      "x": 118,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output12",
+      "x": 136,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output13",
+      "x": 154,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output14",
+      "x": 172,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output15",
+      "x": 190,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 47,
+      "y": 20,
+      "type": "custommachinery:energy"
+    },
+    {
+      "x": 89,
+      "y": 40,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 236,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+    {
+      "text": "Void Miner [T2]",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "id": "upgrade1",
+      "x": 27,
+      "y": 20,
+      "item": "mekanism:upgrade_speed",
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "upgrade2",
+      "x": 27,
+      "y": 38,
+      "item": "mekanism:upgrade_energy",
+      "type": "custommachinery:slot"
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "input1",
+      "filter": [
+        "kubejs:mixture_t1",
+        "kubejs:mixture_t2",
+        "kubejs:mixture_t3",
+        "kubejs:mixture_t4",
+        "kubejs:mixture_t5",
+        "kubejs:mixture_t6"
+      ],
+      "whitelist": true,
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input2",
+      "filter": [
+        "forge:miner_programs"
+      ],
+      "whitelist": true,
+      "capacity": 1,
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output1",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output2",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output3",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output4",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output5",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output6",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output7",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output8",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output9",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output10",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output11",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output12",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output13",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output14",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output15",
+      "type": "custommachinery:item"
+    },
+    {
+      "capacity": 500000,
+      "maxOutput": 0,
+      "type": "custommachinery:energy"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade1",
+      "filter": [
+        "mekanism:upgrade_speed"
+      ],
+      "whitelist": true,
+      "mode": "input",
+      "capacity": 4,
+      "variant": "custommachinery:upgrade"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade2",
+      "filter": [
+        "mekanism:upgrade_energy"
+      ],
+      "whitelist": true,
+      "mode": "input",
+      "capacity": 4,
+      "variant": "custommachinery:upgrade"
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15
+    }
+  ],
+  "catalysts": [
+    "custommachinery:vom_t1",
+    "custommachinery:vom_t3",
+    "custommachinery:vom_t4",
+    "custommachinery:vom_t5",
+    "custommachinery:vom_t6"
+  ]
+}

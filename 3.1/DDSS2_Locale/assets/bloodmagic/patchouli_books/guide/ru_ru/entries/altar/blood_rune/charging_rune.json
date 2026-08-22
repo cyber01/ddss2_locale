@@ -1,0 +1,29 @@
+{
+  "name": "Руна зарядки",
+  "icon": "bloodmagic:chargingrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна зарядки$() — это уникальное улучшение руны. Когда $(l:bloodmagic:altar/blood_altar)Кровавый Алтарь$(/l) не занимается крафтом и не наполняет $(l:bloodmagic:altar/soul_network)Кровавую сферу$(/l), он будет забирать $(blood)LP$() из Алтаря, чтобы зарядить внутренний буфер. Когда следующий предмет будет помещён в Алтарь, накопленный заряд мгновенно израсходуется и будет применён к крафту предмета в соотношении 1:1."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Кровавый Алтарь делает тик зарядки раз в 20 игровых тиков, это значение уменьшается на 1 за каждую $(l:bloodmagic:altar/blood_rune/acceleration_rune)Руну ускорения$().$(br2)Скорость зарядки Алтаря за один тик рассчитывается так: [$(blood)10LP$() × $(l:bloodmagic:altar/blood_rune/charging_rune)Руны зарядки$() × (1 + $(l:bloodmagic:altar/blood_rune/speed_rune)Руны скорости$()/10)]$(br2)Максимальный заряд, который может накопить Кровавый Алтарь, составляет $(blood)1000 LP$() за каждую $(item)Руну зарядки$(), и это значение умножается на [(ёмкость основного бака Алтаря)/20000], если результат больше 1."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_charging"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_charging_2",
+      "text":"Используя немного $(item)Незеритовых обломков$() и $(item)Сложных адских деталей$(), которые можно найти в $(l:bloodmagic:dungeons/endless_realm)Демоническом измерении$(/l), вы сможете удвоить силу вашей $(item)Руны зарядки$() — как по ёмкости, так и по скорости."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/charging",
+      "text":"Если вы передумали, вы можете отменить рецепт в ARC."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Твёрдый Покров",
+  "icon": "minecraft:obsidian",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Твёрдый Покров$() даёт 3 единицы прочности брони за каждый уровень эффекта."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "Твёрдый Покров (3:00)",
+      "a.recipe": "bloodmagic:flask/hard_cloak",
+      "b.heading": "Твёрдый Покров (8:00)",
+      "b.recipe": "bloodmagic:flask/length_hard_cloak",
+      "c.heading": "Твёрдый Покров II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_hard_cloak"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Добавление $(l:bloodmagic:alchemy_table/potions#average_potions)Стандартных катализаторов$() может дополнительно усилить ваши зелья."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Твёрдый Покров III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_hard_cloak",
+      "b.heading": "Твёрдый Покров (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_hard_cloak"
+    }
+  ]
+}

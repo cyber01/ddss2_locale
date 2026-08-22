@@ -1,0 +1,31 @@
+{
+  "name": "Уровни сланцев",
+  "icon": "bloodmagic:blankslate",
+  "category": "bloodmagic:altar",
+  "extra_recipe_mappings": {
+    "bloodmagic:blankslate": 1,
+    "bloodmagic:reinforcedslate": 1,
+    "bloodmagic:infusedslate": 2,
+    "bloodmagic:demonslate": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Основное назначение $(l:bloodmagic:altar/blood_altar)Кровавого Алтаря$() — создание различных $(item)сланцев$(). Для получения каждого следующего уровня сланца требуется предыдущий уровень и более продвинутый Алтарь. $(br2)Обратите внимание, что $(item)Эфирные сланцы$() по умолчанию не реализованы, но могут быть доступны в некоторых модпаках. Подробности смотрите в JEI."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Пустой сланец",
+      "a.recipe": "bloodmagic:altar/slate",
+      "b.heading": "Укреплённый сланец",
+      "b.recipe": "bloodmagic:altar/reinforcedslate"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Заряженный сланец",
+      "a.recipe": "bloodmagic:altar/imbuedslate",
+      "b.heading": "Демонический сланец",
+      "b.recipe": "bloodmagic:altar/demonicslate"
+    }
+  ]
+}

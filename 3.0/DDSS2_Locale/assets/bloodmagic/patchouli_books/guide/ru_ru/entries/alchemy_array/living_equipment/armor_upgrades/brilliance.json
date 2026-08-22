@@ -1,0 +1,17 @@
+{
+  "name": "Блеск",
+  "icon": "minecraft:diamond",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Блеск",
+      "recipe": "bloodmagic:alchemytable/upgrade_brilliance",
+      "text": "Эффект: усиливает защиту брони. Максимум: +5 к броне и +8 к стойкости. $(br2)Прокачивается: созданием Живого Тома на Алхимическом столе. Каждый том даёт 1 уровень Блеска. $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:diamond_protect"
+    }
+  ]
+}

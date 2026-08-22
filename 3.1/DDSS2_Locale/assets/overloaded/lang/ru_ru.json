@@ -1,0 +1,47 @@
+{
+  "block.overloaded.creative_generator": "Креативный генератор",
+  "item.overloaded.energy_shield": "Энергетический щит",
+
+  "block.overloaded.almost_infinite_capacitor": "Почти бесконечный конденсатор",
+  "block.overloaded.almost_infinite_barrel": "Почти бесконечная бочка",
+  "block.overloaded.almost_infinite_tank": "Почти бесконечный бак",
+  "block.overloaded.true_infinite_capacitor": "Истинно бесконечный конденсатор",
+  "block.overloaded.true_infinite_barrel": "Истинно бесконечная бочка",
+  "block.overloaded.true_infinite_tank": "Истинно бесконечный бак",
+  "block.overloaded.grill": "Гриль",
+  "block.overloaded.infinite_water_source": "Бесконечный источник воды",
+  "block.overloaded.energy_extractor": "Энергетический экстрактор",
+  "block.overloaded.nether_star_block": "Блок звезды Незера",
+  "block.overloaded.player_interface": "Интерфейс игрока",
+  "block.overloaded.item_interface": "Интерфейс предметов",
+  "block.overloaded.instant_furnace": "Мгновенная печь",
+
+  "item.overloaded.energy_core": "Энергетическое ядро",
+  "item.overloaded.fluid_core": "Жидкостное ядро",
+  "item.overloaded.item_core": "Предметное ядро",
+
+  "item.overloaded.multi_tool": "Мульти-инструмент",
+  "item.overloaded.multi_helmet": "Мульти-шлем",
+  "item.overloaded.multi_boots": "Мульти-ботинки",
+  "item.overloaded.multi_chestplate": "Мульти-нагрудник",
+  "item.overloaded.multi_leggings": "Мульти-поножи",
+  "item.overloaded.settings_editor": "Редактор настроек мульти-брони",
+
+  "item.overloaded.ray_gun": "Лучевой пистолет",
+  "item.overloaded.railgun": "Рельсотрон",
+
+  "block.overloaded.hyper_energy_sender": "Гипер-энергетический передатчик",
+  "block.overloaded.hyper_energy_receiver": "Гипер-энергетический приёмник",
+  "block.overloaded.hyper_item_sender": "Гипер-предметный передатчик",
+  "block.overloaded.hyper_item_receiver": "Гипер-предметный приёмник",
+  "block.overloaded.hyper_fluid_sender": "Гипер-жидкостный передатчик",
+  "block.overloaded.hyper_fluid_receiver": "Гипер-жидкостный приёмник",
+  "item.overloaded.linking_card": "Карта связывания",
+
+  "itemGroup.Overloaded_Compressed": "Сжатые блоки Overloaded",
+  "itemGroup.Overloaded_Tech": "Технологии Overloaded",
+
+  "overloaded.cat.key": "Overloaded",
+  "overloaded.key.noclip": "Переключить режим прохождения сквозь стены",
+  "overloaded.key.railgun100x": "Модификатор рельсотрона ×100"
+}

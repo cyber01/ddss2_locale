@@ -1,0 +1,102 @@
+{
+  "name": "Алхимический стол",
+  "icon": "bloodmagic:alchemytable",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Алхимический стол$() создаёт предметы, используя $(blood)LP$() из $(l:bloodmagic:altar/soul_network)Сетевой Души$(/l). Используемая $(thing)Сетевая Душа$() и доступные уровни рецептов зависят от $(item)Кровавого шара$(), вставленного в правый слот интерфейса. $(br2)$(item)Алхимический стол$() используется для создания ряда компонентов $(6)Blood Magic$(), а также предоставляет альтернативные рецепты для некоторых ванильных предметов."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:alchemy_table",
+      "text": "При просмотре рецептов $(item)Алхимического стола$() в этой книге (или в $(thing)JEI$()), наведите курсор на стрелку с надписью \"LP\", чтобы увидеть время, расход $(blood)LP$() и требуемый уровень."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_table/alchemy_table_gui.png"
+      ],
+      "title": "Интерфейс Алхимического стола",
+      "border": true,
+      "text": "Вставлять и извлекать предметы из Алхимического стола можно с помощью этих кнопок."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "У $(item)Алхимического стола$() есть несколько кнопок справа. Это, по порядку: $(bold)D$()own (вниз), $(bold)U$()p (вверх), $(bold)N$()orth (север), $(bold)S$()outh (юг), $(bold)W$()est (запад) и $(bold)E$()ast (восток). Чтобы ими воспользоваться, сначала кликните по любому слоту в Алхимическом столе (здесь для примера выбран центральный слот готового предмета). Затем нажмите одну из этих шести кнопок, чтобы включить или отключить возможность взаимодействия с этим лицом стола через $(item)воронки$(), трубы или другие внешние механизмы. Чтобы вернуть стол к обычному режиму работы,"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "просто снова кликните по слоту, чтобы снять выделение. Значок в слоте показывает, принимает ли он предметы или отдаёт их. В примере на картинке трубы могут забирать предметы только из центрального слота снизу ($(bold)D$()), а попытки извлечь предметы с других сторон не сработают."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_table/alchemy_table_orb_error.png",
+        "bloodmagic:images/entries/alchemy_table/alchemy_table_soul_error.png"
+      ],
+      "title": "Ошибки Алхимического стола",
+      "anchor": "errors",
+      "border": true,
+      "text": "Алхимический стол сообщит вам, если что-то не так."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Две самые частые причины, по которым рецепт не работает в Алхимическом столе: $(li)$(bold)Ошибка шара$(): либо в нужном слоте нет Кровавого шара, либо его уровень недостаточен для этого рецепта. $(li)$(bold)Ошибка Сетевой Души$(): шар подходящего уровня, но либо он не привязан к вам (ПКМ с шаром в руке), либо в вашей Сетевой Душе недостаточно LP. $(br2)На следующих страницах приведены некоторые рецепты, доступные для Алхимического стола."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "Блок травы",
+      "a.recipe": "bloodmagic:alchemytable/grass_block",
+      "b.heading": "Кожа",
+      "b.recipe": "bloodmagic:alchemytable/leather_from_flesh",
+      "c.heading": "Хлеб",
+      "c.recipe": "bloodmagic:alchemytable/bread"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "Глина",
+      "a.recipe": "bloodmagic:alchemytable/clay_from_sand",
+      "b.heading": "Нить",
+      "b.recipe": "bloodmagic:alchemytable/string",
+      "c.heading": "Паутина",
+      "c.recipe": "bloodmagic:alchemytable/cobweb"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "Растительное масло",
+      "a.recipe": "bloodmagic:alchemytable/plantoil_from_wheat",
+      "b.recipe": "bloodmagic:alchemytable/plantoil_from_carrots",
+      "c.recipe": "bloodmagic:alchemytable/plantoil_from_taters"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "Растительное масло (продолжение)",
+      "a.recipe": "bloodmagic:alchemytable/plantoil_from_beets",
+      "b.heading": "Угольный песок",
+      "b.recipe": "bloodmagic:alchemytable/sand_coal",
+      "c.heading": "Взрывчатый порошок",
+      "c.recipe": "bloodmagic:alchemytable/explosive_powder"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_alchemy_table",
+      "a.heading": "Кремень",
+      "a.recipe": "bloodmagic:alchemytable/flint_from_gravel",
+      "b.heading": "Селитра",
+      "b.recipe": "bloodmagic:alchemytable/saltpeter",
+      "c.heading": "Порох",
+      "c.recipe": "bloodmagic:alchemytable/gunpowder"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_alchemy_table",
+      "a.heading": "Ведро лавы",
+      "a.recipe": "bloodmagic:alchemytable/sigil_lava_bucket",
+      "b.heading": "Ведро воды",
+      "b.recipe": "bloodmagic:alchemytable/sigil_water_bucket"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:alchemy_array/sigil/lava)Сигил лавы$() и $(l:bloodmagic:alchemy_array/sigil/water)Сигил воды$() не расходуются в этих рецептах. Более того, $(item)Сигил воды$() можно использовать вместо $(water)ведра воды$() в любом рецепте Алхимического стола."
+    }
+  ]
+}

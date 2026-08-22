@@ -1,0 +1,29 @@
+{
+  "name": "Ритуал Магнетизма",
+  "icon": "minecraft:iron_ore",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал Магнетизма",
+      "multiblock_id": "bloodmagic:magnetism",
+      "text": "Для упрощения постройки используй $(l:bloodmagic:rituals/ritual_diviner)Ритуальный делитель$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "magnetism"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "По умолчанию $()Ритуал Магнетизма$() ищет руды до самого бедрока в радиусе 3 блоков от $(item)Главного ритуального камня$() и собирает их. Радиус можно увеличить, если поместить дорогой блок прямо под ГРК:\n$(br)$(li)$(item)Железный блок$() — 7 блоков.\n$(li)$(item)Золотой блок$() — 15 блоков.\n$(li)$(item)Алмазный блок$() — 31 блок."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "magnetism",
+      "page_type": "placementRange",
+      "text_overrides": [
+        ["ores", "руды"]
+      ]
+    }
+  ]
+}

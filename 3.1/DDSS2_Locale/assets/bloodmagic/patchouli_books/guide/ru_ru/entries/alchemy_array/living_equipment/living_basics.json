@@ -1,0 +1,34 @@
+{
+  "name": "Основы Живого Снаряжения",
+  "icon": "bloodmagic:reagentbinding",
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "extra_recipe_mappings": {
+    "bloodmagic:reagentbinding": 1,
+    "bloodmagic:livinghelmet": 3,
+    "bloodmagic:livingplate": 3,
+    "bloodmagic:livingleggings": 3,
+    "bloodmagic:livingboots": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы создать $(item)Живое снаряжение$(), вам сначала понадобится $(item)Железная броня$(), немного $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Мистического пепла$() и немного $(item)Реагента связывания$(). Также потребуется хотя бы $(br)$(l:bloodmagic:demon_will/will_manipulation/soul_gem)Обычный тартарический самоцвет$(), чтобы хранить необходимую $(item)Демоническую волю$()."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Реагент связывания",
+      "recipe": "bloodmagic:alchemytable/reagent_binding",
+      "text": "$(italic)Он прилипает ко мне крепко...$() $(br2)$(br2)$(item)Живое снаряжение$() по прочности эквивалентно $(item)Алмазной броне$() и может быть отремонтировано в $(thing)наковальне$() с помощью дополнительного $(thing)реагента связывания$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Как и с любым другим Алхимическим кругом, зажмите [$(k:use)], глядя на блок с $(item)Мистическим пеплом$() в руке, затем используйте $(item)Реагент связывания$(). После этого поместите $(item)Железный шлем$(), $(item)Железный нагрудник$(), $(item)Железные поножи$() или $(item)Железные ботинки$(), отойдите и наблюдайте за процессом.$(br2) Живое снаряжение изначально по характеристикам соответствует железу, но у него есть $(thing)Очки улучшения$(), которые можно потратить на развитие снаряжения определённым образом. Изначально их 100, но, возможно, есть способы превзойти это ограничение..."
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "Ритуал Связывания",
+      "recipe": "bloodmagic:array/living_helmet",
+      "text": "Оно действительно живое... и учится у тебя. Будь осторожен, чему ты его учишь.$(br2)Ты можешь следить за тем, чему оно научилось, если будешь держать [$(k:sneak)], когда смотришь на него."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Резонанс Грани Кристалла",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Резонанс Грани Кристалла",
+      "multiblock_id": "bloodmagic:crystal_split",
+      "text": "Для упрощения постройки используй $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный делитель [Сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crystal_split",
+      "text_overrides": [
+        ["Raw crystal cluster", "l:bloodmagic:demon_will/will_manipulation/crystallized_will"],
+        ["aspected crystal clusters", "l:bloodmagic:demon_will/will_manipulation/aspected_will"]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Этот ритуал берёт хорошо выросший (минимум 5 шпилей) $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Кластер сырой воли$(/l), расположенный в 2 блоках над $(item)Главным ритуальным камнем$(), и разделяет его на новые одиночные шпили каждого из $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Кластеров аспектной воли$(/l), которые появляются прямо над 4 элементальными ритуальными камнями. Такое размещение позволяет установить сверху $(item)Демонический кристаллизатор$() на $(item)Главный ритуальный камень$().$(br2)Подробнее о выращивании кристаллов воли демона смотри в разделе $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Сырая воля$(/l)."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Схема ритуала",
+      "images": ["bloodmagic:images/entries/demon_will/will_splitting.png"],
+      "border": true,
+      "text": "Рекомендуемая схема для ритуала Резонанс Грани Кристалла."
+    }
+  ]
+}

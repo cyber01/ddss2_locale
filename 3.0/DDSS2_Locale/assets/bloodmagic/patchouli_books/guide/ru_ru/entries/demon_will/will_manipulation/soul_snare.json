@@ -1,0 +1,27 @@
+{
+  "name": "Твоя первая Воля",
+  "icon": "bloodmagic:soulsnare",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Путы Душ",
+      "recipe": "bloodmagic:altar/soul_snare",
+      "text": "$(item)Путы Душ$() — твой первый шаг к разделу $(l:bloodmagic:demon_will/will_manipulation/demon_will)Демонической Воли$() в моде $(blood)Blood Magic$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Пользоваться $(item)Путами$() очень просто — создай их побольше и бросай в $(thing)враждебных мобов$(). Вокруг них появятся белые частицы — это знак, что пора добивать. После смерти такие мобы дропнут $(l:bloodmagic:demon_will/will_manipulation/demon_will)Демоническую Волю$(). И да, $(italic)Зачарование на Добычу$() увеличит количество выпадающей $(raw)Воли$(). Как только соберёшь немного воли, можешь приступить к созданию $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Разумного Меча$() и $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарического Камня$() — с ними собирать $(l:bloodmagic:demon_will/will_manipulation/demon_will)Демоническую Волю$() станет намного проще."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/snare_particles.png"
+      ],
+      "title": "Путы на скелете",
+      "border": true,
+      "text": "Скелет с белыми частицами после попадания Путами Душ."
+    }
+  ]
+}

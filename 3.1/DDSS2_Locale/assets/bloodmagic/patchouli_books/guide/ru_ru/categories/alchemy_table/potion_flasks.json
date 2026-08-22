@@ -1,0 +1,6 @@
+{
+  "name": "Колбы с зельями",
+  "description": "Существует множество различных эффектов, поэтому для удобства ты попытался отсортировать их по источнику.",
+  "icon": "bloodmagic:alchemy_flask",
+  "parent": "bloodmagic:alchemy_table"
+}

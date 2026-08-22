@@ -1,0 +1,37 @@
+{
+  "name": "Тайны шахтёра",
+  "icon": "bloodmagic:hidden_knowledge_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Тайны шахтёра",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment",
+      "text": "Блоки, которые при добыче дают опыт, будут давать дополнительный опыт при успешной добыче. Даёт +2 ед. опыта за блок. Расходуется при получении дополнительного опыта.$(br2)Подходящие предметы: инструменты, мечи.$(br2)Накладывает: Тайны шахтёра I (256 блоков, дающих опыт)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Тайны шахтёра L",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_l",
+      "text": "Улучшенная версия масла, действует в четыре раза дольше. $(br2)Накладывает: Тайны шахтёра I (1024 блока, дающих опыт)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Тайны шахтёра II",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_2",
+      "text": "Улучшенная версия масла, увеличивает количество дополнительного опыта до +4 за блок. $(br2)Накладывает: Тайны шахтёра II (256 блоков, дающих опыт)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Тайны шахтёра XL",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_xl",
+      "text": "Улучшенная версия масла, действует в шестнадцать раз дольше. $(br2)Накладывает: Тайны шахтёра I (4096 блоков, дающих опыт)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Тайны шахтёра III",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_3",
+      "text": "Улучшенная версия масла, увеличивает количество дополнительного опыта до +6 за блок. $(br2)Накладывает: Тайны шахтёра III (256 блоков, дающих опыт)"
+    }
+  ]
+}

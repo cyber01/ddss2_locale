@@ -1,0 +1,26 @@
+{
+  "name": "Руна увеличенной ёмкости",
+  "icon": "bloodmagic:bettercapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна увеличенной ёмкости$() увеличивает вместимость $(l:bloodmagic:altar/blood_altar)Кровавого Алтаря$(/l) мультипликативно на $(thing)+7,5%$() за каждую руну. Руны увеличенной ёмкости применяются $(o)после$() обычных $(l:bloodmagic:altar/blood_rune/capacity_rune)рун ёмкости$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Руна увеличенной ёмкости",
+      "recipe": "bloodmagic:blood_rune_aug_capacity"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_aug_capacity_2",
+      "text":"Используя немного $(item)Незеритовых обломков$() и $(item)Сложных адских деталей$(), которые можно найти в $(l:bloodmagic:dungeons/endless_realm)Демоническом измерении$(/l), вы сможете удвоить силу вашей $(item)Руны увеличенной ёмкости$(), увеличивая вместимость $(l:bloodmagic:altar/blood_altar)Кровавого Алтаря$(/l) мультипликативно на $(thing)+15%$() за каждую руну."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/aug_capacity",
+      "text":"Если вы передумали, вы можете отменить рецепт в ARC."
+    }
+  ]
+}

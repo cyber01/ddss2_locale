@@ -1,0 +1,54 @@
+{
+  "name": "Бремя Грешника",
+  "icon": "minecraft:dirt",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Бремя Грешника",
+      "multiblock_id": "bloodmagic:grounding",
+      "text": "Для упрощения постройки используй $(l:bloodmagic:rituals/ritual_diviner)Ритуальный делитель$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "grounding"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "raw"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "corrosive",
+      "text": "Ведёт себя схоже с эффектом $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)Подвешенный$()."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "vengeful",
+      "text_overrides": [
+        ["Levitation", "l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "destructive",
+      "text_overrides": [
+        ["Heavy Heart", "l:bloodmagic:alchemy_table/potion_flasks/blood_magic/heavy_heart"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "grounding",
+      "page_type": "groundingRange"
+    }
+  ]
+}

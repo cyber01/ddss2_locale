@@ -1,0 +1,38 @@
+{
+  "name": "Сигил Зелёной Рощи",
+  "icon": "bloodmagic:growthsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Сигил Зелёной Рощи$() — это предмет с множеством применений. Создаётся в Алхимическом круге с помощью $(item)Реагента роста$() и $(item)Укреплённого сланца$(). Сигил использует $(blood)LP$() из вашей $(thing)Сетевой Души$(), чтобы питать и ускорять рост ближайших растений."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент роста",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_growth",
+      "array.heading": "Сигил Зелёной Рощи",
+      "array.recipe": "bloodmagic:array/growthsigil"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/grove_sigil1.png",
+        "bloodmagic:images/entries/sigil/grove_sigil2.png",
+        "bloodmagic:images/entries/sigil/grove_sigil3.png"
+      ],
+      "title": "Круг создания Сигила Зелёной Рощи",
+      "border": true,
+      "text": "Алхимический круг для Сигила Зелёной Рощи и его основные применения."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если нажать [$(k:use)] на блоке, который является $(2)IGrowable$(), будет применён эффект костной муки с расходом $(blood)150 LP$(). $(br2)Однако если зажать [$(k:sneak)] и [$(k:use)], глядя в воздух, сигил активируется (засветится), и будет расходовать $(blood)150 LP$() каждые 5 секунд до деактивации. Каждый блок в области 7×7×5 вокруг игрока получит тик роста. Отлично подходит для фермерства!"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Если у вас установлен $(thing)Curios API$(), вы можете надеть этот $(item)Сигил$() как амулет. Если хотите носить больше амулетов одновременно, используйте $(l:bloodmagic:alchemy_array/sigil/holding)Сигил Хранения$() или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Улучшение с гнёздами$() для вашей $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой брони$()."
+    }
+  ]
+}

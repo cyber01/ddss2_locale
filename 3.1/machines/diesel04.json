@@ -1,0 +1,111 @@
+{
+  "name": "machine.ddss2.diesel04",
+  "appearance": {
+    "block": "custommachinery:machine/diesel04",
+    "running": {
+      "block": "custommachinery:machine/diesel04_anim",
+      "lightlevel": 10
+    }
+  },
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "x": 121,
+      "y": 40,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 236,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+    {
+      "text": "Universal Fluid Generator [T4]",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 190,
+      "y": 20,
+      "type": "custommachinery:energy"
+    },
+    {
+      "x": 47,
+      "y": 20,
+      "type": "custommachinery:fluid",
+      "id": "input2"
+    },
+    {
+      "x": 67,
+      "y": 20,
+      "type": "custommachinery:fluid",
+      "texture": "custommachinery:textures/gui/fluid_boost.png",
+      "id": "input3"
+    },
+    {
+      "type": "custommachinery:reset",
+      "x": 155,
+      "y": 60
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "input2",
+      "capacity": 60000,
+      "filter": [
+        "minecraft:water",
+        "minecraft:lava",
+        "kubejs:molten_boost_t1",
+        "kubejs:molten_boost_t2",
+        "kubejs:molten_boost_t3",
+        "kubejs:molten_boost_t4",
+        "kubejs:molten_boost_t5",
+        "kubejs:molten_boost_t6"
+      ],
+      "type": "custommachinery:fluid"
+    },
+    {
+      "mode": "input",
+      "id": "input3",
+      "capacity": 60000,
+      "filter": [
+        "kubejs:molten_boost_t1",
+        "kubejs:molten_boost_t2",
+        "kubejs:molten_boost_t3",
+        "kubejs:molten_boost_t4",
+        "kubejs:molten_boost_t5",
+        "kubejs:molten_boost_t6"
+      ],
+      "whitelist": true,
+      "type": "custommachinery:fluid"
+    },
+    {
+      "capacity": 1000000,
+      "maxInput": 0,
+      "maxOutput": 250000,
+      "type": "custommachinery:energy"
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15
+    }
+  ],
+  "catalysts": [
+    "custommachinery:diesel02",
+    "custommachinery:diesel03",
+    "custommachinery:diesel05",
+    "custommachinery:diesel06"
+  ]
+}
