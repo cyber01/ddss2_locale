@@ -1,0 +1,73 @@
+{
+    "item.rftoolsbase.network_monitor": "Монитор сети RF",
+    "item.rftoolsbase.teleport_probe": "Зонд телепортации",
+    "item.rftoolsbase.filter_module": "Модуль фильтрации",
+    "item.rftoolsbase.developers_delight": "Угощение разработчика",
+    "item.rftoolsbase.shard_wand": "Жезл осколков",
+    "item.rftoolsbase.orphaning_card": "Карта осиротевания",
+    "item.rftoolsbase.security_card": "Карта безопасности",
+    "item.rftoolsbase.infused_diamond": "Заряженный алмаз",
+    "item.rftoolsbase.infused_enderpearl": "Заряженный эндер-жемчуг",
+    "item.rftoolsbase.smartwrench": "Умный гаечный ключ",
+    "item.rftoolsbase.smartwrench_select": "Умный гаечный ключ (выбор)",
+    "item.rftoolsbase.dimensionalshard": "Измерительный осколок",
+    "item.rftoolsbase.machine_frame": "Каркас механизма",
+    "item.rftoolsbase.machine_base": "Основание механизма",
+    "item.rftoolsbase.crafting_card": "Карта крафта",
+    "item.rftoolsbase.tablet": "Таблетка (пустая)",
+    "item.rftoolsbase.tablet_filled": "Таблетка (заполненная)",
+    "item.rftoolsbase.manual": "Техническое руководство",
+
+    "block.rftoolsbase.machine_infuser": "Инфузор механизмов",
+    "block.rftoolsbase.security_manager": "Менеджер безопасности",
+    "block.rftoolsbase.dimensionalshard_overworld": "Руда измерительных осколков",
+    "block.rftoolsbase.dimensionalshard_nether": "Руда измерительных осколков",
+    "block.rftoolsbase.dimensionalshard_end": "Руда измерительных осколков",
+    "block.rftoolsbase.information_screen": "Информационный экран",
+
+    "_comment": "Creative Tabs",
+    "itemGroup.rftoolsbase": "RFTools Base",
+
+    "_comment": "Keys",
+    "key.categories.rftools": "RFTools",
+    "key.debugDumpNBTItem": "Вывести NBT предмета в руке",
+    "key.debugDumpNBTBlock": "Вывести NBT выбранного блока",
+    "key.nextDestination": "Переключить на следующую цель",
+    "key.prevDestination": "Переключить на предыдущую цель",
+
+    "_comment": "Messages",
+    "message.rftoolsbase.shiftmessage": "<Нажмите Shift>",
+
+    "message.rftoolsbase.crafting_card.header": "Этот предмет можно использовать для крафта. Он хранит ингредиенты и результат рецепта",
+    "message.rftoolsbase.crafting_card.info": "Предмет: ",
+
+    "message.rftoolsbase.information_screen.header": "Установите этот блок на энергоячейку, чтобы отображать информацию о ней. Щёлкните правой кнопкой мыши с гаечным ключом для смены режима",
+    "message.rftoolsbase.information_screen.gold": "Этот блок также может отображать информацию о энергии любого блока, поддерживающего RF/FE",
+
+    "message.rftoolsbase.machine_infuser.header": "С помощью этого механизма вы можете улучшать большинство других машин из RFTools различными способами. Требуются измерительные осколки",
+    "message.rftoolsbase.machine_infuser.gold": "Бонус инфузии: снижено энергопотребление",
+
+    "message.rftoolsbase.filter_module.header": "Этот модуль фильтра используется в различных ситуациях (XNet, хранилище, строитель, автокрафтер и др.). Он позволяет блоку принимать только определённые предметы",
+    "message.rftoolsbase.filter_module.gold": "Крадущийся ПКМ по инвентарю — настроить по содержимому, или крадущийся ПКМ по блоку — добавить этот блок в фильтр",
+    "message.rftoolsbase.filter_module.info": "Режим: ",
+
+    "message.rftoolsbase.manual.header": "Это руководство — мануал для всех технологических модов на базе RFTools",
+
+    "message.rftoolsbase.tablet.header": "Таблетка, которую можно использовать для доступа к удалённым интерфейсам и информации",
+    "message.rftoolsbase.tablet.gold": "Пустая таблетка: откройте интерфейс для объединения с возможным информационным предметом",
+
+    "message.rftoolsbase.tablet_filled.header": "Таблетка, которую можно использовать для доступа к удалённым интерфейсам и информации",
+    "message.rftoolsbase.tablet_filled.gold": "Таблетка с информацией: ПКМ — открыть информационный интерфейс, крадущийся ПКМ — открыть интерфейс таблетки",
+
+    "message.rftoolsbase.smartwrench.header": "Универсальный умный гаечный ключ. ПКМ по воздуху — сменить режим",
+    "message.rftoolsbase.smartwrench.gold": "Используйте как обычный ключ: крадущийся ПКМ — подобрать, ПКМ — повернуть",
+    "message.rftoolsbase.smartwrench.info1": "Режим: ",
+    "message.rftoolsbase.smartwrench.info2": "Блок: ",
+
+    "message.rftoolsbase.smartwrench_select.header": "Универсальный умный гаечный ключ. ПКМ по воздуху — сменить режим",
+    "message.rftoolsbase.smartwrench_select.gold": "Используйте как селектор блоков: крадущийся ПКМ — выбрать главный блок, ПКМ — связать блоки с главным",
+    "message.rftoolsbase.smartwrench_select.info1": "Режим: ",
+    "message.rftoolsbase.smartwrench_select.info2": "Блок: ",
+
+    "message.rftoolsbase.security_manager": "@aСодержимое: %s стаков\n@fЭтот блок управляет вашими картами безопасности"
+}

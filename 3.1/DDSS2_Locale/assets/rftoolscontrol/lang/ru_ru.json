@@ -1,0 +1,106 @@
+{
+  "_comment": "Достижения",
+
+  "_comment": "Предметы",
+  "item.rftoolscontrol.program_card": "Программная карта",
+  "item.rftoolscontrol.cpu_core_500": "Ядро процессора B500",
+  "item.rftoolscontrol.cpu_core_1000": "Ядро процессора S1000",
+  "item.rftoolscontrol.cpu_core_2000": "Ядро процессора EX2000",
+  "item.rftoolscontrol.ram_chip": "Микросхема ОЗУ 8E",
+  "item.rftoolscontrol.network_card": "Сетевая карта",
+  "item.rftoolscontrol.advanced_network_card": "Улучшенная сетевая карта",
+  "item.rftoolscontrol.card_base": "Заготовка карты",
+  "item.rftoolscontrol.variable_module": "Модуль переменных для экрана",
+  "item.rftoolscontrol.interaction_module": "Модуль взаимодействия для экрана",
+  "item.rftoolscontrol.console_module": "Модуль консоли для экрана",
+  "item.rftoolscontrol.vectorart_module": "Модуль векторной графики для экрана",
+  "item.rftoolscontrol.token": "Токен",
+  "item.rftoolscontrol.network_identifier": "Сетевой идентификатор",
+  "item.rftoolscontrol.graphics_card": "Видеокарта",
+  "item.rftoolscontrol.tablet_processor": "Планшет (процессор)",
+
+  "_comment": "Блоки",
+  "block.rftoolscontrol.programmer": "Программатор",
+  "block.rftoolscontrol.processor": "Процессор",
+  "block.rftoolscontrol.craftingstation": "Автоматизированный верстак",
+  "block.rftoolscontrol.node": "Узел",
+  "block.rftoolscontrol.workbench": "Верстак",
+  "block.rftoolscontrol.tank": "Мультибак",
+
+  "_comment": "Творческие вкладки",
+  "itemGroup.rftoolscontrol": "RFTools Control",
+
+  "_comment": "Сообщения",
+
+  "message.rftoolscontrol.shiftmessage": "<Нажмите Shift>",
+
+  "message.rftoolscontrol.token.header": "Этот предмет — простой токен. Он ничего не делает, но может хранить информацию",
+  "message.rftoolscontrol.token.gold": "Этот токен пуст",
+  "message.rftoolscontrol.token.type": "Тип: ",
+  "message.rftoolscontrol.token.value": "Значение: ",
+
+  "message.rftoolscontrol.program_card.header": "Это карта, на которой можно хранить программы. Используйте блок \"Программатор\" для их записи",
+  "message.rftoolscontrol.program_card.name": "Имя: ",
+
+  "message.rftoolscontrol.cpu_core_500.header": "Это ядро процессора необходимо установить в процессор, чтобы запускать программы",
+  "message.rftoolscontrol.cpu_core_500.speed": "Операций за тик: ",
+  "message.rftoolscontrol.cpu_core_500.power": "RF/FE за тик: ",
+
+  "message.rftoolscontrol.cpu_core_1000.header": "Это ядро процессора необходимо установить в процессор, чтобы запускать программы",
+  "message.rftoolscontrol.cpu_core_1000.speed": "Операций за тик: ",
+  "message.rftoolscontrol.cpu_core_1000.power": "RF/FE за тик: ",
+
+  "message.rftoolscontrol.cpu_core_2000.header": "Это ядро процессора необходимо установить в процессор, чтобы запускать программы",
+  "message.rftoolscontrol.cpu_core_2000.speed": "Операций за тик: ",
+  "message.rftoolscontrol.cpu_core_2000.power": "RF/FE за тик: ",
+
+  "message.rftoolscontrol.card_base.header": "Этот предмет — основа для многих предметов и машин из RFTools Control",
+
+  "message.rftoolscontrol.graphics_card.header": "Видеокарта необходима для отображения векторной графики",
+
+  "message.rftoolscontrol.ram_chip.header": "Вставьте этот предмет в процессор, чтобы получить восемь дополнительных переменных (максимум 32)",
+
+  "message.rftoolscontrol.tablet_processor.header": "Планшет, который можно использовать для доступа к удалённым интерфейсам и информации",
+  "message.rftoolscontrol.tablet_processor.gold": "Планшет с информацией: ПКМ — открыть интерфейс процессора, Shift+ПКМ — открыть интерфейс планшета",
+
+  "message.rftoolscontrol.network_card.header": "Вставьте это в процессор для доступа к ближайшим узлам",
+  "message.rftoolscontrol.network_card.gold": "Используйте 'net setup <имя>' в консоли процессора для настройки сети",
+  "message.rftoolscontrol.network_card.range": "Радиус: область 17x17x17",
+  "message.rftoolscontrol.network_card.extra": "",
+
+  "message.rftoolscontrol.advanced_network_card.header": "Вставьте это в процессор для доступа к ближайшим узлам",
+  "message.rftoolscontrol.advanced_network_card.gold": "Используйте 'net setup <имя>' в консоли процессора для настройки сети",
+  "message.rftoolscontrol.advanced_network_card.range": "Радиус: область 31x31x31",
+  "message.rftoolscontrol.advanced_network_card.extra": "Поддерживает межпроцессное взаимодействие",
+
+  "message.rftoolscontrol.network_identifier.header": "Этот предмет позволяет процессору напрямую связываться с другим связанным процессором",
+  "message.rftoolscontrol.network_identifier.gold": "Кликните по процессору с приседанием, чтобы назначить цель для этого модуля",
+  "message.rftoolscontrol.network_identifier.target": "Процессор: ",
+
+  "message.rftoolscontrol.console_module.header": "Модуль для экрана, позволяющий отображать консоль процессора. Также может использоваться в планшете",
+  "message.rftoolscontrol.console_module.gold": "Кликните по процессору с приседанием, чтобы назначить цель для этого модуля",
+  "message.rftoolscontrol.console_module.uses": "Потребление энергии: ",
+  "message.rftoolscontrol.console_module.info": "Процессор: ",
+
+  "message.rftoolscontrol.interaction_module.header": "Модуль для экрана, позволяющий взаимодействовать с процессором",
+  "message.rftoolscontrol.interaction_module.gold": "Кликните по процессору с приседанием, чтобы назначить цель для этого модуля",
+  "message.rftoolscontrol.interaction_module.uses": "Потребление энергии: ",
+  "message.rftoolscontrol.interaction_module.info": "Процессор: ",
+
+  "message.rftoolscontrol.variable_module.header": "Модуль для экрана, позволяющий отображать переменные процессора",
+  "message.rftoolscontrol.variable_module.gold": "Кликните по процессору с приседанием, чтобы назначить цель для этого модуля",
+  "message.rftoolscontrol.variable_module.uses": "Потребление энергии: ",
+  "message.rftoolscontrol.variable_module.info": "Процессор: ",
+
+  "message.rftoolscontrol.vectorart_module.header": "Модуль для экрана, позволяющий отображать векторную графику из процессора",
+  "message.rftoolscontrol.vectorart_module.gold": "Кликните по процессору с приседанием, чтобы назначить цель для этого модуля",
+  "message.rftoolscontrol.vectorart_module.uses": "Потребление энергии: ",
+  "message.rftoolscontrol.vectorart_module.info": "Процессор: ",
+
+  "message.rftoolscontrol.craftingstation.header": "Этот блок помогает в автоматическом крафте для процессора",
+  "message.rftoolscontrol.tank.header": "Это бак, вмещающий до четырёх видов жидкостей. Предназначен для работы с процессором и не может использоваться напрямую",
+  "message.rftoolscontrol.processor.header": "Процессор выполняет программы для автоматизации. Программы должны быть записаны на программной карте с помощью блока \"Программатор\"",
+  "message.rftoolscontrol.programmer.header": "Используйте этот блок для создания программ на программной карте для процессора",
+  "message.rftoolscontrol.node.header": "Этот узел может быть доступен удалённо процессором с установленной сетевой картой",
+  "message.rftoolscontrol.workbench.header": "Обычный верстак, который хорошо работает с процессором, но может использоваться и отдельно"
+}

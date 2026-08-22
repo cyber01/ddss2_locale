@@ -1,0 +1,32 @@
+{
+	"translator_comment": "Над переводом работал: Slava_vas (MPLOCmods)",
+  "item.pamhc2fantasy.slimejellytoastitem": "Тост с слизневым желе",
+  "item.pamhc2fantasy.slimejellyitem": "Слизневое желе",
+  "item.pamhc2fantasy.slimejuiceitem": "Слизневый сок",
+  "item.pamhc2fantasy.slimepieitem": "Слизневый пирог",
+  "item.pamhc2fantasy.slimeyogurtitem": "Слизневый йогурт",
+  "item.pamhc2fantasy.slimecakeitem": "Слизневый торт",
+  "item.pamhc2fantasy.slimesmoothieitem": "Слизневый смузи",
+  "item.pamhc2fantasy.slimepopsicleitem": "Слизневое мороженое на палочке",
+  "item.pamhc2fantasy.slimedonutitem": "Слизневый пончик",
+  "item.pamhc2fantasy.slimemuffinitem": "Слизневый кекс",
+  "item.pamhc2fantasy.slimeicecreamitem": "Слизневое мороженое",
+  "item.pamhc2fantasy.slimesoupitem": "Слизневый суп",
+
+  "item.pamhc2fantasy.rottenjerkyitem": "Гнилое вяленое мясо",
+  "item.pamhc2fantasy.rottenburgeritem": "Гнилой бургер",
+  "item.pamhc2fantasy.rottennoodlesoupitem": "Гнилой лапшичный суп",
+  "item.pamhc2fantasy.rottenpotpieitem": "Гнилой мясной пирог",
+
+  "item.pamhc2fantasy.applegelatinitem": "Яблочное желе",
+  "item.pamhc2fantasy.chorusgelatinitem": "Желе из хоруса",
+  "item.pamhc2fantasy.glowberrygelatinitem": "Желе из светящихся ягод",
+  "item.pamhc2fantasy.melongelatinitem": "Арбузное желе",
+  "item.pamhc2fantasy.sweetberrygelatinitem": "Желе из сладких ягод",
+  "item.pamhc2fantasy.slimegelatinitem": "Слизневое желе",
+
+  "item.pamhc2fantasy.friedspidereyeitem": "Жареный глаз паука",
+  "item.pamhc2fantasy.spidereyesoupitem": "Суп из глаза паука",
+
+  "itemGroup.pamhc2fantasy": "Pam's HarvestCraft 2 - Fantasy"
+}

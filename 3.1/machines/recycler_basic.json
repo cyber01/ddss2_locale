@@ -1,0 +1,199 @@
+{
+  "name": "machine.ddss2.recycler_basic",
+  "appearance": {
+    "block": "custommachinery:machine/recycler_basic",
+    "running": {
+      "block": "custommachinery:machine/recy02_anim",
+      "lightlevel": 10
+    }
+  },
+  "gui": [
+    {
+      "texture": "custommachinery:textures/gui/base_background.png",
+      "x": 0,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 80,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "id": "input1",
+      "x": 101,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output1",
+      "x": 172,
+      "y": 20,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output2",
+      "x": 190,
+      "y": 20,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output3",
+      "x": 172,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output4",
+      "x": 190,
+      "y": 38,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output5",
+      "x": 172,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output6",
+      "x": 190,
+      "y": 56,
+      "type": "custommachinery:slot"
+    },
+    {
+      "x": 133,
+      "y": 39,
+      "type": "custommachinery:progress"
+    },
+    {
+      "x": 236,
+      "y": 5,
+      "type": "custommachinery:status"
+    },
+    {
+      "text": "Basic Recycler [T2]",
+      "x": 7,
+      "y": 5,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 47,
+      "y": 20,
+      "type": "custommachinery:energy"
+    },
+    {
+      "id": "upgrade1",
+      "x": 27,
+      "y": 20,
+      "item": "mekanism:upgrade_speed",
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "upgrade2",
+      "x": 27,
+      "y": 38,
+      "item": "mekanism:upgrade_energy",
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "upgrade3",
+      "x": 27,
+      "y": 56,
+      "item": "kubejs:chance_upgrade",
+      "type": "custommachinery:slot"
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "input1",
+      "filter": [
+        "#forge:modular_circuits",
+        "#forge:boosting_mixtures",
+        "#forge:utils/molds",
+        "#forge:custom_upgrades"
+      ],
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output1",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output2",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output3",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output4",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output5",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output6",
+      "type": "custommachinery:item"
+    },
+    {
+      "capacity": 100000,
+      "maxOutput": 0,
+      "type": "custommachinery:energy"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade1",
+      "filter": [
+        "mekanism:upgrade_speed"
+      ],
+      "whitelist": true,
+      "mode": "input",
+      "capacity": 4,
+      "variant": "custommachinery:upgrade"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade2",
+      "filter": [
+        "mekanism:upgrade_energy"
+      ],
+      "whitelist": true,
+      "mode": "input",
+      "capacity": 4,
+      "variant": "custommachinery:upgrade"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "upgrade3",
+      "filter": [
+        "kubejs:chance_upgrade"
+      ],
+      "whitelist": true,
+      "mode": "input",
+      "capacity": 4,
+      "variant": "custommachinery:upgrade"
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15
+    }
+  ],
+  "catalysts": [
+    "custommachinery:recycler_steam",
+    "custommachinery:recycler_adv",
+    "custommachinery:recycler_ultra",
+    "custommachinery:recycler_master",
+    "custommachinery:recycler_fusion"
+  ]
+}

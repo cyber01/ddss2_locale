@@ -1,0 +1,11 @@
+{
+  "enchantment.grapple_hooks.pull_speed": "Скорость подтягивания",
+  "enchantment.grapple_hooks.rope_distance": "Длина верёвки",
+  "item.grapple_hooks.hook_diamond": "Алмазный крюк",
+  "item.grapple_hooks.hook_golden": "Золотой крюк",
+  "item.grapple_hooks.hook_iridium": "Иридиевый крюк",
+  "item.grapple_hooks.hook_iron": "Железный крюк",
+  "item.grapple_hooks.hook_stone": "Каменный крюк",
+  "item.grapple_hooks.hook_wooden": "Деревянный крюк",
+  "itemGroup.grapple_hooks": "Крюки-кошки"
+}
